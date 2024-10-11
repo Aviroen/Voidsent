@@ -1,0 +1,10 @@
+{
+  "Name": "Voidsent SMAPI Component",
+  "Author": "Aviroen",
+  "Version": "1.0.0",
+  "Description": "C# component for Voidsent Expansion",
+  "UniqueID": "Aviroen.VS",
+  "EntryDll": "Voidsent.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": ["Nexus:???"]
+}

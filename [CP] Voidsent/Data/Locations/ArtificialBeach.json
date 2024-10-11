@@ -1,0 +1,265 @@
+{
+
+  "Changes": [
+    {
+      "LogName": "TileSheet Loads",
+      "Action": "Load",
+      "Target": "Maps/EdelFurn, Maps/WompWomp",
+      "FromFile": "Assets/TileSheets/{{TargetWithoutPath}}.png"
+    },
+    { //load edel's house
+      "LogName": "Load Edel's Locations",
+      "Action": "Load",
+      "Priority": "Low",
+      "Target": "Maps/{{ModId}}_EdelweissHouse",
+      "FromFile": "assets/Maps/Edelweiss/EdelweissHouse.tmx"
+    },
+    { //load edel's house clean
+      "LogName": "Load Edel's Room Cleaned",
+      "Action": "EditMap",
+      "Priority": "Late",
+      "When": { "Relationship:EdelweissSeung": "Married" },
+      "Target": "Maps/{{ModId}}_EdelweissHouse",
+      "FromFile": "assets/Maps/Edelweiss/EdelweissHouseClean.tmx"
+    },
+    { //load edel's attic
+      "LogName": "Load Edel's Attic",
+      "Action": "Load",
+      "Priority": "Low",
+      "Target": "Maps/{{ModId}}_EdelweissAttic",
+      "FromFile": "assets/Maps/Edelweiss/EdelweissAttic.tmx"
+    },
+    { //load edel's basement
+      "LogName": "Load Edel's Basement",
+      "Action": "Load",
+      "Priority": "Low",
+      "Target": "Maps/{{ModId}}_EdelweissBasement",
+      "FromFile": "assets/Maps/Edelweiss/EdelweissBasement.tmx"
+    },
+    { //load the artificial beach
+      "LogName": "Load Artificial Beach",
+      "Action": "Load",
+      "Priority": "Low",
+      "Target": "Maps/{{ModId}}_ArtificialBeach",
+      "FromFile": "assets/Maps/Edelweiss/ArtificialBeach.tmx"
+    },
+    { //load the artificial beach wiped
+      "LogName": "Load Artificial Beach Wiped",
+      "Action": "EditMap",
+      "Priority": "Late",
+      "When": { "HasFlag": "EdelweissWiped" },
+      "Target": "Maps/{{ModId}}_ArtificialBeach",
+      "FromFile": "assets/Maps/Edelweiss/ArtificialBeachWiped.tmx"
+    },
+    { //load spouse room
+      "Action": "Load",
+      "Target": "Maps/{{ModId}}_EdelweissSpouseRoom",
+      "When": { "SpouseRoom": "Furnished" },
+      "FromFile": "assets/Maps/Edelweiss/EdelweissSpouseRoom.tmx" //change warp in door
+    },
+    { //load spouse room
+      "Action": "Load",
+      "Target": "Maps/{{ModId}}_EdelweissSpouseRoom",
+      "When": { "SpouseRoom": "Unfurnished" },
+      "FromFile": "assets/Maps/Edelweiss/EdelweissSpouseNoFurniture.tmx" //change warp in door
+    },
+    { //load spouse patio
+      "Action": "Load",
+      "Target": "Data/{{ModId}}_EdelweissPatio",
+      "FromFile": "assets/Maps/Edelweiss/EdelweissPatio.tmx"
+    },
+    {
+      "LogName": "Edel's maps",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "{{ModId}}_ArtificialBeach": {
+          "DisplayName": "Artificial Beach",
+          "DefaultArrivalTile": {
+            "X": 7,
+            "Y": 28
+          },
+          "CreateOnLoad": {
+            "MapPath": "Maps\\{{ModId}}_ArtificialBeach",
+            "AlwaysActive": false
+          },
+          "Fish": [
+            {
+              "Id": "Pufferfish",
+              "ItemID": "(O)128",
+              "Chance": 0.05,
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+            },
+            {
+              "Id": "Blobfish",
+              "ItemID": "(O)800",
+              "Chance": 0.03,
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+            },
+            {
+              "Id": "Tilapia",
+              "ItemID": "(O)701",
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+            }
+          ],
+          "MusicDefault": "Overcast"
+        },
+        "{{ModId}}_EdelweissHouse": {
+          "DisplayName": "Edelweiss' Tower",
+          "DefaultArrivalTile": {
+            "X": 5,
+            "Y": 23
+          },
+          "CreateOnLoad": {
+            "MapPath": "Maps\\{{ModId}}_EdelweissHouse",
+            "AlwaysActive": false
+          },
+          "MusicDefault": "Of Dwarves"
+        },
+        "{{ModId}}_EdelweissAttic": {
+          "DisplayName": "Edelweiss' Attic",
+          "DefaultArrivalTile": {
+            "X": 2,
+            "Y": 8
+          },
+          "CreateOnLoad": {
+            "MapPath": "Maps\\{{ModId}}_EdelweissAttic",
+            "AlwaysActive": false
+          },
+          "MusicDefault": "Plums"
+        },
+        "{{ModId}}_EdelweissBasement": {
+          "DisplayName": "Edelweiss' Basement",
+          "DefaultArrivalTile": {
+            "X": 18,
+            "Y": 4
+          },
+          "CreateOnLoad": {
+            "MapPath": "Maps\\{{ModId}}_EdelweissBasement",
+            "AlwaysActive": false
+          },
+          "MusicDefault": "Plums"
+        }
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_ArtificialBeach",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 27,
+            "Y": 20
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "OpenShop {{ModId}}_ShadyArtificialShack"
+          }
+        },
+        {
+          "Position": {
+            "X": 29,
+            "Y": 13
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Dialogue EdelGrave"
+            //"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_GraveTouched"
+          }
+        },
+        {
+          "Position": {
+            "X": 10,
+            "Y": 25
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 20 4 Beach"
+          }
+        },
+        {
+          "Position": {
+            "X": 8,
+            "Y": 9
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 10 17 WizardHouse"
+          }
+        },
+        {
+          "Position": {
+            "X": 23,
+            "Y": 12
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 5 23 {{ModId}}_EdelweissHouse"
+          }
+        }
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_EdelweissHouse",
+      "AddWarps": [
+        "5 24 {{ModId}}_ArtificialBeach 23 13"
+      ],
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 12,
+            "Y": 3
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 2 9 {{ModId}}_EdelweissAttic 600 2600 EdelweissSeung 2500"
+          }
+        },
+        {
+          "Position": {
+            "X": 27,
+            "Y": 4
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 2 9 {{ModId}}_EdelweissBasement 600 2600 EdelweissSeung 2500"
+          }
+        },
+        {
+          "Position": {
+            "X": 11,
+            "Y": 17
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Door EdelweissSeung"
+          }
+        }
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_EdelweissAttic",
+      "AddWarps": [
+        "2 9 {{ModId}}_EdelweissHouse 12 4"
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_EdelweissBasement",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 18,
+            "Y": 3
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 27 4 {{ModId}}_EdelweissHouse"
+          }
+        }
+      ]
+    }
+  ]
+}

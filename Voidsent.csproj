@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<LangVersion>latest</LangVersion>
+		<ModFolderName>Voidsent</ModFolderName>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Compile Remove="[CP] Voidsent\**" />
+	  <Compile Remove="[FTM] Voidsent\**" />
+	  <EmbeddedResource Remove="[CP] Voidsent\**" />
+	  <EmbeddedResource Remove="[FTM] Voidsent\**" />
+	  <None Remove="[CP] Voidsent\**" />
+	  <None Remove="[FTM] Voidsent\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ContentPacks Include="D:\source\repos\VoidsentSMAPI\[CP] Voidsent" Version="1.0.0" />
+		<ContentPacks Include="D:\source\repos\VoidsentSMAPI\[FTM] Voidsent" Version="1.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.3.0" />
+	</ItemGroup>
+
+
+	<ProjectExtensions>
+		<VisualStudio>
+			<UserProperties manifest_1json__JsonSchema="" />
+		</VisualStudio>
+	</ProjectExtensions>
+
+</Project>

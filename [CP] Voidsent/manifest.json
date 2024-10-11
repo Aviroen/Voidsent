@@ -1,0 +1,27 @@
+{
+  "Name": "Voidsent",
+  "Author": "Aviroen",
+  "Version": "1.0.0",
+  "Description": "Stardew Expansion with heavy lore and Dragons and Dungeons motifs.",
+  "UniqueID": "Aviroen.Voidsent",
+  "UpdateKeys": [ "Nexus:26053" ],
+  "Dependencies": [
+/*
+    {
+      "UniqueID": "spacechase0.SpaceCore",
+      "IsRequired": true
+    },
+  */
+    {
+      "UniqueID": "Aviroen.VS",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "Aviroen.VSFTM",
+      "IsRequired": true
+    }
+  ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
