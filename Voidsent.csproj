@@ -26,6 +26,10 @@
 		<PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.3.0" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="Assets\Sprites\" />
+	</ItemGroup>
+
 
 	<ProjectExtensions>
 		<VisualStudio>
