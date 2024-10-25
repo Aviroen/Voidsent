@@ -1,0 +1,37 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_WarpTotem": {
+                    "Name": "Warp Totem: Artificial Beach",
+                    "DisplayName": "{{i18n:Edelweiss.Warp.Totem}}",
+                    "Description": "{{i18n:Edelweiss.Warp.Totem.Description}}",
+                    "Type": "Crafting",
+                    "Category": 0,
+                    "Price": 20,
+                    "Texture": "Mods\\{{ModId}}\\{{ModId}}_WarpTotem",
+                    "SpriteIndex": 0,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buffs": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "CanBeGivenAsGift": false,
+                    "CanBeTrashed": true,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "color_purple",
+                        "not_placeable",
+                        "totem_item"
+                    ],
+                    "CustomFields": null
+                }
+            }
+        }
+    ]
+}

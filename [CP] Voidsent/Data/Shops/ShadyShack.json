@@ -1,0 +1,106 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "{{ModId}}_ShadyArtificialShack": {
+                    "Currency": 0,
+                    "StackSizeVisibility": null,
+                    "OpenSound": "openChest",
+                    "PurchaseSound": "purchaseClick",
+                    "PurchaseRepeatSound": "purchaseRepeat",
+                    "PriceModifiers": null,
+                    "PriceModifierMode": "Stack",
+                    "Owners": [
+                        {
+                            "Portrait": null,
+                            "Dialogues": [
+                                {
+                                    "Id": "{{ModId}}_ShadyArtificialShack",
+                                    "Condition": null,
+                                    "RandomDialogue": [
+                                        "{{i18n:ShadyArtificialShack1}}",
+                                        "{{i18n:ShadyArtificialShack2}}",
+                                        "{{i18n:ShadyArtificialShack3}}",
+                                        "{{i18n:ShadyArtificialShack4}}",
+                                        "{{i18n:ShadyArtificialShack5}}",
+                                        "{{i18n:ShadyArtificialShack6}}",
+                                        "{{i18n:ShadyArtificialShack7}}",
+                                        "{{i18n:ShadyArtificialShack8}}",
+                                        "{{i18n:ShadyArtificialShack9}}",
+                                        "{{i18n:ShadyArtificialShack10}}"
+                                    ]
+                                }
+                            ],
+                            "Name": "AnyOrNone"
+                        }
+                    ],
+                    "VisualTheme": null,
+                    "SalableItemTags": null,
+                    "Items": [
+                        {
+                            "Price": 2250,
+                            "AvailableStock": -1,
+                            "AvailableStockLimit": "Global",
+                            "Id": "{{ModId}}_WarpTotem",
+                            "ItemId": "{{ModId}}_WarpTotem"
+                        },
+                        {
+                            "Price": 12250,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Id": "{{ModId}}_WarpTotemRecipe",
+                            "ItemId": "{{ModId}}_WarpTotem",
+                            "IsRecipe": true
+                        },
+                        {
+                            "Price": 12250,
+                            "AvailableStock": 10,
+                            "AvailableStockLimit": "Global",
+                            "Id": "(O)681",
+                            "ItemId": "(O)681"
+                        },
+                        {
+                            "Price": 12250,
+                            "AvailableStock": 10,
+                            "AvailableStockLimit": "Global",
+                            "Id": "(O)749",
+                            "ItemId": "(O)749"
+                        },
+                        {
+                            "Price": 12250,
+                            "AvailableStock": 10,
+                            "AvailableStockLimit": "Global",
+                            "Id": "(O)787",
+                            "ItemId": "(O)787"
+                        },
+                        {
+                            "Price": 12250,
+                            "AvailableStock": 10,
+                            "AvailableStockLimit": "Global",
+                            "Id": "(O)773",
+                            "ItemId": "(O)773"
+                        },
+                        {
+                            "Price": 12250,
+                            "AvailableStock": 10,
+                            "AvailableStockLimit": "Global",
+                            "Id": "(O)349",
+                            "ItemId": "(O)349"
+                        },
+                        {
+                            "Price": 12250,
+                            "AvailableStock": 10,
+                            "AvailableStockLimit": "Global",
+                            "Id": "(O)351",
+                            "ItemId": "(O)351"
+                        }
+                    ],
+                    "CustomFields": null,
+                    "ApplyProfitMargins": null
+                }
+            }
+        }
+    ]
+}

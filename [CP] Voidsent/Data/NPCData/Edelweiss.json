@@ -1,0 +1,634 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData", //this is assumed you've already loaded a blank.json into data/characters/[npcname]
+            "Target": "Data/Characters",
+            "Entries": {
+                "{{Edelweiss}}": { //unique id of the npc, must be used when referecing the npc at all
+                    "DisplayName": "", //translation capability
+                    "BirthSeason": "Fall",
+                    "BirthDay": 3,
+                    "HomeRegion": "Other", //town / desert / other
+                    "Language": "Default", //default or dwarvish
+                    "Gender": "Undefined", //male, female, undefined (undefined gets auto-sorted as female)
+                    "Age": "Adult", //child, teen, adult changes reactions from stringsfromcsfiles
+                    "Manner": "Rude", //polite, neutral, rude changes stringsfromcsfiles
+                    "SocialAnxiety": "Shy", //outgoing, neutral, shy changes stringsfromcsfiles
+                    "Optimism": "Negative", //positive, neutral, negative changes stringsfromcsfiles
+                    "IsDarkSkinned": false, //determines for children
+                    "CanBeRomanced": true, //checks to see if a bouquet can be gifted to this npc
+                    "LoveInterest": null, //sort of flavor text
+                    "Calendar": "HiddenUntilMet", //shows their birthday on the calendar, alwaysshown, hiddenuntilmet, unknownuntilmet, hidden
+                    "SocialTab": "HiddenUntilMet", //shows them on the social tab, alwaysshown, hiddenuntilmet, unknownuntilmet, hidden
+                    "CanSocialize": null,
+                    "CanReceiveGifts": true, //whether this npc is antisocial or not
+                    "CanGreetNearbyCharacters": true, //reacts to townspeople when they pass by
+                    "CanCommentOnPurchasedShopItems": null, //needs i18n or dialogue strings to react to farmer's purchase if true
+                    "CanVisitIsland": null,
+                    "IntroductionsQuest": false, //sets if this npc is included into the intro quest of introducing yourself to everyone
+                    "ItemDeliveryQuests": null, //sets if this npc gets put on the bulletin board for randomly generated quests
+                    "PerfectionScore": false, //checks if this npc is required for perfection for friendship
+                    "EndSlideShow": "TrailingGroup", //shows this npc following behind in perfection cutscene
+                    "SpouseAdopts": null,
+                    "SpouseWantsChildren": true, //game state query-able about the npc will want children at all
+                    "SpouseGiftJealousy": null, //specific gendered jealousy male-male female-female about this npc whether you gift nonbirthday/quest/festival
+                    "SpouseGiftJealousyFriendshipChange": -30, //friendship loss or gain for jealousy gifting of above
+                    "SpouseRoom": { //the square in the farmhouse that gets dedicated to this npc
+                        "MapAsset": null,
+                        "MapSourceRect": {
+                            "X": 0, //this is if you're wanting to move it to a different spot in the farmhouse
+                            "Y": 0,
+                            "Width": 6, //the custom spouse tmx width
+                            "Height": 9 //custom spouse room tmx height
+                        }
+                    },
+                    "SpousePatio": { //this is the spot outdoors on the farm where the spouse sits if they don't have a schedule for the day
+                        "MapAsset": null,
+                        "MapSourceRect": {
+                            "X": 0, //this is for if you want it to be someplace different on the farm
+                            "Y": 0,
+                            "Width": 4, //this is the width of the plot on the farm
+                            "Height": 4 //this is the height of the plot on the farm
+                        },
+                        "SpriteAnimationFrames": [ //this is the animation that loops when your custom npc is standing on their spousepatio, [frame, miliseconds]
+                            [ 16, 1500 ],
+                            [ 17, 1500 ],
+                            [ 18, 1500 ],
+                            [ 19, 1500 ],
+                            [ 18, 1500 ],
+                            [ 19, 1500 ],
+                            [ 18, 1500 ],
+                            [ 17, 1500 ],
+                            [ 16, 1500 ],
+                            [ 0, 2500 ],
+                            [ 32, 1500 ],
+                            [ 33, 500 ],
+                            [ 34, 1500 ],
+                            [ 35, 1500 ],
+                            [ 32, 1500 ],
+                            [ 32, 1500 ],
+                            [ 33, 500 ],
+                            [ 34, 1500 ],
+                            [ 35, 1500 ],
+                            [ 32, 1500 ],
+                            [ 0, 3500 ],
+                            [ 52, 1500 ],
+                            [ 53, 2500 ],
+                            [ 52, 1500 ],
+                            [ 53, 2500 ],
+                            [ 52, 1500 ],
+                            [ 53, 2500 ],
+                            [ 52, 1500 ],
+                            [ 53, 2500 ],
+                            [ 52, 1500 ],
+                            [ 53, 2500 ],
+                            [ 52, 1500 ],
+                            [ 53, 2500 ],
+                            [ 52, 1500 ],
+                            [ 53, 2500 ],
+                            [ 52, 1500 ],
+                            [ 53, 2500 ]
+                        ],
+                        "SpriteAnimationPixelOffset": { //this is if your npc is slightly odd shaped, like taller than normal, or shorter than normal
+                            "X": 0,
+                            "Y": 0
+                        }
+                    },
+                    "SpouseFloors": [], //this is the subset of floors that the npc will plaster in the farmhouse
+                    "SpouseWallpapers": [], //this is the subset of wallpapers that the npc will plaster in the farmhouse
+                    "DumpsterDiveFriendshipEffect": -5, //whether the npc loses friendship with you if they catch you digging in the trash
+                    "DumpsterDiveEmote": null, //the emote above their head when they catch you digging in the trash
+                    "FriendsAndFamily": { //whether any other npcs are related
+                        "Wizard": "{{i18n:Teacher}}", //i18n is the default.json used for translations
+                        "Aviroen": "{{i18n:Colleague}}"
+                    },
+                    "FlowerDanceCanDance": null, //sets if the npc will dance at the flower festival on spring 24
+                    "WinterStarGifts": [], //items that this npc can gift during the winter star festival https://stardewvalleywiki.com/Modding:Item_queries#Item_spawn_fields
+                    "WinterStarParticipant": null,
+                    "UnlockConditions": "PLAYER_HAS_MAIL Current EdelweissWarp any",
+                    "SpawnIfMissing": true, //forcibly spawns the npc if they're stuck
+                    "Home": [ //sets the npc's spawn point
+                        {
+                            "Id": "Default", //the default of where they spawn
+                            "Condition": null, //game state query-able condition if they change homes
+                            "Location": null,
+                            "Tile": {
+                                "X": 26, //x position where the npc idles
+                                "Y": 19 //y position where the npc idles
+                            },
+                            "Direction": "right" //direction that they face while idling
+                        }
+                    ],
+                    "TextureName": null,
+                    "Appearance": null, //new appearance system, highly customizable, see: Outfits.json
+                    "MugShotSourceRect": null, //change the position of their headshot in the calendar/map/etc if they're shorter/taller than normal
+                    "Size": {
+                        "X": 16, //this is for how wide each character sprite is
+                        "Y": 32 //this is for how tall each character sprite is
+                    },
+                    "Breather": true, //whether this places the breathing animation over the npc
+                    "BreathChestRect": null, //changeable if you want to enlarge/shrink the breathing animation
+                    "BreathChestPosition": null, //changeable if the npc is taller/shorter than normal
+                    "Shadow": null, //changeable to visible, offset, or scale / visible is default true whether null or not, offset to offset the shadow, scale to enlarge/shrink
+                    "EmoteOffset": { //whether to offset the emote bubble over the npc or not
+                        "X": 0,
+                        "Y": 0
+                    },
+                    "ShakePortraits": [ 15 ], //the index of the portraits/npc to shake during dialogue, will always trigger
+                    "KissSpriteIndex": 39, //whether this npc has a kissing or hugging sprite, reminder that characters/npc and portraits/npc starts at 0
+                    "KissSpriteFacingRight": false, //whether the sprite is facing to the right
+                    "HiddenProfileEmoteSound": "newRecipe",
+                    "HiddenProfileEmoteDuration": 4000, //how long the animation will run in miliseconds
+                    "HiddenProfileEmoteStartFrame": 32, //whichever sprite index the frame is on
+                    "HiddenProfileEmoteFrameCount": 2, //how many frames the sprite index will go through, going left to right
+                    "HiddenProfileEmoteFrameDuration": 200.0, //how long each frame will last measured in miliseconds
+                    "FormerCharacterNames": [], //used for older saves if the npc has changed names and must be globally unique
+                    "CustomFields": null //custom fields is used for c# implementation
+                }
+            }
+        },
+        //////////////////////////////////////////////////////////////////////////////////////////////////
+        {
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "EdelweissSeung": "{{i18n:Gifts.Loved}}/96 97 98 99 104 109 114 121 122 124 125 MysticSyrup MysticTreeSeed/{{i18n:Gifts.Liked}}/198 202 212 213 214 218 219 225 226 227 228 242 265 727 728 730 732 873 904 905 906 907 921 FlashShifter.StardewValleyExpandedCP_Void_Salmon_Sushi FlashShifter.StardewValleyExpandedCP_Frog_Legs category_flowers/{{i18n:Gifts.Disliked}}/78 259 256 685 769/{{i18n:Gifts.Hated}}/889 909 910 Moss 203 209 306 307 308 FlashShifter.StardewValleyExpandedCP_Void_Soul FlashShifter.StardewValleyExpandedCP_Void_Shard FlashShifter.StardewValleyExpandedCP_Void_Pebble FlashShifter.StardewValleyExpandedCP_Swirl_Stone category_junk/{{i18n:Gifts.Neutral}}/334 335 336 337 338 378 380 382 384 386 388 390 394 FlashShifter.StardewValleyExpandedCP_Void_Root FlashShifter.StardewValleyExpandedCP_Void_Delight FlashShifter.StardewValleyExpandedCP_Slime_Berry FlashShifter.StardewValleyExpandedCP_Poison_Mushroom FlashShifter.StardewValleyExpandedCP_Monster_Mushroom FlashShifter.StardewValleyExpandedCP_Monster_Fruit category_trinket/"
+            }
+        },
+        //////////////////////////////////////////////////////////////////////////////////////////////////
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "When": {
+                "PlayerGender": "Male"
+            },
+            "Fields": {
+                "{{Edelweiss}}": {
+                    "Gender": "Female"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "When": {
+                "PlayerGender": "Female"
+            },
+            "Fields": {
+                "{{Edelweiss}}": {
+                    "Gender": "Male"
+                }
+            }
+        },
+        //////////////////////////////////////////////////////////////////////////////////////////////////
+        {
+            "Action": "EditData",
+            "Target": "Data/ConcessionTastes",
+            "Entries": {
+                "EdelweissSeung": {
+                    "Name": "Edelweiss",
+                    "LovedTags": [
+                        "Apple Slices",
+                        "Cappuccino Mousse Cake",
+                        "Hummus Snack Pack",
+                        "Ice Cream Sandwich",
+                        "Jasmine Tea",
+                        "Salmon Burger",
+                        "Stardrop Sorbet"
+                    ],
+                    "LikedTags": [
+                        "Truffle Popcorn",
+                        "Star Cookie",
+                        "Sour Slimes",
+                        "Salted Peanuts"
+                    ],
+                    "DislikedTags": [
+                        "Black Licorice",
+                        "Jawbreaker",
+                        "Joja Cola",
+                        "JojaCorn",
+                        "Kale Smoothie"
+                    ]
+                }
+            }
+        },
+        //////////////////////////////////////////////////////////////////////////////////////////////////
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromCSFiles",
+            "Entries": {
+                "{{Edelweiss}}_Engaged": "{{i18n:Edelengaged_0}}#$action AddMail Current EdelMarried received", //proposal
+                "{{Edelweiss}}_AfterWedding": "{{i18n:Edelaftermarry_{{Random:{{Range: 0, 5}}}}}}#$action AddMail Current EdelMarried all"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "26053Books": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+                "26053Kitchen": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}",
+                "EdelweissCoat": "{{i18n:EdelweissCoat}}",
+                "EdelHouse.1": "{{i18n:EdelHouse.1}}", //bottle shelf
+                "EdelHouse.2": "{{i18n:EdelHouse.2}}", //kitchen dresser
+                "EdelHouse.3": "{{i18n:EdelHouse.3}}", //apothecary table
+                "EdelHouse.4": "{{i18n:EdelHouse.4}}", //apothecary table
+                "EdelHouse.5": "{{i18n:EdelHouse.5}}", //anvil
+                "EdelHouse.6": "{{i18n:EdelHouse.6}}", //anvil
+                "EdelHouse.7": "{{i18n:EdelHouse.7}}", //apothecary table
+                "EdelHouse.8": "{{i18n:EdelHouse.8}}", //apothecary table
+                "EdelHouse.9": "{{i18n:EdelHouse.9}}", //apothecary table
+                "EdelHouse.10": "{{i18n:EdelHouse.10}}", //magic circle
+                "EdelHouse.11": "{{i18n:EdelHouse.11}}", //furnace
+                "EdelHouse.12": "{{i18n:EdelHouse.12}}", //fireplace
+                "EdelHouse.13": "{{i18n:EdelHouse.13}}", //axe
+                "EdelHouse.14": "{{i18n:EdelHouse.14}}", //kitchen plant
+                "EdelHouse.15": "{{i18n:EdelHouse.15}}", //fridge
+                "EdelHouse.16": "{{i18n:EdelHouse.16}}", //stove
+                "26053TV": "{{i18n:26053TV_{{Random:{{Range: 0, 5}}}}}}", //tv
+                "EdelHouse.18": "{{i18n:EdelHouse.18}}", //computertower
+                "EdelHouse.19": "{{i18n:EdelHouse.19}}", //radio
+                "EdelHouse.20": "{{i18n:EdelHouse.20}}", //radio
+                "EdelHouse.21": "{{i18n:EdelHouse.21}}", //nighstand
+                "EdelHouse.22": "{{i18n:EdelHouse.22}}", //floorpc
+                "EdelHouse.23": "{{i18n:EdelHouse.23}}", //laptop
+                "EdelHouse.24": "{{i18n:EdelHouse.24}}", //radiotable
+                "EdelHouse.25": "{{i18n:EdelHouse.25}}", //lilradio
+                "EdelHouse.26": "{{i18n:EdelHouse.26}}", //junimohut
+                "EdelGoat": "{{i18n:EdelGoat}}", //attic goat
+                "EdelBear": "{{i18n:EdelBear}}", //attic bear
+                "EdelJewel": "{{i18n:EdelJewel}}", //attic jewel
+                "EdelJunimo": "{{i18n:EdelJunimo}}", //attic junimo
+                "EdelGrave": "{{i18n:EdelGrave}} #$action AddMail Current EdelGrave received" //wait for 1.6.9
+            }
+        },
+        //////////////////////////////////////////////////////////////////////////////////////////////////
+        {
+            "LogName": "Edel's' Schedule",
+            "Action": "EditData",
+            "Target": "Characters/schedules/{{Edelweiss}}",
+            "Entries": {
+                "spring": "610 {{ModId}}_EdelweissHouse 18 4 edel_sleepyleft \"Strings\\schedules\\{{Edelweiss}}:Spring_Sleepy.1\"/900 {{ModId}}_EdelweissHouse 19 17 0 \"Strings\\schedules\\{{Edelweiss}}:Spring_Sleepy.2\"/1200 {{ModId}}_EdelweissHouse 28 22 edel_hammer \"Strings\\schedules\\{{Edelweiss}}:Spring_Hammer.1\"/1500 {{ModId}}_EdelweissHouse 26 19 edel_alchemy \"Strings\\schedules\\{{Edelweiss}}:Spring_Alchemy.1\"/1800 {{ModId}}_EdelweissHouse 5 5 edel_read \"Strings\\schedules\\{{Edelweiss}}:Spring_Reading.1\"/2100 {{ModId}}_EdelweissHouse 7 15 1 \"Strings\\schedules\\{{Edelweiss}}:Spring_Reading.2\"/2400 {{ModId}}_EdelweissHouse 18 4 edel_sleepyright \"Strings\\schedules\\{{Edelweiss}}:Spring_Sleepy.3\"/2600 {{ModId}}_EdelweissHouse 20 3 edel_sleep",
+                "summer": "610 {{ModId}}_EdelweissHouse 18 4 edel_sleepyleft \"Strings\\schedules\\{{Edelweiss}}:Summer_Sleepy.1\"/1200 {{ModId}}_EdelweissHouse 19 17 0 \"Strings\\schedules\\{{Edelweiss}}:Summer_Sleepy.2\"/1400 {{ModId}}_EdelweissHouse 28 22 edel_hammer \"Strings\\schedules\\{{Edelweiss}}:Summer_Hammer.1\"/1500 {{ModId}}_EdelweissHouse 26 19 edel_alchemy \"Strings\\schedules\\{{Edelweiss}}:Summer_Alchemy.1\"/1800 {{ModId}}_EdelweissHouse 5 5 edel_read \"Strings\\schedules\\{{Edelweiss}}:Summer_Reading.1\"/2000 {{ModId}}_EdelweissHouse 7 15 1 \"Strings\\schedules\\{{Edelweiss}}:Summer_Reading.2\"/2200 {{ModId}}_EdelweissHouse 18 4 edel_sleepyright \"Strings\\schedules\\{{Edelweiss}}:Summer_Sleepy.3\"/2300 {{ModId}}_EdelweissHouse 20 3 edel_sleep",
+                "fall": "610 {{ModId}}_EdelweissHouse 18 4 edel_sleepyleft \"Strings\\schedules\\{{Edelweiss}}:Fall_Sleepy.1\"/1000 {{ModId}}_EdelweissHouse 19 17 0 \"Strings\\schedules\\{{Edelweiss}}:Fall_Sleepy.2\"/1100 {{ModId}}_EdelweissHouse 28 22 edel_hammer \"Strings\\schedules\\{{Edelweiss}}:Fall_Hammer.1\"/1500 {{ModId}}_EdelweissHouse 26 19 edel_alchemy \"Strings\\schedules\\{{Edelweiss}}:Fall_Alchemy.1\"/1800 {{ModId}}_EdelweissHouse 5 5 edel_read \"Strings\\schedules\\{{Edelweiss}}:Fall_Reading.1\"/2000 {{ModId}}_EdelweissHouse 7 15 1 \"Strings\\schedules\\{{Edelweiss}}:Fall_Reading.2\"/2400 {{ModId}}_EdelweissHouse 18 4 edel_sleepyright \"Strings\\schedules\\{{Edelweiss}}:Fall_Sleepy.3\"/2600 {{ModId}}_EdelweissHouse 20 3 edel_sleep",
+                "winter": "610 {{ModId}}_EdelweissHouse 18 4 edel_sleepyleft \"Strings\\schedules\\{{Edelweiss}}:Winter_Sleepy.1\"/700 {{ModId}}_EdelweissHouse 19 17 0 \"Strings\\schedules\\{{Edelweiss}}:Winter_Sleepy.2\"/900 {{ModId}}_EdelweissHouse 28 22 edel_hammer \"Strings\\schedules\\{{Edelweiss}}:Winter_Hammer.1\"/1200 {{ModId}}_EdelweissHouse 26 19 edel_alchemy \"Strings\\schedules\\{{Edelweiss}}:Winter_Alchemy.1\"/1500 {{ModId}}_EdelweissHouse 5 5 edel_read \"Strings\\schedules\\{{Edelweiss}}:Winter_Reading.1\"/2000 {{ModId}}_EdelweissHouse 7 15 1 \"Strings\\schedules\\{{Edelweiss}}:Winter_Reading.2\"/2400 {{ModId}}_EdelweissHouse 18 4 edel_sleepyright \"Strings\\schedules\\{{Edelweiss}}:Winter_Sleepy.3\"/2600 {{ModId}}_EdelweissHouse 20 3 edel_sleep",
+                "rain": "610 {{ModId}}_EdelweissHouse 28 22 edel_hammer \"Strings\\schedules\\{{Edelweiss}}:Rain_1\"/1800 {{ModId}}_EdelweissHouse 5 5 0 \"Strings\\schedules\\{{Edelweiss}}:Rain_2\"/2200 {{ModId}}_ArtificialBeach 5 16 3 \"Strings\\schedules\\{{Edelweiss}}:Rain_3\"/2600 {{ModId}}_EdelweissHouse 20 3 edel_sleep",
+                "rain2": "610 {{ModId}}_EdelweissHouse 28 22 edel_hammer \"Strings\\schedules\\{{Edelweiss}}:Rain_4\"/2000 {{ModId}}_EdelweissHouse 5 5 0 \"Strings\\schedules\\{{Edelweiss}}:Rain_5\"/2300 {{ModId}}_ArtificialBeach 5 16 3 \"Strings\\schedules\\{{Edelweiss}}:Rain_6\"/2600 {{ModId}}_EdelweissHouse 20 3 edel_sleep",
+                "fall_18": "610 {{ModId}}_ArtificialBeach 28 14 edel_meditate \"Strings\\schedules\\{{Edelweiss}}:Fall_18.Meditate\"/1800 {{ModId}}_EdelweissHouse 18 17 0 \"Strings\\schedules\\{{Edelweiss}}:Fall_18.Kitchen\"/2000 {{ModId}}_EdelweissHouse 20 3 edel_sleep",
+                "marriage_Mon": "1200 {{ModId}}_EdelweissHouse 28 22 edel_hammer \"Strings\\schedules\\{{Edelweiss}}:Married.Hammer\"/2600 bed",
+                "marriage_Tue": "1200 {{ModId}}_EdelweissHouse 26 19 edel_alchemy \"Strings\\schedules\\{{Edelweiss}}:Married.Alchemy\"/2600 bed",
+                "marriage_Wed": "1200 {{ModId}}_EdelweissHouse 5 5 edel_read \"Strings\\schedules\\{{Edelweiss}}:Married.Read\"/2600 bed",
+                "marriage_Thu": "",
+                "marriage_Fri": "",
+                "marriage_Sat": "",
+                "marriage_Sun": ""
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/schedules/EdelweissSeung",
+            "Entries": {
+                //spring
+                "EdelweissSeung:Spring_Sleepy.1": "{{i18n:EdelweissSeung:Spring_Sleepy.1_0}}",
+                "EdelweissSeung:Spring_Sleepy.2": "{{i18n:EdelweissSeung:Spring_Sleepy.2_0}}",
+                "EdelweissSeung:Spring_Sleepy.3": "{{i18n:EdelweissSeung:Spring_Sleepy.3_0}}",
+                "EdelweissSeung:Spring_Hammer.1": "{{i18n:EdelweissSeung:Spring_Hammer.1_0}}",
+                "EdelweissSeung:Spring_Alchemy.1": "{{i18n:EdelweissSeung:Spring_Alchemy.1_0}}",
+                "EdelweissSeung:Spring_Reading.1": "{{i18n:EdelweissSeung:Spring_Reading.1_0}}",
+                "EdelweissSeung:Spring_Reading.2": "{{i18n:EdelweissSeung:Spring_Reading.2_0}}",
+                //summer
+                "EdelweissSeung:Summer_Sleepy.1": "{{i18n:EdelweissSeung:Summer_Sleepy.1_0}}",
+                "EdelweissSeung:Summer_Sleepy.2": "{{i18n:EdelweissSeung:Summer_Sleepy.2_0}}",
+                "EdelweissSeung:Summer_Sleepy.3": "{{i18n:EdelweissSeung:Summer_Sleepy.3_0}}",
+                "EdelweissSeung:Summer_Hammer.1": "{{i18n:EdelweissSeung:Summer_Hammer.1_0}}",
+                "EdelweissSeung:Summer_Alchemy.1": "{{i18n:EdelweissSeung:Summer_Alchemy.1_0}}",
+                "EdelweissSeung:Summer_Reading.1": "{{i18n:EdelweissSeung:Summer_Reading.1_0}}",
+                "EdelweissSeung:Summer_Reading.2": "{{i18n:EdelweissSeung:Summer_Reading.2_0}}",
+                //fall
+                "EdelweissSeung:Fall_Sleepy.1": "{{i18n:EdelweissSeung:Fall_Sleepy.1_0}}",
+                "EdelweissSeung:Fall_Sleepy.2": "{{i18n:EdelweissSeung:Fall_Sleepy.2_0}}",
+                "EdelweissSeung:Fall_Sleepy.3": "{{i18n:EdelweissSeung:Fall_Sleepy.3_0}}",
+                "EdelweissSeung:Fall_Hammer.1": "{{i18n:EdelweissSeung:Fall_Hammer.1_0}}",
+                "EdelweissSeung:Fall_Alchemy.1": "{{i18n:EdelweissSeung:Fall_Alchemy.1_0}}",
+                "EdelweissSeung:Fall_Reading.1": "{{i18n:EdelweissSeung:Fall_Reading.1_0}}",
+                "EdelweissSeung:Fall_Reading.2": "{{i18n:EdelweissSeung:Fall_Reading.2_0}}",
+                //winter
+                "EdelweissSeung:Winter_Sleepy.1": "{{i18n:EdelweissSeung:Winter_Sleepy.1_0}}",
+                "EdelweissSeung:Winter_Sleepy.2": "{{i18n:EdelweissSeung:Winter_Sleepy.2_0}}",
+                "EdelweissSeung:Winter_Sleepy.3": "{{i18n:EdelweissSeung:Winter_Sleepy.3_0}}",
+                "EdelweissSeung:Winter_Hammer.1": "{{i18n:EdelweissSeung:Winter_Hammer.1_0}}",
+                "EdelweissSeung:Winter_Alchemy.1": "{{i18n:EdelweissSeung:Winter_Alchemy.1_0}}",
+                "EdelweissSeung:Winter_Reading.1": "{{i18n:EdelweissSeung:Winter_Reading.1_0}}",
+                "EdelweissSeung:Winter_Reading.2": "{{i18n:EdelweissSeung:Winter_Reading.2_0}}",
+                //rain
+                "EdelweissSeung:Rain_1": "{{i18n:EdelweissSeung:Rain_1_0}}",
+                "EdelweissSeung:Rain_2": "{{i18n:EdelweissSeung:Rain_2_0}}",
+                "EdelweissSeung:Rain_3": "{{i18n:EdelweissSeung:Rain_3_0}}",
+                "EdelweissSeung:Rain_4": "{{i18n:EdelweissSeung:Rain_4_0}}",
+                "EdelweissSeung:Rain_5": "{{i18n:EdelweissSeung:Rain_5_0}}",
+                "EdelweissSeung:Rain_6": "{{i18n:EdelweissSeung:Rain_6_0}}",
+                //fall18
+                "EdelweissSeung:Fall_18.Meditate": "{{i18n:Fall.18.Edel.Meditate}}",
+                "EdelweissSeung:Fall_18.Kitchen": "{{i18n:Fall.18.Edel.Kitchen}}",
+                //marriage
+                "EdelweissSeung:Married.Hammer": "{{i18n:EdelweissSeung:Married.Hammer_{{Random:{{Range: 0, 10}}}}}}",
+                "EdelweissSeung:Married.Alchemy": "{{i18n:EdelweissSeung:Married.Alchemy_{{Random:{{Range: 0, 10}}}}}}",
+                "EdelweissSeung:Married.Read": "{{i18n:EdelweissSeung:Married.Read_{{Random:{{Range: 0, 10}}}}}}"
+            }
+        },
+        //////////////////////////////////////////////////////////////////////////////////////////////////
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/{{Edelweiss}}",
+            "Entries": {
+                "{{ModId}}_GraveBad": "{{i18n:GraveBad}}",
+                "{{ModId}}_GraveBad2": "{{i18n:GraveBad2}}",
+                //green rain
+                "GreenRain": "{{i18n:GreenRain_{{Random:{{Range: 0, 3}}}}}}",
+                "GreenRainFinished": "{{i18n:GreenRainFinished_{{Random:{{Range: 0, 3}}}}}}",
+                //movie
+                "MovieInvitation": "{{i18n:MovieInvitation_{{Random:{{Range: 0, 3}}}}}}",
+                "RejectMovieTicket_AlreadyInvitedBySomeoneElse": "{{i18n:RejectMovieTicket_AlreadyInvitedBySomeoneElse}}",
+                "RejectMovieTicket_AlreadyWatchedThisWeek": "{{i18n:RejectMovieTicket_AlreadyWatchedThisWeek}}",
+                "RejectMovieTicket_Divorced": "{{i18n:RejectMovieTicket_Divorced}}",
+                "RejectMovieTicket_DontWantToSeeThatMovie": "{{i18n:RejectMovieTicket_DontWantToSeeThatMovie}}",
+                "RejectMovieTicket": "{{i18n:RejectMovieTicket}}",
+                //dating
+                "breakUp": "{{i18n:breakUp_{{Random:{{Range: 0, 3}}}}}}",
+                "dating_{{Edelweiss}}_memory_oneyear": "{{i18n:Dating_1_Year_{{Random:{{Range: 0, 3}}}}}}",
+                "RejectBouquet_NotDatable": "{{i18n:RejectBouquet_NotDatable}}",
+                "RejectBouquet_NpcAlreadyMarried": "{{i18n:RejectBouquet_NpcAlreadyMarried}}",
+                "RejectBouquet_VeryLowHearts": "{{i18n:RejectBouquet_VeryLowHearts}}",
+                "RejectBouquet_LowHearts": "{{i18n:RejectBouquet_LowHearts}}",
+                "RejectBouquet": "{{i18n:RejectBouquet}}",
+                //marriage
+                "SpouseFarmhouseClutter": "{{i18n:SpouseFarmhouseClutter}}",
+                "Spouse_MonstersInHouse": "{{i18n:Spouse_MonstersInHouse}}",
+                "SpouseStardrop": "{{i18n:SpouseStardrop}}",
+                "RejectMermaidPendant_NeedHouseUpgrade": "{{i18n:RejectMermaidPendant_NeedHouseUpgrade}}",
+                "RejectMermaidPendant_NotDatable": "{{i18n:RejectMermaidPendant_NotDatable}}",
+                "RejectMermaidPendant_NpcWithSomeoneElse": "{{i18n:RejectMermaidPendant_NpcWithSomeoneElse}}",
+                "RejectMermaidPendant_PlayerWithSomeoneElse": "{{i18n:RejectMermaidPendant_PlayerWithSomeoneElse}}",
+                "RejectMermaidPendant_Under8Hearts": "{{i18n:RejectMermaidPendant_Under8Hearts}}",
+                "RejectMermaidPendant_Under10Hearts": "{{i18n:RejectMermaidPendant_Under10Hearts}}",
+                "RejectMermaidPendant_Under10Hearts_AskedAgain": "{{i18n:RejectMermaidPendant_Under10Hearts_AskedAgain}}",
+                "RejectMermaidPendant": "{{i18n:RejectMermaidPendant}}",
+                //divorced
+                "divorced": "{{i18n:divorced_{{Random:{{Range: 0, 10}}}}}}#$action AddMail Current EdelDivorced received",
+                "RejectGift_Divorced": "{{i18n:RejectGift_Divorced}}",
+                "RejectMermaidPendant_Divorced": "{{i18n:RejectMermaidPendant_Divorced}}",
+                "RejectBouquet_Divorced": "{{i18n:RejectBouquet_Divorced}}",
+                "WipedMemory": "{{i18n:WipedMemory_{{Random:{{Range: 0, 10}}}}}}#$action AddMail Current EdelWipe received",
+                //island
+                "Resort": "{{i18n:Resort_{{Random:{{Range: 0, 3}}}}}}",
+                "Resort_Bar": "{{i18n:Resort_Bar_{{Random:{{Range: 0, 3}}}}}}",
+                "Resort_Chair": "{{i18n:Resort_Chair_{{Random:{{Range: 0, 3}}}}}}",
+                "Resort_Dance": "{{i18n:Resort_Dance_{{Random:{{Range: 0, 3}}}}}}",
+                "Resort_Entering": "{{i18n:Resort_Entering_{{Random:{{Range: 0, 3}}}}}}",
+                "Resort_Leaving": "{{i18n:Resort_Leaving_{{Random:{{Range: 0, 3}}}}}}",
+                "Resort_Shore": "{{i18n:Resort_Shore_{{Random:{{Range: 0, 3}}}}}}",
+                "Resort_Towel": "{{i18n:Resort_Towel_{{Random:{{Range: 0, 3}}}}}}",
+                "Resort_Umbrella": "{{i18n:Resort_Umbrella_{{Random:{{Range: 0, 3}}}}}}",
+                "Resort_Wander": "{{i18n:Resort_Wander_{{Random:{{Range: 0, 3}}}}}}",
+                //birthday
+                "AcceptBirthdayGift_Negative": "{{i18n:AcceptBirthdayGift_Negative}}",
+                "AcceptBirthdayGift_Positive": "{{i18n:AcceptBirthdayGift_Positive}}",
+                "AcceptBirthdayGift": "{{i18n:AcceptBirthdayGift}}",
+                //dating dating
+                "AcceptBouquet": "{{i18n:AcceptBouquet}}",
+                //trashcan
+                "DumpsterDiveComment": "{{i18n:DumpsterDiveComment}}",
+                //slingshot
+                "HitBySlingshot": "{{i18n:HitBySlingshot}}",
+
+                ////////////////////////////////////////////////seasonals
+                //spring
+                "spring_Mon": "{{i18n:spring_Mon_{{Random:{{Range: 0, 3}}}}}}",
+                "spring_Tue": "{{i18n:spring_Tue_{{Random:{{Range: 0, 3}}}}}}",
+                "spring_Wed": "{{i18n:spring_Wed_{{Random:{{Range: 0, 3}}}}}}",
+                "spring_Thu": "{{i18n:spring_Thu_{{Random:{{Range: 0, 3}}}}}}",
+                "spring_Fri": "{{i18n:spring_Fri_{{Random:{{Range: 0, 3}}}}}}",
+                "spring_Sat": "{{i18n:spring_Sat_{{Random:{{Range: 0, 3}}}}}}",
+                "spring_Sun": "{{i18n:spring_Sun_{{Random:{{Range: 0, 3}}}}}}",
+                //flower festival
+                "FlowerDance_Accept_Spouse": "{{i18n:FlowerDance_Accept_Spouse}}",
+                "FlowerDance_Accept": "{{i18n:FlowerDance_Accept}}",
+                "FlowerDance_Decline": "{{i18n:FlowerDance_Decline}}",
+                //summer
+                "summer_Mon": "{{i18n:summer_Mon_{{Random:{{Range: 0, 3}}}}}}",
+                "summer_Tue": "{{i18n:summer_Tue_{{Random:{{Range: 0, 3}}}}}}",
+                "summer_Wed": "{{i18n:summer_Wed_{{Random:{{Range: 0, 3}}}}}}",
+                "summer_Thu": "{{i18n:summer_Thu_{{Random:{{Range: 0, 3}}}}}}",
+                "summer_Fri": "{{i18n:summer_Fri_{{Random:{{Range: 0, 3}}}}}}",
+                "summer_Sat": "{{i18n:summer_Sat_{{Random:{{Range: 0, 3}}}}}}",
+                "summer_Sun": "{{i18n:summer_Sun_{{Random:{{Range: 0, 3}}}}}}",
+                //fall
+                "fall_Mon": "{{i18n:fall_Mon_{{Random:{{Range: 0, 3}}}}}}",
+                "fall_Tue": "{{i18n:fall_Tue_{{Random:{{Range: 0, 3}}}}}}",
+                "fall_Wed": "{{i18n:fall_Wed_{{Random:{{Range: 0, 3}}}}}}",
+                "fall_Thu": "{{i18n:fall_Thu_{{Random:{{Range: 0, 3}}}}}}",
+                "fall_Fri": "{{i18n:fall_Fri_{{Random:{{Range: 0, 3}}}}}}",
+                "fall_Sat": "{{i18n:fall_Sat_{{Random:{{Range: 0, 3}}}}}}",
+                "fall_Sun": "{{i18n:fall_Sun_{{Random:{{Range: 0, 3}}}}}}",
+                //fair
+                "Fair_Judging": "{{i18n:Fair_Judging}}",
+                "Fair_Judged_PlayerLost_PurpleShorts": "{{i18n:Fair_Judged_PlayerLost_PurpleShorts}}",
+                "Fair_Judged_PlayerLost_Skipped": "{{i18n:Fair_Judged_PlayerLost_Skipped}}",
+                "Fair_Judged_PlayerLost": "{{i18n:Fair_Judged_PlayerLost}}",
+                "Fair_Judged_PlayerWon": "{{i18n:Fair_Judged_PlayerWon}}",
+                "Fair_Judged": "{{i18n:Fair_Judged}}",
+                //winter
+                "winter_Mon": "{{i18n:winter_Mon_{{Random:{{Range: 0, 3}}}}}}",
+                "winter_Tue": "{{i18n:winter_Tue_{{Random:{{Range: 0, 3}}}}}}",
+                "winter_Wed": "{{i18n:winter_Wed_{{Random:{{Range: 0, 3}}}}}}",
+                "winter_Thu": "{{i18n:winter_Thu_{{Random:{{Range: 0, 3}}}}}}",
+                "winter_Fri": "{{i18n:winter_Fri_{{Random:{{Range: 0, 3}}}}}}",
+                "winter_Sat": "{{i18n:winter_Sat_{{Random:{{Range: 0, 3}}}}}}",
+                "winter_Sun": "{{i18n:winter_Sun_{{Random:{{Range: 0, 3}}}}}}",
+                //winter star
+                "WinterStar_GiveGift_Before_Spouse": "{{i18n:WinterStar_GiveGift_Before_Spouse}}",
+                "WinterStar_GiveGift_Before": "{{i18n:WinterStar_GiveGift_Before}}",
+                "WinterStar_GiveGift_After_Spouse": "{{i18n:WinterStar_GiveGift_After_Spouse}}",
+                "WinterStar_GiveGift_After": "{{i18n:WinterStar_GiveGift_After}}",
+                "WinterStar_ReceiveGift": "{{i18n:WinterStar_ReceiveGift}}",
+
+                //////////////////////////////////////////////////accept gifts
+                "AcceptGift_(O)96": "{{i18n:AcceptGift_(O)96}}",
+                "AcceptGift_(O)97": "{{i18n:AcceptGift_(O)97}}",
+                "AcceptGift_(O)98": "{{i18n:AcceptGift_(O)98}}",
+                "AcceptGift_(O)99": "{{i18n:AcceptGift_(O)99}}",
+                "AcceptGift_(O)104": "{{i18n:AcceptGift_(O)104}}",
+                "AcceptGift_(O)109": "{{i18n:AcceptGift_(O)109}}",
+                "AcceptGift_(O)114": "{{i18n:AcceptGift_(O)114}}",
+                "AcceptGift_(O)121": "{{i18n:AcceptGift_(O)121}}",
+                "AcceptGift_(O)122": "{{i18n:AcceptGift_(O)122}}",
+                "AcceptGift_(O)124": "{{i18n:AcceptGift_(O)124}}",
+                "AcceptGift_(O)125": "{{i18n:AcceptGift_(O)125}}",
+                "AcceptGift_(O)MysticTreeSeed": "{{i18n:AcceptGift_(O)MysticTreeSeed}}",
+                "AcceptGift_(O)MysticSyrup": "{{i18n:AcceptGift_(O)MysticSyrup}}",
+                "AcceptGift_(O)StardropTea": "{{i18n:AcceptGift_(O)StardropTea}}",
+                "AcceptGift_(O)PurpleBook": "{{i18n:AcceptGift_(O)PurpleBook}}",
+                "AcceptGift_(O)SkillBook_0": "{{i18n:AcceptGift_(O)SkillBook_0}}",
+                "AcceptGift_(O)SkillBook_1": "{{i18n:AcceptGift_(O)SkillBook_1}}",
+                "AcceptGift_(O)SkullBook_2": "{{i18n:AcceptGift_(O)SkullBook_2}}",
+                "AcceptGift_(O)SkullBook_3": "{{i18n:AcceptGift_(O)SkullBook_3}}",
+                "AcceptGift_(O)SkullBook_4": "{{i18n:AcceptGift_(O)SkullBook_4}}",
+                "AcceptGift_(O)Book_Trash": "{{i18n:AcceptGift_(O)Book_Trash}}",
+                "AcceptGift_(O)Book_Crabbing": "{{i18n:AcceptGift_(O)Book_Crabbing}}",
+                "AcceptGift_(O)Boob_Bombs": "{{i18n:AcceptGift_(O)Boob_Bombs}}",
+                "AcceptGift_(O)Book_Roe": "{{i18n:AcceptGift_(O)Book_Roe}}",
+                "AcceptGift_(O)Book_WildSeeds": "{{i18n:AcceptGift_(O)Book_WildSeeds}}",
+                "AcceptGift_(O)Book_Woodcutting": "{{i18n:AcceptGift_(O)Book_Woodcutting}}",
+                "AcceptGift_(O)Book_Defense": "{{i18n:AcceptGift_(O)Book_Defense}}",
+                "AcceptGift_(O)Book_Friendship": "{{i18n:AcceptGift_(O)Book_Friendship}}",
+                "AcceptGift_(O)Book_Void": "{{i18n:AcceptGift_(O)Book_Void}}",
+                "AcceptGift_(O)Book_Speed": "{{i18n:AcceptGift_(O)Book_Speed}}",
+                "AcceptGift_(O)Book_Marlon": "{{i18n:AcceptGift_(O)Book_Marlon}}",
+                "AcceptGift_(O)Book_PriceCatalogue": "{{i18n:AcceptGift_(O)Book_PriceCatalogue}}",
+                "AcceptGift_(O)Book_QueenOfSauce": "{{i18n:AcceptGift_(O)Book_QueenOfSauce}}",
+                "AcceptGift_(O)Book_Diamonds": "{{i18n:AcceptGift_(O)Book_Diamonds}}",
+                "AcceptGift_(O)Book_Mystery": "{{i18n:AcceptGift_(O)Book_Mystery}}",
+                "AcceptGift_(O)Book_AnimalCatalogue": "{{i18n:AcceptGift_(O)Book_AnimalCatalogue}}",
+                "AcceptGift_(O)Book_Speed2": "{{i18n:AcceptGift_(O)Book_Speed2}}",
+                "AcceptGift_(O)Book_Artifact": "{{i18n:AcceptGift_(O)Book_Artifact}}",
+                "AcceptGift_(O)Book_Horse": "{{i18n:AcceptGift_(O)Book_Horse}}",
+                "AcceptGift_(O)Book_Grass": "{{i18n:AcceptGift_(O)Book_Grass}}",
+                //////////////////////////////////////////////////reject gifts
+                "RejectGift_(O)FarAwayStone": "{{i18n:RejectGift_(O)FarAwayStone}}",
+                "RejectGift_(O)CalicoEgg": "{{i18n:RejectGift_(O)CalicoEgg}}",
+                "RejectGift_(O)MixedFlowerSeeds": "{{i18n:RejectGift_(O)MixedFlowerSeeds}}",
+                "RejectGift_(O)GoldenBobber": "{{i18n:RejectGift_(O)GoldenBobber}}",
+                "RejectGift_(O)DeluxeBait": "{{i18n:RejectGift_(O)DeluxeBait}}",
+                "RejectGift_(O)Moss": "{{i18n:RejectGift_(O)Moss}}",
+                "RejectGift_(O)MossySeed": "{{i18n:RejectGift_(O)MossySeed}}",
+                "RejectGift_(O)SonarBobber": "{{i18n:RejectGift_(O)SonarBobber}}",
+                "RejectGift_(O)SpecificBait": "{{i18n:RejectGift_(O)SpecificBait}}",
+                "RejectGift_(O)Raisins": "{{i18n:RejectGift_(O)Raisins}}",
+                "RejectGift_(O)DriedFruit": "{{i18n:RejectGift_(O)DriedFruit}}",
+                "RejectGift_(O)DriedMushrooms": "{{i18n:RejectGift_(O)DriedMushrooms}}",
+                "RejectGift_(O)PrizeTicket": "{{i18n:RejectGift_(O)PrizeTicket}}",
+                "RejectGift_(O)TreasureTotem": "{{i18n:RejectGift_(O)TreasureTotem}}",
+                "RejectGift_(O)ChallengeBait": "{{i18n:RejectGift_(O)ChallengeBait}}",
+                "RejectGift_(O)CarrotSeeds": "{{i18n:RejectGift_(O)CarrotSeeds}}",
+                "RejectGift_(O)Carrot": "{{i18n:RejectGift_(O)Carrot}}",
+                "RejectGift_(O)SummerSquashSeeds": "{{i18n:RejectGift_(O)SummerSquashSeeds}}",
+                "RejectGift_(O)SummerSquash": "{{i18n:RejectGift_(O)SummerSquash}}",
+                "RejectGift_(O)BroccoliSeeds": "{{i18n:RejectGift_(O)BroccoliSeeds}}",
+                "RejectGift_(O)Broccoli": "{{i18n:RejectGift_(O)Broccoli}}",
+                "RejectGift_(O)PowdermelonSeeds": "{{i18n:RejectGift_(O)PowdermelonSeeds}}",
+                "RejectGift_(O)Powdermelon": "{{i18n:RejectGift_(O)Powdermelon}}",
+                "RejectGift_(O)SmokedFish": "{{i18n:RejectGift_(O)SmokedFish}}",
+                "RejectGift_(O)GoldenAnimalCracker": "{{i18n:RejectGift_(O)GoldenAnimalCracker}}",
+                "RejectGift_(O)GoldenMysteryBox": "{{i18n:RejectGift_(O)GoldenMysteryBox}}",
+                "RejectGift_(O)SeaJelly": "{{i18n:RejectGift_(O)SeaJelly}}",
+                "RejectGift_(O)CaveJelly": "{{i18n:RejectGift_(O)CaveJelly}}",
+                "RejectGift_(O)RiverJelly": "{{i18n:RejectGift_(O)RiverJelly}}",
+                "RejectGift_(O)ButterflyPowder": "{{i18n:RejectGift_(O)ButterflyPowder}}",
+                "RejectGift_(O)MossSoup": "{{i18n:RejectGift_(O)MossSoup}}"
+            }
+        },
+        //////////////////////////////////////////////////////////////////////////////////////////////////
+        {
+            "LogName": "Engaged Dialogue",
+            "Action": "EditData",
+            "Target": "data/EngagementDialogue",
+            "Entries": {
+                "{{Edelweiss}}0": "{{i18n:Engagement0During_{{Random:{{Range: 0, 3}}}}}}#$action AddMail Current EdelMarried all",
+                "{{Edelweiss}}1": "{{i18n:Engagement1During_{{Random:{{Range: 0, 3}}}}}}#$action AddMail Current EdelMarried all"
+            }
+        },
+        {
+            "LogName": "Marriage Dialogue - Base",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MarriageDialogue{{Edelweiss}}",
+            "Entries": {
+                "Spring_{{Edelweiss}}": "{{i18n:Spring_{{Random:{{Range: 0, 3}}}}}}",
+                "Summer_{{Edelweiss}}": "{{i18n:Summer_{{Random:{{Range: 0, 3}}}}}}",
+                "Fall_{{Edelweiss}}": "{{i18n:Fall_{{Random:{{Range: 0, 3}}}}}}",
+                "Winter_{{Edelweiss}}": "{{i18n:Winter_{{Random:{{Range: 0, 3}}}}}}",
+                "patio_{{Edelweiss}}": "{{i18n:patio_{{Random:{{Range: 0, 3}}}}}}",
+                "Rainy_Day_0": "{{i18n:Rainy_Day_0}}",
+                "Rainy_Day_1": "{{i18n:Rainy_Day_1}}",
+                "Rainy_Day_2": "{{i18n:Rainy_Day_2}}",
+                "Rainy_Day_3": "{{i18n:Rainy_Day_3}}",
+                "Rainy_Day_4": "{{i18n:Rainy_Day_4}}",
+                "Rainy_Day_5": "{{i18n:Rainy_Day_5}}",
+                "Indoor_Day_0": "{{i18n:Indoor_Day_0}}",
+                "Indoor_Day_1": "{{i18n:Indoor_Day_1}}",
+                "Indoor_Day_2": "{{i18n:Indoor_Day_2}}",
+                "Indoor_Day_3": "{{i18n:Indoor_Day_3}}",
+                "Indoor_Day_4": "{{i18n:Indoor_Day_4}}",
+                "Indoor_Day_5": "{{i18n:Indoor_Day_5}}",
+                "Rainy_Night_0": "{{i18n:Rainy_Night_0}}",
+                "Rainy_Night_1": "{{i18n:Rainy_Night_1}}",
+                "Rainy_Night_2": "{{i18n:Rainy_Night_2}}",
+                "Rainy_Night_3": "{{i18n:Rainy_Night_3}}",
+                "Rainy_Night_4": "{{i18n:Rainy_Night_4}}",
+                "Rainy_Night_5": "{{i18n:Rainy_Night_5}}",
+                "Indoor_Night_0": "{{i18n:Indoor_Night_0}}",
+                "Indoor_Night_1": "{{i18n:Indoor_Night_1}}",
+                "Indoor_Night_2": "{{i18n:Indoor_Night_2}}",
+                "Indoor_Night_3": "{{i18n:Indoor_Night_3}}",
+                "Indoor_Night_4": "{{i18n:Indoor_Night_4}}",
+                "Indoor_Night_5": "{{i18n:Indoor_Night_5}}",
+                "funLeave_{{Edelweiss}}": "{{i18n:funLeave_{{Random:{{Range: 0, 3}}}}}}",
+                "funReturn_{{Edelweiss}}": "{{i18n:funReturn_{{Random:{{Range: 0, 3}}}}}}",
+                "Outdoor_{{Edelweiss}}": "{{i18n:Outdoor_{{Random:{{Range: 0, 3}}}}}}",
+                "Outdoor_0": "{{i18n:Outdoor_0}}",
+                "Outdoor_1": "{{i18n:Outdoor_1}}",
+                "Outdoor_2": "{{i18n:Outdoor_2}}",
+                "Outdoor_3": "{{i18n:Outdoor_3}}",
+                "Outdoor_4": "{{i18n:Outdoor_4}}",
+                "spouseRoom_{{Edelweiss}}": "{{i18n:spouseRoom_{{Random:{{Range: 0, 3}}}}}}",
+                "OneKid_0": "{{i18n:OneKid_0}}",
+                "OneKid_1": "{{i18n:OneKid_1}}",
+                "OneKid_2": "{{i18n:OneKid_2}}",
+                "OneKid_3": "{{i18n:OneKid_3}}",
+                "OneKid_4": "{{i18n:OneKid_4}}",
+                "TwoKids_0": "{{i18n:TwoKids_0}}",
+                "TwoKids_1": "{{i18n:TwoKids_1}}",
+                "TwoKids_2": "{{i18n:TwoKids_2}}",
+                "TwoKids_3": "{{i18n:TwoKids_3}}",
+                "TwoKids_4": "{{i18n:TwoKids_4}}",
+                "Good_0": "{{i18n:Good_0}}",
+                "Good_1": "{{i18n:Good_1}}",
+                "Good_2": "{{i18n:Good_2}}",
+                "Good_3": "{{i18n:Good_3}}",
+                "Good_4": "{{i18n:Good_4}}",
+                "Good_5": "{{i18n:Good_5}}",
+                "Good_6": "{{i18n:Good_6}}",
+                "Good_7": "{{i18n:Good_7}}",
+                "Good_8": "{{i18n:Good_8}}",
+                "Good_9": "{{i18n:Good_9}}",
+                "Neutral_0": "{{i18n:Neutral_0}}",
+                "Neutral_1": "{{i18n:Neutral_1}}",
+                "Neutral_2": "{{i18n:Neutral_2}}",
+                "Neutral_3": "{{i18n:Neutral_3}}",
+                "Neutral_4": "{{i18n:Neutral_4}}",
+                "Neutral_5": "{{i18n:Neutral_5}}",
+                "Neutral_6": "{{i18n:Neutral_6}}",
+                "Neutral_7": "{{i18n:Neutral_7}}",
+                "Neutral_8": "{{i18n:Neutral_8}}",
+                "Neutral_9": "{{i18n:Neutral_9}}",
+                "Bad_0": "{{i18n:Bad_0}}",
+                "Bad_1": "{{i18n:Bad_1}}",
+                "Bad_2": "{{i18n:Bad_2}}",
+                "Bad_3": "{{i18n:Bad_3}}",
+                "Bad_4": "{{i18n:Bad_4}}",
+                "Bad_5": "{{i18n:Bad_5}}",
+                "Bad_6": "{{i18n:Bad_6}}",
+                "Bad_7": "{{i18n:Bad_7}}",
+                "Bad_8": "{{i18n:Bad_8}}",
+                "Bad_9": "{{i18n:Bad_9}}"
+            }
+        },
+        //////////////////////////////////////////////////////////////////////////////////////////////////
+        { //edelintro
+            "LogName": "Heart Event - 0",
+            "Action": "EditData",
+            "Target": "data/events/{{ModId}}_EdelweissHouse",
+            "Entries": {
+                "EdelweissIntro/": "continue/5 18/farmer -100 -100 0 EdelweissSeung 26 19 1/skippable/viewport move 1 0 10000/animate EdelweissSeung false true 400 54 55/pause 500/playsound doorClose/pause 200/warp farmer 5 23/pause 100/move farmer 0 -5 0/move farmer 18 0 1/pause 300/emote farmer 8/pause 300/playsound dropItemInWater/pause 300/emote farmer 40/pause 300/beginSimultaneousCommand/showframe farmer 97/startJittering/playsound dialogueCharacterClose/stopJittering/endSimultaneousCommand/pause 50/stopAnimation EdelweissSeung/jump EdelweissSeung/pause 100/emote EdelweissSeung 16/facedirection EdelweissSeung 3/speak EdelweissSeung \"{{i18n:Edel.0Heart.1}}\"/pause 400/emote farmer 8/pause 100/emote EdelweissSeung 8/pause 400/emote EdelweissSeung 40/pause 100/emote EdelweissSeung 16/pause 200/shake EdelweissSeung 100/textAboveHead EdelweissSeung \"{{i18n:Edel.Ahem}}\"/pause 500/speak EdelweissSeung \"{{i18n:Edel.0Heart.2}}\"/pause 400/end warpOut"
+            }
+        }
+    ]
+}

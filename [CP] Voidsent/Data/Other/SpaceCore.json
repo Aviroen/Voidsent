@@ -1,0 +1,86 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+            "Entries": {
+                "{{ModId}}_WarpTotem": {
+                    "TotemWarp": {
+                        "Location": "{{ModId}}_ArtificialBeach",
+                        "Position": "7, 28",
+                        "Color": {
+                            "R": 152,
+                            "G": 146,
+                            "B": 165,
+                            "A": 0
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/ScheduleAnimationExtensionData",
+            "Entries": {
+                // This is an example based on Clint's clint_hammer animation.
+                "edel_hammer": { // Change this to your animation name
+                    "SourceRectSize": "16, 32", // The size of the animation in pixels.
+                    "DrawOffset": "0, 0", // For example, Willy's fishing animation uses X=0 Y=96
+                    "AppearanceOverride": null, // If not null, uses a specific appearance from the NPC's appearance data during this animation
+                    "OnStart": {
+                        "Emote": null,
+                        "PlaySound": null
+                    },
+                    "OnEnd": {
+                        "Emote": null,
+                        "PlaySound": null
+                    },
+                    "OnFrame": {
+                        9: {
+                            "Emote": null,
+                            "PlaySound": "hammer"
+                        }
+                    }
+                },
+                "edel_sleepyright": { // Change this to your animation name
+                    "SourceRectSize": "16, 32", // The size of the animation in pixels.
+                    "DrawOffset": "0, 0", // For example, Willy's fishing animation uses X=0 Y=96
+                    "AppearanceOverride": null, // If not null, uses a specific appearance from the NPC's appearance data during this animation
+                    "OnStart": {
+                        "Emote": null,
+                        "PlaySound": null
+                    },
+                    "OnEnd": {
+                        "Emote": null,
+                        "PlaySound": null
+                    },
+                    "OnFrame": {
+                        14: {
+                            "Emote": null,
+                            "PlaySound": "dwoop"
+                        }
+                    }
+                },
+                "edel_sleepyleft": { // Change this to your animation name
+                    "SourceRectSize": "16, 32", // The size of the animation in pixels.
+                    "DrawOffset": "0, 0", // For example, Willy's fishing animation uses X=0 Y=96
+                    "AppearanceOverride": null, // If not null, uses a specific appearance from the NPC's appearance data during this animation
+                    "OnStart": {
+                        "Emote": null,
+                        "PlaySound": null
+                    },
+                    "OnEnd": {
+                        "Emote": null,
+                        "PlaySound": null
+                    },
+                    "OnFrame": {
+                        14: {
+                            "Emote": null,
+                            "PlaySound": "dwoop"
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

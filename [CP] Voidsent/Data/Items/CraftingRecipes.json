@@ -1,0 +1,11 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "Warp Totem: Artificial Beach": "709 1 340 1 771 20//{{ModId}}_WarpTotem/false/none/{{i18n:Edelweiss.Warp.Totem}}"
+            }
+        }
+    ]
+}

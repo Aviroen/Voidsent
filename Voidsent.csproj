@@ -9,17 +9,13 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<ContentPacks Include="D:\source\repos\Voidsent\[CP] Voidsent" Version="1.0.0" />
-		<ContentPacks Include="D:\source\repos\Voidsent\[FTM] Voidsent" Version="1.0.0" />
-		<ContentPacks Include="D:\source\repos\Voidsent\[CP] Voidsent Trinkets" Version="1.0.0"/>
+		<ContentPacks Include="D:\source\repos\VoidsentSMAPI\[CP] Voidsent" Version="1.0.0" />
+		<ContentPacks Include="D:\source\repos\VoidsentSMAPI\[FTM] Voidsent" Version="1.0.0" />
+		<ContentPacks Include="D:\source\repos\VoidsentSMAPI\[CP] Voidsent Trinkets" Version="1.0.0" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.3.0" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="Assets\Sprites\" />
 	</ItemGroup>
 
 
