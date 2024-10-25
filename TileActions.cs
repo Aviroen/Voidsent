@@ -1,5 +1,6 @@
 ﻿using StardewValley;
 using Microsoft.Xna.Framework;
+using static StardewValley.DelayedAction;
 
 namespace Voidsent;
 internal class TileActions
@@ -14,6 +15,7 @@ internal class TileActions
         {
             if (bool.TryParse(customString, result: out bool stringActivated) && stringActivated)
             {
+                warpAfterDelay("Aviroen.Voidsent_Morabyr", point, 60000);
                 return true;
             }
         }

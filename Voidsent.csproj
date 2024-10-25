@@ -9,17 +9,9 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <Compile Remove="[CP] Voidsent\**" />
-	  <Compile Remove="[FTM] Voidsent\**" />
-	  <EmbeddedResource Remove="[CP] Voidsent\**" />
-	  <EmbeddedResource Remove="[FTM] Voidsent\**" />
-	  <None Remove="[CP] Voidsent\**" />
-	  <None Remove="[FTM] Voidsent\**" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<ContentPacks Include="D:\source\repos\VoidsentSMAPI\[CP] Voidsent" Version="1.0.0" />
-		<ContentPacks Include="D:\source\repos\VoidsentSMAPI\[FTM] Voidsent" Version="1.0.0" />
+		<ContentPacks Include="D:\source\repos\Voidsent\[CP] Voidsent" Version="1.0.0" />
+		<ContentPacks Include="D:\source\repos\Voidsent\[FTM] Voidsent" Version="1.0.0" />
+		<ContentPacks Include="D:\source\repos\Voidsent\[CP] Voidsent Trinkets" Version="1.0.0"/>
 	</ItemGroup>
 
 	<ItemGroup>
