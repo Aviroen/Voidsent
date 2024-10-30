@@ -51,16 +51,6 @@
       "Target": "Maps/{{ModId}}_ArtificialBeach",
       "FromFile": "assets/Maps/Edelweiss/ArtificialBeachWiped.tmx"
     },
-    { //load spouse room
-      "Action": "Load",
-      "Target": "Maps/{{ModId}}_EdelweissSpouseRoom",
-      "FromFile": "assets/Maps/Edelweiss/EdelweissSpouseRoom.tmx" //change warp in door
-    },
-    { //load spouse patio
-      "Action": "Load",
-      "Target": "Data/{{ModId}}_EdelweissPatio",
-      "FromFile": "assets/Maps/Edelweiss/EdelweissPatio.tmx"
-    },
     {
       "LogName": "Edel's maps",
       "Action": "EditData",

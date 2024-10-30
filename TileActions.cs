@@ -7,7 +7,7 @@ internal class TileActions
 {
 
     public static bool BoatPassage(GameLocation location, string[] args, Farmer farmer, Point point)
-    {
+    { //beach -> boat -> boat transition map of timer -> port morabyr
         var locationData = Game1.getLocationFromName("Aviroen.Voidsent_ArtificialBeach").GetData();
         if (locationData is not null &&
             locationData.CustomFields is not null &&

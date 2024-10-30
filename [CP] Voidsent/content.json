@@ -56,21 +56,14 @@
       "LogName": "Load Schedule Blanks",
       "Action": "Load",
       "Priority": "Low",
-      "Target": "Characters/Schedules/{{Edelweiss}}, Characters/Schedules/{{Sylria}}, Characters/Schedules/{{Solace}}",
-      "FromFile": "Data/Blank.json"
-    },
-    {
-      "LogName": "Load String/Schedule Blanks",
-      "Action": "Load",
-      "Priority": "Low",
-      "Target": "Strings/Schedules/{{Edelweiss}}, Strings/Schedules/{{Sylria}}, Strings/Schedules/{{Solace}}",
+      "Target": "Characters/schedules/{{Edelweiss}}, Characters/schedules/{{Sylria}}, Characters/schedules/{{Solace}}",
       "FromFile": "Data/Blank.json"
     },
     {
       "LogName": "Load Event Blanks",
       "Action": "Load",
       "Priority": "Low",
-      "Target": "data/events/{{Morabyr}}, data/events/{{Commonwealth}}, data/events/{{Moor}}, data/events/{{GrandbergCastle}}, data/events/{{CrimsonGrove}}",
+      "Target": "Data/Events/{{Morabyr}}, Data/Events/{{Commonwealth}}, Data/Events/{{Moor}}, Data/Events/{{GrandbergCastle}}, Data/Events/{{CrimsonGrove}}",
       "FromFile": "Data/Blank.json"
     },
     //includes
@@ -88,27 +81,27 @@
     {
       "LogName": "Item Include",
       "Action": "Include",
-      "FromFile": "data/items/CookingRecipes.json, data/items/CraftingRecipes.json, data/items/Objects.json"
+      "FromFile": "Data/Items/CookingRecipes.json, Data/Items/CraftingRecipes.json, Data/Items/Objects.json"
     },
     {
       "LogName": "Locations Include",
       "Action": "Include",
-      "FromFile": "data/locations/ArtificialBeach.json"
+      "FromFile": "Data/Locations/ArtificialBeach.json"
     },
     {
       "LogName": "NPCdata Include",
       "Action": "Include",
-      "FromFile": "data/npcdata/Edelweiss.json"
+      "FromFile": "Data/NPCData/Edelweiss.json"
     },
     {
       "LogName": "Other Include",
       "Action": "Include",
-      "FromFile": "data/other/Mail.json, data/other/SpaceCore.json, data/other/TriggerActions.json"
+      "FromFile": "Data/Other/Mail.json, Data/Other/SpaceCore.json, Data/Other/TriggerActions.json"
     },
     {
       "LogName": "Shops Include",
       "Action": "Include",
-      "FromFile": "data/shops/ShadyShack.json"
+      "FromFile": "Data/Shops/ShadyShack.json"
     }
   ]
 }
