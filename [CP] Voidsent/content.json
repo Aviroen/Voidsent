@@ -3,18 +3,88 @@
   "ConfigSchema": {
   },
   "DynamicTokens": [
+    //npcs
     {
-      "Name": "Edelweiss",
+      "Name": "Edelweiss", //r
       "Value": "{{ModId}}_Edelweiss"
     },
     {
-      "Name": "Sylria",
+      "Name": "Sylria", //r
       "Value": "{{ModId}}_Sylria"
     },
     {
-      "Name": "Solace",
+      "Name": "Solace", //r
       "Value": "{{ModId}}_Solace"
     },
+    {
+      "Name": "Trinity", //r
+      "Value": "{{ModId}}_Trinity"
+    },
+    {
+      "Name": "Penumbra",
+      "Value": "{{ModId}}_Penumbra"
+    },
+    {
+      "Name": "Duvin", //r
+      "Value": "{{ModId}}_Duvin"
+    },
+    {
+      "Name": "Fothao",
+      "Value": "{{ModId}}_Fothao"
+    },
+    {
+      "Name": "Thandael", //r
+      "Value": "{{ModId}}_Thandael"
+    },
+    {
+      "Name": "Excalibur", //r
+      "Value": "{{ModId}}_Excalibur"
+    },
+    {
+      "Name": "BBEG", //r
+      "Value": "{{ModId}}_BBEG"
+    },
+    {
+      "Name": "Lysella",
+      "Value": "{{ModId}}_Lysella"
+    },
+    {
+      "Name": "Vorgar",
+      "Value": "{{ModId}}_Vorgar"
+    },
+    {
+      "Name": "Yrsin", //r
+      "Value": "{{ModId}}_Yrsin"
+    },
+    {
+      "Name": "Thetlin", //r
+      "Value": "{{ModId}}_Thetlin"
+    },
+    {
+      "Name": "Muvi", //r
+      "Value": "{{ModId}}_Muvi"
+    },
+    {
+      "Name": "Orikhan", //r
+      "Value": "{{ModId}}_Orikhan"
+    },
+    {
+      "Name": "Nimora",
+      "Value": "{{ModId}}_Nimora"
+    },
+    {
+      "Name": "Syrsa", //r
+      "Value": "{{ModId}}_Syrsa"
+    },
+    {
+      "Name": "Yrrek", //r
+      "Value": "{{ModId}}_Yrrek"
+    },
+    {
+      "Name": "Yrnal", //r
+      "Value": "{{ModId}}_Yrnal"
+    },
+    ///places
     {
       "Name": "Morabyr",
       "Value": "{{ModId}}_Morabyr"
@@ -28,7 +98,7 @@
       "Value": "{{ModId}}_Moor"
     },
     {
-      "Name": "GrandbergCastle",
+      "Name": "Grandberg",
       "Value": "{{ModId}}_GrandbergCastle"
     },
     {

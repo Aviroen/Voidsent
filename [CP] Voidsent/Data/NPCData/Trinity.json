@@ -4,8 +4,8 @@
       "Action": "EditData",
       "Target": "Data/Characters",
       "Entries": {
-        "{{}}": { 
-          "DisplayName": "{{i18n:}}",
+        "{{Sylria}}": {
+          "DisplayName": "{{i18n:Sylria}}",
           "BirthSeason": "Fall",
           "BirthDay": 4,
           "HomeRegion": "Other",
@@ -36,7 +36,7 @@
           "SpouseRoom": {
             "MapAsset": null,
             "MapSourceRect": {
-              "X": 0, 
+              "X": 0,
               "Y": 0,
               "Width": 6,
               "Height": 9
@@ -114,7 +114,7 @@
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
       "Entries": {
-        "{{}}": "{{i18n:Gifts.Loved}}//{{i18n:Gifts.Liked}}//{{i18n:Gifts.Disliked}}//{{i18n:Gifts.Hated}}//{{i18n:Gifts.Neutral}}//"
+        "{{Sylria}}": "{{i18n:Gifts.Loved}}//{{i18n:Gifts.Liked}}//{{i18n:Gifts.Disliked}}//{{i18n:Gifts.Hated}}//{{i18n:Gifts.Neutral}}//"
       }
     },
     //////////////////////////////////////////////////////////////////////////////////////////////////
@@ -122,8 +122,8 @@
       "Action": "EditData",
       "Target": "Data/ConcessionTastes",
       "Entries": {
-        "{{}}": {
-          "Name": "",
+        "{{Sylria}}": {
+          "Name": "{{Sylria}}",
           "LovedTags": [
             "Apple Slices"
           ],
@@ -141,15 +141,15 @@
       "Action": "EditData",
       "Target": "Strings/StringsFromCSFiles",
       "Entries": {
-        "{{}}_Engaged": "{{i18n:}}", //proposal
-        "{{}}_AfterWedding": "{{i18n:}}"
+        "{{Sylria}}_Engaged": "{{i18n:Sylria}}", //proposal
+        "{{Sylria}}_AfterWedding": "{{i18n:Sylria}}"
       }
     },
     //////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "LogName": "Edel's' Schedule",
       "Action": "EditData",
-      "Target": "Characters/schedules/{{}}",
+      "Target": "Characters/schedules/{{Sylria}}",
       "Entries": {
         "spring": "",
         "marriage_Mon": "",
@@ -160,7 +160,7 @@
     //////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Action": "EditData",
-      "Target": "Characters/Dialogue/{{}}",
+      "Target": "Characters/Dialogue/{{Sylria}}",
       "Entries": {
       }
     },
@@ -170,14 +170,14 @@
       "Action": "EditData",
       "Target": "data/EngagementDialogue",
       "Entries": {
-        "{{}}0": "{{i18n:}}",
-        "{{}}1": "{{i18n:}}"
+        "{{Sylria}}0": "{{i18n:Sylria}}",
+        "{{Sylria}}1": "{{i18n:Sylria}}"
       }
     },
     {
       "LogName": "Marriage Dialogue - Base",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/MarriageDialogue{{}}",
+      "Target": "Characters/Dialogue/MarriageDialogue{{Sylria}}",
       "Entries": {
       }
     },
