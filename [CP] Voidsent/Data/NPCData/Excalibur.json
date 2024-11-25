@@ -1,6 +1,11 @@
 {
   "Changes": [
     {
+      "Action": "Load",
+      "Target": "Characters/{{Excalibur}}, Portraits/{{Excalibur}}",
+      "FromFile": "Assets/NPCS/{{TargetPathOnly}}/{{TargetWithoutPath}}.png"
+    },
+    {
       "Action": "EditData",
       "Target": "Data/Characters",
       "Entries": {
@@ -114,7 +119,7 @@
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
       "Entries": {
-        "{{Sylria}}": "{{i18n:Gifts.Loved}}//{{i18n:Gifts.Liked}}//{{i18n:Gifts.Disliked}}//{{i18n:Gifts.Hated}}//{{i18n:Gifts.Neutral}}//"
+        "{{Excalibur}}": "{{i18n:Gifts.Loved}}//{{i18n:Gifts.Liked}}//{{i18n:Gifts.Disliked}}//{{i18n:Gifts.Hated}}//{{i18n:Gifts.Neutral}}//"
       }
     },
     //////////////////////////////////////////////////////////////////////////////////////////////////
@@ -122,8 +127,8 @@
       "Action": "EditData",
       "Target": "Data/ConcessionTastes",
       "Entries": {
-        "{{Sylria}}": {
-          "Name": "{{Sylria}}",
+        "{{Excalibur}}": {
+          "Name": "{{Excalibur}}",
           "LovedTags": [
             "Apple Slices"
           ],
@@ -141,15 +146,15 @@
       "Action": "EditData",
       "Target": "Strings/StringsFromCSFiles",
       "Entries": {
-        "{{Sylria}}_Engaged": "{{i18n:Sylria}}", //proposal
-        "{{Sylria}}_AfterWedding": "{{i18n:Sylria}}"
+        "{{Excalibur}}_Engaged": "{{i18n:Excalibur}}", //proposal
+        "{{Excalibur}}_AfterWedding": "{{i18n:Excalibur}}"
       }
     },
     //////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "LogName": "Edel's' Schedule",
       "Action": "EditData",
-      "Target": "Characters/schedules/{{Sylria}}",
+      "Target": "Characters/schedules/{{Excalibur}}",
       "Entries": {
         "spring": "",
         "marriage_Mon": "",
@@ -160,7 +165,7 @@
     //////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Action": "EditData",
-      "Target": "Characters/Dialogue/{{Sylria}}",
+      "Target": "Characters/Dialogue/{{Excalibur}}",
       "Entries": {
       }
     },
@@ -170,14 +175,14 @@
       "Action": "EditData",
       "Target": "data/EngagementDialogue",
       "Entries": {
-        "{{Sylria}}0": "{{i18n:Sylria}}",
-        "{{Sylria}}1": "{{i18n:Sylria}}"
+        "{{Excalibur}}0": "{{i18n:Excalibur}}",
+        "{{Excalibur}}1": "{{i18n:Excalibur}}"
       }
     },
     {
       "LogName": "Marriage Dialogue - Base",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/MarriageDialogue{{Sylria}}",
+      "Target": "Characters/Dialogue/MarriageDialogue{{Excalibur}}",
       "Entries": {
       }
     },

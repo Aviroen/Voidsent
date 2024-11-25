@@ -11,7 +11,7 @@ internal class TileActions
         var locationData = Game1.getLocationFromName("Aviroen.Voidsent_ArtificialBeach").GetData();
         if (locationData is not null &&
             locationData.CustomFields is not null &&
-            locationData.CustomFields.TryGetValue("Aviroen.Voidsent_Boat", out string? customString)) 
+            locationData.CustomFields.TryGetValue("Aviroen.Voidsent_Boat", out string? customString))
         {
             if (bool.TryParse(customString, result: out bool stringActivated) && stringActivated)
             {

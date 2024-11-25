@@ -1,15 +1,5 @@
 {
   "Changes": [
-    { //load spouse room
-      "Action": "Load",
-      "Target": "Maps/{{ModId}}_EdelweissSpouseRoom",
-      "FromFile": "assets/Maps/Edelweiss/EdelweissSpouseRoom.tmx" //change warp in door
-    },
-    { //load spouse patio
-      "Action": "Load",
-      "Target": "Data/{{ModId}}_EdelweissPatio",
-      "FromFile": "assets/Maps/Edelweiss/EdelweissPatio.tmx"
-    },
     {
       "Action": "Load",
       "Target": "Characters/{{Edelweiss}}, Portraits/{{Edelweiss}}",
@@ -49,7 +39,7 @@
           "SpouseGiftJealousy": null, //specific gendered jealousy male-male female-female about this npc whether you gift nonbirthday/quest/festival
           "SpouseGiftJealousyFriendshipChange": -30, //friendship loss or gain for jealousy gifting of above
           "SpouseRoom": { //the square in the farmhouse that gets dedicated to this npc
-            "MapAsset": "{{ModId}}_EdelweissSpouseRoom",
+            "MapAsset": "{{ModId}}_SpouseRoom",
             "MapSourceRect": {
               "X": 0, //this is if you're wanting to move it to a different spot in the farmhouse
               "Y": 0,
@@ -58,7 +48,7 @@
             }
           },
           "SpousePatio": { //this is the spot outdoors on the farm where the spouse sits if they don't have a schedule for the day
-            "MapAsset": "{{ModId}}_EdelweissPatio",
+            "MapAsset": "{{ModId}}_Patio",
             "MapSourceRect": {
               "X": 0, //this is for if you want it to be someplace different on the farm
               "Y": 0,

@@ -1,5 +1,5 @@
 {
-  "Format": "2.3.0",
+  "Format": "2.4.0",
   "ConfigSchema": {
   },
   "DynamicTokens": [
@@ -42,9 +42,6 @@
     },
     {
       "Name": "ExAlts", //r
-      "When": {
-        "Query: '{{Random:{{Range: 1,9}}}}' = 1": true
-      },
       "Value": "{{i18n:Excalibur}}"
     },
     {
@@ -144,24 +141,32 @@
 
     ///places
     {
-      "Name": "Morabyr",
+      "Name": "Morabyr", //seaside city
       "Value": "{{ModId}}_Morabyr"
     },
     {
-      "Name": "Commonwealth",
+      "Name": "Commonwealth", //magic coalition
       "Value": "{{ModId}}_Commonwealth"
     },
     {
-      "Name": "Moor",
+      "Name": "Moor", //shanty
       "Value": "{{ModId}}_Moor"
     },
     {
-      "Name": "Grandberg",
+      "Name": "Grandberg", //castle
       "Value": "{{ModId}}_GrandbergCastle"
     },
     {
-      "Name": "CrimsonGrove",
+      "Name": "CrimsonGrove", //deep forest
       "Value": "{{ModId}}_CrimsonGrove"
+    },
+    {
+      "Name": "Outlands", //wastes
+      "Value": "{{ModId}}_Outlands"
+    },
+    {
+      "Name": "Grove", //introgrove
+      "Value": "{{ModId}}_Grove"
     }
   ],
   "Changes": [
@@ -170,28 +175,28 @@
       "LogName": "Load Dialogue Blanks",
       "Action": "Load",
       "Priority": "Low",
-      "Target": "Characters/Dialogue/{{Edelweiss}}, Characters/Dialogue/{{Sylria}}, Characters/Dialogue/{{Solace}}",
+      "Target": "Characters/Dialogue/{{Edelweiss}}, Characters/Dialogue/{{Sylria}}, Characters/Dialogue/{{Solace}}, Characters/Dialogue/{{Trinity}}, Characters/Dialogue/{{Penumbra}}, Characters/Dialogue/{{Duvin}}, Characters/Dialogue/{{Fothao}}, Characters/Dialogue/{{Thandael}}, Characters/Dialogue/{{Excalibur}}, Characters/Dialogue/{{Lysella}}, Characters/Dialogue/{{Vorgar}}, Characters/Dialogue/{{Yrsin}}, Characters/Dialogue/{{Thetlin}}, Characters/Dialogue/{{Muvi}}, Characters/Dialogue/{{Orikhan}}, Characters/Dialogue/{{Nimora}}, Characters/Dialogue/{{Syrsa}}, Characters/Dialogue/{{Yrrek}}, Characters/Dialogue/{{Yrnal}}",
       "FromFile": "Data/Blank.json"
     },
     {
       "LogName": "Load Marriage Dialogue Blanks",
       "Action": "Load",
       "Priority": "Low",
-      "Target": "Characters/Dialogue/MarriageDialogue{{Edelweiss}}, Characters/Dialogue/MarriageDialogue{{Sylria}}, Characters/Dialogue/MarriageDialogue{{Solace}}",
+      "Target": "Characters/Dialogue/MarriageDialogue{{Edelweiss}}, Characters/Dialogue/MarriageDialogue{{Sylria}}, Characters/Dialogue/MarriageDialogue{{Solace}}, Characters/Dialogue/MarriageDialogue{{Trinity}}, Characters/Dialogue/MarriageDialogue{{Penumbra}}, Characters/Dialogue/MarriageDialogue{{Duvin}}, Characters/Dialogue/MarriageDialogue{{Fothao}}, Characters/Dialogue/MarriageDialogue{{Thandael}}, Characters/Dialogue/MarriageDialogue{{Excalibur}}, Characters/Dialogue/MarriageDialogue{{Lysella}}, Characters/Dialogue/MarriageDialogue{{Vorgar}}, Characters/Dialogue/MarriageDialogue{{Yrsin}}, Characters/Dialogue/MarriageDialogue{{Thetlin}}, Characters/Dialogue/MarriageDialogue{{Muvi}}, Characters/Dialogue/MarriageDialogue{{Orikhan}}, Characters/Dialogue/MarriageDialogue{{Nimora}}, Characters/Dialogue/MarriageDialogue{{Syrsa}}, Characters/Dialogue/MarriageDialogue{{Yrrek}}, Characters/Dialogue/MarriageDialogue{{Yrnal}}",
       "FromFile": "Data/Blank.json"
     },
     {
       "LogName": "Load Schedule Blanks",
       "Action": "Load",
       "Priority": "Low",
-      "Target": "Characters/schedules/{{Edelweiss}}, Characters/schedules/{{Sylria}}, Characters/schedules/{{Solace}}",
+      "Target": "Characters/schedules/{{Edelweiss}}, Characters/schedules/{{Sylria}}, Characters/schedules/{{Solace}}, Characters/schedules/{{Trinity}}, Characters/schedules/{{Penumbra}}, Characters/schedules/{{Duvin}}, Characters/schedules/{{Fothao}}, Characters/schedules/{{Thandael}}, Characters/schedules/{{Excalibur}}, Characters/schedules/{{Lysella}}, Characters/schedules/{{Vorgar}}, Characters/schedules/{{Yrsin}}, Characters/schedules/{{Thetlin}}, Characters/schedules/{{Muvi}}, Characters/schedules/{{Orikhan}}, Characters/schedules/{{Nimora}}, Characters/schedules/{{Syrsa}}, Characters/schedules/{{Yrrek}}, Characters/schedules/{{Yrnal}}",
       "FromFile": "Data/Blank.json"
     },
     {
       "LogName": "Load Event Blanks",
       "Action": "Load",
       "Priority": "Low",
-      "Target": "Data/Events/{{Morabyr}}, Data/Events/{{Commonwealth}}, Data/Events/{{Moor}}, Data/Events/{{GrandbergCastle}}, Data/Events/{{CrimsonGrove}}",
+      "Target": "Data/Events/{{Morabyr}}, Data/Events/{{Commonwealth}}, Data/Events/{{Moor}}, Data/Events/{{GrandbergCastle}}, Data/Events/{{CrimsonGrove}}, Data/Events/{{Outlands}}, Data/Events/{{Grove}}",
       "FromFile": "Data/Blank.json"
     },
     //includes
@@ -199,12 +204,12 @@
     {
       "LogName": "Event Include",
       "Action": "Include",
-      "FromFile": ""
+      "FromFile": "Data/Other/Events.json"
     },
     {
       "LogName": "Festival Include",
       "Action": "Include",
-      "FromFile": ""
+      "FromFile": "Data/Other/Festivals.json"
     },
     {
       "LogName": "Item Include",
@@ -214,12 +219,12 @@
     {
       "LogName": "Locations Include",
       "Action": "Include",
-      "FromFile": "Data/Locations/ArtificialBeach.json"
+      "FromFile": "Data/Locations/ArtificialBeach.json, Data/Locations/Commonwealth.json, Data/Locations/CrimsonGrove.json, Data/Locations/Grandberg.json, Data/Locations/Grove.json, Data/Locations/Moor.json, Data/Locations/Morabyr.json, Data/Locations/Outlands.json"
     },
     {
       "LogName": "NPCdata Include",
       "Action": "Include",
-      "FromFile": "Data/NPCData/Edelweiss.json"
+      "FromFile": "Data/NPCData/Edelweiss.json, Data/NPCData/Duvin.json, Data/NPCData/Excalibur.json, Data/NPCData/Fothao.json, Data/NPCData/Lysella.json, Data/NPCData/Muvi.json, Data/NPCData/Nimora.json, Data/NPCData/Orikhan.json, Data/NPCData/Penumbra.json, Data/NPCData/Solace.json, Data/NPCData/Sylria.json, Data/NPCData/Syrsa.json, Data/NPCData/Thandael.json, Data/NPCData/Thetlin.json, Data/NPCData/Trinity.json, Data/NPCData/Vorgar.json, Data/NPCData/Yrnal.json, Data/NPCData/Yrrek.json, Data/NPCData/Yrsin.json"
     },
     {
       "LogName": "Other Include",

@@ -1,11 +1,16 @@
 {
   "Changes": [
     {
+      "Action": "Load",
+      "Target": "Characters/{{Vorgar}}, Portraits/{{Vorgar}}",
+      "FromFile": "Assets/NPCS/{{TargetPathOnly}}/{{TargetWithoutPath}}.png"
+    },
+    {
       "Action": "EditData",
       "Target": "Data/Characters",
       "Entries": {
-        "{{Sylria}}": {
-          "DisplayName": "{{i18n:Sylria}}",
+        "{{Vorgar}}": {
+          "DisplayName": "{{i18n:Vorgar}}",
           "BirthSeason": "Fall",
           "BirthDay": 4,
           "HomeRegion": "Other",
@@ -114,7 +119,7 @@
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
       "Entries": {
-        "{{Sylria}}": "{{i18n:Gifts.Loved}}//{{i18n:Gifts.Liked}}//{{i18n:Gifts.Disliked}}//{{i18n:Gifts.Hated}}//{{i18n:Gifts.Neutral}}//"
+        "{{Vorgar}}": "{{i18n:Gifts.Loved}}//{{i18n:Gifts.Liked}}//{{i18n:Gifts.Disliked}}//{{i18n:Gifts.Hated}}//{{i18n:Gifts.Neutral}}//"
       }
     },
     //////////////////////////////////////////////////////////////////////////////////////////////////
@@ -122,8 +127,8 @@
       "Action": "EditData",
       "Target": "Data/ConcessionTastes",
       "Entries": {
-        "{{Sylria}}": {
-          "Name": "{{Sylria}}",
+        "{{Vorgar}}": {
+          "Name": "{{Vorgar}}",
           "LovedTags": [
             "Apple Slices"
           ],
@@ -141,15 +146,15 @@
       "Action": "EditData",
       "Target": "Strings/StringsFromCSFiles",
       "Entries": {
-        "{{Sylria}}_Engaged": "{{i18n:Sylria}}", //proposal
-        "{{Sylria}}_AfterWedding": "{{i18n:Sylria}}"
+        "{{Vorgar}}_Engaged": "{{i18n:Vorgar}}", //proposal
+        "{{Vorgar}}_AfterWedding": "{{i18n:Vorgar}}"
       }
     },
     //////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "LogName": "Edel's' Schedule",
       "Action": "EditData",
-      "Target": "Characters/schedules/{{Sylria}}",
+      "Target": "Characters/schedules/{{Vorgar}}",
       "Entries": {
         "spring": "",
         "marriage_Mon": "",
@@ -160,7 +165,7 @@
     //////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Action": "EditData",
-      "Target": "Characters/Dialogue/{{Sylria}}",
+      "Target": "Characters/Dialogue/{{Vorgar}}",
       "Entries": {
       }
     },
@@ -170,14 +175,14 @@
       "Action": "EditData",
       "Target": "data/EngagementDialogue",
       "Entries": {
-        "{{Sylria}}0": "{{i18n:Sylria}}",
-        "{{Sylria}}1": "{{i18n:Sylria}}"
+        "{{Vorgar}}0": "{{i18n:Vorgar}}",
+        "{{Vorgar}}1": "{{i18n:Vorgar}}"
       }
     },
     {
       "LogName": "Marriage Dialogue - Base",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/MarriageDialogue{{Sylria}}",
+      "Target": "Characters/Dialogue/MarriageDialogue{{Vorgar}}",
       "Entries": {
       }
     },
