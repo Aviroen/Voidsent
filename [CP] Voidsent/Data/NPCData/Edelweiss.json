@@ -11,6 +11,11 @@
       "FromFile": "assets/Maps/Edelweiss/EdelweissPatio.tmx"
     },
     {
+      "Action": "Load",
+      "Target": "Characters/{{Edelweiss}}, Portraits/{{Edelweiss}}",
+      "FromFile": "Assets/NPCS/{{TargetPathOnly}}/{{TargetWithoutPath}}.png"
+    },
+    {
       "Action": "EditData", //this is assumed you've already loaded a blank.json into data/characters/[npcname]
       "Target": "Data/Characters",
       "Entries": {
@@ -269,7 +274,7 @@
         "EdelBear": "{{i18n:EdelBear}}", //attic bear
         "EdelJewel": "{{i18n:EdelJewel}}", //attic jewel
         "EdelJunimo": "{{i18n:EdelJunimo}}", //attic junimo
-        "EdelGrave": "{{i18n:EdelGrave}} #$action AddMail Current EdelGrave received" //wait for 1.6.9
+        "EdelGrave": "$action AddMail Current EdelGrave received #{{i18n:EdelGrave}}" //wait for 1.6.9
       }
     },
     //////////////////////////////////////////////////////////////////////////////////////////////////

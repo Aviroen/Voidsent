@@ -146,7 +146,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "Dialogue EdelGrave"
+            "Action": "Message EdelGrave"
             //"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_GraveTouched"
           }
         },
@@ -196,7 +196,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "LockedDoorWarp 2 9 {{ModId}}_EdelweissAttic 600 2600 EdelweissSeung 2500"
+            "Action": "LockedDoorWarp 2 9 {{ModId}}_EdelweissAttic 600 2600 {{Edelweiss}} 2500"
           }
         },
         {
@@ -206,7 +206,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "LockedDoorWarp 2 9 {{ModId}}_EdelweissBasement 600 2600 EdelweissSeung 2500"
+            "Action": "LockedDoorWarp 2 9 {{ModId}}_EdelweissBasement 600 2600 {{Edelweiss}} 2500"
           }
         },
         {
@@ -216,7 +216,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "Door EdelweissSeung"
+            "Action": "Door {{Edelweiss}}"
           }
         }
       ]

@@ -41,6 +41,63 @@
       "Value": "{{ModId}}_Excalibur"
     },
     {
+      "Name": "ExAlts", //r
+      "When": {
+        "Query: '{{Random:{{Range: 1,9}}}}' = 1": true
+      },
+      "Value": "{{i18n:Excalibur}}"
+    },
+    {
+      "Name": "ExAlts", //r
+      "When": {
+        "HasMod |contains=selph.ExtraAnimalConfig, selph.ImmersiveManure, selph.CoopFeed, selph.FreshFarmProduceCP, selph.CustomTapperFramework, selph.SpookyVoidChickens": true,
+        "Query: '{{Random:{{Range: 1,9}}}}' = 2": true
+      },
+      "Value": "{{i18n:California}}"
+    },
+    {
+      "Name": "ExAlts", //r
+      "When": {
+        "Query: '{{Random:{{Range: 1,9}}}}' = 3": true
+      },
+      "Value": "{{i18n:Caledfwlch}}"
+    },
+    {
+      "Name": "ExAlts", //r
+      "When": {
+        "Query: '{{Random:{{Range: 1,9}}}}' = 4": true
+      },
+      "Value": "{{i18n:Kaledvoulc'h}}"
+    },
+    {
+      "Name": "ExAlts", //r
+      "When": {
+        "Query: '{{Random:{{Range: 1,9}}}}' = 5": true
+      },
+      "Value": "{{i18n:Calesvol}}"
+    },
+    {
+      "Name": "ExAlts", //r
+      "When": {
+        "Query: '{{Random:{{Range: 1,9}}}}' = 6": true
+      },
+      "Value": "{{i18n:Caliburnus}}"
+    },
+    {
+      "Name": "ExAlts", //r
+      "When": {
+        "Query: '{{Random:{{Range: 1,9}}}}' = 7": true
+      },
+      "Value": "{{i18n:Caliburc}}"
+    },
+    {
+      "Name": "ExAlts", //r
+      "When": {
+        "Query: '{{Random:{{Range: 1,9}}}}' = 8": true
+      },
+      "Value": "{{i18n:Caliburn}}"
+    },
+    {
       "Name": "BBEG", //r
       "Value": "{{ModId}}_BBEG"
     },
@@ -84,6 +141,7 @@
       "Name": "Yrnal", //r
       "Value": "{{ModId}}_Yrnal"
     },
+
     ///places
     {
       "Name": "Morabyr",

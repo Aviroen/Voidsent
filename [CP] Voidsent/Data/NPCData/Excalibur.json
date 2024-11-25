@@ -4,8 +4,8 @@
       "Action": "EditData",
       "Target": "Data/Characters",
       "Entries": {
-        "{{Sylria}}": {
-          "DisplayName": "{{i18n:Sylria}}",
+        "{{Excalibur}}": {
+          "DisplayName": "{{ExAlt}}",
           "BirthSeason": "Fall",
           "BirthDay": 4,
           "HomeRegion": "Other",
