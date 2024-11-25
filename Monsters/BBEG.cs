@@ -2,10 +2,14 @@
 using Microsoft.Xna.Framework;
 using StardewValley.Monsters;
 using Microsoft.Xna.Framework.Graphics;
+using Netcode;
+using System.Xml.Serialization;
 
 namespace Voidsent.Monsters;
 public class BBEG : Monster
 {
+    [XmlElement("c")]
+    public readonly NetColor c = [];
     public BBEG()
         : base()
     { }
@@ -59,7 +63,7 @@ public class BBEG : Monster
 
     public override List<Item> getExtraDropItems()
     {
-        List<Item> extraItems = new List<Item>();
+        List<Item> extraItems = [];
         if ((Game1.stats.getMonstersKilled(name.Value) + (int)Game1.uniqueIDForThisGame) % 100 == 0)
         {
             extraItems.Add(ItemRegistry.Create("(H)51"));
