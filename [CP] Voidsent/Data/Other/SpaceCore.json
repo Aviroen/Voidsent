@@ -1,86 +1,154 @@
 {
-    "Changes": [
-        {
-            "Action": "EditData",
-            "Target": "spacechase0.SpaceCore/ObjectExtensionData",
-            "Entries": {
-                "{{ModId}}_WarpTotem": {
-                    "TotemWarp": {
-                        "Location": "{{ModId}}_ArtificialBeach",
-                        "Position": "7, 28",
-                        "Color": {
-                            "R": 152,
-                            "G": 146,
-                            "B": 165,
-                            "A": 0
-                        }
-                    }
-                }
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+      "Entries": {
+        "{{ModId}}_WarpTotem": {
+          "TotemWarp": {
+            "Location": "{{ModId}}_ArtificialBeach",
+            "Position": "7, 28",
+            "Color": {
+              "R": 152,
+              "G": 146,
+              "B": 165,
+              "A": 0
             }
-        },
-        {
-            "Action": "EditData",
-            "Target": "spacechase0.SpaceCore/ScheduleAnimationExtensionData",
-            "Entries": {
-                // This is an example based on Clint's clint_hammer animation.
-                "edel_hammer": { // Change this to your animation name
-                    "SourceRectSize": "16, 32", // The size of the animation in pixels.
-                    "DrawOffset": "0, 0", // For example, Willy's fishing animation uses X=0 Y=96
-                    "AppearanceOverride": null, // If not null, uses a specific appearance from the NPC's appearance data during this animation
-                    "OnStart": {
-                        "Emote": null,
-                        "PlaySound": null
-                    },
-                    "OnEnd": {
-                        "Emote": null,
-                        "PlaySound": null
-                    },
-                    "OnFrame": {
-                        9: {
-                            "Emote": null,
-                            "PlaySound": "hammer"
-                        }
-                    }
-                },
-                "edel_sleepyright": { // Change this to your animation name
-                    "SourceRectSize": "16, 32", // The size of the animation in pixels.
-                    "DrawOffset": "0, 0", // For example, Willy's fishing animation uses X=0 Y=96
-                    "AppearanceOverride": null, // If not null, uses a specific appearance from the NPC's appearance data during this animation
-                    "OnStart": {
-                        "Emote": null,
-                        "PlaySound": null
-                    },
-                    "OnEnd": {
-                        "Emote": null,
-                        "PlaySound": null
-                    },
-                    "OnFrame": {
-                        14: {
-                            "Emote": null,
-                            "PlaySound": "dwoop"
-                        }
-                    }
-                },
-                "edel_sleepyleft": { // Change this to your animation name
-                    "SourceRectSize": "16, 32", // The size of the animation in pixels.
-                    "DrawOffset": "0, 0", // For example, Willy's fishing animation uses X=0 Y=96
-                    "AppearanceOverride": null, // If not null, uses a specific appearance from the NPC's appearance data during this animation
-                    "OnStart": {
-                        "Emote": null,
-                        "PlaySound": null
-                    },
-                    "OnEnd": {
-                        "Emote": null,
-                        "PlaySound": null
-                    },
-                    "OnFrame": {
-                        14: {
-                            "Emote": null,
-                            "PlaySound": "dwoop"
-                        }
-                    }
-                }
-            }
+          }
         }
-    ]
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/ScheduleAnimationExtensionData",
+      "Entries": {
+        // This is an example based on Clint's clint_hammer animation.
+        "edel_hammer": { // Change this to your animation name
+          "SourceRectSize": "16, 32", // The size of the animation in pixels.
+          "DrawOffset": "0, 0", // For example, Willy's fishing animation uses X=0 Y=96
+          "AppearanceOverride": null, // If not null, uses a specific appearance from the NPC's appearance data during this animation
+          "OnStart": {
+            "Emote": null,
+            "PlaySound": null
+          },
+          "OnEnd": {
+            "Emote": null,
+            "PlaySound": null
+          },
+          "OnFrame": {
+            9: {
+              "Emote": null,
+              "PlaySound": "hammer"
+            }
+          }
+        },
+        "edel_sleepyright": { // Change this to your animation name
+          "SourceRectSize": "16, 32", // The size of the animation in pixels.
+          "DrawOffset": "0, 0", // For example, Willy's fishing animation uses X=0 Y=96
+          "AppearanceOverride": null, // If not null, uses a specific appearance from the NPC's appearance data during this animation
+          "OnStart": {
+            "Emote": null,
+            "PlaySound": null
+          },
+          "OnEnd": {
+            "Emote": null,
+            "PlaySound": null
+          },
+          "OnFrame": {
+            14: {
+              "Emote": null,
+              "PlaySound": "dwoop"
+            }
+          }
+        },
+        "edel_sleepyleft": { // Change this to your animation name
+          "SourceRectSize": "16, 32", // The size of the animation in pixels.
+          "DrawOffset": "0, 0", // For example, Willy's fishing animation uses X=0 Y=96
+          "AppearanceOverride": null, // If not null, uses a specific appearance from the NPC's appearance data during this animation
+          "OnStart": {
+            "Emote": null,
+            "PlaySound": null
+          },
+          "OnEnd": {
+            "Emote": null,
+            "PlaySound": null
+          },
+          "OnFrame": {
+            14: {
+              "Emote": null,
+              "PlaySound": "dwoop"
+            }
+          }
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "spacechase0.SpaceCore/Guidebooks",
+      "Entries": {
+        "{{ModID}}": {
+          "Title": "{{i18n: guidebook.title}}",
+          //"PageTexture": "{{InternalAssetName: assets/guidebook/page.png}}",
+          //"PagePadding": "16, 16", // How far away the text should be from the edges of the page, horizontally and vertically
+          "DefaultChapter": "Title",
+          "Chapters": {
+            "Title": {
+              "Name": "{{i18n: guidebook.chapter.Title.name}}",
+              "TabIconTexture": "{{InternalAssetKey: tabs.png}}",
+              "TabIconRect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+              },
+              "Condition": "TRUE", // This chapter should always be available
+              "Pages": [
+                { "Contents": "{{i18n: guidebook.chapter.Title.TitlePage}}" }, // Title page
+                { "Contents": "{{i18n: guidebook.chapter.Title.Introduction}}" }, // Introduction
+                { "Contents": "{{i18n: guidebook.chapter.Title.NewMechanics}}" }, // New Mechanics
+                { "Contents": "{{i18n: guidebook.chapter.Title.TableOfContents}}" } // Table of Contents (with links to unlocked chapters)
+              ]
+            },
+            "NEA": {
+              "Name": "{{i18n: guidebook.chapter.NEA.name}}",
+              "TabIconTexture": "{{InternalAssetKey: tabs.png}}",
+              "TabIconRect": {
+                "X": 0,
+                "Y": 16,
+                "Width": 16,
+                "Height": 16
+              },
+              "Condition": "TRUE", // This chapter should always be available
+              "Pages": [
+                {
+                  "Id": "Intro",
+                  "Contents": "{{i18n: guidebook.chapter.NEA.Intro}}"
+                }, // Introduction
+                { "Contents": "{{i18n: guidebook.chapter.NEA.Mateo}}" }, // Mateo profile
+                { "Contents": "{{i18n: guidebook.chapter.NEA.Events}}" },
+                { // Artificer skill info
+                  "Contents": "{{i18n: guidebook.chapter.NEA.Skill}}",
+                  "Condition": "PLAYER_HAS_SEEN_EVENT Current 12345" // Only show this page after the appropriate event
+                }
+              ]
+            },
+            "COT": {
+              "Name": "{{i18n: guidebook.chapter.COT.name}}",
+              "TabIconTexture": "{{InternalAssetKey: tabs.png}}",
+              "TabIconRect": {
+                "X": 16,
+                "Y": 0,
+                "Width": 16,
+                "Height": 16
+              },
+              "Condition": "PLAYER_HAS_SEEN_EVENT Current 12345", // Only available after seeing a certain event - can't recall the last event for NEA off hand
+              "Pages": [
+                { "Contents": "[action=AddItem (O)74]Click to get a prismatic shard[/action]" }
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
 }

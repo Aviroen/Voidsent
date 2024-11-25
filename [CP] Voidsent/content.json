@@ -138,6 +138,30 @@
       "Name": "Yrnal", //r
       "Value": "{{ModId}}_Yrnal"
     },
+    {
+      "Name": "Pau", //r
+      "Value": "{{ModId}}_Pau"
+    },
+    {
+      "Name": "Rei", //r
+      "Value": "{{ModId}}_Rei"
+    },
+    {
+      "Name": "Luna", //r
+      "Value": "{{ModId}}_Luna"
+    },
+    {
+      "Name": "Alan", //r
+      "Value": "{{ModId}}_Alan"
+    },
+    {
+      "Name": "Lou", //r
+      "Value": "{{ModId}}_Lou"
+    },
+    {
+      "Name": "Claire", //r
+      "Value": "{{ModId}}_Claire"
+    },
 
     ///places
     {
@@ -175,21 +199,21 @@
       "LogName": "Load Dialogue Blanks",
       "Action": "Load",
       "Priority": "Low",
-      "Target": "Characters/Dialogue/{{Edelweiss}}, Characters/Dialogue/{{Sylria}}, Characters/Dialogue/{{Solace}}, Characters/Dialogue/{{Trinity}}, Characters/Dialogue/{{Penumbra}}, Characters/Dialogue/{{Duvin}}, Characters/Dialogue/{{Fothao}}, Characters/Dialogue/{{Thandael}}, Characters/Dialogue/{{Excalibur}}, Characters/Dialogue/{{Lysella}}, Characters/Dialogue/{{Vorgar}}, Characters/Dialogue/{{Yrsin}}, Characters/Dialogue/{{Thetlin}}, Characters/Dialogue/{{Muvi}}, Characters/Dialogue/{{Orikhan}}, Characters/Dialogue/{{Nimora}}, Characters/Dialogue/{{Syrsa}}, Characters/Dialogue/{{Yrrek}}, Characters/Dialogue/{{Yrnal}}",
+      "Target": "Characters/Dialogue/{{Edelweiss}}, Characters/Dialogue/{{Sylria}}, Characters/Dialogue/{{Solace}}, Characters/Dialogue/{{Trinity}}, Characters/Dialogue/{{Penumbra}}, Characters/Dialogue/{{Duvin}}, Characters/Dialogue/{{Fothao}}, Characters/Dialogue/{{Thandael}}, Characters/Dialogue/{{Excalibur}}, Characters/Dialogue/{{Lysella}}, Characters/Dialogue/{{Vorgar}}, Characters/Dialogue/{{Yrsin}}, Characters/Dialogue/{{Thetlin}}, Characters/Dialogue/{{Muvi}}, Characters/Dialogue/{{Orikhan}}, Characters/Dialogue/{{Nimora}}, Characters/Dialogue/{{Syrsa}}, Characters/Dialogue/{{Yrrek}}, Characters/Dialogue/{{Yrnal}}, Characters/Dialogue/{{Pau}}, Characters/Dialogue/{{Rei}}, Characters/Dialogue/{{Luna}}, Characters/Dialogue/{{Alan}}, Characters/Dialogue/{{Lou}}, Characters/Dialogue/{{Claire}}",
       "FromFile": "Data/Blank.json"
     },
     {
       "LogName": "Load Marriage Dialogue Blanks",
       "Action": "Load",
       "Priority": "Low",
-      "Target": "Characters/Dialogue/MarriageDialogue{{Edelweiss}}, Characters/Dialogue/MarriageDialogue{{Sylria}}, Characters/Dialogue/MarriageDialogue{{Solace}}, Characters/Dialogue/MarriageDialogue{{Trinity}}, Characters/Dialogue/MarriageDialogue{{Penumbra}}, Characters/Dialogue/MarriageDialogue{{Duvin}}, Characters/Dialogue/MarriageDialogue{{Fothao}}, Characters/Dialogue/MarriageDialogue{{Thandael}}, Characters/Dialogue/MarriageDialogue{{Excalibur}}, Characters/Dialogue/MarriageDialogue{{Lysella}}, Characters/Dialogue/MarriageDialogue{{Vorgar}}, Characters/Dialogue/MarriageDialogue{{Yrsin}}, Characters/Dialogue/MarriageDialogue{{Thetlin}}, Characters/Dialogue/MarriageDialogue{{Muvi}}, Characters/Dialogue/MarriageDialogue{{Orikhan}}, Characters/Dialogue/MarriageDialogue{{Nimora}}, Characters/Dialogue/MarriageDialogue{{Syrsa}}, Characters/Dialogue/MarriageDialogue{{Yrrek}}, Characters/Dialogue/MarriageDialogue{{Yrnal}}",
+      "Target": "Characters/Dialogue/MarriageDialogue{{Edelweiss}}, Characters/Dialogue/MarriageDialogue{{Sylria}}, Characters/Dialogue/MarriageDialogue{{Solace}}, Characters/Dialogue/MarriageDialogue{{Trinity}}, Characters/Dialogue/MarriageDialogue{{Penumbra}}, Characters/Dialogue/MarriageDialogue{{Duvin}}, Characters/Dialogue/MarriageDialogue{{Fothao}}, Characters/Dialogue/MarriageDialogue{{Thandael}}, Characters/Dialogue/MarriageDialogue{{Excalibur}}, Characters/Dialogue/MarriageDialogue{{Lysella}}, Characters/Dialogue/MarriageDialogue{{Vorgar}}, Characters/Dialogue/MarriageDialogue{{Yrsin}}, Characters/Dialogue/MarriageDialogue{{Thetlin}}, Characters/Dialogue/MarriageDialogue{{Muvi}}, Characters/Dialogue/MarriageDialogue{{Orikhan}}, Characters/Dialogue/MarriageDialogue{{Nimora}}, Characters/Dialogue/MarriageDialogue{{Syrsa}}, Characters/Dialogue/MarriageDialogue{{Yrrek}}, Characters/Dialogue/MarriageDialogue{{Yrnal}}, Characters/Dialogue/MarriageDialogue{{Pau}}, Characters/Dialogue/MarriageDialogue{{Rei}}, Characters/Dialogue/MarriageDialogue{{Luna}}, Characters/Dialogue/MarriageDialogue{{Alan}}, Characters/Dialogue/MarriageDialogue{{Lou}}, Characters/Dialogue/MarriageDialogue{{Claire}}",
       "FromFile": "Data/Blank.json"
     },
     {
       "LogName": "Load Schedule Blanks",
       "Action": "Load",
       "Priority": "Low",
-      "Target": "Characters/schedules/{{Edelweiss}}, Characters/schedules/{{Sylria}}, Characters/schedules/{{Solace}}, Characters/schedules/{{Trinity}}, Characters/schedules/{{Penumbra}}, Characters/schedules/{{Duvin}}, Characters/schedules/{{Fothao}}, Characters/schedules/{{Thandael}}, Characters/schedules/{{Excalibur}}, Characters/schedules/{{Lysella}}, Characters/schedules/{{Vorgar}}, Characters/schedules/{{Yrsin}}, Characters/schedules/{{Thetlin}}, Characters/schedules/{{Muvi}}, Characters/schedules/{{Orikhan}}, Characters/schedules/{{Nimora}}, Characters/schedules/{{Syrsa}}, Characters/schedules/{{Yrrek}}, Characters/schedules/{{Yrnal}}",
+      "Target": "Characters/schedules/{{Edelweiss}}, Characters/schedules/{{Sylria}}, Characters/schedules/{{Solace}}, Characters/schedules/{{Trinity}}, Characters/schedules/{{Penumbra}}, Characters/schedules/{{Duvin}}, Characters/schedules/{{Fothao}}, Characters/schedules/{{Thandael}}, Characters/schedules/{{Excalibur}}, Characters/schedules/{{Lysella}}, Characters/schedules/{{Vorgar}}, Characters/schedules/{{Yrsin}}, Characters/schedules/{{Thetlin}}, Characters/schedules/{{Muvi}}, Characters/schedules/{{Orikhan}}, Characters/schedules/{{Nimora}}, Characters/schedules/{{Syrsa}}, Characters/schedules/{{Yrrek}}, Characters/schedules/{{Yrnal}}, Characters/schedules/{{Pau}}, Characters/schedules/{{Rei}}, Characters/schedules/{{Luna}}, Characters/schedules/{{Alan}}, Characters/schedules/{{Lou}}, Characters/schedules/{{Claire}}",
       "FromFile": "Data/Blank.json"
     },
     {
@@ -224,7 +248,7 @@
     {
       "LogName": "NPCdata Include",
       "Action": "Include",
-      "FromFile": "Data/NPCData/Edelweiss.json, Data/NPCData/Duvin.json, Data/NPCData/Excalibur.json, Data/NPCData/Fothao.json, Data/NPCData/Lysella.json, Data/NPCData/Muvi.json, Data/NPCData/Nimora.json, Data/NPCData/Orikhan.json, Data/NPCData/Penumbra.json, Data/NPCData/Solace.json, Data/NPCData/Sylria.json, Data/NPCData/Syrsa.json, Data/NPCData/Thandael.json, Data/NPCData/Thetlin.json, Data/NPCData/Trinity.json, Data/NPCData/Vorgar.json, Data/NPCData/Yrnal.json, Data/NPCData/Yrrek.json, Data/NPCData/Yrsin.json"
+      "FromFile": "Data/NPCData/Edelweiss.json, Data/NPCData/Duvin.json, Data/NPCData/Excalibur.json, Data/NPCData/Fothao.json, Data/NPCData/Lysella.json, Data/NPCData/Muvi.json, Data/NPCData/Nimora.json, Data/NPCData/Orikhan.json, Data/NPCData/Penumbra.json, Data/NPCData/Solace.json, Data/NPCData/Sylria.json, Data/NPCData/Syrsa.json, Data/NPCData/Thandael.json, Data/NPCData/Thetlin.json, Data/NPCData/Trinity.json, Data/NPCData/Vorgar.json, Data/NPCData/Yrnal.json, Data/NPCData/Yrrek.json, Data/NPCData/Yrsin.json, Data/NPCData/Pau.json, Data/NPCData/Rei.json, Data/NPCData/Luna.json, Data/NPCData/Alan.json, Data/NPCData/Lou.json, Data/NPCData/Claire.json"
     },
     {
       "LogName": "Other Include",
