@@ -1,13 +1,10 @@
 {
+  "UniqueID": "Aviroen.VoidsentTT",
   "Name": "[CP] Voidsent Trinkets",
   "Author": "Aviroen",
-  "Version": "1.0.0",
+  "Version": "0.1.0",
   "Description": "Voidsent Trinket Tinker",
-  "UniqueID": "Aviroen.VoidsentTT",
   "MinimumApiVersion": "4.0.0",
-  "UpdateKeys": [
-    "Nexus:???"
-  ],
   "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher"
   },
@@ -16,5 +13,8 @@
       "UniqueID": "mushymato.TrinketTinker",
       "MinimumVersion": "0.1.0"
     }
+  ],
+  "UpdateKeys": [
+    "Nexus:26053"
   ]
 }

@@ -1,10 +1,21 @@
 {
-  "Name": "Voidsent SMAPI Component",
+  /*
+   | This file is automatically updated by ModManifestBuilder
+   | when the project is compiled.
+   | 
+   | Changes made to this file may be overwritten.
+   | 
+   */
+  "$schema": "https://smapi.io/schemas/manifest.json",
+  "UniqueID": "Aviroen.Voidsent",
+  "Name": "Voidsent",
   "Author": "Aviroen",
-  "Version": "1.0.0",
-  "Description": "C# component for Voidsent Expansion",
-  "UniqueID": "Aviroen.VS",
-  "EntryDll": "Voidsent.dll",
+  "Version": "0.1.0",
+  "Description": "Dungeons and Dragons style Expansion.",
   "MinimumApiVersion": "4.0.0",
-  "UpdateKeys": ["Nexus:???"]
+  "MinimumGameVersion": "1.6.9",
+  "EntryDll": "Voidsent.dll",
+  "UpdateKeys": [
+    "Nexus:26053"
+  ]
 }

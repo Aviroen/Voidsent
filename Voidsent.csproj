@@ -6,15 +6,24 @@
 		<Nullable>enable</Nullable>
 		<LangVersion>latest</LangVersion>
 		<ModFolderName>Voidsent</ModFolderName>
+		<Name>Voidsent</Name>
+		<Authors>Aviroen</Authors>
+		<Description>Dungeons and Dragons style Expansion.</Description>
+		<UniqueId>Aviroen.Voidsent</UniqueId>
+		<MinimumGameVersion>1.6.9</MinimumGameVersion>
+		<UpdateKeys>Nexus:26053</UpdateKeys>
+		<Version>0.1.0</Version>
+		<ContentPacks_VersionBehavior>Set</ContentPacks_VersionBehavior>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<ContentPacks Include="D:\source\repos\VoidsentSMAPI\[CP] Voidsent" Version="1.0.0" />
-		<ContentPacks Include="D:\source\repos\VoidsentSMAPI\[FTM] Voidsent" Version="1.0.0" />
-		<ContentPacks Include="D:\source\repos\VoidsentSMAPI\[CP] Voidsent Trinkets" Version="1.0.0" />
+		<ContentPacks Include="D:\source\repos\VoidsentSMAPI\[CP] Voidsent" />
+		<ContentPacks Include="D:\source\repos\VoidsentSMAPI\[FTM] Voidsent" />
+		<ContentPacks Include="D:\source\repos\VoidsentSMAPI\[CP] Voidsent Trinkets" />
 	</ItemGroup>
 
 	<ItemGroup>
+	  <PackageReference Include="Leclair.Stardew.ModManifestBuilder" Version="2.4.0" />
 	  <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.3.1" />
 	</ItemGroup>
 
