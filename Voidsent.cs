@@ -3,6 +3,7 @@ using StardewModdingAPI;
 using StardewModdingAPI.Events;
 using StardewUI.Framework;
 using HarmonyLib;
+using StardewValley.TokenizableStrings;
 
 namespace Voidsent;
 public class Voidsent : Mod
@@ -15,9 +16,8 @@ public class Voidsent : Mod
     internal static IMonitor ModMonitor { get; set; } = null!;
     internal static Harmony Harmony { get; set; } = null!;
     internal static IManifest Manifest { get; set; } = null!;
-
-    static List<string> voidsentLocations = new()
-    {
+    List<string> locNames = new() 
+    { 
         "Aviroen.VoidsentCP_ArtificialBeach",
         "Aviroen.VoidsentCP_Commonwealth",
         "Aviroen.VoidsentCP_CrimsonGrove",
@@ -25,9 +25,9 @@ public class Voidsent : Mod
         "Aviroen.VoidsentCP_Grove",
         "Aviroen.VoidsentCP_Morabyr",
         "Aviroen.VoidsentCP_Outlands",
-        "Aviroen.VoidsentCP_Boat",
+        "Aviroen.VoidsentCP_Boat", 
     };
-
+    static List<GameLocation> myLocations = new();
     public override void Entry(IModHelper helper)
     {
         //viewAssetPrefix = $"Mods/{ModManifest.UniqueID}/Views";
@@ -36,6 +36,7 @@ public class Voidsent : Mod
         helper.Events.Input.ButtonPressed += OnButtonPressed;
         helper.Events.GameLoop.SaveLoaded += (_, _) => SetMyLocationFlags(); //netbools
         helper.Events.GameLoop.SaveCreated += (_, _) => SetMyLocationFlags(); //netbools
+        helper.Events.GameLoop.DayStarted += OnDayStarted;
 
         ModHelper = helper;
         ModMonitor = Monitor;
@@ -64,9 +65,9 @@ public class Voidsent : Mod
     }
     private void SetMyLocationFlags()
     {
-        for (int i = 0; i < voidsentLocations.Count; i++)
+        for (int i = 0; i < locNames.Count; i++)
         {
-            var location = voidsentLocations[i];
+            var location = locNames[i];
             if (Game1.getLocationFromName(location) is GameLocation loc)
             {
                 // set the IsOutdoor thing in the map props.
@@ -84,15 +85,43 @@ public class Voidsent : Mod
         }
     }
 
-    [HarmonyPatch(typeof(GameLocation), "ShowLockedDoorMessage")]
-    public static bool Prefix()
+    private void OnDayStarted(object? sender, DayStartedEventArgs e)
     {
-        foreach (var location in voidsentLocations)
+        myLocations.Clear();
+        foreach (var l in locNames)
         {
-            if (Game1.currentLocation is location)
+            myLocations.Add(Game1.getLocationFromName(l));
+        }
+    }
+    //many thanks to rokugin for helping set this one up
+    [HarmonyPatch(typeof(GameLocation), "ShowLockedDoorMessage")]
+    public static bool Prefix(GameLocation __instance, string[] action)
+    {
+        if (myLocations.Contains(__instance))
+        {
+            Gender ownerGender = Gender.Female;
+            string[] ownerNames = new string[(action.Length == 2) ? 1 : 2];
+            for (int i = 0; i < ownerNames.Length; i++)
             {
-                return false;
+                string ownerKey = action[i + 1];
+                NPC owner = Game1.getCharacterFromName(ownerKey);
+                if (owner != null)
+                {
+                    ownerNames[i] = owner.displayName;
+                    ownerGender = owner.Gender;
+                    continue;
+                }
+                if (NPC.TryGetData(ownerKey, out var data))
+                {
+                    ownerNames[i] = TokenParser.ParseText(data.DisplayName);
+                    ownerGender = data.Gender;
+                    continue;
+                }
             }
+            string lockedDoorMessage = ((ownerNames.Length <= 1) ? Game1.content.LoadString("Strings\\Locations:DoorUnlock_NotFriend_" + ((ownerGender == Gender.Male) ? "Male" : (ownerGender == Gender.Female) ? "Female" : "Undefined"), ownerNames[0]) : Game1.content.LoadString("Strings\\Locations:DoorUnlock_NotFriend_Couple", ownerNames[0], ownerNames[1]));
+
+            Game1.drawObjectDialogue(lockedDoorMessage);
+            return false;
         }
         return true;
     }
