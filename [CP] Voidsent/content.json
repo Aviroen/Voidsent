@@ -199,6 +199,10 @@
     {
       "Name": "Grove", //introgrove
       "Value": "{{ModId}}_Grove"
+    },
+    {
+      "Name": "Boat", //the boat
+      "Value": "{{ModId}}_Boat"
     }
   ],
   "Changes": [

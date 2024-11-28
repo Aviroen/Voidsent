@@ -1,0 +1,27 @@
+{
+  "Friend": "Friend",
+  "Teacher": "Teacher",
+  "Colleague": "Colleague",
+  "Sibling": "Sibling",
+  "Sister": "Sister",
+  "Brother": "Brother",
+  "Father": "Father",
+  "Mother": "Mother",
+  "Grandmother": "Grandmother",
+  "Grandfather": "Grandfather",
+  "Husband": "Husband",
+  "Wife": "Wife",
+  "Partner": "Partner",
+  //misc bubbles
+  "Dot": "...",
+  "Cough": "*Cough*",
+  "Hello": "Hello, @.",
+  "Laugh": "*Laugh*",
+  "Sigh": "*Sigh*",
+  "Ahem": "*Ahem*",
+  "Giggle": "*Giggle*",
+  "Interro": "?!",
+  "Huh": "Huh?",
+  "Who": "Who?",
+  "You": "You"
+}
