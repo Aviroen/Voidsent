@@ -8,6 +8,7 @@ using System.Xml.Serialization;
 namespace Voidsent.Monsters;
 public class BBEG : Monster
 {
+    //CREATE SMOKE EFFECT FROM THE CAULDRON TO FOLLOW THE POSITION OF THE BOSS
     [XmlElement("c")]
     public readonly NetColor c = [];
     public BBEG()

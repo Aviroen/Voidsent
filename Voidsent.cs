@@ -46,6 +46,7 @@ public class Voidsent : Mod
             loc.ignoreDebrisWeather.Value = false;
             loc.ignoreOutdoorLighting.Value = true;
             //loc.critters.Add(new Crow((int)v.X, (int)v.Y));
+            //FIND THE EYEBLINKING FROM FARMCAVE TO ADD TO THE CRIMSONGROVE/GROVE
         }
         else
         {

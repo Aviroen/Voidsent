@@ -11,7 +11,7 @@
                     "Type": "Crafting",
                     "Category": 0,
                     "Price": 20,
-                    "Texture": "Mods\\{{ModId}}\\{{ModId}}_WarpTotem",
+                    "Texture": "Mods/{{ModId}}/Assets/Objects",
                     "SpriteIndex": 0,
                     "Edibility": -300,
                     "IsDrink": false,

@@ -2,24 +2,24 @@
   "Changes": [
     {
       "Action": "Load",
-      "Target": "Characters/{{Pau}}, Portraits/{{Pau}}",
+      "Target": "Characters/{{Lina}}, Portraits/{{Lina}}",
       "FromFile": "Assets/NPCS/{{TargetPathOnly}}/{{TargetWithoutPath}}.png"
     },
     {
       "Action": "EditData",
       "Target": "Data/Characters",
       "Entries": {
-        "{{Pau}}": {
-          "DisplayName": "{{i18n:Pau}}",
-          "BirthSeason": "Spring",
-          "BirthDay": 27,
+        "{{Lina}}": {
+          "DisplayName": "{{i18n:Lina}}",
+          "BirthSeason": "Fall",
+          "BirthDay": 4,
           "HomeRegion": "Other",
           "Language": "Default",
           "Gender": "Female",
           "Age": "Adult",
-          "Manner": "Polite",
-          "SocialAnxiety": "Outgoing",
-          "Optimism": "Positive",
+          "Manner": "Rude",
+          "SocialAnxiety": "Shy",
+          "Optimism": "Negative",
           "IsDarkSkinned": true,
           "CanBeRomanced": true,
           "LoveInterest": null,
@@ -37,7 +37,7 @@
           "SpouseAdopts": null,
           "SpouseWantsChildren": true,
           "SpouseGiftJealousy": null,
-          "SpouseGiftJealousyFriendshipChange": -10,
+          "SpouseGiftJealousyFriendshipChange": -30,
           "SpouseRoom": {
             "MapAsset": null,
             "MapSourceRect": {
@@ -56,10 +56,7 @@
               "Height": 4
             },
             "SpriteAnimationFrames": [
-              [
-                16,
-                1500
-              ]
+              [ 16, 1500 ]
             ],
             "SpriteAnimationPixelOffset": {
               "X": 0,
@@ -70,7 +67,8 @@
           "SpouseWallpapers": [],
           "DumpsterDiveFriendshipEffect": -5,
           "DumpsterDiveEmote": null,
-          "FriendsAndFamily": {},
+          "FriendsAndFamily": {
+          },
           "FlowerDanceCanDance": null,
           "WinterStarGifts": [],
           "WinterStarParticipant": null,
@@ -103,9 +101,7 @@
             "X": 0,
             "Y": 0
           },
-          "ShakePortraits": [
-            15
-          ],
+          "ShakePortraits": [ 15 ],
           "KissSpriteIndex": 39,
           "KissSpriteFacingRight": false,
           "HiddenProfileEmoteSound": "newRecipe",
@@ -117,22 +113,22 @@
           "CustomFields": null
         }
       }
-    }
-    /*////////////////////////////////////////////////////////////////////////////////////////////////*/,
+    },
+    //////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
       "Entries": {
-        "{{Pau}}": "{{i18n:Gifts.Loved}}//{{i18n:Gifts.Liked}}//{{i18n:Gifts.Disliked}}//{{i18n:Gifts.Hated}}//{{i18n:Gifts.Neutral}}//"
+        "{{Lina}}": "{{i18n:Gifts.Loved}}//{{i18n:Gifts.Liked}}//{{i18n:Gifts.Disliked}}//{{i18n:Gifts.Hated}}//{{i18n:Gifts.Neutral}}//"
       }
-    }
-    /*////////////////////////////////////////////////////////////////////////////////////////////////*/,
+    },
+    //////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Action": "EditData",
       "Target": "Data/ConcessionTastes",
       "Entries": {
-        "{{Pau}}": {
-          "Name": "{{Pau}}",
+        "{{Lina}}": {
+          "Name": "{{Lina}}",
           "LovedTags": [
             "Apple Slices"
           ],
@@ -144,56 +140,59 @@
           ]
         }
       }
-    }
-    /*////////////////////////////////////////////////////////////////////////////////////////////////*/,
+    },
+    //////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Action": "EditData",
       "Target": "Strings/StringsFromCSFiles",
       "Entries": {
-        "{{Pau}}_Engaged": "{{i18n:Pau}}",
-        "{{Pau}}_AfterWedding": "{{i18n:Pau}}"
+        "{{Lina}}_Engaged": "{{i18n:Lina}}", //proposal
+        "{{Lina}}_AfterWedding": "{{i18n:Lina}}"
       }
-    }
-    /*////////////////////////////////////////////////////////////////////////////////////////////////*/,
+    },
+    //////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "LogName": "Edel's' Schedule",
       "Action": "EditData",
-      "Target": "Characters/schedules/{{Pau}}",
+      "Target": "Characters/schedules/{{Lina}}",
       "Entries": {
         "spring": "",
         "marriage_Mon": "",
         "marriage_Tue": "",
         "marriage_Wed": ""
       }
-    }
-    /*////////////////////////////////////////////////////////////////////////////////////////////////*/,
+    },
+    //////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Action": "EditData",
-      "Target": "Characters/Dialogue/{{Pau}}",
-      "Entries": {}
-    }
-    /*////////////////////////////////////////////////////////////////////////////////////////////////*/,
+      "Target": "Characters/Dialogue/{{Lina}}",
+      "Entries": {
+      }
+    },
+    //////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "LogName": "Engaged Dialogue",
       "Action": "EditData",
       "Target": "data/EngagementDialogue",
       "Entries": {
-        "{{Pau}}0": "{{i18n:Pau}}",
-        "{{Pau}}1": "{{i18n:Pau}}"
+        "{{Lina}}0": "{{i18n:Lina}}",
+        "{{Lina}}1": "{{i18n:Lina}}"
       }
     },
     {
       "LogName": "Marriage Dialogue - Base",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/MarriageDialogue{{Pau}}",
-      "Entries": {}
-    }
-    /*////////////////////////////////////////////////////////////////////////////////////////////////*/,
-    {
+      "Target": "Characters/Dialogue/MarriageDialogue{{Lina}}",
+      "Entries": {
+      }
+    },
+    //////////////////////////////////////////////////////////////////////////////////////////////////
+    { //edelintro
       "LogName": "Heart Event - 0",
       "Action": "EditData",
       "Target": "data/events/",
-      "Entries": {}
+      "Entries": {
+      }
     }
   ]
 }
