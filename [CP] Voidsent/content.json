@@ -270,7 +270,7 @@
     {
       "LogName": "Other Include",
       "Action": "Include",
-      "FromFile": "Data/Other/Mail.json, Data/Other/SpaceCore.json, Data/Other/TriggerActions.json"
+      "FromFile": "Data/Other/Mail.json, Data/Other/SpaceCore.json, Data/Other/Strings.json, Data/Other/TriggerActions.json"
     },
     {
       "LogName": "Shops Include",
