@@ -6,10 +6,16 @@ using HarmonyLib;
 using StardewValley.TokenizableStrings;
 
 namespace Voidsent;
+[HarmonyPatch]
 public class Voidsent : Mod
 {
     //internal static IViewEngine viewEngine = null!;
     //internal static string viewAssetPrefix = null!;
+    /* iterate a list of all npcs with {{ModId}}_ to check per 8 heart and flag //might not need this
+     * IncrementStat custom stat Aviroen.VoidsentCP_Fighters
+     * use c# to check how many that is
+     * divide the boss health 2% per int
+     */
     internal static IFtmApi ftmApi = null!;
     private IViewEngine viewEngine = null!;
     internal static IModHelper ModHelper { get; set; } = null!;
@@ -25,7 +31,10 @@ public class Voidsent : Mod
         "Aviroen.VoidsentCP_Grove",
         "Aviroen.VoidsentCP_Morabyr",
         "Aviroen.VoidsentCP_Outlands",
-        "Aviroen.VoidsentCP_Boat", 
+        "Aviroen.VoidsentCP_Boat",
+        "Aviroen.VoidsentCP_EdelweissHouse",
+        "Aviroen.VoidsentCP_EdelweissAttic",
+        "Aviroen.VoidsentCP_EdelweissBasement",
     };
     static List<GameLocation> myLocations = new();
     public override void Entry(IModHelper helper)
@@ -48,9 +57,9 @@ public class Voidsent : Mod
     public void OnGameLaunched(object? sender, GameLaunchedEventArgs e)
     {
         ftmApi = Helper.ModRegistry.GetApi<IFtmApi>("Esca.FarmTypeManager")!;
-        viewEngine = Helper.ModRegistry.GetApi<IViewEngine>("focustense.StardewUI")!;
-        viewEngine.RegisterSprites($"Mods/{ModManifest.UniqueID}/Sprites", "Assets/Sprites");
-        viewEngine.RegisterViews($"Mods/{ModManifest.UniqueID}/Views", "Assets/Views");
+        //viewEngine = Helper.ModRegistry.GetApi<IViewEngine>("focustense.StardewUI")!;
+        //viewEngine.RegisterSprites($"Mods/{ModManifest.UniqueID}/Sprites", "Assets/Sprites");
+        //viewEngine.RegisterViews($"Mods/{ModManifest.UniqueID}/Views", "Assets/Views");
         GameLocation.RegisterTileAction($"{ModManifest.UniqueID}_Boat", TileActions.BoatPassage);
     }
     private void OnButtonPressed(object? sender, ButtonPressedEventArgs e)

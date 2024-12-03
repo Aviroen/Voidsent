@@ -166,7 +166,8 @@
       "Action": "EditData",
       "Target": "Data/Characters",
       "When": {
-        "PlayerGender": "Male"
+        "PlayerGender": "Male",
+        "DayEvent": "flower dance"
       },
       "Fields": {
         "{{Edelweiss}}": {
@@ -178,7 +179,8 @@
       "Action": "EditData",
       "Target": "Data/Characters",
       "When": {
-        "PlayerGender": "Female"
+        "PlayerGender": "Female",
+        "DayEvent": "flower dance"
       },
       "Fields": {
         "{{Edelweiss}}": {

@@ -19,83 +19,205 @@ public class BBEG : Monster
      * 8 frames per 50ms
      * don't tie behavior to animation
      */
-    public float randomStackOffset;
+
+    //GreenSlime
+    [XmlIgnore]
+    public int readyToJump = -1;
+
+    public int animateTimer;
+
+    public int timeSinceLastJump;
+
+    private readonly NetEvent1Field<Vector2, NetVector2> jumpEvent = new NetEvent1Field<Vector2, NetVector2>
+    {
+        InterpolationWait = false
+    };
+
+    //lavalurk
+    public enum State
+    {
+        Walking,
+        Idling,
+        Lunging,
+        Firing
+    }
+    [XmlIgnore]
+    public List<FarmerSprite.AnimationFrame> walkingAnimation = new List<FarmerSprite.AnimationFrame>();
 
     [XmlIgnore]
-    public NetEvent1Field<Vector2, NetVector2> attackedEvent = new NetEvent1Field<Vector2, NetVector2>();
+    public List<FarmerSprite.AnimationFrame> idlingAnimation = new List<FarmerSprite.AnimationFrame>();
 
-    [XmlElement("leftDrift")]
-    public readonly NetBool leftDrift = new NetBool();
+    [XmlIgnore]
+    public List<FarmerSprite.AnimationFrame> lungingAnimation = new List<FarmerSprite.AnimationFrame>();
 
-    [XmlElement("specialNumber")]
-    public readonly NetInt specialNumber = new NetInt();
+    [XmlIgnore]
+    public List<FarmerSprite.AnimationFrame> firingAnimation = new List<FarmerSprite.AnimationFrame>();
 
+    [XmlIgnore]
+    public List<FarmerSprite.AnimationFrame>? locallyPlayingAnimation;
+
+    [XmlIgnore]
+    public int walkSpeed;
+
+    [XmlIgnore]
+    public bool approachFarmer;
+
+    [XmlIgnore]
+    public Vector2 velocity = Vector2.Zero;
+
+    [XmlIgnore]
+    public NetEnum<State> currentState = new NetEnum<State>();
+
+    [XmlIgnore]
+    public Farmer? targettedFarmer;
+
+    [XmlIgnore]
+    public float stateTimer;
+
+    [XmlIgnore]
+    public float fireTimer;
+
+    public BBEG()
+    {
+        this.Initialize();
+    }
     protected override void initNetFields()
     {
         base.initNetFields();
-        base.NetFields.AddField();
-        this.attackedEvent.onEvent += OnAttacked;
     }
     public BBEG(Vector2 position)
         : base("Aviroen.Voidsent_Konryn", position)
     {
-        if (Game1.random.NextBool())
-        {
-            this.leftDrift.Value = true;
-        }
+        this.Sprite.SpriteWidth = 64;
+        this.Sprite.SpriteHeight = 128;
+        this.Sprite.UpdateSourceRect();
+        this.Initialize();
+        base.ignoreDamageLOS.Value = true;
         base.Slipperiness = 4;
-        base.flip = Game1.random.NextDouble() < 0.45;
+        this.stateTimer = Utility.RandomFloat(3f, 5f);
         base.HideShadow = false;
-    }
-    public BBEG(Vector2 position, GameLocation location)
-        : base("Aviroen.Voidsent_Konryn", position)
-    {
-        this.randomStackOffset = Utility.RandomFloat(0f, 100f);
+        base.Breather = true;
         base.flip = Game1.random.NextBool();
-        this.specialNumber.Value = Game1.random.Next(100);
-        if (Game1.MasterPlayer.mailReceived.Contains("Aviroen.Voidsent_ExcaliburMail"))
+        base.objectsToDrop.Add("Aviroen.Voidsent_ITEMHERE");
+        base.MaxHealth = 100000;
+        base.DamageToFarmer *= 15;
+        if (Game1.player.mailReceived.Contains("Aviroen.Voidsent_ExcaliburMail"))
         {
-            base.hasSpecialItem.Value = true;
-            base.Health = 100000;
-            base.DamageToFarmer *= 15;
+            base.Health = (int)(100000 - Game1.player.stats.Get("Aviroen.VoidsentCP_Fighters") * 2000);
         }
     }
-    public void PhaseOne()
+    public virtual void Initialize()
     {
-
-    }
-    public void PhaseTwo()
-    {
-
-    }
-    public void PhaseThree()
-    {
-
-    }
-    public virtual void OnAttacked(Vector2 trajectory)
-    {
-        if (Game1.IsMasterGame)
+        base.HideShadow = false;
+        this.walkingAnimation.AddRange(new FarmerSprite.AnimationFrame[4]
         {
-            if (trajectory.LengthSquared() == 0f)
-            {
-                trajectory = new Vector2(04, -1f);
-            }
-            else
-            {
-                trajectory.Normalize();
-            }
-            trajectory *= 16f;
-            BasicProjectile projectile = new BasicProjectile(base.DamageToFarmer / 3 * 2, 13, 3, 0, (float)Math.PI / 16f, trajectory.X, trajectory.Y, base.Position, null, null, null, explode: true, damagesMonsters: false, base.currentLocation, this);
-            projectile.height.Value = 24f;
-            projectile.color.Value = this.color.Value;
-            projectile.ignoreMeleeAttacks.Value = true;
-            projectile.hostTimeUntilAttackable = 0.1f;
-            if (Game1.random.NextBool())
-            {
-                projectile.debuff.Value = "13";
-            }
-            base.currentLocation.projectiles.Add(projectile);
+            new FarmerSprite.AnimationFrame(0, 200),
+            new FarmerSprite.AnimationFrame(1, 200),
+            new FarmerSprite.AnimationFrame(2, 200),
+            new FarmerSprite.AnimationFrame(3, 200)
+        });
+        this.idlingAnimation.AddRange(new FarmerSprite.AnimationFrame[4]
+        {
+            new FarmerSprite.AnimationFrame(4, 200),
+            new FarmerSprite.AnimationFrame(5, 200),
+            new FarmerSprite.AnimationFrame(6, 200),
+            new FarmerSprite.AnimationFrame(7, 200)
+        });
+        this.lungingAnimation.AddRange(new FarmerSprite.AnimationFrame[4]
+        {
+            new FarmerSprite.AnimationFrame(8, 200),
+            new FarmerSprite.AnimationFrame(9, 200),
+            new FarmerSprite.AnimationFrame(10, 200),
+            new FarmerSprite.AnimationFrame(11, 200)
+        });
+        this.firingAnimation.AddRange(new FarmerSprite.AnimationFrame[4]
+        {
+            new FarmerSprite.AnimationFrame(12, 200),
+            new FarmerSprite.AnimationFrame(13, 200),
+            new FarmerSprite.AnimationFrame(14, 200),
+            new FarmerSprite.AnimationFrame(15, 200)
+        });
+    }
+    public void PhaseOne(GameTime time)
+    {
+        /*
+         * 1000ms reaction speed
+         * shoots projectiles (non-heat seeking) at player
+         * spin animation (touch damage)
+         * lunge (slime shiver and lunge)
+         */
+        base.updateAnimation(time);
+        switch (this.currentState.Value)
+        {
+            case State.Walking:
+                this.PlayAnimation(this.walkingAnimation, loop: true);
+                break;
+            case State.Lunging:
+                this.PlayAnimation(this.lungingAnimation, loop: false);
+                break;
+            case State.Firing:
+                this.PlayAnimation(this.firingAnimation, loop: false);
+                break;
+            case State.Idling:
+                this.PlayAnimation(this.idlingAnimation, loop: true);
+                break;
         }
+        this.Sprite.animateOnce(time);
+    }
+    public void PhaseTwo(GameTime time)
+    {
+        /*
+         * 500ms reaction speed
+         * shoots projectiles at player
+         * spin animation (touch damage)
+         * lunge (slime shiver and lunge, further range)
+         * hand slam animation
+         */
+        base.updateAnimation(time);
+    }
+    public void PhaseThree(GameTime time)
+    {
+        /*
+         * 200ms reaction speed
+         * shoots projectiles (non-heat seeking) at player
+         * lunge (slime shiver and lunge, furthest range)
+         * fist slam (extremely high damage)
+         */
+        base.updateAnimation(time);
+    }
+    public virtual bool PlayAnimation(List<FarmerSprite.AnimationFrame> animation_to_play, bool loop)
+    {
+        if (this.locallyPlayingAnimation != animation_to_play)
+        {
+            this.locallyPlayingAnimation = animation_to_play;
+            this.Sprite.setCurrentAnimation(animation_to_play);
+            this.Sprite.loop = loop;
+            if (!loop)
+            {
+                this.Sprite.oldFrame = animation_to_play.Last().frame;
+            }
+            return true;
+        }
+        return false;
+    }
+    public virtual bool TargetInRange()
+    {
+        if (this.targettedFarmer == null)
+        {
+            return false;
+        }
+        if (Math.Abs(this.targettedFarmer.Position.X - base.Position.X) <= 640f && Math.Abs(this.targettedFarmer.Position.Y - base.Position.Y) <= 640f)
+        {
+            return true;
+        }
+        return false;
+    }
+    protected override void updateMonsterSlaveAnimation(GameTime time)
+    {
+    }
+    public override void reloadSprite(bool onlyAppearance = false)
+    {
+        this.Sprite = new AnimatedSprite("Characters\\Monsters\\Aviroen.Voidsent_Konryn");
     }
     public override int takeDamage(int damage, int xTrajectory, int yTrajectory, bool isBomb, double addedPrecision, Farmer who)
     {
@@ -120,12 +242,52 @@ public class BBEG : Monster
             base.setTrajectory(xTrajectory, yTrajectory);
             base.currentLocation.playSound("clank");
             this.readyToJump = -1;
+            base.IsWalkingTowardPlayer = true;
             if (base.Health <= 0)
             {
-                base.currentLocation.playSound("");
-                Game1.stats.MonstersKilled++;
+                base.currentLocation.playSound("potterySmash");
+                base.deathAnimation();
             }
         }
         return actualDamage;
+    }
+    public override void onDealContactDamage(Farmer who)
+    {
+        if (Game1.random.NextDouble() < 0.3 && base.Player == Game1.player && !base.Player.temporarilyInvincible && Game1.random.Next(11) >= who.Immunity && !base.Player.hasTrinketWithID("BasiliskPaw"))
+        {
+            base.currentLocation.playSound("clank");
+        }
+        base.onDealContactDamage(who);
+    }
+    public override void update(GameTime time, GameLocation location)
+    {
+        base.update(time, location);
+        this.jumpEvent.Poll();
+    }
+    public override void behaviorAtGameTick(GameTime time)
+    {
+        base.behaviorAtGameTick(time);
+        if (this.targettedFarmer == null || this.targettedFarmer.currentLocation != base.currentLocation)
+        {
+            this.targettedFarmer = null;
+            this.targettedFarmer = this.findPlayer();
+        }
+        if (this.Health <= this.Health / 4)
+        {
+            this.PhaseThree(time);
+            this.walkSpeed = 6;
+        }
+        else if (this.Health <= this.Health / 2)
+        {
+            this.PhaseTwo(time);
+            this.walkSpeed = 4;
+        }
+        else
+        {
+            this.PhaseOne(time);
+        }
+    }
+    public override void updateMovement(GameLocation location, GameTime time)
+    {
     }
 }
