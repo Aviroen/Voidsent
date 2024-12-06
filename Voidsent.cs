@@ -3,8 +3,8 @@ using StardewModdingAPI;
 using StardewModdingAPI.Events;
 using StardewUI.Framework;
 using HarmonyLib;
-using Voidsent.Patches;
 using StardewValley.Locations;
+using Voidsent.Patches;
 
 namespace Voidsent
 {
@@ -24,8 +24,8 @@ namespace Voidsent
         internal static Harmony Harmony { get; set; } = null!;
         internal static IManifest Manifest { get; set; } = null!;
         private List<Wisp>? _wisps;
-        List<string> locNames = new()
-    {
+        List<string> outdoorNames =
+            [
         "Aviroen.VoidsentCP_ArtificialBeach",
         "Aviroen.VoidsentCP_Commonwealth",
         "Aviroen.VoidsentCP_CrimsonGrove",
@@ -34,11 +34,15 @@ namespace Voidsent
         "Aviroen.VoidsentCP_Morabyr",
         "Aviroen.VoidsentCP_Outlands",
         "Aviroen.VoidsentCP_Boat",
+            ];
+        List<string> indoorNames = 
+            [
         "Aviroen.VoidsentCP_EdelweissHouse",
         "Aviroen.VoidsentCP_EdelweissAttic",
         "Aviroen.VoidsentCP_EdelweissBasement",
-    };
-        public static List<GameLocation> myLocations = new();
+            ];
+        public static List<GameLocation> outdoorLocations = [];
+        public static List<GameLocation> indoorLocations = [];
         public override void Entry(IModHelper helper)
         {
             //viewAssetPrefix = $"Mods/{ModManifest.UniqueID}/Views";
@@ -53,11 +57,10 @@ namespace Voidsent
             ModMonitor = Monitor;
             Harmony = new Harmony(ModManifest.UniqueID);
             Manifest = ModManifest;
-
             Harmony.Patch(
-                original: AccessTools.Method(typeof(GameLocation), nameof(GameLocation.ShowLockedDoorMessage)),
-                prefix: new HarmonyMethod(typeof(HarmonyPatches), nameof(HarmonyPatches.Prefix)));
-            //Harmony.PatchAll();
+    original: AccessTools.Method(typeof(GameLocation), nameof(GameLocation.ShowLockedDoorMessage)),
+    prefix: new HarmonyMethod(typeof(HarmonyPatches), nameof(HarmonyPatches.Prefix)));
+            Harmony.PatchAll();
         }
         public void OnGameLaunched(object? sender, GameLaunchedEventArgs e)
         {
@@ -80,9 +83,9 @@ namespace Voidsent
         }
         private void SetMyLocationFlags()
         {
-            for (int i = 0; i < locNames.Count; i++)
+            for (int i = 0; i < outdoorNames.Count; i++)
             {
-                var location = locNames[i];
+                var location = outdoorNames[i];
                 if (Game1.getLocationFromName(location) is GameLocation loc)
                 {
                     //loc.treatAsOutdoors.Value = true;
@@ -102,10 +105,10 @@ namespace Voidsent
 
         private void OnDayStarted(object? sender, DayStartedEventArgs e)
         {
-            myLocations.Clear();
-            foreach (var l in locNames)
+            indoorLocations.Clear();
+            foreach (var l in indoorNames)
             {
-                myLocations.Add(Game1.getLocationFromName(l));
+                indoorLocations.Add(Game1.getLocationFromName(l));
             }
         }
     }

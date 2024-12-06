@@ -4,7 +4,8 @@
       "Action": "EditData",
       "Target": "Strings/Locations",
       "Entries": {
-        "DoorUnlock_NotFriend_Undefined": "{{i18n:DoorUnlock_NotFriend_Undefined}}"
+        "DoorUnlock_NotFriend_Undefined": "{{i18n:DoorUnlock_NotFriend_Undefined}}",
+        "DoorUnlock_NotFriend_{{Edelweiss}}": "Edelweiss' room."
       }
     }
   ]

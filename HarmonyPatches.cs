@@ -10,7 +10,7 @@ public class HarmonyPatches
     //many thanks to rokugin for helping set this one up
     public static bool Prefix(GameLocation __instance, string[] action)
     {
-        if (Voidsent.myLocations.Contains(__instance))
+        if (Voidsent.indoorLocations.Contains(__instance))
         {
             Gender ownerGender = Gender.Female;
             string[] ownerNames = new string[(action.Length == 2) ? 1 : 2];

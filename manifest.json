@@ -9,7 +9,7 @@
   "$schema": "https://smapi.io/schemas/manifest.json",
   "UniqueID": "Aviroen.Voidsent",
   "Name": "Voidsent",
-  "Author": "Aviroen, Rokugin, Clairestoryofseasons, SuzukiPC, Tiakall, Mushymato, Teaiscoldagain, Crystalinerose",
+  "Author": "Aviroen",
   "Version": "0.1.0",
   "Description": "Dungeons and Dragons style Expansion.",
   "MinimumApiVersion": "4.0.0",
