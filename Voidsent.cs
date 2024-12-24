@@ -4,7 +4,6 @@ using StardewModdingAPI.Events;
 using StardewUI.Framework;
 using HarmonyLib;
 using StardewValley.Locations;
-using Voidsent.Patches;
 
 namespace Voidsent
 {
@@ -57,10 +56,6 @@ namespace Voidsent
             ModMonitor = Monitor;
             Harmony = new Harmony(ModManifest.UniqueID);
             Manifest = ModManifest;
-            Harmony.Patch(
-    original: AccessTools.Method(typeof(GameLocation), nameof(GameLocation.ShowLockedDoorMessage)),
-    prefix: new HarmonyMethod(typeof(HarmonyPatches), nameof(HarmonyPatches.Prefix)));
-            Harmony.PatchAll();
         }
         public void OnGameLaunched(object? sender, GameLaunchedEventArgs e)
         {
@@ -109,6 +104,11 @@ namespace Voidsent
             foreach (var l in indoorNames)
             {
                 indoorLocations.Add(Game1.getLocationFromName(l));
+            }
+            outdoorLocations.Clear();
+            foreach (var k in outdoorNames)
+            {
+                outdoorLocations.Add(Game1.getLocationFromName(k));
             }
         }
     }

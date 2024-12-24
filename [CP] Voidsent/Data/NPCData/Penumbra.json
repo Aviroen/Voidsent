@@ -12,16 +12,16 @@
         "{{Penumbra}}": {
           "DisplayName": "{{i18n:Penumbra}}",
           "BirthSeason": "Fall",
-          "BirthDay": 4,
+          "BirthDay": 15,
           "HomeRegion": "Other",
           "Language": "Default",
-          "Gender": "Female",
+          "Gender": "Male",
           "Age": "Adult",
           "Manner": "Rude",
           "SocialAnxiety": "Shy",
           "Optimism": "Negative",
           "IsDarkSkinned": true,
-          "CanBeRomanced": true,
+          "CanBeRomanced": false,
           "LoveInterest": null,
           "Calendar": "HiddenUntilMet",
           "SocialTab": "HiddenUntilMet",
@@ -68,11 +68,18 @@
           "DumpsterDiveFriendshipEffect": -5,
           "DumpsterDiveEmote": null,
           "FriendsAndFamily": {
+            "{{Edelweiss}}": "{{i18n:Child}}",
+            "{{Sylria}}": "{{i18n:Daughter}}",
+            "{{Solace}}": "{{i18n:Son}}",
+            "{{Trinity}}": "{{i18n:Ex-wife}}",
+            "{{Thetlin}}": "{{i18n:Coworker}}",
+            "{{Muvi}}": "{{i18n:Subordinate}}",
+            "Aviroen": "{{i18n:Boss}}"
           },
           "FlowerDanceCanDance": null,
           "WinterStarGifts": [],
           "WinterStarParticipant": null,
-          "UnlockConditions": "PLAYER_HAS_SEEN_EVENT Current ",
+          "UnlockConditions": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_MorabyrBoat Any",
           "SpawnIfMissing": true,
           "Home": [
             {
@@ -119,7 +126,7 @@
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
       "Entries": {
-        "{{Penumbra}}": "{{i18n:Gifts.Loved}}//{{i18n:Gifts.Liked}}//{{i18n:Gifts.Disliked}}//{{i18n:Gifts.Hated}}//{{i18n:Gifts.Neutral}}//"
+        "{{Penumbra}}": "{{i18n:Gifts.Loved}}/{{ModId}}_WhaleShark {{ModId}}_Megalodon {{ModId}}_Hammerhead {{ModId}}_Bullshark {{ModId}}_Tigershark {{ModId}}_Zebrashark {{ModId}}_Nurseshark {{ModId}}_Blueshark {{ModId}}_Threshershark {{ModId}}_Frilledshark {{ModId}}_Dogfish {{ModId}}_Shortfinmako/{{i18n:Gifts.Liked}}//{{i18n:Gifts.Disliked}}//{{i18n:Gifts.Hated}}//{{i18n:Gifts.Neutral}}//"
       }
     },
     //////////////////////////////////////////////////////////////////////////////////////////////////

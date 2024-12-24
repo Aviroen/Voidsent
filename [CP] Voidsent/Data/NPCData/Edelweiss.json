@@ -106,7 +106,10 @@
           "FriendsAndFamily": { //whether any other npcs are related
             "Wizard": "{{i18n:Teacher}}", //i18n is the default.json used for translations
             "Aviroen": "{{i18n:Colleague}}",
-            "Sylria": "{{i18n:Sibling}}"
+            "{{Sylria}}": "{{i18n:Sibling}}",
+            "{{Solace}}": "{{i18n:Sibling}}",
+            "{{Trinity}}": "{{i18n:Mother}}",
+            "{{Penumbra}}": "{{i18n:Father}}"
           },
           "FlowerDanceCanDance": null, //sets if the npc will dance at the flower festival on spring 24
           "WinterStarGifts": [], //items that this npc can gift during the winter star festival https://stardewvalleywiki.com/Modding:Item_queries#Item_spawn_fields
