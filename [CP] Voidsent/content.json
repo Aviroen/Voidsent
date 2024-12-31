@@ -170,6 +170,45 @@
       "Name": "Lina", //r
       "Value": "{{ModId}}_Lina"
     },
+    {
+      "Name": "Sai", //r
+      "Value": "{{ModId}}_Sai"
+    },
+    {
+      "Name": "SaiAlt",
+      "When": {
+        "Query: '{{Random:{{Range: 1,5}}}}' = 1": true
+      },
+      "Value": "{{i18n:Sai}}"
+    },
+    {
+      "Name": "SaiAlt",
+      "When": {
+        "Query: '{{Random:{{Range: 1,5}}}}' = 2": true
+      },
+      "Value": "{{i18n:Mace}}"
+    },
+    {
+      "Name": "SaiAlt",
+      "When": {
+        "Query: '{{Random:{{Range: 1,5}}}}' = 3": true
+      },
+      "Value": "{{i18n:Sibat}}"
+    },
+    {
+      "Name": "SaiAlt",
+      "When": {
+        "Query: '{{Random:{{Range: 1,5}}}}' = 4": true
+      },
+      "Value": "{{i18n:Kean}}"
+    },
+    {
+      "Name": "SaiAlt",
+      "When": {
+        "Query: '{{Random:{{Range: 1,5}}}}' = 5": true
+      },
+      "Value": "{{i18n:Ngao}}"
+    },
 
     ///places
     {

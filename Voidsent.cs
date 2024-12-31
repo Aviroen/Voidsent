@@ -1,9 +1,13 @@
 ﻿using StardewValley;
 using StardewModdingAPI;
 using StardewModdingAPI.Events;
+using Microsoft.Xna.Framework;
 using StardewUI.Framework;
 using HarmonyLib;
 using StardewValley.Locations;
+using xTile.Layers;
+using xTile.Tiles;
+using StardewValley.Extensions;
 
 namespace Voidsent
 {
@@ -17,12 +21,12 @@ namespace Voidsent
          * divide the boss health 2% per int
          */
         internal static IFtmApi ftmApi = null!;
-        private IViewEngine viewEngine = null!;
+        //private IViewEngine viewEngine = null!;
         internal static IModHelper ModHelper { get; set; } = null!;
         internal static IMonitor ModMonitor { get; set; } = null!;
         internal static Harmony Harmony { get; set; } = null!;
         internal static IManifest Manifest { get; set; } = null!;
-        private List<Wisp>? _wisps;
+        //private List<Wisp>? _wisps;
         List<string> outdoorNames =
             [
         "Aviroen.VoidsentCP_ArtificialBeach",
@@ -56,6 +60,12 @@ namespace Voidsent
             ModMonitor = Monitor;
             Harmony = new Harmony(ModManifest.UniqueID);
             Manifest = ModManifest;
+
+            /*
+            Harmony.Patch(
+                original: AccessTools.Method(typeof(InteriorDoor), nameof(InteriorDoor.ResetLocalState)),
+                postfix: new HarmonyMethod(typeof(Voidsent), nameof(Postfix)));
+            */
         }
         public void OnGameLaunched(object? sender, GameLaunchedEventArgs e)
         {
@@ -63,8 +73,7 @@ namespace Voidsent
             //viewEngine = Helper.ModRegistry.GetApi<IViewEngine>("focustense.StardewUI")!;
             //viewEngine.RegisterSprites($"Mods/{ModManifest.UniqueID}/Sprites", "Assets/Sprites");
             //viewEngine.RegisterViews($"Mods/{ModManifest.UniqueID}/Views", "Assets/Views");
-            GameLocation.RegisterTileAction($"{ModManifest.UniqueID}_Boat", TileActions.BoatPassage);
-
+            
         }
         private void OnButtonPressed(object? sender, ButtonPressedEventArgs e)
         {

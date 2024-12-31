@@ -11,7 +11,7 @@
       "Entries": {
         "{{Duvin}}": {
           "DisplayName": "{{i18n:Duvin}}",
-          "BirthSeason": "Fall",
+          "BirthSeason": "Spring",
           "BirthDay": 4,
           "HomeRegion": "Other",
           "Language": "Default",
@@ -72,7 +72,7 @@
           "FlowerDanceCanDance": null,
           "WinterStarGifts": [],
           "WinterStarParticipant": null,
-          "UnlockConditions": "PLAYER_HAS_SEEN_EVENT Current ",
+          "UnlockConditions": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_",
           "SpawnIfMissing": true,
           "Home": [
             {

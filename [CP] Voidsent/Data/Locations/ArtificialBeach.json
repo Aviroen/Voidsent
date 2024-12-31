@@ -4,7 +4,8 @@
     {
       "LogName": "TileSheet Loads",
       "Action": "Load",
-      "Target": "Maps/EdelFurn, Maps/WompWomp",
+      "Priority": "Low",
+      "Target": "Maps/EdelFurn, Maps/WompWomp, Maps/{{ModId}}_Doors",
       "FromFile": "Assets/TileSheets/{{TargetWithoutPath}}.png"
     },
     { //load edel's house
@@ -188,6 +189,9 @@
       "AddWarps": [
         "5 24 {{ModId}}_ArtificialBeach 23 13"
       ],
+      "MapProperties": {
+        "Doors": "11 17 Aviroen.VoidsentCP_Doors 8"
+      },
       "MapTiles": [
         {
           "Position": {
@@ -216,7 +220,8 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "Door {{Edelweiss}}"
+            "Action": "Door {{Edelweiss}}",
+            "Aviroen.Voidsent_Doors": "T"
           }
         }
       ]

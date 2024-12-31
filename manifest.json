@@ -13,7 +13,7 @@
   "Version": "0.1.0",
   "Description": "Dungeons and Dragons style Expansion.",
   "MinimumApiVersion": "4.0.0",
-  "MinimumGameVersion": "1.6.9",
+  "MinimumGameVersion": "1.6.15",
   "EntryDll": "Voidsent.dll",
   "UpdateKeys": [
     "Nexus:26053"

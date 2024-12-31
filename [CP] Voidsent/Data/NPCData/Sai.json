@@ -2,20 +2,20 @@
   "Changes": [
     {
       "Action": "Load",
-      "Target": "Characters/{{Solace}}, Portraits/{{Solace}}",
+      "Target": "Characters/{{Sai}}, Portraits/{{Sai}}",
       "FromFile": "Assets/NPCS/{{TargetPathOnly}}/{{TargetWithoutPath}}.png"
     },
     {
       "Action": "EditData",
       "Target": "Data/Characters",
       "Entries": {
-        "{{Solace}}": {
-          "DisplayName": "{{i18n:Solace}}",
+        "{{Sai}}": {
+          "DisplayName": "{{i18n:Sai}}",
           "BirthSeason": "Fall",
           "BirthDay": 4,
           "HomeRegion": "Other",
           "Language": "Default",
-          "Gender": "Female",
+          "Gender": "Undefined",
           "Age": "Adult",
           "Manner": "Rude",
           "SocialAnxiety": "Shy",
@@ -119,7 +119,7 @@
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
       "Entries": {
-        "{{Solace}}": "{{i18n:Gifts.Loved}}//{{i18n:Gifts.Liked}}//{{i18n:Gifts.Disliked}}//{{i18n:Gifts.Hated}}//{{i18n:Gifts.Neutral}}//"
+        "{{Sai}}": "{{i18n:Gifts.Loved}}//{{i18n:Gifts.Liked}}//{{i18n:Gifts.Disliked}}//{{i18n:Gifts.Hated}}//{{i18n:Gifts.Neutral}}//"
       }
     },
     //////////////////////////////////////////////////////////////////////////////////////////////////
@@ -127,8 +127,8 @@
       "Action": "EditData",
       "Target": "Data/ConcessionTastes",
       "Entries": {
-        "{{Solace}}": {
-          "Name": "{{Solace}}",
+        "{{Sai}}": {
+          "Name": "{{Sai}}",
           "LovedTags": [
             "Apple Slices"
           ],
@@ -146,15 +146,15 @@
       "Action": "EditData",
       "Target": "Strings/StringsFromCSFiles",
       "Entries": {
-        "{{Solace}}_Engaged": "{{i18n:Solace}}", //proposal
-        "{{Solace}}_AfterWedding": "{{i18n:Solace}}"
+        "{{Sai}}_Engaged": "{{i18n:Sai}}", //proposal
+        "{{Sai}}_AfterWedding": "{{i18n:Sai}}"
       }
     },
     //////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "LogName": "Edel's' Schedule",
       "Action": "EditData",
-      "Target": "Characters/schedules/{{Solace}}",
+      "Target": "Characters/schedules/{{Sai}}",
       "Entries": {
         "spring": "",
         "marriage_Mon": "",
@@ -165,46 +165,46 @@
     //////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Action": "EditData",
-      "Target": "Characters/Dialogue/{{Solace}}",
+      "Target": "Characters/Dialogue/{{Sai}}",
       "Entries": {
-        "breakUp": "{{i18n:Test.breakUp}}",
-        "divorced": "{{i18n:Test.divorced}}",
-        "DumpsterDiveComment": "{{i18n:Test.DumpsterDiveComment}}",
-        "HitBySlingshot": "{{i18n:Test.HitBySlingshot}}",
-        "Resort": "{{i18n:Test.Resort}}",
-        "Resort_Bar": "{{i18n:Test.Resort_Bar}}",
-        "Resort_Chair": "{{i18n:Test.Resort_Chair}}",
-        "Resort_Dance": "{{i18n:Test.Resort_Dance}}",
-        "Resort_Entering": "{{i18n:Test.Resort_Entering}}",
-        "Resort_Leaving": "{{i18n:Test.Resort_Leaving}}",
-        "Resort_Shore": "{{i18n:Test.Resort_Shore}}",
-        "Resort_Towel": "{{i18n:Test.Resort_Towel}}",
-        "Resort_Umbrella": "{{i18n:Test.Resort_Umbrella}}",
-        "Resort_Wander": "{{i18n:Test.Resort_Wander}}",
-        "SpouseFarmhouseClutter": "{{i18n:Test.SpouseFarmhouseClutter}}",
-        "SpouseGiftJealous": "{{i18n:Test.SpouseGiftJealous}}",
-        "Spouse_MonstersInHouse": "{{i18n:Test.Spouse_MonstersInHouse}}",
-        "SpouseStardrop": "{{i18n:Test.SpouseStardrop}}",
-        "WipedMemory": "{{i18n:Test.WipedMemory}}",
-        "AcceptBirthdayGift_Negative": "{{i18n:Test.AcceptBirthdayGift_Negative}}",
-        "AcceptBirthdayGift_Positive": "{{i18n:Test.AcceptBirthdayGift_Positive}}",
-        "AcceptBirthdayGift": "{{i18n:Test.AcceptBirthdayGift}}",
-        "AcceptBouquet": "{{i18n:Test.AcceptBouquet}}",
-        "MovieInvitation": "{{i18n:Test.MovieInvitation}}",
-        "RejectBouquet": "{{i18n:Test.RejectBouquet}}",
-        "RejectGift_Divorced": "{{i18n:Test.RejectGift_Divorced}}",
-        "RejectMermaidPendant": "{{i18n:Test.RejectMermaidPendant}}",
-        "RejectMovieTicket": "{{i18n:Test.RejectMovieTicket}}",
-        "GreenRain": "{{i18n:Test.GreenRain}}",
-        "GreenRainFinished": "{{i18n:Test.GreenRainFinished}}",
+        "breakUp": "{{i18n:Sai.breakUp}}",
+        "divorced": "{{i18n:Sai.divorced}}",
+        "DumpsterDiveComment": "{{i18n:Sai.DumpsterDiveComment}}",
+        "HitBySlingshot": "{{i18n:Sai.HitBySlingshot}}",
+        "Resort": "{{i18n:Sai.Resort}}",
+        "Resort_Bar": "{{i18n:Sai.Resort_Bar}}",
+        "Resort_Chair": "{{i18n:Sai.Resort_Chair}}",
+        "Resort_Dance": "{{i18n:Sai.Resort_Dance}}",
+        "Resort_Entering": "{{i18n:Sai.Resort_Entering}}",
+        "Resort_Leaving": "{{i18n:Sai.Resort_Leaving}}",
+        "Resort_Shore": "{{i18n:Sai.Resort_Shore}}",
+        "Resort_Towel": "{{i18n:Sai.Resort_Towel}}",
+        "Resort_Umbrella": "{{i18n:Sai.Resort_Umbrella}}",
+        "Resort_Wander": "{{i18n:Sai.Resort_Wander}}",
+        "SpouseFarmhouseClutter": "{{i18n:Sai.SpouseFarmhouseClutter}}",
+        "SpouseGiftJealous": "{{i18n:Sai.SpouseGiftJealous}}",
+        "Spouse_MonstersInHouse": "{{i18n:Sai.Spouse_MonstersInHouse}}",
+        "SpouseStardrop": "{{i18n:Sai.SpouseStardrop}}",
+        "WipedMemory": "{{i18n:Sai.WipedMemory}}",
+        "AcceptBirthdayGift_Negative": "{{i18n:Sai.AcceptBirthdayGift_Negative}}",
+        "AcceptBirthdayGift_Positive": "{{i18n:Sai.AcceptBirthdayGift_Positive}}",
+        "AcceptBirthdayGift": "{{i18n:Sai.AcceptBirthdayGift}}",
+        "AcceptBouquet": "{{i18n:Sai.AcceptBouquet}}",
+        "MovieInvitation": "{{i18n:Sai.MovieInvitation}}",
+        "RejectBouquet": "{{i18n:Sai.RejectBouquet}}",
+        "RejectGift_Divorced": "{{i18n:Sai.RejectGift_Divorced}}",
+        "RejectMermaidPendant": "{{i18n:Sai.RejectMermaidPendant}}",
+        "RejectMovieTicket": "{{i18n:Sai.RejectMovieTicket}}",
+        "GreenRain": "{{i18n:Sai.GreenRain}}",
+        "GreenRainFinished": "{{i18n:Sai.GreenRainFinished}}",
 
-        "Mon": "{{i18n:Test.Mon_{{Random:{{Range: 0, 3}}}}}}",
-        "Tue": "{{i18n:Test.Tue_{{Random:{{Range: 0, 3}}}}}}",
-        "Wed": "{{i18n:Test.Wed_{{Random:{{Range: 0, 3}}}}}}",
-        "Thu": "{{i18n:Test.Thu_{{Random:{{Range: 0, 3}}}}}}",
-        "Fri": "{{i18n:Test.Fri_{{Random:{{Range: 0, 3}}}}}}",
-        "Sat": "{{i18n:Test.Sat_{{Random:{{Range: 0, 3}}}}}}",
-        "Sun": "{{i18n:Test.Sun_{{Random:{{Range: 0, 3}}}}}}"
+        "Mon": "{{i18n:Sai.Mon_{{Random:{{Range: 0, 3}}}}}}",
+        "Tue": "{{i18n:Sai.Tue_{{Random:{{Range: 0, 3}}}}}}",
+        "Wed": "{{i18n:Sai.Wed_{{Random:{{Range: 0, 3}}}}}}",
+        "Thu": "{{i18n:Sai.Thu_{{Random:{{Range: 0, 3}}}}}}",
+        "Fri": "{{i18n:Sai.Fri_{{Random:{{Range: 0, 3}}}}}}",
+        "Sat": "{{i18n:Sai.Sat_{{Random:{{Range: 0, 3}}}}}}",
+        "Sun": "{{i18n:Sai.Sun_{{Random:{{Range: 0, 3}}}}}}"
       }
     },
     //////////////////////////////////////////////////////////////////////////////////////////////////
@@ -213,14 +213,14 @@
       "Action": "EditData",
       "Target": "data/EngagementDialogue",
       "Entries": {
-        "{{Solace}}0": "{{i18n:Solace}}",
-        "{{Solace}}1": "{{i18n:Solace}}"
+        "{{Sai}}0": "{{i18n:Sai}}",
+        "{{Sai}}1": "{{i18n:Sai}}"
       }
     },
     {
       "LogName": "Marriage Dialogue - Base",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/MarriageDialogue{{Solace}}",
+      "Target": "Characters/Dialogue/MarriageDialogue{{Sai}}",
       "Entries": {
       }
     },
