@@ -8,6 +8,7 @@ using StardewValley.Locations;
 using xTile.Layers;
 using xTile.Tiles;
 using StardewValley.Extensions;
+using StardewValley.BellsAndWhistles;
 
 namespace Voidsent
 {
@@ -61,6 +62,9 @@ namespace Voidsent
             Harmony = new Harmony(ModManifest.UniqueID);
             Manifest = ModManifest;
 
+            TileActions.Register();
+            StupidCustomDoor.Register();
+
             /*
             Harmony.Patch(
                 original: AccessTools.Method(typeof(InteriorDoor), nameof(InteriorDoor.ResetLocalState)),
@@ -95,6 +99,7 @@ namespace Voidsent
                     //loc.treatAsOutdoors.Value = true;
                     loc.ignoreDebrisWeather.Value = false;
                     loc.ignoreOutdoorLighting.Value = true;
+                    loc.tryToAddCritters();
                     //loc.critters.Add(new Crow((int)v.X, (int)v.Y));
                     //FIND THE EYEBLINKING FROM FARMCAVE TO ADD TO THE CRIMSONGROVE/GROVE
                     //fireflies

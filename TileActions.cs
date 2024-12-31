@@ -11,47 +11,19 @@ namespace Voidsent;
 internal class TileActions
 {
     internal static readonly string TileAction_BoatRide = $"{Voidsent.Manifest}_BoatRide";
-    internal static readonly string TileAction_CustomDoor = $"{Voidsent.Manifest}_CustomDoor";
+    
     internal static void Register()
     {
         GameLocation.RegisterTileAction(TileAction_BoatRide, (location, args, farmer, tile) => BoatPassage(location, args, farmer));
-
-        GameLocation.RegisterTileAction(TileAction_CustomDoor, (location, args, farmer, tile) => CustomDoor(location, args, farmer));
+        GameLocation.RegisterTouchAction(TileAction_BoatRide, (location, args, farmer, tile) => BoatPassage(location, args, farmer));
     }
     public static bool BoatPassage(GameLocation location, string[] args, Farmer farmer)
     { //beach -> boat -> boat transition map of timer -> port morabyr
-        
-    }
 
-    public static bool CustomDoor(GameLocation location, string[] args, Farmer farmer)
-    {
-        // touch actions don't have return value
-        // the position argument is the player's pixel positions, rather than the tile coordinates.
-        if (
-            !ArgUtility.TryGet(args, 1, out var doorAction, out string error, allowBlank: false, "string doorAction") ||
-            !ArgUtility.TryGet(args, 2, out var npcName, out error, allowBlank: false, "string InternalName") ||
-            !ArgUtility.TryGetOptional(args, 3, out var npcMore, out error, null, allowBlank: true, "string InternalName"))
-        {
-            return false;
-        }
-        else if (npcMore != null && Game1.player.mailReceived.Contains(npcMore))
-        {
-            return false;
-        }
-
-        DelayedAction.playSoundAfterDelay("doorCreak", 100, location);
-        TemporaryAnimatedSprite sprite = new TemporaryAnimatedSprite("LooseSprites\\Aviroen.VoidsentCP_Doors", sourceRect, 100f, 4, 1, new Vector2(x, y - 2) * 64f, flicker: false, flip, (float)((y + 1) * 64 - 12) / 10000f, 0f, Color.White, 4f, 0f, 0f, 0f);
-        
-        /*
-        Game1.freezeControls = true;
-        Game1.player.CanMove = false;
-        Game1.player.temporarilyInvincible = true;
-        Game1.player.temporaryInvincibilityTimer = 1;
-        Game1.player.flashDuringThisTemporaryInvincibility = false;
-        Game1.player.currentTemporaryInvincibilityDuration = 700;
-        */
         return true;
     }
+
+
 
     //make my own doorcode, with blackjack, and hookers
 
