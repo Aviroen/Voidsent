@@ -1,13 +1,6 @@
 {
 
   "Changes": [
-    {
-      "LogName": "TileSheet Loads",
-      "Action": "Load",
-      "Priority": "Low",
-      "Target": "Maps/EdelFurn, Maps/WompWomp, Maps/{{ModId}}_Doors",
-      "FromFile": "Assets/TileSheets/{{TargetWithoutPath}}.png"
-    },
     { //load edel's house
       "LogName": "Load Edel's Locations",
       "Action": "Load",

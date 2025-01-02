@@ -21,6 +21,22 @@
       "IsRequired": true
     },
     {
+      "UniqueID": "Spiderbuttons.BETAS",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "rokugin.extramapactions",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "focustense.StardewUI",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "mushymato.LivestockBazaar",
+      "IsRequired": true
+    },
+    {
       "UniqueID": "spacechase0.SpaceCore",
       "IsRequired": true
     }

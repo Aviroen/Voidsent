@@ -1,3 +1,28 @@
 {
-
+  "Changes": [
+    {
+      "When": {
+        "HasFlag|contains={{ModId}}_Friendship1, {{ModId}}_Friendship2": true
+      },
+      "Action": "EditMap",
+      "Target": "Maps/Mines/77377",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/Patches/SecretCave.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 3,
+        "Height": 4
+      },
+      "ToArea": {
+        "X": 31,
+        "Y": 2,
+        "Width": 3,
+        "Height": 4
+      },
+      "AddWarps": [
+        "32 3 {{Grove}} 0 0"
+      ]
+    }
+  ]
 }

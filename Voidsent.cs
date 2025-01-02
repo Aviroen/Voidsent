@@ -4,11 +4,7 @@ using StardewModdingAPI.Events;
 using Microsoft.Xna.Framework;
 using StardewUI.Framework;
 using HarmonyLib;
-using StardewValley.Locations;
-using xTile.Layers;
-using xTile.Tiles;
-using StardewValley.Extensions;
-using StardewValley.BellsAndWhistles;
+using System.Collections.Generic;
 
 namespace Voidsent
 {
@@ -27,8 +23,7 @@ namespace Voidsent
         internal static IMonitor ModMonitor { get; set; } = null!;
         internal static Harmony Harmony { get; set; } = null!;
         internal static IManifest Manifest { get; set; } = null!;
-        //private List<Wisp>? _wisps;
-        List<string> outdoorNames =
+        readonly List<string> outdoorNames =
             [
         "Aviroen.VoidsentCP_ArtificialBeach",
         "Aviroen.VoidsentCP_Commonwealth",
@@ -39,14 +34,14 @@ namespace Voidsent
         "Aviroen.VoidsentCP_Outlands",
         "Aviroen.VoidsentCP_Boat",
             ];
-        List<string> indoorNames = 
+        readonly List<string> indoorNames = 
             [
         "Aviroen.VoidsentCP_EdelweissHouse",
         "Aviroen.VoidsentCP_EdelweissAttic",
         "Aviroen.VoidsentCP_EdelweissBasement",
             ];
-        public static List<GameLocation> outdoorLocations = [];
-        public static List<GameLocation> indoorLocations = [];
+        private static readonly List<GameLocation> outdoorLocations = [];
+        private static readonly List<GameLocation> indoorLocations = [];
         public override void Entry(IModHelper helper)
         {
             //viewAssetPrefix = $"Mods/{ModManifest.UniqueID}/Views";
@@ -63,13 +58,6 @@ namespace Voidsent
             Manifest = ModManifest;
 
             TileActions.Register();
-            StupidCustomDoor.Register();
-
-            /*
-            Harmony.Patch(
-                original: AccessTools.Method(typeof(InteriorDoor), nameof(InteriorDoor.ResetLocalState)),
-                postfix: new HarmonyMethod(typeof(Voidsent), nameof(Postfix)));
-            */
         }
         public void OnGameLaunched(object? sender, GameLaunchedEventArgs e)
         {

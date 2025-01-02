@@ -212,6 +212,10 @@
 
     ///places
     {
+      "Name": "ArtificialBeach",
+      "Value": "{{ModId}}_ArtificialBeach"
+    },
+    {
       "Name": "Morabyr", //seaside city
       "Value": "{{ModId}}_Morabyr"
     },
@@ -299,12 +303,12 @@
     {
       "LogName": "Locations Include",
       "Action": "Include",
-      "FromFile": "Data/Locations/ArtificialBeach.json, Data/Locations/Commonwealth.json, Data/Locations/CrimsonGrove.json, Data/Locations/Grandberg.json, Data/Locations/Grove.json, Data/Locations/Moor.json, Data/Locations/Morabyr.json, Data/Locations/Outlands.json"
+      "FromFile": "Data/Locations/ArtificialBeach.json, Data/Locations/Commonwealth.json, Data/Locations/CrimsonGrove.json, Data/Locations/Grandberg.json, Data/Locations/Grove.json, Data/Locations/Moor.json, Data/Locations/Morabyr.json, Data/Locations/Outlands.json" //
     },
     {
       "LogName": "NPCdata Include",
       "Action": "Include",
-      "FromFile": "Data/NPCData/Edelweiss.json, Data/NPCData/Duvin.json, Data/NPCData/Excalibur.json, Data/NPCData/Fothao.json, Data/NPCData/Lysella.json, Data/NPCData/Muvi.json, Data/NPCData/Nimora.json, Data/NPCData/Orikhan.json, Data/NPCData/Penumbra.json, Data/NPCData/Solace.json, Data/NPCData/Sylria.json, Data/NPCData/Syrsa.json, Data/NPCData/Thandael.json, Data/NPCData/Thetlin.json, Data/NPCData/Trinity.json, Data/NPCData/Vorgar.json, Data/NPCData/Yrnal.json, Data/NPCData/Yrrek.json, Data/NPCData/Yrsin.json, Data/NPCData/Konryn.json, Data/NPCData/Pau.json, Data/NPCData/Rei.json, Data/NPCData/Luna.json, Data/NPCData/Alan.json, Data/NPCData/Lou.json, Data/NPCData/Claire.json, Data/NPCData/Tia.json, Data/NPCData/Lina.json"
+      "FromFile": "Data/NPCData/Edelweiss.json, Data/NPCData/Duvin.json, Data/NPCData/Excalibur.json, Data/NPCData/Fothao.json, Data/NPCData/Lysella.json, Data/NPCData/Muvi.json, Data/NPCData/Nimora.json, Data/NPCData/Orikhan.json, Data/NPCData/Penumbra.json, Data/NPCData/Solace.json, Data/NPCData/Sylria.json, Data/NPCData/Syrsa.json, Data/NPCData/Thandael.json, Data/NPCData/Thetlin.json, Data/NPCData/Trinity.json, Data/NPCData/Vorgar.json, Data/NPCData/Yrnal.json, Data/NPCData/Yrrek.json, Data/NPCData/Yrsin.json, Data/NPCData/Konryn.json, Data/NPCData/Pau.json, Data/NPCData/Rei.json, Data/NPCData/Luna.json, Data/NPCData/Alan.json, Data/NPCData/Lou.json, Data/NPCData/Claire.json, Data/NPCData/Tia.json, Data/NPCData/Lina.json" //
     },
     {
       "LogName": "Other Include",
