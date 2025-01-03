@@ -1,54 +1,56 @@
 ﻿using StardewValley.Characters;
 using Microsoft.Xna.Framework;
 using StardewValley;
-using Netcode;
+using StardewValley.Buildings;
 
 namespace Voidsent
 {
     internal class Lizard : Horse
     {
-        private readonly NetGuid lizardId = new NetGuid();
-        public Guid LizardId
-        {
-            get
-            {
-                return this.lizardId.Value;
-            }
-            set
-            {
-                this.lizardId.Value = value;
-            }
-        }
         public Lizard()
         {
+            ateCarrotToday = false;
             base.willDestroyObjectsUnderfoot = false;
             base.HideShadow = true;
             base.drawOffset = new Vector2(-16f, 0f);
             this.onFootstepAction = PerformDefaultHorseFootstep;
-            this.ChooseAppearance();
             this.faceDirection(3);
             base.Breather = false;
+            base.initNetFields();
         }
-        public Lizard(Guid lizardId, int xTile, int yTile)
-            :this()
+        public override void ChooseAppearance(LocalizedContentManager? content = null)
         {
-            base.Name = "";
-            this.displayName = base.Name;
-            base.Position = new Vector2(xTile, yTile) * 64f;
-            base.currentLocation = Game1.currentLocation;
-            this.LizardId = lizardId;
+            if (this.Sprite == null)
+            {
+                this.Sprite = new AnimatedSprite("Animals\\Aviroen.VoidsentCP_Komodo", 0, 32, 32);
+                this.Sprite.textureUsesFlippedRightForLeft = true;
+                this.Sprite.loop = true;
+            }
         }
-        public override void reloadData()
+
+        public new bool TryFindStable(out GameLocation location, out Stable stable)
         {
-         
-        }
-        protected override string translateName()
-        {
-            return base.Name.Trim();
-        }
-        public override bool canTalk()
-        {
-            return false;
+            GameLocation? foundLocation = null;
+            Stable? foundStable = null;
+            Utility.ForEachLocation(delegate (GameLocation curLocation)
+            {
+                foreach (Building building in curLocation.buildings)
+                {
+                    if (building is Stable stable2 && stable2.HorseId == this.HorseId && !stable2.isUnderConstruction())
+                    {
+                        foundLocation = curLocation;
+                        foundStable = stable2;
+                        if (curLocation.IsActiveLocation())
+                        {
+                            return false;
+                        }
+                    }
+                }
+                return true;
+            });
+            location = foundLocation!;
+            stable = foundStable!;
+            return stable != null;
         }
     }
 }

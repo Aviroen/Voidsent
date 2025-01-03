@@ -40,8 +40,8 @@ namespace Voidsent
         "Aviroen.VoidsentCP_EdelweissAttic",
         "Aviroen.VoidsentCP_EdelweissBasement",
             ];
-        private static readonly List<GameLocation> outdoorLocations = [];
-        private static readonly List<GameLocation> indoorLocations = [];
+        internal static readonly List<GameLocation> outdoorLocations = [];
+        internal static readonly List<GameLocation> indoorLocations = [];
         public override void Entry(IModHelper helper)
         {
             //viewAssetPrefix = $"Mods/{ModManifest.UniqueID}/Views";

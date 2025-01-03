@@ -1,12 +1,18 @@
 {
 
   "Changes": [
+    {
+      "LogName": "Load the custom wizard building",
+      "Action": "Load",
+      "Target": "Maps/EdelWizard",
+      "FromFile": "Assets/Tilesheets/{{TargetWithoutPath}}.png"
+    },
     { //load edel's house
       "LogName": "Load Edel's Locations",
       "Action": "Load",
       "Priority": "Low",
       "Target": "Maps/{{ModId}}_EdelweissHouse",
-      "FromFile": "assets/Maps/Edelweiss/EdelweissHouse.tmx"
+      "FromFile": "Assets/Maps/Edelweiss/EdelweissHouse.tmx"
     },
     { //load edel's house clean
       "LogName": "Load Edel's Room Cleaned",
@@ -14,28 +20,28 @@
       "Priority": "Late",
       "When": { "Relationship:EdelweissSeung": "Married" },
       "Target": "Maps/{{ModId}}_EdelweissHouse",
-      "FromFile": "assets/Maps/Edelweiss/EdelweissHouseClean.tmx"
+      "FromFile": "Assets/Maps/Edelweiss/EdelweissHouseClean.tmx"
     },
     { //load edel's attic
       "LogName": "Load Edel's Attic",
       "Action": "Load",
       "Priority": "Low",
       "Target": "Maps/{{ModId}}_EdelweissAttic",
-      "FromFile": "assets/Maps/Edelweiss/EdelweissAttic.tmx"
+      "FromFile": "Assets/Maps/Edelweiss/EdelweissAttic.tmx"
     },
     { //load edel's basement
       "LogName": "Load Edel's Basement",
       "Action": "Load",
       "Priority": "Low",
       "Target": "Maps/{{ModId}}_EdelweissBasement",
-      "FromFile": "assets/Maps/Edelweiss/EdelweissBasement.tmx"
+      "FromFile": "Assets/Maps/Edelweiss/EdelweissBasement.tmx"
     },
     { //load the artificial beach
       "LogName": "Load Artificial Beach",
       "Action": "Load",
       "Priority": "Low",
       "Target": "Maps/{{ModId}}_ArtificialBeach",
-      "FromFile": "assets/Maps/Edelweiss/ArtificialBeach.tmx"
+      "FromFile": "Assets/Maps/Edelweiss/ArtificialBeach.tmx"
     },
     { //load the artificial beach wiped
       "LogName": "Load Artificial Beach Wiped",
@@ -43,7 +49,7 @@
       "Priority": "Late",
       "When": { "HasFlag": "EdelweissWiped" },
       "Target": "Maps/{{ModId}}_ArtificialBeach",
-      "FromFile": "assets/Maps/Edelweiss/ArtificialBeachWiped.tmx"
+      "FromFile": "Assets/Maps/Edelweiss/ArtificialBeachWiped.tmx"
     },
     {
       "LogName": "Edel's maps",

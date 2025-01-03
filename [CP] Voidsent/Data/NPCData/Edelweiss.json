@@ -194,38 +194,6 @@
     //////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Action": "EditData",
-      "Target": "Data/ConcessionTastes",
-      "Entries": {
-        "{{Edelweiss}}": {
-          "Name": "Edelweiss",
-          "LovedTags": [
-            "Apple Slices",
-            "Cappuccino Mousse Cake",
-            "Hummus Snack Pack",
-            "Ice Cream Sandwich",
-            "Jasmine Tea",
-            "Salmon Burger",
-            "Stardrop Sorbet"
-          ],
-          "LikedTags": [
-            "Truffle Popcorn",
-            "Star Cookie",
-            "Sour Slimes",
-            "Salted Peanuts"
-          ],
-          "DislikedTags": [
-            "Black Licorice",
-            "Jawbreaker",
-            "Joja Cola",
-            "JojaCorn",
-            "Kale Smoothie"
-          ]
-        }
-      }
-    },
-    //////////////////////////////////////////////////////////////////////////////////////////////////
-    {
-      "Action": "EditData",
       "Target": "Strings/StringsFromCSFiles",
       "Entries": {
         "{{Edelweiss}}_Engaged": "{{i18n:Edelweiss.Engaged}}", //proposal
@@ -269,7 +237,7 @@
         "EdelBear": "{{i18n:EdelBear}}", //attic bear
         "EdelJewel": "{{i18n:EdelJewel}}", //attic jewel
         "EdelJunimo": "{{i18n:EdelJunimo}}", //attic junimo
-        "EdelGrave": "$action AddMail Current EdelGrave received #{{i18n:EdelGrave}}" //wait for 1.6.9
+        "EdelGrave": "{{i18n:EdelGrave}}" //wait for 1.6.9
       }
     },
     //////////////////////////////////////////////////////////////////////////////////////////////////
