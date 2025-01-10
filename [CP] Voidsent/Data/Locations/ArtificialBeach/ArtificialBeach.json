@@ -1,0 +1,113 @@
+{
+
+  "Changes": [
+    {
+      "LogName": "Load the custom wizard building",
+      "Action": "Load",
+      "Target": "Maps/EdelWizard",
+      "FromFile": "Assets/Tilesheets/{{TargetWithoutPath}}.png"
+    },
+    { //load the artificial beach
+      "LogName": "Load Artificial Beach",
+      "Action": "Load",
+      "Priority": "Low",
+      "Target": "Maps/{{ModId}}_ArtificialBeach",
+      "FromFile": "Assets/Maps/Locations/ArtificialBeach.tmx"
+    },
+    {
+      "LogName": "Edel's maps",
+      "Action": "EditData",
+      "Target": "Data/Locations",
+      "Entries": {
+        "{{ModId}}_ArtificialBeach": {
+          "DisplayName": "Artificial Beach",
+          "DefaultArrivalTile": {
+            "X": 7,
+            "Y": 28
+          },
+          "CreateOnLoad": {
+            "MapPath": "Maps\\{{ModId}}_ArtificialBeach",
+            "AlwaysActive": false
+          },
+          "Fish": [
+            {
+              "Id": "Pufferfish",
+              "ItemID": "(O)128",
+              "Chance": 0.05,
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+            },
+            {
+              "Id": "Blobfish",
+              "ItemID": "(O)800",
+              "Chance": 0.03,
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+            },
+            {
+              "Id": "Tilapia",
+              "ItemID": "(O)701",
+              "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+            }
+          ],
+          "MusicDefault": "Overcast"
+        }
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_ArtificialBeach",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 27,
+            "Y": 20
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "OpenShop {{ModId}}_ShadyArtificialShack"
+          }
+        },
+        {
+          "Position": {
+            "X": 29,
+            "Y": 13
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Message EdelGrave"
+            //"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_GraveTouched"
+          }
+        },
+        {
+          "Position": {
+            "X": 10,
+            "Y": 25
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 20 4 Beach"
+          }
+        },
+        {
+          "Position": {
+            "X": 8,
+            "Y": 9
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 10 17 WizardHouse"
+          }
+        },
+        {
+          "Position": {
+            "X": 23,
+            "Y": 12
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 5 23 {{ModId}}_EdelweissHouse"
+          }
+        }
+      ]
+    }
+  ]
+}

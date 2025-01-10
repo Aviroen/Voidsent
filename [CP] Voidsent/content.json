@@ -103,7 +103,7 @@
       "Value": "{{ModId}}_Lysella"
     },
     {
-      "Name": "Vorgar",
+      "Name": "Vorgar", //r
       "Value": "{{ModId}}_Vorgar"
     },
     {
@@ -115,7 +115,7 @@
       "Value": "{{ModId}}_Thetlin"
     },
     {
-      "Name": "Muvi", //r
+      "Name": "Muvi",
       "Value": "{{ModId}}_Muvi"
     },
     {
@@ -277,12 +277,52 @@
       "FromFile": "Data/Blank.json"
     },
     {
-      "LogName": "Load Event Blanks",
+      "LogName": "Load Event Blanks EXTERIORS",
       "Action": "Load",
       "Priority": "Low",
-      "Target": "Data/Events/{{Morabyr}}, Data/Events/{{Commonwealth}}, Data/Events/{{Moor}}, Data/Events/{{GrandbergCastle}}, Data/Events/{{CrimsonGrove}}, Data/Events/{{Outlands}}, Data/Events/{{Grove}}",
+      "Target": "Data/Events/{{ArtificialBeach}}, Data/Events/{{Morabyr}}, Data/Events/{{Commonwealth}}, Data/Events/{{Moor}}, Data/Events/{{GrandbergCastle}}, Data/Events/{{CrimsonGrove}}, Data/Events/{{Outlands}}, Data/Events/{{Grove}}",
       "FromFile": "Data/Blank.json"
     },
+    {
+      "LogName": "Load Event Blanks INTERIORS",
+      "Action": "Load",
+      "Priority": "Low",
+      "Target": "Data/Events/{{ModId}}_EdelweissHouse, Data/Events/{{ModId}}_EdelweissAttic, Data/Events/{{ModId}}_EdelweissBasement",
+      "FromFile": "Data/Blank.json"
+    },
+    /*
+    {
+      "LogName": "Load Dialogue Blanks CAMEOS",
+      "Action": "Load",
+      "Priority": "Low",
+      "Target": "Characters/Dialogue/{{Pau}}, Characters/Dialogue/{{Rei}}, Characters/Dialogue/{{Luna}}, Characters/Dialogue/{{Alan}}, Characters/Dialogue/{{Lou}}, Characters/Dialogue/{{Claire}}, Characters/Dialogue/{{Tia}}, Characters/Dialogue/{{Lina}}",
+      "FromFile": "Data/Blank.json"
+    },
+
+    {
+      "LogName": "Load Dialogue Blanks CAMEOS",
+      "Action": "Load",
+      "Priority": "Low",
+      "Target": "Characters/Dialogue/{{Pau}}, Characters/Dialogue/{{Rei}}, Characters/Dialogue/{{Luna}}, Characters/Dialogue/{{Alan}}, Characters/Dialogue/{{Lou}}, Characters/Dialogue/{{Claire}}, Characters/Dialogue/{{Tia}}, Characters/Dialogue/{{Lina}}",
+      "FromFile": "Data/Blank.json"
+    },
+
+    {
+      "LogName": "Load Marriage Dialogue Blanks CAMEOS",
+      "Action": "Load",
+      "Priority": "Low",
+      "Target": "Characters/Dialogue/MarriageDialogue{{Pau}}, Characters/Dialogue/MarriageDialogue{{Rei}}, Characters/Dialogue/MarriageDialogue{{Luna}}, Characters/Dialogue/MarriageDialogue{{Alan}}, Characters/Dialogue/MarriageDialogue{{Lou}}, Characters/Dialogue/MarriageDialogue{{Claire}}, Characters/Dialogue/MarriageDialogue{{Tia}}, Characters/Dialogue/MarriageDialogue{{Lina}}",
+      "FromFile": "Data/Blank.json"
+    },
+
+    {
+      "LogName": "Load Schedule Blanks CAMEOS",
+      "Action": "Load",
+      "Priority": "Low",
+      "Target": "Characters/schedules/{{Pau}}, Characters/schedules/{{Rei}}, Characters/schedules/{{Luna}}, Characters/schedules/{{Alan}}, Characters/schedules/{{Lou}}, Characters/schedules/{{Claire}}, Characters/schedules/{{Tia}}, Characters/schedules/{{Lina}}",
+      "FromFile": "Data/Blank.json"
+    },
+    */
     //includes
 
     {
@@ -301,15 +341,27 @@
       "FromFile": "Data/Items/CookingRecipes.json, Data/Items/CraftingRecipes.json, Data/Items/Objects.json"
     },
     {
-      "LogName": "Locations Include",
+      "LogName": "Exterior Locations Include",
       "Action": "Include",
-      "FromFile": "Data/Locations/ArtificialBeach.json, Data/Locations/Commonwealth.json, Data/Locations/CrimsonGrove.json, Data/Locations/Grandberg.json, Data/Locations/Grove.json, Data/Locations/Moor.json, Data/Locations/Morabyr.json, Data/Locations/Outlands.json" //
+      "FromFile": "Data/Locations/ArtificialBeach/ArtificialBeach.json, Data/Locations/Commonwealth/Commonwealth.json, Data/Locations/CrimsonGrove/CrimsonGrove.json, Data/Locations/Grandberg/Grandberg.json, Data/Locations/Grove/Grove.json, Data/Locations/Moor/Moor.json, Data/Locations/Morabyr/Morabyr.json, Data/Locations/Outlands/Outlands.json" //
+    },
+    {
+      "LogName": "Interior Locations Include",
+      "Action": "Include",
+      "FromFile": "Data/Locations/ArtificialBeach/Edelweiss.json"
     },
     {
       "LogName": "NPCdata Include",
       "Action": "Include",
-      "FromFile": "Data/NPCData/Edelweiss.json, Data/NPCData/Duvin.json, Data/NPCData/Excalibur.json, Data/NPCData/Fothao.json, Data/NPCData/Lysella.json, Data/NPCData/Muvi.json, Data/NPCData/Nimora.json, Data/NPCData/Orikhan.json, Data/NPCData/Penumbra.json, Data/NPCData/Solace.json, Data/NPCData/Sylria.json, Data/NPCData/Syrsa.json, Data/NPCData/Thandael.json, Data/NPCData/Thetlin.json, Data/NPCData/Trinity.json, Data/NPCData/Vorgar.json, Data/NPCData/Yrnal.json, Data/NPCData/Yrrek.json, Data/NPCData/Yrsin.json, Data/NPCData/Konryn.json, Data/NPCData/Pau.json, Data/NPCData/Rei.json, Data/NPCData/Luna.json, Data/NPCData/Alan.json, Data/NPCData/Lou.json, Data/NPCData/Claire.json, Data/NPCData/Tia.json, Data/NPCData/Lina.json" //
+      "FromFile": "Data/NPCData/Edelweiss.json, Data/NPCData/Duvin.json, Data/NPCData/Excalibur.json, Data/NPCData/Fothao.json, Data/NPCData/Lysella.json, Data/NPCData/Muvi.json, Data/NPCData/Nimora.json, Data/NPCData/Orikhan.json, Data/NPCData/Penumbra.json, Data/NPCData/Solace.json, Data/NPCData/Sylria.json, Data/NPCData/Syrsa.json, Data/NPCData/Thandael.json, Data/NPCData/Thetlin.json, Data/NPCData/Trinity.json, Data/NPCData/Vorgar.json, Data/NPCData/Yrnal.json, Data/NPCData/Yrrek.json, Data/NPCData/Yrsin.json, Data/NPCData/Konryn.json" //
     },
+    /*
+    {
+      "LogName": "Cameo NPCs",
+      "Action": "Include",
+      "FromFile": "Data/NPCData/C_Pau.json, Data/NPCData/C_Rei.json, Data/NPCData/C_Luna.json, Data/NPCData/C_Alan.json, Data/NPCData/C_Lou.json, Data/NPCData/C_Claire.json, Data/NPCData/C_Tia.json, Data/NPCData/C_Lina.json"
+    },
+  */
     {
       "LogName": "Other Include",
       "Action": "Include",

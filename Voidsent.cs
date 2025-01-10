@@ -113,5 +113,11 @@ namespace Voidsent
                 outdoorLocations.Add(Game1.getLocationFromName(k));
             }
         }
+
     }
+    /* IL_0202: stloc.s 10 //match for this
+     * new method that takes SocialEntry socialEntry (loc, match) check for return new special identifier
+     * then new stloc.s before \/
+     * IL_048e: call string StardewValley.Game1::parseText(string, class [MonoGame.Framework]Microsoft.Xna.Framework.Graphics.SpriteFont, int32)
+     */
 }
