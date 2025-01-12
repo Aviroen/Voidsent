@@ -11,8 +11,8 @@
       "Entries": {
         "{{Edelweiss}}": { //unique id of the npc, must be used when referecing the npc at all
           "DisplayName": "{{i18n:Edelweiss}}", //translation capability
-          "BirthSeason": "Fall",
-          "BirthDay": 3,
+          "BirthSeason": null,
+          "BirthDay": 0,
           "HomeRegion": "Other", //town / desert / other
           "Language": "Default", //default or dwarvish
           "Gender": "Undefined", //male, female, undefined (undefined gets auto-sorted as female)
@@ -111,10 +111,10 @@
             "{{Trinity}}": "{{i18n:Mother}}",
             "{{Penumbra}}": "{{i18n:Father}}"
           },
-          "FlowerDanceCanDance": null, //sets if the npc will dance at the flower festival on spring 24
+          "FlowerDanceCanDance": false, //sets if the npc will dance at the flower festival on spring 24
           "WinterStarGifts": [], //items that this npc can gift during the winter star festival https://stardewvalleywiki.com/Modding:Item_queries#Item_spawn_fields
           "WinterStarParticipant": null,
-          "UnlockConditions": "PLAYER_HAS_MAIL Current EdelweissWarp any",
+          "UnlockConditions": "PLAYER_HAS_MAIL Current {{ModId}}_EdelweissWarp any",
           "SpawnIfMissing": true, //forcibly spawns the npc if they're stuck
           "Home": [ //sets the npc's spawn point
             {

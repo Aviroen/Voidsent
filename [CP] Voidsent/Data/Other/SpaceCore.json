@@ -87,14 +87,14 @@
       "Target": "spacechase0.SpaceCore/Guidebooks",
       "Entries": {
         "{{ModID}}": {
-          "Title": "{{i18n: guidebook.title}}",
+          "Title": "{{i18n:Guidebook.Title}}",
           //"PageTexture": "{{InternalAssetName: assets/guidebook/page.png}}",
           //"PagePadding": "16, 16", // How far away the text should be from the edges of the page, horizontally and vertically
           "DefaultChapter": "Title",
           "Chapters": {
             "Title": {
               "Name": "{{i18n: guidebook.chapter.Title.name}}",
-              "TabIconTexture": "{{InternalAssetKey: tabs.png}}",
+              //"TabIconTexture": "{{InternalAssetKey: tabs.png}}",
               "TabIconRect": {
                 "X": 0,
                 "Y": 0,
@@ -109,8 +109,8 @@
                 { "Contents": "{{i18n: guidebook.chapter.Title.TableOfContents}}" } // Table of Contents (with links to unlocked chapters)
               ]
             },
-            "NEA": {
-              "Name": "{{i18n: guidebook.chapter.NEA.name}}",
+            "ArtificialBeach": {
+              "Name": "{{i18n: guidebook.chapter.ArtificialBeach.name}}",
               "TabIconTexture": "{{InternalAssetKey: tabs.png}}",
               "TabIconRect": {
                 "X": 0,
@@ -128,7 +128,7 @@
                 { "Contents": "{{i18n: guidebook.chapter.NEA.Events}}" },
                 { // Artificer skill info
                   "Contents": "{{i18n: guidebook.chapter.NEA.Skill}}",
-                  "Condition": "PLAYER_HAS_SEEN_EVENT Current 12345" // Only show this page after the appropriate event
+                  "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_EdelweissWarp" // Only show this page after the appropriate event
                 }
               ]
             },

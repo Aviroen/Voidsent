@@ -23,5 +23,12 @@
   "Interro": "?!",
   "Huh": "Huh?",
   "Who": "Who?",
-  "You": "You"
+  "You": "You",
+  "Guidebook.Title": "Voidsent Guidebook",
+  "guidebook.chapter.Title.name": "The Beginning",
+  "guidebook.chapter.Title.TitlePage": "",
+  "guidebook.chapter.Title.Introduction": "",
+  "guidebook.chapter.Title.NewMechanics": "",
+  "guidebook.chapter.Title.TableOfContents": "",
+  "guidebook.chapter.ArtificialBeach.name": "Artificial Beach"
 }

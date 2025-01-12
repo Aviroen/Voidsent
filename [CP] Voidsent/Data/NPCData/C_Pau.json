@@ -11,7 +11,7 @@
       "Entries": {
         "{{Pau}}": {
           "DisplayName": "{{i18n:Pau}}",
-          "BirthSeason": "Spring",
+          "BirthSeason": null,
           "BirthDay": 27,
           "HomeRegion": "Other",
           "Language": "Default",
@@ -71,7 +71,7 @@
           "DumpsterDiveFriendshipEffect": -5,
           "DumpsterDiveEmote": null,
           "FriendsAndFamily": {},
-          "FlowerDanceCanDance": null,
+          "FlowerDanceCanDance": false,
           "WinterStarGifts": [],
           "WinterStarParticipant": null,
           "UnlockConditions": "PLAYER_HAS_SEEN_EVENT Current ",

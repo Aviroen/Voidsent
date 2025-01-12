@@ -12,7 +12,7 @@
         "{{Sai}}": {
           "DisplayName": "{{i18n:Sai}}",
           "BirthSeason": "Fall",
-          "BirthDay": 4,
+          "BirthDay": 0,
           "HomeRegion": "Other",
           "Language": "Default",
           "Gender": "Undefined",
@@ -69,7 +69,7 @@
           "DumpsterDiveEmote": null,
           "FriendsAndFamily": {
           },
-          "FlowerDanceCanDance": null,
+          "FlowerDanceCanDance": false,
           "WinterStarGifts": [],
           "WinterStarParticipant": null,
           "UnlockConditions": "PLAYER_HAS_SEEN_EVENT Current ",

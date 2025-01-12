@@ -11,8 +11,8 @@
       "Entries": {
         "{{Penumbra}}": {
           "DisplayName": "{{i18n:Penumbra}}",
-          "BirthSeason": "Fall",
-          "BirthDay": 15,
+          "BirthSeason": null,
+          "BirthDay": 0,
           "HomeRegion": "Other",
           "Language": "Default",
           "Gender": "Male",
@@ -76,7 +76,7 @@
             "{{Muvi}}": "{{i18n:Subordinate}}",
             "Aviroen": "{{i18n:Boss}}"
           },
-          "FlowerDanceCanDance": null,
+          "FlowerDanceCanDance": false,
           "WinterStarPenumbra.Gifts": [],
           "WinterStarParticipant": null,
           "UnlockConditions": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_MorabyrBoat Any",

@@ -12,7 +12,7 @@
         "{{Fothao}}": {
           "DisplayName": "{{i18n:Fothao}}",
           "BirthSeason": "Fall",
-          "BirthDay": 4,
+          "BirthDay": 0,
           "HomeRegion": "Other",
           "Language": "Default",
           "Gender": "Female",
@@ -69,7 +69,7 @@
           "DumpsterDiveEmote": null,
           "FriendsAndFamily": {
           },
-          "FlowerDanceCanDance": null,
+          "FlowerDanceCanDance": false,
           "WinterStarGifts": [],
           "WinterStarParticipant": null,
           "UnlockConditions": "PLAYER_HAS_SEEN_EVENT Current ",
