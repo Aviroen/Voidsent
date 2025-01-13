@@ -1,32 +1,27 @@
 {
   "Changes": [
     {
-      "Action": "Load",
-      "Target": "Characters/{{Sai}}, Portraits/{{Sai}}",
-      "FromFile": "Assets/NPCS/{{TargetPathOnly}}/{{TargetWithoutPath}}.png"
-    },
-    {
       "Action": "EditData",
       "Target": "Data/Characters",
       "Entries": {
-        "{{Sai}}": {
-          "DisplayName": "{{i18n:Sai}}",
-          "BirthSeason": "Fall",
+        "{{ModId}}_{{NPCNAME}}": {
+          "DisplayName": "{{i18n:{{DISPLAYNAME}}}}",
+          "BirthSeason": null,
           "BirthDay": 0,
           "HomeRegion": "Other",
           "Language": "Default",
-          "Gender": "Undefined",
+          "Gender": "{{GENDER}}",
           "Age": "Adult",
-          "Manner": "Rude",
-          "SocialAnxiety": "Shy",
-          "Optimism": "Negative",
-          "IsDarkSkinned": true,
-          "CanBeRomanced": true,
+          "Manner": "{{MANNER}}",
+          "SocialAnxiety": "{{ANXIETY}}",
+          "Optimism": "{{OPTIMISM}}",
+          "IsDarkSkinned": "{{DARKSKIN}}",
+          "CanBeRomanced": "{{ROMANCE}}",
           "LoveInterest": null,
           "Calendar": "HiddenUntilMet",
           "SocialTab": "HiddenUntilMet",
           "CanSocialize": null,
-          "CanReceiveGifts": true,
+          "CanReceiveGifts": "{{GIFTABLE}}",
           "CanGreetNearbyCharacters": true,
           "CanCommentOnPurchasedShopItems": null,
           "CanVisitIsland": null,
@@ -34,24 +29,24 @@
           "ItemDeliveryQuests": null,
           "PerfectionScore": false,
           "EndSlideShow": "TrailingGroup",
-          "SpouseAdopts": null,
-          "SpouseWantsChildren": true,
+          "SpouseAdopts": "{{ADOPT}}",
+          "SpouseWantsChildren": "{{CHILDREN}}",
           "SpouseGiftJealousy": null,
           "SpouseGiftJealousyFriendshipChange": -30,
           "SpouseRoom": {
-            "MapAsset": null,
+            "MapAsset": "Spouse_{{SpouseRooms}}",
             "MapSourceRect": {
-              "X": 0,
-              "Y": 0,
+              "X": "{{XINDEXSPOUSE}}",
+              "Y": "{{YINDEXSPOUSE}}",
               "Width": 6,
               "Height": 9
             }
           },
           "SpousePatio": {
-            "MapAsset": null,
+            "MapAsset": "Maps/{{ModId}}_Patio",
             "MapSourceRect": {
-              "X": 0,
-              "Y": 0,
+              "X": "{{XINDEXPATIO}}",
+              "Y": "{{YINDEXPATIO}}",
               "Width": 4,
               "Height": 4
             },
@@ -72,18 +67,18 @@
           "FlowerDanceCanDance": false,
           "WinterStarGifts": [],
           "WinterStarParticipant": null,
-          "UnlockConditions": "PLAYER_HAS_SEEN_EVENT Current ",
+          "UnlockConditions": "{{UNLOCKCONDITIONS}}",
           "SpawnIfMissing": true,
           "Home": [
             {
               "Id": "Default",
               "Condition": null,
-              "Location": null,
+              "Location": "{{ModId}}_{{HOMELOCATION}}",
               "Tile": {
-                "X": 26,
-                "Y": 19
+                "X": "{{HOMEXTILE}}",
+                "Y": "{{HOMEYTILE}}"
               },
-              "Direction": "right"
+              "Direction": "{{HOMEFACING}}"
             }
           ],
           "TextureName": null,
@@ -119,26 +114,7 @@
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
       "Entries": {
-        "{{Sai}}": "{{i18n:Gifts.Loved}}//{{i18n:Gifts.Liked}}//{{i18n:Gifts.Disliked}}//{{i18n:Gifts.Hated}}//{{i18n:Gifts.Neutral}}//"
-      }
-    },
-    //////////////////////////////////////////////////////////////////////////////////////////////////
-    {
-      "Action": "EditData",
-      "Target": "Data/ConcessionTastes",
-      "Entries": {
-        "{{Sai}}": {
-          "Name": "{{Sai}}",
-          "LovedTags": [
-            "Apple Slices"
-          ],
-          "LikedTags": [
-            "Truffle Popcorn"
-          ],
-          "DislikedTags": [
-            "Black Licorice"
-          ]
-        }
+        "{{ModId}}_{{NPCNAME}}": "{{i18n:{{NPCNAME}}.Gifts.Loved}}/{{LOVEDGIFTS}}/{{i18n:{{NPCNAME}}.Gifts.Liked}}/{{LIKEDGIFTS}}/{{i18n:{{NPCNAME}}.Gifts.Disliked}}/{{DISLIKEDGIFTS}}/{{i18n:{{NPCNAME}}.Gifts.Hated}}/{{HATEDGIFTS}}/{{i18n:{{NPCNAME}}.Gifts.Neutral}}/{{NEUTRALGIFTS}}/"
       }
     },
     //////////////////////////////////////////////////////////////////////////////////////////////////
@@ -146,17 +122,17 @@
       "Action": "EditData",
       "Target": "Strings/StringsFromCSFiles",
       "Entries": {
-        "{{Sai}}_Engaged": "{{i18n:Sai}}", //proposal
-        "{{Sai}}_AfterWedding": "{{i18n:Sai}}"
+        "{{ModId}}_{{NPCNAME}}_Engaged": "{{i18n:{{NPCNAME}}.Engaged}}", //proposal
+        "{{ModId}}_{{NPCNAME}}_AfterWedding": "{{i18n:{{NPCNAME}}.AfterWedding}}"
       }
     },
     //////////////////////////////////////////////////////////////////////////////////////////////////
     {
-      "LogName": "Edel's' Schedule",
+      "LogName": "Schedule Data",
       "Action": "EditData",
-      "Target": "Characters/schedules/{{Sai}}",
+      "Target": "Characters/schedules/{{ModId}}_{{NPCNAME}}",
       "Entries": {
-        "spring": "",
+        "spring": "{{SPRINGSCHEDULE}}",
         "marriage_Mon": "",
         "marriage_Tue": "",
         "marriage_Wed": ""
@@ -165,46 +141,46 @@
     //////////////////////////////////////////////////////////////////////////////////////////////////
     {
       "Action": "EditData",
-      "Target": "Characters/Dialogue/{{Sai}}",
+      "Target": "Characters/Dialogue/{{ModId}}_{{NPCNAME}}",
       "Entries": {
-        "breakUp": "{{i18n:Sai.breakUp}}",
-        "divorced": "{{i18n:Sai.divorced}}",
-        "DumpsterDiveComment": "{{i18n:Sai.DumpsterDiveComment}}",
-        "HitBySlingshot": "{{i18n:Sai.HitBySlingshot}}",
-        "Resort": "{{i18n:Sai.Resort}}",
-        "Resort_Bar": "{{i18n:Sai.Resort_Bar}}",
-        "Resort_Chair": "{{i18n:Sai.Resort_Chair}}",
-        "Resort_Dance": "{{i18n:Sai.Resort_Dance}}",
-        "Resort_Entering": "{{i18n:Sai.Resort_Entering}}",
-        "Resort_Leaving": "{{i18n:Sai.Resort_Leaving}}",
-        "Resort_Shore": "{{i18n:Sai.Resort_Shore}}",
-        "Resort_Towel": "{{i18n:Sai.Resort_Towel}}",
-        "Resort_Umbrella": "{{i18n:Sai.Resort_Umbrella}}",
-        "Resort_Wander": "{{i18n:Sai.Resort_Wander}}",
-        "SpouseFarmhouseClutter": "{{i18n:Sai.SpouseFarmhouseClutter}}",
-        "SpouseGiftJealous": "{{i18n:Sai.SpouseGiftJealous}}",
-        "Spouse_MonstersInHouse": "{{i18n:Sai.Spouse_MonstersInHouse}}",
-        "SpouseStardrop": "{{i18n:Sai.SpouseStardrop}}",
-        "WipedMemory": "{{i18n:Sai.WipedMemory}}",
-        "AcceptBirthdayGift_Negative": "{{i18n:Sai.AcceptBirthdayGift_Negative}}",
-        "AcceptBirthdayGift_Positive": "{{i18n:Sai.AcceptBirthdayGift_Positive}}",
-        "AcceptBirthdayGift": "{{i18n:Sai.AcceptBirthdayGift}}",
-        "AcceptBouquet": "{{i18n:Sai.AcceptBouquet}}",
-        "MovieInvitation": "{{i18n:Sai.MovieInvitation}}",
-        "RejectBouquet": "{{i18n:Sai.RejectBouquet}}",
-        "RejectGift_Divorced": "{{i18n:Sai.RejectGift_Divorced}}",
-        "RejectMermaidPendant": "{{i18n:Sai.RejectMermaidPendant}}",
-        "RejectMovieTicket": "{{i18n:Sai.RejectMovieTicket}}",
-        "GreenRain": "{{i18n:Sai.GreenRain}}",
-        "GreenRainFinished": "{{i18n:Sai.GreenRainFinished}}",
+        "breakUp": "{{i18n:{{NPCNAME}}.breakUp}}",
+        "divorced": "{{i18n:{{NPCNAME}}.divorced}}",
+        "DumpsterDiveComment": "{{i18n:{{NPCNAME}}.DumpsterDiveComment}}",
+        "HitBySlingshot": "{{i18n:{{NPCNAME}}.HitBySlingshot}}",
+        "Resort": "{{i18n:{{NPCNAME}}.Resort}}",
+        "Resort_Bar": "{{i18n:{{NPCNAME}}.Resort_Bar}}",
+        "Resort_Chair": "{{i18n:{{NPCNAME}}.Resort_Chair}}",
+        "Resort_Dance": "{{i18n:{{NPCNAME}}.Resort_Dance}}",
+        "Resort_Entering": "{{i18n:{{NPCNAME}}.Resort_Entering}}",
+        "Resort_Leaving": "{{i18n:{{NPCNAME}}.Resort_Leaving}}",
+        "Resort_Shore": "{{i18n:{{NPCNAME}}.Resort_Shore}}",
+        "Resort_Towel": "{{i18n:{{NPCNAME}}.Resort_Towel}}",
+        "Resort_Umbrella": "{{i18n:{{NPCNAME}}.Resort_Umbrella}}",
+        "Resort_Wander": "{{i18n:{{NPCNAME}}.Resort_Wander}}",
+        "SpouseFarmhouseClutter": "{{i18n:{{NPCNAME}}.SpouseFarmhouseClutter}}",
+        "SpouseGiftJealous": "{{i18n:{{NPCNAME}}.SpouseGiftJealous}}",
+        "Spouse_MonstersInHouse": "{{i18n:{{NPCNAME}}.Spouse_MonstersInHouse}}",
+        "SpouseStardrop": "{{i18n:{{NPCNAME}}.SpouseStardrop}}",
+        "WipedMemory": "{{i18n:{{NPCNAME}}.WipedMemory}}",
+        "AcceptBirthdayGift_Negative": "{{i18n:{{NPCNAME}}.AcceptBirthdayGift_Negative}}",
+        "AcceptBirthdayGift_Positive": "{{i18n:{{NPCNAME}}.AcceptBirthdayGift_Positive}}",
+        "AcceptBirthdayGift": "{{i18n:{{NPCNAME}}.AcceptBirthdayGift}}",
+        "AcceptBouquet": "{{i18n:{{NPCNAME}}.AcceptBouquet}}",
+        "MovieInvitation": "{{i18n:{{NPCNAME}}.MovieInvitation}}",
+        "RejectBouquet": "{{i18n:{{NPCNAME}}.RejectBouquet}}",
+        "RejectGift_Divorced": "{{i18n:{{NPCNAME}}.RejectGift_Divorced}}",
+        "RejectMermaidPendant": "{{i18n:{{NPCNAME}}.RejectMermaidPendant}}",
+        "RejectMovieTicket": "{{i18n:{{NPCNAME}}.RejectMovieTicket}}",
+        "GreenRain": "{{i18n:{{NPCNAME}}.GreenRain}}",
+        "GreenRainFinished": "{{i18n:{{NPCNAME}}.GreenRainFinished}}",
 
-        "Mon": "{{i18n:Sai.Mon_{{Random:{{Range: 0, 3}}}}}}",
-        "Tue": "{{i18n:Sai.Tue_{{Random:{{Range: 0, 3}}}}}}",
-        "Wed": "{{i18n:Sai.Wed_{{Random:{{Range: 0, 3}}}}}}",
-        "Thu": "{{i18n:Sai.Thu_{{Random:{{Range: 0, 3}}}}}}",
-        "Fri": "{{i18n:Sai.Fri_{{Random:{{Range: 0, 3}}}}}}",
-        "Sat": "{{i18n:Sai.Sat_{{Random:{{Range: 0, 3}}}}}}",
-        "Sun": "{{i18n:Sai.Sun_{{Random:{{Range: 0, 3}}}}}}"
+        "Mon": "{{i18n:{{NPCNAME}}.Mon_{{Random:{{Range: 0, 3}}}}}}",
+        "Tue": "{{i18n:{{NPCNAME}}.Tue_{{Random:{{Range: 0, 3}}}}}}",
+        "Wed": "{{i18n:{{NPCNAME}}.Wed_{{Random:{{Range: 0, 3}}}}}}",
+        "Thu": "{{i18n:{{NPCNAME}}.Thu_{{Random:{{Range: 0, 3}}}}}}",
+        "Fri": "{{i18n:{{NPCNAME}}.Fri_{{Random:{{Range: 0, 3}}}}}}",
+        "Sat": "{{i18n:{{NPCNAME}}.Sat_{{Random:{{Range: 0, 3}}}}}}",
+        "Sun": "{{i18n:{{NPCNAME}}.Sun_{{Random:{{Range: 0, 3}}}}}}"
       }
     },
     //////////////////////////////////////////////////////////////////////////////////////////////////
@@ -213,23 +189,93 @@
       "Action": "EditData",
       "Target": "data/EngagementDialogue",
       "Entries": {
-        "{{Sai}}0": "{{i18n:Sai}}",
-        "{{Sai}}1": "{{i18n:Sai}}"
+        "{{ModId}}_{{NPCNAME}}0": "{{i18n:{{NPCNAME}}.Engaged1}}",
+        "{{ModId}}_{{NPCNAME}}1": "{{i18n:{{NPCNAME}}.Engaged2}}"
       }
     },
     {
       "LogName": "Marriage Dialogue - Base",
       "Action": "EditData",
-      "Target": "Characters/Dialogue/MarriageDialogue{{Sai}}",
+      "Target": "Characters/Dialogue/MarriageDialogue{{ModId}}_{{NPCNAME}}",
       "Entries": {
-      }
-    },
-    //////////////////////////////////////////////////////////////////////////////////////////////////
-    { //edelintro
-      "LogName": "Heart Event - 0",
-      "Action": "EditData",
-      "Target": "data/events/",
-      "Entries": {
+        "Spring_{{ModId}}_{{NPCNAME}}": "{{i18n:{{NPCNAME}}.SpringM_{{Random:{{Range: 0, 3}}}}}}",
+        "Summer_{{ModId}}_{{NPCNAME}}": "{{i18n:{{NPCNAME}}.SummerM_{{Random:{{Range: 0, 3}}}}}}",
+        "Fall_{{ModId}}_{{NPCNAME}}": "{{i18n:{{NPCNAME}}.FallM_{{Random:{{Range: 0, 3}}}}}}",
+        "Winter_{{ModId}}_{{NPCNAME}}": "{{i18n:{{NPCNAME}}.WinterM_{{Random:{{Range: 0, 3}}}}}}",
+        "patio_{{ModId}}_{{NPCNAME}}": "{{i18n:{{NPCNAME}}.Patio_{{Random:{{Range: 0, 3}}}}}}",
+        "Rainy_Day_0": "{{i18n:{{NPCNAME}}.Rainy_{{Random:{{Range: 0, 3}}}}}}",
+        "Rainy_Day_1": "{{i18n:{{NPCNAME}}.Rainy_{{Random:{{Range: 0, 3}}}}}}",
+        "Rainy_Day_2": "{{i18n:{{NPCNAME}}.Rainy_{{Random:{{Range: 0, 3}}}}}}",
+        "Rainy_Day_3": "{{i18n:{{NPCNAME}}.Rainy_{{Random:{{Range: 0, 3}}}}}}",
+        "Rainy_Day_4": "{{i18n:{{NPCNAME}}.Rainy_{{Random:{{Range: 0, 3}}}}}}",
+        "Rainy_Day_5": "{{i18n:{{NPCNAME}}.Rainy_{{Random:{{Range: 0, 3}}}}}}",
+        "Indoor_Day_0": "{{i18n:{{NPCNAME}}.Indoor_Day_{{Random:{{Range: 0, 3}}}}}}",
+        "Indoor_Day_1": "{{i18n:{{NPCNAME}}.Indoor_Day_{{Random:{{Range: 0, 3}}}}}}",
+        "Indoor_Day_2": "{{i18n:{{NPCNAME}}.Indoor_Day_{{Random:{{Range: 0, 3}}}}}}",
+        "Indoor_Day_3": "{{i18n:{{NPCNAME}}.Indoor_Day_{{Random:{{Range: 0, 3}}}}}}",
+        "Indoor_Day_4": "{{i18n:{{NPCNAME}}.Indoor_Day_{{Random:{{Range: 0, 3}}}}}}",
+        "Indoor_Day_5": "{{i18n:{{NPCNAME}}.Indoor_Day_{{Random:{{Range: 0, 3}}}}}}",
+        "Rainy_Night_0": "{{i18n:{{NPCNAME}}.Rainy_Night_{{Random:{{Range: 0, 3}}}}}}",
+        "Rainy_Night_1": "{{i18n:{{NPCNAME}}.Rainy_Night_{{Random:{{Range: 0, 3}}}}}}",
+        "Rainy_Night_2": "{{i18n:{{NPCNAME}}.Rainy_Night_{{Random:{{Range: 0, 3}}}}}}",
+        "Rainy_Night_3": "{{i18n:{{NPCNAME}}.Rainy_Night_{{Random:{{Range: 0, 3}}}}}}",
+        "Rainy_Night_4": "{{i18n:{{NPCNAME}}.Rainy_Night_{{Random:{{Range: 0, 3}}}}}}",
+        "Rainy_Night_5": "{{i18n:{{NPCNAME}}.Rainy_Night_{{Random:{{Range: 0, 3}}}}}}",
+        "Indoor_Night_0": "{{i18n:{{NPCNAME}}.Indoor_Night_{{Random:{{Range: 0, 3}}}}}}",
+        "Indoor_Night_1": "{{i18n:{{NPCNAME}}.Indoor_Night_{{Random:{{Range: 0, 3}}}}}}",
+        "Indoor_Night_2": "{{i18n:{{NPCNAME}}.Indoor_Night_{{Random:{{Range: 0, 3}}}}}}",
+        "Indoor_Night_3": "{{i18n:{{NPCNAME}}.Indoor_Night_{{Random:{{Range: 0, 3}}}}}}",
+        "Indoor_Night_4": "{{i18n:{{NPCNAME}}.Indoor_Night_{{Random:{{Range: 0, 3}}}}}}",
+        "Indoor_Night_5": "{{i18n:{{NPCNAME}}.Indoor_Night_{{Random:{{Range: 0, 3}}}}}}",
+        "funLeave_{{ModId}}_{{NPCNAME}}": "{{i18n:{{NPCNAME}}.funLeave_{{Random:{{Range: 0, 3}}}}}}",
+        "funReturn_{{ModId}}_{{NPCNAME}}": "{{i18n:{{NPCNAME}}.funReturn_{{Random:{{Range: 0, 3}}}}}}",
+        "Outdoor_{{ModId}}_{{NPCNAME}}": "{{i18n:{{NPCNAME}}.Outdoor_{{Random:{{Range: 0, 3}}}}}}",
+        "Outdoor_0": "{{i18n:{{NPCNAME}}.Outdoor_{{Random:{{Range: 0, 3}}}}}}",
+        "Outdoor_1": "{{i18n:{{NPCNAME}}.Outdoor_{{Random:{{Range: 0, 3}}}}}}",
+        "Outdoor_2": "{{i18n:{{NPCNAME}}.Outdoor_{{Random:{{Range: 0, 3}}}}}}",
+        "Outdoor_3": "{{i18n:{{NPCNAME}}.Outdoor_{{Random:{{Range: 0, 3}}}}}}",
+        "Outdoor_4": "{{i18n:{{NPCNAME}}.Outdoor_{{Random:{{Range: 0, 3}}}}}}",
+        "spouseRoom_{{ModId}}_{{NPCNAME}}": "{{i18n:{{NPCNAME}}.spouseRoom_{{Random:{{Range: 0, 3}}}}}}",
+        "OneKid_0": "{{i18n:{{NPCNAME}}.oneKid_{{Random:{{Range: 0, 3}}}}}}",
+        "OneKid_1": "{{i18n:{{NPCNAME}}.oneKid_{{Random:{{Range: 0, 3}}}}}}",
+        "OneKid_2": "{{i18n:{{NPCNAME}}.oneKid_{{Random:{{Range: 0, 3}}}}}}",
+        "OneKid_3": "{{i18n:{{NPCNAME}}.oneKid_{{Random:{{Range: 0, 3}}}}}}",
+        "OneKid_4": "{{i18n:{{NPCNAME}}.oneKid_{{Random:{{Range: 0, 3}}}}}}",
+        "TwoKids_0": "{{i18n:{{NPCNAME}}.twoKids_{{Random:{{Range: 0, 3}}}}}}",
+        "TwoKids_1": "{{i18n:{{NPCNAME}}.twoKids_{{Random:{{Range: 0, 3}}}}}}",
+        "TwoKids_2": "{{i18n:{{NPCNAME}}.twoKids_{{Random:{{Range: 0, 3}}}}}}",
+        "TwoKids_3": "{{i18n:{{NPCNAME}}.twoKids_{{Random:{{Range: 0, 3}}}}}}",
+        "TwoKids_4": "{{i18n:{{NPCNAME}}.twoKids_{{Random:{{Range: 0, 3}}}}}}",
+        "Good_0": "{{i18n:{{NPCNAME}}.Good_{{Random:{{Range: 0, 3}}}}}}",
+        "Good_1": "{{i18n:{{NPCNAME}}.Good_{{Random:{{Range: 0, 3}}}}}}",
+        "Good_2": "{{i18n:{{NPCNAME}}.Good_{{Random:{{Range: 0, 3}}}}}}",
+        "Good_3": "{{i18n:{{NPCNAME}}.Good_{{Random:{{Range: 0, 3}}}}}}",
+        "Good_4": "{{i18n:{{NPCNAME}}.Good_{{Random:{{Range: 0, 3}}}}}}",
+        "Good_5": "{{i18n:{{NPCNAME}}.Good_{{Random:{{Range: 0, 3}}}}}}",
+        "Good_6": "{{i18n:{{NPCNAME}}.Good_{{Random:{{Range: 0, 3}}}}}}",
+        "Good_7": "{{i18n:{{NPCNAME}}.Good_{{Random:{{Range: 0, 3}}}}}}",
+        "Good_8": "{{i18n:{{NPCNAME}}.Good_{{Random:{{Range: 0, 3}}}}}}",
+        "Good_9": "{{i18n:{{NPCNAME}}.Good_{{Random:{{Range: 0, 3}}}}}}",
+        "Neutral_0": "{{i18n:{{NPCNAME}}.Neutral_{{Random:{{Range: 0, 3}}}}}}",
+        "Neutral_1": "{{i18n:{{NPCNAME}}.Neutral_{{Random:{{Range: 0, 3}}}}}}",
+        "Neutral_2": "{{i18n:{{NPCNAME}}.Neutral_{{Random:{{Range: 0, 3}}}}}}",
+        "Neutral_3": "{{i18n:{{NPCNAME}}.Neutral_{{Random:{{Range: 0, 3}}}}}}",
+        "Neutral_4": "{{i18n:{{NPCNAME}}.Neutral_{{Random:{{Range: 0, 3}}}}}}",
+        "Neutral_5": "{{i18n:{{NPCNAME}}.Neutral_{{Random:{{Range: 0, 3}}}}}}",
+        "Neutral_6": "{{i18n:{{NPCNAME}}.Neutral_{{Random:{{Range: 0, 3}}}}}}",
+        "Neutral_7": "{{i18n:{{NPCNAME}}.Neutral_{{Random:{{Range: 0, 3}}}}}}",
+        "Neutral_8": "{{i18n:{{NPCNAME}}.Neutral_{{Random:{{Range: 0, 3}}}}}}",
+        "Neutral_9": "{{i18n:{{NPCNAME}}.Neutral_{{Random:{{Range: 0, 3}}}}}}",
+        "Bad_0": "{{i18n:{{NPCNAME}}.Bad_{{Random:{{Range: 0, 3}}}}}}",
+        "Bad_1": "{{i18n:{{NPCNAME}}.Bad_{{Random:{{Range: 0, 3}}}}}}",
+        "Bad_2": "{{i18n:{{NPCNAME}}.Bad_{{Random:{{Range: 0, 3}}}}}}",
+        "Bad_3": "{{i18n:{{NPCNAME}}.Bad_{{Random:{{Range: 0, 3}}}}}}",
+        "Bad_4": "{{i18n:{{NPCNAME}}.Bad_{{Random:{{Range: 0, 3}}}}}}",
+        "Bad_5": "{{i18n:{{NPCNAME}}.Bad_{{Random:{{Range: 0, 3}}}}}}",
+        "Bad_6": "{{i18n:{{NPCNAME}}.Bad_{{Random:{{Range: 0, 3}}}}}}",
+        "Bad_7": "{{i18n:{{NPCNAME}}.Bad_{{Random:{{Range: 0, 3}}}}}}",
+        "Bad_8": "{{i18n:{{NPCNAME}}.Bad_{{Random:{{Range: 0, 3}}}}}}",
+        "Bad_9": "{{i18n:{{NPCNAME}}.Bad_{{Random:{{Range: 0, 3}}}}}}"
       }
     }
   ]

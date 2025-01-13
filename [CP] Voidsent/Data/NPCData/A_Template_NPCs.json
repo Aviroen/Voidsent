@@ -10,7 +10,7 @@
       "Target": "Data/Characters",
       "Entries": {
         "{{ModId}}_{{NPCNAME}}": {
-          "DisplayName": "{{i18n:{{NPCNAME}}}}",
+          "DisplayName": "{{i18n:{{DISPLAYNAME}}}}",
           "BirthSeason": null,
           "BirthDay": 0,
           "HomeRegion": "Other",
@@ -39,7 +39,7 @@
           "SpouseGiftJealousy": null,
           "SpouseGiftJealousyFriendshipChange": -30,
           "SpouseRoom": {
-            "MapAsset": "{{SpouseRoom}}",
+            "MapAsset": "Spouse_{{SpouseRooms}}",
             "MapSourceRect": {
               "X": "{{XINDEXSPOUSE}}",
               "Y": "{{YINDEXSPOUSE}}",
@@ -78,7 +78,7 @@
             {
               "Id": "Default",
               "Condition": null,
-              "Location": "{{ModId}}_{{HOMELOCATION}}",
+              "Location": "{{HOMELOCATION}}",
               "Tile": {
                 "X": "{{HOMEXTILE}}",
                 "Y": "{{HOMEYTILE}}"
@@ -138,9 +138,23 @@
       "Target": "Characters/schedules/{{ModId}}_{{NPCNAME}}",
       "Entries": {
         "spring": "{{SPRINGSCHEDULE}}",
-        "marriage_Mon": "",
-        "marriage_Tue": "",
-        "marriage_Wed": ""
+        "summer": "{{SUMMERSCHEDULE}}",
+        "fall": "{{FALLSCHEDULE}}",
+        "winter": "{{WINTERSCHEDULE}}",
+        "Mon": "{{MONDAYSCHEDULE}}",
+        "Tue": "{{TUESDAYSCHEDULE}}",
+        "Wed": "{{WEDNESDAYSCHEDULE}}",
+        "Thu": "{{THURSAYSCHEDULE}}",
+        "Fri": "{{FRIDAYSCHEDULE}}",
+        "Sat": "{{SATURDAYSCHEDULE}}",
+        "Sun": "{{SUNDAYSCHEDULE}}",
+        "marriage_Mon": "{{marriage_MONDAYSCHEDULE}}",
+        "marriage_Tue": "{{marriage_TUESDAYSCHEDULE}}",
+        "marriage_Wed": "{{marriage_WEDNESDAYSCHEDULE}}",
+        "marriage_Thu": "{{marriage_THURSAYSCHEDULE}}",
+        "marriage_Fri": "{{marriage_FRIDAYSCHEDULE}}",
+        "marriage_Sat": "{{marriage_SATURDAYSCHEDULE}}",
+        "marriage_Sun": "{{marriage_SUNDAYSCHEDULE}}"
       }
     },
     //////////////////////////////////////////////////////////////////////////////////////////////////

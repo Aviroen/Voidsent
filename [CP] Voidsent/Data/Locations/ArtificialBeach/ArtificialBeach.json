@@ -55,6 +55,10 @@
     {
       "Action": "EditMap",
       "Target": "Maps/{{ModId}}_ArtificialBeach",
+      "MapProperties": {
+        "SeasonOverride": "Spring",
+        "Outdoors": true
+      },
       "MapTiles": [
         {
           "Position": {

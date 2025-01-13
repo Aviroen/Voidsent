@@ -5,6 +5,7 @@ using Microsoft.Xna.Framework;
 using StardewUI.Framework;
 using HarmonyLib;
 using System.Collections.Generic;
+using RTAudioProcessing;
 
 namespace Voidsent
 {
