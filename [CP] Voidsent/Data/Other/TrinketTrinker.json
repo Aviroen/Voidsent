@@ -1,0 +1,431 @@
+{
+  "Changes": [
+    // Load texture
+    {
+      "LogName": "Terraprisma",
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/Assets/Objects/Trinkets/Terraprisma",
+      "FromFile": "{{Target}}.png"
+    },
+    // Edit Data/Trinkets
+    {
+      "LogName": "Terraprisma Data/Trinkets",
+      "Action": "EditData",
+      "Target": "Data/Trinkets",
+      "Entries": {
+        "{{ModId}}_Terraprisma": {
+          // Trinket ID, gives qualified ID of (TR){{ModId}}_MyTrinket
+          "Id": "{{ModId}}_Terraprisma",
+          // Display name (with i18n)
+          "DisplayName": "{{i18n:Terraprisma}}",
+          // Description, can include {0} token for the trinket level and {1} for ability descriptions
+          "Description": "{{i18n:Terraprisma.Trinket.Description}}",
+          // Path to asset texture load target
+          "Texture": "Mods/{{ModId}}/Assets/Objects/Trinkets/Terraprisma",
+          // Sheet index (with 16x16 sprite size)
+          "SheetIndex": 0,
+          // Type that controls behavior of trinket, changing this alters what the trinket does, but several effects are hardcoded.
+          "TrinketEffectClass": "StardewValley.Objects.Trinkets.TrinketEffect",
+          // Add trinket to random drop pool once player attains combat mastery
+          // Can still add other ways to acquire (e.g. shops, machine outputs)
+          "DropsNaturally": false,
+          // Allow trinket to reroll stats on the anvil (and reroll appearance on the colorizer, for trinkets with tinker data).
+          "CanBeReforged": false
+          // Mod specific data, not used by base game or TrinketTinker
+          // "CustomFields": null,
+          // "ModData": null
+        }
+      }
+    },
+    {
+      "LogName": "Terraprisma TrinketTinker/Tinker",
+      "Action": "EditData",
+      "Target": "mushymato.TrinketTinker/Tinker",
+      "Entries": {
+        "{{ModId}}_Terraprisma": {
+          // Trinket ID, gives qualified ID of (TR){{ModId}}_MyTrinket
+          "MinLevel": "69",
+          "Variants": [
+            {
+              "Texture": "Mods/{{ModId}}/Assets/Objects/Trinkets/Terraprisma",
+              "Width": 8,
+              "Height": 8,
+              "TrinketSpriteIndex": 0
+            },
+            {
+              "Texture": "Mods/{{ModId}}/Assets/Objects/Trinkets/Terraprisma",
+              "Width": 8,
+              "Height": 8,
+              "TrinketSpriteIndex": 4
+            },
+            {
+              "Texture": "Mods/{{ModId}}/Assets/Objects/Trinkets/Terraprisma",
+              "Width": 8,
+              "Height": 8,
+              "TrinketSpriteIndex": 8
+            }
+          ],
+          "Motion": {
+            "MotionClass": "Serpent",
+            "DirectionMode": "RL",
+            "DirectionRotate": false,
+            "FrameLength": 3,
+            "Interval": 400,
+            "AlwaysMoving": true,
+            "Anchors": [
+              {
+                "Mode": "Monster",
+                "Range": 1280
+              }
+            ],
+            "Args": {
+              "Max": 2048,
+              "Jitter": 128,
+              "Rate": 600,
+              "SegmentCount": 7,
+              "SegmentAlts": 3,
+              "Sparcity": 7
+            }
+          },
+          "Abilities": [
+            //lv 1
+            [
+              {
+                "AbilityClass": "Hitscan",
+                "Description": "{{i18n:Terraprisma.AbilityDescription.1}}",
+                "Proc": "Timer",
+                "ProcTimer": 3000,
+                "Args": {
+                  "Min": 15,
+                  "Knockback": 2,
+                  "Precision": 2,
+                  "CritChance": 0.5,
+                  "CritDamage": 0.5,
+                  "StunTime": 1,
+                  "Hits": 2
+                }
+              }
+            ],
+            //lv 2
+            [
+              {
+                "AbilityClass": "Hitscan",
+                "Description": "{{i18n:Terraprisma.AbilityDescription.2}}",
+                "Proc": "Timer",
+                "ProcTimer": 3000,
+                "Args": {
+                  "Min": 25,
+                  "Knockback": 2,
+                  "Precision": 2,
+                  "CritChance": 0.5,
+                  "CritDamage": 0.5,
+                  "StunTime": 1,
+                  "Hits": 7
+                }
+              }
+            ]
+          ],
+          "AbilityUnlockConditions": [
+            "PLAYER_HAS_FLAG Current {{ModId}}_TerraprismaUnlocked",
+            "PLAYER_HAS_FLAG Current {{ModId}}_TerraprismaUpgraded"
+          ]
+        }
+      }
+    },
+    // Load texture
+    {
+      "LogName": "Excalibur",
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/Assets/Objects/Trinkets/Excalibur",
+      "FromFile": "{{Target}}.png"
+    },
+    // Edit Data/Trinkets
+    {
+      "LogName": "Excalibur Data/Trinkets",
+      "Action": "EditData",
+      "Target": "Data/Trinkets",
+      "Entries": {
+        "{{ModId}}_Excalibur": {
+          // Trinket ID, gives qualified ID of (TR){{ModId}}_MyTrinket
+          "Id": "{{ModId}}_Excalibur",
+          // Display name (with i18n)
+          "DisplayName": "{{ExAlts}}",
+          // Description, can include {0} token for the trinket level and {1} for ability descriptions
+          "Description": "{{i18n:Excalibur.Trinket.Description}}",
+          // Path to asset texture load target
+          "Texture": "Mods/{{ModId}}/Assets/Objects/Trinkets/Excalibur",
+          // Sheet index (with 16x16 sprite size)
+          "SheetIndex": 0,
+          // Type that controls behavior of trinket, changing this alters what the trinket does, but several effects are hardcoded.
+          "TrinketEffectClass": "StardewValley.Objects.Trinkets.TrinketEffect",
+          // Add trinket to random drop pool once player attains combat mastery
+          // Can still add other ways to acquire (e.g. shops, machine outputs)
+          "DropsNaturally": false,
+          // Allow trinket to reroll stats on the anvil (and reroll appearance on the colorizer, for trinkets with tinker data).
+          "CanBeReforged": false
+          // Mod specific data, not used by base game or TrinketTinker
+          // "CustomFields": null,
+          // "ModData": null
+        }
+      }
+    },
+    {
+      "LogName": "Excalibur TrinketTinker/Tinker",
+      "Action": "EditData",
+      "Target": "mushymato.TrinketTinker/Tinker",
+      "Entries": {
+        "{{ModId}}_Excalibur": {
+          // Trinket ID, gives qualified ID of (TR){{ModId}}_MyTrinket
+          "MinLevel": "69",
+          "Variants": [
+            {
+              "Texture": "Mods/{{ModId}}/Assets/Objects/Trinkets/Excalibur",
+              "Width": 8,
+              "Height": 8,
+              "TrinketSpriteIndex": 0
+            },
+            {
+              "Texture": "Mods/{{ModId}}/Assets/Objects/Trinkets/Excalibur",
+              "Width": 8,
+              "Height": 8,
+              "TrinketSpriteIndex": 4
+            },
+            {
+              "Texture": "Mods/{{ModId}}/Assets/Objects/Trinkets/Excalibur",
+              "Width": 8,
+              "Height": 8,
+              "TrinketSpriteIndex": 8
+            }
+          ],
+          "Motion": {
+            "MotionClass": "Serpent",
+            "DirectionMode": "DRUL",
+            "DirectionRotate": false,
+            "FrameLength": 3,
+            "Interval": 400,
+            "AlwaysMoving": true,
+            "Anchors": [
+              {
+                "Mode": "Monster",
+                "Range": 1280
+              }
+            ],
+            "Args": {
+              "Max": 2048,
+              "Jitter": 128,
+              "Rate": 600,
+              "SegmentCount": 7,
+              "SegmentAlts": 3,
+              "Sparcity": 7
+            }
+          },
+          "Abilities": [
+            //lv 1
+            [
+              {
+                "AbilityClass": "Hitscan",
+                "Description": "{{i18n:Excalibur.AbilityDescription.1}}",
+                "Proc": "Timer",
+                "ProcTimer": 3000,
+                "Args": {
+                  "Min": 15,
+                  "Knockback": 2,
+                  "Precision": 2,
+                  "CritChance": 0.5,
+                  "CritDamage": 0.5,
+                  "StunTime": 1,
+                  "Hits": 2
+                }
+              }
+            ],
+            //lv 2
+            [
+              {
+                "AbilityClass": "Hitscan",
+                "Description": "{{i18n:Excalibur.AbilityDescription.2}}",
+                "Proc": "Timer",
+                "ProcTimer": 3000,
+                "Args": {
+                  "Min": 25,
+                  "Knockback": 2,
+                  "Precision": 2,
+                  "CritChance": 0.5,
+                  "CritDamage": 0.5,
+                  "StunTime": 1,
+                  "Hits": 7
+                }
+              }
+            ],
+            //lv 3
+            [
+              {
+                "AbilityClass": "Hitscan",
+                "Description": "{{i18n:Excalibur.AbilityDescription.2}}",
+                "Proc": "Timer",
+                "ProcTimer": 3000,
+                "Args": {
+                  "Min": 25,
+                  "Knockback": 2,
+                  "Precision": 2,
+                  "CritChance": 0.5,
+                  "CritDamage": 0.5,
+                  "StunTime": 1,
+                  "Hits": 12
+                }
+              }
+            ],
+            //lv 4
+            [
+              {
+                "AbilityClass": "Hitscan",
+                "Description": "{{i18n:Excalibur.AbilityDescription.2}}",
+                "Proc": "Timer",
+                "ProcTimer": 3000,
+                "Args": {
+                  "Min": 25,
+                  "Knockback": 2,
+                  "Precision": 2,
+                  "CritChance": 0.5,
+                  "CritDamage": 0.5,
+                  "StunTime": 1,
+                  "Hits": 15
+                }
+              }
+            ]
+          ],
+          "AbilityUnlockConditions": [
+            "PLAYER_HAS_FLAG Current {{ModId}}_ExcaliburUnlocked",
+            "PLAYER_HAS_FLAG Current {{ModId}}_ExcaliburUpgraded2",
+            "PLAYER_HAS_FLAG Current {{ModId}}_ExcaliburUpgraded3",
+            "PLAYER_HAS_FLAG Current {{ModId}}_ExcaliburUpgraded4"
+          ]
+        }
+      }
+    },
+    // Load texture
+    {
+      "LogName": "Rivers of Blood",
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/Assets/Objects/Trinkets/RoB",
+      "FromFile": "{{Target}}.png"
+    },
+    // Edit Data/Trinkets
+    {
+      "LogName": "Rivers of Blood Data/Trinkets",
+      "Action": "EditData",
+      "Target": "Data/Trinkets",
+      "Entries": {
+        "{{ModId}}_RoB": {
+          // Trinket ID, gives qualified ID of (TR){{ModId}}_MyTrinket
+          "Id": "{{ModId}}_RoB",
+          // Display name (with i18n)
+          "DisplayName": "{{i18n:RoB}}",
+          // Description, can include {0} token for the trinket level and {1} for ability descriptions
+          "Description": "{{i18n:RoB.Trinket.Description}}",
+          // Path to asset texture load target
+          "Texture": "Mods/{{ModId}}/Assets/Objects/Trinkets/RoB",
+          // Sheet index (with 16x16 sprite size)
+          "SheetIndex": 0,
+          // Type that controls behavior of trinket, changing this alters what the trinket does, but several effects are hardcoded.
+          "TrinketEffectClass": "StardewValley.Objects.Trinkets.TrinketEffect",
+          // Add trinket to random drop pool once player attains combat mastery
+          // Can still add other ways to acquire (e.g. shops, machine outputs)
+          "DropsNaturally": false,
+          // Allow trinket to reroll stats on the anvil (and reroll appearance on the colorizer, for trinkets with tinker data).
+          "CanBeReforged": false
+          // Mod specific data, not used by base game or TrinketTinker
+          // "CustomFields": null,
+          // "ModData": null
+        }
+      }
+    },
+    {
+      "LogName": "RoB TrinketTinker/Tinker",
+      "Action": "EditData",
+      "Target": "mushymato.TrinketTinker/Tinker",
+      "Entries": {
+        "{{ModId}}_RoB": {
+          // Trinket ID, gives qualified ID of (TR){{ModId}}_MyTrinket
+          "MinLevel": "69",
+          "Variants": [
+            {
+              "Texture": "Mods/{{ModId}}/Assets/Objects/Trinkets/RoB",
+              "Width": 8,
+              "Height": 8,
+              "TrinketSpriteIndex": 0
+            },
+            {
+              "Texture": "Mods/{{ModId}}/Assets/Objects/Trinkets/RoB",
+              "Width": 8,
+              "Height": 8,
+              "TrinketSpriteIndex": 4
+            },
+            {
+              "Texture": "Mods/{{ModId}}/Assets/Objects/Trinkets/RoB",
+              "Width": 8,
+              "Height": 8,
+              "TrinketSpriteIndex": 8
+            }
+          ],
+          "Motion": {
+            "MotionClass": "Hover",
+            "Anchors": [
+              {
+                "Mode": "Monster",
+                "Range": 1280
+              }
+            ],
+            "Args": {
+              "Max": 2048,
+              "Jitter": 128,
+              "Rate": 600,
+              "Magnitude": 8
+            }
+          },
+          "Abilities": [
+            //lv 1
+            [
+              {
+                "AbilityClass": "Hitscan",
+                "Description": "{{i18n:RoB.AbilityDescription.1}}",
+                "Proc": "Timer",
+                "ProcTimer": 3000,
+                "Args": {
+                  "Min": 15,
+                  "Knockback": 2,
+                  "Precision": 2,
+                  "CritChance": 0.5,
+                  "CritDamage": 0.5,
+                  "StunTime": 1,
+                  "Hits": 2
+                }
+              }
+            ],
+            //lv 2
+            [
+              {
+                "AbilityClass": "Hitscan",
+                "Description": "{{i18n:RoB.AbilityDescription.2}}",
+                "Proc": "Timer",
+                "ProcTimer": 3000,
+                "Args": {
+                  "Min": 25,
+                  "Knockback": 2,
+                  "Precision": 2,
+                  "CritChance": 0.5,
+                  "CritDamage": 0.5,
+                  "StunTime": 1,
+                  "Hits": 7
+                }
+              }
+            ]
+          ],
+          "AbilityUnlockConditions": [
+            "PLAYER_HAS_FLAG Current {{ModId}}_RoBUnlocked",
+            "PLAYER_HAS_FLAG Current {{ModId}}_RoBUpgraded"
+          ]
+        }
+      }
+    }
+  ]
+}

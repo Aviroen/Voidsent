@@ -259,11 +259,6 @@
   "Changes": [
     //loads
     {
-      "Action": "Load",
-      "Target": "Mods/{{ModId}}/Assets/Objects",
-      "FromFile": "Assets/Objects/Objects.png"
-    },
-    {
       "LogName": "Load Event Blanks EXTERIORS",
       "Action": "Load",
       "Priority": "Low",
@@ -277,25 +272,7 @@
       "Target": "Data/Events/{{ModId}}_EdelweissHouse, Data/Events/{{ModId}}_EdelweissAttic, Data/Events/{{ModId}}_EdelweissBasement",
       "FromFile": "Data/Blank.json"
     },
-    /*
     //includes
-
-    {
-      "LogName": "Event Include",
-      "Action": "Include",
-      "FromFile": "Data/Other/Events.json"
-    },
-    {
-      "LogName": "Festival Include",
-      "Action": "Include",
-      "FromFile": "Data/Other/Festivals.json"
-    },
-    */
-    {
-      "LogName": "Item Include",
-      "Action": "Include",
-      "FromFile": "Data/Items/Objects.json" //Data/Items/CookingRecipes.json, Data/Items/CraftingRecipes.json, 
-    },
     {
       "LogName": "Exterior Locations Include",
       "Action": "Include",
@@ -306,29 +283,15 @@
       "Action": "Include",
       "FromFile": "Data/Locations/ArtificialBeach/Edelweiss.json"
     },
-
     {
       "LogName": "CHAOS BEGIN",
       "Action": "Include",
-      "FromFile": "Data/NPCData/BaseNPCs.json"
-    },
-    /*
-    {
-      "LogName": "CHAOS BEGIN",
-      "Action": "Include",
-      "FromFile": "Data/NPCData/CameoNPCs.json"
-    },
-
-    */
-    {
-      "LogName": "Other Include",
-      "Action": "Include",
-      "FromFile": "Data/Other/Mail.json, Data/Other/SpaceCore.json, Data/Other/Strings.json, Data/Other/TriggerActions.json"
+      "FromFile": "Data/NPCData/BaseNPCs.json" //, Data/NPCData/CameoNPCs.json
     },
     {
-      "LogName": "Shops Include",
+      "LogName": "Data Include",
       "Action": "Include",
-      "FromFile": "Data/Shops/ShadyShack.json"
+      "FromFile": "Data/Other/Mail.json, Data/Other/SpaceCore.json, Data/Other/Strings.json, Data/Other/TriggerActions.json, Data/Shops/ShadyShack.json, Data/Items/Craftables.json" //, Data/Other/Festivals.json, Data/Other/Events.json
     }
   ]
 }

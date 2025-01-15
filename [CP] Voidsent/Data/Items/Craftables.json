@@ -1,6 +1,18 @@
 {
   "Changes": [
     {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/Assets/Objects",
+      "FromFile": "Assets/Objects/Objects.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "{{ModId}}_WarpTotem": "709 1 340 1 771 20//{{ModId}}_WarpTotem/false/none/{{i18n:Edelweiss.Warp.Totem}}"
+      }
+    },
+    {
       "Action": "EditData",
       "Target": "Data/Objects",
       "Entries": {

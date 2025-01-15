@@ -20,7 +20,6 @@
 	<ItemGroup>
 		<ContentPacks Include="D:\source\repos\VoidsentSMAPI\[CP] Voidsent" />
 		<ContentPacks Include="D:\source\repos\VoidsentSMAPI\[FTM] Voidsent" />
-		<ContentPacks Include="D:\source\repos\VoidsentSMAPI\[CP] Voidsent Trinkets" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -29,6 +28,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Folder Include="[CP] Voidsent\Assets\Objects\Trinkets\" />
 	  <Folder Include="[CP] Voidsent\Assets\TileSheets\" />
 	</ItemGroup>
 

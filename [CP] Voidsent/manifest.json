@@ -39,6 +39,10 @@
     {
       "UniqueID": "spacechase0.SpaceCore",
       "IsRequired": true
+    },
+    {
+      "UniqueID": "mushymato.TrinketTinker",
+      "IsRequired": true
     }
   ],
   "UpdateKeys": [

@@ -1,57 +1,6 @@
 {
   "Changes": [
     /*
-        {
-      "LogName": "Duvin",
-      "Action": "Include",
-      "FromFile": "Data/NPCData/A_Template_NPCs.json",
-      "LocalTokens": {
-        "NPCNAME": "",
-        "DISPLAYNAME": "",
-        "GENDER": "",
-        "MANNER": "", //polite, neutral, rude changes stringsfromcsfiles
-        "ANXIETY": "", //outgoing, neutral, shy changes stringsfromcsfiles
-        "OPTIMISM": "", //positive, neutral, negative changes stringsfromcsfiles
-        "DARKSKIN": "",
-        "ROMANCE": "",
-        "GIFTABLE": "",
-        "CHILDREN": "",
-        "ADOPT": "false",
-        "XINDEXSPOUSE": "0",
-        "YINDEXSPOUSE": "0",
-        "XINDEXPATIO": "0",
-        "YINDEXPATIO": "0",
-        "UNLOCKCONDITIONS": "PLAYER_HAS_MAIL Current {{ModId}}_ any",
-        "HOMELOCATION": "{{ModId}}_",
-        "HOMEXTILE": "1",
-        "HOMEYTILE": "1",
-        "HOMEFACING": "right", //left, right, up, down
-        "LOVEDGIFTS": "",
-        "LIKEDGIFTS": "",
-        "DISLIKEDGIFTS": "",
-        "HATEDGIFTS": "",
-        "NEUTRALGIFTS": "",
-        "SPRINGSCHEDULE": "",
-        "SUMMERSCHEDULE": "",
-        "FALLSCHEDULE": "",
-        "WINTERSCHEDULE": "",
-        "MONDAYSCHEDULE": "",
-        "TUESDAYSCHEDULE": "",
-        "WEDNESDAYSCHEDULE": "",
-        "THURSAYSCHEDULE": "",
-        "FRIDAYSCHEDULE": "",
-        "SATURDAYSCHEDULE": "",
-        "SUNDAYSCHEDULE": "",
-        "marriage_MONDAYSCHEDULE": "",
-        "marriage_TUESDAYSCHEDULE": "",
-        "marriage_WEDNESDAYSCHEDULE": "",
-        "marriage_THURSAYSCHEDULE": "",
-        "marriage_FRIDAYSCHEDULE": "",
-        "marriage_SATURDAYSCHEDULE": "",
-        "marriage_SUNDAYSCHEDULE": ""
-
-      }
-    },
 */
     {
       "LogName": "Edelweiss",
@@ -59,7 +8,7 @@
       "FromFile": "Data/NPCData/A_Template_NPCs.json",
       "LocalTokens": {
         "NPCNAME": "Edelweiss",
-        "DISPLAYNAME": "{{ExAlts}}",
+        "DISPLAYNAME": "Edelweiss",
         "GENDER": "Undefined",
         "MANNER": "Rude", //polite, neutral, rude changes stringsfromcsfiles
         "ANXIETY": "Shy", //outgoing, neutral, shy changes stringsfromcsfiles
@@ -83,24 +32,39 @@
         "DISLIKEDGIFTS": "78 259 256 685 769",
         "HATEDGIFTS": "889 909 910 Moss 203 209 306 307 308 category_junk",
         "NEUTRALGIFTS": "334 335 336 337 338 378 380 382 384 386 388 390 394 category_trinket",
+        "SLEEPANIMATION": "51/51/51",
+        "ENDRANGE": "3",
         "SPRINGSCHEDULE": "610 {{ModId}}_EdelweissHouse 18 4 edel_sleepyleft/900 {{ModId}}_EdelweissHouse 19 17 0/1200 {{ModId}}_EdelweissHouse 28 22 edel_hammer/1500 {{ModId}}_EdelweissHouse 26 19 edel_alchemy/1800 {{ModId}}_EdelweissHouse 5 5 edel_read/2100 {{ModId}}_EdelweissHouse 7 15 1/2400 {{ModId}}_EdelweissHouse 18 4 edel_sleepyright/2600 {{ModId}}_EdelweissHouse 20 3 edel_sleep",
         "SUMMERSCHEDULE": "",
         "FALLSCHEDULE": "",
         "WINTERSCHEDULE": "",
-        "MONDAYSCHEDULE": "",
-        "TUESDAYSCHEDULE": "",
-        "WEDNESDAYSCHEDULE": "",
-        "THURSAYSCHEDULE": "",
-        "FRIDAYSCHEDULE": "",
-        "SATURDAYSCHEDULE": "",
-        "SUNDAYSCHEDULE": "",
+        "MONDAYSCHEDULE": "610 {{ModId}}_EdelweissHouse 18 4 edel_sleepyleft/900 {{ModId}}_EdelweissHouse 28 22 edel_hammer/2400 {{ModId}}_EdelweissHouse 18 4 edel_sleepyright/2600 {{ModId}}_EdelweissHouse 20 3 edel_sleep",
+        "TUESDAYSCHEDULE": "610 {{ModId}}_EdelweissHouse 18 4 edel_sleepyleft/900 {{ModId}}_EdelweissHouse 26 19 edel_alchemy/2400 {{ModId}}_EdelweissHouse 18 4 edel_sleepyright/2600 {{ModId}}_EdelweissHouse 20 3 edel_sleep",
+        "WEDNESDAYSCHEDULE": "610 {{ModId}}_EdelweissHouse 18 4 edel_sleepyleft/900 {{ModId}}_EdelweissHouse 5 5 edel_read/2100 {{ModId}}_EdelweissHouse 7 15 1/2400 {{ModId}}_EdelweissHouse 18 4 edel_sleepyright/2600 {{ModId}}_EdelweissHouse 20 3 edel_sleep",
+        "THURSAYSCHEDULE": "610 {{ModId}}_EdelweissHouse 18 4 edel_sleepyleft/900 {{ArtificialBeach}} 27 14 1/2400 {{ModId}}_EdelweissHouse 18 4 edel_sleepyright/2600 {{ModId}}_EdelweissHouse 20 3 edel_sleep",
+        "FRIDAYSCHEDULE": "610 {{ModId}}_EdelweissHouse 18 4 edel_sleepyleft/900 {{ModId}}_EdelweissHouse 28 22 edel_hammer/2400 {{ModId}}_EdelweissHouse 18 4 edel_sleepyright/2600 {{ModId}}_EdelweissHouse 20 3 edel_sleep",
+        "SATURDAYSCHEDULE": "", //commonwealth
+        "SUNDAYSCHEDULE": "", //commonwealth
         "marriage_MONDAYSCHEDULE": "",
         "marriage_TUESDAYSCHEDULE": "",
         "marriage_WEDNESDAYSCHEDULE": "",
         "marriage_THURSAYSCHEDULE": "",
         "marriage_FRIDAYSCHEDULE": "",
         "marriage_SATURDAYSCHEDULE": "",
-        "marriage_SUNDAYSCHEDULE": ""
+        "marriage_SUNDAYSCHEDULE": "",
+
+        //HEART DIALOGUES
+        "2HEART": false, //true/false
+        "4HEART": false, //true/false
+        "6HEART": false, //true/false
+        "8HEART": false, //true/false
+        "10HEART": false, //true/false
+        "12HEART": false, //true/false
+        "14HEART": false, //true/false
+
+        "IGNOREMARRIAGESCHEDULE": true, //true/false
+        "SEPARATEDATABILITY": true, //true/false
+        "BETASTOGGLED": true //true/false
       }
     }
   ]
