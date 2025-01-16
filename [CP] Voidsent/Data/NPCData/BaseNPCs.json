@@ -1,6 +1,66 @@
 {
   "Changes": [
     /*
+    {
+      "LogName": "",
+      "Action": "Include",
+      "FromFile": "Data/NPCData/A_Template_NPCs.json",
+      "LocalTokens": {
+        "NPCNAME": "",
+        "DISPLAYNAME": "",
+        "GENDER": "",
+        "MANNER": "", //polite, neutral, rude changes stringsfromcsfiles
+        "ANXIETY": "", //outgoing, neutral, shy changes stringsfromcsfiles
+        "OPTIMISM": "", //positive, neutral, negative changes stringsfromcsfiles
+        "DARKSKIN": "",
+        "ROMANCE": "",
+        "LIKESGENDER": "", //do they like male or female characters, or both
+        "GIFTABLE": "",
+        "CHILDREN": "",
+        "ADOPT": "",
+        "XINDEXSPOUSE": "",
+        "YINDEXSPOUSE": "",
+        "XINDEXPATIO": "",
+        "YINDEXPATIO": "",
+        "UNLOCKCONDITIONS": "",
+        "HOMELOCATION": "",
+        "HOMEXTILE": "",
+        "HOMEYTILE": "",
+        "HOMEFACING": "", //left, right, up, down
+        "LOVEDGIFTS": "",
+        "LIKEDGIFTS": "",
+        "DISLIKEDGIFTS": "",
+        "HATEDGIFTS": "",
+        "NEUTRALGIFTS": "",
+        "SLEEPANIMATION": "",
+        "ENDRANGE": "3",
+        "SPRINGSCHEDULE": "",
+        "SUMMERSCHEDULE": "",
+        "FALLSCHEDULE": "",
+        "WINTERSCHEDULE": "",
+        "MONDAYSCHEDULE": "",
+        "TUESDAYSCHEDULE": "",
+        "WEDNESDAYSCHEDULE": "",
+        "THURSAYSCHEDULE": "",
+        "FRIDAYSCHEDULE": "",
+        "SATURDAYSCHEDULE": "",
+        "SUNDAYSCHEDULE": "",
+
+        //HEART DIALOGUES
+        "2HEART": false, //true/false
+        "4HEART": false, //true/false
+        "6HEART": false, //true/false
+        "8HEART": false, //true/false
+        "10HEART": false, //true/false
+        "12HEART": false, //true/false
+        "14HEART": false, //true/false
+
+        "IGNOREMARRIAGESCHEDULE": true, //true/false
+        "SEPARATEDATABILITY": true, //true/false
+        "BETASTOGGLED": true, //true/false
+        "BETASBONUSTOGGLED": false //true/false
+      }
+    }
 */
     {
       "LogName": "Edelweiss",
@@ -15,6 +75,7 @@
         "OPTIMISM": "Negative", //positive, neutral, negative changes stringsfromcsfiles
         "DARKSKIN": "false",
         "ROMANCE": "true",
+        "LIKESGENDER": "Both",
         "GIFTABLE": "true",
         "CHILDREN": "true",
         "ADOPT": "false",
@@ -64,7 +125,8 @@
 
         "IGNOREMARRIAGESCHEDULE": true, //true/false
         "SEPARATEDATABILITY": true, //true/false
-        "BETASTOGGLED": true //true/false
+        "BETASTOGGLED": true, //true/false
+        "BETASBONUSTOGGLED": false //true/false
       }
     }
   ]

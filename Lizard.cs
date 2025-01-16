@@ -21,11 +21,9 @@ internal sealed class ModEntry : Mod
     /// <inheritdoc/>
     public override void Entry(IModHelper helper)
     {
-        helper.Events.Content.AssetRequested += this.OnAssetRequested;
         helper.ConsoleCommands.Add("lizard", "Spawn lizard.", this.Lizard);
         GameLocation.RegisterTileAction("Aviroen.Voidsent_SummonLizard", this.HandleSummonLizard);
         
-        var harmony = new Harmony(this.ModManifest.UniqueID);
     }
 
     private bool HandleSummonLizard(GameLocation location, string[] args, Farmer player, Point point)

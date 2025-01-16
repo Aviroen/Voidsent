@@ -4,12 +4,10 @@ using StardewModdingAPI.Events;
 using Microsoft.Xna.Framework;
 using StardewUI.Framework;
 using HarmonyLib;
-using System.Collections.Generic;
-using RTAudioProcessing;
 
 namespace Voidsent
 {
-    public class Voidsent : Mod
+    internal  class Voidsent : Mod
     {
         //internal static IViewEngine viewEngine = null!;
         //internal static string viewAssetPrefix = null!;
@@ -52,6 +50,8 @@ namespace Voidsent
             helper.Events.GameLoop.SaveLoaded += (_, _) => SetMyLocationFlags(); //netbools
             helper.Events.GameLoop.SaveCreated += (_, _) => SetMyLocationFlags(); //netbools
             helper.Events.GameLoop.DayStarted += OnDayStarted;
+            
+
 
             ModHelper = helper;
             ModMonitor = Monitor;
