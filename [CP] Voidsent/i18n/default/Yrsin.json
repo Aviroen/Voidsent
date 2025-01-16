@@ -33,14 +33,16 @@
   "Yrsin.Wed_2": "Should I call you careless, or a fool?$1#$b#Seeking me out shouldn't be in your best interest.$6",
   "Yrsin.Wed_3": "Don't...$2#$b#Move...$5#$e#%Yrsin is breathing deeply.#$e#You're treading a dangerous path, @.$2#$b#You should leave soon.$5",
   //hideout
-  "Yrsin.Thu_0": "",
-  "Yrsin.Thu_1": "",
-  "Yrsin.Thu_2": "",
-  "Yrsin.Thu_3": "",
-  "Yrsin.Fri_0": "",
-  "Yrsin.Fri_1": "",
+  "Yrsin.Thu_0": "Did Yrrek let you in?#$b#I'll need to reassess his raise, it seems.",
+  "Yrsin.Thu_1": "There is nothing of interest to you here, love.#$b#Best see yourself out, the door is right there.",
+  "Yrsin.Thu_2": "I'm a very busy shark, love.#$b#You better have a good reason for interrupting my day.",
+  "Yrsin.Thu_3": "Syrsa would be happy to entertain you, love.#$b#I'm quite busy today.",
+  //breakfast inn bed
+  "Yrsin.Fri_0": "Curious as to why I'm here?$4#$b#The food is good, I curated it.$1",
+  "Yrsin.Fri_1": "Yrnal is a distant relative of mine, cross her and you'll cross me as well, love.",
   "Yrsin.Fri_2": "",
   "Yrsin.Fri_3": "",
+  //
   "Yrsin.Sat_0": "",
   "Yrsin.Sat_1": "",
   "Yrsin.Sat_2": "",
