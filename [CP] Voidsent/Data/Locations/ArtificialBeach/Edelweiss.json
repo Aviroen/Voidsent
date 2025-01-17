@@ -91,7 +91,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "LockedDoorWarp 2 9 {{ModId}}_EdelweissBasement 600 2600 {{Edelweiss}} 2500"
+            "Action": "LockedDoorWarp 18 4 {{ModId}}_EdelweissBasement 600 2600 {{Edelweiss}} 2500"
           }
         },
         {
@@ -111,7 +111,7 @@
       "Action": "EditMap",
       "Target": "Maps/{{ModId}}_EdelweissAttic",
       "AddWarps": [
-        "2 9 {{ModId}}_EdelweissHouse 12 4"
+        "2 10 {{ModId}}_EdelweissHouse 12 4"
       ]
     },
     {

@@ -7,7 +7,7 @@ using StardewValley;
 using StardewValley.Characters;
 
 namespace Voidsent;
-
+/*
 internal static class GuidHelper
 {
     public static Guid NewGuid()
@@ -78,3 +78,4 @@ internal sealed class ModEntry : Mod
         }
     }
 }
+*/

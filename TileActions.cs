@@ -2,7 +2,6 @@
 using Microsoft.Xna.Framework;
 using static StardewValley.DelayedAction;
 using StardewModdingAPI;
-using Voidsent.Lizard;
 using StardewValley.Characters;
 
 namespace Voidsent;
@@ -18,7 +17,6 @@ internal class TileActions
     {
         GameLocation.RegisterTileAction(TileAction_BoatRide, (location, args, farmer, tile) => BoatPassage(location, args, farmer));
         GameLocation.RegisterTouchAction(TileAction_BoatRide, (location, args, farmer, tile) => BoatPassage(location, args, farmer));
-        GameLocation.RegisterTileAction(TileAction_HandleSummonLizard, (location, args, farmer, point) => HandleSummonLizard(location, args, farmer, point));
     }
     public static bool BoatPassage(GameLocation location, string[] args, Farmer farmer)
     { //beach -> boat -> boat transition map of timer -> port morabyr

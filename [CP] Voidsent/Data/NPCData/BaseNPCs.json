@@ -99,10 +99,15 @@
         "SUMMERSCHEDULE": "",
         "FALLSCHEDULE": "",
         "WINTERSCHEDULE": "",
+        //hammering
         "MONDAYSCHEDULE": "610 {{ModId}}_EdelweissHouse 18 4 edel_sleepyleft/900 {{ModId}}_EdelweissHouse 28 22 edel_hammer/2400 {{ModId}}_EdelweissHouse 18 4 edel_sleepyright/2600 {{ModId}}_EdelweissHouse 20 3 edel_sleep",
+        //alchemy
         "TUESDAYSCHEDULE": "610 {{ModId}}_EdelweissHouse 18 4 edel_sleepyleft/900 {{ModId}}_EdelweissHouse 26 19 edel_alchemy/2400 {{ModId}}_EdelweissHouse 18 4 edel_sleepyright/2600 {{ModId}}_EdelweissHouse 20 3 edel_sleep",
+        //reading
         "WEDNESDAYSCHEDULE": "610 {{ModId}}_EdelweissHouse 18 4 edel_sleepyleft/900 {{ModId}}_EdelweissHouse 5 5 edel_read/2100 {{ModId}}_EdelweissHouse 7 15 1/2400 {{ModId}}_EdelweissHouse 18 4 edel_sleepyright/2600 {{ModId}}_EdelweissHouse 20 3 edel_sleep",
+        //grave
         "THURSAYSCHEDULE": "610 {{ModId}}_EdelweissHouse 18 4 edel_sleepyleft/900 {{ArtificialBeach}} 27 14 1/2400 {{ModId}}_EdelweissHouse 18 4 edel_sleepyright/2600 {{ModId}}_EdelweissHouse 20 3 edel_sleep",
+        //hammer
         "FRIDAYSCHEDULE": "610 {{ModId}}_EdelweissHouse 18 4 edel_sleepyleft/900 {{ModId}}_EdelweissHouse 28 22 edel_hammer/2400 {{ModId}}_EdelweissHouse 18 4 edel_sleepyright/2600 {{ModId}}_EdelweissHouse 20 3 edel_sleep",
         "SATURDAYSCHEDULE": "", //commonwealth
         "SUNDAYSCHEDULE": "", //commonwealth
