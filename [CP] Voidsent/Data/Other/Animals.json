@@ -1,0 +1,247 @@
+{
+  "Changes": [
+    {
+      "Action": "Include",
+      "FromFile": "Data/Templates/AnimalTemplate.json",
+      "LocalTokens": {
+        "ANIMAL": "Shjorbk",
+        "HOUSE": "Barn",
+        "PRICE": "5000",
+        "SELLPRICE": "4000",
+        "REQBUILDING": "Barn",
+        "XSOURCERECT": "32",
+        "YSOURCERECT": "0",
+        "UNLOCKCONDITION": "PLAYER_HAS_MAIL Current {{ModId}}_ShjorbkUnlock",
+        "DAYSTOMATURE": "14",
+        "DAYSTOPRODUCE": "5",
+        "PRODUCEITEMID": "128",
+        "DELUXEITEMID": "162",
+        "USEFLIPPEDLR": "true",
+        "SPRITEWIDTH": "32",
+        "SPRITEHEIGHT": "32",
+        "SLEEPFRAME": "9"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+      "TargetField": [ "{{ModId}}_Shjorbk", "DeluxeProduceItemIds" ],
+      "Entries": {
+        "{{ModId}}_Shjorbk1": {
+          "Id": "Sh1",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "128"
+        },
+        "{{ModId}}_Shjorbk2": {
+          "Id": "Sh2",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "129"
+        },
+        "{{ModId}}_Shjorbk3": {
+          "Id": "Sh3",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "130"
+        },
+        "{{ModId}}_Shjorbk4": {
+          "Id": "Sh4",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "131"
+        },
+        "{{ModId}}_Shjorbk5": {
+          "Id": "Sh5",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "132"
+        },
+        "{{ModId}}_Shjorbk6": {
+          "Id": "Sh6",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "136"
+        },
+        "{{ModId}}_Shjorbk7": {
+          "Id": "Sh7",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "137"
+        },
+        "{{ModId}}_Shjorbk8": {
+          "Id": "Sh8",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "138"
+        },
+        "{{ModId}}_Shjorbk9": {
+          "Id": "Sh9",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "139"
+        },
+        "{{ModId}}_Shjorbk10": {
+          "Id": "Sh10",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "140"
+        },
+        "{{ModId}}_Shjorbk11": {
+          "Id": "Sh11",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "141"
+        },
+        "{{ModId}}_Shjorbk12": {
+          "Id": "Sh12",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "142"
+        },
+        "{{ModId}}_Shjorbk13": {
+          "Id": "Sh13",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "143"
+        },
+        "{{ModId}}_Shjorbk14": {
+          "Id": "Sh14",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "144"
+        },
+        "{{ModId}}_Shjorbk15": {
+          "Id": "Sh15",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "145"
+        },
+        "{{ModId}}_Shjorbk16": {
+          "Id": "Sh16",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "146"
+        },
+        "{{ModId}}_Shjorbk17": {
+          "Id": "Sh17",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "147"
+        },
+        "{{ModId}}_Shjorbk18": {
+          "Id": "Sh18",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "148"
+        },
+        "{{ModId}}_Shjorbk19": {
+          "Id": "Sh19",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "149"
+        },
+        "{{ModId}}_Shjorbk20": {
+          "Id": "Sh20",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "150"
+        },
+        "{{ModId}}_Shjorbk21": {
+          "Id": "Sh21",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "151"
+        },
+        "{{ModId}}_Shjorbk22": {
+          "Id": "Sh22",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "152"
+        },
+        "{{ModId}}_Shjorbk23": {
+          "Id": "Sh23",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "153"
+        },
+        "{{ModId}}_Shjorbk24": {
+          "Id": "Sh24",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "154"
+        },
+        "{{ModId}}_Shjorbk25": {
+          "Id": "Sh25",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "155"
+        },
+        "{{ModId}}_Shjorbk26": {
+          "Id": "Sh26",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "156"
+        },
+        "{{ModId}}_Shjorbk27": {
+          "Id": "Sh27",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "157"
+        },
+        "{{ModId}}_Shjorbk28": {
+          "Id": "Sh28",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "158"
+        },
+        "{{ModId}}_Shjorbk29": {
+          "Id": "Sh29",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "159"
+        },
+        "{{ModId}}_Shjorbk30": {
+          "Id": "Sh30",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "160"
+        },
+        "{{ModId}}_Shjorbk31": {
+          "Id": "Sh31",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "161"
+        },
+        "{{ModId}}_Shjorbk32": {
+          "Id": "Sh32",
+          "Condition": null,
+          "MinimumFriendship": 0,
+          "ItemId": "162"
+        }
+      }
+    },
+    {
+      "Action": "Include",
+      "FromFile": "Data/Templates/AnimalTemplate.json",
+      "LocalTokens": {
+        "ANIMAL": "Goldie",
+        "HOUSE": "Coop",
+        "PRICE": "5000",
+        "SELLPRICE": "4000",
+        "REQBUILDING": "Coop",
+        "XSOURCERECT": "0",
+        "YSOURCERECT": "0",
+        "UNLOCKCONDITION": "PLAYER_HAS_MAIL Current {{ModId}}_GoldieUnlock",
+        "DAYSTOMATURE": "2",
+        "DAYSTOPRODUCE": "2",
+        "PRODUCEITEMID": "384",
+        "DELUXEITEMID": "125",
+        "USEFLIPPEDLR": "true",
+        "SPRITEWIDTH": "16",
+        "SPRITEHEIGHT": "16",
+        "SLEEPFRAME": "16"
+      }
+    }
+  ]
+}

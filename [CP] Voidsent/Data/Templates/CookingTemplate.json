@@ -1,0 +1,65 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "Entries": {
+        "{{ModId}}_{{COOKINGNAME}}": "{{INGREDIENTS}}//{{YIELD}}//{{UNLOCKCONDITIONS}}/{{i18n:{{COOKINGNAME}}.Name}}"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "{{ModId}}_{{COOKINGNAME}}": {
+          "Name": "{{ModId}}_{{COOKINGNAME}}",
+          "DisplayName": "{{i18n:{{COOKINGNAME}}.Name}}",
+          "Description": "{{i18n:{{COOKINGNAME}}.Description}}",
+          "Type": "{{TYPE}}",
+          "Category": "{{CATEGORY}}",
+          "Price": "{{PRICE}}",
+          "Texture": "Mods/{{ModId}}/Objects",
+          "SpriteIndex": "{{SPRITEINDEX}}",
+          "Edibility": "{{EDIBILITY}}",
+          "IsDrink": "{{DRINKABLE}}",
+          "Buffs": [
+            {
+              "Id": "Food",
+              "BuffId": "{{BUFFID}}",
+              "IconTexture": "{{ICONTEXTURE}}",
+              "IconSpriteIndex": "{{ICONINDEX}}",
+              "Duration": "{{DURATION}}",
+              "IsDebuff": "{{DEBUFF}}",
+              "GlowColor": "{{GLOWCOLOR}}",
+              "CustomAttributes": {
+                "FarmingLevel": "{{FARMINGLEVEL}}",
+                "FishingLevel": "{{FISHINGLEVEL}}",
+                "MiningLevel": "{{MININGLEVEL}}",
+                "LuckLevel": "{{LUCKLEVEL}}",
+                "ForagingLevel": "{{FORAGINGLEVEL}}",
+                "MaxStamina": "{{MAXSTAMINA}}",
+                "MagneticRadius": "{{MAGNETICRADIUS}}",
+                "Speed": "{{SPEED}}",
+                "Defense": "{{DEFENSE}}",
+                "Attack": "{{ATTACK}}"
+              },
+              "CustomFields": null
+            }
+          ],
+          "GeodeDropsDefaultItems": false,
+          "GeodeDrops": null,
+          "ArtifactSpotChances": null,
+          "CanBeGivenAsGift": "{{GIFTABLE}}",
+          "CanBeTrashed": "{{TRASHABLE}}",
+          "ExcludeFromFishingCollection": true,
+          "ExcludeFromShippingCollection": true,
+          "ExcludeFromRandomSale": true,
+          "ContextTags": [
+            "{{COLORTAG}}"
+          ],
+          "CustomFields": null
+        }
+      }
+    }
+  ]
+}

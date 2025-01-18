@@ -4,7 +4,7 @@
     {
       "LogName": "Shortfin",
       "Action": "Include",
-      "FromFile": "Data/Items/FishTemplate.json",
+      "FromFile": "Data/Templates/FishTemplate.json",
       "LocalTokens": {
         "FISH": "ShortfinMakoShark",
         "INDEX": "0",
@@ -30,7 +30,7 @@
     },
     {
       "Action": "Include",
-      "FromFile": "Data/Items/FishTemplate.json",
+      "FromFile": "Data/Templates/FishTemplate.json",
       "LocalTokens": {
         "FISH": "DogfishShark",
         "INDEX": "1",
@@ -56,7 +56,7 @@
     },
     {
       "Action": "Include",
-      "FromFile": "Data/Items/FishTemplate.json",
+      "FromFile": "Data/Templates/FishTemplate.json",
       "LocalTokens": {
         "FISH": "FrilledShark",
         "INDEX": "2",
@@ -82,7 +82,7 @@
     },
     {
       "Action": "Include",
-      "FromFile": "Data/Items/FishTemplate.json",
+      "FromFile": "Data/Templates/FishTemplate.json",
       "LocalTokens": {
         "FISH": "ThresherShark",
         "INDEX": "3",
@@ -108,7 +108,7 @@
     },
     {
       "Action": "Include",
-      "FromFile": "Data/Items/FishTemplate.json",
+      "FromFile": "Data/Templates/FishTemplate.json",
       "LocalTokens": {
         "FISH": "BlueShark",
         "INDEX": "4",
@@ -134,7 +134,7 @@
     },
     {
       "Action": "Include",
-      "FromFile": "Data/Items/FishTemplate.json",
+      "FromFile": "Data/Templates/FishTemplate.json",
       "LocalTokens": {
         "FISH": "NurseShark",
         "INDEX": "5",
@@ -160,7 +160,7 @@
     },
     {
       "Action": "Include",
-      "FromFile": "Data/Items/FishTemplate.json",
+      "FromFile": "Data/Templates/FishTemplate.json",
       "LocalTokens": {
         "FISH": "ZebraShark",
         "INDEX": "6",
@@ -186,7 +186,7 @@
     },
     {
       "Action": "Include",
-      "FromFile": "Data/Items/FishTemplate.json",
+      "FromFile": "Data/Templates/FishTemplate.json",
       "LocalTokens": {
         "FISH": "TigerShark",
         "INDEX": "7",
@@ -212,7 +212,7 @@
     },
     {
       "Action": "Include",
-      "FromFile": "Data/Items/FishTemplate.json",
+      "FromFile": "Data/Templates/FishTemplate.json",
       "LocalTokens": {
         "FISH": "BullShark",
         "INDEX": "8",
@@ -238,7 +238,7 @@
     },
     {
       "Action": "Include",
-      "FromFile": "Data/Items/FishTemplate.json",
+      "FromFile": "Data/Templates/FishTemplate.json",
       "LocalTokens": {
         "FISH": "HammerheadShark",
         "INDEX": "9",
@@ -264,7 +264,7 @@
     },
     {
       "Action": "Include",
-      "FromFile": "Data/Items/FishTemplate.json",
+      "FromFile": "Data/Templates/FishTemplate.json",
       "LocalTokens": {
         "FISH": "Shorbk",
         "INDEX": "10",
@@ -290,7 +290,7 @@
     },
     {
       "Action": "Include",
-      "FromFile": "Data/Items/FishTemplate.json",
+      "FromFile": "Data/Templates/FishTemplate.json",
       "LocalTokens": {
         "FISH": "WhaleShark",
         "INDEX": "11",
@@ -316,7 +316,7 @@
     },
     {
       "Action": "Include",
-      "FromFile": "Data/Items/FishTemplate.json",
+      "FromFile": "Data/Templates/FishTemplate.json",
       "LocalTokens": {
         "FISH": "Megalodon",
         "INDEX": "12",

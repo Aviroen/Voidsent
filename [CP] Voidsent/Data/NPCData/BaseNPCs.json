@@ -4,7 +4,7 @@
     {
       "LogName": "",
       "Action": "Include",
-      "FromFile": "Data/NPCData/A_Template_NPCs.json",
+      "FromFile": "Data/Templates/A_Template_NPCs.json",
       "LocalTokens": {
         "NPCNAME": "",
         "DISPLAYNAME": "",
@@ -65,7 +65,7 @@
     {
       "LogName": "Edelweiss",
       "Action": "Include",
-      "FromFile": "Data/NPCData/A_Template_NPCs.json",
+      "FromFile": "Data/Templates/A_Template_NPCs.json",
       "LocalTokens": {
         "NPCNAME": "Edelweiss",
         "DISPLAYNAME": "Edelweiss",

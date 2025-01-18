@@ -1,6 +1,6 @@
 {
-  "Edelweiss.Warp.Totem": "Artificial Beach Warp Totem",
-  "Edelweiss.Warp.Totem.Description": "A magically crafted warp totem meant to warp to Edelweiss' artificial beach.",
+  "WarpTotem.Name": "Artificial Beach Warp Totem",
+  "WarpTotem.Description": "A magically crafted warp totem meant to warp to Edelweiss' artificial beach.",
 
   //shorbks
   "ShortfinMakoShark.Name": "Shortfin Mako Shark",

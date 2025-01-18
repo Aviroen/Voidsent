@@ -1,0 +1,76 @@
+{
+  "Changes": [
+    {
+      "Action": "Include",
+      "FromFile": "Data/Templates/ShopTemplate.json",
+      "LocalTokens": {
+        "SHOPNAME": "ShadyShack",
+        "NAMEENTRY": "AnyOrNone"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [ "{{ModId}}_ShadyShack", "Items" ],
+      "Entries": {
+        "{{ModId}}_1": {
+          "Price": 2250,
+          "AvailableStock": -1,
+          "AvailableStockLimit": "Global",
+          "Id": "{{ModId}}_WarpTotem",
+          "ItemId": "{{ModId}}_WarpTotem"
+        },
+        "{{ModId}}_2": {
+          "Price": 12250,
+          "AvailableStock": 1,
+          "AvailableStockLimit": "Player",
+          "Id": "{{ModId}}_WarpTotemRecipe",
+          "ItemId": "{{ModId}}_WarpTotem",
+          "IsRecipe": true
+        },
+        "{{ModId}}_3": {
+          "Price": 12250,
+          "AvailableStock": 10,
+          "AvailableStockLimit": "Global",
+          "Id": "(O)681",
+          "ItemId": "(O)681"
+        },
+        "{{ModId}}_4": {
+          "Price": 12250,
+          "AvailableStock": 10,
+          "AvailableStockLimit": "Global",
+          "Id": "(O)749",
+          "ItemId": "(O)749"
+        },
+        "{{ModId}}_5": {
+          "Price": 12250,
+          "AvailableStock": 10,
+          "AvailableStockLimit": "Global",
+          "Id": "(O)787",
+          "ItemId": "(O)787"
+        },
+        "{{ModId}}_6": {
+          "Price": 12250,
+          "AvailableStock": 10,
+          "AvailableStockLimit": "Global",
+          "Id": "(O)773",
+          "ItemId": "(O)773"
+        },
+        "{{ModId}}_7": {
+          "Price": 12250,
+          "AvailableStock": 10,
+          "AvailableStockLimit": "Global",
+          "Id": "(O)349",
+          "ItemId": "(O)349"
+        },
+        "{{ModId}}_8": {
+          "Price": 12250,
+          "AvailableStock": 10,
+          "AvailableStockLimit": "Global",
+          "Id": "(O)351",
+          "ItemId": "(O)351"
+        }
+      }
+    }
+  ]
+}

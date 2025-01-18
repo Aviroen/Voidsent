@@ -1,12 +1,20 @@
 {
-  "ShadyArtificialShack1": "What're ya buyin?",
-  "ShadyArtificialShack2": "Lamp oil, rope, bombs. You want it? It's yours my friend! As long as you have enough money.",
-  "ShadyArtificialShack3": "I hear the King's looking for anyone suspicious, don't talk about me, kid.",
-  "ShadyArtificialShack4": "I'm far beyond your years, you're all kids to me.",
-  "ShadyArtificialShack5": "What am I? Just a shopkeep.",
-  "ShadyArtificialShack6": "The twins looking for that 'special potion'? No? Shame.",
-  "ShadyArtificialShack7": "Trinity is one mean woman, would love to see her at night.",
-  "ShadyArtificialShack8": "Ever spoke to Penumbra? He's some kinda character.",
-  "ShadyArtificialShack9": "Edelweiss is my contractor, best not to get on their bad side.",
-  "ShadyArtificialShack10": "If you're not buying, I'm not interested."
+  "ShadyShack.0": "What're ya buyin?",
+  "ShadyShack.1": "Lamp oil, rope, bombs. You want it? It's yours my friend! As long as you have enough money.",
+  "ShadyShack.2": "I hear the King's looking for anyone suspicious, don't talk about me, kid.",
+  "ShadyShack.3": "I'm far beyond your years, you're all kids to me.",
+  "ShadyShack.4": "What am I? Just a shopkeep.",
+  "ShadyShack.5": "The twins looking for that 'special potion'? No? Shame.",
+  "ShadyShack.6": "Trinity is one mean woman, would love to see her at night.",
+  "ShadyShack.7": "Ever spoke to Penumbra? He's some kinda character.",
+  "ShadyShack.8": "Edelweiss is my contractor, best not to get on their bad side.",
+  "ShadyShack.9": "If you're not buying, I'm not interested.",
+
+  "Shjorbk.Name": "Shjorbk",
+  "Shjorbk.ShopDescription": "Somehow, someway, you've managed to put Shorbk in a bowl. His new name is Shjorbk.",
+  "Shjorbk.MissingBuilding": "This building isn't big enough for Shorbk.",
+
+  "Goldie.Name": "Goldie",
+  "Goldie.ShopDescription": "A sweet little goldfish in a bowl, sneaks out to the large lakes at night.",
+  "Goldie.MissingBuilding": "This building isn't suitable for Queen Goldie."
 }

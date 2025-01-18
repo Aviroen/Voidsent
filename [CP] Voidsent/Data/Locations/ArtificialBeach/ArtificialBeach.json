@@ -67,7 +67,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "OpenShop {{ModId}}_ShadyArtificialShack"
+            "Action": "OpenShop {{ModId}}_ShadyShack"
           }
         },
         {
