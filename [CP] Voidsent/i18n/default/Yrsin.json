@@ -42,12 +42,13 @@
   "Yrsin.Fri_1": "Yrnal is a distant relative of mine, cross her and you'll cross me as well, love.",
   "Yrsin.Fri_2": "Mmn?#$b#I wouldn't suggest the wine from here, love.$5#$b#Has a bit of 'iron' for us mermadics if you catch my drift.$6",
   "Yrsin.Fri_3": "What?$1#$b#A crime boss can't have a day off?$6",
-  //
-  "Yrsin.Sat_0": "",
-  "Yrsin.Sat_1": "",
-  "Yrsin.Sat_2": "",
-  "Yrsin.Sat_3": "",
-  "Yrsin.Sun_0": "",
+  //hideout sleepy
+  "Yrsin.Sat_0": "Mmn. Today's one of my days to rest, love.#$b#Mind coming a different day?$4",
+  "Yrsin.Sat_1": "Rest days are important, today so happens to be mine.$6",
+  "Yrsin.Sat_2": "...$8#$e#%Is Yrsin... sleeping with his eyes open?#$e#...?$3#$e#%Best not to wake a sleeping shark.",
+  "Yrsin.Sat_3": "...$8#$e#%'Yrsin?'#$e#%Seems like he's asleep with his eyes open.",
+  //port morabyr + trinity
+  "Yrsin.Sun_0": "Trin, baby, come on!$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"No need to be so hostile!\"#$action SpiderButtons.BETAS_TextAboveHead Aviroen.VoidsentCP_Trinity \"You're lucky I'm uninterested in shark meat today.\"#$e#No need to be so prickly, baby.$6",
   "Yrsin.Sun_1": "",
   "Yrsin.Sun_2": "",
   "Yrsin.Sun_3": "",

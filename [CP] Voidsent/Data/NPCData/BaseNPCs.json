@@ -96,9 +96,9 @@
         "SLEEPANIMATION": "51/51/51",
         "ENDRANGE": "3",
         "SPRINGSCHEDULE": "610 {{ModId}}_EdelweissHouse 18 4 edel_sleepyleft/900 {{ModId}}_EdelweissHouse 19 17 0/1200 {{ModId}}_EdelweissHouse 28 22 edel_hammer/1500 {{ModId}}_EdelweissHouse 26 19 edel_alchemy/1800 {{ModId}}_EdelweissHouse 5 5 edel_read/2100 {{ModId}}_EdelweissHouse 7 15 1/2400 {{ModId}}_EdelweissHouse 18 4 edel_sleepyright/2600 {{ModId}}_EdelweissHouse 20 3 edel_sleep",
-        "SUMMERSCHEDULE": "",
-        "FALLSCHEDULE": "",
-        "WINTERSCHEDULE": "",
+        "SUMMERSCHEDULE": "GOTO spring",
+        "FALLSCHEDULE": "GOTO spring",
+        "WINTERSCHEDULE": "GOTO spring",
         //hammering
         "MONDAYSCHEDULE": "610 {{ModId}}_EdelweissHouse 18 4 edel_sleepyleft/900 {{ModId}}_EdelweissHouse 28 22 edel_hammer/2400 {{ModId}}_EdelweissHouse 18 4 edel_sleepyright/2600 {{ModId}}_EdelweissHouse 20 3 edel_sleep",
         //alchemy
@@ -109,8 +109,8 @@
         "THURSAYSCHEDULE": "610 {{ModId}}_EdelweissHouse 18 4 edel_sleepyleft/900 {{ArtificialBeach}} 27 14 1/2400 {{ModId}}_EdelweissHouse 18 4 edel_sleepyright/2600 {{ModId}}_EdelweissHouse 20 3 edel_sleep",
         //hammer
         "FRIDAYSCHEDULE": "610 {{ModId}}_EdelweissHouse 18 4 edel_sleepyleft/900 {{ModId}}_EdelweissHouse 28 22 edel_hammer/2400 {{ModId}}_EdelweissHouse 18 4 edel_sleepyright/2600 {{ModId}}_EdelweissHouse 20 3 edel_sleep",
-        "SATURDAYSCHEDULE": "", //commonwealth
-        "SUNDAYSCHEDULE": "", //commonwealth
+        "SATURDAYSCHEDULE": "GOTO Mon", //commonwealth
+        "SUNDAYSCHEDULE": "GOTO Tue", //commonwealth
         "marriage_MONDAYSCHEDULE": "",
         "marriage_TUESDAYSCHEDULE": "",
         "marriage_WEDNESDAYSCHEDULE": "",

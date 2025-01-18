@@ -101,8 +101,10 @@
           "StatToIncrementOnProduce": null,
           "ShowInSummitCredits": true,
           "CustomFields": {
-            //"mushymato.LivestockBazaar/BuyFrom.{{ModId}}_Lou": true,
-            //"mushymato.LivestockBazaar/BuyFrom.Marnie": false
+            "mushymato.LivestockBazaar/BuyFrom.{{ModId}}_Lou": true,
+            "mushymato.LivestockBazaar/BuyFrom.Marnie": false,
+            "mushymato.LivestockBazaar/TradeItemId.{{ModId}}_Lou": "{{TRADEITEMID}}",
+            "mushymato.LivestockBazaar/TradeItemAmount": "{{TRADEITEMCOUNT}}"
           }
         }
       }

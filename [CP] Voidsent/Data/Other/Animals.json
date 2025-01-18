@@ -19,9 +19,12 @@
         "USEFLIPPEDLR": "true",
         "SPRITEWIDTH": "32",
         "SPRITEHEIGHT": "32",
-        "SLEEPFRAME": "9"
+        "SLEEPFRAME": "9",
+        "TRADEITEMID": "(O){{ModId}}_Shorbk",
+        "TRADEITEMCOUNT": "5"
       }
     },
+    /*
     {
       "Action": "EditData",
       "Target": "Data/FarmAnimals",
@@ -221,6 +224,7 @@
         }
       }
     },
+    */
     {
       "Action": "Include",
       "FromFile": "Data/Templates/AnimalTemplate.json",
@@ -240,7 +244,9 @@
         "USEFLIPPEDLR": "true",
         "SPRITEWIDTH": "16",
         "SPRITEHEIGHT": "16",
-        "SLEEPFRAME": "16"
+        "SLEEPFRAME": "16",
+        "TRADEITEMID": "(O){{ModId}}_Shorbk",
+        "TRADEITEMCOUNT": "5"
       }
     }
   ]

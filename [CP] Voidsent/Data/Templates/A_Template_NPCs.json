@@ -6,6 +6,12 @@
       "Target": "Characters/{{ModId}}_{{NPCNAME}}, Portraits/{{ModId}}_{{NPCNAME}}",
       "FromFile": "Assets/NPCS/{{TargetPathOnly}}/{{TargetWithoutPath}}.png"
     },
+    {
+      "Action": "Load",
+      "FromFile": "{{FirstValidFile: i18n/{{language}}/{{NPCNAME}}.json, i18n/default/{{NPCNAME}}.json}}",
+      "Priority": "Low",
+      "Target": "Mods/{{ModId}}/Translations"
+    },
     { //blank loads so that i can target edit
       "LogName": "BlankLoads",
       "Action": "Load",
@@ -45,14 +51,21 @@
           "Actions": [
             "Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} \"{{i18n:BETAS.{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range:4,{{ENDRANGE}}}}}}}}\""
           ]
-        },
+        }
+      }
+    },
+    {
+      "LogName": "Trigger Actions: BETAS",
+      "Action": "EditData",
+      "Target": "Data/TriggerActions",
+      "Entries": {
         "{{ModId}}_{{NPCNAME}}_DialogueOpened1": {
           "Id": "{{ModId}}_{{NPCNAME}}_DialogueOpened1",
           "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
           "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, ITEM_STACK Target 1",
           "MarkActionApplied": false,
           "Actions": [
-            "Spiderbuttons.BETAS_RandomAction \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} \"{{i18n:BETAS.{{NPCNAME}}.{{DayOfWeek}}_0}}\"\" \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} \"{{i18n:BETAS.{{NPCNAME}}.{{DayOfWeek}}_1}}\"\" \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} \"{{i18n:BETAS.{{NPCNAME}}.{{DayOfWeek}}_2}}\"\" \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} \"{{i18n:BETAS.{{NPCNAME}}.{{DayOfWeek}}_3}}\"\""
+            "Spiderbuttons.BETAS_RandomAction \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} [LocalizedText Mods/{{ModId}}/Translations:BETAS.{{NPCNAME}}.{{DayOfWeek}}_0]\" \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} [LocalizedText Mods/{{ModId}}/Translations:BETAS.{{NPCNAME}}.{{DayOfWeek}}_1]\" \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} [LocalizedText Mods/{{ModId}}/Translations:BETAS.{{NPCNAME}}.{{DayOfWeek}}_2]\" \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} [LocalizedText Mods/{{ModId}}/Translations:BETAS.{{NPCNAME}}.{{DayOfWeek}}_3]\""
           ]
         }
       }
