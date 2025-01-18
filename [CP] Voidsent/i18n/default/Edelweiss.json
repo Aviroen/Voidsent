@@ -255,11 +255,10 @@
 
   //BETAS
   //monday
-  "BETAS.Edelweiss.Monday_0": "Pardon me, I was recently resupplied with more dwarven metals.$1",
-  "BETAS.Edelweiss.Monday_1": "Interested in watching me work?$3",
+  "BETAS.Edelweiss.Monday_0": "Pardon me, I was recently resupplied with more dwarven metals.$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Edelweiss \"Is it the amount of force I'm using...?\" 3000 0 true Maroon",
+  "BETAS.Edelweiss.Monday_1": "Interested in watching me work?$3#$e#Sorry, I'm still busy with these metals.",
   "BETAS.Edelweiss.Monday_2": "I'm not good at teaching... sorry.$6",
-  "BETAS.Edelweiss.Monday_3": "...Do you have... something to say to me?$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Edelweiss \"No, this technique won't be suitable.\" 1000 200#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Edelweiss \"Is it the amount of force I'm using...?\" 1000 200#$e#Oh, hello. Sorry, I'm still busy with these metals.",
-  "BETAS.Edelweiss.Monday.TextBubble_0": "No, this technique won't be suitable.", //#$action Spiderbuttons.BETAS_TextAboveHead {{Edelweiss}} \"No, this technique won't be suitable.\" 1000 200#$action Spiderbuttons.BETAS_TextAboveHead {{Edelweiss}} \"Is it the amount of force I'm using...?\" 1000 200#$e#Oh, hello. Sorry, I'm still busy with these metals.
+  "BETAS.Edelweiss.Monday_3": "...Do you have... something to say to me?$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Edelweiss \"No, this technique won't be suitable.\" 3000 0",
 
   //tuesday
   "BETAS.Edelweiss.Tuesday_0": "Master Rasmodius has a new potion recipe for me.$6",
@@ -274,10 +273,10 @@
   "BETAS.Edelweiss.Wednesday_3": "Pardon? My dwarvish?$3#$b#I'm well versed in dwarvish, yes.$1#$e#Were you curious?$1",
 
   //thursday
-  "BETAS.Edelweiss.Thursday_0": "...$2#$e#%Edelweiss is silently crying.",
-  "BETAS.Edelweiss.Thursday_1": "...$5#$e#%Edelweiss is silently crying.",
-  "BETAS.Edelweiss.Thursday_2": "...$6#$e#%Edelweiss is silently crying.",
-  "BETAS.Edelweiss.Thursday_3": "...$2#$e#%Edelweiss is silently crying.",
+  "BETAS.Edelweiss.Thursday_0": "...$2#$e#%Edelweiss is silently crying.#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Edelweiss \"I still miss you every day...\"",
+  "BETAS.Edelweiss.Thursday_1": "...$5#$e#%Edelweiss is silently crying.#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Edelweiss \"Mundane lives are just... too short.\"",
+  "BETAS.Edelweiss.Thursday_2": "...$6#$e#%Edelweiss is silently crying.#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Edelweiss \"Umbra... is still the same...\"",
+  "BETAS.Edelweiss.Thursday_3": "...$2#$e#%Edelweiss is silently crying.#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Edelweiss \"Trinity treats me well.\"",
 
   //friday
   "BETAS.Edelweiss.Friday_0": "Another day, another... weapon...$5",

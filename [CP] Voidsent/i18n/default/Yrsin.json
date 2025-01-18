@@ -48,7 +48,7 @@
   "Yrsin.Sat_2": "...$8#$e#%Is Yrsin... sleeping with his eyes open?#$e#...?$3#$e#%Best not to wake a sleeping shark.",
   "Yrsin.Sat_3": "...$8#$e#%'Yrsin?'#$e#%Seems like he's asleep with his eyes open.",
   //port morabyr + trinity
-  "Yrsin.Sun_0": "Trin, baby, come on!$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"No need to be so hostile!\"#$action SpiderButtons.BETAS_TextAboveHead Aviroen.VoidsentCP_Trinity \"You're lucky I'm uninterested in shark meat today.\"#$e#No need to be so prickly, baby.$6",
+  "Yrsin.Sun_0": "Trin, baby, come on!$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"No need to be so hostile!\"#$action SpiderButtons.BETAS_TextAboveHead Aviroen.VoidsentCP_Trinity \"You're lucky I'm uninterested in shark meat today.\" 3000 2000#$e#No need to be so prickly, baby.$6",
   "Yrsin.Sun_1": "",
   "Yrsin.Sun_2": "",
   "Yrsin.Sun_3": "",
