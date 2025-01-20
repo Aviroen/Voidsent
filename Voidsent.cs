@@ -30,8 +30,8 @@ namespace Voidsent
         internal static IMonitor ModMonitor { get; set; } = null!;
         internal static Harmony Harmony { get; set; } = null!;
         internal static IManifest Manifest { get; set; } = null!;
-        readonly List<string> outdoorNames =
-            [
+        readonly List<string> outdoorNames = new List<string>
+                {
         "Aviroen.VoidsentCP_ArtificialBeach",
         "Aviroen.VoidsentCP_Commonwealth",
         "Aviroen.VoidsentCP_CrimsonGrove",
@@ -40,15 +40,15 @@ namespace Voidsent
         "Aviroen.VoidsentCP_Morabyr",
         "Aviroen.VoidsentCP_Outlands",
         "Aviroen.VoidsentCP_Boat",
-            ];
-        readonly List<string> indoorNames = 
-            [
+            };
+        readonly List<string> indoorNames = new List<string>
+                {
         "Aviroen.VoidsentCP_EdelweissHouse",
         "Aviroen.VoidsentCP_EdelweissAttic",
         "Aviroen.VoidsentCP_EdelweissBasement",
-            ];
-        internal static readonly List<GameLocation> outdoorLocations = [];
-        internal static readonly List<GameLocation> indoorLocations = [];
+            };
+        internal static readonly List<GameLocation> outdoorLocations = new();
+        internal static readonly List<GameLocation> indoorLocations = new();
         public override void Entry(IModHelper helper)
         {
             //viewAssetPrefix = $"Mods/{ModManifest.UniqueID}/Views";
@@ -105,7 +105,7 @@ namespace Voidsent
                 }
                 else
                 {
-                    this.Monitor.Log($"Huh, can't find my loction, that's weird.");
+                    this.Monitor.Log($"Huh, can't find my location, that's weird.");
                 }
             }
         }

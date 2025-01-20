@@ -5,7 +5,7 @@
 		<EnableHarmony>true</EnableHarmony>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
-		<LangVersion>latest</LangVersion>
+		<LangVersion>latestmajor</LangVersion>
 		<ModFolderName>Voidsent</ModFolderName>
 		<Name>Voidsent</Name>
 		<Authors>Voidsent Rebels</Authors>
@@ -16,11 +16,6 @@
 		<Version>0.1.0</Version>
 		<ContentPacks_VersionBehavior>Set</ContentPacks_VersionBehavior>
 	</PropertyGroup>
-
-	<ItemGroup>
-		<ContentPacks Include="D:\source\repos\VoidsentSMAPI\[CP] Voidsent" />
-		<ContentPacks Include="D:\source\repos\VoidsentSMAPI\[FTM] Voidsent" />
-	</ItemGroup>
 
 	<ItemGroup>
 	  <PackageReference Include="Leclair.Stardew.ModManifestBuilder" Version="2.4.0" />
