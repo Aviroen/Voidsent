@@ -132,7 +132,7 @@
         }
       }
     },
-    //excalibur
+    //excalibur excalibur, as a trinket, will have a textbubble saying, "Can I get a sip?" every single time the player drinks mayo when he's equipped
     // Load texture
     {
       "LogName": "Excalibur",

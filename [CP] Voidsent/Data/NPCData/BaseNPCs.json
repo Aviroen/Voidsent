@@ -120,7 +120,7 @@
         "marriage_SUNDAYSCHEDULE": "",
 
         //HEART DIALOGUES
-        "2HEART": false, //true/false
+        "2HEART": true, //true/false
         "4HEART": false, //true/false
         "6HEART": false, //true/false
         "8HEART": false, //true/false
@@ -131,7 +131,8 @@
         "IGNOREMARRIAGESCHEDULE": true, //true/false
         "SEPARATEDATABILITY": true, //true/false
         "BETASTOGGLED": true, //true/false
-        "BETASBONUSTOGGLED": false //true/false
+        "BETASBONUSTOGGLED": false, //true/false
+        "BETASWIPED": true //whether you want the dialogue to change based on npc having wiped memory
       }
     }
   ]

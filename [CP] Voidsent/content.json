@@ -254,6 +254,70 @@
     {
       "Name": "Boat", //the boat
       "Value": "{{ModId}}_Boat"
+    },
+    //misc tokens
+    {
+      "Name": "WeekDay",
+      "When": {
+        "DayOfWeek": "Monday"
+      },
+      "Value": "Mon"
+    },
+    {
+      "Name": "WeekDay",
+      "When": {
+        "DayOfWeek": "Tuesday"
+      },
+      "Value": "Tue"
+    },
+    {
+      "Name": "WeekDay",
+      "When": {
+        "DayOfWeek": "Wednesday"
+      },
+      "Value": "Wed"
+    },
+    {
+      "Name": "WeekDay",
+      "When": {
+        "DayOfWeek": "Thursday"
+      },
+      "Value": "Thu"
+    },
+    {
+      "Name": "WeekDay",
+      "When": {
+        "DayOfWeek": "Friday"
+      },
+      "Value": "Fri"
+    },
+    {
+      "Name": "WeekDay",
+      "When": {
+        "DayOfWeek": "Saturday"
+      },
+      "Value": "Sat"
+    },
+    {
+      "Name": "WeekDay",
+      "When": {
+        "DayOfWeek": "Sunday"
+      },
+      "Value": "Sun"
+    },
+    {
+      "Name": "PlatonicCheck",
+      "When": {
+        "HasMod": "Cherry.PlatonicRelationships"
+      },
+      "Value": "Platonic"
+    },
+    {
+      "Name": "PlatonicCheck",
+      "When": {
+        "HasMod|contains=Cherry.PlatonicRelationships": false
+      },
+      "Value": "Romantic"
     }
   ],
   "Changes": [
