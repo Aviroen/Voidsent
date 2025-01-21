@@ -1,4 +1,4 @@
-using HarmonyLib;
+﻿using HarmonyLib;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using StardewModdingAPI;
@@ -7,7 +7,7 @@ using StardewValley;
 using StardewValley.Characters;
 
 namespace Voidsent;
-/*
+
 internal static class GuidHelper
 {
     public static Guid NewGuid()
@@ -16,17 +16,16 @@ internal static class GuidHelper
     }
 }
 
-internal sealed class ModEntry : Mod
+public static class Lizard
 {
-    /// <inheritdoc/>
-    public override void Entry(IModHelper helper)
-    {
-        helper.ConsoleCommands.Add("lizard", "Spawn lizard.", this.Lizard);
-        GameLocation.RegisterTileAction("Aviroen.Voidsent_SummonLizard", this.HandleSummonLizard);
-        
-    }
+    private static IMonitor Monitor { get; set; }
 
-    private bool HandleSummonLizard(GameLocation location, string[] args, Farmer player, Point point)
+    public static void Initialize(IMonitor monitor)
+    {
+        Monitor = monitor;
+    }
+    
+    internal static bool HandleSummonLizard(GameLocation location, string[] args, Farmer player, Point point)
     {
         string displayPrice = Utility.getNumberWithCommas(1000);
         location.createQuestionDialogue(
@@ -34,11 +33,11 @@ internal sealed class ModEntry : Mod
             location.createYesNoResponses(), 
             (Farmer who, string answer) => LizardAnswer(who, answer, location, point),
             null
-            );
+        );
         return true;
     }
-
-    private void LizardAnswer(Farmer who, string answer, GameLocation loc, Point point)
+    
+    internal static void LizardAnswer(Farmer who, string answer, GameLocation loc, Point point)
     {
         if (answer == "Yes")
         {
@@ -63,8 +62,8 @@ internal sealed class ModEntry : Mod
             }
         }
     }
-
-    private void Lizard(string command, string[] args)
+    
+    internal static void LizardDebugCmd(string command, string[] args)
     {
         if (!ArgUtility.TryGetOptionalInt(args, 0, out var tileX, out var error, Game1.player.TilePoint.X, "int tileX") || !ArgUtility.TryGetOptionalInt(args, 0, out var tileY, out error, Game1.player.TilePoint.Y, "int tileY"))
         {
@@ -78,4 +77,3 @@ internal sealed class ModEntry : Mod
         }
     }
 }
-*/
