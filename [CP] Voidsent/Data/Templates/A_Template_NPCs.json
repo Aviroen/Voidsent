@@ -304,9 +304,7 @@
         "{{WeekDay}}4": "$query {{4HEART}} # {{i18n:{{NPCNAME}}.{{DayOfWeek}}4_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | {{i18n:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}}",
         "{{WeekDay}}6": "$query {{6HEART}} # {{i18n:{{NPCNAME}}.{{DayOfWeek}}6_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | {{i18n:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}}",
         "{{WeekDay}}8": "$query {{8HEART}} # {{i18n:{{NPCNAME}}.{{PlatonicCheck}}.{{DayOfWeek}}8_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | {{i18n:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}}",
-        "{{WeekDay}}10": "$query {{10HEART}} # {{i18n:{{NPCNAME}}.{{PlatonicCheck}}.{{DayOfWeek}}10_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | {{i18n:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}}",
-        "{{WeekDay}}12": "$query {{12HEART}} # {{i18n:{{NPCNAME}}.{{DayOfWeek}}12_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | {{i18n:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}}",
-        "{{WeekDay}}14": "$query {{14HEART}} # {{i18n:{{NPCNAME}}.{{DayOfWeek}}14_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | {{i18n:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}}"
+        "{{WeekDay}}10": "$query {{10HEART}} # {{i18n:{{NPCNAME}}.{{PlatonicCheck}}.{{DayOfWeek}}10_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | {{i18n:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}}"
       }
     },
     //////////////////////////////////////////////////////////////////////////////////////////////////
@@ -341,9 +339,7 @@
         "{{WeekDay}}4": "$query {{4HEART}} # {{i18n:Wiped.{{NPCNAME}}.{{DayOfWeek}}4_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | {{i18n:Wiped.{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}}",
         "{{WeekDay}}6": "$query {{6HEART}} # {{i18n:Wiped.{{NPCNAME}}.{{DayOfWeek}}6_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | {{i18n:Wiped.{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}}",
         "{{WeekDay}}8": "$query {{8HEART}} # {{i18n:Wiped.{{NPCNAME}}.{{PlatonicCheck}}.{{DayOfWeek}}8_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | {{i18n:Wiped.{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}}",
-        "{{WeekDay}}10": "$query {{10HEART}} # {{i18n:Wiped.{{NPCNAME}}.{{PlatonicCheck}}.{{DayOfWeek}}10_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | {{i18n:Wiped.{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}}",
-        "{{WeekDay}}12": "$query {{12HEART}} # {{i18n:Wiped.{{NPCNAME}}.{{DayOfWeek}}12_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | {{i18n:Wiped.{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}}",
-        "{{WeekDay}}14": "$query {{14HEART}} # {{i18n:Wiped.{{NPCNAME}}.{{DayOfWeek}}14_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | {{i18n:Wiped.{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}}"
+        "{{WeekDay}}10": "$query {{10HEART}} # {{i18n:Wiped.{{NPCNAME}}.{{PlatonicCheck}}.{{DayOfWeek}}10_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | {{i18n:Wiped.{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}}"
       }
     },
     //////////////////////////////////////////////////////////////////////////////////////////////////

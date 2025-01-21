@@ -52,8 +52,6 @@
         "6HEART": false, //true/false
         "8HEART": false, //true/false
         "10HEART": false, //true/false
-        "12HEART": false, //true/false
-        "14HEART": false, //true/false
 
         "IGNOREMARRIAGESCHEDULE": true, //true/false
         "SEPARATEDATABILITY": true, //true/false
@@ -125,8 +123,6 @@
         "6HEART": false, //true/false
         "8HEART": false, //true/false
         "10HEART": false, //true/false
-        "12HEART": false, //true/false
-        "14HEART": false, //true/false
 
         "IGNOREMARRIAGESCHEDULE": true, //true/false
         "SEPARATEDATABILITY": true, //true/false
