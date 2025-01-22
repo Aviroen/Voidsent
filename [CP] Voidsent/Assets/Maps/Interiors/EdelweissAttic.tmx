@@ -48,52 +48,52 @@
  <objectgroup id="31" name="Buildings">
   <object id="85" name="TileData" x="160" y="64" width="16" height="16">
    <properties>
-    <property name="Action" value="Message 26053Books"/>
+    <property name="Action" value="Message 26053Books_1"/>
    </properties>
   </object>
   <object id="86" name="TileData" x="144" y="64" width="16" height="16">
    <properties>
-    <property name="Action" value="Message 26053Books"/>
+    <property name="Action" value="Message 26053Books_2"/>
    </properties>
   </object>
   <object id="87" name="TileData" x="128" y="64" width="16" height="16">
    <properties>
-    <property name="Action" value="Message 26053Books"/>
+    <property name="Action" value="Message 26053Books_3"/>
    </properties>
   </object>
   <object id="88" name="TileData" x="112" y="64" width="16" height="16">
    <properties>
-    <property name="Action" value="Message 26053Books"/>
+    <property name="Action" value="Message 26053Books_4"/>
    </properties>
   </object>
   <object id="89" name="TileData" x="96" y="64" width="16" height="16">
    <properties>
-    <property name="Action" value="Message 26053Books"/>
+    <property name="Action" value="Message 26053Books_0"/>
    </properties>
   </object>
   <object id="90" name="TileData" x="80" y="64" width="16" height="16">
    <properties>
-    <property name="Action" value="Message 26053Books"/>
+    <property name="Action" value="Message 26053Books_5"/>
    </properties>
   </object>
   <object id="92" name="TileData" x="64" y="64" width="16" height="16">
    <properties>
-    <property name="Action" value="Message 26053Books"/>
+    <property name="Action" value="Message 26053Books_6"/>
    </properties>
   </object>
   <object id="93" name="TileData" x="48" y="64" width="16" height="16">
    <properties>
-    <property name="Action" value="Message 26053Books"/>
+    <property name="Action" value="Message 26053Books_7"/>
    </properties>
   </object>
   <object id="94" name="TileData" x="32" y="64" width="16" height="16">
    <properties>
-    <property name="Action" value="Message 26053Books"/>
+    <property name="Action" value="Message 26053Books_8"/>
    </properties>
   </object>
   <object id="95" name="TileData" x="16" y="64" width="16" height="16">
    <properties>
-    <property name="Action" value="Message 26053Books"/>
+    <property name="Action" value="Message 26053Books_9"/>
    </properties>
   </object>
   <object id="96" name="TileData" x="112" y="96" width="16" height="16">

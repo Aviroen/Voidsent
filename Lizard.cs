@@ -5,7 +5,7 @@ using StardewModdingAPI;
 using StardewModdingAPI.Events;
 using StardewValley;
 using StardewValley.Characters;
-
+//written by irocendar
 namespace Voidsent;
 
 internal static class GuidHelper

@@ -1,0 +1,40 @@
+﻿{ //ye all beware whoever comes into this file, only fucked up chaos resides here
+ "Changes": [
+  {
+   "Action": "EditData",
+   "Target": "Spiderbuttons.BETAS/HarmonyPatches",
+   "Entries": {
+    "ExampleTriggerAction": {
+     "Id": "ExampleTriggerAction",
+     "Target": {
+      "Type": "StardewValley.Menus.LetterViewerMenu",
+      "Method": "AcceptQuest",
+      "Parameters": null,
+      "IsGetter": false,
+      "IsSetter": false,
+      "Assembly": "Stardew Valley"
+     },
+     "PatchType": "Postfix",
+     "ChangeResult": null,
+     "Condition": "SEASON spring",
+     "Action": "IncrementStat SpringLetterQuests 1"
+    }
+   }
+  },
+  {
+   "Action": "EditData",
+   "Target": "StringStorage",
+   "Entries": {
+    "rolledOne": "Spiderbuttons.BETAS_WritePlayerModData DamageStore 1",
+    "rolledTwo": "Spiderbuttons.BETAS_WritePlayerModData DamageStore 2",
+    "ActionList": "\"[LocalizedText StringStorage:rolledOne]\" \"[LocalizedText StringStorage:rolledTwo]\"",
+    "roll": "Spiderbuttons.BETAS_RandomAction [LocalizedText StringStorage:ActionList]"
+   }
+  }
+/*
+ "d4": "do actionlist here but only the first four",
+"d6": "[LocalizedText StringStorage:d4] (then put the next 2 here)",
+"d10": "[LocalizedText StringStorage:d6] (then the next 4 here)",
+ */
+ ]
+}
