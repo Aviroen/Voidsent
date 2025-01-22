@@ -30,5 +30,8 @@
   "guidebook.chapter.Title.Introduction": "",
   "guidebook.chapter.Title.NewMechanics": "",
   "guidebook.chapter.Title.TableOfContents": "",
-  "guidebook.chapter.ArtificialBeach.name": "Artificial Beach"
+  "guidebook.chapter.ArtificialBeach.name": "Artificial Beach",
+  "Edelweiss.Tower": "Edelweiss' Tower",
+  "Edelweiss.Attic": "Edelweiss' Attic",
+  "Edelweiss.Basement": "Edelweiss' Basement"
 }

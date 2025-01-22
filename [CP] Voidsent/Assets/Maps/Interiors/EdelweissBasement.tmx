@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="21" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="29" nextobjectid="86">
+<map version="1.10" tiledversion="1.11.1" orientation="orthogonal" renderorder="right-down" width="21" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="30" nextobjectid="86">
  <editorsettings>
   <export format="tmx"/>
  </editorsettings>
@@ -12,18 +12,20 @@
  <tileset firstgid="1313" name="p" tilewidth="16" tileheight="16" tilecount="64" columns="4">
   <image source="paths" width="64" height="256"/>
  </tileset>
- <tileset firstgid="1377" name="edelroom" tilewidth="16" tileheight="16" tilecount="351" columns="13">
-  <image source="Content/TileSheets/wizard_furniture" width="208" height="432"/>
- </tileset>
- <tileset firstgid="1728" name="edelfurn" tilewidth="16" tileheight="16" tilecount="2976" columns="32">
-  <image source="Content/TileSheets/furniture" width="512" height="1488"/>
- </tileset>
- <tileset firstgid="4704" name="townInterior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+ <tileset firstgid="1377" name="townInterior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
   <image source="townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="3553" name="spring_kailey_outdoors" tilewidth="16" tileheight="16" tilecount="3276" columns="42">
+  <image source="spring_kailey_outdoors.png" width="672" height="1248"/>
  </tileset>
  <layer id="21" name="Back" width="21" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYKANKGemHoaB6czUw6SAfSIQvF+EOPV3gerkRBkcKMVAcxpgZjqJMTB8B+IfQPwTiN2gGF2MkBqgOShmioszMEgAsaQ4Qj26GCE16GaaA8UsgNgSST26GCE1yGYCwwEUHgyUYqA5B0iLeeIBAGTkQsI=
+   eJxjYKANKGemHoaB6czUw6SA/ewQfICdOPX3gOrkORgcKMVAcxpgZjpzMjC4UwEDzRlyZgLDARQeDJRioDkHSIt54gEAhcU4ig==
+  </data>
+ </layer>
+ <layer id="29" name="Back1" width="21" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFQwnsFGdg2AXEu8XJ42MDj4FyT4D4qTh5fGyAV4KBgQ+I+SXI4w81AACgYxdZ
   </data>
  </layer>
  <layer id="22" name="Buildings" width="21" height="10">
@@ -38,7 +40,7 @@
  </layer>
  <layer id="24" name="Paths" width="21" height="10">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUUAoAA0gAAQ==
+   eJxjYBgFo4CBQZOVMv5IBwDX9AC5
   </data>
  </layer>
  <objectgroup id="25" name="Back"/>

@@ -27,7 +27,7 @@
       "Target": "Data/Locations",
       "Entries": {
         "{{ModId}}_EdelweissHouse": {
-          "DisplayName": "Edelweiss' Tower",
+          "DisplayName": "{{i18n:Edelweiss.Tower}}",
           "DefaultArrivalTile": {
             "X": 5,
             "Y": 23
@@ -39,7 +39,7 @@
           "MusicDefault": "Of Dwarves"
         },
         "{{ModId}}_EdelweissAttic": {
-          "DisplayName": "Edelweiss' Attic",
+          "DisplayName": "{{i18n:Edelweiss.Attic}}",
           "DefaultArrivalTile": {
             "X": 2,
             "Y": 8
@@ -51,7 +51,7 @@
           "MusicDefault": "Plums"
         },
         "{{ModId}}_EdelweissBasement": {
-          "DisplayName": "Edelweiss' Basement",
+          "DisplayName": "{{i18n:Edelweiss.Basement}}",
           "DefaultArrivalTile": {
             "X": 18,
             "Y": 4
@@ -68,7 +68,7 @@
       "Action": "EditMap",
       "Target": "Maps/{{ModId}}_EdelweissHouse",
       "AddWarps": [
-        "5 24 {{ModId}}_ArtificialBeach 23 13"
+        "5 24 {{ModId}}_ArtificialBeach 22 12"
       ],
       "MapProperties": {
         "Doors": "11 17 Aviroen.VoidsentCP_Doors 8"
@@ -101,8 +101,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "Door {{Edelweiss}}",
-            "Aviroen.Voidsent_Doors": "T"
+            "Action": "Door {{Edelweiss}}"
           }
         }
       ]
@@ -127,8 +126,134 @@
           "SetProperties": {
             "Action": "Warp 27 4 {{ModId}}_EdelweissHouse"
           }
+        },
+        /*
+        {
+          "Position": {
+            "X": 4,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "TouchAction": "MagicWarp {{CrimsonGrove}} 8 17 {{ModId}}_CrimsonGroveUnlock"
+          }
+        },
+        {
+          "Position": {
+            "X": 8,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "TouchAction": "MagicWarp {{Moor}} 8 17 {{ModId}}_MoorUnlock"
+          }
+        },
+        {
+          "Position": {
+            "X": 12,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "TouchAction": "MagicWarp {{Commonwealth}} 8 17 {{ModId}}_CommonwealthUnlock"
+          }
+        },
+        {
+          "Position": {
+            "X": 16,
+            "Y": 6
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "TouchAction": "MagicWarp {{Grove}} 8 17 {{ModId}}_GroveUnlock"
+          }
         }
+        */
       ]
+    },
+    {
+      "When": {
+        "HasFlag": "{{ModId}}_CrimsonGroveUnlock"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_EdelweissBasement",
+      "PatchMode": "ReplaceByLayer",
+      "FromFile": "Assets/Maps/Patches/AllPatches.tmx",
+      "FromArea": {
+        "X": 3,
+        "Y": 0,
+        "Width": 3,
+        "Height": 3
+      },
+      "ToArea": {
+        "X": 3,
+        "Y": 5,
+        "Width": 3,
+        "Height": 3
+      }
+    },
+    {
+      "When": {
+        "HasFlag": "{{ModId}}_MoorUnlock"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_EdelweissBasement",
+      "PatchMode": "ReplaceByLayer",
+      "FromFile": "Assets/Maps/Patches/AllPatches.tmx",
+      "FromArea": {
+        "X": 6,
+        "Y": 0,
+        "Width": 3,
+        "Height": 3
+      },
+      "ToArea": {
+        "X": 7,
+        "Y": 5,
+        "Width": 3,
+        "Height": 3
+      }
+    },
+    {
+      "When": {
+        "HasFlag": "{{ModId}}_CommonwealthUnlock"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_EdelweissBasement",
+      "PatchMode": "ReplaceByLayer",
+      "FromFile": "Assets/Maps/Patches/AllPatches.tmx",
+      "FromArea": {
+        "X": 9,
+        "Y": 0,
+        "Width": 3,
+        "Height": 3
+      },
+      "ToArea": {
+        "X": 11,
+        "Y": 5,
+        "Width": 3,
+        "Height": 3
+      }
+    },
+    {
+      "When": {
+        "HasFlag": "{{ModId}}_GroveUnlock"
+      },
+      "Action": "EditMap",
+      "Target": "Maps/{{ModId}}_EdelweissBasement",
+      "PatchMode": "ReplaceByLayer",
+      "FromFile": "Assets/Maps/Patches/AllPatches.tmx",
+      "FromArea": {
+        "X": 12,
+        "Y": 0,
+        "Width": 3,
+        "Height": 3
+      },
+      "ToArea": {
+        "X": 15,
+        "Y": 5,
+        "Width": 3,
+        "Height": 3
+      }
     }
   ]
 }

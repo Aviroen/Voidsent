@@ -24,7 +24,6 @@
         "TRADEITEMCOUNT": "5"
       }
     },
-    /*
     {
       "Action": "EditData",
       "Target": "Data/FarmAnimals",
@@ -224,7 +223,6 @@
         }
       }
     },
-    */
     {
       "Action": "Include",
       "FromFile": "Data/Templates/AnimalTemplate.json",
@@ -248,6 +246,11 @@
         "TRADEITEMID": "(O){{ModId}}_Shorbk",
         "TRADEITEMCOUNT": "5"
       }
+    },
+    {
+      "Action": "Load",
+      "Target": "Animals/{{ModId}}_Komodo",
+      "FromFile": "Assets/Animals/Shjorbk.png"
     }
   ]
 }

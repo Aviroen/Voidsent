@@ -43,6 +43,10 @@
     {
       "UniqueID": "mushymato.TrinketTinker",
       "IsRequired": true
+    },
+    {
+      "UniqueID": "KaileyStardew.Tilesheets",
+      "IsRequired": true
     }
   ],
   "UpdateKeys": [
