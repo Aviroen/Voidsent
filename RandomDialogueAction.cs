@@ -2,6 +2,7 @@
 using StardewModdingAPI;
 using StardewValley;
 using StardewValley.Delegates;
+using StardewValley.TokenizableStrings;
 using StardewValley.Triggers;
 //written by irocendar
 namespace Voidsent;
@@ -46,7 +47,7 @@ public static class RandomDialogueAction
         
         var suffixOptions = args.Skip(4).Join(delimiter:" ").Split(",");
         var selected = args[3] + suffixOptions[r.Next(suffixOptions.Length)].Trim();
-        var dialogue = translation.Get(selected).ToString().Replace(@"\", @"\\\\").Replace(@"""", @"\\\""");
+        var dialogue = translation.Get(selected).ToString().Replace(@"""", @"\""");
         
         var action = $"Spiderbuttons.BETAS_SetNewDialogue {args[2]} [EscapedText {dialogue}]";
 
