@@ -91,11 +91,11 @@
  //6
  "Yrsin.Tuesday6_0": "Mmn?$2#$b#Feels like it's gonna rain tomorrow...$2#$action Spiderbuttons.BETAS_WeatherForTomorrow valley GreenRain",
  "Yrsin.Tuesday6_1": "$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*ZzzZzzZz*\" 3000 0 true",
- "Yrsin.Tuesday6_2": "",
- "Yrsin.Tuesday6_3": "",
+ "Yrsin.Tuesday6_2": "...Ngh$5#$b#...?$2#$action Spiderbuttons.BETAS_ShakeNpc Aviroen.VoidsentCP_Yrsin 300",
+ "Yrsin.Tuesday6_3": "$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"Fitful nightmares... Of course.\"",
  //8 platonic
- "Yrsin.Platonic.Tuesday8_0": "",
- "Yrsin.Platonic.Tuesday8_1": "",
+ "Yrsin.Platonic.Tuesday8_0": "Yrrek, give me an update on The Astute.#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrrek \"Yes Boss. So far Trinity has upkept her end of the bargain and she's keeping ninety percent profits.\"#$e#Haha!$1#$b#Good, good.$1",
+ "Yrsin.Platonic.Tuesday8_1": "Hmm, I wonder if Thandael finished his rounds.#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*BrrRrRrrRing*\" 3000 0 true#$e#...#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Thandael \"Yo! Sinny! What's up?$1\"#$e#...Than, can you please stop calling me that?$2#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Thandael \"Oh don't be such a hardass!$4\"#$e#...$2#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*Sigh*\" 3000 0 true#$e#...Anyway...$2#$b#Can you give me an update?$2#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Thandael \"Sure, sure! So I've got a few things on--$4\"#$e#%Seems like Yrsin is busy.",
  "Yrsin.Platonic.Tuesday8_2": "",
  "Yrsin.Platonic.Tuesday8_3": "",
  //8 romantic
