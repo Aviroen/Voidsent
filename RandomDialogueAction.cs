@@ -46,8 +46,9 @@ public static class RandomDialogueAction
         
         var suffixOptions = args.Skip(4).Join(delimiter:" ").Split(",");
         var selected = args[3] + suffixOptions[r.Next(suffixOptions.Length)].Trim();
-
-        var action = $"Spiderbuttons.BETAS_SetNewDialogue {args[2]} \"{translation.Get(selected)}\"";
+        var dialogue = translation.Get(selected).ToString().Replace(@"\", @"\\\\").Replace(@"""", @"\\\""");
+        
+        var action = $"Spiderbuttons.BETAS_SetNewDialogue {args[2]} [EscapedText {dialogue}]";
 
         return TriggerActionManager.TryRunAction(action, out error, out _);
     }
