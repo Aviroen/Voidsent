@@ -1,101 +1,108 @@
 {
-  "Changes": [
-    //////////////////////////////////////////////////////////////////////////////////////////////////
-    {
-      "Action": "EditData",
-      "Target": "Strings/StringsFromMaps",
-      "Entries": {
-        "26053Books_0": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_1": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_2": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_3": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_4": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_5": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_6": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_7": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_8": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_9": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_10": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_11": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_12": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_13": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_14": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_15": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_16": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_17": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_18": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_19": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_20": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_21": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_22": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_23": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_24": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_25": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_26": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_27": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_28": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_29": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_30": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_31": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_32": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_33": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_34": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_35": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_36": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_37": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_38": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_39": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_40": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Books_41": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
-        "26053Kitchen_0": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}",
-        "26053Kitchen_1": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}",
-        "26053Kitchen_2": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}",
-        "26053Kitchen_3": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}",
-        "26053Kitchen_4": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}",
-        "26053Kitchen_5": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}",
-        "26053Kitchen_6": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}",
-        "26053Kitchen_7": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}",
-        "26053Kitchen_8": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}",
-        "26053Kitchen_9": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}",
-        "26053Kitchen_10": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}",
-        "26053Kitchen_11": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}",
-        "26053Kitchen_12": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}",
-        "26053Kitchen_13": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}",
-        "26053Kitchen_14": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}",
-        "26053Kitchen_15": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}",
-        "EdelweissCoat": "{{i18n:EdelweissCoat}}",
-        "EdelHouse.1": "{{i18n:EdelHouse.1}}", //bottle shelf
-        "EdelHouse.2": "{{i18n:EdelHouse.2}}", //kitchen dresser
-        "EdelHouse.3": "{{i18n:EdelHouse.3}}", //apothecary table
-        "EdelHouse.4": "{{i18n:EdelHouse.4}}", //apothecary table
-        "EdelHouse.5": "{{i18n:EdelHouse.5}}", //anvil
-        "EdelHouse.6": "{{i18n:EdelHouse.6}}", //anvil
-        "EdelHouse.7": "{{i18n:EdelHouse.7}}", //apothecary table
-        "EdelHouse.8": "{{i18n:EdelHouse.8}}", //apothecary table
-        "EdelHouse.9": "{{i18n:EdelHouse.9}}", //apothecary table
-        "EdelHouse.10": "{{i18n:EdelHouse.10}}", //magic circle
-        "EdelHouse.11": "{{i18n:EdelHouse.11}}", //furnace
-        "EdelHouse.12": "{{i18n:EdelHouse.12}}", //fireplace
-        "EdelHouse.13": "{{i18n:EdelHouse.13}}", //axe
-        "EdelHouse.14": "{{i18n:EdelHouse.14}}", //kitchen plant
-        "EdelHouse.15": "{{i18n:EdelHouse.15}}", //fridge
-        "EdelHouse.16": "{{i18n:EdelHouse.16}}", //stove
-        "26053TV": "{{i18n:26053TV_{{Random:{{Range: 0, 5}}}}}}", //tv
-        "EdelHouse.18": "{{i18n:EdelHouse.18}}", //computertower
-        "EdelHouse.19": "{{i18n:EdelHouse.19}}", //radio
-        "EdelHouse.20": "{{i18n:EdelHouse.20}}", //radio
-        "EdelHouse.21": "{{i18n:EdelHouse.21}}", //nighstand
-        "EdelHouse.22": "{{i18n:EdelHouse.22}}", //floorpc
-        "EdelHouse.23": "{{i18n:EdelHouse.23}}", //laptop
-        "EdelHouse.24": "{{i18n:EdelHouse.24}}", //radiotable
-        "EdelHouse.25": "{{i18n:EdelHouse.25}}", //lilradio
-        "EdelHouse.26": "{{i18n:EdelHouse.26}}", //junimohut
-        "EdelGoat": "{{i18n:EdelGoat}}", //attic goat
-        "EdelBear": "{{i18n:EdelBear}}", //attic bear
-        "EdelJewel": "{{i18n:EdelJewel}}", //attic jewel
-        "EdelJunimo": "{{i18n:EdelJunimo}}", //attic junimo
-        "EdelGrave": "{{i18n:EdelGrave}}" //wait for 1.6.9
-      }
-    }
-  ]
+ "Changes": [
+  //////////////////////////////////////////////////////////////////////////////////////////////////
+  {
+   "Action": "EditData",
+   "Target": "Strings/StringsFromMaps",
+   "Entries": {
+    "26053Books_0": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_1": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_2": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_3": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_4": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_5": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_6": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_7": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_8": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_9": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_10": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_11": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_12": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_13": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_14": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_15": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_16": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_17": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_18": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_19": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_20": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_21": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_22": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_23": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_24": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_25": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_26": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_27": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_28": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_29": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_30": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_31": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_32": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_33": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_34": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_35": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_36": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_37": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_38": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_39": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_40": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Books_41": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
+    "26053Kitchen_0": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}",
+    "26053Kitchen_1": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}",
+    "26053Kitchen_2": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}",
+    "26053Kitchen_3": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}",
+    "26053Kitchen_4": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}",
+    "26053Kitchen_5": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}",
+    "26053Kitchen_6": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}",
+    "26053Kitchen_7": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}",
+    "26053Kitchen_8": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}",
+    "26053Kitchen_9": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}",
+    "26053Kitchen_10": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}",
+    "26053Kitchen_11": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}",
+    "26053Kitchen_12": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}",
+    "26053Kitchen_13": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}",
+    "26053Kitchen_14": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}",
+    "26053Kitchen_15": "{{i18n:26053Kitchen_{{Random:{{Range: 0, 15}}}}}}",
+    "EdelweissCoat": "{{i18n:EdelweissCoat}}",
+    "EdelHouse.1": "{{i18n:EdelHouse.1}}", //bottle shelf
+    "EdelHouse.2": "{{i18n:EdelHouse.2}}", //kitchen dresser
+    "EdelHouse.3": "{{i18n:EdelHouse.3}}", //apothecary table
+    "EdelHouse.4": "{{i18n:EdelHouse.4}}", //apothecary table
+    "EdelHouse.5": "{{i18n:EdelHouse.5}}", //anvil
+    "EdelHouse.6": "{{i18n:EdelHouse.6}}", //anvil
+    "EdelHouse.7": "{{i18n:EdelHouse.7}}", //apothecary table
+    "EdelHouse.8": "{{i18n:EdelHouse.8}}", //apothecary table
+    "EdelHouse.9": "{{i18n:EdelHouse.9}}", //apothecary table
+    "EdelHouse.10": "{{i18n:EdelHouse.10}}", //magic circle
+    "EdelHouse.11": "{{i18n:EdelHouse.11}}", //furnace
+    "EdelHouse.12": "{{i18n:EdelHouse.12}}", //fireplace
+    "EdelHouse.13": "{{i18n:EdelHouse.13}}", //axe
+    "EdelHouse.14": "{{i18n:EdelHouse.14}}", //kitchen plant
+    "EdelHouse.15": "{{i18n:EdelHouse.15}}", //fridge
+    "EdelHouse.16": "{{i18n:EdelHouse.16}}", //stove
+    "26053TV": "{{i18n:26053TV_{{Random:{{Range: 0, 5}}}}}}", //tv
+    "EdelHouse.18": "{{i18n:EdelHouse.18}}", //computertower
+    "EdelHouse.19": "{{i18n:EdelHouse.19}}", //radio
+    "EdelHouse.20": "{{i18n:EdelHouse.20}}", //radio
+    "EdelHouse.21": "{{i18n:EdelHouse.21}}", //nighstand
+    "EdelHouse.22": "{{i18n:EdelHouse.22}}", //floorpc
+    "EdelHouse.23": "{{i18n:EdelHouse.23}}", //laptop
+    "EdelHouse.24": "{{i18n:EdelHouse.24}}", //radiotable
+    "EdelHouse.25": "{{i18n:EdelHouse.25}}", //lilradio
+    "EdelHouse.26": "{{i18n:EdelHouse.26}}", //junimohut
+    "EdelGoat": "{{i18n:EdelGoat}}", //attic goat
+    "EdelBear": "{{i18n:EdelBear}}", //attic bear
+    "EdelJewel": "{{i18n:EdelJewel}}", //attic jewel
+    "EdelJunimo": "{{i18n:EdelJunimo}}", //attic junimo
+    "EdelGrave": "{{i18n:EdelGrave}}", //wait for 1.6.9
+
+    "CrimsonGroveMessage": "{{i18n:CrimsonGroveMessage}}",
+    "MoorMessage": "{{i18n:MoorMessage}}",
+    "CommonwealthMessage": "{{i18n:CommonwealthMessage}}",
+    "GroveMessage": "{{i18n:GroveMessage}}",
+
+    "TentUnallowed": "{{i18n:TentUnallowed}}"
+   }
+  }
+ ]
 }

@@ -74,23 +74,23 @@
  "BETAS.Yrsin.Tuesday_2": "Stories of my hometown?#$b#A quaint place, warm waters, and consistent feeding grounds.$1#$b#Don't know if your kind would be able to stay, though.$6",
  "BETAS.Yrsin.Tuesday_3": "Scared of the teeth?$1#$b#We tend to only mark our territories, no need to be so afraid.$6",
  //daily
- "Yrsin.Tuesday_0": "Well hello sweetheart, I've got work to attend to today, so you'll have to excuse me.$9",
- "Yrsin.Tuesday_1": "It is quite often that you visit me during work hours, sweetheart, but you'll have to pardon my manners.$9#$b#Life still moves on and the wicked don't rest.$6",
- "Yrsin.Tuesday_2": "Even though it is public knowledge of our relationship, I still cannot afford the kiddie gloves with you, sweetheart.$6#$b#Gotta keep the respect of the people.$7",
- "Yrsin.Tuesday_3": "Today's an extremely busy day, you'll have to pardon my manners, sweetheart.$5",
+ "Yrsin.Tuesday_0": "Yrrek?$2#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"What do the prices of emeralds look like?\"#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"Yes Boss. It looks as if emeralds have-- *Ahem*\" 3000 3000",
+ "Yrsin.Tuesday_1": "Yrrek?$2#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"Do we have any word from the nomadics?\"#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"Yes Boss. Seelie and Rasvata are finishing up paperwork to-- *Ahem*\" 3000 3000",
+ "Yrsin.Tuesday_2": "Yrrek?$2#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"Has Edelweiss given you an update?\"#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"Yes Boss. Thirty seven potions are finished and sixty-- *Ahem*\" 3000 3000",
+ "Yrsin.Tuesday_3": "Yrrek?$2#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"Do we have any tradeships coming in?\"#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"Yes Boss. Actually, one from Tual has docked and is awaiting you-- *Ahem*\" 3000 3000",
  //2 heart
  "Yrsin.Tuesday2_0": "I would say it is a surprise that you're here, @, but I guess I've gotten used to it.$9#$b#Still can't give you preferential treatment, though, work proceeds.$6",
  "Yrsin.Tuesday2_1": "Yrrek, do we have any word from Commonwealth?$5#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"Yes Boss. Thetlin is asking for supplies.\"#$e#...Shit.$5#$action Spiderbuttons.BETAS_ShakeNpc Aviroen.VoidsentCP_Yrsin#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"Shit!\" 3000 0 true",
- "Yrsin.Tuesday2_2": "...$7#$action Spiderbuttons.BETAS_ShakeNpc Aviroen.VoidsentCP_Yrsin 10000#$e#%Seems like Yrsin is asleep.",
- "Yrsin.Tuesday2_3": "",
+ "Yrsin.Tuesday2_2": "...$7#$action Spiderbuttons.BETAS_ShakeNpc Aviroen.VoidsentCP_Yrsin 10000#$e#%Seems like Yrsin is asleep.#$e#%Seems like Yrsin is asleep.#$e#%Seems like Yrsin is asleep.#$e#%Seems like Yrsin is asleep.#$e#%Seems like Yrsin is asleep.#$e#%Seems like Yrsin is asleep.#$e#%Seems like Yrsin is asleep.#$e#%Seems like Yrsin is asleep.#$e#%Seems like Yrsin is asleep.#$e#%Seems like Yrsin is asleep.#$e#%Seems like Yrsin is asleep.#$e#%Seems like Yrsin is asleep.",
+ "Yrsin.Tuesday2_3": "Yrrek...$2#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*Sigh*\" 3000 0 true#$e#Do we have any unfinished paperwork from Muvi?$5#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"Yes... Boss...\" 3000 3000 true#$e#%...#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*Sigh*\" 3000 0 true#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"*Sigh*\" 3000 0 true",
  //4 heart
- "Yrsin.Tuesday4_0": "",
- "Yrsin.Tuesday4_1": "",
- "Yrsin.Tuesday4_2": "",
- "Yrsin.Tuesday4_3": "",
+ "Yrsin.Tuesday4_0": "Acting a little shameless, are we, love?$7#$b#Barging into a shark's den has some bravery, I'll give you that.$6",
+ "Yrsin.Tuesday4_1": "$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*Yawn*\" 3000 0 true#$e#Ah, pardon me, love.$8#$b#Mondays are always our busiest days, I'm only now able to relax a little.$6",
+ "Yrsin.Tuesday4_2": "It's...$8#$b#Nap...$8#$b#Time...$8#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"ZzzZzzzzZz\" 3000 0 true#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"Shh... Tuesday is the only day Boss can rest peacefully.\" 3000 3000 true#$e#Ssss...$8#$e#Zzzz...$8#$e#Ss...?$2",
+ "Yrsin.Tuesday4_3": "$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*Yawn*\" 3000 0 true",
  //6
- "Yrsin.Tuesday6_0": "",
- "Yrsin.Tuesday6_1": "",
+ "Yrsin.Tuesday6_0": "Mmn?$2#$b#Feels like it's gonna rain tomorrow...$2#$action Spiderbuttons.BETAS_WeatherForTomorrow valley GreenRain",
+ "Yrsin.Tuesday6_1": "$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*ZzzZzzZz*\" 3000 0 true",
  "Yrsin.Tuesday6_2": "",
  "Yrsin.Tuesday6_3": "",
  //8 platonic
@@ -109,10 +109,10 @@
  "Yrsin.Platonic.Tuesday10_2": "",
  "Yrsin.Platonic.Tuesday10_3": "",
  //romantic
- "Yrsin.Romantic.Tuesday10_0": 'Shh. Close your eyes.$8#$action Spiderbuttons.BETAS_FadeToBlack 3000#$action Spiderbuttons.BETAS_DelayedAction "Spiderbuttons.BETAS_Message \\"A kiss was placed on my cheek.\\"" 1000',
- "Yrsin.Romantic.Tuesday10_1": "",
- "Yrsin.Romantic.Tuesday10_2": "",
- "Yrsin.Romantic.Tuesday10_3": "",
+ "Yrsin.Romantic.Tuesday10_0": "Shh. Close your eyes.$8#$action Spiderbuttons.BETAS_FadeToBlack 3000#$action Spiderbuttons.BETAS_DelayedAction \"Spiderbuttons.BETAS_Message \\\"A kiss was placed on my cheek.\\\"\" 1000",
+ "Yrsin.Romantic.Tuesday10_1": "Today's an extremely busy day, you'll have to pardon my manners, sweetheart.$5",
+ "Yrsin.Romantic.Tuesday10_2": "Even though it is public knowledge of our relationship, I still cannot afford the kiddie gloves with you, sweetheart.$6#$b#Gotta keep the respect of the people.$7",
+ "Yrsin.Romantic.Tuesday10_3": "It is quite often that you visit me during work hours, sweetheart, but you'll have to pardon my manners.$9#$b#Life still moves on and the wicked don't rest.$6",
 
  //wednesday hideout no kick
  //BETAS
@@ -151,7 +151,7 @@
  "Yrsin.Romantic.Wednesday8_2": "",
  "Yrsin.Romantic.Wednesday8_3": "",
  //10 platonic
- "Yrsin.Platonic.Wednesday10_0": "",
+ "Yrsin.Platonic.Wednesday10_0": "Well hello sweetheart, I've got work to attend to today, so you'll have to excuse me.$9",
  "Yrsin.Platonic.Wednesday10_1": "",
  "Yrsin.Platonic.Wednesday10_2": "",
  "Yrsin.Platonic.Wednesday10_3": "",

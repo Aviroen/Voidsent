@@ -23,8 +23,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="[CP] Voidsent\Assets\Objects\Trinkets\" />
-	  <Folder Include="[CP] Voidsent\Assets\TileSheets\" />
+	  <ContentPacks Include="[CP] Voidsent" />
+	  <ContentPacks Include="[FTM] Voidsent" />
 	</ItemGroup>
 
 

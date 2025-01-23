@@ -2,7 +2,7 @@
 using HarmonyLib;
 using StardewModdingAPI;
 using StardewValley;
-
+//written by irocendar
 namespace Voidsent;
 
 [HarmonyPatch(typeof(StardewValley.Object))]
@@ -28,7 +28,7 @@ public static class TentPatch
 
     static void ShowMessage()
     {
-        Game1.showRedMessage("It's not safe to sleep here.");
+        Game1.showRedMessage(Game1.content.LoadString("Strings\\StringsFromMaps:TentUnallowed"));
     }
     
     /*

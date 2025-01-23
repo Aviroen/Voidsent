@@ -22,8 +22,8 @@
         "{{ModId}}_ArtificialBeach": {
           "DisplayName": "Artificial Beach",
           "DefaultArrivalTile": {
-            "X": 7,
-            "Y": 28
+            "X": 9,
+            "Y": 4
           },
           "CreateOnLoad": {
             "MapPath": "Maps\\{{ModId}}_ArtificialBeach",
@@ -48,22 +48,51 @@
               "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
             }
           ],
-          "MusicDefault": "Overcast"
+          "MusicDefault": "Overcast",
+          "CustomFields": {
+            "Aviroen.Voidsent_UnsafeForTent": "True"
+          }
         }
       }
+    },
+    {
+      "When": {
+        "HasFlag|contains={{ModId}}_Friendship1, {{ModId}}_Friendship2": true
+      },
+      "Action": "EditMap",
+      "Target": "Maps/Mines/77377",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/Patches/AllPatches.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 3,
+        "Height": 4
+      },
+      "ToArea": {
+        "X": 31,
+        "Y": 2,
+        "Width": 3,
+        "Height": 4
+      },
+      "AddWarps": [
+        "32 3 {{ArtificialBeach}} 9 2"
+      ]
     },
     {
       "Action": "EditMap",
       "Target": "Maps/{{ModId}}_ArtificialBeach",
       "MapProperties": {
-        "SeasonOverride": "Spring",
-        "Outdoors": true
+       "AmbientLight": "75 75 75"
       },
+      "AddWarps": [
+        "9 2 UndergroundMine77377 32 3"
+      ],
       "MapTiles": [
         {
           "Position": {
-            "X": 27,
-            "Y": 20
+            "X": 24,
+            "Y": 25
           },
           "Layer": "Buildings",
           "SetProperties": {
@@ -72,8 +101,18 @@
         },
         {
           "Position": {
-            "X": 29,
+            "X": 3,
             "Y": 13
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Aviroen.Voidsent_SummonLizard"
+          }
+        },
+        {
+          "Position": {
+            "X": 24,
+            "Y": 19
           },
           "Layer": "Buildings",
           "SetProperties": {
@@ -83,28 +122,28 @@
         },
         {
           "Position": {
-            "X": 10,
-            "Y": 25
+            "X": 15,
+            "Y": 7
           },
-          "Layer": "Buildings",
+          "Layer": "Back",
           "SetProperties": {
-            "Action": "Warp 20 4 Beach"
+            "TouchAction": "MagicWarp WizardHouse 8 17"
           }
         },
         {
           "Position": {
-            "X": 8,
-            "Y": 9
+            "X": 36,
+            "Y": 3
           },
-          "Layer": "Buildings",
+          "Layer": "Back",
           "SetProperties": {
-            "Action": "Warp 10 17 WizardHouse"
+            "TouchAction": "MagicWarp Farm 64 15 {{ModId}}_EdelweissBackwarp"
           }
         },
         {
           "Position": {
-            "X": 23,
-            "Y": 12
+            "X": 22,
+            "Y": 11
           },
           "Layer": "Buildings",
           "SetProperties": {

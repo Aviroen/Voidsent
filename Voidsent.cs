@@ -6,6 +6,7 @@ using StardewUI.Framework;
 using HarmonyLib;
 using StardewValley.Characters;
 using StardewValley.Triggers;
+using static StardewValley.Utility;
 
 namespace Voidsent
 {
@@ -89,7 +90,7 @@ namespace Voidsent
             }
         }
         private void SetMyLocationFlags()
-        {
+        {//written by atravita
             for (int i = 0; i < outdoorNames.Count; i++)
             {
                 var location = outdoorNames[i];
@@ -99,6 +100,7 @@ namespace Voidsent
                     loc.ignoreDebrisWeather.Value = false;
                     loc.ignoreOutdoorLighting.Value = true;
                     loc.tryToAddCritters();
+                    loc.IsOutdoors = false;
                     //loc.critters.Add(new Crow((int)v.X, (int)v.Y));
                     //FIND THE EYEBLINKING FROM FARMCAVE TO ADD TO THE CRIMSONGROVE/GROVE
                     //fireflies
@@ -112,7 +114,7 @@ namespace Voidsent
         }
 
         private void OnDayStarted(object? sender, DayStartedEventArgs e)
-        {
+        {//written by rokugin
             indoorLocations.Clear();
             foreach (var l in indoorNames)
             {

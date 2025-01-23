@@ -3,7 +3,7 @@ using StardewModdingAPI;
 using StardewValley;
 using StardewValley.Delegates;
 using StardewValley.Triggers;
-
+//written by irocendar
 namespace Voidsent;
 
 public static class RandomDialogueAction
