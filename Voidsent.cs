@@ -42,8 +42,8 @@ namespace Voidsent
         "Aviroen.VoidsentCP_EdelweissAttic",
         "Aviroen.VoidsentCP_EdelweissBasement",
             };
-        internal static readonly List<GameLocation> outdoorLocations = new();
-        internal static readonly List<GameLocation> indoorLocations = new();
+        internal static readonly List<GameLocation> outdoorLocations = [];
+        internal static readonly List<GameLocation> indoorLocations = [];
         public override void Entry(IModHelper helper)
         {
             //viewAssetPrefix = $"Mods/{ModManifest.UniqueID}/Views";
@@ -56,7 +56,7 @@ namespace Voidsent
 
             helper.ConsoleCommands.Add("lizard", "Spawn lizard.", Lizard.LizardDebugCmd);
             GameLocation.RegisterTileAction("Aviroen.Voidsent_SummonLizard", Lizard.HandleSummonLizard);
-            TriggerActionManager.RegisterAction("Aviroen_Voidsent.RandomDialogue", RandomDialogueAction.Action);
+            TriggerActionManager.RegisterAction("Aviroen.Voidsent_RandomDialogue", RandomDialogueAction.Action);
 
             ModHelper = helper;
             ModMonitor = Monitor;
