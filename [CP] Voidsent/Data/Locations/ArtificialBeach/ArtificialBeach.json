@@ -1,156 +1,156 @@
 {
 
-  "Changes": [
-    {
-      "LogName": "Load the custom wizard building",
-      "Action": "Load",
-      "Target": "Maps/EdelWizard",
-      "FromFile": "Assets/Tilesheets/{{TargetWithoutPath}}.png"
-    },
-    { //load the artificial beach
-      "LogName": "Load Artificial Beach",
-      "Action": "Load",
-      "Priority": "Low",
-      "Target": "Maps/{{ModId}}_ArtificialBeach",
-      "FromFile": "Assets/Maps/Locations/ArtificialBeach.tmx"
-    },
-    {
-      "LogName": "Edel's maps",
-      "Action": "EditData",
-      "Target": "Data/Locations",
-      "Entries": {
-        "{{ModId}}_ArtificialBeach": {
-          "DisplayName": "Artificial Beach",
-          "DefaultArrivalTile": {
-            "X": 9,
-            "Y": 4
-          },
-          "CreateOnLoad": {
-            "MapPath": "Maps\\{{ModId}}_ArtificialBeach",
-            "AlwaysActive": false
-          },
-          "Fish": [
-            {
-              "Id": "Pufferfish",
-              "ItemID": "(O)128",
-              "Chance": 0.05,
-              "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
-            },
-            {
-              "Id": "Blobfish",
-              "ItemID": "(O)800",
-              "Chance": 0.03,
-              "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
-            },
-            {
-              "Id": "Tilapia",
-              "ItemID": "(O)701",
-              "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
-            }
-          ],
-          "MusicDefault": "Overcast",
-          "CustomFields": {
-            "Aviroen.Voidsent_UnsafeForTent": "True"
-          }
-        }
+ "Changes": [
+  {
+   "LogName": "Load the custom wizard building",
+   "Action": "Load",
+   "Target": "Maps/EdelWizard",
+   "FromFile": "Assets/Tilesheets/{{TargetWithoutPath}}.png"
+  },
+  { //load the artificial beach
+   "LogName": "Load Artificial Beach",
+   "Action": "Load",
+   "Priority": "Low",
+   "Target": "Maps/{{ModId}}_ArtificialBeach",
+   "FromFile": "Assets/Maps/Locations/ArtificialBeach.tmx"
+  },
+  {
+   "LogName": "Edel's maps",
+   "Action": "EditData",
+   "Target": "Data/Locations",
+   "Entries": {
+    "{{ModId}}_ArtificialBeach": {
+     "DisplayName": "Artificial Beach",
+     "DefaultArrivalTile": {
+      "X": 9,
+      "Y": 4
+     },
+     "CreateOnLoad": {
+      "MapPath": "Maps\\{{ModId}}_ArtificialBeach",
+      "AlwaysActive": false
+     },
+     "Fish": [
+      {
+       "Id": "Pufferfish",
+       "ItemID": "(O)128",
+       "Chance": 0.05,
+       "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+      },
+      {
+       "Id": "Blobfish",
+       "ItemID": "(O)800",
+       "Chance": 0.03,
+       "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+      },
+      {
+       "Id": "Tilapia",
+       "ItemID": "(O)701",
+       "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
       }
-    },
-    {
-      "When": {
-        "HasFlag|contains={{ModId}}_Friendship1, {{ModId}}_Friendship2": true
-      },
-      "Action": "EditMap",
-      "Target": "Maps/Mines/77377",
-      "PatchMode": "Replace",
-      "FromFile": "Assets/Maps/Patches/AllPatches.tmx",
-      "FromArea": {
-        "X": 0,
-        "Y": 0,
-        "Width": 3,
-        "Height": 4
-      },
-      "ToArea": {
-        "X": 31,
-        "Y": 2,
-        "Width": 3,
-        "Height": 4
-      },
-      "AddWarps": [
-        "32 3 {{ArtificialBeach}} 9 2"
-      ]
-    },
-    {
-      "Action": "EditMap",
-      "Target": "Maps/{{ModId}}_ArtificialBeach",
-      "MapProperties": {
-       "AmbientLight": "75 75 75"
-      },
-      "AddWarps": [
-        "9 2 UndergroundMine77377 32 3"
-      ],
-      "MapTiles": [
-        {
-          "Position": {
-            "X": 24,
-            "Y": 25
-          },
-          "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "OpenShop {{ModId}}_ShadyShack"
-          }
-        },
-        {
-          "Position": {
-            "X": 3,
-            "Y": 13
-          },
-          "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "Aviroen.Voidsent_SummonLizard"
-          }
-        },
-        {
-          "Position": {
-            "X": 24,
-            "Y": 19
-          },
-          "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "Message EdelGrave"
-            //"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_GraveTouched"
-          }
-        },
-        {
-          "Position": {
-            "X": 15,
-            "Y": 7
-          },
-          "Layer": "Back",
-          "SetProperties": {
-            "TouchAction": "MagicWarp WizardHouse 8 17"
-          }
-        },
-        {
-          "Position": {
-            "X": 36,
-            "Y": 3
-          },
-          "Layer": "Back",
-          "SetProperties": {
-            "TouchAction": "MagicWarp Farm 64 15 {{ModId}}_EdelweissBackwarp"
-          }
-        },
-        {
-          "Position": {
-            "X": 22,
-            "Y": 11
-          },
-          "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "Warp 5 23 {{ModId}}_EdelweissHouse"
-          }
-        }
-      ]
+     ],
+     "MusicDefault": "Overcast",
+     "CustomFields": {
+      "Aviroen.Voidsent_UnsafeForTent": "True"
+     }
     }
-  ]
+   }
+  },
+  {
+   "When": {
+    "HasFlag|contains={{ModId}}_Friendship1, {{ModId}}_Friendship2": true
+   },
+   "Action": "EditMap",
+   "Target": "Maps/Mines/77377",
+   "PatchMode": "Replace",
+   "FromFile": "Assets/Maps/Patches/AllPatches.tmx",
+   "FromArea": {
+    "X": 0,
+    "Y": 0,
+    "Width": 3,
+    "Height": 4
+   },
+   "ToArea": {
+    "X": 31,
+    "Y": 2,
+    "Width": 3,
+    "Height": 4
+   },
+   "AddWarps": [
+    "32 3 {{ArtificialBeach}} 9 2"
+   ]
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_ArtificialBeach",
+   "MapProperties": {
+    "AmbientLight": "75 75 75"
+   },
+   "AddWarps": [
+    "9 2 UndergroundMine77377 32 3"
+   ],
+   "MapTiles": [
+    {
+     "Position": {
+      "X": 24,
+      "Y": 25
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "OpenShop {{ModId}}_ShadyShack"
+     }
+    },
+    {
+     "Position": {
+      "X": 3,
+      "Y": 13
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Aviroen.Voidsent_SummonLizard"
+     }
+    },
+    {
+     "Position": {
+      "X": 24,
+      "Y": 19
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Message EdelGrave"
+      //"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_GraveTouched"
+     }
+    },
+    {
+     "Position": {
+      "X": 15,
+      "Y": 7
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "TouchAction": "MagicWarp WizardHouse 8 17"
+     }
+    },
+    {
+     "Position": {
+      "X": 36,
+      "Y": 3
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "TouchAction": "MagicWarp Farm 64 15 {{ModId}}_EdelweissBackwarp"
+     }
+    },
+    {
+     "Position": {
+      "X": 22,
+      "Y": 11
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Warp 5 23 {{ModId}}_EdelweissHouse"
+     }
+    }
+   ]
+  }
+ ]
 }

@@ -1,395 +1,407 @@
 {
-  "Format": "2.5.0",
-  "ConfigSchema": {
-    "SpouseRooms": {
-      "AllowValues": "Furnished, Unfurnished",
-      "Default": "Unfurnished",
-      "Description": "Choose whether the spouserooms will be furnished or unfurnished."
-    }
+ "Format": "2.5.0",
+ "ConfigSchema": {
+  "SpouseRooms": {
+   "AllowValues": "Furnished, Unfurnished",
+   "Default": "Unfurnished",
+   "Description": "Choose whether the spouserooms will be furnished or unfurnished."
+  }
+ },
+ "DynamicTokens": [
+  //npcs
+  {
+   "Name": "Edelweiss", //r
+   "Value": "{{ModId}}_Edelweiss"
   },
-  "DynamicTokens": [
-    //npcs
-    {
-      "Name": "Edelweiss", //r
-      "Value": "{{ModId}}_Edelweiss"
-    },
-    {
-      "Name": "Sylria", //r
-      "Value": "{{ModId}}_Sylria"
-    },
-    {
-      "Name": "Solace", //r
-      "Value": "{{ModId}}_Solace"
-    },
-    {
-      "Name": "Trinity", //r
-      "Value": "{{ModId}}_Trinity"
-    },
-    {
-      "Name": "Penumbra",
-      "Value": "{{ModId}}_Penumbra"
-    },
-    {
-      "Name": "Duvin", //r
-      "Value": "{{ModId}}_Duvin"
-    },
-    {
-      "Name": "Fothao",
-      "Value": "{{ModId}}_Fothao"
-    },
-    {
-      "Name": "Thandael", //r
-      "Value": "{{ModId}}_Thandael"
-    },
-    {
-      "Name": "Excalibur", //r
-      "Value": "{{ModId}}_Excalibur"
-    },
-    {
-      "Name": "ExAlts", //r
-      "When": {
-        "Query: ({{Random:{{Range: 1,9}}}} = 1) OR ({{Random:{{Range: 1,9}}}} = 9)": true
-      },
-      "Value": "{{i18n:Excalibur}}"
-    },
-    {
-      "Name": "ExAlts", //r
-      "When": {
-        "HasMod |contains=selph.ExtraAnimalConfig, selph.ImmersiveManure, selph.CoopFeed, selph.FreshFarmProduceCP, selph.CustomTapperFramework, selph.SpookyVoidChickens": true,
-        "Query: '{{Random:{{Range: 1,9}}}}' = 2": true
-      },
-      "Value": "{{i18n:California}}"
-    },
-    {
-      "Name": "ExAlts", //r
-      "When": {
-        "Query: '{{Random:{{Range: 1,9}}}}' = 3": true
-      },
-      "Value": "{{i18n:Caledfwlch}}"
-    },
-    {
-      "Name": "ExAlts", //r
-      "When": {
-        "Query: '{{Random:{{Range: 1,9}}}}' = 4": true
-      },
-      "Value": "{{i18n:Kaledvoulc'h}}"
-    },
-    {
-      "Name": "ExAlts", //r
-      "When": {
-        "Query: '{{Random:{{Range: 1,9}}}}' = 5": true
-      },
-      "Value": "{{i18n:Calesvol}}"
-    },
-    {
-      "Name": "ExAlts", //r
-      "When": {
-        "Query: '{{Random:{{Range: 1,9}}}}' = 6": true
-      },
-      "Value": "{{i18n:Caliburnus}}"
-    },
-    {
-      "Name": "ExAlts", //r
-      "When": {
-        "Query: '{{Random:{{Range: 1,9}}}}' = 7": true
-      },
-      "Value": "{{i18n:Caliburc}}"
-    },
-    {
-      "Name": "ExAlts", //r
-      "When": {
-        "Query: '{{Random:{{Range: 1,9}}}}' = 8": true
-      },
-      "Value": "{{i18n:Caliburn}}"
-    },
-    {
-      "Name": "Konryn", //r
-      "Value": "{{ModId}}_Konryn"
-    },
-    {
-      "Name": "Lysella",
-      "Value": "{{ModId}}_Lysella"
-    },
-    {
-      "Name": "Vorgar", //r
-      "Value": "{{ModId}}_Vorgar"
-    },
-    {
-      "Name": "Yrsin", //r
-      "Value": "{{ModId}}_Yrsin"
-    },
-    {
-      "Name": "Thetlin", //r
-      "Value": "{{ModId}}_Thetlin"
-    },
-    {
-      "Name": "Muvi",
-      "Value": "{{ModId}}_Muvi"
-    },
-    {
-      "Name": "Orikhan", //r
-      "Value": "{{ModId}}_Orikhan"
-    },
-    {
-      "Name": "Nimora",
-      "Value": "{{ModId}}_Nimora"
-    },
-    {
-      "Name": "Syrsa", //r
-      "Value": "{{ModId}}_Syrsa"
-    },
-    {
-      "Name": "Yrrek", //r
-      "Value": "{{ModId}}_Yrrek"
-    },
-    {
-      "Name": "Yrnal", //r
-      "Value": "{{ModId}}_Yrnal"
-    },
-    {
-      "Name": "Pau", //r
-      "Value": "{{ModId}}_Pau"
-    },
-    {
-      "Name": "Rei", //r
-      "Value": "{{ModId}}_Rei"
-    },
-    {
-      "Name": "Luna", //r
-      "Value": "{{ModId}}_Luna"
-    },
-    {
-      "Name": "Alan", //r
-      "Value": "{{ModId}}_Alan"
-    },
-    {
-      "Name": "Lou", //r
-      "Value": "{{ModId}}_Lou"
-    },
-    {
-      "Name": "Claire", //r
-      "Value": "{{ModId}}_Claire"
-    },
-    {
-      "Name": "Tia", //r
-      "Value": "{{ModId}}_Tia"
-    },
-    {
-      "Name": "Lina", //r
-      "Value": "{{ModId}}_Lina"
-    },
-    {
-      "Name": "Sai", //r
-      "Value": "{{ModId}}_Sai"
-    },
-    {
-      "Name": "SaiAlt",
-      "When": {
-        "Query: '{{Random:{{Range: 1,5}}}}' = 1": true
-      },
-      "Value": "{{i18n:Sai}}"
-    },
-    {
-      "Name": "SaiAlt",
-      "When": {
-        "Query: '{{Random:{{Range: 1,5}}}}' = 2": true
-      },
-      "Value": "{{i18n:Mace}}"
-    },
-    {
-      "Name": "SaiAlt",
-      "When": {
-        "Query: '{{Random:{{Range: 1,5}}}}' = 3": true
-      },
-      "Value": "{{i18n:Sibat}}"
-    },
-    {
-      "Name": "SaiAlt",
-      "When": {
-        "Query: '{{Random:{{Range: 1,5}}}}' = 4": true
-      },
-      "Value": "{{i18n:Kean}}"
-    },
-    {
-      "Name": "SaiAlt",
-      "When": {
-        "Query: '{{Random:{{Range: 1,5}}}}' = 5": true
-      },
-      "Value": "{{i18n:Ngao}}"
-    },
+  {
+   "Name": "Sylria", //r
+   "Value": "{{ModId}}_Sylria"
+  },
+  {
+   "Name": "Solace", //r
+   "Value": "{{ModId}}_Solace"
+  },
+  {
+   "Name": "Trinity", //r
+   "Value": "{{ModId}}_Trinity"
+  },
+  {
+   "Name": "Penumbra",
+   "Value": "{{ModId}}_Penumbra"
+  },
+  {
+   "Name": "Duvin", //r
+   "Value": "{{ModId}}_Duvin"
+  },
+  {
+   "Name": "Fothao",
+   "Value": "{{ModId}}_Fothao"
+  },
+  {
+   "Name": "Thandael", //r
+   "Value": "{{ModId}}_Thandael"
+  },
+  {
+   "Name": "Excalibur", //r
+   "Value": "{{ModId}}_Excalibur"
+  },
+  {
+   "Name": "ExAlts", //r
+   "When": {
+    "Query: ({{Random:{{Range: 1,9}}}} = 1) OR ({{Random:{{Range: 1,9}}}} = 9)": true
+   },
+   "Value": "{{i18n:Excalibur}}"
+  },
+  {
+   "Name": "ExAlts", //r
+   "When": {
+    "HasMod |contains=selph.ExtraAnimalConfig, selph.ImmersiveManure, selph.CoopFeed, selph.FreshFarmProduceCP, selph.CustomTapperFramework, selph.SpookyVoidChickens": true,
+    "Query: '{{Random:{{Range: 1,9}}}}' = 2": true
+   },
+   "Value": "{{i18n:California}}"
+  },
+  {
+   "Name": "ExAlts", //r
+   "When": {
+    "Query: '{{Random:{{Range: 1,9}}}}' = 3": true
+   },
+   "Value": "{{i18n:Caledfwlch}}"
+  },
+  {
+   "Name": "ExAlts", //r
+   "When": {
+    "Query: '{{Random:{{Range: 1,9}}}}' = 4": true
+   },
+   "Value": "{{i18n:Kaledvoulc'h}}"
+  },
+  {
+   "Name": "ExAlts", //r
+   "When": {
+    "Query: '{{Random:{{Range: 1,9}}}}' = 5": true
+   },
+   "Value": "{{i18n:Calesvol}}"
+  },
+  {
+   "Name": "ExAlts", //r
+   "When": {
+    "Query: '{{Random:{{Range: 1,9}}}}' = 6": true
+   },
+   "Value": "{{i18n:Caliburnus}}"
+  },
+  {
+   "Name": "ExAlts", //r
+   "When": {
+    "Query: '{{Random:{{Range: 1,9}}}}' = 7": true
+   },
+   "Value": "{{i18n:Caliburc}}"
+  },
+  {
+   "Name": "ExAlts", //r
+   "When": {
+    "Query: '{{Random:{{Range: 1,9}}}}' = 8": true
+   },
+   "Value": "{{i18n:Caliburn}}"
+  },
+  {
+   "Name": "Konryn", //r
+   "Value": "{{ModId}}_Konryn"
+  },
+  {
+   "Name": "Lysella",
+   "Value": "{{ModId}}_Lysella"
+  },
+  {
+   "Name": "Vorgar", //r
+   "Value": "{{ModId}}_Vorgar"
+  },
+  {
+   "Name": "Yrsin", //r
+   "Value": "{{ModId}}_Yrsin"
+  },
+  {
+   "Name": "Thetlin", //r
+   "Value": "{{ModId}}_Thetlin"
+  },
+  {
+   "Name": "Muvi",
+   "Value": "{{ModId}}_Muvi"
+  },
+  {
+   "Name": "Orikhan", //r
+   "Value": "{{ModId}}_Orikhan"
+  },
+  {
+   "Name": "Nimora",
+   "Value": "{{ModId}}_Nimora"
+  },
+  {
+   "Name": "Syrsa", //r
+   "Value": "{{ModId}}_Syrsa"
+  },
+  {
+   "Name": "Yrrek", //r
+   "Value": "{{ModId}}_Yrrek"
+  },
+  {
+   "Name": "Yrnal", //r
+   "Value": "{{ModId}}_Yrnal"
+  },
+  {
+   "Name": "Pau", //r
+   "Value": "{{ModId}}_Pau"
+  },
+  {
+   "Name": "Rei", //r
+   "Value": "{{ModId}}_Rei"
+  },
+  {
+   "Name": "Luna", //r
+   "Value": "{{ModId}}_Luna"
+  },
+  {
+   "Name": "Alan", //r
+   "Value": "{{ModId}}_Alan"
+  },
+  {
+   "Name": "Lou", //r
+   "Value": "{{ModId}}_Lou"
+  },
+  {
+   "Name": "Claire", //r
+   "Value": "{{ModId}}_Claire"
+  },
+  {
+   "Name": "Tia", //r
+   "Value": "{{ModId}}_Tia"
+  },
+  {
+   "Name": "Lina", //r
+   "Value": "{{ModId}}_Lina"
+  },
+  {
+   "Name": "Sai", //r
+   "Value": "{{ModId}}_Sai"
+  },
+  {
+   "Name": "SaiAlt",
+   "When": {
+    "Query: '{{Random:{{Range: 1,5}}}}' = 1": true
+   },
+   "Value": "{{i18n:Sai}}"
+  },
+  {
+   "Name": "SaiAlt",
+   "When": {
+    "Query: '{{Random:{{Range: 1,5}}}}' = 2": true
+   },
+   "Value": "{{i18n:Mace}}"
+  },
+  {
+   "Name": "SaiAlt",
+   "When": {
+    "Query: '{{Random:{{Range: 1,5}}}}' = 3": true
+   },
+   "Value": "{{i18n:Sibat}}"
+  },
+  {
+   "Name": "SaiAlt",
+   "When": {
+    "Query: '{{Random:{{Range: 1,5}}}}' = 4": true
+   },
+   "Value": "{{i18n:Kean}}"
+  },
+  {
+   "Name": "SaiAlt",
+   "When": {
+    "Query: '{{Random:{{Range: 1,5}}}}' = 5": true
+   },
+   "Value": "{{i18n:Ngao}}"
+  },
 
-    ///places
-    {
-      "Name": "ArtificialBeach",
-      "Value": "{{ModId}}_ArtificialBeach"
-    },
-    {
-      "Name": "Morabyr", //seaside city
-      "Value": "{{ModId}}_Morabyr"
-    },
-    {
-      "Name": "Commonwealth", //magic coalition
-      "Value": "{{ModId}}_Commonwealth"
-    },
-    {
-      "Name": "Moor", //shanty
-      "Value": "{{ModId}}_Moor"
-    },
-    {
-      "Name": "Grandberg", //castle
-      "Value": "{{ModId}}_GrandbergCastle"
-    },
-    {
-      "Name": "CrimsonGrove", //deep forest
-      "Value": "{{ModId}}_CrimsonGrove"
-    },
-    {
-      "Name": "Outlands", //wastes
-      "Value": "{{ModId}}_Outlands"
-    },
-    {
-      "Name": "Grove", //introgrove
-      "Value": "{{ModId}}_Grove"
-    },
-    {
-      "Name": "Boat", //the boat
-      "Value": "{{ModId}}_Boat"
-    },
-    //misc tokens
-    {
-      "Name": "WeekDay",
-      "When": {
-        "DayOfWeek": "Monday"
-      },
-      "Value": "Mon"
-    },
-    {
-      "Name": "WeekDay",
-      "When": {
-        "DayOfWeek": "Tuesday"
-      },
-      "Value": "Tue"
-    },
-    {
-      "Name": "WeekDay",
-      "When": {
-        "DayOfWeek": "Wednesday"
-      },
-      "Value": "Wed"
-    },
-    {
-      "Name": "WeekDay",
-      "When": {
-        "DayOfWeek": "Thursday"
-      },
-      "Value": "Thu"
-    },
-    {
-      "Name": "WeekDay",
-      "When": {
-        "DayOfWeek": "Friday"
-      },
-      "Value": "Fri"
-    },
-    {
-      "Name": "WeekDay",
-      "When": {
-        "DayOfWeek": "Saturday"
-      },
-      "Value": "Sat"
-    },
-    {
-      "Name": "WeekDay",
-      "When": {
-        "DayOfWeek": "Sunday"
-      },
-      "Value": "Sun"
-    },
-    {
-      "Name": "PlatonicCheck",
-      "When": {
-        "HasMod": "Cherry.PlatonicRelationships"
-      },
-      "Value": "Platonic"
-    },
-    {
-      "Name": "PlatonicCheck",
-      "When": {
-        "HasMod|contains=Cherry.PlatonicRelationships": false
-      },
-      "Value": "Romantic"
-    }
-  ],
-  "Changes": [
-    //loads
-    {
-      "LogName": "Load Event Blanks EXTERIORS",
-      "Action": "Load",
-      "Priority": "Low",
-      "Target": "Data/Events/{{ArtificialBeach}}, Data/Events/{{Morabyr}}, Data/Events/{{Commonwealth}}, Data/Events/{{Moor}}, Data/Events/{{Grandberg}}, Data/Events/{{CrimsonGrove}}, Data/Events/{{Outlands}}, Data/Events/{{Grove}}",
-      "FromFile": "Data/Blank.json"
-    },
-    {
-      "LogName": "Load Event Blanks INTERIORS",
-      "Action": "Load",
-      "Priority": "Low",
-      "Target": "Data/Events/{{ModId}}_EdelweissHouse, Data/Events/{{ModId}}_EdelweissAttic, Data/Events/{{ModId}}_EdelweissBasement",
-      "FromFile": "Data/Blank.json"
-    },
-    {
-      "Action": "Load",
-      "Target": "Mods/{{ModId}}/Objects",
-      "FromFile": "Assets/Objects/Objects.png"
-    },
-    {
-      "Action": "Load",
-      "Priority": "Low",
-      "Target": "Mods/{{ModId}}/Sharks",
-      "FromFile": "Assets/Animals/Pau_Sharks.png"
-    },
-    {
-      "Action": "Load",
-      "Priority": "Low",
-      "Target": "Mods/{{ModId}}/AnimalShop",
-      "FromFile": "Assets/Animals/AnimalShop.png"
-    },
-    {
-      "Action": "EditData",
-      "When": {
-        "HasMod": "shekurika.EventLookup"
-      },
-      "Target": "Mods/shekurika.EventLookup/locationnames",
-      "Entries": {
-        "{{ArtificialBeach}}": "Artificial Beach",
-        "{{Morabyr}}": "Port Morabyr",
-        "{{Commonwealth}}": "Commonwealth",
-        "{{Moor}}": "The Moor",
-        "{{Grandberg}}": "Grandberg Castle",
-        "{{CrimsonGrove}}": "Crimson Grove",
-        "{{Outlands}}": "Outlands",
-        "{{Grove}}": "Grove"
-      }
-    },
-    //includes
-    {
-      "LogName": "Exterior Locations Include",
-      "Action": "Include",
-      "FromFile": "Data/Locations/ArtificialBeach/ArtificialBeach.json" //, Data/Locations/Commonwealth/Commonwealth.json, Data/Locations/CrimsonGrove/CrimsonGrove.json, Data/Locations/Grandberg/Grandberg.json, Data/Locations/Grove/Grove.json, Data/Locations/Moor/Moor.json, Data/Locations/Morabyr/Morabyr.json, Data/Locations/Outlands/Outlands.json
-    },
-    {
-      "LogName": "Interior Locations Include",
-      "Action": "Include",
-      "FromFile": "Data/Locations/ArtificialBeach/Edelweiss.json"
-    },
-    {
-      "LogName": "CHAOS BEGIN",
-      "Action": "Include",
-      "FromFile": "Data/NPCData/BaseNPCs.json" //, Data/NPCData/CameoNPCs.json
-    },
-    {
-      "LogName": "Data Include",
-      "Action": "Include",
-      "FromFile": "Data/Other/Animals.json, Data/Other/Craftables.json, Data/Other/Events.json, Data/Other/Festivals.json, Data/Other/Fish.json, Data/Other/Mail.json, Data/Other/Shops.json, Data/Other/SpaceCore.json, Data/Other/Strings.json, Data/Other/TriggerActions.json" //Data/Other/TrinketTrinker.json
-    }
-  ]
+  ///places
+  {
+   "Name": "ArtificialBeach",
+   "Value": "{{ModId}}_ArtificialBeach"
+  },
+  {
+   "Name": "Morabyr", //seaside city
+   "Value": "{{ModId}}_Morabyr"
+  },
+  {
+   "Name": "Commonwealth", //magic coalition
+   "Value": "{{ModId}}_Commonwealth"
+  },
+  {
+   "Name": "Moor", //shanty
+   "Value": "{{ModId}}_Moor"
+  },
+  {
+   "Name": "Grandberg", //castle
+   "Value": "{{ModId}}_GrandbergCastle"
+  },
+  {
+   "Name": "CrimsonGrove", //deep forest
+   "Value": "{{ModId}}_CrimsonGrove"
+  },
+  {
+   "Name": "Outlands", //wastes
+   "Value": "{{ModId}}_Outlands"
+  },
+  {
+   "Name": "Grove", //introgrove
+   "Value": "{{ModId}}_Grove"
+  },
+  {
+   "Name": "Boat", //the boat
+   "Value": "{{ModId}}_Boat"
+  },
+  //misc tokens
+  {
+   "Name": "WeekDay",
+   "When": {
+    "DayOfWeek": "Monday"
+   },
+   "Value": "Mon"
+  },
+  {
+   "Name": "WeekDay",
+   "When": {
+    "DayOfWeek": "Tuesday"
+   },
+   "Value": "Tue"
+  },
+  {
+   "Name": "WeekDay",
+   "When": {
+    "DayOfWeek": "Wednesday"
+   },
+   "Value": "Wed"
+  },
+  {
+   "Name": "WeekDay",
+   "When": {
+    "DayOfWeek": "Thursday"
+   },
+   "Value": "Thu"
+  },
+  {
+   "Name": "WeekDay",
+   "When": {
+    "DayOfWeek": "Friday"
+   },
+   "Value": "Fri"
+  },
+  {
+   "Name": "WeekDay",
+   "When": {
+    "DayOfWeek": "Saturday"
+   },
+   "Value": "Sat"
+  },
+  {
+   "Name": "WeekDay",
+   "When": {
+    "DayOfWeek": "Sunday"
+   },
+   "Value": "Sun"
+  },
+  {
+   "Name": "PlatonicCheck",
+   "When": {
+    "HasMod": "Cherry.PlatonicRelationships"
+   },
+   "Value": "Platonic"
+  },
+  {
+   "Name": "PlatonicCheck",
+   "When": {
+    "HasMod|contains=Cherry.PlatonicRelationships": false
+   },
+   "Value": "Romantic"
+  }
+ ],
+ "Changes": [
+  //loads
+  {
+   "LogName": "Load Event Blanks EXTERIORS",
+   "Action": "Load",
+   "Priority": "Low",
+   "Target": "Data/Events/{{ArtificialBeach}}, Data/Events/{{Morabyr}}, Data/Events/{{Commonwealth}}, Data/Events/{{Moor}}, Data/Events/{{Grandberg}}, Data/Events/{{CrimsonGrove}}, Data/Events/{{Outlands}}, Data/Events/{{Grove}}",
+   "FromFile": "Data/Blank.json"
+  },
+  {
+   "LogName": "Load Event Blanks INTERIORS",
+   "Action": "Load",
+   "Priority": "Low",
+   "Target": "Data/Events/{{ModId}}_EdelweissHouse, Data/Events/{{ModId}}_EdelweissAttic, Data/Events/{{ModId}}_EdelweissBasement",
+   "FromFile": "Data/Blank.json"
+  },
+  {
+   "Action": "Load",
+   "Target": "Mods/{{ModId}}/Objects",
+   "FromFile": "Assets/Objects/Objects.png"
+  },
+  {
+   "Action": "Load",
+   "Priority": "Low",
+   "Target": "Mods/{{ModId}}/Sharks",
+   "FromFile": "Assets/Animals/Pau_Sharks.png"
+  },
+  {
+   "Action": "Load",
+   "Priority": "Low",
+   "Target": "Mods/{{ModId}}/AnimalShop",
+   "FromFile": "Assets/Animals/AnimalShop.png"
+  },
+  {
+   "Action": "EditData",
+   "When": {
+    "HasMod": "shekurika.EventLookup"
+   },
+   "Target": "Mods/shekurika.EventLookup/locationnames",
+   "Entries": {
+    "{{ArtificialBeach}}": "Artificial Beach",
+    "{{Morabyr}}": "Port Morabyr",
+    "{{Commonwealth}}": "Commonwealth",
+    "{{Moor}}": "The Moor",
+    "{{Grandberg}}": "Grandberg Castle",
+    "{{CrimsonGrove}}": "Crimson Grove",
+    "{{Outlands}}": "Outlands",
+    "{{Grove}}": "Grove"
+   }
+  },
+  //includes
+  {
+   "LogName": "Exterior Locations Include",
+   "Action": "Include",
+   "FromFile": "Data/Locations/ArtificialBeach/ArtificialBeach.json, Data/Locations/Warps.json" //, Data/Locations/Commonwealth/Commonwealth.json, Data/Locations/CrimsonGrove/CrimsonGrove.json, Data/Locations/Grandberg/Grandberg.json, Data/Locations/Grove/Grove.json, Data/Locations/Moor/Moor.json, Data/Locations/Morabyr/Morabyr.json, Data/Locations/Outlands/Outlands.json
+  },
+  {
+   "LogName": "Interior Locations Include",
+   "Action": "Include",
+   "FromFile": "Data/Locations/ArtificialBeach/Edelweiss.json"
+  },
+  {
+   "LogName": "CHAOS BEGIN",
+   "Action": "Include",
+   "FromFile": "Data/NPCData/BaseNPCs.json" //, Data/NPCData/CameoNPCs.json
+  },
+  {
+   "LogName": "Data Include",
+   "Action": "Include",
+   "FromFile": "Data/Other/Animals.json, Data/Other/Craftables.json, Data/Other/Events.json, Data/Other/Festivals.json, Data/Other/Fish.json, Data/Other/Mail.json, Data/Other/Shops.json, Data/Other/SpaceCore.json, Data/Other/Strings.json, Data/Other/TriggerActions.json" //Data/Other/TrinketTrinker.json
+  },
+  {
+   "LogName": "Spouseroom Load",
+   "Action": "Load",
+   "Target": "Maps/Spouse_{{SpouseRooms}}",
+   "FromFile": "Assets/Maps/Other/{{TargetWithoutPath}}.tmx"
+  },
+  {
+   "LogName": "Patio Load",
+   "Action": "Load",
+   "Target": "Maps/{{ModId}}_Patio",
+   "FromFile": "Assets/Maps/Other/Patio.tmx"
+  }
+ ]
 }

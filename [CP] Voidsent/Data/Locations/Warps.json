@@ -1,0 +1,89 @@
+{
+ "Changes": [
+  { //load the artificial beach
+   "LogName": "Load Artificial Beach",
+   "Action": "Load",
+   "Priority": "Low",
+   "Target": "Maps/{{ModId}}_WarpNetwork",
+   "FromFile": "Assets/Maps/Other/WarpRoom.tmx"
+  },
+  {
+   "LogName": "NPC warp network",
+   "Action": "EditData",
+   "Target": "Data/Locations",
+   "Entries": {
+    "{{ModId}}_WarpNetwork": {
+     "DisplayName": "Why The Hell Are You Here",
+     "DefaultArrivalTile": {
+      "X": 13,
+      "Y": 13
+     },
+     "CreateOnLoad": {
+      "MapPath": "Maps\\{{ModId}}_WarpNetwork",
+      "AlwaysActive": false
+     },
+     "MusicDefault": "Of Dwarves"
+    }
+   }
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/BusStop",
+   "TextOperations": [
+    {
+     "Operation": "Append",
+     "Target": [ "MapProperties", "NPCWarp" ],
+     "Value": "17 23 {{ModId}}_WarpNetwork 1 1",
+     "Delimiter": " "
+    }
+   ]
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_WarpNetwork",
+   //from-x from-y string-area to-x to-y
+   "AddWarps": [
+    "0 0 {{ArtificialBeach}} 4 4",
+    "2 0 {{ModId}}_EdelweissHouse 5 19",
+    "4 0 {{ModId}}_EdelweissAttic 2 6",
+    "6 0 {{ModId}}_EdelweissBasement 14 4",
+    "8 0 FarmHouse 5 6"
+    /*
+    "0 2 {{Commonwealth}}",
+    //grand ministry
+    //boggart's
+
+    "0 4 {{CrimsonGrove}}",
+    //grand magus tower
+    //grandmaster blacksmithy
+    //menagerie of mystery
+    //secret hideout
+
+    "0 6 {{Grandberg}}",
+    //top floor
+    //barracks
+    //konryn's room
+    //excalibur's room
+    //sai's room
+
+    "0 8 {{Grove}}", //grove will not have an interior
+
+    "0 10 {{Moor}}",
+    //swords and swingers
+    //killer couturier
+    //black widow clothing
+    //just one bite
+    //breakfast inn bed
+
+    "0 12 {{Morabyr}}",
+    //jingles and jams
+    //fish and flammables
+    //swimmers and flippers
+
+    "0 14 {{Outlands}}"
+    //witch hut
+    */
+   ]
+  }
+ ]
+}
