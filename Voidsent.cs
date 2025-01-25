@@ -65,6 +65,8 @@ namespace Voidsent
 
             Lizard.Initialize(Monitor);
             TentPatch.Initialize(Monitor, ModManifest.UniqueID);
+            SocialPagePatch.Initialize(Monitor);
+            ProfileMenuPatch.Initialize(Monitor);
             RandomDialogueAction.Initialize(helper.ModRegistry);
 
             Harmony.PatchAll();
