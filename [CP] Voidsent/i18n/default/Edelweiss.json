@@ -1,6 +1,11 @@
 {
  //start of characters/dialogue/npc
  "Edelweiss": "Edelweiss",
+ "Edelweiss.Housemate": "Bestie",
+ "Edelweiss.Spouse": "Spouse",
+ "Edelweiss.Partner": "Partner",
+ "Edelweiss.ExSpouse": "Ex-Spouse",
+ "Edelweiss.Single": "Singlet",
  "Edelweiss.breakUp": "",
  "Edelweiss.divorced": "",
  "Edelweiss.DumpsterDiveComment": "",

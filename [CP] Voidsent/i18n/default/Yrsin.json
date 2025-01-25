@@ -108,24 +108,14 @@
  "Yrsin.Platonic.Tuesday10_0": "Give me a moment, love.$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*BrrRrRrrRing*\" 3000 0 true#$e#...#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Thandael \"Yo, Sinny! To what do I owe the pleasure?$1\"#$e#...$7#$b#You're lucky I'm in a good mood today, Than.$7#$b#I need an update on the head of the snake.#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Thandael \"Oh, sure. So the schedule for the week looks like a meeting with an embassador across the sea.\"#$e#%Seems like Yrsin is busy.",
  "Yrsin.Platonic.Tuesday10_1": "Give me a moment, love.$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*BrrRrRrrRing*\" 3000 0 true#$e#...$1#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrnal \"Helooo Boss.$6\"#$e#Yrna, what would you like to eat this afternoon?$1#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrnal \"Oh! Can we have a buffet today?$1\"#$e#A buffet, huh?$1#$b#I assume you want your usual, shrimp?$6#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrnal \"Oh you know me so well Boss~$1\"#$e#Of course.$1#$b#Go ahead and call Syrs and Yrrek and we'll set something up later on today.$1#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrnal \"Okay! Your usual white-fish?$3\"#$e#You know me so well.$7#$e#%Seems like Yrsin is busy.",
  "Yrsin.Platonic.Tuesday10_2": "Sorry, love, today isn't a good time.$7#$action Spiderbuttons.BETAS_WarpFarmer Aviroen.VoidsentCP_Moor <X> <Y> <FacingDirection>",
- "Yrsin.Platonic.Tuesday10_3": "$q Q1_response_ID1/Q1_response_ID2 Q1_fallback#How do you feel about us Mermadics?
-		#$r Q1_response_ID1 0 Q1_reaction1#Quite interesting!
-		#$r Q1_response_ID2 0 Q1_reaction2#Kind of scary...",
-"Q1_reaction1": "Interesting, huh?$1#$b#I guess I should expect nothing less from someone bold enough to come into a den of a shark.$9",
-"Q1_reaction2": "$q Q2_response_ID1/Q2_response_ID2 Q2_fallback#What exactly is scary?
-				#$r Q2_response_ID1 0 Q2_reaction1#The teeth.
-				#$r Q2_response_ID2 0 Q2_reaction2#The unknown.",
-"Q2_reaction1": "Great! I'll meet you there tomorrow morning. I might collect some shells, too.",
-"Q2_reaction2": "Great! I'll meet you there tomorrow morning. Dress warm - it'll be cold up there!",
-"Q1_fallback": "Hmm, I think it might be time for another fishing day soon.",
-"Q2_fallback": "Fallback text for Q2 - will never be seen because Q1 has response IDs defined.",
+ "Yrsin.Platonic.Tuesday10_3": "$action Spiderbuttons.BETAS_Message \"Sounds like Yrsin is... humming?\"#$e#Living in your empty shadow.$8#$e#Should've been two of us, just you and I.$8",
  //romantic
  "Yrsin.Romantic.Tuesday10_0": "Shh. Close your eyes.$8#$action Spiderbuttons.BETAS_FadeToBlack 3000#$action Spiderbuttons.BETAS_DelayedAction \"Spiderbuttons.BETAS_Message \\\"A kiss was placed on my cheek.\\\"\" 1000",
  "Yrsin.Romantic.Tuesday10_1": "Today's an extremely busy day, you'll have to pardon my manners, sweetheart.$5",
  "Yrsin.Romantic.Tuesday10_2": "Even though it is public knowledge of our relationship, I still cannot afford the kiddie gloves with you, sweetheart.$6#$b#Gotta keep the respect of the people.$7",
  "Yrsin.Romantic.Tuesday10_3": "It is quite often that you visit me during work hours, sweetheart, but you'll have to pardon my manners.$9#$b#Life still moves on and the wicked don't rest.$6",
 
- //wednesday hideout no kick
+ //wednesday hideout no kick syrsa here
  //BETAS
  "BETAS.Yrsin.Wednesday_0": "Did Yrrek let you in?#$b#I'll need to reassess his raise, it seems.",
  "BETAS.Yrsin.Wednesday_1": "There is nothing of interest to you here, love.#$b#Best see yourself out, the door is right there.",
