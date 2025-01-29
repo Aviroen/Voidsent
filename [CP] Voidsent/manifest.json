@@ -1,55 +1,61 @@
 {
-  "UniqueID": "Aviroen.VoidsentCP",
-  "Name": "Voidsent CP",
-  "Author": "Voidsent Rebels",
-  "Version": "0.1.0",
-  "Description": "Stardew Expansion with heavy lore and Dragons and Dungeons motifs.",
-  "ContentPackFor": {
-    "UniqueID": "Pathoschild.ContentPatcher"
+ "UniqueID": "Aviroen.VoidsentCP",
+ "Name": "Voidsent CP",
+ "Author": "Voidsent Rebels",
+ "Version": "0.1.0",
+ "Description": "Stardew Expansion with heavy lore and Dragons and Dungeons motifs.",
+ "ContentPackFor": {
+  "UniqueID": "Pathoschild.ContentPatcher"
+ },
+ "Dependencies": [
+  {
+   "UniqueID": "Aviroen.Voidsent",
+   "IsRequired": true
   },
-  "Dependencies": [
-    {
-      "UniqueID": "Aviroen.Voidsent",
-      "IsRequired": true
-    },
-    {
-      "UniqueID": "Aviroen.VoidsentFTM",
-      "IsRequired": true
-    },
-    {
-      "UniqueID": "Spiderbuttons.ArbitraryTilesheetAccess",
-      "IsRequired": true
-    },
-    {
-      "UniqueID": "Spiderbuttons.BETAS",
-      "IsRequired": true
-    },
-    {
-      "UniqueID": "rokugin.extramapactions",
-      "IsRequired": true
-    },
-    {
-      "UniqueID": "focustense.StardewUI",
-      "IsRequired": true
-    },
-    {
-      "UniqueID": "mushymato.LivestockBazaar",
-      "IsRequired": true
-    },
-    {
-      "UniqueID": "spacechase0.SpaceCore",
-      "IsRequired": true
-    },
-    {
-      "UniqueID": "mushymato.TrinketTinker",
-      "IsRequired": true
-    },
-    {
-      "UniqueID": "KaileyStardew.Tilesheets",
-      "IsRequired": true
-    }
-  ],
-  "UpdateKeys": [
-    "Nexus:26053"
-  ]
+  {
+   "UniqueID": "Aviroen.VoidsentFTM",
+   "IsRequired": true
+  },
+  {
+   "UniqueID": "Spiderbuttons.ArbitraryTilesheetAccess",
+   "IsRequired": true
+  },
+  {
+   "UniqueID": "Spiderbuttons.BETAS",
+   "IsRequired": true
+  },
+  {
+   "UniqueID": "rokugin.extramapactions",
+   "IsRequired": true
+  },
+  {
+   "UniqueID": "focustense.StardewUI",
+   "IsRequired": true
+  },
+  {
+   "UniqueID": "mushymato.LivestockBazaar",
+   "IsRequired": true
+  },
+  {
+   "UniqueID": "spacechase0.SpaceCore",
+   "IsRequired": true
+  },
+  {
+   "UniqueID": "mushymato.TrinketTinker",
+   "IsRequired": true
+  },
+  {
+   "UniqueID": "KaileyStardew.Tilesheets",
+   "IsRequired": true
+  },
+/*
+  {
+   "UniqueID": "Spiderbuttons.CustomScheduleKeys",
+   "IsRequired": true
+  }
+ */
+ ],
+ "UpdateKeys": [
+  "Nexus:26053"
+ ]
 }

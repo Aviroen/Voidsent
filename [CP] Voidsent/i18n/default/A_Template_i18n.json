@@ -1,10 +1,12 @@
 {
+ "Test": "Test",
+ "Test.RejectPendant": "Sorry, I don't know what that I'm supposed to do with this.",
  //start of characters/dialogue/npc
- "Test.Housemate": "A",
- "Test.Spouse": "B",
- "Test.Partner": "C",
- "Test.ExSpouse": "D",
- "Test.Single": "E",
+ "Test.Housemate": "(housemate)",
+ "Test.Spouse": "(spouse)",
+ "Test.Partner": "(partner)",
+ "Test.ExSpouse": "(ex-spouse)",
+ "Test.Single": "(single)",
  "Test.breakUp": "",
  "Test.divorced": "",
  "Test.DumpsterDiveComment": "",

@@ -70,8 +70,6 @@ namespace Voidsent
             RandomDialogueAction.Initialize(helper.ModRegistry);
 
             Harmony.PatchAll();
-
-            TileActions.Register();
         }
         public void OnGameLaunched(object? sender, GameLaunchedEventArgs e)
         {
