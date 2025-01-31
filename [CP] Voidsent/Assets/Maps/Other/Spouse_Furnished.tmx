@@ -84,7 +84,7 @@
  <objectgroup id="6" name="Buildings">
   <object id="1" name="TileData" x="32" y="32" width="16" height="16">
    <properties>
-    <property name="Action" value="Warp 3 6 Aviroen.Edelweiss_EdelweissBasement"/>
+    <property name="Action" value="Warp 3 6 Aviroen.VoidsentCP_EdelweissBasement"/>
    </properties>
   </object>
   <object id="2" name="TileData" x="16" y="96" width="16" height="16">

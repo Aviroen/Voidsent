@@ -166,49 +166,47 @@
      "SetProperties": {
       "Action": "Message GroveMessage"
      }
+    },
+    {
+     "Position": {
+      "X": 4,
+      "Y": 6
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "TouchAction": "MagicWarp {{CrimsonGrove}} 8 17 {{ModId}}_CrimsonGroveUnlock"
+     }
+    },
+    {
+     "Position": {
+      "X": 8,
+      "Y": 6
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "TouchAction": "MagicWarp {{Moor}} 8 17 {{ModId}}_MoorUnlock"
+     }
+    },
+    {
+     "Position": {
+      "X": 12,
+      "Y": 6
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "TouchAction": "MagicWarp {{Commonwealth}} 8 17 {{ModId}}_CommonwealthUnlock"
+     }
+    },
+    {
+     "Position": {
+      "X": 16,
+      "Y": 6
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "TouchAction": "MagicWarp {{Grove}} 8 17 {{ModId}}_GroveUnlock"
+     }
     }
-    /*
-        {
-          "Position": {
-            "X": 4,
-            "Y": 6
-          },
-          "Layer": "Back",
-          "SetProperties": {
-            "TouchAction": "MagicWarp {{CrimsonGrove}} 8 17 {{ModId}}_CrimsonGroveUnlock"
-          }
-        },
-        {
-          "Position": {
-            "X": 8,
-            "Y": 6
-          },
-          "Layer": "Back",
-          "SetProperties": {
-            "TouchAction": "MagicWarp {{Moor}} 8 17 {{ModId}}_MoorUnlock"
-          }
-        },
-        {
-          "Position": {
-            "X": 12,
-            "Y": 6
-          },
-          "Layer": "Back",
-          "SetProperties": {
-            "TouchAction": "MagicWarp {{Commonwealth}} 8 17 {{ModId}}_CommonwealthUnlock"
-          }
-        },
-        {
-          "Position": {
-            "X": 16,
-            "Y": 6
-          },
-          "Layer": "Back",
-          "SetProperties": {
-            "TouchAction": "MagicWarp {{Grove}} 8 17 {{ModId}}_GroveUnlock"
-          }
-        }
-        */
    ]
   },
   {

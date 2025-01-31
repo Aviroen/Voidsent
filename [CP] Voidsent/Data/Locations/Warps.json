@@ -1,7 +1,7 @@
 {
  "Changes": [
-  { //load the artificial beach
-   "LogName": "Load Artificial Beach",
+  {
+   "LogName": "Load Warp Network",
    "Action": "Load",
    "Priority": "Low",
    "Target": "Maps/{{ModId}}_WarpNetwork",
@@ -47,7 +47,7 @@
     "2 0 {{ModId}}_EdelweissHouse 5 19",
     "4 0 {{ModId}}_EdelweissAttic 2 6",
     "6 0 {{ModId}}_EdelweissBasement 14 4",
-    "8 0 FarmHouse 5 6"
+    "8 0 FarmHouse 5 6",
     /*
     "0 2 {{Commonwealth}}",
     //grand ministry
@@ -83,6 +83,10 @@
     "0 14 {{Outlands}}"
     //witch hut
     */
+    "0 16 {{ModId}}_Yrsin_Hideout1 8 18",
+    "2 16 {{ModId}}_Yrsin_Hideout2 6 16",
+    "4 16 {{ModId}}_Yrsin_Hideout3 9 18",
+    "6 16 {{ModId}}_Yrsin_Hideout4 10 13"
    ]
   }
  ]

@@ -1,0 +1,194 @@
+{
+ "Changes": [
+  {
+   "LogName": "Load the custom wizard building",
+   "Action": "Load",
+   "Target": "Maps/{{ModId}}_Tree",
+   "FromFile": "Assets/Tilesheets/Tree.png"
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "Yrsin_Hideout1",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "8",
+    "YARRIVAL": "18",
+    "MUSIC": "mermaidSong"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "Yrsin_Hideout2",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "9",
+    "YARRIVAL": "16",
+    "MUSIC": "mermaidSong"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "Yrsin_Hideout3",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "9",
+    "YARRIVAL": "18",
+    "MUSIC": "mermaidSong"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "Yrsin_Hideout4",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "10",
+    "YARRIVAL": "14",
+    "MUSIC": "mermaidSong"
+   }
+  },
+  //////////// hideout1
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_Yrsin_Hideout1",
+   "MapProperties": {
+    "AmbientLight": "95 95 95",
+    "NPCWarp": "4 5 {{ModId}}_WarpNetwork 1 0"
+   },
+   "AddWarps": [
+    //"8 19 {{ModId}}_WarpNetwork 1 0",
+    //"9 19 {{ModId}}_WarpNetwork 1 0"
+   ],
+   "MapTiles": [ //NPCWarp [<int fromX> <int fromY> <string toArea> <int toX> <int toY>]+
+    {
+     "Position": {
+      "X": 13,
+      "Y": 16
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "TouchAction": "PoolEntrance"
+     }
+    },
+    {
+     "Position": {
+      "X": 8,
+      "Y": 5
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Dialogue {{i18n:Hideout1.Sign}}"
+     }
+    }
+   ]
+  },
+  //////////// hideout2
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_Yrsin_Hideout2",
+   "MapProperties": {
+    "AmbientLight": "95 95 95",
+    "NPCWarp": "5 5 {{ModId}}_WarpNetwork 1 0"
+   },
+   "AddWarps": [
+    //"8 19 {{ModId}}_WarpNetwork 1 0",
+    //"9 19 {{ModId}}_WarpNetwork 1 0"
+   ],
+   "MapTiles": [ //NPCWarp [<int fromX> <int fromY> <string toArea> <int toX> <int toY>]+
+    {
+     "Position": {
+      "X": 4,
+      "Y": 14
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "TouchAction": "PoolEntrance"
+     }
+    },
+    {
+     "Position": {
+      "X": 9,
+      "Y": 5
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Dialogue {{i18n:Hideout2.Sign}}"
+     }
+    }
+   ]
+  },
+  //////////// hideout3
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_Yrsin_Hideout3",
+   "MapProperties": {
+    "AmbientLight": "95 95 95",
+    "NPCWarp": "4 6 {{ModId}}_WarpNetwork 1 0"
+   },
+   "AddWarps": [
+    //"8 19 {{ModId}}_WarpNetwork 1 0",
+    //"9 19 {{ModId}}_WarpNetwork 1 0"
+   ],
+   "MapTiles": [ //NPCWarp [<int fromX> <int fromY> <string toArea> <int toX> <int toY>]+
+    {
+     "Position": {
+      "X": 12,
+      "Y": 13
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "TouchAction": "PoolEntrance"
+     }
+    },
+    {
+     "Position": {
+      "X": 8,
+      "Y": 7
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Dialogue {{i18n:Hideout3.Sign}}"
+     }
+    }
+   ]
+  },
+  //////////// hideout1
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_Yrsin_Hideout4",
+   "MapProperties": {
+    "AmbientLight": "95 95 95",
+    "NPCWarp": "4 6 {{ModId}}_WarpNetwork 1 0"
+   },
+   "AddWarps": [
+    //"8 19 {{ModId}}_WarpNetwork 1 0",
+    //"9 19 {{ModId}}_WarpNetwork 1 0"
+   ],
+   "MapTiles": [ //NPCWarp [<int fromX> <int fromY> <string toArea> <int toX> <int toY>]+
+    {
+     "Position": {
+      "X": 7,
+      "Y": 14
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "TouchAction": "PoolEntrance"
+     }
+    },
+    {
+     "Position": {
+      "X": 8,
+      "Y": 7
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Dialogue {{i18n:Hideout4.Sign}}"
+     }
+    }
+   ]
+  }
+ ]
+}

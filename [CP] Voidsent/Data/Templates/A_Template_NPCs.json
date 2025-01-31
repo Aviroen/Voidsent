@@ -403,7 +403,9 @@
    "Target": "Data/animationDescriptions",
    "Entries": {
     "{{ModId}}_{{NPCNAME}}_stand": "0/0/0",
-    "{{Lowercase:{{ModId}}_{{NPCNAME}}}}_sleep": "{{SLEEPANIMATION}}"
+    "{{Lowercase:{{ModId}}_{{NPCNAME}}}}_sleep": "{{SLEEPANIMATION}}",
+    "{{Lowercase:{{ModId}}_{{NPCNAME}}}}_{{SPECIAL1}}": "{{SPECIAL1ANIMATION}}",
+    "{{Lowercase:{{ModId}}_{{NPCNAME}}}}_{{SPECIAL2}}": "{{SPECIAL2ANIMATION}}"
    }
   },
   //////////////////////////////////////////////////////////////////////////////////////////////////

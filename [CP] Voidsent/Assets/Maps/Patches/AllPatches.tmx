@@ -266,6 +266,20 @@
  <tileset firstgid="289" name="kailey_mine_dangerous_extra" tilewidth="16" tileheight="16" tilecount="3276" columns="42">
   <image source="kailey_mine_dangerous_extra.png" width="672" height="1248"/>
  </tileset>
+ <tileset firstgid="3565" name="Cursors" tilewidth="16" tileheight="16" tilecount="6204" columns="44">
+  <image source="Content/LooseSprites/Cursors.png" width="704" height="2256"/>
+  <tile id="67">
+   <animation>
+    <frame tileid="67" duration="100"/>
+    <frame tileid="68" duration="100"/>
+    <frame tileid="69" duration="100"/>
+    <frame tileid="70" duration="100"/>
+    <frame tileid="71" duration="100"/>
+    <frame tileid="72" duration="100"/>
+    <frame tileid="73" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
  <layer id="4" name="Back" width="40" height="40">
   <data encoding="csv">
 219,219,219,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -400,7 +414,7 @@
  </layer>
  <layer id="5" name="Buildings" width="40" height="40">
   <data encoding="csv">
-72,0,73,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+72,0,73,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3632,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 88,0,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 104,0,105,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 120,0,121,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

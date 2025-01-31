@@ -374,7 +374,7 @@
   {
    "LogName": "Exterior Locations Include",
    "Action": "Include",
-   "FromFile": "Data/Locations/ArtificialBeach/ArtificialBeach.json, Data/Locations/Warps.json" //, Data/Locations/Commonwealth/Commonwealth.json, Data/Locations/CrimsonGrove/CrimsonGrove.json, Data/Locations/Grandberg/Grandberg.json, Data/Locations/Grove/Grove.json, Data/Locations/Moor/Moor.json, Data/Locations/Morabyr/Morabyr.json, Data/Locations/Outlands/Outlands.json
+   "FromFile": "Data/Locations/ArtificialBeach/ArtificialBeach.json, Data/Locations/Warps.json, Data/Locations/Other/Hideouts.json, Data/Locations/Other/Stardrops.json" //, Data/Locations/Commonwealth/Commonwealth.json, Data/Locations/CrimsonGrove/CrimsonGrove.json, Data/Locations/Grandberg/Grandberg.json, Data/Locations/Grove/Grove.json, Data/Locations/Moor/Moor.json, Data/Locations/Morabyr/Morabyr.json, Data/Locations/Outlands/Outlands.json
   },
   {
    "LogName": "Interior Locations Include",

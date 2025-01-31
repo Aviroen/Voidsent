@@ -1,0 +1,33 @@
+{
+ "Changes": [
+  {
+   "LogName": "Load {{MAPNAME}}",
+   "Action": "Load",
+   "Priority": "Low",
+   "Target": "Maps/{{ModId}}_{{MAPNAME}}",
+   "FromFile": "Assets/Maps/{{INTERIORORLOCATIONS}}/{{MAPNAME}}.tmx"
+  },
+  {
+   "LogName": "{{MAPNAME}} Data/Location",
+   "Action": "EditData",
+   "Target": "Data/Locations",
+   "Entries": {
+    "{{ModId}}_{{MAPNAME}}": {
+     "DisplayName": "{{i18n:MAPNAME}}",
+     "DefaultArrivalTile": {
+      "X": "{{XARRIVAL}}",
+      "Y": "{{YARRIVAL}}"
+     },
+     "CreateOnLoad": {
+      "MapPath": "Maps\\{{ModId}}_{{MAPNAME}}",
+      "AlwaysActive": false
+     },
+     "MusicDefault": "{{MUSIC}}",
+     "CustomFields": {
+      "Aviroen.Voidsent_UnsafeForTent": "True"
+     }
+    }
+   }
+  }
+ ]
+}
