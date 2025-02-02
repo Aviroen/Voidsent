@@ -5,53 +5,41 @@
    "LogName": "Load the custom wizard building",
    "Action": "Load",
    "Target": "Maps/{{ModId}}_EdelWizard",
-   "FromFile": "Assets/Tilesheets/EdelWizard.png"
+   "FromFile": "Assets/Tilesheets/{{ModId}}_EdelWizard.png"
   },
-  { //load the artificial beach
-   "LogName": "Load Artificial Beach",
-   "Action": "Load",
-   "Priority": "Low",
-   "Target": "Maps/{{ModId}}_ArtificialBeach",
-   "FromFile": "Assets/Maps/Locations/ArtificialBeach.tmx"
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "ArtificialBeach",
+    "INTERIORORLOCATIONS": "Locations",
+    "XARRIVAL": "9",
+    "YARRIVAL": "4",
+    "MUSIC": "Overcast"
+   }
   },
   {
    "LogName": "Edel's maps",
    "Action": "EditData",
    "Target": "Data/Locations",
+   "TargetField": [ "{{ModId}}_ArtificalBeach", "Fish" ],
    "Entries": {
-    "{{ModId}}_ArtificialBeach": {
-     "DisplayName": "Artificial Beach",
-     "DefaultArrivalTile": {
-      "X": 9,
-      "Y": 4
-     },
-     "CreateOnLoad": {
-      "MapPath": "Maps\\{{ModId}}_ArtificialBeach",
-      "AlwaysActive": false
-     },
-     "Fish": [
-      {
-       "Id": "Pufferfish",
-       "ItemID": "(O)128",
-       "Chance": 0.05,
-       "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
-      },
-      {
-       "Id": "Blobfish",
-       "ItemID": "(O)800",
-       "Chance": 0.03,
-       "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
-      },
-      {
-       "Id": "Tilapia",
-       "ItemID": "(O)701",
-       "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
-      }
-     ],
-     "MusicDefault": "Overcast",
-     "CustomFields": {
-      "Aviroen.Voidsent_UnsafeForTent": "True"
-     }
+    "{{ModId}}_Pufferfish": {
+     "Id": "Pufferfish",
+     "ItemID": "(O)128",
+     "Chance": 0.05,
+     "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+    },
+    "{{ModId}}_Blobfish": {
+     "Id": "Blobfish",
+     "ItemID": "(O)800",
+     "Chance": 0.03,
+     "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+    },
+    "{{ModId}}_Tilapia": {
+     "Id": "Tilapia",
+     "ItemID": "(O)701",
+     "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
     }
    }
   },
@@ -148,7 +136,7 @@
      },
      "Layer": "Buildings",
      "SetProperties": {
-      "Action": "Warp 5 23 {{ModId}}_EdelweissHouse"
+      "Action": "Warp 8 18 {{ModId}}_EdelweissHouse"
      }
     }
    ]

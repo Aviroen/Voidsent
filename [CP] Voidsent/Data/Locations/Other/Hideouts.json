@@ -1,10 +1,10 @@
 {
  "Changes": [
   {
-   "LogName": "Load the custom wizard building",
+   "LogName": "Load the tree drawn by AirynS",
    "Action": "Load",
    "Target": "Maps/{{ModId}}_Tree",
-   "FromFile": "Assets/Tilesheets/Tree.png"
+   "FromFile": "Assets/Tilesheets/{{ModId}}_Tree.png"
   },
   {
    "Action": "Include",
@@ -53,7 +53,7 @@
   //////////// hideout1
   {
    "Action": "EditMap",
-   "Target": "Maps/{{ModId}}_Yrsin_Hideout1",
+   "Target": "Maps/{{Yrsin}}_Hideout1",
    "MapProperties": {
     "AmbientLight": "95 95 95",
     "NPCWarp": "4 5 {{ModId}}_WarpNetwork 1 0"
@@ -88,7 +88,7 @@
   //////////// hideout2
   {
    "Action": "EditMap",
-   "Target": "Maps/{{ModId}}_Yrsin_Hideout2",
+   "Target": "Maps/{{Yrsin}}_Hideout2",
    "MapProperties": {
     "AmbientLight": "95 95 95",
     "NPCWarp": "5 5 {{ModId}}_WarpNetwork 1 0"
@@ -123,7 +123,7 @@
   //////////// hideout3
   {
    "Action": "EditMap",
-   "Target": "Maps/{{ModId}}_Yrsin_Hideout3",
+   "Target": "Maps/{{Yrsin}}_Hideout3",
    "MapProperties": {
     "AmbientLight": "95 95 95",
     "NPCWarp": "4 6 {{ModId}}_WarpNetwork 1 0"
@@ -158,7 +158,7 @@
   //////////// hideout1
   {
    "Action": "EditMap",
-   "Target": "Maps/{{ModId}}_Yrsin_Hideout4",
+   "Target": "Maps/{{Yrsin}}_Hideout4",
    "MapProperties": {
     "AmbientLight": "95 95 95",
     "NPCWarp": "4 6 {{ModId}}_WarpNetwork 1 0"

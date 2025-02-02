@@ -4,9 +4,7 @@ using StardewModdingAPI.Events;
 using Microsoft.Xna.Framework;
 using StardewUI.Framework;
 using HarmonyLib;
-using StardewValley.Characters;
 using StardewValley.Triggers;
-using static StardewValley.Utility;
 
 namespace Voidsent
 {
@@ -53,6 +51,7 @@ namespace Voidsent
             helper.Events.GameLoop.SaveLoaded += (_, _) => SetMyLocationFlags(); //netbools
             helper.Events.GameLoop.SaveCreated += (_, _) => SetMyLocationFlags(); //netbools
             helper.Events.GameLoop.DayStarted += OnDayStarted;
+            //helper.Events.Content.AssetRequested += OnAssetRequested;
 
             helper.ConsoleCommands.Add("lizard", "Spawn lizard.", Lizard.LizardDebugCmd);
             GameLocation.RegisterTileAction("Aviroen.Voidsent_SummonLizard", Lizard.HandleSummonLizard);
@@ -77,7 +76,7 @@ namespace Voidsent
             //viewEngine = Helper.ModRegistry.GetApi<IViewEngine>("focustense.StardewUI")!;
             //viewEngine.RegisterSprites($"Mods/{ModManifest.UniqueID}/Sprites", "Assets/Sprites");
             //viewEngine.RegisterViews($"Mods/{ModManifest.UniqueID}/Views", "Assets/Views");
-            
+
         }
         private void OnButtonPressed(object? sender, ButtonPressedEventArgs e)
         {
@@ -89,6 +88,7 @@ namespace Voidsent
                 //
             }
         }
+
         private void SetMyLocationFlags()
         {//written by atravita
             for (int i = 0; i < outdoorNames.Count; i++)
@@ -101,6 +101,7 @@ namespace Voidsent
                     loc.ignoreOutdoorLighting.Value = true;
                     loc.tryToAddCritters();
                     loc.IsOutdoors = false;
+
                     //loc.critters.Add(new Crow((int)v.X, (int)v.Y));
                     //FIND THE EYEBLINKING FROM FARMCAVE TO ADD TO THE CRIMSONGROVE/GROVE
                     //fireflies
@@ -126,11 +127,45 @@ namespace Voidsent
                 outdoorLocations.Add(Game1.getLocationFromName(k));
             }
         }
+        /*
+        private string SeasonOverrider()
+        {
+            if (Game1.stats.DaysPlayed % 56 == 0)
+            {
+                for (int i = 0; i <= 3; i++)
+                {
+                    switch (i)
+                    {
+                        case 0:
+                            return "Summer";
+                        case 1:
+                            return "Fall";
+                        case 2:
+                            return "Winter";
+                        case 3:
+                            return "Spring";
+                    }
+                }
+            }
+            return "Spring";
+        }
+        private void OnAssetRequested(object? sender, AssetRequestedEventArgs e)
+        {
+            for (int i = 0; i < outdoorNames.Count; i++)
+            {
+                var location = outdoorNames[i];
+                if (e.Name.IsEquivalentTo("Maps/" + outdoorNames[i]))
+                {
+                    e.Edit(asset =>
+                    {
+                        IAssetDataForMap editor = asset.AsMap();
+                        Map map = editor.Data;
 
+                        map.Properties["SeasonOverride"] = SeasonOverrider();
+                    });
+                }
+            }
+        }
+        */
     }
-    /* IL_0202: stloc.s 10 //match for this
-     * new method that takes SocialEntry socialEntry (loc, match) check for return new special identifier
-     * then new stloc.s before \/
-     * IL_048e: call string StardewValley.Game1::parseText(string, class [MonoGame.Framework]Microsoft.Xna.Framework.Graphics.SpriteFont, int32)
-     */
 }

@@ -8,6 +8,13 @@
    "FromFile": "Assets/Maps/{{INTERIORORLOCATIONS}}/{{MAPNAME}}.tmx"
   },
   {
+   "LogName": "Load {{MAPNAME}} Events",
+   "Action": "Load",
+   "Priority": "Low",
+   "Target": "Data/Events/{{ModId}}_{{MAPNAME}}",
+   "FromFile": "data/blank.json"
+  },
+  {
    "LogName": "{{MAPNAME}} Data/Location",
    "Action": "EditData",
    "Target": "Data/Locations",

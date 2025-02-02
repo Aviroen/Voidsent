@@ -1,2 +1,12 @@
 {
+ "Changes": [
+  {
+   "LogName": "{{NPCNAME}} Afterparty",
+   "Action": "EditData",
+   "Target": "Data/Events/temp",
+   "Entries": {
+    "{{Edelweiss}}_JustMarried": "pause 900/end"
+   }
+  }
+ ]
 }

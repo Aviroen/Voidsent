@@ -51,37 +51,11 @@
  "26053Kitchen_13": "Smells like vanilla.",
  "26053Kitchen_14": "Smells like teen spirit.",
  "26053Kitchen_15": "Smells like... nothing?",
- "EdelHouse.1": "Probably shouldn't touch these potions.", //bottle shelf
- "EdelHouse.2": "A family photo.", //kitchen dresser
- "EdelHouse.3": "Probably shouldn't touch.", //apothecary table
- "EdelHouse.4": "Most definitely shouldn't touch.", //apothecary table
  "EdelHouse.5": "Edelweiss makes strange weapons here.", //anvil
  "EdelHouse.6": "The dents of hard work.", //anvil
- "EdelHouse.7": "Edelweiss would get mad if any of these broke.", //apothecary table
- "EdelHouse.8": "The urge to touch is palpable.", //apothecary table
- "EdelHouse.9": "Maybe just one touch.", //apothecary table
- "EdelHouse.10": "Looks like a magic circle.", //magic circle
- "EdelHouse.11": "Holds molten iron.", //furnace
- "EdelHouse.12": "Nice and warm.", //fireplace
- "EdelHouse.13": "For chopping trees.", //axe
- "EdelHouse.14": "Apparently named 'Sonny'.", //kitchen plant
  "EdelHouse.15": "Anime stickers.", //fridge
  "EdelHouse.16": "Scorchmarks and kimchi stains.", //stove
- "26053TV_0": "'Today on Ferngill Daily!'#'Residents state that a daily intake of iron will help your blood pressure!'", //tv
- "26053TV_1": "'Today on Gotoro Daily!'#'Residents state that vegetables high in iron will help alleviate headaches!'", //tv
- "26053TV_2": "'Today on Zuzu Daily!'#'Residents state that fish oils help brain stimulation!'", //tv
- "26053TV_3": "'Today on Ferngill Daily!'#'Residents find brand new species of mermaids!'", //tv
- "26053TV_4": "'Today on Gotoro Daily!'#'Residents find brand new species of lizards!'", //tv
- "26053TV_5": "'Today on Zuzu Daily!'#'Traffic is an all time high, it is important to--'", //tv
- "EdelHouse.18": "Edelweiss' rig looks very high-spec.", //computertower
- "EdelHouse.19": "'G'#'o'#'t'#'o'#'T'#'h'#'e'#'P'#'o'#'r'#'t'", //radio
- "EdelHouse.20": "'E'#'d'#'e'#'l'#'?'", //radio
- "EdelHouse.21": "A soft lamp, lit by magic.", //nighstand
  "EdelHouse.22": "A spare computer.", //floorpc
- "EdelHouse.23": "Has a video playing.", //laptop
- "EdelHouse.24": "'Y'#'r'#'s'#'i'#'n'#'C'#'a'#'l'#'l'#'i'#'n'#'g'", //radiotable
- "EdelHouse.25": "'Weather is quite clear on Port Morabyr!'", //lilradio
- "EdelHouse.26": "Do Junimos live here?", //junimohut
  "EdelGoat": "A soft goat.", //attic goat
  "EdelBear": "A big bear.", //attic bear
  "EdelJewel": "A purple jewel.", //attic jewel

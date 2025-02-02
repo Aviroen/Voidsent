@@ -1,0 +1,22 @@
+{
+ "Changes": [
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_EdelweissHouse",
+   "PatchMode": "Overlay",
+   "FromFile": "Assets/Maps/Patches/AllPatches.tmx",
+   "FromArea": {
+    "X": 0,
+    "Y": 4,
+    "Width": 9,
+    "Height": 9
+   },
+   "ToArea": {
+    "X": 8,
+    "Y": 3,
+    "Width": 9,
+    "Height": 9
+   }
+  }
+ ]
+}

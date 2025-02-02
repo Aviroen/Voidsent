@@ -73,7 +73,7 @@
     "{{ModId}}_{{NPCNAME}}_DialogueOpened": {
      "Id": "{{ModId}}_{{NPCNAME}}_DialogueOpened",
      "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, ITEM_STACK Target 1",
+     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, ITEM_STACK Target 1, !PLAYER_NPC_RELATIONSHIP Current {{ModId}}_{{NPCNAME}} Married",
      "MarkActionApplied": false,
      "Action": "Aviroen.Voidsent_RandomDialogue Aviroen.VoidsentCP {{ModId}}_{{NPCNAME}} BETAS.{{NPCNAME}}.{{WeekDay}}_ {{Range:0,{{ENDRANGE}}}}"
     }
@@ -87,12 +87,26 @@
     "{{ModId}}_{{NPCNAME}}_DialogueOpened1": {
      "Id": "{{ModId}}_{{NPCNAME}}_DialogueOpened1",
      "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, {{Query:{{Hearts:{{NPCNAME}}}} >= 2}}, ITEM_STACK Target 1, ANY \"{{2HEART}}\" \"{{4HEART}}\" \"{{6HEART}}\" \"{{8HEART}}\" \"{{10HEART}}\"",
+     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, {{Query:{{Hearts:{{NPCNAME}}}} >= 2}}, ITEM_STACK Target 1, !PLAYER_NPC_RELATIONSHIP Current {{ModId}}_{{NPCNAME}} Married, ANY \"{{2HEART}}\" \"{{4HEART}}\" \"{{6HEART}}\" \"{{8HEART}}\" \"{{10HEART}}\"",
      "MarkActionApplied": false,
      "Actions": [
       "Aviroen.Voidsent_RandomDialogue Aviroen.VoidsentCP {{ModId}}_{{NPCNAME}} BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_ {{Range:0,{{ENDRANGE}}}}",
       "MarkActionApplied Current {{ModId}}_{{NPCNAME}}_DialogueOpened true"
      ]
+    }
+   }
+  },
+  {
+   "LogName": "Trigger Actions: BETAS",
+   "Action": "EditData",
+   "Target": "Data/TriggerActions",
+   "Entries": {
+    "{{ModId}}_{{NPCNAME}}_Married": {
+     "Id": "{{ModId}}_{{NPCNAME}}_Married",
+     "Trigger": "Spiderbuttons.BETAS_NpcKissed",
+     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}",
+     "MarkActionApplied": false,
+     "Action": "Aviroen.Voidsent_RandomDialogue Aviroen.VoidsentCP {{ModId}}_{{NPCNAME}} BETAS.{{NPCNAME}}.Married.{{WeekDay}}_ {{Range:0,{{ENDRANGE}}}}"
     }
    }
   },
@@ -193,7 +207,7 @@
       "Y": 0
      },
      "ShakePortraits": [ 15 ],
-     "KissSpriteIndex": 39,
+     "KissSpriteIndex": 28,
      "KissSpriteFacingRight": false,
      "HiddenProfileEmoteSound": "newRecipe",
      "HiddenProfileEmoteDuration": 4000,
@@ -403,9 +417,9 @@
    "Target": "Data/animationDescriptions",
    "Entries": {
     "{{ModId}}_{{NPCNAME}}_stand": "0/0/0",
-    "{{Lowercase:{{ModId}}_{{NPCNAME}}}}_sleep": "{{SLEEPANIMATION}}",
-    "{{Lowercase:{{ModId}}_{{NPCNAME}}}}_{{SPECIAL1}}": "{{SPECIAL1ANIMATION}}",
-    "{{Lowercase:{{ModId}}_{{NPCNAME}}}}_{{SPECIAL2}}": "{{SPECIAL2ANIMATION}}"
+    "{{Lowercase:{{ModId}}_{{NPCNAME}}_sleep}}": "{{SLEEPANIMATION}}",
+    "{{ModId}}_{{NPCNAME}}_{{SPECIAL1}}": "{{SPECIAL1ANIMATION}}",
+    "{{ModId}}_{{NPCNAME}}_{{SPECIAL2}}": "{{SPECIAL2ANIMATION}}"
    }
   },
   //////////////////////////////////////////////////////////////////////////////////////////////////
@@ -582,5 +596,16 @@
     "Bad_9": "$query {{Query: {{ENDRANGE}} > 3}} # {{i18n:Wiped.{{NPCNAME}}.Bad_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | {{i18n:Wiped.{{NPCNAME}}.Bad_{{Random:{{Range: 0, 3}}}}}}"
    }
   }
+  /*
+  {
+   "LogName": "Wedding Template",
+   "Action": "EditData",
+   "Target": "Data/Weddings",
+   "TargetField": [ "EventScript" ],
+   "Entries": {
+    "{{ModId}}_{{NPCNAME}}": "sweet/-10000 -10000/farmer 27 63 2 [SpouseFarmerText [EscapedText] [EscapedText spouse 28 63 2]] Lewis 27 64 2 otherFarmers 29 69 0[SetupContextualWeddingAttendees]/changeLocation Town/[SpouseFarmerText [EscapedText faceDirection [SpouseActor] 2/warp [SpouseActor] 28 63] [EscapedText showFrame spouse 36]]/specificTemporarySprite wedding/viewport 27 64 true/pause 4000/speak Lewis \"[GenderedText [EscapedText [LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5367 [DayOfMonth] [Season]]] [EscapedText [LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5369 [DayOfMonth] [Season]]]]\"/faceDirection farmer 1/[SpouseFarmerText [EscapedText faceDirection [SpouseActor] 3] [EscapedText showFrame spouse 37]]/pause 500/faceDirection Lewis 0/pause 2000/speak Lewis \"[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5370]\"/move Lewis 0 1 0/playMusic none/pause 1000/showFrame Lewis 20/speak Lewis \"[GenderedText [SpouseGenderedText [EscapedText [LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5371]] [EscapedText [LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5373]]] [SpouseGenderedText [EscapedText [LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5377]] [EscapedText [LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5375]]]]\"/pause 500/speak Lewis \"[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5379]\"/pause 1000/showFrame 101/[SpouseFarmerText [EscapedText showFrame [SpouseActor] 101 true] [EscapedText showFrame spouse 38]]/specificTemporarySprite heart 28 62/playSound dwop/pause 2000/specificTemporarySprite wed/faceDirection farmer 2/[SpouseFarmerText [EscapedText faceDirection [SpouseActor] 2] [EscapedText showFrame spouse 36]]/[ContextualWeddingCelebrations]move Lewis 0 3 3 true/pause 4000/faceDirection farmer 1/[SpouseFarmerText [EscapedText showFrame [SpouseActor] 3 true] [EscapedText showFrame spouse 37]]/globalFade/viewport -1000 -1000/pause 1000/message \"[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5381]\"/pause 500/message \"[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5383]\"/pause 4000/globalFade/viewport -1000 -1000/changeToTemporaryMap {{AFTERPARTY}} false/bgColor 0 0 0/ambientLight 0 0 0/switchEvent {{ModId}}_{{NPCNAME}}_JustMarried"
+   }
+  }
+ */
  ]
 }

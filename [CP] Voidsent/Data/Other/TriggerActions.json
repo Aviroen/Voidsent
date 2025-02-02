@@ -1,19 +1,19 @@
 {
-  "Changes": [
-    {
-      "LogName": "Trigger Actions: Base",
-      "Action": "EditData",
-      "Target": "Data/TriggerActions",
-      "Entries": {
-        "{{ModId}}_WarpMailer": {
-          "Id": "{{ModId}}_WarpMailer",
-          "Trigger": "DayStarted",
-          "Condition": "MINE_LOWEST_LEVEL_REACHED 121",
-          "Actions": [
-            "AddMail Current {{ModId}}_EdelweissWarp tomorrow"
-          ]
-        }
-      }
+ "Changes": [
+  {
+   "LogName": "Trigger Actions: Base",
+   "Action": "EditData",
+   "Target": "Data/TriggerActions",
+   "Entries": {
+    "{{ModId}}_WarpMailer": {
+     "Id": "{{ModId}}_WarpMailer",
+     "Trigger": "DayStarted",
+     "Condition": "MINE_LOWEST_LEVEL_REACHED 121",
+     "Actions": [
+      "AddMail Current {{ModId}}_EdelweissWarp tomorrow"
+     ]
     }
-  ]
+   }
+  }
+ ]
 }

@@ -5,6 +5,11 @@
    "AllowValues": "Furnished, Unfurnished",
    "Default": "Unfurnished",
    "Description": "Choose whether the spouserooms will be furnished or unfurnished."
+  },
+  "Photosensitive Mode": {
+   "AllowValues": "true, false",
+   "Default": "false",
+   "Description": "Turns off all pulsating runic circles on all maps. Default off."
   }
  },
  "DynamicTokens": [
@@ -323,20 +328,6 @@
  "Changes": [
   //loads
   {
-   "LogName": "Load Event Blanks EXTERIORS",
-   "Action": "Load",
-   "Priority": "Low",
-   "Target": "Data/Events/{{ArtificialBeach}}, Data/Events/{{Morabyr}}, Data/Events/{{Commonwealth}}, Data/Events/{{Moor}}, Data/Events/{{Grandberg}}, Data/Events/{{CrimsonGrove}}, Data/Events/{{Outlands}}, Data/Events/{{Grove}}",
-   "FromFile": "Data/Blank.json"
-  },
-  {
-   "LogName": "Load Event Blanks INTERIORS",
-   "Action": "Load",
-   "Priority": "Low",
-   "Target": "Data/Events/{{ModId}}_EdelweissHouse, Data/Events/{{ModId}}_EdelweissAttic, Data/Events/{{ModId}}_EdelweissBasement",
-   "FromFile": "Data/Blank.json"
-  },
-  {
    "Action": "Load",
    "Target": "Mods/{{ModId}}/Objects",
    "FromFile": "Assets/Objects/Objects.png"
@@ -371,6 +362,13 @@
    }
   },
   //includes
+  {
+   "Action": "Include",
+   "When": {
+    "Photosensitive Mode": true
+   },
+   "FromFile": "Data/Locations/Other/Accessibility.json"
+  },
   {
    "LogName": "Exterior Locations Include",
    "Action": "Include",
