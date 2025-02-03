@@ -20,7 +20,7 @@
    "Target": "Data/Locations",
    "Entries": {
     "{{ModId}}_{{MAPNAME}}": {
-     "DisplayName": "{{i18n:MAPNAME}}",
+     "DisplayName": "{{i18n:{{MAPNAME}}}}",
      "DefaultArrivalTile": {
       "X": "{{XARRIVAL}}",
       "Y": "{{YARRIVAL}}"
@@ -33,6 +33,29 @@
      "CustomFields": {
       "Aviroen.Voidsent_UnsafeForTent": "True"
      }
+    }
+   }
+  },
+  {
+   "Action": "EditData",
+   "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+   "Entries": {
+    "{{ModId}}_{{AREA}}": {
+     "Id": "{{ModId}}_{{AREA}}",
+     "DisplayName": "{{i18n:{{AREA}}}}"
+    }
+   }
+  },
+  {
+   "Action": "EditData",
+   "Target": "Mods/CJBok.CheatsMenu/Warps",
+   "Entries": {
+    "{{ModId}}_{{MAPNAME}}": {
+     "Id": "{{ModId}}_{{MAPNAME}}",
+     "SectionId": "{{ModId}}_{{AREA}}",
+     "DisplayName": "{{i18n:{{MAPNAME}}}}",
+     "Location": "{{ModId}}_{{MAPNAME}}",
+     "Tile": "{{XARRIVAL}}, {{YARRIVAL}}"
     }
    }
   }

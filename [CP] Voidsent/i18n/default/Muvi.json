@@ -1,0 +1,928 @@
+{
+ "Muvi": "Muvi",
+ "Muvi.RejectPendant": "Sorry, I don't know what that I'm supposed to do with this.",
+ //start of characters/dialogue/npc
+ "Muvi.Housemate": "(housemate)",
+ "Muvi.Spouse": "(spouse)",
+ "Muvi.Partner": "(partner)",
+ "Muvi.ExSpouse": "(ex-spouse)",
+ "Muvi.Single": "(single)",
+ "Muvi.breakUp": "",
+ "Muvi.divorced": "",
+ "Muvi.DumpsterDiveComment": "",
+ "Muvi.HitBySlingshot": "",
+ "Muvi.SpouseFarmhouseClutter": "",
+ "Muvi.SpouseGiftJealous": "",
+ "Muvi.Spouse_MonstersInHouse": "",
+ "Muvi.SpouseStardrop": "",
+ "Muvi.WipedMemory": "",
+ "Muvi.AcceptBouquet": "",
+ "Muvi.MovieInvitation": "",
+ "Muvi.RejectBouquet": "",
+ "Muvi.RejectGift_Divorced": "",
+ "Muvi.RejectMermaidPendant": "",
+ "Muvi.RejectMovieTicket": "",
+ "Muvi.GreenRain": "",
+ "Muvi.GreenRainFinished": "",
+ "Muvi.Engaged": "",
+ "Muvi.AfterWedding": "",
+
+ //monday
+ //BETAS
+ "BETAS.Muvi.Monday_0": "",
+ "BETAS.Muvi.Monday_1": "",
+ "BETAS.Muvi.Monday_2": "",
+ "BETAS.Muvi.Monday_3": "",
+ //daily
+ "Muvi.Monday_0": "",
+ "Muvi.Monday_1": "",
+ "Muvi.Monday_2": "",
+ "Muvi.Monday_3": "",
+ //2 heart
+ "Muvi.Monday2_0": "",
+ "Muvi.Monday2_1": "",
+ "Muvi.Monday2_2": "",
+ "Muvi.Monday2_3": "",
+ //4 heart
+ "Muvi.Monday4_0": "",
+ "Muvi.Monday4_1": "",
+ "Muvi.Monday4_2": "",
+ "Muvi.Monday4_3": "",
+ //6
+ "Muvi.Monday6_0": "",
+ "Muvi.Monday6_1": "",
+ "Muvi.Monday6_2": "",
+ "Muvi.Monday6_3": "",
+ //8 platonic
+ "Muvi.Platonic.Monday8_0": "",
+ "Muvi.Platonic.Monday8_1": "",
+ "Muvi.Platonic.Monday8_2": "",
+ "Muvi.Platonic.Monday8_3": "",
+ //8 romantic
+ "Muvi.Romantic.Monday8_0": "",
+ "Muvi.Romantic.Monday8_1": "",
+ "Muvi.Romantic.Monday8_2": "",
+ "Muvi.Romantic.Monday8_3": "",
+ //10 platonic
+ "Muvi.Platonic.Monday10_0": "",
+ "Muvi.Platonic.Monday10_1": "",
+ "Muvi.Platonic.Monday10_2": "",
+ "Muvi.Platonic.Monday10_3": "",
+ //romantic
+ "Muvi.Romantic.Monday10_0": "",
+ "Muvi.Romantic.Monday10_1": "",
+ "Muvi.Romantic.Monday10_2": "",
+ "Muvi.Romantic.Monday10_3": "",
+
+ //tuesday
+ //BETAS
+ "BETAS.Muvi.Tuesday_0": "",
+ "BETAS.Muvi.Tuesday_1": "",
+ "BETAS.Muvi.Tuesday_2": "",
+ "BETAS.Muvi.Tuesday_3": "",
+ //daily
+ "Muvi.Tuesday_0": "",
+ "Muvi.Tuesday_1": "",
+ "Muvi.Tuesday_2": "",
+ "Muvi.Tuesday_3": "",
+ //2 heart
+ "Muvi.Tuesday2_0": "",
+ "Muvi.Tuesday2_1": "",
+ "Muvi.Tuesday2_2": "",
+ "Muvi.Tuesday2_3": "",
+ //4 heart
+ "Muvi.Tuesday4_0": "",
+ "Muvi.Tuesday4_1": "",
+ "Muvi.Tuesday4_2": "",
+ "Muvi.Tuesday4_3": "",
+ //6
+ "Muvi.Tuesday6_0": "",
+ "Muvi.Tuesday6_1": "",
+ "Muvi.Tuesday6_2": "",
+ "Muvi.Tuesday6_3": "",
+ //8 platonic
+ "Muvi.Platonic.Tuesday8_0": "",
+ "Muvi.Platonic.Tuesday8_1": "",
+ "Muvi.Platonic.Tuesday8_2": "",
+ "Muvi.Platonic.Tuesday8_3": "",
+ //8 romantic
+ "Muvi.Romantic.Tuesday8_0": "",
+ "Muvi.Romantic.Tuesday8_1": "",
+ "Muvi.Romantic.Tuesday8_2": "",
+ "Muvi.Romantic.Tuesday8_3": "",
+ //10 platonic
+ "Muvi.Platonic.Tuesday10_0": "",
+ "Muvi.Platonic.Tuesday10_1": "",
+ "Muvi.Platonic.Tuesday10_2": "",
+ "Muvi.Platonic.Tuesday10_3": "",
+ //romantic
+ "Muvi.Romantic.Tuesday10_0": "",
+ "Muvi.Romantic.Tuesday10_1": "",
+ "Muvi.Romantic.Tuesday10_2": "",
+ "Muvi.Romantic.Tuesday10_3": "",
+
+ //wednesday
+ //BETAS
+ "BETAS.Muvi.Wednesday_0": "",
+ "BETAS.Muvi.Wednesday_1": "",
+ "BETAS.Muvi.Wednesday_2": "",
+ "BETAS.Muvi.Wednesday_3": "",
+ //daily
+ "Muvi.Wednesday_0": "",
+ "Muvi.Wednesday_1": "",
+ "Muvi.Wednesday_2": "",
+ "Muvi.Wednesday_3": "",
+ //2 heart
+ "Muvi.Wednesday2_0": "",
+ "Muvi.Wednesday2_1": "",
+ "Muvi.Wednesday2_2": "",
+ "Muvi.Wednesday2_3": "",
+ //4 heart
+ "Muvi.Wednesday4_0": "",
+ "Muvi.Wednesday4_1": "",
+ "Muvi.Wednesday4_2": "",
+ "Muvi.Wednesday4_3": "",
+ //6
+ "Muvi.Wednesday6_0": "",
+ "Muvi.Wednesday6_1": "",
+ "Muvi.Wednesday6_2": "",
+ "Muvi.Wednesday6_3": "",
+ //8 platonic
+ "Muvi.Platonic.Wednesday8_0": "",
+ "Muvi.Platonic.Wednesday8_1": "",
+ "Muvi.Platonic.Wednesday8_2": "",
+ "Muvi.Platonic.Wednesday8_3": "",
+ //8 romantic
+ "Muvi.Romantic.Wednesday8_0": "",
+ "Muvi.Romantic.Wednesday8_1": "",
+ "Muvi.Romantic.Wednesday8_2": "",
+ "Muvi.Romantic.Wednesday8_3": "",
+ //10 platonic
+ "Muvi.Platonic.Wednesday10_0": "",
+ "Muvi.Platonic.Wednesday10_1": "",
+ "Muvi.Platonic.Wednesday10_2": "",
+ "Muvi.Platonic.Wednesday10_3": "",
+ //romantic
+ "Muvi.Romantic.Wednesday10_0": "",
+ "Muvi.Romantic.Wednesday10_1": "",
+ "Muvi.Romantic.Wednesday10_2": "",
+ "Muvi.Romantic.Wednesday10_3": "",
+
+ //thursday
+ //BETAS
+ "BETAS.Muvi.Thursday_0": "",
+ "BETAS.Muvi.Thursday_1": "",
+ "BETAS.Muvi.Thursday_2": "",
+ "BETAS.Muvi.Thursday_3": "",
+ //daily
+ "Muvi.Thursday_0": "",
+ "Muvi.Thursday_1": "",
+ "Muvi.Thursday_2": "",
+ "Muvi.Thursday_3": "",
+ //2 heart
+ "Muvi.Thursday2_0": "",
+ "Muvi.Thursday2_1": "",
+ "Muvi.Thursday2_2": "",
+ "Muvi.Thursday2_3": "",
+ //4 heart
+ "Muvi.Thursday4_0": "",
+ "Muvi.Thursday4_1": "",
+ "Muvi.Thursday4_2": "",
+ "Muvi.Thursday4_3": "",
+ //6
+ "Muvi.Thursday6_0": "",
+ "Muvi.Thursday6_1": "",
+ "Muvi.Thursday6_2": "",
+ "Muvi.Thursday6_3": "",
+ //8 platonic
+ "Muvi.Platonic.Thursday8_0": "",
+ "Muvi.Platonic.Thursday8_1": "",
+ "Muvi.Platonic.Thursday8_2": "",
+ "Muvi.Platonic.Thursday8_3": "",
+ //8 romantic
+ "Muvi.Romantic.Thursday8_0": "",
+ "Muvi.Romantic.Thursday8_1": "",
+ "Muvi.Romantic.Thursday8_2": "",
+ "Muvi.Romantic.Thursday8_3": "",
+ //10 platonic
+ "Muvi.Platonic.Thursday10_0": "",
+ "Muvi.Platonic.Thursday10_1": "",
+ "Muvi.Platonic.Thursday10_2": "",
+ "Muvi.Platonic.Thursday10_3": "",
+ //romantic
+ "Muvi.Romantic.Thursday10_0": "",
+ "Muvi.Romantic.Thursday10_1": "",
+ "Muvi.Romantic.Thursday10_2": "",
+ "Muvi.Romantic.Thursday10_3": "",
+
+ //friday
+ //BETAS
+ "BETAS.Muvi.Friday_0": "",
+ "BETAS.Muvi.Friday_1": "",
+ "BETAS.Muvi.Friday_2": "",
+ "BETAS.Muvi.Friday_3": "",
+ //daily
+ "Muvi.Friday_0": "",
+ "Muvi.Friday_1": "",
+ "Muvi.Friday_2": "",
+ "Muvi.Friday_3": "",
+ //2 heart
+ "Muvi.Friday2_0": "",
+ "Muvi.Friday2_1": "",
+ "Muvi.Friday2_2": "",
+ "Muvi.Friday2_3": "",
+ //4 heart
+ "Muvi.Friday4_0": "",
+ "Muvi.Friday4_1": "",
+ "Muvi.Friday4_2": "",
+ "Muvi.Friday4_3": "",
+ //6
+ "Muvi.Friday6_0": "",
+ "Muvi.Friday6_1": "",
+ "Muvi.Friday6_2": "",
+ "Muvi.Friday6_3": "",
+ //8 platonic
+ "Muvi.Platonic.Friday8_0": "",
+ "Muvi.Platonic.Friday8_1": "",
+ "Muvi.Platonic.Friday8_2": "",
+ "Muvi.Platonic.Friday8_3": "",
+ //8 romantic
+ "Muvi.Romantic.Friday8_0": "",
+ "Muvi.Romantic.Friday8_1": "",
+ "Muvi.Romantic.Friday8_2": "",
+ "Muvi.Romantic.Friday8_3": "",
+ //10 platonic
+ "Muvi.Platonic.Friday10_0": "",
+ "Muvi.Platonic.Friday10_1": "",
+ "Muvi.Platonic.Friday10_2": "",
+ "Muvi.Platonic.Friday10_3": "",
+ //romantic
+ "Muvi.Romantic.Friday10_0": "",
+ "Muvi.Romantic.Friday10_1": "",
+ "Muvi.Romantic.Friday10_2": "",
+ "Muvi.Romantic.Friday10_3": "",
+
+ //saturday
+ //BETAS
+ "BETAS.Muvi.Saturday_0": "",
+ "BETAS.Muvi.Saturday_1": "",
+ "BETAS.Muvi.Saturday_2": "",
+ "BETAS.Muvi.Saturday_3": "",
+ //daily
+ "Muvi.Saturday_0": "",
+ "Muvi.Saturday_1": "",
+ "Muvi.Saturday_2": "",
+ "Muvi.Saturday_3": "",
+ //2 heart
+ "Muvi.Saturday2_0": "",
+ "Muvi.Saturday2_1": "",
+ "Muvi.Saturday2_2": "",
+ "Muvi.Saturday2_3": "",
+ //4 heart
+ "Muvi.Saturday4_0": "",
+ "Muvi.Saturday4_1": "",
+ "Muvi.Saturday4_2": "",
+ "Muvi.Saturday4_3": "",
+ //6
+ "Muvi.Saturday6_0": "",
+ "Muvi.Saturday6_1": "",
+ "Muvi.Saturday6_2": "",
+ "Muvi.Saturday6_3": "",
+ //8 platonic
+ "Muvi.Platonic.Saturday8_0": "",
+ "Muvi.Platonic.Saturday8_1": "",
+ "Muvi.Platonic.Saturday8_2": "",
+ "Muvi.Platonic.Saturday8_3": "",
+ //8 romantic
+ "Muvi.Romantic.Saturday8_0": "",
+ "Muvi.Romantic.Saturday8_1": "",
+ "Muvi.Romantic.Saturday8_2": "",
+ "Muvi.Romantic.Saturday8_3": "",
+ //10 platonic
+ "Muvi.Platonic.Saturday10_0": "",
+ "Muvi.Platonic.Saturday10_1": "",
+ "Muvi.Platonic.Saturday10_2": "",
+ "Muvi.Platonic.Saturday10_3": "",
+ //romantic
+ "Muvi.Romantic.Saturday10_0": "",
+ "Muvi.Romantic.Saturday10_1": "",
+ "Muvi.Romantic.Saturday10_2": "",
+ "Muvi.Romantic.Saturday10_3": "",
+
+ //sunday
+ //BETAS
+ "BETAS.Muvi.Sunday_0": "",
+ "BETAS.Muvi.Sunday_1": "",
+ "BETAS.Muvi.Sunday_2": "",
+ "BETAS.Muvi.Sunday_3": "",
+ //daily
+ "Muvi.Sunday_0": "",
+ "Muvi.Sunday_1": "",
+ "Muvi.Sunday_2": "",
+ "Muvi.Sunday_3": "",
+ //2 heart
+ "Muvi.Sunday2_0": "",
+ "Muvi.Sunday2_1": "",
+ "Muvi.Sunday2_2": "",
+ "Muvi.Sunday2_3": "",
+ //4 heart
+ "Muvi.Sunday4_0": "",
+ "Muvi.Sunday4_1": "",
+ "Muvi.Sunday4_2": "",
+ "Muvi.Sunday4_3": "",
+ //6
+ "Muvi.Sunday6_0": "",
+ "Muvi.Sunday6_1": "",
+ "Muvi.Sunday6_2": "",
+ "Muvi.Sunday6_3": "",
+ //8 platonic
+ "Muvi.Platonic.Sunday8_0": "",
+ "Muvi.Platonic.Sunday8_1": "",
+ "Muvi.Platonic.Sunday8_2": "",
+ "Muvi.Platonic.Sunday8_3": "",
+ //8 romantic
+ "Muvi.Romantic.Sunday8_0": "",
+ "Muvi.Romantic.Sunday8_1": "",
+ "Muvi.Romantic.Sunday8_2": "",
+ "Muvi.Romantic.Sunday8_3": "",
+ //10 platonic
+ "Muvi.Platonic.Sunday10_0": "",
+ "Muvi.Platonic.Sunday10_1": "",
+ "Muvi.Platonic.Sunday10_2": "",
+ "Muvi.Platonic.Sunday10_3": "",
+ //romantic
+ "Muvi.Romantic.Sunday10_0": "",
+ "Muvi.Romantic.Sunday10_1": "",
+ "Muvi.Romantic.Sunday10_2": "",
+ "Muvi.Romantic.Sunday10_3": "",
+
+ //door unlock
+ "Muvi.NotFriend_Door": "",
+
+ //gift taste dialogue
+ "Muvi.Gifts.Loved": "",
+ "Muvi.Gifts.Liked": "",
+ "Muvi.Gifts.Disliked": "",
+ "Muvi.Gifts.Hated": "",
+ "Muvi.Gifts.Neutral": "",
+
+ //begin marriage dialogue
+ "Muvi.SpringM_0": "",
+ "Muvi.SpringM_1": "",
+ "Muvi.SpringM_2": "",
+ "Muvi.SpringM_3": "",
+ "Muvi.SummerM_0": "",
+ "Muvi.SummerM_1": "",
+ "Muvi.SummerM_2": "",
+ "Muvi.SummerM_3": "",
+ "Muvi.FallM_0": "",
+ "Muvi.FallM_1": "",
+ "Muvi.FallM_2": "",
+ "Muvi.FallM_3": "",
+ "Muvi.WinterM_0": "",
+ "Muvi.WinterM_1": "",
+ "Muvi.WinterM_2": "",
+ "Muvi.WinterM_3": "",
+ "Muvi.Rainy_0": "",
+ "Muvi.Rainy_1": "",
+ "Muvi.Rainy_2": "",
+ "Muvi.Rainy_3": "",
+ "Muvi.Rainy_Night_0": "",
+ "Muvi.Rainy_Night_1": "",
+ "Muvi.Rainy_Night_2": "",
+ "Muvi.Rainy_Night_3": "",
+ "Muvi.Indoor_Day_0": "",
+ "Muvi.Indoor_Day_1": "",
+ "Muvi.Indoor_Day_2": "",
+ "Muvi.Indoor_Day_3": "",
+ "Muvi.Indoor_Night_0": "",
+ "Muvi.Indoor_Night_1": "",
+ "Muvi.Indoor_Night_2": "",
+ "Muvi.Indoor_Night_3": "",
+ "Muvi.funLeave_0": "",
+ "Muvi.funLeave_1": "",
+ "Muvi.funLeave_2": "",
+ "Muvi.funLeave_3": "",
+ "Muvi.funReturn_0": "",
+ "Muvi.funReturn_1": "",
+ "Muvi.funReturn_2": "",
+ "Muvi.funReturn_3": "",
+ "Muvi.Outdoor_0": "",
+ "Muvi.Outdoor_1": "",
+ "Muvi.Outdoor_2": "",
+ "Muvi.Outdoor_3": "",
+ "Muvi.oneKid_0": "",
+ "Muvi.oneKid_1": "",
+ "Muvi.oneKid_2": "",
+ "Muvi.oneKid_3": "",
+ "Muvi.twoKids_0": "",
+ "Muvi.twoKids_1": "",
+ "Muvi.twoKids_2": "",
+ "Muvi.twoKids_3": "",
+ "Muvi.Good_0": "",
+ "Muvi.Good_1": "",
+ "Muvi.Good_2": "",
+ "Muvi.Good_3": "",
+ "Muvi.Neutral_0": "",
+ "Muvi.Neutral_1": "",
+ "Muvi.Neutral_2": "",
+ "Muvi.Neutral_3": "",
+ "Muvi.Bad_0": "",
+ "Muvi.Bad_1": "",
+ "Muvi.Bad_2": "",
+ "Muvi.Bad_3": "",
+
+ //begin wiped dialogue
+ //start of characters/dialogue/npc
+ "Wiped.Muvi.breakUp": "",
+ "Wiped.Muvi.divorced": "",
+ "Wiped.Muvi.DumpsterDiveComment": "",
+ "Wiped.Muvi.HitBySlingshot": "",
+ "Wiped.Muvi.SpouseFarmhouseClutter": "",
+ "Wiped.Muvi.SpouseGiftJealous": "",
+ "Wiped.Muvi.Spouse_MonstersInHouse": "",
+ "Wiped.Muvi.SpouseStardrop": "",
+ "Wiped.Muvi.WipedMemory": "",
+ "Wiped.Muvi.AcceptBouquet": "",
+ "Wiped.Muvi.MovieInvitation": "",
+ "Wiped.Muvi.RejectBouquet": "",
+ "Wiped.Muvi.RejectGift_Divorced": "",
+ "Wiped.Muvi.RejectMermaidPendant": "",
+ "Wiped.Muvi.RejectMovieTicket": "",
+ "Wiped.Muvi.GreenRain": "",
+ "Wiped.Muvi.GreenRainFinished": "",
+ "Wiped.Muvi.Engaged": "",
+ "Wiped.Muvi.AfterWedding": "",
+
+ //monday
+ //BETAS
+ "BETAS.Wiped.Muvi.Monday_0": "",
+ "BETAS.Wiped.Muvi.Monday_1": "",
+ "BETAS.Wiped.Muvi.Monday_2": "",
+ "BETAS.Wiped.Muvi.Monday_3": "",
+ //daily
+ "Wiped.Muvi.Monday_0": "",
+ "Wiped.Muvi.Monday_1": "",
+ "Wiped.Muvi.Monday_2": "",
+ "Wiped.Muvi.Monday_3": "",
+ //2 heart
+ "Wiped.Muvi.Monday2_0": "",
+ "Wiped.Muvi.Monday2_1": "",
+ "Wiped.Muvi.Monday2_2": "",
+ "Wiped.Muvi.Monday2_3": "",
+ //4 heart
+ "Wiped.Muvi.Monday4_0": "",
+ "Wiped.Muvi.Monday4_1": "",
+ "Wiped.Muvi.Monday4_2": "",
+ "Wiped.Muvi.Monday4_3": "",
+ //6
+ "Wiped.Muvi.Monday6_0": "",
+ "Wiped.Muvi.Monday6_1": "",
+ "Wiped.Muvi.Monday6_2": "",
+ "Wiped.Muvi.Monday6_3": "",
+ //8 platonic
+ "Wiped.Muvi.Platonic.Monday8_0": "",
+ "Wiped.Muvi.Platonic.Monday8_1": "",
+ "Wiped.Muvi.Platonic.Monday8_2": "",
+ "Wiped.Muvi.Platonic.Monday8_3": "",
+ //8 romantic
+ "Wiped.Muvi.Romantic.Monday8_0": "",
+ "Wiped.Muvi.Romantic.Monday8_1": "",
+ "Wiped.Muvi.Romantic.Monday8_2": "",
+ "Wiped.Muvi.Romantic.Monday8_3": "",
+ //10 platonic
+ "Wiped.Muvi.Platonic.Monday10_0": "",
+ "Wiped.Muvi.Platonic.Monday10_1": "",
+ "Wiped.Muvi.Platonic.Monday10_2": "",
+ "Wiped.Muvi.Platonic.Monday10_3": "",
+ //romantic
+ "Wiped.Muvi.Romantic.Monday10_0": "",
+ "Wiped.Muvi.Romantic.Monday10_1": "",
+ "Wiped.Muvi.Romantic.Monday10_2": "",
+ "Wiped.Muvi.Romantic.Monday10_3": "",
+ //12
+ "Wiped.Muvi.Monday12_0": "",
+ "Wiped.Muvi.Monday12_1": "",
+ "Wiped.Muvi.Monday12_2": "",
+ "Wiped.Muvi.Monday12_3": "",
+ //14
+ "Wiped.Muvi.Monday14_0": "",
+ "Wiped.Muvi.Monday14_1": "",
+ "Wiped.Muvi.Monday14_2": "",
+ "Wiped.Muvi.Monday14_3": "",
+
+ //tuesday
+ //BETAS
+ "BETAS.Wiped.Muvi.Tuesday_0": "",
+ "BETAS.Wiped.Muvi.Tuesday_1": "",
+ "BETAS.Wiped.Muvi.Tuesday_2": "",
+ "BETAS.Wiped.Muvi.Tuesday_3": "",
+ //daily
+ "Wiped.Muvi.Tuesday_0": "",
+ "Wiped.Muvi.Tuesday_1": "",
+ "Wiped.Muvi.Tuesday_2": "",
+ "Wiped.Muvi.Tuesday_3": "",
+ //2 heart
+ "Wiped.Muvi.Tuesday2_0": "",
+ "Wiped.Muvi.Tuesday2_1": "",
+ "Wiped.Muvi.Tuesday2_2": "",
+ "Wiped.Muvi.Tuesday2_3": "",
+ //4 heart
+ "Wiped.Muvi.Tuesday4_0": "",
+ "Wiped.Muvi.Tuesday4_1": "",
+ "Wiped.Muvi.Tuesday4_2": "",
+ "Wiped.Muvi.Tuesday4_3": "",
+ //6
+ "Wiped.Muvi.Tuesday6_0": "",
+ "Wiped.Muvi.Tuesday6_1": "",
+ "Wiped.Muvi.Tuesday6_2": "",
+ "Wiped.Muvi.Tuesday6_3": "",
+ //8 platonic
+ "Wiped.Muvi.Platonic.Tuesday8_0": "",
+ "Wiped.Muvi.Platonic.Tuesday8_1": "",
+ "Wiped.Muvi.Platonic.Tuesday8_2": "",
+ "Wiped.Muvi.Platonic.Tuesday8_3": "",
+ //8 romantic
+ "Wiped.Muvi.Romantic.Tuesday8_0": "",
+ "Wiped.Muvi.Romantic.Tuesday8_1": "",
+ "Wiped.Muvi.Romantic.Tuesday8_2": "",
+ "Wiped.Muvi.Romantic.Tuesday8_3": "",
+ //10 platonic
+ "Wiped.Muvi.Platonic.Tuesday10_0": "",
+ "Wiped.Muvi.Platonic.Tuesday10_1": "",
+ "Wiped.Muvi.Platonic.Tuesday10_2": "",
+ "Wiped.Muvi.Platonic.Tuesday10_3": "",
+ //romantic
+ "Wiped.Muvi.Romantic.Tuesday10_0": "",
+ "Wiped.Muvi.Romantic.Tuesday10_1": "",
+ "Wiped.Muvi.Romantic.Tuesday10_2": "",
+ "Wiped.Muvi.Romantic.Tuesday10_3": "",
+ //12
+ "Wiped.Muvi.Tuesday12_0": "",
+ "Wiped.Muvi.Tuesday12_1": "",
+ "Wiped.Muvi.Tuesday12_2": "",
+ "Wiped.Muvi.Tuesday12_3": "",
+ //14
+ "Wiped.Muvi.Tuesday14_0": "",
+ "Wiped.Muvi.Tuesday14_1": "",
+ "Wiped.Muvi.Tuesday14_2": "",
+ "Wiped.Muvi.Tuesday14_3": "",
+
+ //wednesday
+ //BETAS
+ "BETAS.Wiped.Muvi.Wednesday_0": "",
+ "BETAS.Wiped.Muvi.Wednesday_1": "",
+ "BETAS.Wiped.Muvi.Wednesday_2": "",
+ "BETAS.Wiped.Muvi.Wednesday_3": "",
+ //daily
+ "Wiped.Muvi.Wednesday_0": "",
+ "Wiped.Muvi.Wednesday_1": "",
+ "Wiped.Muvi.Wednesday_2": "",
+ "Wiped.Muvi.Wednesday_3": "",
+ //2 heart
+ "Wiped.Muvi.Wednesday2_0": "",
+ "Wiped.Muvi.Wednesday2_1": "",
+ "Wiped.Muvi.Wednesday2_2": "",
+ "Wiped.Muvi.Wednesday2_3": "",
+ //4 heart
+ "Wiped.Muvi.Wednesday4_0": "",
+ "Wiped.Muvi.Wednesday4_1": "",
+ "Wiped.Muvi.Wednesday4_2": "",
+ "Wiped.Muvi.Wednesday4_3": "",
+ //6
+ "Wiped.Muvi.Wednesday6_0": "",
+ "Wiped.Muvi.Wednesday6_1": "",
+ "Wiped.Muvi.Wednesday6_2": "",
+ "Wiped.Muvi.Wednesday6_3": "",
+ //8 platonic
+ "Wiped.Muvi.Platonic.Wednesday8_0": "",
+ "Wiped.Muvi.Platonic.Wednesday8_1": "",
+ "Wiped.Muvi.Platonic.Wednesday8_2": "",
+ "Wiped.Muvi.Platonic.Wednesday8_3": "",
+ //8 romantic
+ "Wiped.Muvi.Romantic.Wednesday8_0": "",
+ "Wiped.Muvi.Romantic.Wednesday8_1": "",
+ "Wiped.Muvi.Romantic.Wednesday8_2": "",
+ "Wiped.Muvi.Romantic.Wednesday8_3": "",
+ //10 platonic
+ "Wiped.Muvi.Platonic.Wednesday10_0": "",
+ "Wiped.Muvi.Platonic.Wednesday10_1": "",
+ "Wiped.Muvi.Platonic.Wednesday10_2": "",
+ "Wiped.Muvi.Platonic.Wednesday10_3": "",
+ //romantic
+ "Wiped.Muvi.Romantic.Wednesday10_0": "",
+ "Wiped.Muvi.Romantic.Wednesday10_1": "",
+ "Wiped.Muvi.Romantic.Wednesday10_2": "",
+ "Wiped.Muvi.Romantic.Wednesday10_3": "",
+ //12
+ "Wiped.Muvi.Wednesday12_0": "",
+ "Wiped.Muvi.Wednesday12_1": "",
+ "Wiped.Muvi.Wednesday12_2": "",
+ "Wiped.Muvi.Wednesday12_3": "",
+ //14
+ "Wiped.Muvi.Wednesday14_0": "",
+ "Wiped.Muvi.Wednesday14_1": "",
+ "Wiped.Muvi.Wednesday14_2": "",
+ "Wiped.Muvi.Wednesday14_3": "",
+
+ //thursday
+ //BETAS
+ "BETAS.Wiped.Muvi.Thursday_0": "",
+ "BETAS.Wiped.Muvi.Thursday_1": "",
+ "BETAS.Wiped.Muvi.Thursday_2": "",
+ "BETAS.Wiped.Muvi.Thursday_3": "",
+ //daily
+ "Wiped.Muvi.Thursday_0": "",
+ "Wiped.Muvi.Thursday_1": "",
+ "Wiped.Muvi.Thursday_2": "",
+ "Wiped.Muvi.Thursday_3": "",
+ //2 heart
+ "Wiped.Muvi.Thursday2_0": "",
+ "Wiped.Muvi.Thursday2_1": "",
+ "Wiped.Muvi.Thursday2_2": "",
+ "Wiped.Muvi.Thursday2_3": "",
+ //4 heart
+ "Wiped.Muvi.Thursday4_0": "",
+ "Wiped.Muvi.Thursday4_1": "",
+ "Wiped.Muvi.Thursday4_2": "",
+ "Wiped.Muvi.Thursday4_3": "",
+ //6
+ "Wiped.Muvi.Thursday6_0": "",
+ "Wiped.Muvi.Thursday6_1": "",
+ "Wiped.Muvi.Thursday6_2": "",
+ "Wiped.Muvi.Thursday6_3": "",
+ //8 platonic
+ "Wiped.Muvi.Platonic.Thursday8_0": "",
+ "Wiped.Muvi.Platonic.Thursday8_1": "",
+ "Wiped.Muvi.Platonic.Thursday8_2": "",
+ "Wiped.Muvi.Platonic.Thursday8_3": "",
+ //8 romantic
+ "Wiped.Muvi.Romantic.Thursday8_0": "",
+ "Wiped.Muvi.Romantic.Thursday8_1": "",
+ "Wiped.Muvi.Romantic.Thursday8_2": "",
+ "Wiped.Muvi.Romantic.Thursday8_3": "",
+ //10 platonic
+ "Wiped.Muvi.Platonic.Thursday10_0": "",
+ "Wiped.Muvi.Platonic.Thursday10_1": "",
+ "Wiped.Muvi.Platonic.Thursday10_2": "",
+ "Wiped.Muvi.Platonic.Thursday10_3": "",
+ //romantic
+ "Wiped.Muvi.Romantic.Thursday10_0": "",
+ "Wiped.Muvi.Romantic.Thursday10_1": "",
+ "Wiped.Muvi.Romantic.Thursday10_2": "",
+ "Wiped.Muvi.Romantic.Thursday10_3": "",
+ //12
+ "Wiped.Muvi.Thursday12_0": "",
+ "Wiped.Muvi.Thursday12_1": "",
+ "Wiped.Muvi.Thursday12_2": "",
+ "Wiped.Muvi.Thursday12_3": "",
+ //14
+ "Wiped.Muvi.Thursday14_0": "",
+ "Wiped.Muvi.Thursday14_1": "",
+ "Wiped.Muvi.Thursday14_2": "",
+ "Wiped.Muvi.Thursday14_3": "",
+
+ //friday
+ //BETAS
+ "BETAS.Wiped.Muvi.Friday_0": "",
+ "BETAS.Wiped.Muvi.Friday_1": "",
+ "BETAS.Wiped.Muvi.Friday_2": "",
+ "BETAS.Wiped.Muvi.Friday_3": "",
+ //daily
+ "Wiped.Muvi.Friday_0": "",
+ "Wiped.Muvi.Friday_1": "",
+ "Wiped.Muvi.Friday_2": "",
+ "Wiped.Muvi.Friday_3": "",
+ //2 heart
+ "Wiped.Muvi.Friday2_0": "",
+ "Wiped.Muvi.Friday2_1": "",
+ "Wiped.Muvi.Friday2_2": "",
+ "Wiped.Muvi.Friday2_3": "",
+ //4 heart
+ "Wiped.Muvi.Friday4_0": "",
+ "Wiped.Muvi.Friday4_1": "",
+ "Wiped.Muvi.Friday4_2": "",
+ "Wiped.Muvi.Friday4_3": "",
+ //6
+ "Wiped.Muvi.Friday6_0": "",
+ "Wiped.Muvi.Friday6_1": "",
+ "Wiped.Muvi.Friday6_2": "",
+ "Wiped.Muvi.Friday6_3": "",
+ //8 platonic
+ "Wiped.Muvi.Platonic.Friday8_0": "",
+ "Wiped.Muvi.Platonic.Friday8_1": "",
+ "Wiped.Muvi.Platonic.Friday8_2": "",
+ "Wiped.Muvi.Platonic.Friday8_3": "",
+ //8 romantic
+ "Wiped.Muvi.Romantic.Friday8_0": "",
+ "Wiped.Muvi.Romantic.Friday8_1": "",
+ "Wiped.Muvi.Romantic.Friday8_2": "",
+ "Wiped.Muvi.Romantic.Friday8_3": "",
+ //10 platonic
+ "Wiped.Muvi.Platonic.Friday10_0": "",
+ "Wiped.Muvi.Platonic.Friday10_1": "",
+ "Wiped.Muvi.Platonic.Friday10_2": "",
+ "Wiped.Muvi.Platonic.Friday10_3": "",
+ //romantic
+ "Wiped.Muvi.Romantic.Friday10_0": "",
+ "Wiped.Muvi.Romantic.Friday10_1": "",
+ "Wiped.Muvi.Romantic.Friday10_2": "",
+ "Wiped.Muvi.Romantic.Friday10_3": "",
+ //12
+ "Wiped.Muvi.Friday12_0": "",
+ "Wiped.Muvi.Friday12_1": "",
+ "Wiped.Muvi.Friday12_2": "",
+ "Wiped.Muvi.Friday12_3": "",
+ //14
+ "Wiped.Muvi.Friday14_0": "",
+ "Wiped.Muvi.Friday14_1": "",
+ "Wiped.Muvi.Friday14_2": "",
+ "Wiped.Muvi.Friday14_3": "",
+
+ //saturday
+ //BETAS
+ "BETAS.Wiped.Muvi.Saturday_0": "",
+ "BETAS.Wiped.Muvi.Saturday_1": "",
+ "BETAS.Wiped.Muvi.Saturday_2": "",
+ "BETAS.Wiped.Muvi.Saturday_3": "",
+ //daily
+ "Wiped.Muvi.Saturday_0": "",
+ "Wiped.Muvi.Saturday_1": "",
+ "Wiped.Muvi.Saturday_2": "",
+ "Wiped.Muvi.Saturday_3": "",
+ //2 heart
+ "Wiped.Muvi.Saturday2_0": "",
+ "Wiped.Muvi.Saturday2_1": "",
+ "Wiped.Muvi.Saturday2_2": "",
+ "Wiped.Muvi.Saturday2_3": "",
+ //4 heart
+ "Wiped.Muvi.Saturday4_0": "",
+ "Wiped.Muvi.Saturday4_1": "",
+ "Wiped.Muvi.Saturday4_2": "",
+ "Wiped.Muvi.Saturday4_3": "",
+ //6
+ "Wiped.Muvi.Saturday6_0": "",
+ "Wiped.Muvi.Saturday6_1": "",
+ "Wiped.Muvi.Saturday6_2": "",
+ "Wiped.Muvi.Saturday6_3": "",
+ //8 platonic
+ "Wiped.Muvi.Platonic.Saturday8_0": "",
+ "Wiped.Muvi.Platonic.Saturday8_1": "",
+ "Wiped.Muvi.Platonic.Saturday8_2": "",
+ "Wiped.Muvi.Platonic.Saturday8_3": "",
+ //8 romantic
+ "Wiped.Muvi.Romantic.Saturday8_0": "",
+ "Wiped.Muvi.Romantic.Saturday8_1": "",
+ "Wiped.Muvi.Romantic.Saturday8_2": "",
+ "Wiped.Muvi.Romantic.Saturday8_3": "",
+ //10 platonic
+ "Wiped.Muvi.Platonic.Saturday10_0": "",
+ "Wiped.Muvi.Platonic.Saturday10_1": "",
+ "Wiped.Muvi.Platonic.Saturday10_2": "",
+ "Wiped.Muvi.Platonic.Saturday10_3": "",
+ //romantic
+ "Wiped.Muvi.Romantic.Saturday10_0": "",
+ "Wiped.Muvi.Romantic.Saturday10_1": "",
+ "Wiped.Muvi.Romantic.Saturday10_2": "",
+ "Wiped.Muvi.Romantic.Saturday10_3": "",
+ //12
+ "Wiped.Muvi.Saturday12_0": "",
+ "Wiped.Muvi.Saturday12_1": "",
+ "Wiped.Muvi.Saturday12_2": "",
+ "Wiped.Muvi.Saturday12_3": "",
+ //14
+ "Wiped.Muvi.Saturday14_0": "",
+ "Wiped.Muvi.Saturday14_1": "",
+ "Wiped.Muvi.Saturday14_2": "",
+ "Wiped.Muvi.Saturday14_3": "",
+
+ //sunday
+ //BETAS
+ "BETAS.Wiped.Muvi.Sunday_0": "",
+ "BETAS.Wiped.Muvi.Sunday_1": "",
+ "BETAS.Wiped.Muvi.Sunday_2": "",
+ "BETAS.Wiped.Muvi.Sunday_3": "",
+ //daily
+ "Wiped.Muvi.Sunday_0": "",
+ "Wiped.Muvi.Sunday_1": "",
+ "Wiped.Muvi.Sunday_2": "",
+ "Wiped.Muvi.Sunday_3": "",
+ //2 heart
+ "Wiped.Muvi.Sunday2_0": "",
+ "Wiped.Muvi.Sunday2_1": "",
+ "Wiped.Muvi.Sunday2_2": "",
+ "Wiped.Muvi.Sunday2_3": "",
+ //4 heart
+ "Wiped.Muvi.Sunday4_0": "",
+ "Wiped.Muvi.Sunday4_1": "",
+ "Wiped.Muvi.Sunday4_2": "",
+ "Wiped.Muvi.Sunday4_3": "",
+ //6
+ "Wiped.Muvi.Sunday6_0": "",
+ "Wiped.Muvi.Sunday6_1": "",
+ "Wiped.Muvi.Sunday6_2": "",
+ "Wiped.Muvi.Sunday6_3": "",
+ //8 platonic
+ "Wiped.Muvi.Platonic.Sunday8_0": "",
+ "Wiped.Muvi.Platonic.Sunday8_1": "",
+ "Wiped.Muvi.Platonic.Sunday8_2": "",
+ "Wiped.Muvi.Platonic.Sunday8_3": "",
+ //8 romantic
+ "Wiped.Muvi.Romantic.Sunday8_0": "",
+ "Wiped.Muvi.Romantic.Sunday8_1": "",
+ "Wiped.Muvi.Romantic.Sunday8_2": "",
+ "Wiped.Muvi.Romantic.Sunday8_3": "",
+ //10 platonic
+ "Wiped.Muvi.Platonic.Sunday10_0": "",
+ "Wiped.Muvi.Platonic.Sunday10_1": "",
+ "Wiped.Muvi.Platonic.Sunday10_2": "",
+ "Wiped.Muvi.Platonic.Sunday10_3": "",
+ //romantic
+ "Wiped.Muvi.Romantic.Sunday10_0": "",
+ "Wiped.Muvi.Romantic.Sunday10_1": "",
+ "Wiped.Muvi.Romantic.Sunday10_2": "",
+ "Wiped.Muvi.Romantic.Sunday10_3": "",
+ //12
+ "Wiped.Muvi.Sunday12_0": "",
+ "Wiped.Muvi.Sunday12_1": "",
+ "Wiped.Muvi.Sunday12_2": "",
+ "Wiped.Muvi.Sunday12_3": "",
+ //14
+ "Wiped.Muvi.Sunday14_0": "",
+ "Wiped.Muvi.Sunday14_1": "",
+ "Wiped.Muvi.Sunday14_2": "",
+ "Wiped.Muvi.Sunday14_3": "",
+
+ //gift taste dialogue
+ "Wiped.Muvi.Gifts.Loved": "",
+ "Wiped.Muvi.Gifts.Liked": "",
+ "Wiped.Muvi.Gifts.Disliked": "",
+ "Wiped.Muvi.Gifts.Hated": "",
+ "Wiped.Muvi.Gifts.Neutral": "",
+
+ //begin marriage dialogue
+ "Wiped.Muvi.SpringM_0": "",
+ "Wiped.Muvi.SpringM_1": "",
+ "Wiped.Muvi.SpringM_2": "",
+ "Wiped.Muvi.SpringM_3": "",
+ "Wiped.Muvi.SummerM_0": "",
+ "Wiped.Muvi.SummerM_1": "",
+ "Wiped.Muvi.SummerM_2": "",
+ "Wiped.Muvi.SummerM_3": "",
+ "Wiped.Muvi.FallM_0": "",
+ "Wiped.Muvi.FallM_1": "",
+ "Wiped.Muvi.FallM_2": "",
+ "Wiped.Muvi.FallM_3": "",
+ "Wiped.Muvi.WinterM_0": "",
+ "Wiped.Muvi.WinterM_1": "",
+ "Wiped.Muvi.WinterM_2": "",
+ "Wiped.Muvi.WinterM_3": "",
+ "Wiped.Muvi.Rainy_0": "",
+ "Wiped.Muvi.Rainy_1": "",
+ "Wiped.Muvi.Rainy_2": "",
+ "Wiped.Muvi.Rainy_3": "",
+ "Wiped.Muvi.Rainy_Night_0": "",
+ "Wiped.Muvi.Rainy_Night_1": "",
+ "Wiped.Muvi.Rainy_Night_2": "",
+ "Wiped.Muvi.Rainy_Night_3": "",
+ "Wiped.Muvi.Indoor_Day_0": "",
+ "Wiped.Muvi.Indoor_Day_1": "",
+ "Wiped.Muvi.Indoor_Day_2": "",
+ "Wiped.Muvi.Indoor_Day_3": "",
+ "Wiped.Muvi.Indoor_Night_0": "",
+ "Wiped.Muvi.Indoor_Night_1": "",
+ "Wiped.Muvi.Indoor_Night_2": "",
+ "Wiped.Muvi.Indoor_Night_3": "",
+ "Wiped.Muvi.funLeave_0": "",
+ "Wiped.Muvi.funLeave_1": "",
+ "Wiped.Muvi.funLeave_2": "",
+ "Wiped.Muvi.funLeave_3": "",
+ "Wiped.Muvi.funReturn_0": "",
+ "Wiped.Muvi.funReturn_1": "",
+ "Wiped.Muvi.funReturn_2": "",
+ "Wiped.Muvi.funReturn_3": "",
+ "Wiped.Muvi.Outdoor_0": "",
+ "Wiped.Muvi.Outdoor_1": "",
+ "Wiped.Muvi.Outdoor_2": "",
+ "Wiped.Muvi.Outdoor_3": "",
+ "Wiped.Muvi.oneKid_0": "",
+ "Wiped.Muvi.oneKid_1": "",
+ "Wiped.Muvi.oneKid_2": "",
+ "Wiped.Muvi.oneKid_3": "",
+ "Wiped.Muvi.twoKids_0": "",
+ "Wiped.Muvi.twoKids_1": "",
+ "Wiped.Muvi.twoKids_2": "",
+ "Wiped.Muvi.twoKids_3": "",
+ "Wiped.Muvi.Good_0": "",
+ "Wiped.Muvi.Good_1": "",
+ "Wiped.Muvi.Good_2": "",
+ "Wiped.Muvi.Good_3": "",
+ "Wiped.Muvi.Neutral_0": "",
+ "Wiped.Muvi.Neutral_1": "",
+ "Wiped.Muvi.Neutral_2": "",
+ "Wiped.Muvi.Neutral_3": "",
+ "Wiped.Muvi.Bad_0": "",
+ "Wiped.Muvi.Bad_1": "",
+ "Wiped.Muvi.Bad_2": "",
+ "Wiped.Muvi.Bad_3": ""
+}

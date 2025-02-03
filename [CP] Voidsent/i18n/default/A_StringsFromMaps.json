@@ -1,4 +1,11 @@
 {
+ "Yrsin_Hideouts": "Yrsin's Hideouts",
+ "ArtificialBeach": "Artificial Beach",
+ "Yrsin_Hideout1": "Desert Hideout",
+ "Yrsin_Hideout2": "Icy Hideout",
+ "Yrsin_Hideout3": "Cozy Hideout",
+ "Yrsin_Hideout4": "Forest Hideout",
+ "Yrsin_Hideout5": "Cove Hideout",
  "26053Books_0": "'Chemistry: The Central Science'#An interesting choice of topic.",
  "26053Books_1": "'Living by Chemistry'#What does it mean to live by chemistry?",
  "26053Books_2": "'Chemistry 2e'#A normal textbook.",
@@ -71,6 +78,7 @@
  "Hideout2.Sign": "A good try, you've found another hideout of mine, love.",
  "Hideout3.Sign": "Maybe you'll get in my good graces and I'll open up these warps to you, love.",
  "Hideout4.Sign": "Welcome to my least used hideout, love, enjoy yourself.",
+ "Hideout5.Sign": "Reminder to self:#Yrnal likes salmon.#Yrrek likes tuna.#Syrsa only eats mackerel.",
 
  "TentUnallowed": "It's not safe to sleep here. You should probably find real shelter.",
  "DoorUnlock_NotFriend_Undefined": "You're not good enough friends with {0} to enter their bedroom."

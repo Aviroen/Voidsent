@@ -14,7 +14,8 @@
     "INTERIORORLOCATIONS": "Interiors",
     "XARRIVAL": "8",
     "YARRIVAL": "18",
-    "MUSIC": "mermaidSong"
+    "MUSIC": "mermaidSong",
+    "AREA": "Yrsin_Hideouts"
    }
   },
   {
@@ -25,7 +26,8 @@
     "INTERIORORLOCATIONS": "Interiors",
     "XARRIVAL": "9",
     "YARRIVAL": "16",
-    "MUSIC": "mermaidSong"
+    "MUSIC": "mermaidSong",
+    "AREA": "Yrsin_Hideouts"
    }
   },
   {
@@ -36,7 +38,8 @@
     "INTERIORORLOCATIONS": "Interiors",
     "XARRIVAL": "9",
     "YARRIVAL": "18",
-    "MUSIC": "mermaidSong"
+    "MUSIC": "mermaidSong",
+    "AREA": "Yrsin_Hideouts"
    }
   },
   {
@@ -47,7 +50,20 @@
     "INTERIORORLOCATIONS": "Interiors",
     "XARRIVAL": "10",
     "YARRIVAL": "14",
-    "MUSIC": "mermaidSong"
+    "MUSIC": "mermaidSong",
+    "AREA": "Yrsin_Hideouts"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "Yrsin_Hideout5",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "12",
+    "YARRIVAL": "20",
+    "MUSIC": "mermaidSong",
+    "AREA": "Yrsin_Hideouts"
    }
   },
   //////////// hideout1
@@ -186,6 +202,41 @@
      "Layer": "Buildings",
      "SetProperties": {
       "Action": "Dialogue {{i18n:Hideout4.Sign}}"
+     }
+    }
+   ]
+  },
+  //////////// hideout1
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{Yrsin}}_Hideout5",
+   "MapProperties": {
+    "AmbientLight": "95 95 95",
+    "NPCWarp": "4 6 {{ModId}}_WarpNetwork 1 0"
+   },
+   "AddWarps": [
+    //"8 19 {{ModId}}_WarpNetwork 1 0",
+    //"9 19 {{ModId}}_WarpNetwork 1 0"
+   ],
+   "MapTiles": [ //NPCWarp [<int fromX> <int fromY> <string toArea> <int toX> <int toY>]+
+    {
+     "Position": {
+      "X": 4,
+      "Y": 18
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "TouchAction": "PoolEntrance"
+     }
+    },
+    {
+     "Position": {
+      "X": 15,
+      "Y": 10
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Dialogue {{i18n:Hideout5.Sign}}"
      }
     }
    ]

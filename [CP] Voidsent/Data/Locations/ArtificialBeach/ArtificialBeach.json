@@ -15,31 +15,29 @@
     "INTERIORORLOCATIONS": "Locations",
     "XARRIVAL": "9",
     "YARRIVAL": "4",
-    "MUSIC": "Overcast"
+    "MUSIC": "Overcast",
+    "AREA": "ArtificialBeach"
    }
   },
   {
    "LogName": "Edel's maps",
    "Action": "EditData",
    "Target": "Data/Locations",
-   "TargetField": [ "{{ModId}}_ArtificalBeach", "Fish" ],
+   "TargetField": [ "{{ModId}}_ArtificialBeach", "Fish" ],
    "Entries": {
     "{{ModId}}_Pufferfish": {
      "Id": "Pufferfish",
      "ItemID": "(O)128",
-     "Chance": 0.05,
-     "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+     "Chance": 0.05
     },
     "{{ModId}}_Blobfish": {
      "Id": "Blobfish",
      "ItemID": "(O)800",
-     "Chance": 0.03,
-     "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+     "Chance": 0.03
     },
     "{{ModId}}_Tilapia": {
      "Id": "Tilapia",
-     "ItemID": "(O)701",
-     "Condition": "LOCATION_Season Here Fall Spring Summer Winter"
+     "ItemID": "(O)701"
     }
    }
   },

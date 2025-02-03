@@ -1,0 +1,928 @@
+{
+ "Lysella": "Lysella",
+ "Lysella.RejectPendant": "Sorry, I don't know what that I'm supposed to do with this.",
+ //start of characters/dialogue/npc
+ "Lysella.Housemate": "(housemate)",
+ "Lysella.Spouse": "(spouse)",
+ "Lysella.Partner": "(partner)",
+ "Lysella.ExSpouse": "(ex-spouse)",
+ "Lysella.Single": "(single)",
+ "Lysella.breakUp": "",
+ "Lysella.divorced": "",
+ "Lysella.DumpsterDiveComment": "",
+ "Lysella.HitBySlingshot": "",
+ "Lysella.SpouseFarmhouseClutter": "",
+ "Lysella.SpouseGiftJealous": "",
+ "Lysella.Spouse_MonstersInHouse": "",
+ "Lysella.SpouseStardrop": "",
+ "Lysella.WipedMemory": "",
+ "Lysella.AcceptBouquet": "",
+ "Lysella.MovieInvitation": "",
+ "Lysella.RejectBouquet": "",
+ "Lysella.RejectGift_Divorced": "",
+ "Lysella.RejectMermaidPendant": "",
+ "Lysella.RejectMovieTicket": "",
+ "Lysella.GreenRain": "",
+ "Lysella.GreenRainFinished": "",
+ "Lysella.Engaged": "",
+ "Lysella.AfterWedding": "",
+
+ //monday
+ //BETAS
+ "BETAS.Lysella.Monday_0": "",
+ "BETAS.Lysella.Monday_1": "",
+ "BETAS.Lysella.Monday_2": "",
+ "BETAS.Lysella.Monday_3": "",
+ //daily
+ "Lysella.Monday_0": "",
+ "Lysella.Monday_1": "",
+ "Lysella.Monday_2": "",
+ "Lysella.Monday_3": "",
+ //2 heart
+ "Lysella.Monday2_0": "",
+ "Lysella.Monday2_1": "",
+ "Lysella.Monday2_2": "",
+ "Lysella.Monday2_3": "",
+ //4 heart
+ "Lysella.Monday4_0": "",
+ "Lysella.Monday4_1": "",
+ "Lysella.Monday4_2": "",
+ "Lysella.Monday4_3": "",
+ //6
+ "Lysella.Monday6_0": "",
+ "Lysella.Monday6_1": "",
+ "Lysella.Monday6_2": "",
+ "Lysella.Monday6_3": "",
+ //8 platonic
+ "Lysella.Platonic.Monday8_0": "",
+ "Lysella.Platonic.Monday8_1": "",
+ "Lysella.Platonic.Monday8_2": "",
+ "Lysella.Platonic.Monday8_3": "",
+ //8 romantic
+ "Lysella.Romantic.Monday8_0": "",
+ "Lysella.Romantic.Monday8_1": "",
+ "Lysella.Romantic.Monday8_2": "",
+ "Lysella.Romantic.Monday8_3": "",
+ //10 platonic
+ "Lysella.Platonic.Monday10_0": "",
+ "Lysella.Platonic.Monday10_1": "",
+ "Lysella.Platonic.Monday10_2": "",
+ "Lysella.Platonic.Monday10_3": "",
+ //romantic
+ "Lysella.Romantic.Monday10_0": "",
+ "Lysella.Romantic.Monday10_1": "",
+ "Lysella.Romantic.Monday10_2": "",
+ "Lysella.Romantic.Monday10_3": "",
+
+ //tuesday
+ //BETAS
+ "BETAS.Lysella.Tuesday_0": "",
+ "BETAS.Lysella.Tuesday_1": "",
+ "BETAS.Lysella.Tuesday_2": "",
+ "BETAS.Lysella.Tuesday_3": "",
+ //daily
+ "Lysella.Tuesday_0": "",
+ "Lysella.Tuesday_1": "",
+ "Lysella.Tuesday_2": "",
+ "Lysella.Tuesday_3": "",
+ //2 heart
+ "Lysella.Tuesday2_0": "",
+ "Lysella.Tuesday2_1": "",
+ "Lysella.Tuesday2_2": "",
+ "Lysella.Tuesday2_3": "",
+ //4 heart
+ "Lysella.Tuesday4_0": "",
+ "Lysella.Tuesday4_1": "",
+ "Lysella.Tuesday4_2": "",
+ "Lysella.Tuesday4_3": "",
+ //6
+ "Lysella.Tuesday6_0": "",
+ "Lysella.Tuesday6_1": "",
+ "Lysella.Tuesday6_2": "",
+ "Lysella.Tuesday6_3": "",
+ //8 platonic
+ "Lysella.Platonic.Tuesday8_0": "",
+ "Lysella.Platonic.Tuesday8_1": "",
+ "Lysella.Platonic.Tuesday8_2": "",
+ "Lysella.Platonic.Tuesday8_3": "",
+ //8 romantic
+ "Lysella.Romantic.Tuesday8_0": "",
+ "Lysella.Romantic.Tuesday8_1": "",
+ "Lysella.Romantic.Tuesday8_2": "",
+ "Lysella.Romantic.Tuesday8_3": "",
+ //10 platonic
+ "Lysella.Platonic.Tuesday10_0": "",
+ "Lysella.Platonic.Tuesday10_1": "",
+ "Lysella.Platonic.Tuesday10_2": "",
+ "Lysella.Platonic.Tuesday10_3": "",
+ //romantic
+ "Lysella.Romantic.Tuesday10_0": "",
+ "Lysella.Romantic.Tuesday10_1": "",
+ "Lysella.Romantic.Tuesday10_2": "",
+ "Lysella.Romantic.Tuesday10_3": "",
+
+ //wednesday
+ //BETAS
+ "BETAS.Lysella.Wednesday_0": "",
+ "BETAS.Lysella.Wednesday_1": "",
+ "BETAS.Lysella.Wednesday_2": "",
+ "BETAS.Lysella.Wednesday_3": "",
+ //daily
+ "Lysella.Wednesday_0": "",
+ "Lysella.Wednesday_1": "",
+ "Lysella.Wednesday_2": "",
+ "Lysella.Wednesday_3": "",
+ //2 heart
+ "Lysella.Wednesday2_0": "",
+ "Lysella.Wednesday2_1": "",
+ "Lysella.Wednesday2_2": "",
+ "Lysella.Wednesday2_3": "",
+ //4 heart
+ "Lysella.Wednesday4_0": "",
+ "Lysella.Wednesday4_1": "",
+ "Lysella.Wednesday4_2": "",
+ "Lysella.Wednesday4_3": "",
+ //6
+ "Lysella.Wednesday6_0": "",
+ "Lysella.Wednesday6_1": "",
+ "Lysella.Wednesday6_2": "",
+ "Lysella.Wednesday6_3": "",
+ //8 platonic
+ "Lysella.Platonic.Wednesday8_0": "",
+ "Lysella.Platonic.Wednesday8_1": "",
+ "Lysella.Platonic.Wednesday8_2": "",
+ "Lysella.Platonic.Wednesday8_3": "",
+ //8 romantic
+ "Lysella.Romantic.Wednesday8_0": "",
+ "Lysella.Romantic.Wednesday8_1": "",
+ "Lysella.Romantic.Wednesday8_2": "",
+ "Lysella.Romantic.Wednesday8_3": "",
+ //10 platonic
+ "Lysella.Platonic.Wednesday10_0": "",
+ "Lysella.Platonic.Wednesday10_1": "",
+ "Lysella.Platonic.Wednesday10_2": "",
+ "Lysella.Platonic.Wednesday10_3": "",
+ //romantic
+ "Lysella.Romantic.Wednesday10_0": "",
+ "Lysella.Romantic.Wednesday10_1": "",
+ "Lysella.Romantic.Wednesday10_2": "",
+ "Lysella.Romantic.Wednesday10_3": "",
+
+ //thursday
+ //BETAS
+ "BETAS.Lysella.Thursday_0": "",
+ "BETAS.Lysella.Thursday_1": "",
+ "BETAS.Lysella.Thursday_2": "",
+ "BETAS.Lysella.Thursday_3": "",
+ //daily
+ "Lysella.Thursday_0": "",
+ "Lysella.Thursday_1": "",
+ "Lysella.Thursday_2": "",
+ "Lysella.Thursday_3": "",
+ //2 heart
+ "Lysella.Thursday2_0": "",
+ "Lysella.Thursday2_1": "",
+ "Lysella.Thursday2_2": "",
+ "Lysella.Thursday2_3": "",
+ //4 heart
+ "Lysella.Thursday4_0": "",
+ "Lysella.Thursday4_1": "",
+ "Lysella.Thursday4_2": "",
+ "Lysella.Thursday4_3": "",
+ //6
+ "Lysella.Thursday6_0": "",
+ "Lysella.Thursday6_1": "",
+ "Lysella.Thursday6_2": "",
+ "Lysella.Thursday6_3": "",
+ //8 platonic
+ "Lysella.Platonic.Thursday8_0": "",
+ "Lysella.Platonic.Thursday8_1": "",
+ "Lysella.Platonic.Thursday8_2": "",
+ "Lysella.Platonic.Thursday8_3": "",
+ //8 romantic
+ "Lysella.Romantic.Thursday8_0": "",
+ "Lysella.Romantic.Thursday8_1": "",
+ "Lysella.Romantic.Thursday8_2": "",
+ "Lysella.Romantic.Thursday8_3": "",
+ //10 platonic
+ "Lysella.Platonic.Thursday10_0": "",
+ "Lysella.Platonic.Thursday10_1": "",
+ "Lysella.Platonic.Thursday10_2": "",
+ "Lysella.Platonic.Thursday10_3": "",
+ //romantic
+ "Lysella.Romantic.Thursday10_0": "",
+ "Lysella.Romantic.Thursday10_1": "",
+ "Lysella.Romantic.Thursday10_2": "",
+ "Lysella.Romantic.Thursday10_3": "",
+
+ //friday
+ //BETAS
+ "BETAS.Lysella.Friday_0": "",
+ "BETAS.Lysella.Friday_1": "",
+ "BETAS.Lysella.Friday_2": "",
+ "BETAS.Lysella.Friday_3": "",
+ //daily
+ "Lysella.Friday_0": "",
+ "Lysella.Friday_1": "",
+ "Lysella.Friday_2": "",
+ "Lysella.Friday_3": "",
+ //2 heart
+ "Lysella.Friday2_0": "",
+ "Lysella.Friday2_1": "",
+ "Lysella.Friday2_2": "",
+ "Lysella.Friday2_3": "",
+ //4 heart
+ "Lysella.Friday4_0": "",
+ "Lysella.Friday4_1": "",
+ "Lysella.Friday4_2": "",
+ "Lysella.Friday4_3": "",
+ //6
+ "Lysella.Friday6_0": "",
+ "Lysella.Friday6_1": "",
+ "Lysella.Friday6_2": "",
+ "Lysella.Friday6_3": "",
+ //8 platonic
+ "Lysella.Platonic.Friday8_0": "",
+ "Lysella.Platonic.Friday8_1": "",
+ "Lysella.Platonic.Friday8_2": "",
+ "Lysella.Platonic.Friday8_3": "",
+ //8 romantic
+ "Lysella.Romantic.Friday8_0": "",
+ "Lysella.Romantic.Friday8_1": "",
+ "Lysella.Romantic.Friday8_2": "",
+ "Lysella.Romantic.Friday8_3": "",
+ //10 platonic
+ "Lysella.Platonic.Friday10_0": "",
+ "Lysella.Platonic.Friday10_1": "",
+ "Lysella.Platonic.Friday10_2": "",
+ "Lysella.Platonic.Friday10_3": "",
+ //romantic
+ "Lysella.Romantic.Friday10_0": "",
+ "Lysella.Romantic.Friday10_1": "",
+ "Lysella.Romantic.Friday10_2": "",
+ "Lysella.Romantic.Friday10_3": "",
+
+ //saturday
+ //BETAS
+ "BETAS.Lysella.Saturday_0": "",
+ "BETAS.Lysella.Saturday_1": "",
+ "BETAS.Lysella.Saturday_2": "",
+ "BETAS.Lysella.Saturday_3": "",
+ //daily
+ "Lysella.Saturday_0": "",
+ "Lysella.Saturday_1": "",
+ "Lysella.Saturday_2": "",
+ "Lysella.Saturday_3": "",
+ //2 heart
+ "Lysella.Saturday2_0": "",
+ "Lysella.Saturday2_1": "",
+ "Lysella.Saturday2_2": "",
+ "Lysella.Saturday2_3": "",
+ //4 heart
+ "Lysella.Saturday4_0": "",
+ "Lysella.Saturday4_1": "",
+ "Lysella.Saturday4_2": "",
+ "Lysella.Saturday4_3": "",
+ //6
+ "Lysella.Saturday6_0": "",
+ "Lysella.Saturday6_1": "",
+ "Lysella.Saturday6_2": "",
+ "Lysella.Saturday6_3": "",
+ //8 platonic
+ "Lysella.Platonic.Saturday8_0": "",
+ "Lysella.Platonic.Saturday8_1": "",
+ "Lysella.Platonic.Saturday8_2": "",
+ "Lysella.Platonic.Saturday8_3": "",
+ //8 romantic
+ "Lysella.Romantic.Saturday8_0": "",
+ "Lysella.Romantic.Saturday8_1": "",
+ "Lysella.Romantic.Saturday8_2": "",
+ "Lysella.Romantic.Saturday8_3": "",
+ //10 platonic
+ "Lysella.Platonic.Saturday10_0": "",
+ "Lysella.Platonic.Saturday10_1": "",
+ "Lysella.Platonic.Saturday10_2": "",
+ "Lysella.Platonic.Saturday10_3": "",
+ //romantic
+ "Lysella.Romantic.Saturday10_0": "",
+ "Lysella.Romantic.Saturday10_1": "",
+ "Lysella.Romantic.Saturday10_2": "",
+ "Lysella.Romantic.Saturday10_3": "",
+
+ //sunday
+ //BETAS
+ "BETAS.Lysella.Sunday_0": "",
+ "BETAS.Lysella.Sunday_1": "",
+ "BETAS.Lysella.Sunday_2": "",
+ "BETAS.Lysella.Sunday_3": "",
+ //daily
+ "Lysella.Sunday_0": "",
+ "Lysella.Sunday_1": "",
+ "Lysella.Sunday_2": "",
+ "Lysella.Sunday_3": "",
+ //2 heart
+ "Lysella.Sunday2_0": "",
+ "Lysella.Sunday2_1": "",
+ "Lysella.Sunday2_2": "",
+ "Lysella.Sunday2_3": "",
+ //4 heart
+ "Lysella.Sunday4_0": "",
+ "Lysella.Sunday4_1": "",
+ "Lysella.Sunday4_2": "",
+ "Lysella.Sunday4_3": "",
+ //6
+ "Lysella.Sunday6_0": "",
+ "Lysella.Sunday6_1": "",
+ "Lysella.Sunday6_2": "",
+ "Lysella.Sunday6_3": "",
+ //8 platonic
+ "Lysella.Platonic.Sunday8_0": "",
+ "Lysella.Platonic.Sunday8_1": "",
+ "Lysella.Platonic.Sunday8_2": "",
+ "Lysella.Platonic.Sunday8_3": "",
+ //8 romantic
+ "Lysella.Romantic.Sunday8_0": "",
+ "Lysella.Romantic.Sunday8_1": "",
+ "Lysella.Romantic.Sunday8_2": "",
+ "Lysella.Romantic.Sunday8_3": "",
+ //10 platonic
+ "Lysella.Platonic.Sunday10_0": "",
+ "Lysella.Platonic.Sunday10_1": "",
+ "Lysella.Platonic.Sunday10_2": "",
+ "Lysella.Platonic.Sunday10_3": "",
+ //romantic
+ "Lysella.Romantic.Sunday10_0": "",
+ "Lysella.Romantic.Sunday10_1": "",
+ "Lysella.Romantic.Sunday10_2": "",
+ "Lysella.Romantic.Sunday10_3": "",
+
+ //door unlock
+ "Lysella.NotFriend_Door": "",
+
+ //gift taste dialogue
+ "Lysella.Gifts.Loved": "",
+ "Lysella.Gifts.Liked": "",
+ "Lysella.Gifts.Disliked": "",
+ "Lysella.Gifts.Hated": "",
+ "Lysella.Gifts.Neutral": "",
+
+ //begin marriage dialogue
+ "Lysella.SpringM_0": "",
+ "Lysella.SpringM_1": "",
+ "Lysella.SpringM_2": "",
+ "Lysella.SpringM_3": "",
+ "Lysella.SummerM_0": "",
+ "Lysella.SummerM_1": "",
+ "Lysella.SummerM_2": "",
+ "Lysella.SummerM_3": "",
+ "Lysella.FallM_0": "",
+ "Lysella.FallM_1": "",
+ "Lysella.FallM_2": "",
+ "Lysella.FallM_3": "",
+ "Lysella.WinterM_0": "",
+ "Lysella.WinterM_1": "",
+ "Lysella.WinterM_2": "",
+ "Lysella.WinterM_3": "",
+ "Lysella.Rainy_0": "",
+ "Lysella.Rainy_1": "",
+ "Lysella.Rainy_2": "",
+ "Lysella.Rainy_3": "",
+ "Lysella.Rainy_Night_0": "",
+ "Lysella.Rainy_Night_1": "",
+ "Lysella.Rainy_Night_2": "",
+ "Lysella.Rainy_Night_3": "",
+ "Lysella.Indoor_Day_0": "",
+ "Lysella.Indoor_Day_1": "",
+ "Lysella.Indoor_Day_2": "",
+ "Lysella.Indoor_Day_3": "",
+ "Lysella.Indoor_Night_0": "",
+ "Lysella.Indoor_Night_1": "",
+ "Lysella.Indoor_Night_2": "",
+ "Lysella.Indoor_Night_3": "",
+ "Lysella.funLeave_0": "",
+ "Lysella.funLeave_1": "",
+ "Lysella.funLeave_2": "",
+ "Lysella.funLeave_3": "",
+ "Lysella.funReturn_0": "",
+ "Lysella.funReturn_1": "",
+ "Lysella.funReturn_2": "",
+ "Lysella.funReturn_3": "",
+ "Lysella.Outdoor_0": "",
+ "Lysella.Outdoor_1": "",
+ "Lysella.Outdoor_2": "",
+ "Lysella.Outdoor_3": "",
+ "Lysella.oneKid_0": "",
+ "Lysella.oneKid_1": "",
+ "Lysella.oneKid_2": "",
+ "Lysella.oneKid_3": "",
+ "Lysella.twoKids_0": "",
+ "Lysella.twoKids_1": "",
+ "Lysella.twoKids_2": "",
+ "Lysella.twoKids_3": "",
+ "Lysella.Good_0": "",
+ "Lysella.Good_1": "",
+ "Lysella.Good_2": "",
+ "Lysella.Good_3": "",
+ "Lysella.Neutral_0": "",
+ "Lysella.Neutral_1": "",
+ "Lysella.Neutral_2": "",
+ "Lysella.Neutral_3": "",
+ "Lysella.Bad_0": "",
+ "Lysella.Bad_1": "",
+ "Lysella.Bad_2": "",
+ "Lysella.Bad_3": "",
+
+ //begin wiped dialogue
+ //start of characters/dialogue/npc
+ "Wiped.Lysella.breakUp": "",
+ "Wiped.Lysella.divorced": "",
+ "Wiped.Lysella.DumpsterDiveComment": "",
+ "Wiped.Lysella.HitBySlingshot": "",
+ "Wiped.Lysella.SpouseFarmhouseClutter": "",
+ "Wiped.Lysella.SpouseGiftJealous": "",
+ "Wiped.Lysella.Spouse_MonstersInHouse": "",
+ "Wiped.Lysella.SpouseStardrop": "",
+ "Wiped.Lysella.WipedMemory": "",
+ "Wiped.Lysella.AcceptBouquet": "",
+ "Wiped.Lysella.MovieInvitation": "",
+ "Wiped.Lysella.RejectBouquet": "",
+ "Wiped.Lysella.RejectGift_Divorced": "",
+ "Wiped.Lysella.RejectMermaidPendant": "",
+ "Wiped.Lysella.RejectMovieTicket": "",
+ "Wiped.Lysella.GreenRain": "",
+ "Wiped.Lysella.GreenRainFinished": "",
+ "Wiped.Lysella.Engaged": "",
+ "Wiped.Lysella.AfterWedding": "",
+
+ //monday
+ //BETAS
+ "BETAS.Wiped.Lysella.Monday_0": "",
+ "BETAS.Wiped.Lysella.Monday_1": "",
+ "BETAS.Wiped.Lysella.Monday_2": "",
+ "BETAS.Wiped.Lysella.Monday_3": "",
+ //daily
+ "Wiped.Lysella.Monday_0": "",
+ "Wiped.Lysella.Monday_1": "",
+ "Wiped.Lysella.Monday_2": "",
+ "Wiped.Lysella.Monday_3": "",
+ //2 heart
+ "Wiped.Lysella.Monday2_0": "",
+ "Wiped.Lysella.Monday2_1": "",
+ "Wiped.Lysella.Monday2_2": "",
+ "Wiped.Lysella.Monday2_3": "",
+ //4 heart
+ "Wiped.Lysella.Monday4_0": "",
+ "Wiped.Lysella.Monday4_1": "",
+ "Wiped.Lysella.Monday4_2": "",
+ "Wiped.Lysella.Monday4_3": "",
+ //6
+ "Wiped.Lysella.Monday6_0": "",
+ "Wiped.Lysella.Monday6_1": "",
+ "Wiped.Lysella.Monday6_2": "",
+ "Wiped.Lysella.Monday6_3": "",
+ //8 platonic
+ "Wiped.Lysella.Platonic.Monday8_0": "",
+ "Wiped.Lysella.Platonic.Monday8_1": "",
+ "Wiped.Lysella.Platonic.Monday8_2": "",
+ "Wiped.Lysella.Platonic.Monday8_3": "",
+ //8 romantic
+ "Wiped.Lysella.Romantic.Monday8_0": "",
+ "Wiped.Lysella.Romantic.Monday8_1": "",
+ "Wiped.Lysella.Romantic.Monday8_2": "",
+ "Wiped.Lysella.Romantic.Monday8_3": "",
+ //10 platonic
+ "Wiped.Lysella.Platonic.Monday10_0": "",
+ "Wiped.Lysella.Platonic.Monday10_1": "",
+ "Wiped.Lysella.Platonic.Monday10_2": "",
+ "Wiped.Lysella.Platonic.Monday10_3": "",
+ //romantic
+ "Wiped.Lysella.Romantic.Monday10_0": "",
+ "Wiped.Lysella.Romantic.Monday10_1": "",
+ "Wiped.Lysella.Romantic.Monday10_2": "",
+ "Wiped.Lysella.Romantic.Monday10_3": "",
+ //12
+ "Wiped.Lysella.Monday12_0": "",
+ "Wiped.Lysella.Monday12_1": "",
+ "Wiped.Lysella.Monday12_2": "",
+ "Wiped.Lysella.Monday12_3": "",
+ //14
+ "Wiped.Lysella.Monday14_0": "",
+ "Wiped.Lysella.Monday14_1": "",
+ "Wiped.Lysella.Monday14_2": "",
+ "Wiped.Lysella.Monday14_3": "",
+
+ //tuesday
+ //BETAS
+ "BETAS.Wiped.Lysella.Tuesday_0": "",
+ "BETAS.Wiped.Lysella.Tuesday_1": "",
+ "BETAS.Wiped.Lysella.Tuesday_2": "",
+ "BETAS.Wiped.Lysella.Tuesday_3": "",
+ //daily
+ "Wiped.Lysella.Tuesday_0": "",
+ "Wiped.Lysella.Tuesday_1": "",
+ "Wiped.Lysella.Tuesday_2": "",
+ "Wiped.Lysella.Tuesday_3": "",
+ //2 heart
+ "Wiped.Lysella.Tuesday2_0": "",
+ "Wiped.Lysella.Tuesday2_1": "",
+ "Wiped.Lysella.Tuesday2_2": "",
+ "Wiped.Lysella.Tuesday2_3": "",
+ //4 heart
+ "Wiped.Lysella.Tuesday4_0": "",
+ "Wiped.Lysella.Tuesday4_1": "",
+ "Wiped.Lysella.Tuesday4_2": "",
+ "Wiped.Lysella.Tuesday4_3": "",
+ //6
+ "Wiped.Lysella.Tuesday6_0": "",
+ "Wiped.Lysella.Tuesday6_1": "",
+ "Wiped.Lysella.Tuesday6_2": "",
+ "Wiped.Lysella.Tuesday6_3": "",
+ //8 platonic
+ "Wiped.Lysella.Platonic.Tuesday8_0": "",
+ "Wiped.Lysella.Platonic.Tuesday8_1": "",
+ "Wiped.Lysella.Platonic.Tuesday8_2": "",
+ "Wiped.Lysella.Platonic.Tuesday8_3": "",
+ //8 romantic
+ "Wiped.Lysella.Romantic.Tuesday8_0": "",
+ "Wiped.Lysella.Romantic.Tuesday8_1": "",
+ "Wiped.Lysella.Romantic.Tuesday8_2": "",
+ "Wiped.Lysella.Romantic.Tuesday8_3": "",
+ //10 platonic
+ "Wiped.Lysella.Platonic.Tuesday10_0": "",
+ "Wiped.Lysella.Platonic.Tuesday10_1": "",
+ "Wiped.Lysella.Platonic.Tuesday10_2": "",
+ "Wiped.Lysella.Platonic.Tuesday10_3": "",
+ //romantic
+ "Wiped.Lysella.Romantic.Tuesday10_0": "",
+ "Wiped.Lysella.Romantic.Tuesday10_1": "",
+ "Wiped.Lysella.Romantic.Tuesday10_2": "",
+ "Wiped.Lysella.Romantic.Tuesday10_3": "",
+ //12
+ "Wiped.Lysella.Tuesday12_0": "",
+ "Wiped.Lysella.Tuesday12_1": "",
+ "Wiped.Lysella.Tuesday12_2": "",
+ "Wiped.Lysella.Tuesday12_3": "",
+ //14
+ "Wiped.Lysella.Tuesday14_0": "",
+ "Wiped.Lysella.Tuesday14_1": "",
+ "Wiped.Lysella.Tuesday14_2": "",
+ "Wiped.Lysella.Tuesday14_3": "",
+
+ //wednesday
+ //BETAS
+ "BETAS.Wiped.Lysella.Wednesday_0": "",
+ "BETAS.Wiped.Lysella.Wednesday_1": "",
+ "BETAS.Wiped.Lysella.Wednesday_2": "",
+ "BETAS.Wiped.Lysella.Wednesday_3": "",
+ //daily
+ "Wiped.Lysella.Wednesday_0": "",
+ "Wiped.Lysella.Wednesday_1": "",
+ "Wiped.Lysella.Wednesday_2": "",
+ "Wiped.Lysella.Wednesday_3": "",
+ //2 heart
+ "Wiped.Lysella.Wednesday2_0": "",
+ "Wiped.Lysella.Wednesday2_1": "",
+ "Wiped.Lysella.Wednesday2_2": "",
+ "Wiped.Lysella.Wednesday2_3": "",
+ //4 heart
+ "Wiped.Lysella.Wednesday4_0": "",
+ "Wiped.Lysella.Wednesday4_1": "",
+ "Wiped.Lysella.Wednesday4_2": "",
+ "Wiped.Lysella.Wednesday4_3": "",
+ //6
+ "Wiped.Lysella.Wednesday6_0": "",
+ "Wiped.Lysella.Wednesday6_1": "",
+ "Wiped.Lysella.Wednesday6_2": "",
+ "Wiped.Lysella.Wednesday6_3": "",
+ //8 platonic
+ "Wiped.Lysella.Platonic.Wednesday8_0": "",
+ "Wiped.Lysella.Platonic.Wednesday8_1": "",
+ "Wiped.Lysella.Platonic.Wednesday8_2": "",
+ "Wiped.Lysella.Platonic.Wednesday8_3": "",
+ //8 romantic
+ "Wiped.Lysella.Romantic.Wednesday8_0": "",
+ "Wiped.Lysella.Romantic.Wednesday8_1": "",
+ "Wiped.Lysella.Romantic.Wednesday8_2": "",
+ "Wiped.Lysella.Romantic.Wednesday8_3": "",
+ //10 platonic
+ "Wiped.Lysella.Platonic.Wednesday10_0": "",
+ "Wiped.Lysella.Platonic.Wednesday10_1": "",
+ "Wiped.Lysella.Platonic.Wednesday10_2": "",
+ "Wiped.Lysella.Platonic.Wednesday10_3": "",
+ //romantic
+ "Wiped.Lysella.Romantic.Wednesday10_0": "",
+ "Wiped.Lysella.Romantic.Wednesday10_1": "",
+ "Wiped.Lysella.Romantic.Wednesday10_2": "",
+ "Wiped.Lysella.Romantic.Wednesday10_3": "",
+ //12
+ "Wiped.Lysella.Wednesday12_0": "",
+ "Wiped.Lysella.Wednesday12_1": "",
+ "Wiped.Lysella.Wednesday12_2": "",
+ "Wiped.Lysella.Wednesday12_3": "",
+ //14
+ "Wiped.Lysella.Wednesday14_0": "",
+ "Wiped.Lysella.Wednesday14_1": "",
+ "Wiped.Lysella.Wednesday14_2": "",
+ "Wiped.Lysella.Wednesday14_3": "",
+
+ //thursday
+ //BETAS
+ "BETAS.Wiped.Lysella.Thursday_0": "",
+ "BETAS.Wiped.Lysella.Thursday_1": "",
+ "BETAS.Wiped.Lysella.Thursday_2": "",
+ "BETAS.Wiped.Lysella.Thursday_3": "",
+ //daily
+ "Wiped.Lysella.Thursday_0": "",
+ "Wiped.Lysella.Thursday_1": "",
+ "Wiped.Lysella.Thursday_2": "",
+ "Wiped.Lysella.Thursday_3": "",
+ //2 heart
+ "Wiped.Lysella.Thursday2_0": "",
+ "Wiped.Lysella.Thursday2_1": "",
+ "Wiped.Lysella.Thursday2_2": "",
+ "Wiped.Lysella.Thursday2_3": "",
+ //4 heart
+ "Wiped.Lysella.Thursday4_0": "",
+ "Wiped.Lysella.Thursday4_1": "",
+ "Wiped.Lysella.Thursday4_2": "",
+ "Wiped.Lysella.Thursday4_3": "",
+ //6
+ "Wiped.Lysella.Thursday6_0": "",
+ "Wiped.Lysella.Thursday6_1": "",
+ "Wiped.Lysella.Thursday6_2": "",
+ "Wiped.Lysella.Thursday6_3": "",
+ //8 platonic
+ "Wiped.Lysella.Platonic.Thursday8_0": "",
+ "Wiped.Lysella.Platonic.Thursday8_1": "",
+ "Wiped.Lysella.Platonic.Thursday8_2": "",
+ "Wiped.Lysella.Platonic.Thursday8_3": "",
+ //8 romantic
+ "Wiped.Lysella.Romantic.Thursday8_0": "",
+ "Wiped.Lysella.Romantic.Thursday8_1": "",
+ "Wiped.Lysella.Romantic.Thursday8_2": "",
+ "Wiped.Lysella.Romantic.Thursday8_3": "",
+ //10 platonic
+ "Wiped.Lysella.Platonic.Thursday10_0": "",
+ "Wiped.Lysella.Platonic.Thursday10_1": "",
+ "Wiped.Lysella.Platonic.Thursday10_2": "",
+ "Wiped.Lysella.Platonic.Thursday10_3": "",
+ //romantic
+ "Wiped.Lysella.Romantic.Thursday10_0": "",
+ "Wiped.Lysella.Romantic.Thursday10_1": "",
+ "Wiped.Lysella.Romantic.Thursday10_2": "",
+ "Wiped.Lysella.Romantic.Thursday10_3": "",
+ //12
+ "Wiped.Lysella.Thursday12_0": "",
+ "Wiped.Lysella.Thursday12_1": "",
+ "Wiped.Lysella.Thursday12_2": "",
+ "Wiped.Lysella.Thursday12_3": "",
+ //14
+ "Wiped.Lysella.Thursday14_0": "",
+ "Wiped.Lysella.Thursday14_1": "",
+ "Wiped.Lysella.Thursday14_2": "",
+ "Wiped.Lysella.Thursday14_3": "",
+
+ //friday
+ //BETAS
+ "BETAS.Wiped.Lysella.Friday_0": "",
+ "BETAS.Wiped.Lysella.Friday_1": "",
+ "BETAS.Wiped.Lysella.Friday_2": "",
+ "BETAS.Wiped.Lysella.Friday_3": "",
+ //daily
+ "Wiped.Lysella.Friday_0": "",
+ "Wiped.Lysella.Friday_1": "",
+ "Wiped.Lysella.Friday_2": "",
+ "Wiped.Lysella.Friday_3": "",
+ //2 heart
+ "Wiped.Lysella.Friday2_0": "",
+ "Wiped.Lysella.Friday2_1": "",
+ "Wiped.Lysella.Friday2_2": "",
+ "Wiped.Lysella.Friday2_3": "",
+ //4 heart
+ "Wiped.Lysella.Friday4_0": "",
+ "Wiped.Lysella.Friday4_1": "",
+ "Wiped.Lysella.Friday4_2": "",
+ "Wiped.Lysella.Friday4_3": "",
+ //6
+ "Wiped.Lysella.Friday6_0": "",
+ "Wiped.Lysella.Friday6_1": "",
+ "Wiped.Lysella.Friday6_2": "",
+ "Wiped.Lysella.Friday6_3": "",
+ //8 platonic
+ "Wiped.Lysella.Platonic.Friday8_0": "",
+ "Wiped.Lysella.Platonic.Friday8_1": "",
+ "Wiped.Lysella.Platonic.Friday8_2": "",
+ "Wiped.Lysella.Platonic.Friday8_3": "",
+ //8 romantic
+ "Wiped.Lysella.Romantic.Friday8_0": "",
+ "Wiped.Lysella.Romantic.Friday8_1": "",
+ "Wiped.Lysella.Romantic.Friday8_2": "",
+ "Wiped.Lysella.Romantic.Friday8_3": "",
+ //10 platonic
+ "Wiped.Lysella.Platonic.Friday10_0": "",
+ "Wiped.Lysella.Platonic.Friday10_1": "",
+ "Wiped.Lysella.Platonic.Friday10_2": "",
+ "Wiped.Lysella.Platonic.Friday10_3": "",
+ //romantic
+ "Wiped.Lysella.Romantic.Friday10_0": "",
+ "Wiped.Lysella.Romantic.Friday10_1": "",
+ "Wiped.Lysella.Romantic.Friday10_2": "",
+ "Wiped.Lysella.Romantic.Friday10_3": "",
+ //12
+ "Wiped.Lysella.Friday12_0": "",
+ "Wiped.Lysella.Friday12_1": "",
+ "Wiped.Lysella.Friday12_2": "",
+ "Wiped.Lysella.Friday12_3": "",
+ //14
+ "Wiped.Lysella.Friday14_0": "",
+ "Wiped.Lysella.Friday14_1": "",
+ "Wiped.Lysella.Friday14_2": "",
+ "Wiped.Lysella.Friday14_3": "",
+
+ //saturday
+ //BETAS
+ "BETAS.Wiped.Lysella.Saturday_0": "",
+ "BETAS.Wiped.Lysella.Saturday_1": "",
+ "BETAS.Wiped.Lysella.Saturday_2": "",
+ "BETAS.Wiped.Lysella.Saturday_3": "",
+ //daily
+ "Wiped.Lysella.Saturday_0": "",
+ "Wiped.Lysella.Saturday_1": "",
+ "Wiped.Lysella.Saturday_2": "",
+ "Wiped.Lysella.Saturday_3": "",
+ //2 heart
+ "Wiped.Lysella.Saturday2_0": "",
+ "Wiped.Lysella.Saturday2_1": "",
+ "Wiped.Lysella.Saturday2_2": "",
+ "Wiped.Lysella.Saturday2_3": "",
+ //4 heart
+ "Wiped.Lysella.Saturday4_0": "",
+ "Wiped.Lysella.Saturday4_1": "",
+ "Wiped.Lysella.Saturday4_2": "",
+ "Wiped.Lysella.Saturday4_3": "",
+ //6
+ "Wiped.Lysella.Saturday6_0": "",
+ "Wiped.Lysella.Saturday6_1": "",
+ "Wiped.Lysella.Saturday6_2": "",
+ "Wiped.Lysella.Saturday6_3": "",
+ //8 platonic
+ "Wiped.Lysella.Platonic.Saturday8_0": "",
+ "Wiped.Lysella.Platonic.Saturday8_1": "",
+ "Wiped.Lysella.Platonic.Saturday8_2": "",
+ "Wiped.Lysella.Platonic.Saturday8_3": "",
+ //8 romantic
+ "Wiped.Lysella.Romantic.Saturday8_0": "",
+ "Wiped.Lysella.Romantic.Saturday8_1": "",
+ "Wiped.Lysella.Romantic.Saturday8_2": "",
+ "Wiped.Lysella.Romantic.Saturday8_3": "",
+ //10 platonic
+ "Wiped.Lysella.Platonic.Saturday10_0": "",
+ "Wiped.Lysella.Platonic.Saturday10_1": "",
+ "Wiped.Lysella.Platonic.Saturday10_2": "",
+ "Wiped.Lysella.Platonic.Saturday10_3": "",
+ //romantic
+ "Wiped.Lysella.Romantic.Saturday10_0": "",
+ "Wiped.Lysella.Romantic.Saturday10_1": "",
+ "Wiped.Lysella.Romantic.Saturday10_2": "",
+ "Wiped.Lysella.Romantic.Saturday10_3": "",
+ //12
+ "Wiped.Lysella.Saturday12_0": "",
+ "Wiped.Lysella.Saturday12_1": "",
+ "Wiped.Lysella.Saturday12_2": "",
+ "Wiped.Lysella.Saturday12_3": "",
+ //14
+ "Wiped.Lysella.Saturday14_0": "",
+ "Wiped.Lysella.Saturday14_1": "",
+ "Wiped.Lysella.Saturday14_2": "",
+ "Wiped.Lysella.Saturday14_3": "",
+
+ //sunday
+ //BETAS
+ "BETAS.Wiped.Lysella.Sunday_0": "",
+ "BETAS.Wiped.Lysella.Sunday_1": "",
+ "BETAS.Wiped.Lysella.Sunday_2": "",
+ "BETAS.Wiped.Lysella.Sunday_3": "",
+ //daily
+ "Wiped.Lysella.Sunday_0": "",
+ "Wiped.Lysella.Sunday_1": "",
+ "Wiped.Lysella.Sunday_2": "",
+ "Wiped.Lysella.Sunday_3": "",
+ //2 heart
+ "Wiped.Lysella.Sunday2_0": "",
+ "Wiped.Lysella.Sunday2_1": "",
+ "Wiped.Lysella.Sunday2_2": "",
+ "Wiped.Lysella.Sunday2_3": "",
+ //4 heart
+ "Wiped.Lysella.Sunday4_0": "",
+ "Wiped.Lysella.Sunday4_1": "",
+ "Wiped.Lysella.Sunday4_2": "",
+ "Wiped.Lysella.Sunday4_3": "",
+ //6
+ "Wiped.Lysella.Sunday6_0": "",
+ "Wiped.Lysella.Sunday6_1": "",
+ "Wiped.Lysella.Sunday6_2": "",
+ "Wiped.Lysella.Sunday6_3": "",
+ //8 platonic
+ "Wiped.Lysella.Platonic.Sunday8_0": "",
+ "Wiped.Lysella.Platonic.Sunday8_1": "",
+ "Wiped.Lysella.Platonic.Sunday8_2": "",
+ "Wiped.Lysella.Platonic.Sunday8_3": "",
+ //8 romantic
+ "Wiped.Lysella.Romantic.Sunday8_0": "",
+ "Wiped.Lysella.Romantic.Sunday8_1": "",
+ "Wiped.Lysella.Romantic.Sunday8_2": "",
+ "Wiped.Lysella.Romantic.Sunday8_3": "",
+ //10 platonic
+ "Wiped.Lysella.Platonic.Sunday10_0": "",
+ "Wiped.Lysella.Platonic.Sunday10_1": "",
+ "Wiped.Lysella.Platonic.Sunday10_2": "",
+ "Wiped.Lysella.Platonic.Sunday10_3": "",
+ //romantic
+ "Wiped.Lysella.Romantic.Sunday10_0": "",
+ "Wiped.Lysella.Romantic.Sunday10_1": "",
+ "Wiped.Lysella.Romantic.Sunday10_2": "",
+ "Wiped.Lysella.Romantic.Sunday10_3": "",
+ //12
+ "Wiped.Lysella.Sunday12_0": "",
+ "Wiped.Lysella.Sunday12_1": "",
+ "Wiped.Lysella.Sunday12_2": "",
+ "Wiped.Lysella.Sunday12_3": "",
+ //14
+ "Wiped.Lysella.Sunday14_0": "",
+ "Wiped.Lysella.Sunday14_1": "",
+ "Wiped.Lysella.Sunday14_2": "",
+ "Wiped.Lysella.Sunday14_3": "",
+
+ //gift taste dialogue
+ "Wiped.Lysella.Gifts.Loved": "",
+ "Wiped.Lysella.Gifts.Liked": "",
+ "Wiped.Lysella.Gifts.Disliked": "",
+ "Wiped.Lysella.Gifts.Hated": "",
+ "Wiped.Lysella.Gifts.Neutral": "",
+
+ //begin marriage dialogue
+ "Wiped.Lysella.SpringM_0": "",
+ "Wiped.Lysella.SpringM_1": "",
+ "Wiped.Lysella.SpringM_2": "",
+ "Wiped.Lysella.SpringM_3": "",
+ "Wiped.Lysella.SummerM_0": "",
+ "Wiped.Lysella.SummerM_1": "",
+ "Wiped.Lysella.SummerM_2": "",
+ "Wiped.Lysella.SummerM_3": "",
+ "Wiped.Lysella.FallM_0": "",
+ "Wiped.Lysella.FallM_1": "",
+ "Wiped.Lysella.FallM_2": "",
+ "Wiped.Lysella.FallM_3": "",
+ "Wiped.Lysella.WinterM_0": "",
+ "Wiped.Lysella.WinterM_1": "",
+ "Wiped.Lysella.WinterM_2": "",
+ "Wiped.Lysella.WinterM_3": "",
+ "Wiped.Lysella.Rainy_0": "",
+ "Wiped.Lysella.Rainy_1": "",
+ "Wiped.Lysella.Rainy_2": "",
+ "Wiped.Lysella.Rainy_3": "",
+ "Wiped.Lysella.Rainy_Night_0": "",
+ "Wiped.Lysella.Rainy_Night_1": "",
+ "Wiped.Lysella.Rainy_Night_2": "",
+ "Wiped.Lysella.Rainy_Night_3": "",
+ "Wiped.Lysella.Indoor_Day_0": "",
+ "Wiped.Lysella.Indoor_Day_1": "",
+ "Wiped.Lysella.Indoor_Day_2": "",
+ "Wiped.Lysella.Indoor_Day_3": "",
+ "Wiped.Lysella.Indoor_Night_0": "",
+ "Wiped.Lysella.Indoor_Night_1": "",
+ "Wiped.Lysella.Indoor_Night_2": "",
+ "Wiped.Lysella.Indoor_Night_3": "",
+ "Wiped.Lysella.funLeave_0": "",
+ "Wiped.Lysella.funLeave_1": "",
+ "Wiped.Lysella.funLeave_2": "",
+ "Wiped.Lysella.funLeave_3": "",
+ "Wiped.Lysella.funReturn_0": "",
+ "Wiped.Lysella.funReturn_1": "",
+ "Wiped.Lysella.funReturn_2": "",
+ "Wiped.Lysella.funReturn_3": "",
+ "Wiped.Lysella.Outdoor_0": "",
+ "Wiped.Lysella.Outdoor_1": "",
+ "Wiped.Lysella.Outdoor_2": "",
+ "Wiped.Lysella.Outdoor_3": "",
+ "Wiped.Lysella.oneKid_0": "",
+ "Wiped.Lysella.oneKid_1": "",
+ "Wiped.Lysella.oneKid_2": "",
+ "Wiped.Lysella.oneKid_3": "",
+ "Wiped.Lysella.twoKids_0": "",
+ "Wiped.Lysella.twoKids_1": "",
+ "Wiped.Lysella.twoKids_2": "",
+ "Wiped.Lysella.twoKids_3": "",
+ "Wiped.Lysella.Good_0": "",
+ "Wiped.Lysella.Good_1": "",
+ "Wiped.Lysella.Good_2": "",
+ "Wiped.Lysella.Good_3": "",
+ "Wiped.Lysella.Neutral_0": "",
+ "Wiped.Lysella.Neutral_1": "",
+ "Wiped.Lysella.Neutral_2": "",
+ "Wiped.Lysella.Neutral_3": "",
+ "Wiped.Lysella.Bad_0": "",
+ "Wiped.Lysella.Bad_1": "",
+ "Wiped.Lysella.Bad_2": "",
+ "Wiped.Lysella.Bad_3": ""
+}
