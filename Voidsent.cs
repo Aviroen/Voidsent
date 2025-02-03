@@ -5,6 +5,7 @@ using Microsoft.Xna.Framework;
 using StardewUI.Framework;
 using HarmonyLib;
 using StardewValley.Triggers;
+using System.Reflection;
 
 namespace Voidsent
 {
@@ -68,7 +69,7 @@ namespace Voidsent
             ProfileMenuPatch.Initialize(Monitor);
             RandomDialogueAction.Initialize(helper.ModRegistry);
 
-            Harmony.PatchAll();
+            Harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
         public void OnGameLaunched(object? sender, GameLaunchedEventArgs e)
         {
