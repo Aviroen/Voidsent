@@ -48,6 +48,10 @@
    "UniqueID": "KaileyStardew.Tilesheets",
    "IsRequired": true
   },
+  {
+   "UniqueID": "crystalinerose.Tilesheets",
+   "IsRequired": true
+  }
 /*
   {
    "UniqueID": "Spiderbuttons.CustomScheduleKeys",

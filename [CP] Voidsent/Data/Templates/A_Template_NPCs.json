@@ -291,7 +291,8 @@
    "Action": "EditData",
    "Target": "Data/Characters",
    "When": {
-    "Query: ('{{PlayerGender}}' = '{{LIKESGENDER}}') OR ('{{LIKESGENDER}}' = 'Both')": true
+    "Query: ('{{PlayerGender}}' = '{{LIKESGENDER}}') OR ('{{LIKESGENDER}}' = 'Both')": true,
+    "Query: {{ROMANCE}}": true
    },
    "Fields": {
     "{{ModId}}_{{NPCNAME}}": {

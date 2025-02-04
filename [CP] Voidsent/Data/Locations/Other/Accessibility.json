@@ -17,6 +17,96 @@
     "Width": 9,
     "Height": 9
    }
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{Yrsin}}_Hideout1",
+   "PatchMode": "Overlay",
+   "FromFile": "Assets/Maps/Patches/AllPatches.tmx",
+   "FromArea": {
+    "X": 22,
+    "Y": 0,
+    "Width": 14,
+    "Height": 2
+   },
+   "ToArea": {
+    "X": 3,
+    "Y": 4,
+    "Width": 14,
+    "Height": 2
+   }
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{Yrsin}}_Hideout2",
+   "PatchMode": "Overlay",
+   "FromFile": "Assets/Maps/Patches/AllPatches.tmx",
+   "FromArea": {
+    "X": 22,
+    "Y": 0,
+    "Width": 14,
+    "Height": 2
+   },
+   "ToArea": {
+    "X": 4,
+    "Y": 4,
+    "Width": 14,
+    "Height": 2
+   }
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{Yrsin}}_Hideout3",
+   "PatchMode": "Overlay",
+   "FromFile": "Assets/Maps/Patches/AllPatches.tmx",
+   "FromArea": {
+    "X": 22,
+    "Y": 0,
+    "Width": 14,
+    "Height": 2
+   },
+   "ToArea": {
+    "X": 3,
+    "Y": 5,
+    "Width": 14,
+    "Height": 2
+   }
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{Yrsin}}_Hideout4",
+   "PatchMode": "Overlay",
+   "FromFile": "Assets/Maps/Patches/AllPatches.tmx",
+   "FromArea": {
+    "X": 22,
+    "Y": 0,
+    "Width": 14,
+    "Height": 2
+   },
+   "ToArea": {
+    "X": 3,
+    "Y": 5,
+    "Width": 14,
+    "Height": 2
+   }
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{Yrsin}}_Hideout5",
+   "PatchMode": "Overlay",
+   "FromFile": "Assets/Maps/Patches/AllPatches.tmx",
+   "FromArea": {
+    "X": 22,
+    "Y": 0,
+    "Width": 14,
+    "Height": 2
+   },
+   "ToArea": {
+    "X": 3,
+    "Y": 5,
+    "Width": 14,
+    "Height": 2
+   }
   }
  ]
 }

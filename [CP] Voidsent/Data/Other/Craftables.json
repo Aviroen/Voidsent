@@ -1,25 +1,46 @@
 {
-  "Changes": [
-    {
-      "Action": "Include",
-      "FromFile": "Data/Templates/CraftingTemplate.json",
-      "LocalTokens": {
-        "CRAFTINGNAME": "WarpTotem",
-        "INGREDIENTS": "709 1 340 1 771 20",
-        "YIELD": "{{ModId}}_WarpTotem",
-        "BIGCRAFTABLE": "false",
-        "UNLOCKCONDITIONS": "none",
-        "TYPE": "Crafting",
-        "CATEGORY": "0",
-        "PRICE": "20",
-        "SPRITEINDEX": "0",
-        "EDIBILITY": "-300",
-        "GIFTABLE": "false",
-        "TRASHABLE": "true",
-        "COLORTAG": "color_gray",
-        "OPTTAG1": "not_placeable",
-        "OPTTAG2": "totem_item"
-      }
-    }
-  ]
+ "Changes": [
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/CraftingTemplate.json",
+   "LocalTokens": {
+    "CRAFTINGNAME": "WarpTotem",
+    "INGREDIENTS": "709 1 340 1 771 20",
+    "YIELD": "{{ModId}}_WarpTotem",
+    "BIGCRAFTABLE": "false",
+    "UNLOCKCONDITIONS": "none",
+    "TYPE": "Crafting",
+    "CATEGORY": "0",
+    "PRICE": "20",
+    "SPRITEINDEX": "0",
+    "EDIBILITY": "-300",
+    "GIFTABLE": "false",
+    "TRASHABLE": "true",
+    "COLORTAG": "color_gray",
+    "OPTTAG1": "not_placeable",
+    "OPTTAG2": "totem_item"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/CraftingTemplate.json",
+   "LocalTokens": {
+    "CRAFTINGNAME": "Shorbkie",
+    "INGREDIENTS": "{{ModId}}_ShortfinMakoShark 1 {{ModId}}_DogfishShark 1 {{ModId}}_FrilledShark 1 {{ModId}}_ThresherShark 1 {{ModId}}_BlueShark 1 {{ModId}}_NurseShark 1 {{ModId}}_ZebraShark 1 {{ModId}}_TigerShark 1 {{ModId}}_BullShark 1 {{ModId}}_HammerheadShark 1 {{ModId}}_WhaleShark 1",
+    "YIELD": "{{ModId}}_Shorbkie",
+    "BIGCRAFTABLE": "false",
+    "UNLOCKCONDITIONS": "PLAYER_HAS_FLAG Current {{ModId}}_ShorbkieRecipe",
+    "TYPE": "Crafting",
+    "CATEGORY": "0",
+    "PRICE": "20",
+    "SPRITEINDEX": "24",
+    "EDIBILITY": "100",
+    "GIFTABLE": "false",
+    "TRASHABLE": "true",
+    "COLORTAG": "color_brown",
+    "OPTTAG1": "food_bakery",
+    "OPTTAG2": "food_sweet"
+   }
+  }
+ ]
 }
