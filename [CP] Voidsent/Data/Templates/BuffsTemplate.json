@@ -1,0 +1,38 @@
+{
+ "Changes": [
+  {
+   "Action": "EditData",
+   "Target": "Data/Buffs",
+   "Entries": {
+    "{{ModId}}_{{BUFFNAME}}": {
+     "DisplayName": "{{i18n:{{BUFFNAME}}.Name}}",
+     "Description": "{{i18n:{{BUFFNAME}}.Description}}",
+     "IsDebuff": "{{ISDEBUFF}}",
+     "GlowColor": "{{GLOWCOLOR}}",
+     "Duration": "{{DURATION}}", //ms
+     "IconTexture": "Mods/{{ModId}}/Objects",
+     "IconSpriteIndex": "{{ICONINDEX}}",
+     "Effects": {
+      "FarmingLevel": "{{FARMINGLEVEL}}",
+      "FishingLevel": "{{FISHINGLEVEL}}",
+      "ForagingLevel": "{{FORAGINGLEVEL}}",
+      "LuckLevel": "{{LUCKLEVEL}}",
+      "MiningLevel": "{{MININGLEVEL}}",
+      "Attack": "{{ATTACK}}",
+      "Defense": "{{DEFENSE}}",
+      "MagneticRadius": "{{MAGNETICRADIUS}}",
+      "MaxStamina": "{{MAXSTAMINA}}",
+      "Speed": "{{SPEED}}",
+      "Immunity": "{{IMMUNITY}}",
+      "KnockbackMultiplier": "{{KNOCKBACKMULT}}",
+      "WeaponSpeedMultipler": "{{WEAPONSPEEDMULT}}",
+      "AttackMultiplier": "{{ATTACKMULT}}",
+      "CriticalChanceMultiplier": "{{CRITCHANCEMULT}}",
+      "CriticalPowerMultiplier": "{{CRITPOWERMULT}}",
+      "WeaponPrecisionMultiplier": "{{WEAPONPRECMULT}}"
+     }
+    }
+   }
+  }
+ ]
+}

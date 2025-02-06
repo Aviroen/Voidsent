@@ -2,12 +2,6 @@
 
  "Changes": [
   {
-   "LogName": "Load the custom wizard building",
-   "Action": "Load",
-   "Target": "Maps/{{ModId}}_EdelWizard",
-   "FromFile": "Assets/Tilesheets/{{ModId}}_EdelWizard.png"
-  },
-  {
    "Action": "Include",
    "FromFile": "Data/Templates/LocationTemplates.json",
    "LocalTokens": {

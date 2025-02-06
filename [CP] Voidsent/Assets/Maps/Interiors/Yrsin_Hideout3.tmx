@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.1" orientation="orthogonal" renderorder="right-down" width="20" height="21" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="1">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="21" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="1">
  <tileset firstgid="1" name="kailey_mine_lava_dark" tilewidth="16" tileheight="16" tilecount="816" columns="16">
   <image source="kailey_mine_lava_dark.png" width="256" height="816"/>
  </tileset>
@@ -974,8 +974,8 @@
  <tileset firstgid="6884" name="townInterior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
   <image source="townInterior.png" width="512" height="1088"/>
  </tileset>
- <tileset firstgid="9060" name="Tree" tilewidth="16" tileheight="16" tilecount="70" columns="10">
-  <image source="Aviroen.VoidsentCP_Tree.png" width="160" height="112"/>
+ <tileset firstgid="9060" name="Aviroen.VoidsentCP_Tilesheets" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+  <image source="Aviroen.VoidsentCP_Tilesheets.png" width="512" height="512"/>
  </tileset>
  <layer id="1" name="Back" width="20" height="21">
   <data encoding="csv">
@@ -1091,8 +1091,8 @@
 181,0,0,0,0,0,0,0,0,0,0,0,7472,7473,7474,7929,0,0,0,128,
 197,0,0,0,0,0,0,0,0,0,0,0,244,245,245,246,7771,7772,0,144,
 6146,214,0,0,0,0,0,0,0,0,0,0,260,0,0,262,0,0,0,160,
-6146,6081,6082,6146,233,9111,9112,9113,0,0,0,0,260,0,0,262,0,0,0,176,
-6146,6097,6098,6099,133,9121,9122,9123,0,0,0,0,0,0,0,262,0,0,0,192,
+6146,6081,6082,6146,233,9229,9230,9231,0,0,0,0,260,0,0,262,0,0,0,176,
+6146,6097,6098,6099,133,9261,9262,9263,0,0,0,0,0,0,0,262,0,0,0,192,
 6146,6081,6082,6146,149,0,0,0,0,0,0,0,260,0,0,262,0,0,0,208,
 6146,6146,6098,6146,165,0,0,0,0,0,0,0,279,280,280,281,0,0,0,224,
 6146,6146,6146,6115,181,0,0,0,0,0,0,0,0,0,0,0,0,0,0,240,
@@ -1136,11 +1136,11 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,9060,9061,9062,9063,9064,838,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,9070,9071,9072,9073,9074,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,9080,9081,9082,9083,9084,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,9090,9091,9092,9093,9094,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,9068,9069,9070,9071,9072,838,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,9100,9101,9102,9103,9104,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,9132,9133,9134,9135,9136,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,9164,9165,9166,9167,9168,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,9196,9197,9198,9199,9200,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

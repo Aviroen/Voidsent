@@ -28,12 +28,12 @@
   },
   {
    "Action": "EditMap",
-   "Target": "Maps/BusStop",
+   "Target": "Maps/Town",
    "TextOperations": [
     {
      "Operation": "Append",
      "Target": [ "MapProperties", "NPCWarp" ],
-     "Value": "17 23 {{ModId}}_WarpNetwork 1 1",
+     "Value": "104 77 {{ModId}}_WarpNetwork 1 1",
      "Delimiter": " "
     }
    ]
@@ -47,46 +47,47 @@
     "2 0 {{ModId}}_EdelweissHouse 5 19",
     "4 0 {{ModId}}_EdelweissAttic 2 6",
     "6 0 {{ModId}}_EdelweissBasement 14 4",
-    "8 0 FarmHouse 5 6",
-    /*
-    "0 2 {{Commonwealth}}",
+    "8 0 Town 104 79",
+    //"0 2 {{Commonwealth}}",
     //grand ministry
     //boggart's
 
-    "0 4 {{CrimsonGrove}}",
+    //"0 4 {{CrimsonGrove}}",
     //grand magus tower
     //grandmaster blacksmithy
     //menagerie of mystery
     //secret hideout
 
-    "0 6 {{Grandberg}}",
+    //"0 6 {{Grandberg}}",
     //top floor
     //barracks
     //konryn's room
     //excalibur's room
     //sai's room
 
-    "0 8 {{Grove}}", //grove will not have an interior
+    //"0 8 {{Grove}}", //grove will not have an interior
 
-    "0 10 {{Moor}}",
+    //"0 10 {{Moor}}",
     //swords and swingers
     //killer couturier
     //black widow clothing
-    //just one bite
-    //breakfast inn bed
+    "0 10 {{ModId}}_JustOneBite 11 19",
 
-    "0 12 {{Morabyr}}",
+    //"0 12 {{Morabyr}}",
     //jingles and jams
     //fish and flammables
     //swimmers and flippers
+    "2 12 {{ModId}}_BreakfastInnBed 38 20",
 
-    "0 14 {{Outlands}}"
+    //"0 14 {{Outlands}}"
     //witch hut
-    */
-    "0 16 {{ModId}}_Yrsin_Hideout1 8 18",
-    "2 16 {{ModId}}_Yrsin_Hideout2 6 16",
-    "4 16 {{ModId}}_Yrsin_Hideout3 9 18",
-    "6 16 {{ModId}}_Yrsin_Hideout4 10 13"
+
+    //Other
+    "0 16 {{ModId}}_Yrsin_Hideout1 7 5",
+    "2 16 {{ModId}}_Yrsin_Hideout2 8 5",
+    "4 16 {{ModId}}_Yrsin_Hideout3 7 6",
+    "6 16 {{ModId}}_Yrsin_Hideout4 7 6",
+    "8 16 {{ModId}}_Yrsin_Hideout4 7 6"
    ]
   }
  ]

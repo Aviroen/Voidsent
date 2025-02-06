@@ -1,12 +1,6 @@
 {
  "Changes": [
   {
-   "Action": "Load",
-   "FromFile": "{{FirstValidFile: i18n/{{language}}/A_Shops.json, i18n/default/A_Shops.json}}",
-   "Priority": "Low",
-   "Target": "{{ModId}}/ShopTranslations"
-  },
-  {
    "Action": "Include",
    "FromFile": "Data/Templates/ShopTemplate.json",
    "LocalTokens": {

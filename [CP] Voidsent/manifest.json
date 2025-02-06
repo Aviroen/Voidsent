@@ -51,6 +51,10 @@
   {
    "UniqueID": "crystalinerose.Tilesheets",
    "IsRequired": true
+  },
+  {
+   "UniqueID": "mushymato.MMAP",
+   "IsRequired": true
   }
 /*
   {

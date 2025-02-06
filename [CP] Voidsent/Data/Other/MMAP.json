@@ -1,0 +1,81 @@
+{
+ "Changes": [
+  {
+   "Action": "EditData",
+   "Target": "mushymato.MMAP/QuestionDialogue",
+   "Entries": {
+    "{{ModId}}_BIBRoom": {
+     "Question": "[LocalizedText Strings/StringsFromCSFiles:{{ModId}}_RoomCheck]",
+     "Speaker": "{{Yrnal}}",
+     "ResponseEntries": {
+      "ExpensiveRoom": {
+       "Label": "The expensive one, please!",
+       "Condition": "PLAYER_CURRENT_MONEY Current 20000",
+       // both actions run
+       "Actions": [
+        "AddMail Current {{ModId}}_ExpensiveRoom now",
+        "AddMoney -20000",
+        "Spiderbuttons.BETAS_DialogueBox {{Yrnal}} Strings/StringsFromCSFiles:{{ModId}}_Expensive"
+       ]
+      },
+      "CheapRoom": {
+       "Label": "Just here for a safe stay!",
+       "Condition": "PLAYER_CURRENT_MONEY Current 1000",
+       "Actions": [
+        "AddMail Current {{ModId}}_CheapRoom now",
+        "AddMoney -1000",
+        "Spiderbuttons.BETAS_DialogueBox {{Yrnal}} Strings/StringsFromCSFiles:{{ModId}}_Cheap"
+       ]
+      },
+      "Cancel": {}
+     }
+    },
+    "{{ModId}}_BIBLeave": {
+     "Question": "[LocalizedText Strings/StringsFromCSFiles:{{ModId}}_Leave]",
+     "Speaker": "{{Yrnal}}",
+     "ResponseEntries": {
+      "YesLeave": {
+       "Label": "Yes, please!",
+       // both actions run
+       "Actions": [
+        "RemoveMail Current {{ModId}}_ExpensiveRoom now",
+        "RemoveMail Current {{ModId}}_CheapRoom now",
+        "Spiderbuttons.BETAS_WarpFarmer {{ModId}}_BreakfastInnBed 18 32 0",
+        "Spiderbuttons.BETAS_DialogueBox {{Yrnal}} Strings/StringsFromCSFiles:{{ModId}}_Leaving"
+       ]
+      },
+      "Cancel": {}
+     }
+    }
+   }
+  }
+ ]
+ // {
+ //   "Action": "EditMap",
+ //   "Target": "Maps/BusStop",
+ //   "MapTiles": [
+ //     {
+ //       "Position": {
+ //         "X": 14,
+ //         "Y": 23
+ //       },
+ //       "Layer": "Back",
+ //       "SetProperties": {
+ //         "TouchAction": "mushymato.MMAP_HoleWarp WitchHut 7 15"
+ //       }
+ //     },
+ //     {
+ //       "Position": {
+ //         "X": 14,
+ //         "Y": 23
+ //       },
+ //       "SetTilesheet": "outdoors",
+ //       "SetIndex": 161,
+ //       "Layer": "Front",
+ //       "SetProperties": {
+ //         "mushymato.MMAP_Light": "4 White"
+ //       }
+ //     }
+ //   ]
+ // },
+}

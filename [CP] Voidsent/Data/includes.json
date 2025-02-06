@@ -38,8 +38,8 @@
   {
    "LogName": "Load the tree drawn by AirynS",
    "Action": "Load",
-   "Target": "Maps/{{ModId}}_Tree",
-   "FromFile": "Assets/Tilesheets/{{ModId}}_Tree.png"
+   "Target": "Maps/{{ModId}}_Tilesheets",
+   "FromFile": "Assets/Tilesheets/{{ModId}}_Tilesheets.png"
   },
   {
    "LogName": "Load custom doors tilesheet for use on custom map and data asset references",
@@ -63,7 +63,7 @@
   {
    "LogName": "Interior Locations Include",
    "Action": "Include",
-   "FromFile": "Data/Locations/ArtificialBeach/Edelweiss.json, Data/Locations/Moor/BreakfastInnBed.json"
+   "FromFile": "Data/Locations/ArtificialBeach/Edelweiss.json, Data/Locations/Morabyr/BreakfastInnBed.json"
   },
   {
    "LogName": "Other Locations Include",
@@ -78,7 +78,7 @@
   {
    "LogName": "Data Include",
    "Action": "Include",
-   "FromFile": "Data/Other/Animals.json, Data/Other/Craftables.json, Data/Other/EMA.json, Data/Other/Events.json, Data/Other/Festivals.json, Data/Other/Fish.json, Data/Other/Mail.json, Data/Other/Shops.json, Data/Other/SpaceCore.json, Data/Other/Strings.json, Data/Other/TriggerActions.json" //Data/Other/TrinketTrinker.json
+   "FromFile": "Data/Other/Animals.json, Data/Other/Craftables.json, Data/Other/EMA.json, Data/Other/Events.json, Data/Other/Festivals.json, Data/Other/Fish.json, Data/Other/Mail.json, Data/Other/MMAP.json, Data/Other/Shops.json, Data/Other/SpaceCore.json, Data/Other/Strings.json, Data/Other/TriggerActions.json" //Data/Other/TrinketTrinker.json
   },
   {
    "LogName": "Spouseroom Load",

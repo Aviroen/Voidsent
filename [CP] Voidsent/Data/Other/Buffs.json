@@ -1,0 +1,61 @@
+{
+ "Changes": [
+  /*  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/BuffsTemplates.json",
+   "LocalTokens": {
+    "BUFFNAME": "",
+    "ISDEBUFF": false, //true/false
+    "GLOWCOLOR": "",
+    "DURATION": "",
+    "ICONINDEX": "",
+    "FARMINGLEVEL": "",
+    "FISHINGLEVEL": "",
+    "FORAGINGLEVEL": "",
+    "LUCKLEVEL": "",
+    "MININGLEVEL": "",
+    "ATTACK": "",
+    "DEFENSE": "",
+    "MAGNETICRADIUS": "",
+    "MAXSTAMINA": "",
+    "SPEED": "",
+    "IMMUNITY": "",
+    "KNOCKBACKMULT": "",
+    "WEAPONSPEEDMULT": "",
+    "ATTACKMULT": "",
+    "CRITCHANCEMULT": "",
+    "CRITPOWERMULT": "",
+    "WEAPONPRECMULT": ""
+   }
+  }
+ */
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/BuffsTemplates.json",
+   "LocalTokens": {
+    "BUFFNAME": "",
+    "ISDEBUFF": false, //true/false
+    "GLOWCOLOR": "",
+    "DURATION": "",
+    "ICONINDEX": "",
+    "FARMINGLEVEL": "",
+    "FISHINGLEVEL": "",
+    "FORAGINGLEVEL": "",
+    "LUCKLEVEL": "",
+    "MININGLEVEL": "",
+    "ATTACK": "",
+    "DEFENSE": "",
+    "MAGNETICRADIUS": "",
+    "MAXSTAMINA": "",
+    "SPEED": "",
+    "IMMUNITY": "",
+    "KNOCKBACKMULT": "",
+    "WEAPONSPEEDMULT": "",
+    "ATTACKMULT": "",
+    "CRITCHANCEMULT": "",
+    "CRITPOWERMULT": "",
+    "WEAPONPRECMULT": ""
+   }
+  }
+ ]
+}

@@ -55,7 +55,7 @@
     "MAPNAME": "Yrsin_Hideout5",
     "INTERIORORLOCATIONS": "Interiors",
     "XARRIVAL": "12",
-    "YARRIVAL": "20",
+    "YARRIVAL": "19",
     "MUSIC": "mermaidSong",
     "AREA": "Yrsin_Hideouts"
    }
@@ -252,12 +252,12 @@
    "Target": "Maps/{{Yrsin}}_Office",
    "MapProperties": {
     "AmbientLight": "255 255 255",
-    "NPCWarp": "8 4 {{ModId}}_WarpNetwork 1 0",
+    "NPCWarp": "2 5 {{ModId}}_WarpNetwork 1 0",
     "Doors": "9 13 0 0 10 13 0 0" //Doors [<int x> <int y> <string sheetID> <int tileID>]+
    },
    "AddWarps": [
-    //"9 20 {{ModId}}_WarpNetwork 1 0",
-    //"10 20 {{ModId}}_WarpNetwork 1 0"
+    "9 20 {{ModId}}_BreakfastInnBed 19 7",
+    "10 20 {{ModId}}_BreakfastInnBed 19 7"
    ],
    "MapTiles": [ //NPCWarp [<int fromX> <int fromY> <string toArea> <int toX> <int toY>]+
     {
@@ -300,66 +300,6 @@
      "Layer": "Buildings",
      "SetProperties": {
       "Action": "EMA_Fireplace right"
-     }
-    },
-    {
-     "Position": {
-      "X": 9,
-      "Y": 4
-     },
-     "Layer": "Buildings",
-     "SetProperties": {
-      "NPCPassable": "T"
-     }
-    },
-    {
-     "Position": {
-      "X": 10,
-      "Y": 4
-     },
-     "Layer": "Buildings",
-     "SetProperties": {
-      "NPCPassable": "T"
-     }
-    },
-    {
-     "Position": {
-      "X": 9,
-      "Y": 5
-     },
-     "Layer": "Buildings",
-     "SetProperties": {
-      "NPCPassable": "T"
-     }
-    },
-    {
-     "Position": {
-      "X": 10,
-      "Y": 5
-     },
-     "Layer": "Buildings",
-     "SetProperties": {
-      "NPCPassable": "T"
-     }
-    },
-    {
-     "Position": {
-      "X": 8,
-      "Y": 5
-     },
-     "Layer": "Buildings",
-     "SetProperties": {
-      "NPCPassable": "T"
-     }
-    },
-    {
-     "Position": {
-      "X": 11,
-      "Y": 5
-     },
-     "Layer": "Buildings",
-     "SetProperties": {
-      "NPCPassable": "T"
      }
     },
     {

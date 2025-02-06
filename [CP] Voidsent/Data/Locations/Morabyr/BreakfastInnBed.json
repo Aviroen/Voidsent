@@ -9,7 +9,7 @@
     "XARRIVAL": "17",
     "YARRIVAL": "38",
     "MUSIC": "mermaidSong",
-    "AREA": "Moor"
+    "AREA": "Morabyr"
    }
   },
   {
@@ -18,11 +18,14 @@
    "MapProperties": {
     "AmbientLight": "255 255 255",
     "NPCWarp": "38 19 {{ModId}}_WarpNetwork 1 0",
-    "Doors": "33 26 0 0 34 26 0 0 19 6 0 0 4 15 0 0 5 15 0 0 24 15 0 0 25 15 0 0"
+    "Doors": "33 26 0 0 34 26 0 0 19 6 0 0 4 15 0 0 5 15 0 0 24 15 0 0 25 15 0 0",
+    "PassOutSafe": "T"
    },
    "AddWarps": [
-    "17 39 {{Yrsin}}_Office 2 6",
-    "18 39 {{Yrsin}}_Office 2 6"
+    "19 5 {{Yrsin}}_Office 2 6",
+    "19 4 {{Yrsin}}_Office 2 6"
+    //"17 39 {{Morabyr}}",
+    //"18 39 {{Morabyr}}"
    ],
    "MapTiles": [ //NPCWarp [<int fromX> <int fromY> <string toArea> <int toX> <int toY>]+
     {
@@ -64,8 +67,18 @@
      },
      "Layer": "Buildings",
      "SetProperties": {
-      "TouchAction": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_YrsinHideoutsUnlocked",
+      "Action": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_YrsinHideoutsUnlocked",
       "EMA_CustomDoor": "{{ModId}}_GlassDoorBrown"
+     }
+    },
+    {
+     "Position": {
+      "X": 19,
+      "Y": 6
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "TouchAction": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_YrsinHideoutsUnlocked"
      }
     },
     {
@@ -75,8 +88,18 @@
      },
      "Layer": "Buildings",
      "SetProperties": {
-      "TouchAction": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_ExpensiveRoom",
+      "Action": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_ExpensiveRoom",
       "EMA_CustomDoor": "{{ModId}}_GlassDoorBrown"
+     }
+    },
+    {
+     "Position": {
+      "X": 4,
+      "Y": 15
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "TouchAction": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_ExpensiveRoom"
      }
     },
     {
@@ -86,8 +109,18 @@
      },
      "Layer": "Buildings",
      "SetProperties": {
-      "TouchAction": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_ExpensiveRoom",
+      "Action": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_ExpensiveRoom",
       "EMA_CustomDoor": "{{ModId}}_GlassDoorFlipBrown"
+     }
+    },
+    {
+     "Position": {
+      "X": 5,
+      "Y": 15
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "TouchAction": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_ExpensiveRoom"
      }
     },
     {
@@ -97,8 +130,18 @@
      },
      "Layer": "Buildings",
      "SetProperties": {
-      "TouchAction": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_CheapRoom",
+      "Action": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_CheapRoom",
       "EMA_CustomDoor": "{{ModId}}_GlassDoorBrown"
+     }
+    },
+    {
+     "Position": {
+      "X": 24,
+      "Y": 15
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "TouchAction": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_CheapRoom"
      }
     },
     {
@@ -108,8 +151,18 @@
      },
      "Layer": "Buildings",
      "SetProperties": {
-      "TouchAction": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_CheapRoom",
+      "Action": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_CheapRoom",
       "EMA_CustomDoor": "{{ModId}}_GlassDoorFlipBrown"
+     }
+    },
+    {
+     "Position": {
+      "X": 25,
+      "Y": 15
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "TouchAction": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_CheapRoom"
      }
     },
     {
@@ -119,7 +172,27 @@
      },
      "Layer": "Buildings",
      "SetProperties": {
-      "Action": "Spiderbuttons.BETAS_Action Spiderbuttons.BETAS_Message [LocalizedText Aviroen.VoidsentCP/ShopTranslations:Edelweiss]"
+      "Action": "mushymato.MMAP_QuestionDialogue {{ModId}}_BIBRoom"
+     }
+    },
+    {
+     "Position": {
+      "X": 3,
+      "Y": 16
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "mushymato.MMAP_QuestionDialogue {{ModId}}_BIBLeave"
+     }
+    },
+    {
+     "Position": {
+      "X": 23,
+      "Y": 16
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "mushymato.MMAP_QuestionDialogue {{ModId}}_BIBLeave"
      }
     },
     {
@@ -139,7 +212,8 @@
      },
      "Layer": "Back",
      "SetProperties": {
-      "TouchAction": "Sleep"
+      "TouchAction": "Sleep",
+      "Bed": "T"
      }
     },
     {
@@ -149,7 +223,8 @@
      },
      "Layer": "Back",
      "SetProperties": {
-      "TouchAction": "Sleep"
+      "TouchAction": "Sleep",
+      "Bed": "T"
      }
     },
     {
@@ -159,7 +234,8 @@
      },
      "Layer": "Back",
      "SetProperties": {
-      "TouchAction": "Sleep"
+      "TouchAction": "Sleep",
+      "Bed": "T"
      }
     },
     {
@@ -169,7 +245,8 @@
      },
      "Layer": "Back",
      "SetProperties": {
-      "TouchAction": "Sleep"
+      "TouchAction": "Sleep",
+      "Bed": "T"
      }
     },
     {
@@ -179,7 +256,8 @@
      },
      "Layer": "Back",
      "SetProperties": {
-      "TouchAction": "Sleep"
+      "TouchAction": "Sleep",
+      "Bed": "T"
      }
     }
    ]

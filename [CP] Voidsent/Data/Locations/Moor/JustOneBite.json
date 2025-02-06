@@ -1,0 +1,95 @@
+{
+ "Changes": [
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "JustOneBite",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "9",
+    "YARRIVAL": "19",
+    "MUSIC": "mermaidSong",
+    "AREA": "Moor"
+   }
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_JustOneBite",
+   "MapProperties": {
+    "AmbientLight": "235 235 235",
+    "NPCWarp": "9 4 {{ModId}}_WarpNetwork 1 0",
+    "Doors": "15 13 0 0 16 13 0 0 9 3 0 0 10 3 0 0"
+   },
+   "AddWarps": [
+    "9 0 {{Yrsin}}_Office 2 6",
+    "10 0 {{Yrsin}}_Office 2 6"
+    //"9 20 {{Moor}}",
+    //"10 20 {{Moor}}"
+   ],
+   "MapTiles": [ //NPCWarp [<int fromX> <int fromY> <string toArea> <int toX> <int toY>]+
+    {
+     "Position": {
+      "X": 15,
+      "Y": 13
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "EMA_CustomDoor": "{{ModId}}_SaloonDoorBrown"
+     }
+    },
+    {
+     "Position": {
+      "X": 16,
+      "Y": 13
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "EMA_CustomDoor": "{{ModId}}_SaloonDoorFlipBrown"
+     }
+    },
+    {
+     "Position": {
+      "X": 9,
+      "Y": 3
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "EMA_CustomDoor": "{{ModId}}_GlassDoorPolo",
+      "Action": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_YrsinHideoutsUnlocked"
+     }
+    },
+    {
+     "Position": {
+      "X": 9,
+      "Y": 3
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "TouchAction": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_YrsinHideoutsUnlocked"
+     }
+    },
+    {
+     "Position": {
+      "X": 10,
+      "Y": 3
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "EMA_CustomDoor": "{{ModId}}_GlassDoorFlipPolo",
+      "Action": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_YrsinHideoutsUnlocked"
+     }
+    }
+    {
+     "Position": {
+      "X": 10,
+      "Y": 3
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "Action": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_YrsinHideoutsUnlocked"
+     }
+    }
+   ]
+  }
+ ]
+}
