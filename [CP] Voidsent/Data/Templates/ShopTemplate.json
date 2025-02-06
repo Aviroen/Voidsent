@@ -1,36 +1,37 @@
 {
-  "Changes": [
-    {
-      "Action": "EditData",
-      "Target": "Data/Shops",
-      "Entries": {
-        "{{ModId}}_{{SHOPNAME}}": {
-          "Currency": 0,
-          "StackSizeVisibility": null,
-          "OpenSound": "openChest",
-          "PurchaseSound": "purchaseClick",
-          "PurchaseRepeatSound": "purchaseRepeat",
-          "PriceModifiers": null,
-          "PriceModifierMode": "Stack",
-          "Owners": [
-            {
-              "Name": "{{NAMEENTRY}}",
-              "Dialogues": [
-                {
-                  "Id": "{{ModId}}_{{SHOPNAME}}",
-                  "Condition": null,
-                  "Dialogue": "{{i18n:{{SHOPNAME}}.{{Random:{{Range:0,9}}}}}}"
-                }
-              ]
-            }
-          ],
-          "VisualTheme": null,
-          "SalableItemTags": null,
-          "Items": [],
-          "CustomFields": null,
-          "ApplyProfitMargins": null
+ "Changes": [
+  {
+   "Action": "EditData",
+   "Target": "Data/Shops",
+   "Entries": {
+    "{{ModId}}_{{SHOPNAME}}": {
+     "Currency": 0,
+     "StackSizeVisibility": null,
+     "OpenSound": "openChest",
+     "PurchaseSound": "purchaseClick",
+     "PurchaseRepeatSound": "purchaseRepeat",
+     "PriceModifiers": null,
+     "PriceModifierMode": "Stack",
+     "Owners": [
+      {
+       "Name": "{{NAMEENTRY}}",
+       "Dialogues": [
+        {
+         "Id": "{{ModId}}_{{SHOPNAME}}",
+         "Condition": null,
+         "Dialogue": "{{i18n:{{SHOPNAME}}.{{Random:{{Range:0,9}}}}}}"
         }
+       ],
+       "RandomizeDialogueOnOpen": true
       }
+     ],
+     "VisualTheme": null,
+     "SalableItemTags": null,
+     "Items": [],
+     "CustomFields": null,
+     "ApplyProfitMargins": null
     }
-  ]
+   }
+  }
+ ]
 }

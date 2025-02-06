@@ -1,0 +1,96 @@
+{
+ "Changes": [
+  //loads
+  {
+   "Action": "Load",
+   "Target": "Mods/{{ModId}}/Objects",
+   "FromFile": "Assets/Objects/Objects.png"
+  },
+  {
+   "Action": "Load",
+   "Priority": "Low",
+   "Target": "Mods/{{ModId}}/Sharks",
+   "FromFile": "Assets/Animals/Pau_Sharks.png"
+  },
+  {
+   "Action": "Load",
+   "Priority": "Low",
+   "Target": "Mods/{{ModId}}/AnimalShop",
+   "FromFile": "Assets/Animals/AnimalShop.png"
+  },
+  {
+   "Action": "EditData",
+   "When": {
+    "HasMod": "shekurika.EventLookup"
+   },
+   "Target": "Mods/shekurika.EventLookup/locationnames",
+   "Entries": {
+    "{{ArtificialBeach}}": "Artificial Beach",
+    "{{Morabyr}}": "Port Morabyr",
+    "{{Commonwealth}}": "Commonwealth",
+    "{{Moor}}": "The Moor",
+    "{{Grandberg}}": "Grandberg Castle",
+    "{{CrimsonGrove}}": "Crimson Grove",
+    "{{Outlands}}": "Outlands",
+    "{{Grove}}": "Grove"
+   }
+  },
+  {
+   "LogName": "Load the tree drawn by AirynS",
+   "Action": "Load",
+   "Target": "Maps/{{ModId}}_Tree",
+   "FromFile": "Assets/Tilesheets/{{ModId}}_Tree.png"
+  },
+  {
+   "LogName": "Load custom doors tilesheet for use on custom map and data asset references",
+   "Action": "Load",
+   "Target": "Maps/{{ModId}}_Doors",
+   "FromFile": "Assets/Tilesheets/{{ModId}}_Doors.png"
+  },
+  //includes
+  {
+   "Action": "Include",
+   "When": {
+    "Photosensitive Mode": true
+   },
+   "FromFile": "Data/Locations/Other/Accessibility.json"
+  },
+  {
+   "LogName": "Exterior Locations Include",
+   "Action": "Include",
+   "FromFile": "Data/Locations/ArtificialBeach/ArtificialBeach.json" //, Data/Locations/Commonwealth/Commonwealth.json, Data/Locations/CrimsonGrove/CrimsonGrove.json, Data/Locations/Grandberg/Grandberg.json, Data/Locations/Grove/Grove.json, Data/Locations/Moor/Moor.json, Data/Locations/Morabyr/Morabyr.json, Data/Locations/Outlands/Outlands.json
+  },
+  {
+   "LogName": "Interior Locations Include",
+   "Action": "Include",
+   "FromFile": "Data/Locations/ArtificialBeach/Edelweiss.json, Data/Locations/Moor/BreakfastInnBed.json"
+  },
+  {
+   "LogName": "Other Locations Include",
+   "Action": "Include",
+   "FromFile": "Data/Locations/Other/Warps.json, Data/Locations/Other/Hideouts.json, Data/Locations/Other/Stardrops.json"
+  },
+  {
+   "LogName": "CHAOS BEGIN",
+   "Action": "Include",
+   "FromFile": "Data/NPCData/BaseNPCs.json" //, Data/NPCData/CameoNPCs.json
+  },
+  {
+   "LogName": "Data Include",
+   "Action": "Include",
+   "FromFile": "Data/Other/Animals.json, Data/Other/Craftables.json, Data/Other/EMA.json, Data/Other/Events.json, Data/Other/Festivals.json, Data/Other/Fish.json, Data/Other/Mail.json, Data/Other/Shops.json, Data/Other/SpaceCore.json, Data/Other/Strings.json, Data/Other/TriggerActions.json" //Data/Other/TrinketTrinker.json
+  },
+  {
+   "LogName": "Spouseroom Load",
+   "Action": "Load",
+   "Target": "Maps/Spouse_{{SpouseRooms}}",
+   "FromFile": "Assets/Maps/Other/{{TargetWithoutPath}}.tmx"
+  },
+  {
+   "LogName": "Patio Load",
+   "Action": "Load",
+   "Target": "Maps/{{ModId}}_Patio",
+   "FromFile": "Assets/Maps/Other/Patio.tmx"
+  }
+ ]
+}

@@ -1,12 +1,6 @@
 {
  "Changes": [
   {
-   "LogName": "Load the tree drawn by AirynS",
-   "Action": "Load",
-   "Target": "Maps/{{ModId}}_Tree",
-   "FromFile": "Assets/Tilesheets/{{ModId}}_Tree.png"
-  },
-  {
    "Action": "Include",
    "FromFile": "Data/Templates/LocationTemplates.json",
    "LocalTokens": {
@@ -66,6 +60,18 @@
     "AREA": "Yrsin_Hideouts"
    }
   },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "Yrsin_Office",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "9",
+    "YARRIVAL": "18",
+    "MUSIC": "mermaidSong",
+    "AREA": "BreakfastInnBed"
+   }
+  },
   //////////// hideout1
   {
    "Action": "EditMap",
@@ -75,8 +81,8 @@
     "NPCWarp": "4 5 {{ModId}}_WarpNetwork 1 0"
    },
    "AddWarps": [
-    //"8 19 {{ModId}}_WarpNetwork 1 0",
-    //"9 19 {{ModId}}_WarpNetwork 1 0"
+    "8 19 {{Yrsin}}_Office 2 6",
+    "9 19 {{Yrsin}}_Office 2 6"
    ],
    "MapTiles": [ //NPCWarp [<int fromX> <int fromY> <string toArea> <int toX> <int toY>]+
     {
@@ -110,8 +116,8 @@
     "NPCWarp": "5 5 {{ModId}}_WarpNetwork 1 0"
    },
    "AddWarps": [
-    //"8 19 {{ModId}}_WarpNetwork 1 0",
-    //"9 19 {{ModId}}_WarpNetwork 1 0"
+    "9 19 {{Yrsin}}_Office 2 6",
+    "10 19 {{Yrsin}}_Office 2 6"
    ],
    "MapTiles": [ //NPCWarp [<int fromX> <int fromY> <string toArea> <int toX> <int toY>]+
     {
@@ -145,8 +151,8 @@
     "NPCWarp": "4 6 {{ModId}}_WarpNetwork 1 0"
    },
    "AddWarps": [
-    //"8 19 {{ModId}}_WarpNetwork 1 0",
-    //"9 19 {{ModId}}_WarpNetwork 1 0"
+    "9 19 {{Yrsin}}_Office 2 6",
+    "10 19 {{Yrsin}}_Office 2 6"
    ],
    "MapTiles": [ //NPCWarp [<int fromX> <int fromY> <string toArea> <int toX> <int toY>]+
     {
@@ -180,8 +186,8 @@
     "NPCWarp": "4 6 {{ModId}}_WarpNetwork 1 0"
    },
    "AddWarps": [
-    //"8 19 {{ModId}}_WarpNetwork 1 0",
-    //"9 19 {{ModId}}_WarpNetwork 1 0"
+    "10 19 {{Yrsin}}_Office 2 6",
+    "11 19 {{Yrsin}}_Office 2 6"
    ],
    "MapTiles": [ //NPCWarp [<int fromX> <int fromY> <string toArea> <int toX> <int toY>]+
     {
@@ -215,8 +221,8 @@
     "NPCWarp": "4 6 {{ModId}}_WarpNetwork 1 0"
    },
    "AddWarps": [
-    //"8 19 {{ModId}}_WarpNetwork 1 0",
-    //"9 19 {{ModId}}_WarpNetwork 1 0"
+    "12 20 {{Yrsin}}_Office 2 6",
+    "13 20 {{Yrsin}}_Office 2 6"
    ],
    "MapTiles": [ //NPCWarp [<int fromX> <int fromY> <string toArea> <int toX> <int toY>]+
     {
@@ -237,6 +243,133 @@
      "Layer": "Buildings",
      "SetProperties": {
       "Action": "Dialogue {{i18n:Hideout5.Sign}}"
+     }
+    }
+   ]
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{Yrsin}}_Office",
+   "MapProperties": {
+    "AmbientLight": "255 255 255",
+    "NPCWarp": "8 4 {{ModId}}_WarpNetwork 1 0",
+    "Doors": "9 13 0 0 10 13 0 0" //Doors [<int x> <int y> <string sheetID> <int tileID>]+
+   },
+   "AddWarps": [
+    //"9 20 {{ModId}}_WarpNetwork 1 0",
+    //"10 20 {{ModId}}_WarpNetwork 1 0"
+   ],
+   "MapTiles": [ //NPCWarp [<int fromX> <int fromY> <string toArea> <int toX> <int toY>]+
+    {
+     "Position": {
+      "X": 9,
+      "Y": 13
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Door",
+      "EMA_CustomDoor": "{{ModId}}_GlassDoorBrown"
+     }
+    },
+    {
+     "Position": {
+      "X": 10,
+      "Y": 13
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Door",
+      "EMA_CustomDoor": "{{ModId}}_GlassDoorFlipBrown"
+     }
+    },
+    {
+     "Position": {
+      "X": 14,
+      "Y": 4
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "EMA_Fireplace"
+     }
+    },
+    {
+     "Position": {
+      "X": 15,
+      "Y": 4
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "EMA_Fireplace right"
+     }
+    },
+    {
+     "Position": {
+      "X": 9,
+      "Y": 4
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "NPCPassable": "T"
+     }
+    },
+    {
+     "Position": {
+      "X": 10,
+      "Y": 4
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "NPCPassable": "T"
+     }
+    },
+    {
+     "Position": {
+      "X": 9,
+      "Y": 5
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "NPCPassable": "T"
+     }
+    },
+    {
+     "Position": {
+      "X": 10,
+      "Y": 5
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "NPCPassable": "T"
+     }
+    },
+    {
+     "Position": {
+      "X": 8,
+      "Y": 5
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "NPCPassable": "T"
+     }
+    },
+    {
+     "Position": {
+      "X": 11,
+      "Y": 5
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "NPCPassable": "T"
+     }
+    },
+    {
+     "Position": {
+      "X": 2,
+      "Y": 6
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "LockedDoorWarp 8 17 {{Yrsin}}_Hideout{{Random:{{Range:1,5}}}} 1400 2000 {{Yrsin}} 2000"
      }
     }
    ]

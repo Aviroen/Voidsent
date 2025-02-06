@@ -104,7 +104,7 @@
      "Layer": "Buildings",
      "SetProperties": {
       "Action": "Message EdelGrave"
-      //"Action": "spacechase0.SpaceCore_TriggerAction {{ModId}}_GraveTouched"
+      //"Action": "Spiderbuttons.BETAS_Action Spiderbuttons.BETAS_Message \"{{i18n:EdelGrave}}\""
      }
     },
     {

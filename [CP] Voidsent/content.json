@@ -31,7 +31,7 @@
    "Value": "{{ModId}}_Trinity"
   },
   {
-   "Name": "Penumbra",
+   "Name": "Penumbra", //r
    "Value": "{{ModId}}_Penumbra"
   },
   {
@@ -326,80 +326,20 @@
   }
  ],
  "Changes": [
-  //loads
-  {
-   "Action": "Load",
-   "Target": "Mods/{{ModId}}/Objects",
-   "FromFile": "Assets/Objects/Objects.png"
-  },
-  {
-   "Action": "Load",
-   "Priority": "Low",
-   "Target": "Mods/{{ModId}}/Sharks",
-   "FromFile": "Assets/Animals/Pau_Sharks.png"
-  },
-  {
-   "Action": "Load",
-   "Priority": "Low",
-   "Target": "Mods/{{ModId}}/AnimalShop",
-   "FromFile": "Assets/Animals/AnimalShop.png"
-  },
-  {
-   "Action": "EditData",
-   "When": {
-    "HasMod": "shekurika.EventLookup"
-   },
-   "Target": "Mods/shekurika.EventLookup/locationnames",
-   "Entries": {
-    "{{ArtificialBeach}}": "Artificial Beach",
-    "{{Morabyr}}": "Port Morabyr",
-    "{{Commonwealth}}": "Commonwealth",
-    "{{Moor}}": "The Moor",
-    "{{Grandberg}}": "Grandberg Castle",
-    "{{CrimsonGrove}}": "Crimson Grove",
-    "{{Outlands}}": "Outlands",
-    "{{Grove}}": "Grove"
-   }
-  },
-  //includes
   {
    "Action": "Include",
    "When": {
-    "Photosensitive Mode": true
+    "HasMod|contains=ApryllForever.PolyamorySweetLove, ApryllForever.PolyamorySweetRooms, ApryllForever.PolyamoryKiss, ApryllForever.PolyamorySweetWedding, ApryllForever.PolyamorySweetBed, ApryllForever.SweetPolyamory": false
    },
-   "FromFile": "Data/Locations/Other/Accessibility.json"
+   "FromFile": "Data/includes.json"
   },
   {
-   "LogName": "Exterior Locations Include",
+   "LogName": "PolyamorySweet is Incompatible with Voidsent. Voidsent will not be loaded.",
    "Action": "Include",
-   "FromFile": "Data/Locations/ArtificialBeach/ArtificialBeach.json, Data/Locations/Warps.json, Data/Locations/Other/Hideouts.json, Data/Locations/Other/Stardrops.json" //, Data/Locations/Commonwealth/Commonwealth.json, Data/Locations/CrimsonGrove/CrimsonGrove.json, Data/Locations/Grandberg/Grandberg.json, Data/Locations/Grove/Grove.json, Data/Locations/Moor/Moor.json, Data/Locations/Morabyr/Morabyr.json, Data/Locations/Outlands/Outlands.json
-  },
-  {
-   "LogName": "Interior Locations Include",
-   "Action": "Include",
-   "FromFile": "Data/Locations/ArtificialBeach/Edelweiss.json"
-  },
-  {
-   "LogName": "CHAOS BEGIN",
-   "Action": "Include",
-   "FromFile": "Data/NPCData/BaseNPCs.json" //, Data/NPCData/CameoNPCs.json
-  },
-  {
-   "LogName": "Data Include",
-   "Action": "Include",
-   "FromFile": "Data/Other/Animals.json, Data/Other/Craftables.json, Data/Other/Events.json, Data/Other/Festivals.json, Data/Other/Fish.json, Data/Other/Mail.json, Data/Other/Shops.json, Data/Other/SpaceCore.json, Data/Other/Strings.json, Data/Other/TriggerActions.json" //Data/Other/TrinketTrinker.json
-  },
-  {
-   "LogName": "Spouseroom Load",
-   "Action": "Load",
-   "Target": "Maps/Spouse_{{SpouseRooms}}",
-   "FromFile": "Assets/Maps/Other/{{TargetWithoutPath}}.tmx"
-  },
-  {
-   "LogName": "Patio Load",
-   "Action": "Load",
-   "Target": "Maps/{{ModId}}_Patio",
-   "FromFile": "Assets/Maps/Other/Patio.tmx"
+   "When": {
+    "HasMod|contains=ApryllForever.PolyamorySweetLove, ApryllForever.PolyamorySweetRooms, ApryllForever.PolyamoryKiss, ApryllForever.PolyamorySweetWedding, ApryllForever.PolyamorySweetBed, ApryllForever.SweetPolyamory": true
+   },
+   "FromFile": "WARNING.json"
   }
  ]
 }

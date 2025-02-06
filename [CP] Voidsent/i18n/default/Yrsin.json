@@ -1,10 +1,27 @@
 {
  "Yrsin": "Yrsin",
+ "Yrsin.RejectPendant": "Sorry, I don't know what that I'm supposed to do with this.$1",
+ "Yrsin.RejectTea": "Sorry, I don't know what that I'm supposed to do with this.$1",
  //start of characters/dialogue/npc
- "Yrsin.breakUp": "Thought you'd be smarter than this, love.$2#$b#But what's the mundane colloquial?$7#$b#More fish in the sea?$7#$e#%Yrsin is ignoring you.",
- "Yrsin.divorced": "Mermadics don't really understand 'divorce' as you mundanes do, but I've been around long enough to understand what it means.$7#$e#You'll find no favors from me, love.$7",
+ "Yrsin.Housemate": "(housemate)",
+ "Yrsin.Spouse": "(spouse)",
+ "Yrsin.Partner": "(partner)",
+ "Yrsin.ExSpouse": "(ex-spouse)",
+ "Yrsin.Single": "(single)",
+ //door unlock
+ "Yrsin.NotFriend_Door": "You shouldn't pry into the underground.",
+
+ //gift taste dialogue
+ "Yrsin.Gifts.Loved": "Oh? A pleasant surprise.$1#$b#I'll see if Syrs is interested in lunch with this today.$1",
+ "Yrsin.Gifts.Liked": "Glittering scales, glittering metals. All quite useful to this shark, thanks, love.$1",
+ "Yrsin.Gifts.Disliked": "...?$9#$b#Playing games, are we?$9",
+ "Yrsin.Gifts.Hated": "...$9#$b#I can take a hint, love.$9",
+ "Yrsin.Gifts.Neutral": "...?#$b#You'll get nothing out of me for this, love.$7",
+ //start of characters/dialogue/npc
+ "Yrsin.breakUp": "Thought you'd be smarter than this, love.$9#$b#But what's the mundane colloquial?$9#$b#More fish in the sea?$9#$e#%Yrsin is ignoring you.",
+ "Yrsin.divorced": "Mermadics don't really understand 'divorce' as you mundanes do, but I've been around long enough to understand what it means.$9#$e#You'll find no favors from me, love.$9",
  "Yrsin.DumpsterDiveComment": "...Interesting.$1#$b#Don't mind me, love.$1#$b#Sometimes, times are hard, no?$6",
- "Yrsin.HitBySlingshot": "Testing my reflexes, love?$7#$b#I assure you, I am perfectly healthy.$7#$action spacechase0.SpaceCore_DamageCurrentFarmer 50",
+ "Yrsin.HitBySlingshot": "Testing my reflexes, love?$9#$b#I assure you, I am perfectly healthy.$9#$action spacechase0.SpaceCore_DamageCurrentFarmer 50",
  "Yrsin.SpouseFarmhouseClutter": "It does pique my interest, watching mundanes live their lives.$4#$b#I wouldn't expect you to live like a hermit crab, though.$6",
  "Yrsin.SpouseGiftJealous": "Pardon?$1#$b#Mermadics don't really care much for trinkets given to others.$6",
  "Yrsin.Spouse_MonstersInHouse": "Keeping my reflexes up in shape, love?$7#$b#Rest assured, I'm still as much as a top-tier hunter as I was in Grandberg.$7",
@@ -13,20 +30,21 @@
  "Yrsin.AcceptBouquet": "Ah, is this a part of the mundane tradition of putting a label on our relationship?$9#$b#I'll comply, for now, love.$6",
  "Yrsin.MovieInvitation": "Mmn? Moving pictures?$8#$b#Sure, mundane interests pique mine, it's good to keep on top of market interests.$9",
  "Yrsin.RejectBouquet": "You'll have to work a little harder to catch this shark's interest, love.$6",
- "Yrsin.RejectGift_Divorced": "Not particularly interested in someone trying to mend a mistake they've made, love.$7",
- "Yrsin.RejectMermaidPendant": "These are sacred, and require a good bode of trust between the two, you're not quite there for me, love.$6",
+ "Yrsin.RejectGift_Divorced": "Not particularly interested in someone trying to mend a mistake they've made, love.$9",
+ "Yrsin.RejectMermaidPendant": "Not quite sure what this is meant for, love.$1",
  "Yrsin.RejectMovieTicket": "Maybe next time, love, big ol' baddie shark has business to attend to today.$6",
  "Yrsin.GreenRain": "We mermadics are particularly fond of this 'green rain' you so call it.$1#$b#It's quite soothing to the skin.$6",
- "Yrsin.GreenRainFinished": "And like that, my luxurious self care day is gone.$9#$b#Shame.$6",
+ "Yrsin.GreenRainFinished": "And like that, my luxurious self care day is gone.$2#$b#Shame.$6",
  "Yrsin.Engaged": "Shall we have a mermadic celebration?$1#$b#It involves hunting, if you're so inclined.$6",
- "Yrsin.AfterWedding": "Like a tidal wave, the festivities of a mermadic wedding come to a close.$6#$b#Shall I look forward to your relatively short lifespan and remember these days fondly?$9",
+ "Yrsin.AfterWedding": "Like a tidal wave, the festivities of a mermadic wedding come to a close.$6#$b#Shall I look forward to your relatively short lifespan and remember these days fondly?$6",
 
  //monday hideout
- //BETAS
+ //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_
  "BETAS.Yrsin.Monday_0": "I've got business to attend to, love.$1",
  "BETAS.Yrsin.Monday_1": "What, did you want to keep Yrrek company?$6",
  "BETAS.Yrsin.Monday_2": "Big ol' baddy shark is handling business just fine, love.$7",
- "BETAS.Yrsin.Monday_3": "Yrrek, escort our guest out.$7#$action Spiderbuttons.BETAS_WarpFarmer Aviroen.VoidsentCP_Moor <X> <Y> <FacingDirection>",
+ "BETAS.Yrsin.Monday_3": "Yrrek, escort our guest out.$9#$action Spiderbuttons.BETAS_WarpFarmer Aviroen.VoidsentCP_Moor <X> <Y> <FacingDirection>",
+ //daily
  //daily
  "Yrsin.Monday_0": "Yrrek?$2#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"Did you find that one snitch?\"#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"Yes Boss. He's being held... *Ahem*\" 3000 3000",
  "Yrsin.Monday_1": "Yrrek?$2#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"How's the situation at the armory?\"#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"Yes Boss. We've got stores for two platoo-- *Ahem*\" 3000 3000",
@@ -37,16 +55,28 @@
  "Yrsin.Monday2_1": "Yrrek?$2#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"Have you heard anything from Trinity?\"#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"Yes Boss. Trinity is currently asking for more citrus supplies.\" 3000 3000#$e#More citrus, eh?$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*Chuckles*\" 3000 3000",
  "Yrsin.Monday2_2": "Yrrek?$2#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"Has Thandael said anything recently?\"#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"Yes Boss. Thandael has been asking for more supplie-- *Ahem*\" 3000 3000",
  "Yrsin.Monday2_3": "Yrrek?$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"Shall we have something special for lunch today?\"#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"Oh! Boss! Can we have caviar from Fili's today?!\" 3000 3000",
+ "BETAS.Yrsin.Monday2_0": "--Yes?$7#$b#I'm a very busy shark, love.$7",
+ "BETAS.Yrsin.Monday2_1": "Yrrek, see to that preparations will be ready by seven.",
+ "BETAS.Yrsin.Monday2_2": "--Yes?$7#$b#Yes, you've got roughly five days for your next payment date--$7#$e#%Yrsin is on the phone...",
+ "BETAS.Yrsin.Monday2_3": "Yrrek, escort our guest out.$7#$action Spiderbuttons.BETAS_WarpFarmer Aviroen.VoidsentCP_Moor <X> <Y> <FacingDirection>",
  //4 heart
  "Yrsin.Monday4_0": "Yrrek?$2#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"Have you heard anything through the scouts?\"#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"Yes Boss. Nightingale City looks promising. Shall we initiate a trade deal?\" 3000 3000",
  "Yrsin.Monday4_1": "Yrrek?$2#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"Is there any word of the whereabouts of the Grand Magus?\"#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"No Boss. Last reported sighting was six months ago.\" 3000 3000",
  "Yrsin.Monday4_2": "Yrrek?$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"Any interesting liquor you'd like to try today?\"#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"Oh! Boss! Can we try that new 'Six Gin' we got from Pelican Town?\" 3000 3000",
  "Yrsin.Monday4_3": "Yrrek?$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"Do any of the furniture suppliers look good?\"#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"Yes Boss. Actually there's a new supplier under the moniker 'Tea', she also goes by Lina.\" 3000 3000",
+ "BETAS.Yrsin.Monday4_0": "...Hmm. I'll need to calculate the costs for building a Station Network for Nightingale City...$2#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"Beyond that... would that engineer... Pathos? Even be available to work...\"#$e#%Seems like Yrsin is contemplating work...",
+ "BETAS.Yrsin.Monday4_1": "Yrrek, how long are we looking at the scale of that project between Nightingale City?#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrrek \"We're quite unsure, Boss. Some engineers have told us between a month and a year.\"#$b#Hmm...$7#$b#That should give us a decent enough time to get the supplies necessary for construction...$7",
+ "BETAS.Yrsin.Monday4_2": "...Beyond the investments, would there be immigrants, Yrrek?#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrrek \"I haven't looked into anyone wishing to immigrate yet, Boss. But I'll get on it.$h\"#$b#Good. Keep me updated.",
+ "BETAS.Yrsin.Monday4_3": "...#$e#%Seems like Yrsin is busy.",
  //6
  "Yrsin.Monday6_0": "Yrrek?$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"Have you fed the strays today?\"#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"Yes Boss. The Union Cats are doing quite well today, they send their regards for the fresh fish.\" 3000 3000#$e#Well that's good.$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*Chuckles*\" 3000 3000",
  "Yrsin.Monday6_1": "Yrrek?$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"What's going on in the schedule today?\"#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"Yes Boss. Today you are due for the meeting with Penumbra, a lunch front with Thandael, and-- *Ahem*\" 3000 3000",
  "Yrsin.Monday6_2": "Yrrek?$2#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"What of Konryn's mood?\"#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"Yes Boss. King Konryn is actually quite pleased with how things are running smoothly.\" 3000 3000",
  "Yrsin.Monday6_3": "Yrrek?$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"What shall we have for lunch today?\"#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"Oh! Boss! Can we have some tteokbokki today?\" 3000 3000 true",
+ "BETAS.Yrsin.Monday6_0": "...?#$e#Would you like to eat with us, love?$1",
+ "BETAS.Yrsin.Monday6_1": "Food's on the spicier side, if you can't handle it then there isn't much we can offer.$1",
+ "BETAS.Yrsin.Monday6_2": "...?#$e#%Yrsin has food in his mouth.",
+ "BETAS.Yrsin.Monday6_3": "Hmm?#$e#Want a bite?$6",
  //8 platonic
  "Yrsin.Platonic.Monday8_0": "Yrrek?$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"What other things are on the dock?\"#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"Yes Boss. We've got two meetings to attend, one with Thandael, and the other with King Konryn.\" 3000 3000",
  "Yrsin.Platonic.Monday8_1": "Yrrek?$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"You're free to go for the day.\"#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"Oh! Boss! Thank you! Shall I get some Fili's caviar for you?\" 3000 3000#$e#Heh...$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*Chuckles*\" 3000 0 true#$e#Haha!$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"Sure.\" 3000 3000",
@@ -57,6 +87,11 @@
  "Yrsin.Romantic.Monday8_1": "Well hello, love. You've actually caught me in a good mood.$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"You're free to go for the day.\"#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"Oh! Boss! Thank you! Shall I get some Fili's caviar for you?\" 3000 3000#$e#Heh...$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*Chuckles*\" 3000 0 true#$e#Haha!$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"Sure.\" 3000 3000",
  "Yrsin.Romantic.Monday8_2": "Pardon us, love, you've interrupted me.#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"What should we do today?\"#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"Oh! Boss? Uh... Shall we play pool today?\" 3000 3000 true#$e#Haha!$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"Just don't cry when I beat you again, alright?\"",
  "Yrsin.Romantic.Monday8_3": "Well, love, you've caught me on my lunch break.#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"Can you go out and grab us something to eat?\"#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"Oh! Yes Boss! One hearty salmon sandwich from Fili's coming up!\" 3000 3000 true",
+ //8
+ "BETAS.Yrsin.Monday8_0": "...$9#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"...With the costs of that new building...\"#$e#%Seems like Yrsin is busy.",
+ "BETAS.Yrsin.Monday8_1": "...$9#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"...I'll have to check on resources...\"#$e#%Seems like Yrsin is busy.",
+ "BETAS.Yrsin.Monday8_2": "...$9#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"...How many men would it take?...\"#$e#%Seems like Yrsin is busy.",
+ "BETAS.Yrsin.Monday8_3": "...$9#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"...I'll need to recruit more shipwrights....\"#$e#%Seems like Yrsin is busy.",
  //10 platonic
  "Yrsin.Platonic.Monday10_0": "...$2#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"ZzzZzzzzZz\"#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"Oh! Is Boss asleep?\" 3000 3000 true",
  "Yrsin.Platonic.Monday10_1": "...$2#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"ZzzZzzzzZz\"#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"You probably shouldn't bother Boss when he's finally resting.\" 3000 3000 true",
@@ -67,8 +102,13 @@
  "Yrsin.Romantic.Monday10_1": "...?$8#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"ZzzZzzzzZz\"#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"Today is pretty warm.\" 3000 3000 true",
  "Yrsin.Romantic.Monday10_2": "...$8#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"ZzzZzzzzZz\"#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"I bet I can bring us back lunch before he wakes up.\" 3000 3000 true",
  "Yrsin.Romantic.Monday10_3": "...$8#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"ZzzZzzzzZz\"#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"It's good that Boss can finally rest.\" 3000 3000 true",
+ //10
+ "BETAS.Yrsin.Monday10_0": "...You'll have to excuse my rough handling, sweetheart.$9#$action Spiderbuttons.BETAS_WarpFarmer Aviroen.VoidsentCP_Moor <X> <Y> <FacingDirection>",
+ "BETAS.Yrsin.Monday10_1": "...Persistence is not a virtue today, sweetheart.$9#$action Spiderbuttons.BETAS_WarpFarmer Aviroen.VoidsentCP_Moor <X> <Y> <FacingDirection>",
+ "BETAS.Yrsin.Monday10_2": "...This is for your own good.$9#$action Spiderbuttons.BETAS_WarpFarmer Aviroen.VoidsentCP_Moor <X> <Y> <FacingDirection>",
+ "BETAS.Yrsin.Monday10_3": "...Being cute with me won't get you my secrets.$9#$action Spiderbuttons.BETAS_WarpFarmer Aviroen.VoidsentCP_Moor <X> <Y> <FacingDirection>",
 
- //tuesday hideout (nicer)
+ //tuesday
  //BETAS
  "BETAS.Yrsin.Tuesday_0": "Well hello, love.$6#$b#Keeping tabs on 'The' Apex Predator?$1",
  "BETAS.Yrsin.Tuesday_1": "You'll get no secrets out of me, love.#$b#Maybe once you've become better at sneaking around.$6",
@@ -84,16 +124,28 @@
  "Yrsin.Tuesday2_1": "Yrrek, do we have any word from Commonwealth?$5#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"Yes Boss. Thetlin is asking for supplies.\"#$e#...Shit.$5#$action Spiderbuttons.BETAS_ShakeNpc Aviroen.VoidsentCP_Yrsin#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"Shit!\" 3000 0 true",
  "Yrsin.Tuesday2_2": "...$7#$action Spiderbuttons.BETAS_ShakeNpc Aviroen.VoidsentCP_Yrsin 10000#$e#%Seems like Yrsin is asleep.#$e#%Seems like Yrsin is asleep.#$e#%Seems like Yrsin is asleep.#$e#%Seems like Yrsin is asleep.#$e#%Seems like Yrsin is asleep.#$e#%Seems like Yrsin is asleep.#$e#%Seems like Yrsin is asleep.#$e#%Seems like Yrsin is asleep.#$e#%Seems like Yrsin is asleep.#$e#%Seems like Yrsin is asleep.#$e#%Seems like Yrsin is asleep.#$e#%Seems like Yrsin is asleep.",
  "Yrsin.Tuesday2_3": "Yrrek...$2#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*Sigh*\" 3000 0 true#$e#Do we have any unfinished paperwork from Muvi?$5#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"Yes... Boss...\" 3000 3000 true#$e#%...#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*Sigh*\" 3000 0 true#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"*Sigh*\" 3000 0 true",
+ "BETAS.Yrsin.Tuesday2_0": "...#$action Spiderbuttons.BETAS_ShakeNpc Aviroen.VoidsentCP_Yrsin 10000#$e#%Seems like Yrsin is asleep.#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrrek \"I don't suggest bothering Boss today.$5\"",
+ "BETAS.Yrsin.Tuesday2_1": "...#$action Spiderbuttons.BETAS_ShakeNpc Aviroen.VoidsentCP_Yrsin 10000#$e#%Seems like Yrsin is asleep.#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrrek \"Tuesdays are the only times Boss gets to sleep.\"",
+ "BETAS.Yrsin.Tuesday2_2": "...#$action Spiderbuttons.BETAS_ShakeNpc Aviroen.VoidsentCP_Yrsin 10000#$e#%Seems like Yrsin is asleep.#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrrek \"Listen, you're being a nuisance.$5\"",
+ "BETAS.Yrsin.Tuesday2_3": "...#$action Spiderbuttons.BETAS_ShakeNpc Aviroen.VoidsentCP_Yrsin 10000#$e#%Seems like Yrsin is asleep.#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrrek \"You should leave.$5\"#$action Spiderbuttons.BETAS_WarpFarmer Aviroen.VoidsentCP_Moor <X> <Y> <FacingDirection>",
  //4 heart
  "Yrsin.Tuesday4_0": "Acting a little shameless, are we, love?$7#$b#Barging into a shark's den has some bravery, I'll give you that.$6",
  "Yrsin.Tuesday4_1": "$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*Yawn*\" 3000 0 true#$e#Ah, pardon me, love.$8#$b#Mondays are always our busiest days, I'm only now able to relax a little.$6",
  "Yrsin.Tuesday4_2": "It's...$8#$b#Nap...$8#$b#Time...$8#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"ZzzZzzzzZz\" 3000 0 true#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"Shh... Tuesday is the only day Boss can rest peacefully.\" 3000 3000 true#$e#Ssss...$8#$e#Zzzz...$8#$e#Ss...?$2",
  "Yrsin.Tuesday4_3": "$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*Yawn*\" 3000 0 true",
+ "BETAS.Yrsin.Tuesday4_0": "",
+ "BETAS.Yrsin.Tuesday4_1": "",
+ "BETAS.Yrsin.Tuesday4_2": "",
+ "BETAS.Yrsin.Tuesday4_3": "",
  //6
  "Yrsin.Tuesday6_0": "Mmn?$2#$b#Feels like it's gonna rain tomorrow...$2#$action Spiderbuttons.BETAS_WeatherForTomorrow valley GreenRain",
  "Yrsin.Tuesday6_1": "$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*ZzzZzzZz*\" 3000 0 true",
  "Yrsin.Tuesday6_2": "...Ngh$5#$b#...?$2#$action Spiderbuttons.BETAS_ShakeNpc Aviroen.VoidsentCP_Yrsin 300",
  "Yrsin.Tuesday6_3": "$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"Fitful nightmares... Of course.\"",
+ "BETAS.Yrsin.Tuesday6_0": "",
+ "BETAS.Yrsin.Tuesday6_1": "",
+ "BETAS.Yrsin.Tuesday6_2": "",
+ "BETAS.Yrsin.Tuesday6_3": "",
  //8 platonic
  "Yrsin.Platonic.Tuesday8_0": "Yrrek, give me an update on The Astute.#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrrek \"Yes Boss. So far Trinity has upkept her end of the bargain and she's keeping ninety percent profits.\"#$e#Haha!$1#$b#Good, good.$1",
  "Yrsin.Platonic.Tuesday8_1": "Hmm, I wonder if Thandael finished his rounds.#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*BrrRrRrrRing*\" 3000 0 true#$e#...#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Thandael \"Yo! Sinny! What's up?$1\"#$e#...Than, can you please stop calling me that?$2#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Thandael \"Oh don't be such a hardass!$4\"#$e#...$2#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*Sigh*\" 3000 0 true#$e#...Anyway...$2#$b#Can you give me an update?$2#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Thandael \"Sure, sure! So I've got a few things on--$4\"#$e#%Seems like Yrsin is busy.",
@@ -104,6 +156,10 @@
  "Yrsin.Romantic.Tuesday8_1": "Hmm, I wonder if Thandael finished his rounds.#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*BrrRrRrrRing*\" 3000 0 true#$e#...!$7#$b#I'll be with you in a moment, sweetheart.$6#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Thandael \"Yo! Sinny! What's up?$1\"#$e#...Than, can you please stop calling me that?$2#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Thandael \"Oh don't be such a hardass!$6\"#$e#...$2#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*Sigh*\" 3000 0 true#$e#...Anyway...$2#$b#Can you give me an update?$2#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Thandael \"Sure, sure! So I've got a few things on--$4\"#$e#%Seems like Yrsin is busy.",
  "Yrsin.Romantic.Tuesday8_2": "...Pardon me, sweetheart, got a call to make...$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*BrrRrRrrRing*\" 3000 0 true#$e#...#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Syrsa \"Ugh. Yeees helloo. This is 'Just Another Bite!' Loans, howw can I heelp you~.$6\"#$e#...Syrs, seriously?$1#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Syrsa \"Oh it's just you Yrrie.$4\"#$e#You could at least answer the phones professionally.$7#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*Sigh*\" 3000 0 true#$e#...Anyway...$1#$b#Did you get a tip off on our latest snake?$7#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Syrsa \"Yeah! He was too easy, Boss. You should really give me an actual challenge for my next assignment~$4\"#$e#%Seems like Yrsin is busy.",
  "Yrsin.Romantic.Tuesday8_3": "...I feel like causing some chaos today...$6#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*BrrRrRrrRing*\" 3000 0 true#$e#...!$1#$b#Shh... I've got business to attend to.$9#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Trinity \"To what do I owe the pleasure for the illustrious Mermadic leader calling me at this hour?$7\"#$e#Trin! Baby! Give me an update on what supplies you need for the Fall season.$7#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Trinity \"...I will not grace your nicknames with a response. Nonetheless. I have finalized the contract with Nightingale City.$7\"#$e#Always my perfect business partner, aren't we?$1#$b#Do you have any leads on what their product quality will be like?$7#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Trinity \"Yes, it seems as if they're going forward with the entertainment industry and furthermore--\"#$e#%Seems like Yrsin is busy.",
+ "BETAS.Yrsin.Tuesday8_0": "",
+ "BETAS.Yrsin.Tuesday8_1": "",
+ "BETAS.Yrsin.Tuesday8_2": "",
+ "BETAS.Yrsin.Tuesday8_3": "",
  //10 platonic
  "Yrsin.Platonic.Tuesday10_0": "Give me a moment, love.$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*BrrRrRrrRing*\" 3000 0 true#$e#...#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Thandael \"Yo, Sinny! To what do I owe the pleasure?$1\"#$e#...$7#$b#You're lucky I'm in a good mood today, Than.$7#$b#I need an update on the head of the snake.#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Thandael \"Oh, sure. So the schedule for the week looks like a meeting with an embassador across the sea.\"#$e#%Seems like Yrsin is busy.",
  "Yrsin.Platonic.Tuesday10_1": "Give me a moment, love.$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*BrrRrRrrRing*\" 3000 0 true#$e#...$1#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrnal \"Helooo Boss.$6\"#$e#Yrna, what would you like to eat this afternoon?$1#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrnal \"Oh! Can we have a buffet today?$1\"#$e#A buffet, huh?$1#$b#I assume you want your usual, shrimp?$6#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrnal \"Oh you know me so well Boss~$1\"#$e#Of course.$1#$b#Go ahead and call Syrs and Yrrek and we'll set something up later on today.$1#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrnal \"Okay! Your usual white-fish?$3\"#$e#You know me so well.$7#$e#%Seems like Yrsin is busy.",
@@ -114,8 +170,12 @@
  "Yrsin.Romantic.Tuesday10_1": "Today's an extremely busy day, you'll have to pardon my manners, sweetheart.$5",
  "Yrsin.Romantic.Tuesday10_2": "Even though it is public knowledge of our relationship, I still cannot afford the kiddie gloves with you, sweetheart.$6#$b#Gotta keep the respect of the people.$7",
  "Yrsin.Romantic.Tuesday10_3": "It is quite often that you visit me during work hours, sweetheart, but you'll have to pardon my manners.$9#$b#Life still moves on and the wicked don't rest.$6",
+ "BETAS.Yrsin.Tuesday10_0": "",
+ "BETAS.Yrsin.Tuesday10_1": "",
+ "BETAS.Yrsin.Tuesday10_2": "",
+ "BETAS.Yrsin.Tuesday10_3": "",
 
- //wednesday hideout no kick syrsa here
+ //wednesday
  //BETAS
  "BETAS.Yrsin.Wednesday_0": "Did Yrrek let you in?#$b#I'll need to reassess his raise, it seems.",
  "BETAS.Yrsin.Wednesday_1": "There is nothing of interest to you here, love.#$b#Best see yourself out, the door is right there.",
@@ -131,16 +191,28 @@
  "Yrsin.Wednesday2_1": "",
  "Yrsin.Wednesday2_2": "",
  "Yrsin.Wednesday2_3": "",
+ "BETAS.Yrsin.Wednesday2_0": "",
+ "BETAS.Yrsin.Wednesday2_1": "",
+ "BETAS.Yrsin.Wednesday2_2": "",
+ "BETAS.Yrsin.Wednesday2_3": "",
  //4 heart
  "Yrsin.Wednesday4_0": "",
  "Yrsin.Wednesday4_1": "",
  "Yrsin.Wednesday4_2": "",
  "Yrsin.Wednesday4_3": "",
+ "BETAS.Yrsin.Wednesday4_0": "",
+ "BETAS.Yrsin.Wednesday4_1": "",
+ "BETAS.Yrsin.Wednesday4_2": "",
+ "BETAS.Yrsin.Wednesday4_3": "",
  //6
  "Yrsin.Wednesday6_0": "",
  "Yrsin.Wednesday6_1": "",
  "Yrsin.Wednesday6_2": "",
  "Yrsin.Wednesday6_3": "",
+ "BETAS.Yrsin.Wednesday6_0": "",
+ "BETAS.Yrsin.Wednesday6_1": "",
+ "BETAS.Yrsin.Wednesday6_2": "",
+ "BETAS.Yrsin.Wednesday6_3": "",
  //8 platonic
  "Yrsin.Platonic.Wednesday8_0": "",
  "Yrsin.Platonic.Wednesday8_1": "",
@@ -151,8 +223,12 @@
  "Yrsin.Romantic.Wednesday8_1": "", //BETAS_message \"Kind of smells like liquor in here...\"#$e#Well hellooo sweetness.[happy emote]#$b#Come to see this apex predator at a low point? Cute.$9#$e#%Seems like Yrsin is intoxicated.#$e#Yes yes, the straight and sober life is oh so high and mighty, but did you really expect a leader of a black market to not delve in vices? Cute.$9#$e#I'm not really in a good mood to talk with you today, sweetness, maybe another time.[wink]
  "Yrsin.Romantic.Wednesday8_2": "", //BETAS_message \"The office smells of strong liquor...\"
  "Yrsin.Romantic.Wednesday8_3": "",
+ "BETAS.Yrsin.Wednesday8_0": "",
+ "BETAS.Yrsin.Wednesday8_1": "",
+ "BETAS.Yrsin.Wednesday8_2": "",
+ "BETAS.Yrsin.Wednesday8_3": "",
  //10 platonic
- "Yrsin.Platonic.Wednesday10_0": "Well hello sweetheart, I've got work to attend to today, so you'll have to excuse me.$9",
+ "Yrsin.Platonic.Wednesday10_0": "",
  "Yrsin.Platonic.Wednesday10_1": "",
  "Yrsin.Platonic.Wednesday10_2": "",
  "Yrsin.Platonic.Wednesday10_3": "",
@@ -161,8 +237,12 @@
  "Yrsin.Romantic.Wednesday10_1": "",
  "Yrsin.Romantic.Wednesday10_2": "",
  "Yrsin.Romantic.Wednesday10_3": "",
+ "BETAS.Yrsin.Wednesday10_0": "",
+ "BETAS.Yrsin.Wednesday10_1": "",
+ "BETAS.Yrsin.Wednesday10_2": "",
+ "BETAS.Yrsin.Wednesday10_3": "",
 
- //thursday morabyr back alleys
+ //thursday
  //BETAS
  "BETAS.Yrsin.Thursday_0": "Next time you try a sneak attack, use your height to your advantage.$1#$b#You'll have an easier time from below than above.$6",
  "BETAS.Yrsin.Thursday_1": "Gallivanting in the back alleys will get you into dangerous situations.$4#$b#Or have you decided to tempt fate?$1",
@@ -178,16 +258,28 @@
  "Yrsin.Thursday2_1": "",
  "Yrsin.Thursday2_2": "",
  "Yrsin.Thursday2_3": "",
+ "BETAS.Yrsin.Thursday2_0": "",
+ "BETAS.Yrsin.Thursday2_1": "",
+ "BETAS.Yrsin.Thursday2_2": "",
+ "BETAS.Yrsin.Thursday2_3": "",
  //4 heart
  "Yrsin.Thursday4_0": "",
  "Yrsin.Thursday4_1": "",
  "Yrsin.Thursday4_2": "",
  "Yrsin.Thursday4_3": "",
+ "BETAS.Yrsin.Thursday4_0": "",
+ "BETAS.Yrsin.Thursday4_1": "",
+ "BETAS.Yrsin.Thursday4_2": "",
+ "BETAS.Yrsin.Thursday4_3": "",
  //6
  "Yrsin.Thursday6_0": "",
  "Yrsin.Thursday6_1": "",
  "Yrsin.Thursday6_2": "",
  "Yrsin.Thursday6_3": "",
+ "BETAS.Yrsin.Thursday6_0": "",
+ "BETAS.Yrsin.Thursday6_1": "",
+ "BETAS.Yrsin.Thursday6_2": "",
+ "BETAS.Yrsin.Thursday6_3": "",
  //8 platonic
  "Yrsin.Platonic.Thursday8_0": "",
  "Yrsin.Platonic.Thursday8_1": "",
@@ -198,6 +290,10 @@
  "Yrsin.Romantic.Thursday8_1": "",
  "Yrsin.Romantic.Thursday8_2": "",
  "Yrsin.Romantic.Thursday8_3": "",
+ "BETAS.Yrsin.Thursday8_0": "",
+ "BETAS.Yrsin.Thursday8_1": "",
+ "BETAS.Yrsin.Thursday8_2": "",
+ "BETAS.Yrsin.Thursday8_3": "",
  //10 platonic
  "Yrsin.Platonic.Thursday10_0": "",
  "Yrsin.Platonic.Thursday10_1": "",
@@ -208,8 +304,12 @@
  "Yrsin.Romantic.Thursday10_1": "",
  "Yrsin.Romantic.Thursday10_2": "",
  "Yrsin.Romantic.Thursday10_3": "",
+ "BETAS.Yrsin.Thursday10_0": "",
+ "BETAS.Yrsin.Thursday10_1": "",
+ "BETAS.Yrsin.Thursday10_2": "",
+ "BETAS.Yrsin.Thursday10_3": "",
 
- //friday breakfast inn bed
+ //friday
  //BETAS
  "BETAS.Yrsin.Friday_0": "Curious as to why I'm here?$4#$b#The food is good, I curated it.$1",
  "BETAS.Yrsin.Friday_1": "Yrnal is a distant relative of mine, cross her and you'll cross me as well, love.$7",
@@ -225,16 +325,28 @@
  "Yrsin.Friday2_1": "",
  "Yrsin.Friday2_2": "",
  "Yrsin.Friday2_3": "",
+ "BETAS.Yrsin.Friday2_0": "",
+ "BETAS.Yrsin.Friday2_1": "",
+ "BETAS.Yrsin.Friday2_2": "",
+ "BETAS.Yrsin.Friday2_3": "",
  //4 heart
  "Yrsin.Friday4_0": "",
  "Yrsin.Friday4_1": "",
  "Yrsin.Friday4_2": "",
  "Yrsin.Friday4_3": "",
+ "BETAS.Yrsin.Friday4_0": "",
+ "BETAS.Yrsin.Friday4_1": "",
+ "BETAS.Yrsin.Friday4_2": "",
+ "BETAS.Yrsin.Friday4_3": "",
  //6
  "Yrsin.Friday6_0": "",
  "Yrsin.Friday6_1": "",
  "Yrsin.Friday6_2": "",
  "Yrsin.Friday6_3": "",
+ "BETAS.Yrsin.Friday6_0": "",
+ "BETAS.Yrsin.Friday6_1": "",
+ "BETAS.Yrsin.Friday6_2": "",
+ "BETAS.Yrsin.Friday6_3": "",
  //8 platonic
  "Yrsin.Platonic.Friday8_0": "",
  "Yrsin.Platonic.Friday8_1": "",
@@ -245,6 +357,10 @@
  "Yrsin.Romantic.Friday8_1": "",
  "Yrsin.Romantic.Friday8_2": "",
  "Yrsin.Romantic.Friday8_3": "",
+ "BETAS.Yrsin.Friday8_0": "",
+ "BETAS.Yrsin.Friday8_1": "",
+ "BETAS.Yrsin.Friday8_2": "",
+ "BETAS.Yrsin.Friday8_3": "",
  //10 platonic
  "Yrsin.Platonic.Friday10_0": "",
  "Yrsin.Platonic.Friday10_1": "",
@@ -255,15 +371,19 @@
  "Yrsin.Romantic.Friday10_1": "",
  "Yrsin.Romantic.Friday10_2": "",
  "Yrsin.Romantic.Friday10_3": "",
+ "BETAS.Yrsin.Friday10_0": "",
+ "BETAS.Yrsin.Friday10_1": "",
+ "BETAS.Yrsin.Friday10_2": "",
+ "BETAS.Yrsin.Friday10_3": "",
 
- //saturday morabyr pier with trinity
+ //saturday
  //BETAS
  "BETAS.Yrsin.Saturday_0": "",
  "BETAS.Yrsin.Saturday_1": "",
  "BETAS.Yrsin.Saturday_2": "",
  "BETAS.Yrsin.Saturday_3": "",
  //daily
- "Yrsin.Saturday_0": "Trin, baby, come on!$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"No need to be so hostile!\"#$action SpiderButtons.BETAS_TextAboveHead Aviroen.VoidsentCP_Trinity \"You're lucky I'm uninterested in shark meat today.\" 3000 2000#$e#No need to be so prickly, baby.$6",
+ "Yrsin.Saturday_0": "Trin, baby, come on!$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"No need to be so hostile!\" 3000 0#$action SpiderButtons.BETAS_TextAboveHead Aviroen.VoidsentCP_Trinity \"You're lucky I'm uninterested in shark meat today.\" 3000 2000#$e#No need to be so prickly, baby.$6",
  "Yrsin.Saturday_1": "",
  "Yrsin.Saturday_2": "",
  "Yrsin.Saturday_3": "",
@@ -272,16 +392,28 @@
  "Yrsin.Saturday2_1": "",
  "Yrsin.Saturday2_2": "",
  "Yrsin.Saturday2_3": "",
+ "BETAS.Yrsin.Saturday2_0": "",
+ "BETAS.Yrsin.Saturday2_1": "",
+ "BETAS.Yrsin.Saturday2_2": "",
+ "BETAS.Yrsin.Saturday2_3": "",
  //4 heart
  "Yrsin.Saturday4_0": "",
  "Yrsin.Saturday4_1": "",
  "Yrsin.Saturday4_2": "",
  "Yrsin.Saturday4_3": "",
+ "BETAS.Yrsin.Saturday4_0": "",
+ "BETAS.Yrsin.Saturday4_1": "",
+ "BETAS.Yrsin.Saturday4_2": "",
+ "BETAS.Yrsin.Saturday4_3": "",
  //6
  "Yrsin.Saturday6_0": "",
  "Yrsin.Saturday6_1": "",
  "Yrsin.Saturday6_2": "",
  "Yrsin.Saturday6_3": "",
+ "BETAS.Yrsin.Saturday6_0": "",
+ "BETAS.Yrsin.Saturday6_1": "",
+ "BETAS.Yrsin.Saturday6_2": "",
+ "BETAS.Yrsin.Saturday6_3": "",
  //8 platonic
  "Yrsin.Platonic.Saturday8_0": "",
  "Yrsin.Platonic.Saturday8_1": "",
@@ -292,6 +424,10 @@
  "Yrsin.Romantic.Saturday8_1": "",
  "Yrsin.Romantic.Saturday8_2": "",
  "Yrsin.Romantic.Saturday8_3": "",
+ "BETAS.Yrsin.Saturday8_0": "",
+ "BETAS.Yrsin.Saturday8_1": "",
+ "BETAS.Yrsin.Saturday8_2": "",
+ "BETAS.Yrsin.Saturday8_3": "",
  //10 platonic
  "Yrsin.Platonic.Saturday10_0": "",
  "Yrsin.Platonic.Saturday10_1": "",
@@ -302,8 +438,12 @@
  "Yrsin.Romantic.Saturday10_1": "",
  "Yrsin.Romantic.Saturday10_2": "",
  "Yrsin.Romantic.Saturday10_3": "",
+ "BETAS.Yrsin.Saturday10_0": "",
+ "BETAS.Yrsin.Saturday10_1": "",
+ "BETAS.Yrsin.Saturday10_2": "",
+ "BETAS.Yrsin.Saturday10_3": "",
 
- //sunday breakfast inn bed
+ //sunday
  //BETAS
  "BETAS.Yrsin.Sunday_0": "",
  "BETAS.Yrsin.Sunday_1": "",
@@ -319,16 +459,28 @@
  "Yrsin.Sunday2_1": "",
  "Yrsin.Sunday2_2": "",
  "Yrsin.Sunday2_3": "",
+ "BETAS.Yrsin.Sunday2_0": "",
+ "BETAS.Yrsin.Sunday2_1": "",
+ "BETAS.Yrsin.Sunday2_2": "",
+ "BETAS.Yrsin.Sunday2_3": "",
  //4 heart
  "Yrsin.Sunday4_0": "",
  "Yrsin.Sunday4_1": "",
  "Yrsin.Sunday4_2": "",
  "Yrsin.Sunday4_3": "",
+ "BETAS.Yrsin.Sunday4_0": "",
+ "BETAS.Yrsin.Sunday4_1": "",
+ "BETAS.Yrsin.Sunday4_2": "",
+ "BETAS.Yrsin.Sunday4_3": "",
  //6
  "Yrsin.Sunday6_0": "",
  "Yrsin.Sunday6_1": "",
  "Yrsin.Sunday6_2": "",
  "Yrsin.Sunday6_3": "",
+ "BETAS.Yrsin.Sunday6_0": "",
+ "BETAS.Yrsin.Sunday6_1": "",
+ "BETAS.Yrsin.Sunday6_2": "",
+ "BETAS.Yrsin.Sunday6_3": "",
  //8 platonic
  "Yrsin.Platonic.Sunday8_0": "",
  "Yrsin.Platonic.Sunday8_1": "",
@@ -339,6 +491,10 @@
  "Yrsin.Romantic.Sunday8_1": "",
  "Yrsin.Romantic.Sunday8_2": "",
  "Yrsin.Romantic.Sunday8_3": "",
+ "BETAS.Yrsin.Sunday8_0": "",
+ "BETAS.Yrsin.Sunday8_1": "",
+ "BETAS.Yrsin.Sunday8_2": "",
+ "BETAS.Yrsin.Sunday8_3": "",
  //10 platonic
  "Yrsin.Platonic.Sunday10_0": "",
  "Yrsin.Platonic.Sunday10_1": "",
@@ -349,18 +505,17 @@
  "Yrsin.Romantic.Sunday10_1": "",
  "Yrsin.Romantic.Sunday10_2": "",
  "Yrsin.Romantic.Sunday10_3": "",
-
- //door unlock
- "Yrsin.NotFriend_Door": "",
-
- //gift taste dialogue
- "Yrsin.Gifts.Loved": "",
- "Yrsin.Gifts.Liked": "",
- "Yrsin.Gifts.Disliked": "",
- "Yrsin.Gifts.Hated": "",
- "Yrsin.Gifts.Neutral": "",
+ "BETAS.Yrsin.Sunday10_0": "",
+ "BETAS.Yrsin.Sunday10_1": "",
+ "BETAS.Yrsin.Sunday10_2": "",
+ "BETAS.Yrsin.Sunday10_3": "",
 
  //begin marriage dialogue
+ //BETAS BETAS.{{NPCNAME}}.Married.{{DayOfWeek}}_
+ "BETAS.Yrsin.Married.Monday_0": "",
+ "BETAS.Yrsin.Married.Monday_1": "",
+ "BETAS.Yrsin.Married.Monday_2": "",
+ "BETAS.Yrsin.Married.Monday_3": "",
  "Yrsin.SpringM_0": "",
  "Yrsin.SpringM_1": "",
  "Yrsin.SpringM_2": "",
@@ -426,17 +581,18 @@
  "Yrsin.Bad_2": "",
  "Yrsin.Bad_3": "",
 
- //start of wiped dialogue
- //start of characters/dialogue/npc
- "Wiped.Yrsin.breakUp": "Thought you'd be smarter than this, love.$2#$b#But what's the mundane colloquial?$7#$b#More fish in the sea?$7#$e#%Wiped.Yrsin is ignoring you.",
- "Wiped.Yrsin.divorced": "Mermadics don't really understand 'divorce' as you mundanes do, but I've been around long enough to understand what it means.$7#$e#You'll find no favors from me, love.$7",
- "Wiped.Yrsin.DumpsterDiveComment": "...Interesting.$1#$b#Don't mind me, love.$1#$b#Sometimes, times are hard, no?$6",
- "Wiped.Yrsin.HitBySlingshot": "Testing my reflexes, love?$7#$b#I assure you, I am perfectly healthy.$7#$action spacechase0.SpaceCore_DamageCurrentFarmer 50",
- "Wiped.Yrsin.SpouseFarmhouseClutter": "It does pique my interest, watching mundanes live their lives.$4#$b#I wouldn't expect you to live like a hermit crab, though.$6",
- "Wiped.Yrsin.SpouseGiftJealous": "Pardon?$1#$b#Mermadics don't really care much for trinkets given to others.$6",
- "Wiped.Yrsin.Spouse_MonstersInHouse": "Keeping my reflexes up in shape, love?$7#$b#Rest assured, I'm still as much as a top-tier hunter as I was in Grandberg.$7",
- "Wiped.Yrsin.SpouseStardrop": "I come across trinkets like these in my deals, love.$1#$b#Overheard you the other day and figured this be more helpful to you than me.$6",
- "Wiped.Yrsin.WipedMemory": "...Pardon?$7#$b#You think paltry magic like that can affect me?$7",
+ //start suffering wiped dialogue
+ //THIS NEEDS TO BE TOGGLED ON, OR ELSE YOU DON'T HAVE TO WRITE IT
+ //gen dialogue
+ "Wiped.Yrsin.breakUp": "",
+ "Wiped.Yrsin.divorced": "",
+ "Wiped.Yrsin.DumpsterDiveComment": "",
+ "Wiped.Yrsin.HitBySlingshot": "",
+ "Wiped.Yrsin.SpouseFarmhouseClutter": "",
+ "Wiped.Yrsin.SpouseGiftJealous": "",
+ "Wiped.Yrsin.Spouse_MonstersInHouse": "",
+ "Wiped.Yrsin.SpouseStardrop": "",
+ "Wiped.Yrsin.WipedMemory": "",
  "Wiped.Yrsin.AcceptBouquet": "",
  "Wiped.Yrsin.MovieInvitation": "",
  "Wiped.Yrsin.RejectBouquet": "",
@@ -445,9 +601,11 @@
  "Wiped.Yrsin.RejectMovieTicket": "",
  "Wiped.Yrsin.GreenRain": "",
  "Wiped.Yrsin.GreenRainFinished": "",
+ "Wiped.Yrsin.Engaged": "",
+ "Wiped.Yrsin.AfterWedding": "",
 
  //monday
- //BETAS
+ //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_
  "BETAS.Wiped.Yrsin.Monday_0": "",
  "BETAS.Wiped.Yrsin.Monday_1": "",
  "BETAS.Wiped.Yrsin.Monday_2": "",
@@ -462,16 +620,28 @@
  "Wiped.Yrsin.Monday2_1": "",
  "Wiped.Yrsin.Monday2_2": "",
  "Wiped.Yrsin.Monday2_3": "",
+ "BETAS.Wiped.Yrsin.Monday2_0": "",
+ "BETAS.Wiped.Yrsin.Monday2_1": "",
+ "BETAS.Wiped.Yrsin.Monday2_2": "",
+ "BETAS.Wiped.Yrsin.Monday2_3": "",
  //4 heart
  "Wiped.Yrsin.Monday4_0": "",
  "Wiped.Yrsin.Monday4_1": "",
  "Wiped.Yrsin.Monday4_2": "",
  "Wiped.Yrsin.Monday4_3": "",
+ "BETAS.Wiped.Yrsin.Monday4_0": "",
+ "BETAS.Wiped.Yrsin.Monday4_1": "",
+ "BETAS.Wiped.Yrsin.Monday4_2": "",
+ "BETAS.Wiped.Yrsin.Monday4_3": "",
  //6
  "Wiped.Yrsin.Monday6_0": "",
  "Wiped.Yrsin.Monday6_1": "",
  "Wiped.Yrsin.Monday6_2": "",
  "Wiped.Yrsin.Monday6_3": "",
+ "BETAS.Wiped.Yrsin.Monday6_0": "",
+ "BETAS.Wiped.Yrsin.Monday6_1": "",
+ "BETAS.Wiped.Yrsin.Monday6_2": "",
+ "BETAS.Wiped.Yrsin.Monday6_3": "",
  //8 platonic
  "Wiped.Yrsin.Platonic.Monday8_0": "",
  "Wiped.Yrsin.Platonic.Monday8_1": "",
@@ -482,26 +652,26 @@
  "Wiped.Yrsin.Romantic.Monday8_1": "",
  "Wiped.Yrsin.Romantic.Monday8_2": "",
  "Wiped.Yrsin.Romantic.Monday8_3": "",
+ //8
+ "BETAS.Wiped.Yrsin.Monday8_0": "",
+ "BETAS.Wiped.Yrsin.Monday8_1": "",
+ "BETAS.Wiped.Yrsin.Monday8_2": "",
+ "BETAS.Wiped.Yrsin.Monday8_3": "",
  //10 platonic
  "Wiped.Yrsin.Platonic.Monday10_0": "",
  "Wiped.Yrsin.Platonic.Monday10_1": "",
  "Wiped.Yrsin.Platonic.Monday10_2": "",
  "Wiped.Yrsin.Platonic.Monday10_3": "",
- //romantic
+ //10 romantic
  "Wiped.Yrsin.Romantic.Monday10_0": "",
  "Wiped.Yrsin.Romantic.Monday10_1": "",
  "Wiped.Yrsin.Romantic.Monday10_2": "",
  "Wiped.Yrsin.Romantic.Monday10_3": "",
- //12
- "Wiped.Yrsin.Monday12_0": "",
- "Wiped.Yrsin.Monday12_1": "",
- "Wiped.Yrsin.Monday12_2": "",
- "Wiped.Yrsin.Monday12_3": "",
- //14
- "Wiped.Yrsin.Monday14_0": "",
- "Wiped.Yrsin.Monday14_1": "",
- "Wiped.Yrsin.Monday14_2": "",
- "Wiped.Yrsin.Monday14_3": "",
+ //10
+ "BETAS.Wiped.Yrsin.Monday10_0": "",
+ "BETAS.Wiped.Yrsin.Monday10_1": "",
+ "BETAS.Wiped.Yrsin.Monday10_2": "",
+ "BETAS.Wiped.Yrsin.Monday10_3": "",
 
  //tuesday
  //BETAS
@@ -519,16 +689,28 @@
  "Wiped.Yrsin.Tuesday2_1": "",
  "Wiped.Yrsin.Tuesday2_2": "",
  "Wiped.Yrsin.Tuesday2_3": "",
+ "BETAS.Wiped.Yrsin.Tuesday2_0": "",
+ "BETAS.Wiped.Yrsin.Tuesday2_1": "",
+ "BETAS.Wiped.Yrsin.Tuesday2_2": "",
+ "BETAS.Wiped.Yrsin.Tuesday2_3": "",
  //4 heart
  "Wiped.Yrsin.Tuesday4_0": "",
  "Wiped.Yrsin.Tuesday4_1": "",
  "Wiped.Yrsin.Tuesday4_2": "",
  "Wiped.Yrsin.Tuesday4_3": "",
+ "BETAS.Wiped.Yrsin.Tuesday4_0": "",
+ "BETAS.Wiped.Yrsin.Tuesday4_1": "",
+ "BETAS.Wiped.Yrsin.Tuesday4_2": "",
+ "BETAS.Wiped.Yrsin.Tuesday4_3": "",
  //6
  "Wiped.Yrsin.Tuesday6_0": "",
  "Wiped.Yrsin.Tuesday6_1": "",
  "Wiped.Yrsin.Tuesday6_2": "",
  "Wiped.Yrsin.Tuesday6_3": "",
+ "BETAS.Wiped.Yrsin.Tuesday6_0": "",
+ "BETAS.Wiped.Yrsin.Tuesday6_1": "",
+ "BETAS.Wiped.Yrsin.Tuesday6_2": "",
+ "BETAS.Wiped.Yrsin.Tuesday6_3": "",
  //8 platonic
  "Wiped.Yrsin.Platonic.Tuesday8_0": "",
  "Wiped.Yrsin.Platonic.Tuesday8_1": "",
@@ -539,6 +721,10 @@
  "Wiped.Yrsin.Romantic.Tuesday8_1": "",
  "Wiped.Yrsin.Romantic.Tuesday8_2": "",
  "Wiped.Yrsin.Romantic.Tuesday8_3": "",
+ "BETAS.Wiped.Yrsin.Tuesday8_0": "",
+ "BETAS.Wiped.Yrsin.Tuesday8_1": "",
+ "BETAS.Wiped.Yrsin.Tuesday8_2": "",
+ "BETAS.Wiped.Yrsin.Tuesday8_3": "",
  //10 platonic
  "Wiped.Yrsin.Platonic.Tuesday10_0": "",
  "Wiped.Yrsin.Platonic.Tuesday10_1": "",
@@ -549,16 +735,10 @@
  "Wiped.Yrsin.Romantic.Tuesday10_1": "",
  "Wiped.Yrsin.Romantic.Tuesday10_2": "",
  "Wiped.Yrsin.Romantic.Tuesday10_3": "",
- //12
- "Wiped.Yrsin.Tuesday12_0": "",
- "Wiped.Yrsin.Tuesday12_1": "",
- "Wiped.Yrsin.Tuesday12_2": "",
- "Wiped.Yrsin.Tuesday12_3": "",
- //14
- "Wiped.Yrsin.Tuesday14_0": "",
- "Wiped.Yrsin.Tuesday14_1": "",
- "Wiped.Yrsin.Tuesday14_2": "",
- "Wiped.Yrsin.Tuesday14_3": "",
+ "BETAS.Wiped.Yrsin.Tuesday10_0": "",
+ "BETAS.Wiped.Yrsin.Tuesday10_1": "",
+ "BETAS.Wiped.Yrsin.Tuesday10_2": "",
+ "BETAS.Wiped.Yrsin.Tuesday10_3": "",
 
  //wednesday
  //BETAS
@@ -576,16 +756,28 @@
  "Wiped.Yrsin.Wednesday2_1": "",
  "Wiped.Yrsin.Wednesday2_2": "",
  "Wiped.Yrsin.Wednesday2_3": "",
+ "BETAS.Wiped.Yrsin.Wednesday2_0": "",
+ "BETAS.Wiped.Yrsin.Wednesday2_1": "",
+ "BETAS.Wiped.Yrsin.Wednesday2_2": "",
+ "BETAS.Wiped.Yrsin.Wednesday2_3": "",
  //4 heart
  "Wiped.Yrsin.Wednesday4_0": "",
  "Wiped.Yrsin.Wednesday4_1": "",
  "Wiped.Yrsin.Wednesday4_2": "",
  "Wiped.Yrsin.Wednesday4_3": "",
+ "BETAS.Wiped.Yrsin.Wednesday4_0": "",
+ "BETAS.Wiped.Yrsin.Wednesday4_1": "",
+ "BETAS.Wiped.Yrsin.Wednesday4_2": "",
+ "BETAS.Wiped.Yrsin.Wednesday4_3": "",
  //6
  "Wiped.Yrsin.Wednesday6_0": "",
  "Wiped.Yrsin.Wednesday6_1": "",
  "Wiped.Yrsin.Wednesday6_2": "",
  "Wiped.Yrsin.Wednesday6_3": "",
+ "BETAS.Wiped.Yrsin.Wednesday6_0": "",
+ "BETAS.Wiped.Yrsin.Wednesday6_1": "",
+ "BETAS.Wiped.Yrsin.Wednesday6_2": "",
+ "BETAS.Wiped.Yrsin.Wednesday6_3": "",
  //8 platonic
  "Wiped.Yrsin.Platonic.Wednesday8_0": "",
  "Wiped.Yrsin.Platonic.Wednesday8_1": "",
@@ -596,6 +788,10 @@
  "Wiped.Yrsin.Romantic.Wednesday8_1": "",
  "Wiped.Yrsin.Romantic.Wednesday8_2": "",
  "Wiped.Yrsin.Romantic.Wednesday8_3": "",
+ "BETAS.Wiped.Yrsin.Wednesday8_0": "",
+ "BETAS.Wiped.Yrsin.Wednesday8_1": "",
+ "BETAS.Wiped.Yrsin.Wednesday8_2": "",
+ "BETAS.Wiped.Yrsin.Wednesday8_3": "",
  //10 platonic
  "Wiped.Yrsin.Platonic.Wednesday10_0": "",
  "Wiped.Yrsin.Platonic.Wednesday10_1": "",
@@ -606,16 +802,10 @@
  "Wiped.Yrsin.Romantic.Wednesday10_1": "",
  "Wiped.Yrsin.Romantic.Wednesday10_2": "",
  "Wiped.Yrsin.Romantic.Wednesday10_3": "",
- //12
- "Wiped.Yrsin.Wednesday12_0": "",
- "Wiped.Yrsin.Wednesday12_1": "",
- "Wiped.Yrsin.Wednesday12_2": "",
- "Wiped.Yrsin.Wednesday12_3": "",
- //14
- "Wiped.Yrsin.Wednesday14_0": "",
- "Wiped.Yrsin.Wednesday14_1": "",
- "Wiped.Yrsin.Wednesday14_2": "",
- "Wiped.Yrsin.Wednesday14_3": "",
+ "BETAS.Wiped.Yrsin.Wednesday10_0": "",
+ "BETAS.Wiped.Yrsin.Wednesday10_1": "",
+ "BETAS.Wiped.Yrsin.Wednesday10_2": "",
+ "BETAS.Wiped.Yrsin.Wednesday10_3": "",
 
  //thursday
  //BETAS
@@ -633,16 +823,28 @@
  "Wiped.Yrsin.Thursday2_1": "",
  "Wiped.Yrsin.Thursday2_2": "",
  "Wiped.Yrsin.Thursday2_3": "",
+ "BETAS.Wiped.Yrsin.Thursday2_0": "",
+ "BETAS.Wiped.Yrsin.Thursday2_1": "",
+ "BETAS.Wiped.Yrsin.Thursday2_2": "",
+ "BETAS.Wiped.Yrsin.Thursday2_3": "",
  //4 heart
  "Wiped.Yrsin.Thursday4_0": "",
  "Wiped.Yrsin.Thursday4_1": "",
  "Wiped.Yrsin.Thursday4_2": "",
  "Wiped.Yrsin.Thursday4_3": "",
+ "BETAS.Wiped.Yrsin.Thursday4_0": "",
+ "BETAS.Wiped.Yrsin.Thursday4_1": "",
+ "BETAS.Wiped.Yrsin.Thursday4_2": "",
+ "BETAS.Wiped.Yrsin.Thursday4_3": "",
  //6
  "Wiped.Yrsin.Thursday6_0": "",
  "Wiped.Yrsin.Thursday6_1": "",
  "Wiped.Yrsin.Thursday6_2": "",
  "Wiped.Yrsin.Thursday6_3": "",
+ "BETAS.Wiped.Yrsin.Thursday6_0": "",
+ "BETAS.Wiped.Yrsin.Thursday6_1": "",
+ "BETAS.Wiped.Yrsin.Thursday6_2": "",
+ "BETAS.Wiped.Yrsin.Thursday6_3": "",
  //8 platonic
  "Wiped.Yrsin.Platonic.Thursday8_0": "",
  "Wiped.Yrsin.Platonic.Thursday8_1": "",
@@ -653,6 +855,10 @@
  "Wiped.Yrsin.Romantic.Thursday8_1": "",
  "Wiped.Yrsin.Romantic.Thursday8_2": "",
  "Wiped.Yrsin.Romantic.Thursday8_3": "",
+ "BETAS.Wiped.Yrsin.Thursday8_0": "",
+ "BETAS.Wiped.Yrsin.Thursday8_1": "",
+ "BETAS.Wiped.Yrsin.Thursday8_2": "",
+ "BETAS.Wiped.Yrsin.Thursday8_3": "",
  //10 platonic
  "Wiped.Yrsin.Platonic.Thursday10_0": "",
  "Wiped.Yrsin.Platonic.Thursday10_1": "",
@@ -663,16 +869,10 @@
  "Wiped.Yrsin.Romantic.Thursday10_1": "",
  "Wiped.Yrsin.Romantic.Thursday10_2": "",
  "Wiped.Yrsin.Romantic.Thursday10_3": "",
- //12
- "Wiped.Yrsin.Thursday12_0": "",
- "Wiped.Yrsin.Thursday12_1": "",
- "Wiped.Yrsin.Thursday12_2": "",
- "Wiped.Yrsin.Thursday12_3": "",
- //14
- "Wiped.Yrsin.Thursday14_0": "",
- "Wiped.Yrsin.Thursday14_1": "",
- "Wiped.Yrsin.Thursday14_2": "",
- "Wiped.Yrsin.Thursday14_3": "",
+ "BETAS.Wiped.Yrsin.Thursday10_0": "",
+ "BETAS.Wiped.Yrsin.Thursday10_1": "",
+ "BETAS.Wiped.Yrsin.Thursday10_2": "",
+ "BETAS.Wiped.Yrsin.Thursday10_3": "",
 
  //friday
  //BETAS
@@ -690,16 +890,28 @@
  "Wiped.Yrsin.Friday2_1": "",
  "Wiped.Yrsin.Friday2_2": "",
  "Wiped.Yrsin.Friday2_3": "",
+ "BETAS.Wiped.Yrsin.Friday2_0": "",
+ "BETAS.Wiped.Yrsin.Friday2_1": "",
+ "BETAS.Wiped.Yrsin.Friday2_2": "",
+ "BETAS.Wiped.Yrsin.Friday2_3": "",
  //4 heart
  "Wiped.Yrsin.Friday4_0": "",
  "Wiped.Yrsin.Friday4_1": "",
  "Wiped.Yrsin.Friday4_2": "",
  "Wiped.Yrsin.Friday4_3": "",
+ "BETAS.Wiped.Yrsin.Friday4_0": "",
+ "BETAS.Wiped.Yrsin.Friday4_1": "",
+ "BETAS.Wiped.Yrsin.Friday4_2": "",
+ "BETAS.Wiped.Yrsin.Friday4_3": "",
  //6
  "Wiped.Yrsin.Friday6_0": "",
  "Wiped.Yrsin.Friday6_1": "",
  "Wiped.Yrsin.Friday6_2": "",
  "Wiped.Yrsin.Friday6_3": "",
+ "BETAS.Wiped.Yrsin.Friday6_0": "",
+ "BETAS.Wiped.Yrsin.Friday6_1": "",
+ "BETAS.Wiped.Yrsin.Friday6_2": "",
+ "BETAS.Wiped.Yrsin.Friday6_3": "",
  //8 platonic
  "Wiped.Yrsin.Platonic.Friday8_0": "",
  "Wiped.Yrsin.Platonic.Friday8_1": "",
@@ -710,6 +922,10 @@
  "Wiped.Yrsin.Romantic.Friday8_1": "",
  "Wiped.Yrsin.Romantic.Friday8_2": "",
  "Wiped.Yrsin.Romantic.Friday8_3": "",
+ "BETAS.Wiped.Yrsin.Friday8_0": "",
+ "BETAS.Wiped.Yrsin.Friday8_1": "",
+ "BETAS.Wiped.Yrsin.Friday8_2": "",
+ "BETAS.Wiped.Yrsin.Friday8_3": "",
  //10 platonic
  "Wiped.Yrsin.Platonic.Friday10_0": "",
  "Wiped.Yrsin.Platonic.Friday10_1": "",
@@ -720,16 +936,10 @@
  "Wiped.Yrsin.Romantic.Friday10_1": "",
  "Wiped.Yrsin.Romantic.Friday10_2": "",
  "Wiped.Yrsin.Romantic.Friday10_3": "",
- //12
- "Wiped.Yrsin.Friday12_0": "",
- "Wiped.Yrsin.Friday12_1": "",
- "Wiped.Yrsin.Friday12_2": "",
- "Wiped.Yrsin.Friday12_3": "",
- //14
- "Wiped.Yrsin.Friday14_0": "",
- "Wiped.Yrsin.Friday14_1": "",
- "Wiped.Yrsin.Friday14_2": "",
- "Wiped.Yrsin.Friday14_3": "",
+ "BETAS.Wiped.Yrsin.Friday10_0": "",
+ "BETAS.Wiped.Yrsin.Friday10_1": "",
+ "BETAS.Wiped.Yrsin.Friday10_2": "",
+ "BETAS.Wiped.Yrsin.Friday10_3": "",
 
  //saturday
  //BETAS
@@ -747,16 +957,28 @@
  "Wiped.Yrsin.Saturday2_1": "",
  "Wiped.Yrsin.Saturday2_2": "",
  "Wiped.Yrsin.Saturday2_3": "",
+ "BETAS.Wiped.Yrsin.Saturday2_0": "",
+ "BETAS.Wiped.Yrsin.Saturday2_1": "",
+ "BETAS.Wiped.Yrsin.Saturday2_2": "",
+ "BETAS.Wiped.Yrsin.Saturday2_3": "",
  //4 heart
  "Wiped.Yrsin.Saturday4_0": "",
  "Wiped.Yrsin.Saturday4_1": "",
  "Wiped.Yrsin.Saturday4_2": "",
  "Wiped.Yrsin.Saturday4_3": "",
+ "BETAS.Wiped.Yrsin.Saturday4_0": "",
+ "BETAS.Wiped.Yrsin.Saturday4_1": "",
+ "BETAS.Wiped.Yrsin.Saturday4_2": "",
+ "BETAS.Wiped.Yrsin.Saturday4_3": "",
  //6
  "Wiped.Yrsin.Saturday6_0": "",
  "Wiped.Yrsin.Saturday6_1": "",
  "Wiped.Yrsin.Saturday6_2": "",
  "Wiped.Yrsin.Saturday6_3": "",
+ "BETAS.Wiped.Yrsin.Saturday6_0": "",
+ "BETAS.Wiped.Yrsin.Saturday6_1": "",
+ "BETAS.Wiped.Yrsin.Saturday6_2": "",
+ "BETAS.Wiped.Yrsin.Saturday6_3": "",
  //8 platonic
  "Wiped.Yrsin.Platonic.Saturday8_0": "",
  "Wiped.Yrsin.Platonic.Saturday8_1": "",
@@ -767,6 +989,10 @@
  "Wiped.Yrsin.Romantic.Saturday8_1": "",
  "Wiped.Yrsin.Romantic.Saturday8_2": "",
  "Wiped.Yrsin.Romantic.Saturday8_3": "",
+ "BETAS.Wiped.Yrsin.Saturday8_0": "",
+ "BETAS.Wiped.Yrsin.Saturday8_1": "",
+ "BETAS.Wiped.Yrsin.Saturday8_2": "",
+ "BETAS.Wiped.Yrsin.Saturday8_3": "",
  //10 platonic
  "Wiped.Yrsin.Platonic.Saturday10_0": "",
  "Wiped.Yrsin.Platonic.Saturday10_1": "",
@@ -777,16 +1003,10 @@
  "Wiped.Yrsin.Romantic.Saturday10_1": "",
  "Wiped.Yrsin.Romantic.Saturday10_2": "",
  "Wiped.Yrsin.Romantic.Saturday10_3": "",
- //12
- "Wiped.Yrsin.Saturday12_0": "",
- "Wiped.Yrsin.Saturday12_1": "",
- "Wiped.Yrsin.Saturday12_2": "",
- "Wiped.Yrsin.Saturday12_3": "",
- //14
- "Wiped.Yrsin.Saturday14_0": "",
- "Wiped.Yrsin.Saturday14_1": "",
- "Wiped.Yrsin.Saturday14_2": "",
- "Wiped.Yrsin.Saturday14_3": "",
+ "BETAS.Wiped.Yrsin.Saturday10_0": "",
+ "BETAS.Wiped.Yrsin.Saturday10_1": "",
+ "BETAS.Wiped.Yrsin.Saturday10_2": "",
+ "BETAS.Wiped.Yrsin.Saturday10_3": "",
 
  //sunday
  //BETAS
@@ -804,16 +1024,28 @@
  "Wiped.Yrsin.Sunday2_1": "",
  "Wiped.Yrsin.Sunday2_2": "",
  "Wiped.Yrsin.Sunday2_3": "",
+ "BETAS.Wiped.Yrsin.Sunday2_0": "",
+ "BETAS.Wiped.Yrsin.Sunday2_1": "",
+ "BETAS.Wiped.Yrsin.Sunday2_2": "",
+ "BETAS.Wiped.Yrsin.Sunday2_3": "",
  //4 heart
  "Wiped.Yrsin.Sunday4_0": "",
  "Wiped.Yrsin.Sunday4_1": "",
  "Wiped.Yrsin.Sunday4_2": "",
  "Wiped.Yrsin.Sunday4_3": "",
+ "BETAS.Wiped.Yrsin.Sunday4_0": "",
+ "BETAS.Wiped.Yrsin.Sunday4_1": "",
+ "BETAS.Wiped.Yrsin.Sunday4_2": "",
+ "BETAS.Wiped.Yrsin.Sunday4_3": "",
  //6
  "Wiped.Yrsin.Sunday6_0": "",
  "Wiped.Yrsin.Sunday6_1": "",
  "Wiped.Yrsin.Sunday6_2": "",
  "Wiped.Yrsin.Sunday6_3": "",
+ "BETAS.Wiped.Yrsin.Sunday6_0": "",
+ "BETAS.Wiped.Yrsin.Sunday6_1": "",
+ "BETAS.Wiped.Yrsin.Sunday6_2": "",
+ "BETAS.Wiped.Yrsin.Sunday6_3": "",
  //8 platonic
  "Wiped.Yrsin.Platonic.Sunday8_0": "",
  "Wiped.Yrsin.Platonic.Sunday8_1": "",
@@ -824,6 +1056,10 @@
  "Wiped.Yrsin.Romantic.Sunday8_1": "",
  "Wiped.Yrsin.Romantic.Sunday8_2": "",
  "Wiped.Yrsin.Romantic.Sunday8_3": "",
+ "BETAS.Wiped.Yrsin.Sunday8_0": "",
+ "BETAS.Wiped.Yrsin.Sunday8_1": "",
+ "BETAS.Wiped.Yrsin.Sunday8_2": "",
+ "BETAS.Wiped.Yrsin.Sunday8_3": "",
  //10 platonic
  "Wiped.Yrsin.Platonic.Sunday10_0": "",
  "Wiped.Yrsin.Platonic.Sunday10_1": "",
@@ -834,25 +1070,17 @@
  "Wiped.Yrsin.Romantic.Sunday10_1": "",
  "Wiped.Yrsin.Romantic.Sunday10_2": "",
  "Wiped.Yrsin.Romantic.Sunday10_3": "",
- //12
- "Wiped.Yrsin.Sunday12_0": "",
- "Wiped.Yrsin.Sunday12_1": "",
- "Wiped.Yrsin.Sunday12_2": "",
- "Wiped.Yrsin.Sunday12_3": "",
- //14
- "Wiped.Yrsin.Sunday14_0": "",
- "Wiped.Yrsin.Sunday14_1": "",
- "Wiped.Yrsin.Sunday14_2": "",
- "Wiped.Yrsin.Sunday14_3": "",
-
- //gift taste dialogue
- "Wiped.Yrsin.Gifts.Loved": "",
- "Wiped.Yrsin.Gifts.Liked": "",
- "Wiped.Yrsin.Gifts.Disliked": "",
- "Wiped.Yrsin.Gifts.Hated": "",
- "Wiped.Yrsin.Gifts.Neutral": "",
+ "BETAS.Wiped.Yrsin.Sunday10_0": "",
+ "BETAS.Wiped.Yrsin.Sunday10_1": "",
+ "BETAS.Wiped.Yrsin.Sunday10_2": "",
+ "BETAS.Wiped.Yrsin.Sunday10_3": "",
 
  //begin marriage dialogue
+ //BETAS BETAS.{{NPCNAME}}.Married.{{DayOfWeek}}_
+ "BETAS.Wiped.Yrsin.Married.Monday_0": "",
+ "BETAS.Wiped.Yrsin.Married.Monday_1": "",
+ "BETAS.Wiped.Yrsin.Married.Monday_2": "",
+ "BETAS.Wiped.Yrsin.Married.Monday_3": "",
  "Wiped.Yrsin.SpringM_0": "",
  "Wiped.Yrsin.SpringM_1": "",
  "Wiped.Yrsin.SpringM_2": "",

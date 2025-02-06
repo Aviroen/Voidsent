@@ -1,12 +1,24 @@
 {
  "Test": "Test",
  "Test.RejectPendant": "Sorry, I don't know what that I'm supposed to do with this.",
+ "Test.RejectTea": "Sorry, I don't know what that I'm supposed to do with this.",
  //start of characters/dialogue/npc
  "Test.Housemate": "(housemate)",
  "Test.Spouse": "(spouse)",
  "Test.Partner": "(partner)",
  "Test.ExSpouse": "(ex-spouse)",
  "Test.Single": "(single)",
+ //door unlock
+ "Test.NotFriend_Door": "",
+
+ //gift taste dialogue
+ "Test.Gifts.Loved": "",
+ "Test.Gifts.Liked": "",
+ "Test.Gifts.Disliked": "",
+ "Test.Gifts.Hated": "",
+ "Test.Gifts.Neutral": "",
+
+ //gen dialogue
  "Test.breakUp": "",
  "Test.divorced": "",
  "Test.DumpsterDiveComment": "",
@@ -28,7 +40,7 @@
  "Test.AfterWedding": "",
 
  //monday
- //BETAS
+ //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_
  "BETAS.Test.Monday_0": "",
  "BETAS.Test.Monday_1": "",
  "BETAS.Test.Monday_2": "",
@@ -43,16 +55,28 @@
  "Test.Monday2_1": "",
  "Test.Monday2_2": "",
  "Test.Monday2_3": "",
+ "BETAS.Test.Monday2_0": "",
+ "BETAS.Test.Monday2_1": "",
+ "BETAS.Test.Monday2_2": "",
+ "BETAS.Test.Monday2_3": "",
  //4 heart
  "Test.Monday4_0": "",
  "Test.Monday4_1": "",
  "Test.Monday4_2": "",
  "Test.Monday4_3": "",
+ "BETAS.Test.Monday4_0": "",
+ "BETAS.Test.Monday4_1": "",
+ "BETAS.Test.Monday4_2": "",
+ "BETAS.Test.Monday4_3": "",
  //6
  "Test.Monday6_0": "",
  "Test.Monday6_1": "",
  "Test.Monday6_2": "",
  "Test.Monday6_3": "",
+ "BETAS.Test.Monday6_0": "",
+ "BETAS.Test.Monday6_1": "",
+ "BETAS.Test.Monday6_2": "",
+ "BETAS.Test.Monday6_3": "",
  //8 platonic
  "Test.Platonic.Monday8_0": "",
  "Test.Platonic.Monday8_1": "",
@@ -63,16 +87,26 @@
  "Test.Romantic.Monday8_1": "",
  "Test.Romantic.Monday8_2": "",
  "Test.Romantic.Monday8_3": "",
+ //8
+ "BETAS.Test.Monday8_0": "",
+ "BETAS.Test.Monday8_1": "",
+ "BETAS.Test.Monday8_2": "",
+ "BETAS.Test.Monday8_3": "",
  //10 platonic
  "Test.Platonic.Monday10_0": "",
  "Test.Platonic.Monday10_1": "",
  "Test.Platonic.Monday10_2": "",
  "Test.Platonic.Monday10_3": "",
- //romantic
+ //10 romantic
  "Test.Romantic.Monday10_0": "",
  "Test.Romantic.Monday10_1": "",
  "Test.Romantic.Monday10_2": "",
  "Test.Romantic.Monday10_3": "",
+ //10
+ "BETAS.Test.Monday10_0": "",
+ "BETAS.Test.Monday10_1": "",
+ "BETAS.Test.Monday10_2": "",
+ "BETAS.Test.Monday10_3": "",
 
  //tuesday
  //BETAS
@@ -90,16 +124,28 @@
  "Test.Tuesday2_1": "",
  "Test.Tuesday2_2": "",
  "Test.Tuesday2_3": "",
+ "BETAS.Test.Tuesday2_0": "",
+ "BETAS.Test.Tuesday2_1": "",
+ "BETAS.Test.Tuesday2_2": "",
+ "BETAS.Test.Tuesday2_3": "",
  //4 heart
  "Test.Tuesday4_0": "",
  "Test.Tuesday4_1": "",
  "Test.Tuesday4_2": "",
  "Test.Tuesday4_3": "",
+ "BETAS.Test.Tuesday4_0": "",
+ "BETAS.Test.Tuesday4_1": "",
+ "BETAS.Test.Tuesday4_2": "",
+ "BETAS.Test.Tuesday4_3": "",
  //6
  "Test.Tuesday6_0": "",
  "Test.Tuesday6_1": "",
  "Test.Tuesday6_2": "",
  "Test.Tuesday6_3": "",
+ "BETAS.Test.Tuesday6_0": "",
+ "BETAS.Test.Tuesday6_1": "",
+ "BETAS.Test.Tuesday6_2": "",
+ "BETAS.Test.Tuesday6_3": "",
  //8 platonic
  "Test.Platonic.Tuesday8_0": "",
  "Test.Platonic.Tuesday8_1": "",
@@ -110,6 +156,10 @@
  "Test.Romantic.Tuesday8_1": "",
  "Test.Romantic.Tuesday8_2": "",
  "Test.Romantic.Tuesday8_3": "",
+ "BETAS.Test.Tuesday8_0": "",
+ "BETAS.Test.Tuesday8_1": "",
+ "BETAS.Test.Tuesday8_2": "",
+ "BETAS.Test.Tuesday8_3": "",
  //10 platonic
  "Test.Platonic.Tuesday10_0": "",
  "Test.Platonic.Tuesday10_1": "",
@@ -120,6 +170,10 @@
  "Test.Romantic.Tuesday10_1": "",
  "Test.Romantic.Tuesday10_2": "",
  "Test.Romantic.Tuesday10_3": "",
+ "BETAS.Test.Tuesday10_0": "",
+ "BETAS.Test.Tuesday10_1": "",
+ "BETAS.Test.Tuesday10_2": "",
+ "BETAS.Test.Tuesday10_3": "",
 
  //wednesday
  //BETAS
@@ -137,16 +191,28 @@
  "Test.Wednesday2_1": "",
  "Test.Wednesday2_2": "",
  "Test.Wednesday2_3": "",
+ "BETAS.Test.Wednesday2_0": "",
+ "BETAS.Test.Wednesday2_1": "",
+ "BETAS.Test.Wednesday2_2": "",
+ "BETAS.Test.Wednesday2_3": "",
  //4 heart
  "Test.Wednesday4_0": "",
  "Test.Wednesday4_1": "",
  "Test.Wednesday4_2": "",
  "Test.Wednesday4_3": "",
+ "BETAS.Test.Wednesday4_0": "",
+ "BETAS.Test.Wednesday4_1": "",
+ "BETAS.Test.Wednesday4_2": "",
+ "BETAS.Test.Wednesday4_3": "",
  //6
  "Test.Wednesday6_0": "",
  "Test.Wednesday6_1": "",
  "Test.Wednesday6_2": "",
  "Test.Wednesday6_3": "",
+ "BETAS.Test.Wednesday6_0": "",
+ "BETAS.Test.Wednesday6_1": "",
+ "BETAS.Test.Wednesday6_2": "",
+ "BETAS.Test.Wednesday6_3": "",
  //8 platonic
  "Test.Platonic.Wednesday8_0": "",
  "Test.Platonic.Wednesday8_1": "",
@@ -157,6 +223,10 @@
  "Test.Romantic.Wednesday8_1": "",
  "Test.Romantic.Wednesday8_2": "",
  "Test.Romantic.Wednesday8_3": "",
+ "BETAS.Test.Wednesday8_0": "",
+ "BETAS.Test.Wednesday8_1": "",
+ "BETAS.Test.Wednesday8_2": "",
+ "BETAS.Test.Wednesday8_3": "",
  //10 platonic
  "Test.Platonic.Wednesday10_0": "",
  "Test.Platonic.Wednesday10_1": "",
@@ -167,6 +237,10 @@
  "Test.Romantic.Wednesday10_1": "",
  "Test.Romantic.Wednesday10_2": "",
  "Test.Romantic.Wednesday10_3": "",
+ "BETAS.Test.Wednesday10_0": "",
+ "BETAS.Test.Wednesday10_1": "",
+ "BETAS.Test.Wednesday10_2": "",
+ "BETAS.Test.Wednesday10_3": "",
 
  //thursday
  //BETAS
@@ -184,16 +258,28 @@
  "Test.Thursday2_1": "",
  "Test.Thursday2_2": "",
  "Test.Thursday2_3": "",
+ "BETAS.Test.Thursday2_0": "",
+ "BETAS.Test.Thursday2_1": "",
+ "BETAS.Test.Thursday2_2": "",
+ "BETAS.Test.Thursday2_3": "",
  //4 heart
  "Test.Thursday4_0": "",
  "Test.Thursday4_1": "",
  "Test.Thursday4_2": "",
  "Test.Thursday4_3": "",
+ "BETAS.Test.Thursday4_0": "",
+ "BETAS.Test.Thursday4_1": "",
+ "BETAS.Test.Thursday4_2": "",
+ "BETAS.Test.Thursday4_3": "",
  //6
  "Test.Thursday6_0": "",
  "Test.Thursday6_1": "",
  "Test.Thursday6_2": "",
  "Test.Thursday6_3": "",
+ "BETAS.Test.Thursday6_0": "",
+ "BETAS.Test.Thursday6_1": "",
+ "BETAS.Test.Thursday6_2": "",
+ "BETAS.Test.Thursday6_3": "",
  //8 platonic
  "Test.Platonic.Thursday8_0": "",
  "Test.Platonic.Thursday8_1": "",
@@ -204,6 +290,10 @@
  "Test.Romantic.Thursday8_1": "",
  "Test.Romantic.Thursday8_2": "",
  "Test.Romantic.Thursday8_3": "",
+ "BETAS.Test.Thursday8_0": "",
+ "BETAS.Test.Thursday8_1": "",
+ "BETAS.Test.Thursday8_2": "",
+ "BETAS.Test.Thursday8_3": "",
  //10 platonic
  "Test.Platonic.Thursday10_0": "",
  "Test.Platonic.Thursday10_1": "",
@@ -214,6 +304,10 @@
  "Test.Romantic.Thursday10_1": "",
  "Test.Romantic.Thursday10_2": "",
  "Test.Romantic.Thursday10_3": "",
+ "BETAS.Test.Thursday10_0": "",
+ "BETAS.Test.Thursday10_1": "",
+ "BETAS.Test.Thursday10_2": "",
+ "BETAS.Test.Thursday10_3": "",
 
  //friday
  //BETAS
@@ -231,16 +325,28 @@
  "Test.Friday2_1": "",
  "Test.Friday2_2": "",
  "Test.Friday2_3": "",
+ "BETAS.Test.Friday2_0": "",
+ "BETAS.Test.Friday2_1": "",
+ "BETAS.Test.Friday2_2": "",
+ "BETAS.Test.Friday2_3": "",
  //4 heart
  "Test.Friday4_0": "",
  "Test.Friday4_1": "",
  "Test.Friday4_2": "",
  "Test.Friday4_3": "",
+ "BETAS.Test.Friday4_0": "",
+ "BETAS.Test.Friday4_1": "",
+ "BETAS.Test.Friday4_2": "",
+ "BETAS.Test.Friday4_3": "",
  //6
  "Test.Friday6_0": "",
  "Test.Friday6_1": "",
  "Test.Friday6_2": "",
  "Test.Friday6_3": "",
+ "BETAS.Test.Friday6_0": "",
+ "BETAS.Test.Friday6_1": "",
+ "BETAS.Test.Friday6_2": "",
+ "BETAS.Test.Friday6_3": "",
  //8 platonic
  "Test.Platonic.Friday8_0": "",
  "Test.Platonic.Friday8_1": "",
@@ -251,6 +357,10 @@
  "Test.Romantic.Friday8_1": "",
  "Test.Romantic.Friday8_2": "",
  "Test.Romantic.Friday8_3": "",
+ "BETAS.Test.Friday8_0": "",
+ "BETAS.Test.Friday8_1": "",
+ "BETAS.Test.Friday8_2": "",
+ "BETAS.Test.Friday8_3": "",
  //10 platonic
  "Test.Platonic.Friday10_0": "",
  "Test.Platonic.Friday10_1": "",
@@ -261,6 +371,10 @@
  "Test.Romantic.Friday10_1": "",
  "Test.Romantic.Friday10_2": "",
  "Test.Romantic.Friday10_3": "",
+ "BETAS.Test.Friday10_0": "",
+ "BETAS.Test.Friday10_1": "",
+ "BETAS.Test.Friday10_2": "",
+ "BETAS.Test.Friday10_3": "",
 
  //saturday
  //BETAS
@@ -278,16 +392,28 @@
  "Test.Saturday2_1": "",
  "Test.Saturday2_2": "",
  "Test.Saturday2_3": "",
+ "BETAS.Test.Saturday2_0": "",
+ "BETAS.Test.Saturday2_1": "",
+ "BETAS.Test.Saturday2_2": "",
+ "BETAS.Test.Saturday2_3": "",
  //4 heart
  "Test.Saturday4_0": "",
  "Test.Saturday4_1": "",
  "Test.Saturday4_2": "",
  "Test.Saturday4_3": "",
+ "BETAS.Test.Saturday4_0": "",
+ "BETAS.Test.Saturday4_1": "",
+ "BETAS.Test.Saturday4_2": "",
+ "BETAS.Test.Saturday4_3": "",
  //6
  "Test.Saturday6_0": "",
  "Test.Saturday6_1": "",
  "Test.Saturday6_2": "",
  "Test.Saturday6_3": "",
+ "BETAS.Test.Saturday6_0": "",
+ "BETAS.Test.Saturday6_1": "",
+ "BETAS.Test.Saturday6_2": "",
+ "BETAS.Test.Saturday6_3": "",
  //8 platonic
  "Test.Platonic.Saturday8_0": "",
  "Test.Platonic.Saturday8_1": "",
@@ -298,6 +424,10 @@
  "Test.Romantic.Saturday8_1": "",
  "Test.Romantic.Saturday8_2": "",
  "Test.Romantic.Saturday8_3": "",
+ "BETAS.Test.Saturday8_0": "",
+ "BETAS.Test.Saturday8_1": "",
+ "BETAS.Test.Saturday8_2": "",
+ "BETAS.Test.Saturday8_3": "",
  //10 platonic
  "Test.Platonic.Saturday10_0": "",
  "Test.Platonic.Saturday10_1": "",
@@ -308,6 +438,10 @@
  "Test.Romantic.Saturday10_1": "",
  "Test.Romantic.Saturday10_2": "",
  "Test.Romantic.Saturday10_3": "",
+ "BETAS.Test.Saturday10_0": "",
+ "BETAS.Test.Saturday10_1": "",
+ "BETAS.Test.Saturday10_2": "",
+ "BETAS.Test.Saturday10_3": "",
 
  //sunday
  //BETAS
@@ -325,16 +459,28 @@
  "Test.Sunday2_1": "",
  "Test.Sunday2_2": "",
  "Test.Sunday2_3": "",
+ "BETAS.Test.Sunday2_0": "",
+ "BETAS.Test.Sunday2_1": "",
+ "BETAS.Test.Sunday2_2": "",
+ "BETAS.Test.Sunday2_3": "",
  //4 heart
  "Test.Sunday4_0": "",
  "Test.Sunday4_1": "",
  "Test.Sunday4_2": "",
  "Test.Sunday4_3": "",
+ "BETAS.Test.Sunday4_0": "",
+ "BETAS.Test.Sunday4_1": "",
+ "BETAS.Test.Sunday4_2": "",
+ "BETAS.Test.Sunday4_3": "",
  //6
  "Test.Sunday6_0": "",
  "Test.Sunday6_1": "",
  "Test.Sunday6_2": "",
  "Test.Sunday6_3": "",
+ "BETAS.Test.Sunday6_0": "",
+ "BETAS.Test.Sunday6_1": "",
+ "BETAS.Test.Sunday6_2": "",
+ "BETAS.Test.Sunday6_3": "",
  //8 platonic
  "Test.Platonic.Sunday8_0": "",
  "Test.Platonic.Sunday8_1": "",
@@ -345,6 +491,10 @@
  "Test.Romantic.Sunday8_1": "",
  "Test.Romantic.Sunday8_2": "",
  "Test.Romantic.Sunday8_3": "",
+ "BETAS.Test.Sunday8_0": "",
+ "BETAS.Test.Sunday8_1": "",
+ "BETAS.Test.Sunday8_2": "",
+ "BETAS.Test.Sunday8_3": "",
  //10 platonic
  "Test.Platonic.Sunday10_0": "",
  "Test.Platonic.Sunday10_1": "",
@@ -355,18 +505,17 @@
  "Test.Romantic.Sunday10_1": "",
  "Test.Romantic.Sunday10_2": "",
  "Test.Romantic.Sunday10_3": "",
-
- //door unlock
- "Test.NotFriend_Door": "",
-
- //gift taste dialogue
- "Test.Gifts.Loved": "",
- "Test.Gifts.Liked": "",
- "Test.Gifts.Disliked": "",
- "Test.Gifts.Hated": "",
- "Test.Gifts.Neutral": "",
+ "BETAS.Test.Sunday10_0": "",
+ "BETAS.Test.Sunday10_1": "",
+ "BETAS.Test.Sunday10_2": "",
+ "BETAS.Test.Sunday10_3": "",
 
  //begin marriage dialogue
+ //BETAS BETAS.{{NPCNAME}}.Married.{{DayOfWeek}}_
+ "BETAS.Test.Married.Monday_0": "",
+ "BETAS.Test.Married.Monday_1": "",
+ "BETAS.Test.Married.Monday_2": "",
+ "BETAS.Test.Married.Monday_3": "",
  "Test.SpringM_0": "",
  "Test.SpringM_1": "",
  "Test.SpringM_2": "",
@@ -432,8 +581,9 @@
  "Test.Bad_2": "",
  "Test.Bad_3": "",
 
- //begin wiped dialogue
- //start of characters/dialogue/npc
+ //start suffering wiped dialogue
+ //THIS NEEDS TO BE TOGGLED ON, OR ELSE YOU DON'T HAVE TO WRITE IT
+ //gen dialogue
  "Wiped.Test.breakUp": "",
  "Wiped.Test.divorced": "",
  "Wiped.Test.DumpsterDiveComment": "",
@@ -455,7 +605,7 @@
  "Wiped.Test.AfterWedding": "",
 
  //monday
- //BETAS
+ //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_
  "BETAS.Wiped.Test.Monday_0": "",
  "BETAS.Wiped.Test.Monday_1": "",
  "BETAS.Wiped.Test.Monday_2": "",
@@ -470,16 +620,28 @@
  "Wiped.Test.Monday2_1": "",
  "Wiped.Test.Monday2_2": "",
  "Wiped.Test.Monday2_3": "",
+ "BETAS.Wiped.Test.Monday2_0": "",
+ "BETAS.Wiped.Test.Monday2_1": "",
+ "BETAS.Wiped.Test.Monday2_2": "",
+ "BETAS.Wiped.Test.Monday2_3": "",
  //4 heart
  "Wiped.Test.Monday4_0": "",
  "Wiped.Test.Monday4_1": "",
  "Wiped.Test.Monday4_2": "",
  "Wiped.Test.Monday4_3": "",
+ "BETAS.Wiped.Test.Monday4_0": "",
+ "BETAS.Wiped.Test.Monday4_1": "",
+ "BETAS.Wiped.Test.Monday4_2": "",
+ "BETAS.Wiped.Test.Monday4_3": "",
  //6
  "Wiped.Test.Monday6_0": "",
  "Wiped.Test.Monday6_1": "",
  "Wiped.Test.Monday6_2": "",
  "Wiped.Test.Monday6_3": "",
+ "BETAS.Wiped.Test.Monday6_0": "",
+ "BETAS.Wiped.Test.Monday6_1": "",
+ "BETAS.Wiped.Test.Monday6_2": "",
+ "BETAS.Wiped.Test.Monday6_3": "",
  //8 platonic
  "Wiped.Test.Platonic.Monday8_0": "",
  "Wiped.Test.Platonic.Monday8_1": "",
@@ -490,26 +652,26 @@
  "Wiped.Test.Romantic.Monday8_1": "",
  "Wiped.Test.Romantic.Monday8_2": "",
  "Wiped.Test.Romantic.Monday8_3": "",
+ //8
+ "BETAS.Wiped.Test.Monday8_0": "",
+ "BETAS.Wiped.Test.Monday8_1": "",
+ "BETAS.Wiped.Test.Monday8_2": "",
+ "BETAS.Wiped.Test.Monday8_3": "",
  //10 platonic
  "Wiped.Test.Platonic.Monday10_0": "",
  "Wiped.Test.Platonic.Monday10_1": "",
  "Wiped.Test.Platonic.Monday10_2": "",
  "Wiped.Test.Platonic.Monday10_3": "",
- //romantic
+ //10 romantic
  "Wiped.Test.Romantic.Monday10_0": "",
  "Wiped.Test.Romantic.Monday10_1": "",
  "Wiped.Test.Romantic.Monday10_2": "",
  "Wiped.Test.Romantic.Monday10_3": "",
- //12
- "Wiped.Test.Monday12_0": "",
- "Wiped.Test.Monday12_1": "",
- "Wiped.Test.Monday12_2": "",
- "Wiped.Test.Monday12_3": "",
- //14
- "Wiped.Test.Monday14_0": "",
- "Wiped.Test.Monday14_1": "",
- "Wiped.Test.Monday14_2": "",
- "Wiped.Test.Monday14_3": "",
+ //10
+ "BETAS.Wiped.Test.Monday10_0": "",
+ "BETAS.Wiped.Test.Monday10_1": "",
+ "BETAS.Wiped.Test.Monday10_2": "",
+ "BETAS.Wiped.Test.Monday10_3": "",
 
  //tuesday
  //BETAS
@@ -527,16 +689,28 @@
  "Wiped.Test.Tuesday2_1": "",
  "Wiped.Test.Tuesday2_2": "",
  "Wiped.Test.Tuesday2_3": "",
+ "BETAS.Wiped.Test.Tuesday2_0": "",
+ "BETAS.Wiped.Test.Tuesday2_1": "",
+ "BETAS.Wiped.Test.Tuesday2_2": "",
+ "BETAS.Wiped.Test.Tuesday2_3": "",
  //4 heart
  "Wiped.Test.Tuesday4_0": "",
  "Wiped.Test.Tuesday4_1": "",
  "Wiped.Test.Tuesday4_2": "",
  "Wiped.Test.Tuesday4_3": "",
+ "BETAS.Wiped.Test.Tuesday4_0": "",
+ "BETAS.Wiped.Test.Tuesday4_1": "",
+ "BETAS.Wiped.Test.Tuesday4_2": "",
+ "BETAS.Wiped.Test.Tuesday4_3": "",
  //6
  "Wiped.Test.Tuesday6_0": "",
  "Wiped.Test.Tuesday6_1": "",
  "Wiped.Test.Tuesday6_2": "",
  "Wiped.Test.Tuesday6_3": "",
+ "BETAS.Wiped.Test.Tuesday6_0": "",
+ "BETAS.Wiped.Test.Tuesday6_1": "",
+ "BETAS.Wiped.Test.Tuesday6_2": "",
+ "BETAS.Wiped.Test.Tuesday6_3": "",
  //8 platonic
  "Wiped.Test.Platonic.Tuesday8_0": "",
  "Wiped.Test.Platonic.Tuesday8_1": "",
@@ -547,6 +721,10 @@
  "Wiped.Test.Romantic.Tuesday8_1": "",
  "Wiped.Test.Romantic.Tuesday8_2": "",
  "Wiped.Test.Romantic.Tuesday8_3": "",
+ "BETAS.Wiped.Test.Tuesday8_0": "",
+ "BETAS.Wiped.Test.Tuesday8_1": "",
+ "BETAS.Wiped.Test.Tuesday8_2": "",
+ "BETAS.Wiped.Test.Tuesday8_3": "",
  //10 platonic
  "Wiped.Test.Platonic.Tuesday10_0": "",
  "Wiped.Test.Platonic.Tuesday10_1": "",
@@ -557,16 +735,10 @@
  "Wiped.Test.Romantic.Tuesday10_1": "",
  "Wiped.Test.Romantic.Tuesday10_2": "",
  "Wiped.Test.Romantic.Tuesday10_3": "",
- //12
- "Wiped.Test.Tuesday12_0": "",
- "Wiped.Test.Tuesday12_1": "",
- "Wiped.Test.Tuesday12_2": "",
- "Wiped.Test.Tuesday12_3": "",
- //14
- "Wiped.Test.Tuesday14_0": "",
- "Wiped.Test.Tuesday14_1": "",
- "Wiped.Test.Tuesday14_2": "",
- "Wiped.Test.Tuesday14_3": "",
+ "BETAS.Wiped.Test.Tuesday10_0": "",
+ "BETAS.Wiped.Test.Tuesday10_1": "",
+ "BETAS.Wiped.Test.Tuesday10_2": "",
+ "BETAS.Wiped.Test.Tuesday10_3": "",
 
  //wednesday
  //BETAS
@@ -584,16 +756,28 @@
  "Wiped.Test.Wednesday2_1": "",
  "Wiped.Test.Wednesday2_2": "",
  "Wiped.Test.Wednesday2_3": "",
+ "BETAS.Wiped.Test.Wednesday2_0": "",
+ "BETAS.Wiped.Test.Wednesday2_1": "",
+ "BETAS.Wiped.Test.Wednesday2_2": "",
+ "BETAS.Wiped.Test.Wednesday2_3": "",
  //4 heart
  "Wiped.Test.Wednesday4_0": "",
  "Wiped.Test.Wednesday4_1": "",
  "Wiped.Test.Wednesday4_2": "",
  "Wiped.Test.Wednesday4_3": "",
+ "BETAS.Wiped.Test.Wednesday4_0": "",
+ "BETAS.Wiped.Test.Wednesday4_1": "",
+ "BETAS.Wiped.Test.Wednesday4_2": "",
+ "BETAS.Wiped.Test.Wednesday4_3": "",
  //6
  "Wiped.Test.Wednesday6_0": "",
  "Wiped.Test.Wednesday6_1": "",
  "Wiped.Test.Wednesday6_2": "",
  "Wiped.Test.Wednesday6_3": "",
+ "BETAS.Wiped.Test.Wednesday6_0": "",
+ "BETAS.Wiped.Test.Wednesday6_1": "",
+ "BETAS.Wiped.Test.Wednesday6_2": "",
+ "BETAS.Wiped.Test.Wednesday6_3": "",
  //8 platonic
  "Wiped.Test.Platonic.Wednesday8_0": "",
  "Wiped.Test.Platonic.Wednesday8_1": "",
@@ -604,6 +788,10 @@
  "Wiped.Test.Romantic.Wednesday8_1": "",
  "Wiped.Test.Romantic.Wednesday8_2": "",
  "Wiped.Test.Romantic.Wednesday8_3": "",
+ "BETAS.Wiped.Test.Wednesday8_0": "",
+ "BETAS.Wiped.Test.Wednesday8_1": "",
+ "BETAS.Wiped.Test.Wednesday8_2": "",
+ "BETAS.Wiped.Test.Wednesday8_3": "",
  //10 platonic
  "Wiped.Test.Platonic.Wednesday10_0": "",
  "Wiped.Test.Platonic.Wednesday10_1": "",
@@ -614,16 +802,10 @@
  "Wiped.Test.Romantic.Wednesday10_1": "",
  "Wiped.Test.Romantic.Wednesday10_2": "",
  "Wiped.Test.Romantic.Wednesday10_3": "",
- //12
- "Wiped.Test.Wednesday12_0": "",
- "Wiped.Test.Wednesday12_1": "",
- "Wiped.Test.Wednesday12_2": "",
- "Wiped.Test.Wednesday12_3": "",
- //14
- "Wiped.Test.Wednesday14_0": "",
- "Wiped.Test.Wednesday14_1": "",
- "Wiped.Test.Wednesday14_2": "",
- "Wiped.Test.Wednesday14_3": "",
+ "BETAS.Wiped.Test.Wednesday10_0": "",
+ "BETAS.Wiped.Test.Wednesday10_1": "",
+ "BETAS.Wiped.Test.Wednesday10_2": "",
+ "BETAS.Wiped.Test.Wednesday10_3": "",
 
  //thursday
  //BETAS
@@ -641,16 +823,28 @@
  "Wiped.Test.Thursday2_1": "",
  "Wiped.Test.Thursday2_2": "",
  "Wiped.Test.Thursday2_3": "",
+ "BETAS.Wiped.Test.Thursday2_0": "",
+ "BETAS.Wiped.Test.Thursday2_1": "",
+ "BETAS.Wiped.Test.Thursday2_2": "",
+ "BETAS.Wiped.Test.Thursday2_3": "",
  //4 heart
  "Wiped.Test.Thursday4_0": "",
  "Wiped.Test.Thursday4_1": "",
  "Wiped.Test.Thursday4_2": "",
  "Wiped.Test.Thursday4_3": "",
+ "BETAS.Wiped.Test.Thursday4_0": "",
+ "BETAS.Wiped.Test.Thursday4_1": "",
+ "BETAS.Wiped.Test.Thursday4_2": "",
+ "BETAS.Wiped.Test.Thursday4_3": "",
  //6
  "Wiped.Test.Thursday6_0": "",
  "Wiped.Test.Thursday6_1": "",
  "Wiped.Test.Thursday6_2": "",
  "Wiped.Test.Thursday6_3": "",
+ "BETAS.Wiped.Test.Thursday6_0": "",
+ "BETAS.Wiped.Test.Thursday6_1": "",
+ "BETAS.Wiped.Test.Thursday6_2": "",
+ "BETAS.Wiped.Test.Thursday6_3": "",
  //8 platonic
  "Wiped.Test.Platonic.Thursday8_0": "",
  "Wiped.Test.Platonic.Thursday8_1": "",
@@ -661,6 +855,10 @@
  "Wiped.Test.Romantic.Thursday8_1": "",
  "Wiped.Test.Romantic.Thursday8_2": "",
  "Wiped.Test.Romantic.Thursday8_3": "",
+ "BETAS.Wiped.Test.Thursday8_0": "",
+ "BETAS.Wiped.Test.Thursday8_1": "",
+ "BETAS.Wiped.Test.Thursday8_2": "",
+ "BETAS.Wiped.Test.Thursday8_3": "",
  //10 platonic
  "Wiped.Test.Platonic.Thursday10_0": "",
  "Wiped.Test.Platonic.Thursday10_1": "",
@@ -671,16 +869,10 @@
  "Wiped.Test.Romantic.Thursday10_1": "",
  "Wiped.Test.Romantic.Thursday10_2": "",
  "Wiped.Test.Romantic.Thursday10_3": "",
- //12
- "Wiped.Test.Thursday12_0": "",
- "Wiped.Test.Thursday12_1": "",
- "Wiped.Test.Thursday12_2": "",
- "Wiped.Test.Thursday12_3": "",
- //14
- "Wiped.Test.Thursday14_0": "",
- "Wiped.Test.Thursday14_1": "",
- "Wiped.Test.Thursday14_2": "",
- "Wiped.Test.Thursday14_3": "",
+ "BETAS.Wiped.Test.Thursday10_0": "",
+ "BETAS.Wiped.Test.Thursday10_1": "",
+ "BETAS.Wiped.Test.Thursday10_2": "",
+ "BETAS.Wiped.Test.Thursday10_3": "",
 
  //friday
  //BETAS
@@ -698,16 +890,28 @@
  "Wiped.Test.Friday2_1": "",
  "Wiped.Test.Friday2_2": "",
  "Wiped.Test.Friday2_3": "",
+ "BETAS.Wiped.Test.Friday2_0": "",
+ "BETAS.Wiped.Test.Friday2_1": "",
+ "BETAS.Wiped.Test.Friday2_2": "",
+ "BETAS.Wiped.Test.Friday2_3": "",
  //4 heart
  "Wiped.Test.Friday4_0": "",
  "Wiped.Test.Friday4_1": "",
  "Wiped.Test.Friday4_2": "",
  "Wiped.Test.Friday4_3": "",
+ "BETAS.Wiped.Test.Friday4_0": "",
+ "BETAS.Wiped.Test.Friday4_1": "",
+ "BETAS.Wiped.Test.Friday4_2": "",
+ "BETAS.Wiped.Test.Friday4_3": "",
  //6
  "Wiped.Test.Friday6_0": "",
  "Wiped.Test.Friday6_1": "",
  "Wiped.Test.Friday6_2": "",
  "Wiped.Test.Friday6_3": "",
+ "BETAS.Wiped.Test.Friday6_0": "",
+ "BETAS.Wiped.Test.Friday6_1": "",
+ "BETAS.Wiped.Test.Friday6_2": "",
+ "BETAS.Wiped.Test.Friday6_3": "",
  //8 platonic
  "Wiped.Test.Platonic.Friday8_0": "",
  "Wiped.Test.Platonic.Friday8_1": "",
@@ -718,6 +922,10 @@
  "Wiped.Test.Romantic.Friday8_1": "",
  "Wiped.Test.Romantic.Friday8_2": "",
  "Wiped.Test.Romantic.Friday8_3": "",
+ "BETAS.Wiped.Test.Friday8_0": "",
+ "BETAS.Wiped.Test.Friday8_1": "",
+ "BETAS.Wiped.Test.Friday8_2": "",
+ "BETAS.Wiped.Test.Friday8_3": "",
  //10 platonic
  "Wiped.Test.Platonic.Friday10_0": "",
  "Wiped.Test.Platonic.Friday10_1": "",
@@ -728,16 +936,10 @@
  "Wiped.Test.Romantic.Friday10_1": "",
  "Wiped.Test.Romantic.Friday10_2": "",
  "Wiped.Test.Romantic.Friday10_3": "",
- //12
- "Wiped.Test.Friday12_0": "",
- "Wiped.Test.Friday12_1": "",
- "Wiped.Test.Friday12_2": "",
- "Wiped.Test.Friday12_3": "",
- //14
- "Wiped.Test.Friday14_0": "",
- "Wiped.Test.Friday14_1": "",
- "Wiped.Test.Friday14_2": "",
- "Wiped.Test.Friday14_3": "",
+ "BETAS.Wiped.Test.Friday10_0": "",
+ "BETAS.Wiped.Test.Friday10_1": "",
+ "BETAS.Wiped.Test.Friday10_2": "",
+ "BETAS.Wiped.Test.Friday10_3": "",
 
  //saturday
  //BETAS
@@ -755,16 +957,28 @@
  "Wiped.Test.Saturday2_1": "",
  "Wiped.Test.Saturday2_2": "",
  "Wiped.Test.Saturday2_3": "",
+ "BETAS.Wiped.Test.Saturday2_0": "",
+ "BETAS.Wiped.Test.Saturday2_1": "",
+ "BETAS.Wiped.Test.Saturday2_2": "",
+ "BETAS.Wiped.Test.Saturday2_3": "",
  //4 heart
  "Wiped.Test.Saturday4_0": "",
  "Wiped.Test.Saturday4_1": "",
  "Wiped.Test.Saturday4_2": "",
  "Wiped.Test.Saturday4_3": "",
+ "BETAS.Wiped.Test.Saturday4_0": "",
+ "BETAS.Wiped.Test.Saturday4_1": "",
+ "BETAS.Wiped.Test.Saturday4_2": "",
+ "BETAS.Wiped.Test.Saturday4_3": "",
  //6
  "Wiped.Test.Saturday6_0": "",
  "Wiped.Test.Saturday6_1": "",
  "Wiped.Test.Saturday6_2": "",
  "Wiped.Test.Saturday6_3": "",
+ "BETAS.Wiped.Test.Saturday6_0": "",
+ "BETAS.Wiped.Test.Saturday6_1": "",
+ "BETAS.Wiped.Test.Saturday6_2": "",
+ "BETAS.Wiped.Test.Saturday6_3": "",
  //8 platonic
  "Wiped.Test.Platonic.Saturday8_0": "",
  "Wiped.Test.Platonic.Saturday8_1": "",
@@ -775,6 +989,10 @@
  "Wiped.Test.Romantic.Saturday8_1": "",
  "Wiped.Test.Romantic.Saturday8_2": "",
  "Wiped.Test.Romantic.Saturday8_3": "",
+ "BETAS.Wiped.Test.Saturday8_0": "",
+ "BETAS.Wiped.Test.Saturday8_1": "",
+ "BETAS.Wiped.Test.Saturday8_2": "",
+ "BETAS.Wiped.Test.Saturday8_3": "",
  //10 platonic
  "Wiped.Test.Platonic.Saturday10_0": "",
  "Wiped.Test.Platonic.Saturday10_1": "",
@@ -785,16 +1003,10 @@
  "Wiped.Test.Romantic.Saturday10_1": "",
  "Wiped.Test.Romantic.Saturday10_2": "",
  "Wiped.Test.Romantic.Saturday10_3": "",
- //12
- "Wiped.Test.Saturday12_0": "",
- "Wiped.Test.Saturday12_1": "",
- "Wiped.Test.Saturday12_2": "",
- "Wiped.Test.Saturday12_3": "",
- //14
- "Wiped.Test.Saturday14_0": "",
- "Wiped.Test.Saturday14_1": "",
- "Wiped.Test.Saturday14_2": "",
- "Wiped.Test.Saturday14_3": "",
+ "BETAS.Wiped.Test.Saturday10_0": "",
+ "BETAS.Wiped.Test.Saturday10_1": "",
+ "BETAS.Wiped.Test.Saturday10_2": "",
+ "BETAS.Wiped.Test.Saturday10_3": "",
 
  //sunday
  //BETAS
@@ -812,16 +1024,28 @@
  "Wiped.Test.Sunday2_1": "",
  "Wiped.Test.Sunday2_2": "",
  "Wiped.Test.Sunday2_3": "",
+ "BETAS.Wiped.Test.Sunday2_0": "",
+ "BETAS.Wiped.Test.Sunday2_1": "",
+ "BETAS.Wiped.Test.Sunday2_2": "",
+ "BETAS.Wiped.Test.Sunday2_3": "",
  //4 heart
  "Wiped.Test.Sunday4_0": "",
  "Wiped.Test.Sunday4_1": "",
  "Wiped.Test.Sunday4_2": "",
  "Wiped.Test.Sunday4_3": "",
+ "BETAS.Wiped.Test.Sunday4_0": "",
+ "BETAS.Wiped.Test.Sunday4_1": "",
+ "BETAS.Wiped.Test.Sunday4_2": "",
+ "BETAS.Wiped.Test.Sunday4_3": "",
  //6
  "Wiped.Test.Sunday6_0": "",
  "Wiped.Test.Sunday6_1": "",
  "Wiped.Test.Sunday6_2": "",
  "Wiped.Test.Sunday6_3": "",
+ "BETAS.Wiped.Test.Sunday6_0": "",
+ "BETAS.Wiped.Test.Sunday6_1": "",
+ "BETAS.Wiped.Test.Sunday6_2": "",
+ "BETAS.Wiped.Test.Sunday6_3": "",
  //8 platonic
  "Wiped.Test.Platonic.Sunday8_0": "",
  "Wiped.Test.Platonic.Sunday8_1": "",
@@ -832,6 +1056,10 @@
  "Wiped.Test.Romantic.Sunday8_1": "",
  "Wiped.Test.Romantic.Sunday8_2": "",
  "Wiped.Test.Romantic.Sunday8_3": "",
+ "BETAS.Wiped.Test.Sunday8_0": "",
+ "BETAS.Wiped.Test.Sunday8_1": "",
+ "BETAS.Wiped.Test.Sunday8_2": "",
+ "BETAS.Wiped.Test.Sunday8_3": "",
  //10 platonic
  "Wiped.Test.Platonic.Sunday10_0": "",
  "Wiped.Test.Platonic.Sunday10_1": "",
@@ -842,25 +1070,17 @@
  "Wiped.Test.Romantic.Sunday10_1": "",
  "Wiped.Test.Romantic.Sunday10_2": "",
  "Wiped.Test.Romantic.Sunday10_3": "",
- //12
- "Wiped.Test.Sunday12_0": "",
- "Wiped.Test.Sunday12_1": "",
- "Wiped.Test.Sunday12_2": "",
- "Wiped.Test.Sunday12_3": "",
- //14
- "Wiped.Test.Sunday14_0": "",
- "Wiped.Test.Sunday14_1": "",
- "Wiped.Test.Sunday14_2": "",
- "Wiped.Test.Sunday14_3": "",
-
- //gift taste dialogue
- "Wiped.Test.Gifts.Loved": "",
- "Wiped.Test.Gifts.Liked": "",
- "Wiped.Test.Gifts.Disliked": "",
- "Wiped.Test.Gifts.Hated": "",
- "Wiped.Test.Gifts.Neutral": "",
+ "BETAS.Wiped.Test.Sunday10_0": "",
+ "BETAS.Wiped.Test.Sunday10_1": "",
+ "BETAS.Wiped.Test.Sunday10_2": "",
+ "BETAS.Wiped.Test.Sunday10_3": "",
 
  //begin marriage dialogue
+ //BETAS BETAS.{{NPCNAME}}.Married.{{DayOfWeek}}_
+ "BETAS.Wiped.Test.Married.Monday_0": "",
+ "BETAS.Wiped.Test.Married.Monday_1": "",
+ "BETAS.Wiped.Test.Married.Monday_2": "",
+ "BETAS.Wiped.Test.Married.Monday_3": "",
  "Wiped.Test.SpringM_0": "",
  "Wiped.Test.SpringM_1": "",
  "Wiped.Test.SpringM_2": "",

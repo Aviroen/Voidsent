@@ -5,6 +5,10 @@
    "Action": "EditData",
    "Target": "Strings/StringsFromMaps",
    "Entries": {
+    //common
+    "TentUnallowed": "{{i18n:TentUnallowed}}",
+
+    //edelweiss
     "26053Books_0": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
     "26053Books_1": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
     "26053Books_2": "{{i18n:26053Books_{{Random:{{Range: 0, 35}}}}}}",
@@ -62,7 +66,19 @@
     "CommonwealthMessage": "{{i18n:CommonwealthMessage}}",
     "GroveMessage": "{{i18n:GroveMessage}}",
 
-    "TentUnallowed": "{{i18n:TentUnallowed}}"
+
+    //BIB
+    "BIB.Bookcase_0": "",
+    "BIB.EDresser_0": "",
+    "BIB.EGuitar_0": "",
+    "BIB.Coatrack_0": "",
+    "BIB.EKitchen_0": "",
+    "BIB.DiningTable_0": "",
+    "BIB.Kitchen_0": "",
+    "BIB.Cabinet_0": "",
+    "BIB.Drawer_0": "",
+    "BIB.TV_0": "",
+    "BIB.Clock": ""
    }
   }
  ]

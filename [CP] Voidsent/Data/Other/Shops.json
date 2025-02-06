@@ -1,76 +1,301 @@
 {
-  "Changes": [
-    {
-      "Action": "Include",
-      "FromFile": "Data/Templates/ShopTemplate.json",
-      "LocalTokens": {
-        "SHOPNAME": "ShadyShack",
-        "NAMEENTRY": "AnyOrNone"
-      }
+ "Changes": [
+  {
+   "Action": "Load",
+   "FromFile": "{{FirstValidFile: i18n/{{language}}/A_Shops.json, i18n/default/A_Shops.json}}",
+   "Priority": "Low",
+   "Target": "{{ModId}}/ShopTranslations"
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/ShopTemplate.json",
+   "LocalTokens": {
+    "SHOPNAME": "ShadyShack",
+    "NAMEENTRY": "AnyOrNone"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/ShopTemplate.json",
+   "LocalTokens": {
+    "SHOPNAME": "BIBKitchen",
+    "NAMEENTRY": "AnyOrNone"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/ShopTemplate.json",
+   "LocalTokens": {
+    "SHOPNAME": "BIBCheckin",
+    "NAMEENTRY": "AnyOrNone"
+   }
+  },
+  {
+   "Action": "EditData",
+   "Target": "Data/Shops",
+   "TargetField": [ "{{ModId}}_ShadyShack", "Items" ],
+   "Entries": {
+    "{{ModId}}_1": {
+     "Price": 2250,
+     "AvailableStock": -1,
+     "AvailableStockLimit": "Global",
+     "Id": "(O){{ModId}}_WarpTotem",
+     "ItemId": "(O){{ModId}}_WarpTotem"
     },
-    {
-      "Action": "EditData",
-      "Target": "Data/Shops",
-      "TargetField": [ "{{ModId}}_ShadyShack", "Items" ],
-      "Entries": {
-        "{{ModId}}_1": {
-          "Price": 2250,
-          "AvailableStock": -1,
-          "AvailableStockLimit": "Global",
-          "Id": "{{ModId}}_WarpTotem",
-          "ItemId": "{{ModId}}_WarpTotem"
-        },
-        "{{ModId}}_2": {
-          "Price": 12250,
-          "AvailableStock": 1,
-          "AvailableStockLimit": "Player",
-          "Id": "{{ModId}}_WarpTotemRecipe",
-          "ItemId": "{{ModId}}_WarpTotem",
-          "IsRecipe": true
-        },
-        "{{ModId}}_3": {
-          "Price": 12250,
-          "AvailableStock": 10,
-          "AvailableStockLimit": "Global",
-          "Id": "(O)681",
-          "ItemId": "(O)681"
-        },
-        "{{ModId}}_4": {
-          "Price": 12250,
-          "AvailableStock": 10,
-          "AvailableStockLimit": "Global",
-          "Id": "(O)749",
-          "ItemId": "(O)749"
-        },
-        "{{ModId}}_5": {
-          "Price": 12250,
-          "AvailableStock": 10,
-          "AvailableStockLimit": "Global",
-          "Id": "(O)787",
-          "ItemId": "(O)787"
-        },
-        "{{ModId}}_6": {
-          "Price": 12250,
-          "AvailableStock": 10,
-          "AvailableStockLimit": "Global",
-          "Id": "(O)773",
-          "ItemId": "(O)773"
-        },
-        "{{ModId}}_7": {
-          "Price": 12250,
-          "AvailableStock": 10,
-          "AvailableStockLimit": "Global",
-          "Id": "(O)349",
-          "ItemId": "(O)349"
-        },
-        "{{ModId}}_8": {
-          "Price": 12250,
-          "AvailableStock": 10,
-          "AvailableStockLimit": "Global",
-          "Id": "(O)351",
-          "ItemId": "(O)351"
-        }
-      }
+    "{{ModId}}_2": {
+     "Price": 12250,
+     "AvailableStock": 1,
+     "AvailableStockLimit": "Player",
+     "Id": "{{ModId}}_WarpTotemRecipe",
+     "ItemId": "{{ModId}}_WarpTotem",
+     "IsRecipe": true
+    },
+    "{{ModId}}_3": {
+     "Price": 12250,
+     "AvailableStock": 10,
+     "AvailableStockLimit": "Global",
+     "Id": "(O)681",
+     "ItemId": "(O)681"
+    },
+    "{{ModId}}_4": {
+     "Price": 12250,
+     "AvailableStock": 10,
+     "AvailableStockLimit": "Global",
+     "Id": "(O)749",
+     "ItemId": "(O)749"
+    },
+    "{{ModId}}_5": {
+     "Price": 12250,
+     "AvailableStock": 10,
+     "AvailableStockLimit": "Global",
+     "Id": "(O)787",
+     "ItemId": "(O)787"
+    },
+    "{{ModId}}_6": {
+     "Price": 12250,
+     "AvailableStock": 10,
+     "AvailableStockLimit": "Global",
+     "Id": "(O)773",
+     "ItemId": "(O)773"
+    },
+    "{{ModId}}_7": {
+     "Price": 12250,
+     "AvailableStock": 10,
+     "AvailableStockLimit": "Global",
+     "Id": "(O)349",
+     "ItemId": "(O)349"
+    },
+    "{{ModId}}_8": {
+     "Price": 12250,
+     "AvailableStock": 10,
+     "AvailableStockLimit": "Global",
+     "Id": "(O)351",
+     "ItemId": "(O)351"
     }
-  ]
+   }
+  },
+  {
+   "Action": "EditData",
+   "Target": "Data/Shops",
+   "TargetField": [ "{{ModId}}_BIBKitchen", "Items" ],
+   "Entries": {
+    "{{ModId}}_1": {
+     "Price": 50000,
+     "AvailableStock": 1,
+     "AvailableStockLimit": "Global",
+     "Id": "{{ModId}}_Shorbkie",
+     "ItemId": "{{ModId}}_Shorbkie"
+    },
+    "{{ModId}}_2": {
+     "Price": 1200,
+     "AvailableStock": 10,
+     "AvailableStockLimit": "Player",
+     "Id": "(O)198",
+     "ItemId": "(O)198"
+    },
+    "{{ModId}}_3": {
+     "Price": 1200,
+     "AvailableStock": 10,
+     "AvailableStockLimit": "Global",
+     "Id": "(O)202",
+     "ItemId": "(O)202"
+    },
+    "{{ModId}}_4": {
+     "Price": 3200,
+     "AvailableStock": 10,
+     "AvailableStockLimit": "Global",
+     "Id": "(O)204",
+     "ItemId": "(O)204"
+    },
+    "{{ModId}}_5": {
+     "Price": 1200,
+     "AvailableStock": 10,
+     "AvailableStockLimit": "Global",
+     "Id": "(O)209",
+     "ItemId": "(O)209"
+    },
+    "{{ModId}}_6": {
+     "Price": 1200,
+     "AvailableStock": 10,
+     "AvailableStockLimit": "Global",
+     "Id": "(O)212",
+     "ItemId": "(O)212"
+    },
+    "{{ModId}}_7": {
+     "Price": 1200,
+     "AvailableStock": 10,
+     "AvailableStockLimit": "Global",
+     "Id": "(O)213",
+     "ItemId": "(O)213"
+    },
+    "{{ModId}}_8": {
+     "Price": 1200,
+     "AvailableStock": 10,
+     "AvailableStockLimit": "Global",
+     "Id": "(O)214",
+     "ItemId": "(O)214"
+    },
+    "{{ModId}}_9": {
+     "Price": 1200,
+     "AvailableStock": 10,
+     "AvailableStockLimit": "Global",
+     "Id": "(O)218",
+     "ItemId": "(O)218"
+    },
+    "{{ModId}}_10": {
+     "Price": 1200,
+     "AvailableStock": 10,
+     "AvailableStockLimit": "Global",
+     "Id": "(O)219",
+     "ItemId": "(O)219"
+    },
+    "{{ModId}}_11": {
+     "Price": 1200,
+     "AvailableStock": 10,
+     "AvailableStockLimit": "Global",
+     "Id": "(O)225",
+     "ItemId": "(O)225"
+    },
+    "{{ModId}}_12": {
+     "Price": 1200,
+     "AvailableStock": 10,
+     "AvailableStockLimit": "Global",
+     "Id": "(O)226",
+     "ItemId": "(O)226"
+    },
+    "{{ModId}}_13": {
+     "Price": 1200,
+     "AvailableStock": 10,
+     "AvailableStockLimit": "Global",
+     "Id": "(O)227",
+     "ItemId": "(O)227"
+    },
+    "{{ModId}}_14": {
+     "Price": 1200,
+     "AvailableStock": 10,
+     "AvailableStockLimit": "Global",
+     "Id": "(O)228",
+     "ItemId": "(O)228"
+    },
+    "{{ModId}}_15": {
+     "Price": 3200,
+     "AvailableStock": 10,
+     "AvailableStockLimit": "Global",
+     "Id": "(O)242",
+     "ItemId": "(O)242"
+    },
+    "{{ModId}}_16": {
+     "Price": 3200,
+     "AvailableStock": 10,
+     "AvailableStockLimit": "Global",
+     "Id": "(O)253",
+     "ItemId": "(O)253"
+    },
+    "{{ModId}}_17": {
+     "Price": 3200,
+     "AvailableStock": 10,
+     "AvailableStockLimit": "Global",
+     "Id": "(O)265",
+     "ItemId": "(O)265"
+    },
+    "{{ModId}}_18": {
+     "Price": 1200,
+     "AvailableStock": 10,
+     "AvailableStockLimit": "Global",
+     "Id": "(O)456",
+     "ItemId": "(O)456"
+    },
+    "{{ModId}}_19": {
+     "Price": 1200,
+     "AvailableStock": 10,
+     "AvailableStockLimit": "Global",
+     "Id": "(O)727",
+     "ItemId": "(O)727"
+    },
+    "{{ModId}}_20": {
+     "Price": 1200,
+     "AvailableStock": 10,
+     "AvailableStockLimit": "Global",
+     "Id": "(O)728",
+     "ItemId": "(O)728"
+    },
+    "{{ModId}}_21": {
+     "Price": 1200,
+     "AvailableStock": 10,
+     "AvailableStockLimit": "Global",
+     "Id": "(O)730",
+     "ItemId": "(O)730"
+    },
+    "{{ModId}}_22": {
+     "Price": 1200,
+     "AvailableStock": 10,
+     "AvailableStockLimit": "Global",
+     "Id": "(O)732",
+     "ItemId": "(O)732"
+    },
+    "{{ModId}}_23": {
+     "Price": 1200,
+     "AvailableStock": 10,
+     "AvailableStockLimit": "Global",
+     "Id": "(O)733",
+     "ItemId": "(O)733"
+    },
+    "{{ModId}}_24": {
+     "Price": 3200,
+     "AvailableStock": 10,
+     "AvailableStockLimit": "Global",
+     "Id": "(O)873",
+     "ItemId": "(O)873"
+    },
+    "{{ModId}}_25": {
+     "Price": 3200,
+     "AvailableStock": 10,
+     "AvailableStockLimit": "Global",
+     "Id": "(O)905",
+     "ItemId": "(O)905"
+    },
+    "{{ModId}}_26": {
+     "Price": 3200,
+     "AvailableStock": 10,
+     "AvailableStockLimit": "Global",
+     "Id": "(O)906",
+     "ItemId": "(O)906"
+    },
+    "{{ModId}}_27": {
+     "Price": 3200,
+     "AvailableStock": 10,
+     "AvailableStockLimit": "Global",
+     "Id": "(O)907",
+     "ItemId": "(O)907"
+    },
+    "{{ModId}}_28": {
+     "Price": 3200,
+     "AvailableStock": 10,
+     "AvailableStockLimit": "Global",
+     "Id": "(O)921",
+     "ItemId": "(O)921"
+    }
+   }
+  }
+ ]
 }

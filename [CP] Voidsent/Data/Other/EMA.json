@@ -1,0 +1,614 @@
+{
+ "Changes": [
+  {
+   "Action": "EditData",
+   "Target": "rokugin.EMA/FireplaceConditions",
+   "Entries": {
+    "rokugin_custom1": { // adds new entry
+     "Condition": "ANY \"SEASON fall winter\" \"WEATHER Here Rain Snow Storm GreenRain\""
+    },
+    "AlwaysOn": { // overwrites existing AlwaysOn entry
+     "Condition": "false",
+     "UsePlayerState": true
+    }
+   }
+  },
+  {
+   "Action": "EditData",
+   "Target": "rokugin.EMA/CustomDoors",
+   "Entries": {
+    "{{ModId}}_SolidDoorBrown": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 32,
+      "Y": 0,
+      "Width": 16,
+      "Height": 48
+     }
+    },
+    "{{ModId}}_SolidDoorFlipBrown": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 32,
+      "Y": 0,
+      "Width": 16,
+      "Height": 48
+     },
+     "Flip": true
+    },
+    "{{ModId}}_SolidDoorCyan": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 32,
+      "Y": 48,
+      "Width": 16,
+      "Height": 48
+     }
+    },
+    "{{ModId}}_SolidDoorFlipCyan": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 32,
+      "Y": 48,
+      "Width": 16,
+      "Height": 48
+     },
+     "Flip": true
+    },
+    "{{ModId}}_SolidDoorGreen": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 32,
+      "Y": 96,
+      "Width": 16,
+      "Height": 48
+     }
+    },
+    "{{ModId}}_SolidDoorFlipGreen": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 32,
+      "Y": 96,
+      "Width": 16,
+      "Height": 48
+     },
+     "Flip": true
+    },
+    "{{ModId}}_SolidDoorPink": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 32,
+      "Y": 144,
+      "Width": 16,
+      "Height": 48
+     }
+    },
+    "{{ModId}}_SolidDoorFlipPink": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 32,
+      "Y": 144,
+      "Width": 16,
+      "Height": 48
+     },
+     "Flip": true
+    },
+    "{{ModId}}_SolidDoorCornflower": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 32,
+      "Y": 192,
+      "Width": 16,
+      "Height": 48
+     }
+    },
+    "{{ModId}}_SolidDoorFlipCornflower": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 32,
+      "Y": 192,
+      "Width": 16,
+      "Height": 48
+     },
+     "Flip": true
+    },
+    "{{ModId}}_SolidDoorPolo": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 32,
+      "Y": 240,
+      "Width": 16,
+      "Height": 48
+     }
+    },
+    "{{ModId}}_SolidDoorFlipPolo": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 32,
+      "Y": 240,
+      "Width": 16,
+      "Height": 48
+     },
+     "Flip": true
+    },
+    "{{ModId}}_SolidDoorYellow": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 32,
+      "Y": 288,
+      "Width": 16,
+      "Height": 48
+     }
+    },
+    "{{ModId}}_SolidDoorFlipYellow": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 32,
+      "Y": 288,
+      "Width": 16,
+      "Height": 48
+     },
+     "Flip": true
+    },
+    "{{ModId}}_SolidDoorPurple": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 32,
+      "Y": 336,
+      "Width": 16,
+      "Height": 48
+     }
+    },
+    "{{ModId}}_SolidDoorFlipPurple": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 32,
+      "Y": 336,
+      "Width": 16,
+      "Height": 48
+     },
+     "Flip": true
+    },
+    "{{ModId}}_SolidDoorRed": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 32,
+      "Y": 384,
+      "Width": 16,
+      "Height": 48
+     }
+    },
+    "{{ModId}}_SolidDoorFlipRed": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 32,
+      "Y": 384,
+      "Width": 16,
+      "Height": 48
+     },
+     "Flip": true
+    },
+    "{{ModId}}_GlassDoorBrown": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 128,
+      "Y": 0,
+      "Width": 16,
+      "Height": 48
+     }
+    },
+    "{{ModId}}_GlassDoorFlipBrown": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 128,
+      "Y": 0,
+      "Width": 16,
+      "Height": 48
+     },
+     "Flip": true
+    },
+    "{{ModId}}_GlassDoorCyan": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 128,
+      "Y": 48,
+      "Width": 16,
+      "Height": 48
+     }
+    },
+    "{{ModId}}_GlassDoorFlipCyan": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 128,
+      "Y": 48,
+      "Width": 16,
+      "Height": 48
+     },
+     "Flip": true
+    },
+    "{{ModId}}_GlassDoorGreen": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 128,
+      "Y": 96,
+      "Width": 16,
+      "Height": 48
+     }
+    },
+    "{{ModId}}_GlassDoorFlipGreen": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 128,
+      "Y": 96,
+      "Width": 16,
+      "Height": 48
+     },
+     "Flip": true
+    },
+    "{{ModId}}_GlassDoorPink": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 128,
+      "Y": 144,
+      "Width": 16,
+      "Height": 48
+     }
+    },
+    "{{ModId}}_GlassDoorFlipPink": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 128,
+      "Y": 144,
+      "Width": 16,
+      "Height": 48
+     },
+     "Flip": true
+    },
+    "{{ModId}}_GlassDoorCornflower": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 128,
+      "Y": 192,
+      "Width": 16,
+      "Height": 48
+     }
+    },
+    "{{ModId}}_GlassDoorFlipCornflower": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 128,
+      "Y": 192,
+      "Width": 16,
+      "Height": 48
+     },
+     "Flip": true
+    },
+    "{{ModId}}_GlassDoorPolo": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 128,
+      "Y": 240,
+      "Width": 16,
+      "Height": 48
+     }
+    },
+    "{{ModId}}_GlassDoorFlipPolo": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 128,
+      "Y": 240,
+      "Width": 16,
+      "Height": 48
+     },
+     "Flip": true
+    },
+    "{{ModId}}_GlassDoorYellow": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 128,
+      "Y": 288,
+      "Width": 16,
+      "Height": 48
+     }
+    },
+    "{{ModId}}_GlassDoorFlipYellow": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 128,
+      "Y": 288,
+      "Width": 16,
+      "Height": 48
+     },
+     "Flip": true
+    },
+    "{{ModId}}_GlassDoorPurple": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 128,
+      "Y": 336,
+      "Width": 16,
+      "Height": 48
+     }
+    },
+    "{{ModId}}_GlassDoorFlipPurple": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 128,
+      "Y": 336,
+      "Width": 16,
+      "Height": 48
+     },
+     "Flip": true
+    },
+    "{{ModId}}_GlassDoorRed": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 128,
+      "Y": 384,
+      "Width": 16,
+      "Height": 48
+     }
+    },
+    "{{ModId}}_GlassDoorFlipRed": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 128,
+      "Y": 384,
+      "Width": 16,
+      "Height": 48
+     },
+     "Flip": true
+    },
+    "{{ModId}}_SaloonDoorBrown": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 224,
+      "Y": 0,
+      "Width": 16,
+      "Height": 48
+     }
+    },
+    "{{ModId}}_SaloonDoorFlipBrown": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 224,
+      "Y": 0,
+      "Width": 16,
+      "Height": 48
+     },
+     "Flip": true
+    },
+    "{{ModId}}_SaloonDoorCyan": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 224,
+      "Y": 48,
+      "Width": 16,
+      "Height": 48
+     }
+    },
+    "{{ModId}}_SaloonDoorFlipCyan": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 224,
+      "Y": 48,
+      "Width": 16,
+      "Height": 48
+     },
+     "Flip": true
+    },
+    "{{ModId}}_SaloonDoorGreen": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 224,
+      "Y": 96,
+      "Width": 16,
+      "Height": 48
+     }
+    },
+    "{{ModId}}_SaloonDoorFlipGreen": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 224,
+      "Y": 96,
+      "Width": 16,
+      "Height": 48
+     },
+     "Flip": true
+    },
+    "{{ModId}}_SaloonDoorPink": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 224,
+      "Y": 144,
+      "Width": 16,
+      "Height": 48
+     }
+    },
+    "{{ModId}}_SaloonDoorFlipPink": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 224,
+      "Y": 144,
+      "Width": 16,
+      "Height": 48
+     },
+     "Flip": true
+    },
+    "{{ModId}}_SaloonDoorCornflower": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 224,
+      "Y": 192,
+      "Width": 16,
+      "Height": 48
+     }
+    },
+    "{{ModId}}_SaloonDoorFlipCornflower": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 224,
+      "Y": 192,
+      "Width": 16,
+      "Height": 48
+     },
+     "Flip": true
+    },
+    "{{ModId}}_SaloonDoorPolo": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 224,
+      "Y": 240,
+      "Width": 16,
+      "Height": 48
+     }
+    },
+    "{{ModId}}_SaloonDoorFlipPolo": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 224,
+      "Y": 240,
+      "Width": 16,
+      "Height": 48
+     },
+     "Flip": true
+    },
+    "{{ModId}}_SaloonDoorYellow": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 224,
+      "Y": 288,
+      "Width": 16,
+      "Height": 48
+     }
+    },
+    "{{ModId}}_SaloonDoorFlipYellow": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 224,
+      "Y": 288,
+      "Width": 16,
+      "Height": 48
+     },
+     "Flip": true
+    },
+    "{{ModId}}_SaloonDoorPurple": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 224,
+      "Y": 336,
+      "Width": 16,
+      "Height": 48
+     }
+    },
+    "{{ModId}}_SaloonDoorFlipPurple": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 224,
+      "Y": 336,
+      "Width": 16,
+      "Height": 48
+     },
+     "Flip": true
+    },
+    "{{ModId}}_SaloonDoorRed": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 224,
+      "Y": 384,
+      "Width": 16,
+      "Height": 48
+     }
+    },
+    "{{ModId}}_SaloonDoorFlipRed": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 224,
+      "Y": 384,
+      "Width": 16,
+      "Height": 48
+     },
+     "Flip": true
+    },
+    "{{ModId}}_BigDoorFast": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 16,
+      "Y": 432,
+      "Width": 16,
+      "Height": 96
+     },
+     "PositionOffset": "0, -3"
+    },
+    "{{ModId}}_BigDoorSlow": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 16,
+      "Y": 528,
+      "Width": 16,
+      "Height": 96
+     },
+     "AnimationFrames": 7,
+     "PositionOffset": "0, -3"
+    },
+    "{{ModId}}_SolidDoorSideways": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 16,
+      "Y": 624,
+      "Width": 16,
+      "Height": 48
+     }
+    },
+    "{{ModId}}_GlassDoorSideways": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 96,
+      "Y": 624,
+      "Width": 16,
+      "Height": 48
+     }
+    },
+    "{{ModId}}_SaloonDoorSideways": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 176,
+      "Y": 624,
+      "Width": 16,
+      "Height": 48
+     }
+    },
+    "{{ModId}}_SaloonDoorSidewaysTop": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 176,
+      "Y": 576,
+      "Width": 16,
+      "Height": 48
+     },
+     "DepthOffset": -40
+    },
+    "{{ModId}}_BigDoorFastDouble": { //This example currently just shows off how doors wider than 1 tile don't work properly
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 112,
+      "Y": 432,
+      "Width": 32,
+      "Height": 96
+     },
+     "PositionOffset": "0, -3"
+    },
+    "{{ModId}}_SolidHalfDoorBrown": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": 160,
+      "Y": 528,
+      "Width": 16,
+      "Height": 32
+     },
+     "PositionOffset": "0, 1"
+    }
+   }
+  }
+ ]
+}

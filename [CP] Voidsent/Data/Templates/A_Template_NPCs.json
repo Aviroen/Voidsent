@@ -17,7 +17,7 @@
    "Action": "Load",
    "FromFile": "{{FirstValidFile: i18n/{{language}}/{{NPCNAME}}.json, i18n/default/{{NPCNAME}}.json}}",
    "Priority": "Low",
-   "Target": "Mods/{{ModId}}/Translations"
+   "Target": "{{ModId}}/NPCTranslations"
   },
   {
    "LogName": "NotFriend_Door",
@@ -75,7 +75,7 @@
      "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
      "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, ITEM_STACK Target 1, !PLAYER_NPC_RELATIONSHIP Current {{ModId}}_{{NPCNAME}} Married",
      "MarkActionApplied": false,
-     "Action": "Aviroen.Voidsent_RandomDialogue Aviroen.VoidsentCP {{ModId}}_{{NPCNAME}} BETAS.{{NPCNAME}}.{{WeekDay}}_ {{Range:0,{{ENDRANGE}}}}"
+     "Action": "Aviroen.Voidsent_RandomDialogue Aviroen.VoidsentCP {{ModId}}_{{NPCNAME}} BETAS.{{NPCNAME}}.{{DayOfWeek}}_ {{Range:0,{{ENDRANGE}}}}"
     }
    }
   },
@@ -90,14 +90,14 @@
      "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, {{Query:{{Hearts:{{NPCNAME}}}} >= 2}}, ITEM_STACK Target 1, !PLAYER_NPC_RELATIONSHIP Current {{ModId}}_{{NPCNAME}} Married, ANY \"{{2HEART}}\" \"{{4HEART}}\" \"{{6HEART}}\" \"{{8HEART}}\" \"{{10HEART}}\"",
      "MarkActionApplied": false,
      "Actions": [
-      "Aviroen.Voidsent_RandomDialogue Aviroen.VoidsentCP {{ModId}}_{{NPCNAME}} BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_ {{Range:0,{{ENDRANGE}}}}",
+      "Aviroen.Voidsent_RandomDialogue Aviroen.VoidsentCP {{ModId}}_{{NPCNAME}} BETAS.{{NPCNAME}}.{{DayOfWeek}}{{Hearts:{{NPCNAME}}}}_ {{Range:0,{{ENDRANGE}}}}",
       "MarkActionApplied Current {{ModId}}_{{NPCNAME}}_DialogueOpened true"
      ]
     }
    }
   },
   {
-   "LogName": "Trigger Actions: BETAS",
+   "LogName": "Trigger Actions: BETAS Married",
    "Action": "EditData",
    "Target": "Data/TriggerActions",
    "Entries": {
@@ -106,7 +106,53 @@
      "Trigger": "Spiderbuttons.BETAS_NpcKissed",
      "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}",
      "MarkActionApplied": false,
-     "Action": "Aviroen.Voidsent_RandomDialogue Aviroen.VoidsentCP {{ModId}}_{{NPCNAME}} BETAS.{{NPCNAME}}.Married.{{WeekDay}}_ {{Range:0,{{ENDRANGE}}}}"
+     "Action": "Aviroen.Voidsent_RandomDialogue Aviroen.VoidsentCP {{ModId}}_{{NPCNAME}} BETAS.{{NPCNAME}}.Married.{{DayOfWeek}}_ {{Range:0,{{ENDRANGE}}}}"
+    }
+   }
+  },
+  //wiped dialogue
+  {
+   "LogName": "Trigger Actions: BETAS Wiped",
+   "Action": "EditData",
+   "Target": "Data/TriggerActions",
+   "Entries": {
+    "{{ModId}}_{{NPCNAME}}_DialogueOpened": {
+     "Id": "{{ModId}}_{{NPCNAME}}_DialogueOpened",
+     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
+     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, ITEM_STACK Target 1, !PLAYER_NPC_RELATIONSHIP Current {{ModId}}_{{NPCNAME}} Married, PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}_Wiped, {{BETASWIPED}}",
+     "MarkActionApplied": false,
+     "Action": "Aviroen.Voidsent_RandomDialogue Aviroen.VoidsentCP {{ModId}}_{{NPCNAME}} BETAS.Wiped.{{NPCNAME}}.{{DayOfWeek}}_ {{Range:0,{{ENDRANGE}}}}"
+    }
+   }
+  },
+  {
+   "LogName": "Trigger Actions: BETAS Heart thresholds Wiped",
+   "Action": "EditData",
+   "Target": "Data/TriggerActions",
+   "Entries": {
+    "{{ModId}}_{{NPCNAME}}_DialogueOpened1": {
+     "Id": "{{ModId}}_{{NPCNAME}}_DialogueOpened1",
+     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
+     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, {{Query:{{Hearts:{{NPCNAME}}}} >= 2}}, ITEM_STACK Target 1, !PLAYER_NPC_RELATIONSHIP Current {{ModId}}_{{NPCNAME}} Married, PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}_Wiped, {{BETASWIPED}}, ANY \"{{2HEART}}\" \"{{4HEART}}\" \"{{6HEART}}\" \"{{8HEART}}\" \"{{10HEART}}\"",
+     "MarkActionApplied": false,
+     "Actions": [
+      "Aviroen.Voidsent_RandomDialogue Aviroen.VoidsentCP {{ModId}}_{{NPCNAME}} BETAS.Wiped.{{NPCNAME}}.{{DayOfWeek}}{{Hearts:{{NPCNAME}}}}_ {{Range:0,{{ENDRANGE}}}}",
+      "MarkActionApplied Current {{ModId}}_{{NPCNAME}}_DialogueOpened true"
+     ]
+    }
+   }
+  },
+  {
+   "LogName": "Trigger Actions: BETAS Married Wiped",
+   "Action": "EditData",
+   "Target": "Data/TriggerActions",
+   "Entries": {
+    "{{ModId}}_{{NPCNAME}}_Married": {
+     "Id": "{{ModId}}_{{NPCNAME}}_Married",
+     "Trigger": "Spiderbuttons.BETAS_NpcKissed",
+     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}_Wiped, {{BETASWIPED}}",
+     "MarkActionApplied": false,
+     "Action": "Aviroen.Voidsent_RandomDialogue Aviroen.VoidsentCP {{ModId}}_{{NPCNAME}} BETAS.Wiped.{{NPCNAME}}.Married.{{DayOfWeek}}_ {{Range:0,{{ENDRANGE}}}}"
     }
    }
   },
@@ -340,7 +386,7 @@
    },
    "Target": "Characters/Dialogue/{{ModId}}_{{NPCNAME}}",
    "Entries": {
-    "RejectItem_460": "{{i18n:{{NPCNAME}}.RejectPendant}}"
+    "RejectItem_(O)460": "{{i18n:{{NPCNAME}}.RejectPendant}}"
    }
   },
   {
@@ -351,7 +397,7 @@
    },
    "Target": "Characters/Dialogue/{{ModId}}_{{NPCNAME}}",
    "Entries": {
-    "RejectItem_StardropTea": "{{i18n:{{NPCNAME}}.RejectTea}}"
+    "RejectItem_(O)StardropTea": "{{i18n:{{NPCNAME}}.RejectTea}}"
    }
   },
   //////////////////////////////////////////////////////////////////////////////////////////////////

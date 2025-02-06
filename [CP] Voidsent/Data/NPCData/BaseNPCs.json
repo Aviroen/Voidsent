@@ -99,7 +99,7 @@
     "XINDEXPATIO": "0",
     "YINDEXPATIO": "0",
     "UNLOCKCONDITIONS": "PLAYER_HAS_MAIL Current {{ModId}}_EdelweissWarp any",
-    "HOMELOCATION": "{{ModId}}_Yrsin_Hideout3",
+    "HOMELOCATION": "{{Yrsin}}_Hideout3",
     "HOMEXTILE": "13",
     "HOMEYTILE": "8",
     "HOMEFACING": "down", //left, right, up, down
@@ -114,7 +114,7 @@
     "SPECIAL2": "wag",
     "SPECIAL2ANIMATION": "20/20 20 20 20 20 21 22 23 20 20 20 20 20 20/20",
     "ENDRANGE": "4",
-    "SPRINGSCHEDULE": "610 {{ModId}}_Yrsin_Hideout1 15 16 2/900 {{ModId}}_Yrsin_Hideout2 2 14 2 {{Yrsin}}_wag/1500 {{ModId}}_Yrsin_Hideout3 14 12 2 {{Yrsin}}_sleforward/2000 {{ModId}}_Yrsin_Hideout4 5 13 2 {{Lowercase:{{Yrsin}}_sleep}}",
+    "SPRINGSCHEDULE": "610 {{Yrsin}}_Hideout1 15 16 2/900 {{Yrsin}}_Hideout2 2 14 2 {{Yrsin}}_wag/1200 {{Yrsin}}_Hideout3 14 12 2 {{Yrsin}}_sleforward/1500 {{Yrsin}}_Hideout4 5 13 2/1800 16 16 1/2000 {{Yrsin}}_Office 13 6 2 {{Lowercase:{{Yrsin}}_sleep}}",
     "SUMMERSCHEDULE": "GOTO spring",
     "FALLSCHEDULE": "GOTO spring",
     "WINTERSCHEDULE": "GOTO spring",

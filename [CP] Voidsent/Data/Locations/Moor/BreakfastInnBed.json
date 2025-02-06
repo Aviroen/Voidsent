@@ -1,0 +1,188 @@
+{
+ "Changes": [
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "BreakfastInnBed",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "17",
+    "YARRIVAL": "38",
+    "MUSIC": "mermaidSong",
+    "AREA": "Moor"
+   }
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_BreakfastInnBed",
+   "MapProperties": {
+    "AmbientLight": "255 255 255",
+    "NPCWarp": "38 19 {{ModId}}_WarpNetwork 1 0",
+    "Doors": "33 26 0 0 34 26 0 0 19 6 0 0 4 15 0 0 5 15 0 0 24 15 0 0 25 15 0 0"
+   },
+   "AddWarps": [
+    "17 39 {{Yrsin}}_Office 2 6",
+    "18 39 {{Yrsin}}_Office 2 6"
+   ],
+   "MapTiles": [ //NPCWarp [<int fromX> <int fromY> <string toArea> <int toX> <int toY>]+
+    {
+     "Position": {
+      "X": 4,
+      "Y": 31
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "OpenShop {{ModId}}_BIBKitchen"
+     }
+    },
+    {
+     "Position": {
+      "X": 33,
+      "Y": 26
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Door",
+      "EMA_CustomDoor": "{{ModId}}_SaloonDoorBrown"
+     }
+    },
+    {
+     "Position": {
+      "X": 34,
+      "Y": 26
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Door",
+      "EMA_CustomDoor": "{{ModId}}_SaloonDoorFlipBrown"
+     }
+    },
+    {
+     "Position": {
+      "X": 19,
+      "Y": 6
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "TouchAction": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_YrsinHideoutsUnlocked",
+      "EMA_CustomDoor": "{{ModId}}_GlassDoorBrown"
+     }
+    },
+    {
+     "Position": {
+      "X": 4,
+      "Y": 15
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "TouchAction": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_ExpensiveRoom",
+      "EMA_CustomDoor": "{{ModId}}_GlassDoorBrown"
+     }
+    },
+    {
+     "Position": {
+      "X": 5,
+      "Y": 15
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "TouchAction": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_ExpensiveRoom",
+      "EMA_CustomDoor": "{{ModId}}_GlassDoorFlipBrown"
+     }
+    },
+    {
+     "Position": {
+      "X": 24,
+      "Y": 15
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "TouchAction": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_CheapRoom",
+      "EMA_CustomDoor": "{{ModId}}_GlassDoorBrown"
+     }
+    },
+    {
+     "Position": {
+      "X": 25,
+      "Y": 15
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "TouchAction": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_CheapRoom",
+      "EMA_CustomDoor": "{{ModId}}_GlassDoorFlipBrown"
+     }
+    },
+    {
+     "Position": {
+      "X": 18,
+      "Y": 31
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Spiderbuttons.BETAS_Action Spiderbuttons.BETAS_Message [LocalizedText Aviroen.VoidsentCP/ShopTranslations:Edelweiss]"
+     }
+    },
+    {
+     "Position": {
+      "X": 12,
+      "Y": 16
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "TouchAction": "spacechase0.SpaceCore_TriggerAction {{ModId}}_Expensive"
+     }
+    },
+    {
+     "Position": {
+      "X": 13,
+      "Y": 16
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "TouchAction": "Sleep"
+     }
+    },
+    {
+     "Position": {
+      "X": 14,
+      "Y": 16
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "TouchAction": "Sleep"
+     }
+    },
+    {
+     "Position": {
+      "X": 15,
+      "Y": 16
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "TouchAction": "Sleep"
+     }
+    },
+    {
+     "Position": {
+      "X": 26,
+      "Y": 16
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "TouchAction": "Sleep"
+     }
+    },
+    {
+     "Position": {
+      "X": 27,
+      "Y": 16
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "TouchAction": "Sleep"
+     }
+    }
+   ]
+  }
+ ]
+}

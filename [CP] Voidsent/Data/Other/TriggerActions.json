@@ -12,6 +12,23 @@
      "Actions": [
       "AddMail Current {{ModId}}_EdelweissWarp tomorrow"
      ]
+    },
+    "{{ModId}}_Rooms": {
+     "Id": "{{ModId}}_Rooms",
+     "Trigger": "DayEnding",
+     "Condition": "ANY \"PLAYER_HAS_MAIL Current {{ModId}}_ExpensiveRoom\" \"PLAYER_HAS_MAIL Current {{ModId}}_CheapRoom\"",
+     "MarkActionApplied": false,
+     "Actions": [
+      "RemoveMail Current {{ModId}}_ExpensiveRoom all",
+      "RemoveMail Current {{ModId}}_CheapRoom all",
+      "MarkActionApplied Current {{ModId}}_Expensive false"
+     ]
+    },
+    "{{ModId}}_Expensive": {
+     "Id": "{{ModId}}_Expensive",
+     "Trigger": "Manual",
+     "Condition": null,
+     "Action": "Spiderbuttons.BETAS_RandomAction \"AddBuff 20 -2\" \"AddBuff 22 -2\" \"AddBuff 20 -2\" \"AddBuff statue_of_blessings_0 -2\" \"AddBuff statue_of_blessings_1 -2\" \"AddBuff statue_of_blessings_2 -2\" \"AddBuff statue_of_blessings_3 -2\" \"AddBuff statue_of_blessings_5 -2\" \"AddBuff statue_of_blessings_6 -2\""
     }
    }
   }

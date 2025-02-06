@@ -5,3 +5,7 @@
 {{ModId}}_MoorUnlock
 {{ModId}}_CommonwealthUnlock
 {{ModId}}_GroveUnlock
+
+Yrsin:
+{{ModId}}_YrsinHideoutsUnlocked
+{{ModId}}_ExpensiveRoom
