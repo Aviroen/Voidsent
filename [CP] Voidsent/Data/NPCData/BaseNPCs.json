@@ -114,29 +114,31 @@
     "SPECIAL2": "wag",
     "SPECIAL2ANIMATION": "20/20 20 20 20 20 21 22 23 20 20 20 20 20 20/20",
     "ENDRANGE": "4",
-    "SPRINGSCHEDULE": "610 {{Yrsin}}_Hideout1 15 16 2/900 {{Yrsin}}_Hideout2 2 14 2 {{Yrsin}}_wag/1200 {{Yrsin}}_Hideout3 14 12 2 {{Yrsin}}_sleforward/1500 {{Yrsin}}_Hideout4 5 13 2/1800 16 16 1/2000 {{Yrsin}}_Office 13 6 2 {{Lowercase:{{Yrsin}}_sleep}}",
+    "SPRINGSCHEDULE": "610 {{Yrsin}}_Office 9 5 2/2600 {{Yrsin}}_Hideout1 15 16 2 {{Yrsin}}_sleep",
     "SUMMERSCHEDULE": "GOTO spring",
     "FALLSCHEDULE": "GOTO spring",
     "WINTERSCHEDULE": "GOTO spring",
-    //hammering
-    "MONDAYSCHEDULE": "GOTO spring",
-    //alchemy
-    "TUESDAYSCHEDULE": "GOTO spring",
-    //reading
-    "WEDNESDAYSCHEDULE": "GOTO spring",
-    //grave
+
+    //office
+    "MONDAYSCHEDULE": "610 {{Yrsin}}_Office 9 5 2/2600 {{Yrsin}}_Hideout1 15 16 2 {{Yrsin}}_sleep",
+    //office
+    "TUESDAYSCHEDULE": "610 {{Yrsin}}_Office 9 5 2/2600 {{Yrsin}}_Hideout1 15 16 2 {{Yrsin}}_sleep",
+    //office
+    "WEDNESDAYSCHEDULE": "610 {{Yrsin}}_Office 9 5 2/2600 {{Yrsin}}_Hideout1 15 16 2 {{Yrsin}}_sleep",
+    //morabyr alley
     "THURSAYSCHEDULE": "GOTO spring",
-    //hammer
-    "FRIDAYSCHEDULE": "GOTO spring",
+    //breakfast inn bed
+    "FRIDAYSCHEDULE": "610 {{ModId}}_BreakfastInnBed 11 33 2/2600 {{Yrsin}}_Hideout1 15 16 2 {{Yrsin}}_sleep",
+    //port morabyr port
     "SATURDAYSCHEDULE": "GOTO spring",
-    "SUNDAYSCHEDULE": "GOTO spring",
-    "marriage_MONDAYSCHEDULE": "GOTO spring",
-    "marriage_TUESDAYSCHEDULE": "GOTO spring",
-    "marriage_WEDNESDAYSCHEDULE": "GOTO spring",
-    "marriage_THURSAYSCHEDULE": "GOTO spring",
-    "marriage_FRIDAYSCHEDULE": "GOTO spring",
-    "marriage_SATURDAYSCHEDULE": "GOTO spring",
-    "marriage_SUNDAYSCHEDULE": "GOTO spring",
+    "SUNDAYSCHEDULE": "610 {{ModId}}_BreakfastInnBed 34 6 2 {{Yrsin}}_wag/2600 {{Yrsin}}_Hideout1 15 16 2 {{Yrsin}}_sleep",
+    "marriage_MONDAYSCHEDULE": "GOTO Mon",
+    "marriage_TUESDAYSCHEDULE": "GOTO Tue",
+    "marriage_WEDNESDAYSCHEDULE": "GOTO Wed",
+    "marriage_THURSAYSCHEDULE": "GOTO Thu",
+    "marriage_FRIDAYSCHEDULE": "GOTO Fri",
+    "marriage_SATURDAYSCHEDULE": "GOTO Sat",
+    "marriage_SUNDAYSCHEDULE": "GOTO Sun",
 
     //HEART DIALOGUES
     "2HEART": true, //true/false
@@ -346,8 +348,8 @@
     "HOMEXTILE": "21",
     "HOMEYTILE": "29",
     "HOMEFACING": "down", //left, right, up, down
-    "LOVEDGIFTS": "{{ModId}}_ShortfinMakoShark, {{ModId}}_DogfishShark, {{ModId}}_FrilledShark, {{ModId}}_ThresherShark, {{ModId}}_BlueShark, {{ModId}}_NurseShark, {{ModId}}_ZebraShark, {{ModId}}_TigerShark, {{ModId}}_BullShark, {{ModId}}_HammerheadShark, {{ModId}}_Shorbk, {{ModId}}_WhaleShark, {{ModId}}_Megalodon, 797, 166",
-    "LIKEDGIFTS": "category_fish, category_metal_resources",
+    "LOVEDGIFTS": "166",
+    "LIKEDGIFTS": "category_fish",
     "DISLIKEDGIFTS": "category_bait",
     "HATEDGIFTS": "category_litter, category_junk",
     "NEUTRALGIFTS": "category_building_resources",

@@ -29,6 +29,12 @@
      "Trigger": "Manual",
      "Condition": null,
      "Action": "AddBuff {{Random:20,22,statue_of_blessings_0,statue_of_blessings_1,statue_of_blessings_2,statue_of_blessings_3,statue_of_blessings_5,statue_of_blessings_6}} -2"
+    },
+    "{{ModId}}_TheBeginning": {
+     "Id": "{{ModId}}_TheBeginning",
+     "Trigger": "DayStarted",
+     "Condition": null,
+     "Action": "AddMail Current {{ModId}}_TheBeginning tomorrow"
     }
    }
   }

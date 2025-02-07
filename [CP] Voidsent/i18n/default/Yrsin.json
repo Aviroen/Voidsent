@@ -38,7 +38,7 @@
  "Yrsin.Engaged": "Shall we have a mermadic celebration?$1#$b#It involves hunting, if you're so inclined.$6",
  "Yrsin.AfterWedding": "Like a tidal wave, the festivities of a mermadic wedding come to a close.$6#$b#Shall I look forward to your relatively short lifespan and remember these days fondly?$6",
 
- //monday hideout
+ //monday office
  //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_
  "BETAS.Yrsin.Monday_0": "I've got business to attend to, love.$1",
  "BETAS.Yrsin.Monday_1": "What, did you want to keep Yrrek company?$6",

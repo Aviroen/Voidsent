@@ -42,7 +42,7 @@
       }
      }
     },
-    "{{Lowercase:{{Edelweiss}}_sleepy}}": { // Change this to your animation name
+    "{{Edelweiss}}_sleforward": { // Change this to your animation name
      "SourceRectSize": "16, 32", // The size of the animation in pixels.
      "DrawOffset": "0, 0", // For example, Willy's fishing animation uses X=0 Y=96
      "AppearanceOverride": null, // If not null, uses a specific appearance from the NPC's appearance data during this animation

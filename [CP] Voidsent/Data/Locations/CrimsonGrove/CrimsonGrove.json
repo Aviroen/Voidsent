@@ -1,3 +1,16 @@
 {
-
+ "Changes": [
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "CrimsonGrove",
+    "INTERIORORLOCATIONS": "Locations",
+    "XARRIVAL": "8",
+    "YARRIVAL": "18",
+    "MUSIC": "mermaidSong",
+    "AREA": "CrimsonGrove"
+   }
+  }
+ ]
 }

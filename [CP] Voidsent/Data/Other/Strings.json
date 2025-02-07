@@ -91,6 +91,40 @@
     "{{ModId}}_Leave": "{{i18n:Leave}}",
     "{{ModId}}_Leaving": "{{i18n:Leaving}}"
    }
+  },
+  {
+   "Action": "Load",
+   "Target": "Mods/{{MainModId}}/Bookshelf",
+   "FromFile": "Data/Blank.json"
+  },
+  {
+   "Action": "EditData",
+   "Target": "Mods/{{MainModId}}/Bookshelf",
+   "Entries": {
+    "{{MainModId}}": [
+     "{{i18n: books.cooking.1}}",
+
+     "{{i18n: books.geography.1}}",
+     "{{i18n: books.geography.2}}",
+     "{{i18n: books.geography.3}}",
+     "{{i18n: books.geography.4}}",
+     "{{i18n: books.geography.5}}",
+     "{{i18n: books.geography.6}}",
+
+     "{{i18n: books.history.1}}",
+     "{{i18n: books.history.2}}",
+     "{{i18n: books.history.3}}",
+     "{{i18n: books.history.4}}",
+     "{{i18n: books.history.5}}",
+     "{{i18n: books.history.6}}",
+
+     "{{i18n: books.promotional.1}}",
+
+     "{{i18n: books.religion.1}}",
+
+     "{{i18n: books.science.1}}"
+    ]
+   }
   }
  ]
 }

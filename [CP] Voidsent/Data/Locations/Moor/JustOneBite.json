@@ -78,7 +78,7 @@
       "EMA_CustomDoor": "{{ModId}}_GlassDoorFlipPolo",
       "Action": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_YrsinHideoutsUnlocked"
      }
-    }
+    },
     {
      "Position": {
       "X": 10,

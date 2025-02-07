@@ -6,6 +6,7 @@ using StardewUI.Framework;
 using HarmonyLib;
 using StardewValley.Triggers;
 using System.Reflection;
+using System.Reflection.Metadata;
 
 namespace Voidsent
 {
@@ -56,6 +57,7 @@ namespace Voidsent
 
             helper.ConsoleCommands.Add("lizard", "Spawn lizard.", Lizard.LizardDebugCmd);
             GameLocation.RegisterTileAction("Aviroen.Voidsent_SummonLizard", Lizard.HandleSummonLizard);
+            GameLocation.RegisterTileAction("Aviroen.Voidsent", Pathoschild.OnCentralAction);
             TriggerActionManager.RegisterAction("Aviroen.Voidsent_RandomDialogue", RandomDialogueAction.Action);
 
             ModHelper = helper;
@@ -68,6 +70,7 @@ namespace Voidsent
             SocialPagePatch.Initialize(Monitor);
             ProfileMenuPatch.Initialize(Monitor);
             RandomDialogueAction.Initialize(helper.ModRegistry);
+            Pathoschild.Initialize(helper.ModRegistry, ModManifest.UniqueID);
 
             Harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
@@ -128,45 +131,5 @@ namespace Voidsent
                 outdoorLocations.Add(Game1.getLocationFromName(k));
             }
         }
-        /*
-        private string SeasonOverrider()
-        {
-            if (Game1.stats.DaysPlayed % 56 == 0)
-            {
-                for (int i = 0; i <= 3; i++)
-                {
-                    switch (i)
-                    {
-                        case 0:
-                            return "Summer";
-                        case 1:
-                            return "Fall";
-                        case 2:
-                            return "Winter";
-                        case 3:
-                            return "Spring";
-                    }
-                }
-            }
-            return "Spring";
-        }
-        private void OnAssetRequested(object? sender, AssetRequestedEventArgs e)
-        {
-            for (int i = 0; i < outdoorNames.Count; i++)
-            {
-                var location = outdoorNames[i];
-                if (e.Name.IsEquivalentTo("Maps/" + outdoorNames[i]))
-                {
-                    e.Edit(asset =>
-                    {
-                        IAssetDataForMap editor = asset.AsMap();
-                        Map map = editor.Data;
-
-                        map.Properties["SeasonOverride"] = SeasonOverrider();
-                    });
-                }
-            }
-        }
-        */
     }
 }
