@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.1" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="25" nextobjectid="118">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="26" nextobjectid="126">
  <editorsettings>
   <export format="tmx"/>
  </editorsettings>
- <tileset firstgid="1" name="kailey_mine_frost_dangerous" tilewidth="16" tileheight="16" tilecount="816" columns="16">
-  <image source="kailey_mine_frost_dangerous.png" width="256" height="816"/>
+ <tileset firstgid="1" name="kailey_mine_frost_dangerous" tilewidth="16" tileheight="16" tilecount="848" columns="16">
+  <image source="kailey_mine_frost_dangerous.png" width="256" height="848"/>
  </tileset>
- <tileset firstgid="817" name="pirates_tilesheet" tilewidth="16" tileheight="16" tilecount="190" columns="19">
+ <tileset firstgid="849" name="pirates_tilesheet" tilewidth="16" tileheight="16" tilecount="190" columns="19">
   <image source="pirates_tilesheet.png" width="304" height="160"/>
  </tileset>
- <tileset firstgid="1007" name="townInterior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+ <tileset firstgid="1039" name="townInterior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
   <image source="townInterior.png" width="512" height="1088"/>
  </tileset>
- <tileset firstgid="3183" name="kailey_desert" tilewidth="16" tileheight="16" tilecount="3276" columns="42">
+ <tileset firstgid="3215" name="kailey_desert" tilewidth="16" tileheight="16" tilecount="3276" columns="42">
   <image source="kailey_desert.png" width="672" height="1248"/>
   <tile id="0">
    <animation>
@@ -967,213 +967,88 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="6459" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+ <tileset firstgid="6491" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
   <image source="paths.png" width="64" height="256"/>
  </tileset>
  <layer id="1" name="Back" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJyllNFtwjAQht2UCYANyjClXaBhA0YIbED7HAnosyuRPEPmoOkCBPbgLP0n/VwTp6gPnxw78X//3dmZPTg3Mzy632v3UojGQBgLH8KT8CXsibxjrIidMBG2GM/CJ9YP5lvFQ8djzjGH8LQSvqETfCbQ8/DhiYr0PMUJ352EIzQT6AVK6Nl97IXnGreEr8BG+BEa4Z38cW7shfVy9LBEzS6gQP1GVL/c6Hl361PnFbxs4LNG7QbQPZhvbd00R42pZ62huiXIddzRX/aWu9v8VfMEPzV0hqin+mNv9pzY3IPeCPXaYizwrP7smWjrs+bOd+yI3jTwyufP7uU+8buu+xd017SXe2A96aj+2u5UYCrvXu7gNaIVSMnvkp6zyH+lT28JFhENjhXL6e0P+y2cU5uH2Fpb3qmZZz3x+5gLz//Yb7kCjbXTXg==
+   eJy9lMsNwjAQRE2gAqADKIZPA0AHtAKcI/E5G4nkDKkDQgME+mAtzUqThSARIQ5Pjn/j2V07s4ZzM0PTvY59SyIaLaErrISesBeORFzRZsRB6AtbtHdhh/GTWat46Hj0+cw2PC2EC3SCzwh6Hj48kZGep3PCuptwhmYEvUAKPbuPvXBfz03hK7ARrkIhLMkfx8ZeWC9GDVPk7AES5K9D+YuNnndln9rP4GUDnzly14Luyay1edMY9Uy9awXlLUKs3Yr6srfYleNXzRv85NBpI5/qj73Ze2JjD3od5GuLNsG3+rN34l2dNXZ+Y2fUpoBXvn92L9eJ56reX9Bd016ugfWkrfp796YCQ5kbfcH4g1ZgWuO/8mu9TzFNaujV8fBPvbkw+KHeE8EP0bs=
   </data>
  </layer>
  <layer id="23" name="Back1" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBjZoIINlSakFp+6XlbCZkxkJ85dVTjsIcad9AK4/IvLj4T8TmwcEANwqaN1+BEbv5SASVTyw2BIS7j8UkVCvkQGoDRJLX+hu40UcysJlBXDBQAA3DkOQg==
+   eJxjYBjZYAYbKk1ILT51a1kJm7GRnTh3zcJhDzHupBfA5V9cfiTkd2LjgBiASx2tw4/Y+KUEbKKSHwZDWsLll1kk5EtkAEqT1PIXuttIMXcmgbJiuAAAfN4Rog==
   </data>
  </layer>
  <layer id="21" name="Back2" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFuIC7GAODBxB7ilHHvEKgOUVAXEwF86aLMzDMBpozB4jnikH4MLCFnYFhKztx5uDyI7l+R/ejpDh2cWIBsh+JEScWgMIL2Y/I4UcuoGb8ggClfhwFo4DWAACi0ReA
+   eJxjYBgFuEC6GANDBhBnilHHvIlAcyYB8WQqmLddnIFhN9CcPUC8VwzCh4Er7AwMV9mJMweXH8n1O7ofLcWxixMLkP1IjDixABReyH5EDj9yATXjFwQo9eMoGAW0BgCajBzg
   </data>
  </layer>
  <layer id="19" name="Buildings" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJyt1E0vA0Ecx/H/pbsJB16CF4CqsxcgHi8kHhMR9VgPQT0WvZQbLq704ooD916cueGgirPwBojvZCcy3ViZ2p3kk5md/veXzmR2kiIyjgmkMINZ3fcY45QeK9O+uW3sIIs0VrCKDDaxpfsxY5zRY2XDN7ePAxwih13sYdEROdeWsOyb+42qO6buBHkcSTTtDBc4RSIm0hwLn1nAVfgYuXTJQVG89T6yB0UnfO6IeOv9JOvrn3n9mMM8FsRb752RNYVR9FrmqXrz/F37fl/XkpZ5qtY8f/UBdWnLPNXU+btxJJunbwmoyVWQp9o7eQX6dnSgE23Gc2uFeTWuZG/pBzGEYQwYz3144oyX8IwXvP5x5uPklaT8njDvjUkkXPv/103eh5TfE+a9sWYf9dPU96H2KejesGlNxhpqxdunKJrKrRNvn6JqXeJ9H/cBHnTdGxoR1+8oVajW4wZj/hsOvWAg
+   eJyt1MsuQ0Ecx/E/0tOEBS9APAD6Ah5A3CskromIupZaqGvRTdkhxJZubMXGvhtrFiRsxAsIOyuX7z9nItMTR06d/pNPZs50+ktnOmcSIjKFaSQxjwXT9lv9pOmrOc/YNnaQRRorWEUGm9gy7aTVz5i+2vCM7eMAh8hhF3s4ckRujGMse8Z+o/NOmXeGPE6kPHWBS5wjHhHpi4TPLOAqfIzcRUXu8STuej/Yg08nfO64uOutJ7sh+r+MISwihSVx1/tu/bZZTGAgYJ7Ot8/ftefzdSMRME/n2uevyWdeOmCelp6/V0eyedpWnzm5EvK0aqOSLdB2oBNdaLee20rMi5F3SzuCUYxh2HoexJeecf6rClSi6o8z1UPesxTfE/a9MYN4CWcoRd6bFN8T9r2xFjzqp/T90H3yuzeCVK+1hjpx96kcpbmN4u5Tuapb3PfjwcejmfeCFsTMd1Q1aky/2Rr/BilrXkc=
   </data>
  </layer>
  <layer id="22" name="Buildings1" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYEAAIzYGhnwoNmbDFMOGYeqQQTErA0MJEAcB5fqhOBiqDlkMGw7GYt5koFlTWDHFR8HQBE5A7ExF84KAOJiK5g0XwAXE3EDMS4IeXPkdWz4nBuDK79jy+UCYNwooAwBsaxj7
+   eJxjYECAIDYGhn4oDmbDFMOGYeqQwWRWBoYpQFwElFsPxcVQdchi2HAxFvM2A83awoopPgqGJnACYmcqmhcExMFUNG+4AC4g5gZiXhL04Mrv2PI5MQBXfseWzwfCvFFAGQAAa4AfWw==
   </data>
  </layer>
  <layer id="15" name="Front" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgYcIEVlR/ODqGjOOnvloEGU4B+n8qO4O9lY2DYxzZw7hkFAwOuQ/ENIF4EzB+LWQloIAD2A/UfAOKDQHwIiA9TaN5gBUs5BtoFIxcAAGG8DLU=
+   eJxjYBgY8IEVlV/ODqGrOOnvloEGW4B+38qO4N9lY2C4xzZw7hkFAwOuQ/ENID4EzB+HWQloIADuA/U/AOKHQPwIiB9TaN5gBUc5BtoFIxcAADOlDpU=
   </data>
  </layer>
  <layer id="20" name="AlwaysFront" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBj8oJ+VgWECK/XMWw80awMVzaMlOAfE14H4JpHq70LV38Ah7wnEXkDsQaR5IPVxQByPQz4SiKOAOIJI8wgBTU7KzTiGxPakgnnX0Mw8R6F5tlAzYfF0D41PbFyPAvIBpXGIbtY9KptlQIIe5DyPToPM8oNiWgAAztgg9Q==
+   eJxjYBj8YD0rA8MGVuqZdx5o1gUqmkdLcA6IrwPxTSLV34Wqv4FD3hOIvYDYg0jzQOrjgDgeh3wkEEcBcQSR5hG0j5NyM44hsTOpYN41NDPPUWieLdRMWDzdQ+MTG9ejgHxAaRyim3WPymYZkKAHOc+j0yCz/KCYFgAAahQhtQ==
   </data>
  </layer>
  <layer id="17" name="Paths" width="20" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgF9ATOkgPtAtoDZD/iYhOrf6iBoez2UTAKSAUATnICKQ==
+   eJxjYBgF9ATJkgPtAtoDZD/iYhOrf6iBoez2UTAKSAUAMB8C6Q==
   </data>
  </layer>
- <objectgroup id="24" name="Buildings">
-  <object id="85" name="TileData" x="96" y="256" width="16" height="16">
+ <objectgroup id="25" name="Buildings">
+  <object id="118" name="TileData" x="48" y="32" width="64" height="16">
    <properties>
-    <property name="Action" value="Message 26053Books_0"/>
+    <property name="Action" value="Aviroen.Voidsent Bookshelf"/>
    </properties>
   </object>
-  <object id="86" name="TileData" x="80" y="256" width="16" height="16">
+  <object id="119" name="TileData" x="128" y="32" width="144" height="16">
    <properties>
-    <property name="Action" value="Message 26053Books_1"/>
+    <property name="Action" value="Aviroen.Voidsent Bookshelf"/>
    </properties>
   </object>
-  <object id="87" name="TileData" x="64" y="256" width="16" height="16">
+  <object id="120" name="TileData" x="16" y="256" width="96" height="16">
    <properties>
-    <property name="Action" value="Message 26053Books_2"/>
+    <property name="Action" value="Aviroen.Voidsent Bookshelf"/>
    </properties>
   </object>
-  <object id="88" name="TileData" x="48" y="256" width="16" height="16">
+  <object id="121" name="TileData" x="112" y="208" width="80" height="16">
    <properties>
-    <property name="Action" value="Message 26053Books_3"/>
+    <property name="Action" value="Aviroen.Voidsent Kitchen"/>
    </properties>
   </object>
-  <object id="89" name="TileData" x="32" y="256" width="16" height="16">
+  <object id="122" name="TileData" x="288" y="240" width="64" height="16" rotation="270">
    <properties>
-    <property name="Action" value="Message 26053Books_4"/>
+    <property name="Action" value="Aviroen.Voidsent Bookshelf"/>
    </properties>
   </object>
-  <object id="90" name="TileData" x="16" y="256" width="16" height="16">
+  <object id="123" name="TileData" x="112" y="240" width="16" height="16" rotation="270">
    <properties>
-    <property name="Action" value="Message 26053Books_5"/>
+    <property name="Action" value="Aviroen.Voidsent Bookshelf"/>
    </properties>
   </object>
-  <object id="91" name="TileData" x="288" y="224" width="16" height="16">
+  <object id="124" name="TileData" x="256" y="272" width="16" height="16" rotation="270">
    <properties>
-    <property name="Action" value="Message 26053Books_6"/>
+    <property name="Action" value="Aviroen.Voidsent Bookshelf"/>
    </properties>
   </object>
-  <object id="92" name="TileData" x="288" y="208" width="16" height="16">
+  <object id="125" name="TileData" x="16" y="144" width="16" height="16" rotation="270">
    <properties>
-    <property name="Action" value="Message 26053Books_7"/>
-   </properties>
-  </object>
-  <object id="93" name="TileData" x="288" y="192" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message 26053Books_8"/>
-   </properties>
-  </object>
-  <object id="94" name="TileData" x="288" y="176" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message 26053Books_9"/>
-   </properties>
-  </object>
-  <object id="95" name="TileData" x="288" y="160" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message 26053Books_10"/>
-   </properties>
-  </object>
-  <object id="96" name="TileData" x="48" y="32" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message 26053Books_11"/>
-   </properties>
-  </object>
-  <object id="97" name="TileData" x="64" y="32" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message 26053Books_12"/>
-   </properties>
-  </object>
-  <object id="98" name="TileData" x="80" y="32" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message 26053Books_13"/>
-   </properties>
-  </object>
-  <object id="99" name="TileData" x="96" y="32" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message 26053Books_14"/>
-   </properties>
-  </object>
-  <object id="100" name="TileData" x="128" y="32" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message 26053Books_15"/>
-   </properties>
-  </object>
-  <object id="101" name="TileData" x="144" y="32" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message 26053Books_16"/>
-   </properties>
-  </object>
-  <object id="102" name="TileData" x="160" y="32" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message 26053Books_17"/>
-   </properties>
-  </object>
-  <object id="103" name="TileData" x="176" y="32" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message 26053Books_18"/>
-   </properties>
-  </object>
-  <object id="104" name="TileData" x="192" y="32" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message 26053Books_19"/>
-   </properties>
-  </object>
-  <object id="105" name="TileData" x="208" y="32" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message 26053Books_20"/>
-   </properties>
-  </object>
-  <object id="106" name="TileData" x="224" y="32" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message 26053Books_21"/>
-   </properties>
-  </object>
-  <object id="107" name="TileData" x="240" y="32" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message 26053Books_22"/>
-   </properties>
-  </object>
-  <object id="108" name="TileData" x="256" y="32" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message 26053Books_23"/>
-   </properties>
-  </object>
-  <object id="109" name="TileData" x="272" y="80" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message EdelHouse.5"/>
-   </properties>
-  </object>
-  <object id="110" name="TileData" x="288" y="80" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message EdelHouse.6"/>
-   </properties>
-  </object>
-  <object id="111" name="TileData" x="112" y="208" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message 26053Kitchen_0"/>
-   </properties>
-  </object>
-  <object id="112" name="TileData" x="128" y="208" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message 26053Kitchen_1"/>
-   </properties>
-  </object>
-  <object id="113" name="TileData" x="144" y="208" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message EdelHouse.16"/>
-   </properties>
-  </object>
-  <object id="114" name="TileData" x="160" y="208" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message 26053Kitchen_3"/>
-   </properties>
-  </object>
-  <object id="115" name="TileData" x="176" y="208" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message EdelHouse.15"/>
-   </properties>
-  </object>
-  <object id="116" name="TileData" x="16" y="128" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message EdelHouse.22"/>
-   </properties>
-  </object>
-  <object id="117" name="TileData" x="96" y="240" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message 26053Books_22"/>
+    <property name="Action" value="Aviroen.Voidsent TV"/>
    </properties>
   </object>
  </objectgroup>

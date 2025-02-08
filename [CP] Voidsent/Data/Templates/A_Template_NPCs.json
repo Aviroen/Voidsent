@@ -87,7 +87,7 @@
     "{{ModId}}_{{NPCNAME}}_DialogueOpened1": {
      "Id": "{{ModId}}_{{NPCNAME}}_DialogueOpened1",
      "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, {{Query:{{Hearts:{{NPCNAME}}}} >= 2}}, ITEM_STACK Target 1, !PLAYER_NPC_RELATIONSHIP Current {{ModId}}_{{NPCNAME}} Married, ANY \"{{2HEART}}\" \"{{4HEART}}\" \"{{6HEART}}\" \"{{8HEART}}\" \"{{10HEART}}\"",
+     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, {{Query:{{Hearts:{{ModId}}_{{NPCNAME}}}} >= 2}}, ITEM_STACK Target 1, !PLAYER_NPC_RELATIONSHIP Current {{ModId}}_{{NPCNAME}} Married, ANY \"{{2HEART}}\" \"{{4HEART}}\" \"{{6HEART}}\" \"{{8HEART}}\" \"{{10HEART}}\"",
      "MarkActionApplied": false,
      "Actions": [
       "Aviroen.Voidsent_RandomDialogue Aviroen.VoidsentCP {{ModId}}_{{NPCNAME}} BETAS.{{NPCNAME}}.{{DayOfWeek}}{{Hearts:{{NPCNAME}}}}_ {{Range:0,{{ENDRANGE}}}}",
@@ -116,8 +116,8 @@
    "Action": "EditData",
    "Target": "Data/TriggerActions",
    "Entries": {
-    "{{ModId}}_{{NPCNAME}}_DialogueOpened": {
-     "Id": "{{ModId}}_{{NPCNAME}}_DialogueOpened",
+    "{{ModId}}_{{NPCNAME}}_DialogueOpenedWiped": {
+     "Id": "{{ModId}}_{{NPCNAME}}_DialogueOpenedWiped",
      "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
      "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, ITEM_STACK Target 1, !PLAYER_NPC_RELATIONSHIP Current {{ModId}}_{{NPCNAME}} Married, PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}_Wiped, {{BETASWIPED}}",
      "MarkActionApplied": false,
@@ -130,10 +130,10 @@
    "Action": "EditData",
    "Target": "Data/TriggerActions",
    "Entries": {
-    "{{ModId}}_{{NPCNAME}}_DialogueOpened1": {
-     "Id": "{{ModId}}_{{NPCNAME}}_DialogueOpened1",
+    "{{ModId}}_{{NPCNAME}}_DialogueOpened1Wiped": {
+     "Id": "{{ModId}}_{{NPCNAME}}_DialogueOpened1Wiped",
      "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, {{Query:{{Hearts:{{NPCNAME}}}} >= 2}}, ITEM_STACK Target 1, !PLAYER_NPC_RELATIONSHIP Current {{ModId}}_{{NPCNAME}} Married, PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}_Wiped, {{BETASWIPED}}, ANY \"{{2HEART}}\" \"{{4HEART}}\" \"{{6HEART}}\" \"{{8HEART}}\" \"{{10HEART}}\"",
+     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, {{Query:{{Hearts:{{ModId}}_{{NPCNAME}}}} >= 2}}, ITEM_STACK Target 1, !PLAYER_NPC_RELATIONSHIP Current {{ModId}}_{{NPCNAME}} Married, PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}_Wiped, {{BETASWIPED}}, ANY \"{{2HEART}}\" \"{{4HEART}}\" \"{{6HEART}}\" \"{{8HEART}}\" \"{{10HEART}}\"",
      "MarkActionApplied": false,
      "Actions": [
       "Aviroen.Voidsent_RandomDialogue Aviroen.VoidsentCP {{ModId}}_{{NPCNAME}} BETAS.Wiped.{{NPCNAME}}.{{DayOfWeek}}{{Hearts:{{NPCNAME}}}}_ {{Range:0,{{ENDRANGE}}}}",
@@ -147,8 +147,8 @@
    "Action": "EditData",
    "Target": "Data/TriggerActions",
    "Entries": {
-    "{{ModId}}_{{NPCNAME}}_Married": {
-     "Id": "{{ModId}}_{{NPCNAME}}_Married",
+    "{{ModId}}_{{NPCNAME}}_MarriedWiped": {
+     "Id": "{{ModId}}_{{NPCNAME}}_MarriedWiped",
      "Trigger": "Spiderbuttons.BETAS_NpcKissed",
      "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}_Wiped, {{BETASWIPED}}",
      "MarkActionApplied": false,

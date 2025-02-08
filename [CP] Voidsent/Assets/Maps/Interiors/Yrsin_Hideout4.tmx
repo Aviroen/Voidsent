@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.1" orientation="orthogonal" renderorder="right-down" width="20" height="21" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="1">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="21" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="2">
  <tileset firstgid="1" name="spring_outdoorsTileSheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
   <image source="spring_outdoorsTileSheet.png" width="400" height="1264"/>
   <tile id="333">
@@ -965,8 +965,8 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="5252" name="kailey_mine_frost_dangerous" tilewidth="16" tileheight="16" tilecount="816" columns="16">
-  <image source="kailey_mine_frost_dangerous.png" width="256" height="816"/>
+ <tileset firstgid="5252" name="kailey_mine_frost_dangerous" tilewidth="16" tileheight="16" tilecount="848" columns="16">
+  <image source="kailey_mine_frost_dangerous.png" width="256" height="848"/>
  </tileset>
  <layer id="1" name="Back" width="20" height="21">
   <data encoding="csv">
@@ -1143,4 +1143,11 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
+ <objectgroup id="8" name="Buildings">
+  <object id="1" name="TileData" x="240" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message Hideout4Bird"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>

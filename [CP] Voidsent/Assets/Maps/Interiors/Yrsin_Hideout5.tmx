@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="21" tilewidth="16" tileheight="16" infinite="0" nextlayerid="8" nextobjectid="1">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="21" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="3">
  <tileset firstgid="1" name="spring_outdoorsTileSheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
   <image source="spring_outdoorsTileSheet.png" width="400" height="1264"/>
   <tile id="333">
@@ -968,10 +968,10 @@
  <tileset firstgid="5252" name="townInterior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
   <image source="townInterior.png" width="512" height="1088"/>
  </tileset>
- <tileset firstgid="7428" name="kailey_mine_dangerous" tilewidth="16" tileheight="16" tilecount="816" columns="16">
-  <image source="kailey_mine_dangerous.png" width="256" height="816"/>
+ <tileset firstgid="7428" name="kailey_mine_dangerous" tilewidth="16" tileheight="16" tilecount="848" columns="16">
+  <image source="kailey_mine_dangerous.png" width="256" height="848"/>
  </tileset>
- <tileset firstgid="8244" name="Aviroen.VoidsentCP_Tilesheets" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+ <tileset firstgid="8276" name="Aviroen.VoidsentCP_Tilesheets" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
   <image source="Aviroen.VoidsentCP_Tilesheets.png" width="512" height="512"/>
  </tileset>
  <layer id="1" name="Back" width="20" height="21">
@@ -1011,8 +1011,8 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,5901,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,8418,0,8420,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,8450,8451,8452,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,8450,0,8452,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,8482,8483,8484,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5901,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,5901,0,0,0,0,0,
@@ -1086,7 +1086,7 @@
 7592,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7635,0,7505,
 7608,0,0,0,0,0,0,5927,0,0,0,0,0,0,0,0,0,7651,0,7505,
 7624,0,0,0,0,0,0,0,0,0,0,5903,0,0,0,0,0,7667,0,7505,
-7497,7556,7557,7502,7521,0,0,0,0,0,0,0,0,0,0,8419,0,7500,0,7505,
+7497,7556,7557,7502,7521,0,0,0,0,0,0,0,0,0,0,8451,0,7500,0,7505,
 7496,7572,7573,7518,7537,7521,7522,0,0,0,0,0,0,0,0,0,0,7516,0,7539,
 7512,7588,7589,7534,7553,7537,7538,7538,7539,7505,7660,0,0,0,5840,5841,5842,7532,0,7555,
 7528,7604,7605,7550,7569,7553,7554,7554,7555,7505,7512,0,0,0,0,5571,0,7548,0,7571,
@@ -1131,11 +1131,11 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7489,7490,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7505,7505,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7505,7505,
-0,0,0,0,0,0,0,0,0,0,0,0,0,8257,8258,8259,8260,8261,7505,7505,
-0,0,0,0,0,0,0,0,0,0,0,0,0,8289,8290,8291,8292,8293,7472,7505,
-0,0,0,0,0,0,0,0,0,22,0,0,0,8321,8322,8323,8324,8325,7505,7505,
-0,0,0,0,0,0,0,0,0,0,0,0,0,8353,8354,8355,8356,8357,7505,7505,
-0,7643,7642,7642,7643,7644,0,0,0,0,0,0,0,8385,8386,8387,8388,8389,7505,7505,
+0,0,0,0,0,0,0,0,0,0,0,0,0,8289,8290,8291,8292,8293,7505,7505,
+0,0,0,0,0,0,0,0,0,0,0,0,0,8321,8322,8323,8324,8325,7472,7505,
+0,0,0,0,0,0,0,0,0,22,0,0,0,8353,8354,8355,8356,8357,7505,7505,
+0,0,0,0,0,0,0,0,0,0,0,0,0,8385,8386,8387,8388,8389,7505,7505,
+0,7643,7642,7642,7643,7644,0,0,0,0,0,0,0,8417,8418,8419,8420,8421,7505,7505,
 0,0,0,0,0,7641,7643,7644,0,0,0,0,0,0,0,0,0,0,0,7489,
 0,0,0,0,0,0,0,7641,7642,7643,7644,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,7539,7505,7660,0,0,0,0,0,0,0,0,0,
@@ -1149,4 +1149,16 @@
 0,0,0,0,0,0,0,7649,7505,7505,7624,7625,0,0,0,0,0,0,0,0
 </data>
  </layer>
+ <objectgroup id="8" name="Buildings">
+  <object id="1" name="TileData" x="240" y="288" width="16" height="16">
+   <properties>
+    <property name="Action" value="Aviroen.Voidsent Dining"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="16" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Aviroen.Voidsent Bookshelf"/>
+   </properties>
+  </object>
+ </objectgroup>
 </map>
