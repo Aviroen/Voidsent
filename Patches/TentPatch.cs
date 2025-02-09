@@ -3,7 +3,7 @@ using HarmonyLib;
 using StardewModdingAPI;
 using StardewValley;
 //written by irocendar
-namespace Voidsent;
+namespace Voidsent.Patches;
 
 [HarmonyPatch(typeof(StardewValley.Object))]
 [HarmonyPatch(nameof(StardewValley.Object.placementAction))]
@@ -21,8 +21,8 @@ public static class TentPatch
     static bool LocationCheck(GameLocation loc)
     {
         var location = loc.GetData();
-        return location.CustomFields is not null && 
-               location.CustomFields.TryGetValue($"{ModID}_UnsafeForTent", out string unsafeForTent) && 
+        return location.CustomFields is not null &&
+               location.CustomFields.TryGetValue($"{ModID}_UnsafeForTent", out string unsafeForTent) &&
                unsafeForTent == "True";
     }
 
@@ -30,7 +30,7 @@ public static class TentPatch
     {
         Game1.showRedMessage(Game1.content.LoadString("Strings\\StringsFromMaps:TentUnallowed"));
     }
-    
+
     /*
      * Original IL:
      *
@@ -80,12 +80,12 @@ public static class TentPatch
             codeMatcher
                 .MatchStartForward(new CodeMatch(OpCodes.Ldstr, "(O)TentKit"))
                 .MatchStartForward(new CodeMatch(OpCodes.Brtrue));
-            
+
             var label = (Label)codeMatcher.Operand;
             codeMatcher
                 .SearchForward(instruction => instruction.labels.Contains(label))
                 .MatchStartForward(new CodeMatch(OpCodes.Ldfld));
-            
+
             var field = codeMatcher.Operand;
             codeMatcher
                 .MatchStartForward(new CodeMatch(OpCodes.Ldloc_0))

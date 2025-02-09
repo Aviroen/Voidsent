@@ -3,7 +3,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using StardewValley.Menus;
 
-namespace StardewUI.Framework;
+namespace Voidsent.Integration;
 
 /// <summary>
 /// Public API for StardewUI, abstracting away all implementation details of views and trees.

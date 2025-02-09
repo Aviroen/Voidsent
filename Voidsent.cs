@@ -1,12 +1,16 @@
 ﻿using StardewValley;
 using StardewModdingAPI;
 using StardewModdingAPI.Events;
-using Microsoft.Xna.Framework;
-using StardewUI.Framework;
+//using Microsoft.Xna.Framework;
+//using StardewUI.Framework;
 using HarmonyLib;
 using StardewValley.Triggers;
 using System.Reflection;
-using System.Reflection.Metadata;
+using StardewValley.SpecialOrders;
+using Voidsent.Integration;
+using Voidsent.Patches;
+using Voidsent.Framework.TileActions;
+using Voidsent.Custom;
 
 namespace Voidsent
 {
@@ -58,6 +62,7 @@ namespace Voidsent
             helper.ConsoleCommands.Add("lizard", "Spawn lizard.", Lizard.LizardDebugCmd);
             GameLocation.RegisterTileAction("Aviroen.Voidsent_SummonLizard", Lizard.HandleSummonLizard);
             GameLocation.RegisterTileAction("Aviroen.Voidsent", Pathoschild.OnCentralAction);
+            GameLocation.RegisterTileAction("Aviroen.VoidsentBoard", VSSpecialOrderBoard.OpenVSBoard);
             TriggerActionManager.RegisterAction("Aviroen.Voidsent_RandomDialogue", RandomDialogueAction.Action);
 
             ModHelper = helper;
@@ -71,6 +76,13 @@ namespace Voidsent
             ProfileMenuPatch.Initialize(Monitor);
             RandomDialogueAction.Initialize(helper.ModRegistry);
             Pathoschild.Initialize(helper.ModRegistry, ModManifest.UniqueID);
+            VSSpecialOrderBoard.Initialize(Monitor, helper);
+
+            Harmony.Patch(original: AccessTools.Method(typeof(SpecialOrder), nameof(SpecialOrder.IsTimedQuest)),
+            postfix: new HarmonyMethod(typeof(SpecialOrderPatch), nameof(SpecialOrderPatch.IsTimedQuest_Postfix)));
+            // patch to make special order time never decrease
+            Harmony.Patch(original: AccessTools.Method(typeof(SpecialOrder), nameof(SpecialOrder.GetDaysLeft)),
+            postfix: new HarmonyMethod(typeof(SpecialOrderPatch), nameof(SpecialOrderPatch.GetDaysLeft_Postfix)));
 
             Harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
@@ -131,5 +143,6 @@ namespace Voidsent
                 outdoorLocations.Add(Game1.getLocationFromName(k));
             }
         }
+
     }
 }

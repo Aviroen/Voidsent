@@ -3,7 +3,7 @@ using HarmonyLib;
 using StardewModdingAPI;
 using StardewValley;
 
-namespace Voidsent;
+namespace Voidsent.Patches;
 
 /*
  * Usage:
@@ -97,8 +97,8 @@ public static class ProfileMenuPatch
      * 
      */
     private static CodeMatcher PatchRelationship(
-        CodeMatcher codeMatcher, 
-        string searchString, 
+        CodeMatcher codeMatcher,
+        string searchString,
         string baseString
     )
     {
@@ -106,15 +106,15 @@ public static class ProfileMenuPatch
             .MatchStartForward(new CodeMatch(OpCodes.Ldstr, searchString))
             .MatchStartForward(new CodeMatch(OpCodes.Br_S));
         var label = (Label)codeMatcher.Operand;
-        
+
         codeMatcher
             .MatchStartBackwards(new CodeMatch(OpCodes.Beq_S))
             .MatchStartBackwards(new CodeMatch(OpCodes.Ldc_I4_1))
             .MatchStartBackwards(new CodeMatch(OpCodes.Ldloc_1));
-        
+
         var firstInstruction = new CodeInstruction(OpCodes.Ldstr, baseString);
         codeMatcher.Instruction.MoveLabelsTo(firstInstruction);
-        
+
         codeMatcher
             .CreateLabel(out Label skiplabel)
             .Insert(
@@ -136,35 +136,35 @@ public static class ProfileMenuPatch
         try
         {
             var codeMatcher = new CodeMatcher(instructions, generator);
-            
+
             // Housemates
             codeMatcher = PatchRelationship(
                 codeMatcher,
                 "Strings\\StringsFromCSFiles:SocialPage_Relationship_Housemate_Male",
                 "Strings\\StringsFromCSFiles:SocialPage_Relationship_Housemate"
             );
-            
+
             // Spouses
             codeMatcher = PatchRelationship(
-                codeMatcher, 
-                "Strings\\StringsFromCSFiles:SocialPage_Relationship_Husband", 
+                codeMatcher,
+                "Strings\\StringsFromCSFiles:SocialPage_Relationship_Husband",
                 "Strings\\StringsFromCSFiles:SocialPage_Relationship_Spouse"
             );
-            
+
             // Partners
             codeMatcher = PatchRelationship(
                 codeMatcher,
                 "Strings\\StringsFromCSFiles:SocialPage_Relationship_Boyfriend",
                 "Strings\\StringsFromCSFiles:SocialPage_Relationship_Partner"
             );
-            
+
             // Ex-Spouses
             codeMatcher = PatchRelationship(
                 codeMatcher,
                 "Strings\\StringsFromCSFiles:SocialPage_Relationship_ExHusband",
                 "Strings\\StringsFromCSFiles:SocialPage_Relationship_ExSpouse"
             );
-            
+
             // Singles
             codeMatcher = PatchRelationship(
                 codeMatcher,

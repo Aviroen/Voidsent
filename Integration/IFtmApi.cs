@@ -6,7 +6,7 @@
 using StardewValley.TerrainFeatures;
 using System.Collections.Generic;
 
-namespace Voidsent
+namespace Voidsent.Integration
 {
     /// <summary>The public API interface for Farm Type Manager (FTM), provided through SMAPI's mod helper.</summary>
     public interface IFtmApi

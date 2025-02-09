@@ -4,7 +4,7 @@ using StardewValley;
 using StardewValley.Extensions;
 using System.Reflection.Metadata;
 
-namespace Voidsent
+namespace Voidsent.Framework.TileActions
 {
     /*The MIT License (MIT)
 
@@ -48,8 +48,8 @@ SOFTWARE.
         }
         public static bool OnCentralAction(GameLocation location, string[] args, Farmer who, Point tile)
         {
-           // if (location.NameOrUniqueName is not $"Aviroen.VoidsentCP_")
-                //return false;
+            // if (location.NameOrUniqueName is not $"Aviroen.VoidsentCP_")
+            //return false;
 
             string subAction = ArgUtility.Get(args, 1);
             switch (subAction)

@@ -6,7 +6,7 @@ using StardewModdingAPI.Events;
 using StardewValley;
 using StardewValley.Characters;
 //written by irocendar
-namespace Voidsent;
+namespace Voidsent.Framework.TileActions;
 
 internal static class GuidHelper
 {
@@ -24,19 +24,19 @@ public static class Lizard
     {
         Monitor = monitor;
     }
-    
+
     internal static bool HandleSummonLizard(GameLocation location, string[] args, Farmer player, Point point)
     {
         string displayPrice = Utility.getNumberWithCommas(1000);
         location.createQuestionDialogue(
-            $"Rent a lizard for {displayPrice}g?", 
-            location.createYesNoResponses(), 
-            (Farmer who, string answer) => LizardAnswer(who, answer, location, point),
+            $"Rent a lizard for {displayPrice}g?",
+            location.createYesNoResponses(),
+            (who, answer) => LizardAnswer(who, answer, location, point),
             null
         );
         return true;
     }
-    
+
     internal static void LizardAnswer(Farmer who, string answer, GameLocation loc, Point point)
     {
         if (answer == "Yes")
@@ -62,7 +62,7 @@ public static class Lizard
             }
         }
     }
-    
+
     internal static void LizardDebugCmd(string command, string[] args)
     {
         if (!ArgUtility.TryGetOptionalInt(args, 0, out var tileX, out var error, Game1.player.TilePoint.X, "int tileX") || !ArgUtility.TryGetOptionalInt(args, 0, out var tileY, out error, Game1.player.TilePoint.Y, "int tileY"))

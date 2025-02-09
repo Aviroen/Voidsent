@@ -5,7 +5,7 @@ using StardewValley.Delegates;
 using StardewValley.TokenizableStrings;
 using StardewValley.Triggers;
 //written by irocendar
-namespace Voidsent;
+namespace Voidsent.Patches;
 
 public static class RandomDialogueAction
 {
@@ -25,7 +25,7 @@ public static class RandomDialogueAction
             error = $"Invalid number of arguments ({args.Length})";
             return false;
         }
-        
+
         var mod = ModRegistry.Get(args[1]);
         if (mod == null)
         {
@@ -42,13 +42,13 @@ public static class RandomDialogueAction
             error = $"Invalid content pack or mod ID {args[1]}.";
             return false;
         }
-        
+
         var r = Utility.CreateRandom(Game1.currentGameTime.TotalGameTime.TotalMilliseconds);
-        
-        var suffixOptions = args.Skip(4).Join(delimiter:" ").Split(",");
+
+        var suffixOptions = args.Skip(4).Join(delimiter: " ").Split(",");
         var selected = args[3] + suffixOptions[r.Next(suffixOptions.Length)].Trim();
         var dialogue = translation.Get(selected).ToString().Replace(@"""", @"\""");
-        
+
         var action = $"Spiderbuttons.BETAS_SetNewDialogue {args[2]} [EscapedText {dialogue}]";
 
         return TriggerActionManager.TryRunAction(action, out error, out _);

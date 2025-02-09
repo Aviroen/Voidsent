@@ -2,57 +2,39 @@
  "Changes": [
   {
    "Action": "EditData",
-   "Target": "Data/Buffs",
+   "Target": "Data/SpecialOrders",
    "Entries": {
     "{{ModId}}_{{ORDERNAME}}": {
      "Name": "{{ModId}}_{{NPCNAME}}",
      "Requester": "{{NPCNAME}}",
-     "Duration": "{{DURATION}}",
+     "Duration": "Month",
      "Repeatable": false,
      "RequiredTags": "!dropbox_{{ModId}}_{{LOCATION}}",
      "Condition": "",
-     "OrderType": "",
+     "OrderType": "{{ModId}}",
      "SpecialRule": "",
      "Text": "{{i18n:{{ORDERNAME}}.Text}}",
      "ItemToRemoveOnEnd": null,
      "MailToRemoveOnEnd": null,
-     "RandomizedElements": null,
-     "Objectives": [
-      {
-       "Type": "{{QUESTTYPE1}}",
-       "Text": "{{i18n:{{ORDERNAME}}.Objective1}}",
-       "RequiredCount": "{{REQCOUNT1}}",
-       "Data": {
-        "AcceptedContextTags": "item_bug_meat"
-       }
-      },
-      {
-       "Type": "{{QUESTTYPE2}}",
-       "Text": "{{i18n:{{ORDERNAME}}.Objective2}}",
-       "RequiredCount": "{{REQCOUNT2}}",
-       "Data": {
-        "DropBox": "{{ModId}}_{{LOCATION}}",
-        "DropBoxGameLocation": "{{ModId}}_{{LOCATION}}",
-        "DropBoxIndicatorLocation": "37 32",
-        "AcceptedContextTags": "item_bug_meat"
-       }
-      }
-     ],
+     "RandomizedElements": [],
+     "Objectives": [],
      "Rewards": [
       {
        "Type": "Money",
        "Data": {
-        "Amount": "3000"
+        "Amount": "{{MONEY}}"
        }
       },
       {
        "Type": "Mail",
        "Data": {
-        "MailReceived": "willyBugWadCutscene"
+        "MailReceived": "{{ModId}}_{{ORDERNAME}}_Mail"
        }
       }
      ],
-     "CustomFields": null
+     "CustomFields": {
+      "Aviroen.SOQuest": "T"
+     }
     }
    }
   }
