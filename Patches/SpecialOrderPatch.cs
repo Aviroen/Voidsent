@@ -16,6 +16,7 @@ namespace Voidsent.Patches
                 }
             }
         }
+        /*
         public static void GetDaysLeft_Postfix(ref int __result, SpecialOrder __instance)
         {
             if (__instance.GetData().CustomFields.TryGetValue("Aviroen.SOQuest", out string? customString))
@@ -23,5 +24,6 @@ namespace Voidsent.Patches
                 __result = 100;
             }
         }
+        */
     }
 }
