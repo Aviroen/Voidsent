@@ -31,12 +31,30 @@
    "LogName": "Relationship Status",
    "Action": "EditData",
    "Target": "Strings/StringsFromCSFiles",
+   "When": {
+    "Query: {{CUSTOMENDEARMENT}}": true
+   },
    "Entries": {
-    "SocialPage_Relationship_Housemate_{{ModId}}_{{NPCNAME}}": "$query {{CUSTOMENDEARMENT}} # {{i18n:{{NPCNAME}}.Housemate}} | {{i18n:Test.Housemate}}",
-    "SocialPage_Relationship_Spouse_{{ModId}}_{{NPCNAME}}": "$query {{CUSTOMENDEARMENT}} # {{i18n:{{NPCNAME}}.Spouse}} | {{i18n:Test.Spouse}}",
-    "SocialPage_Relationship_Partner_{{ModId}}_{{NPCNAME}}": "$query {{CUSTOMENDEARMENT}} # {{i18n:{{NPCNAME}}.Partner}} | {{i18n:Test.Partner}}",
-    "SocialPage_Relationship_ExSpouse_{{ModId}}_{{NPCNAME}}": "$query {{CUSTOMENDEARMENT}} # {{i18n:{{NPCNAME}}.ExSpouse}} | {{i18n:Test.ExSpouse}}",
-    "SocialPage_Relationship_Single_{{ModId}}_{{NPCNAME}}": "$query {{CUSTOMENDEARMENT}} # {{i18n:{{NPCNAME}}.Single}} | {{i18n:Test.Single}}"
+    "SocialPage_Relationship_Housemate_{{ModId}}_{{NPCNAME}}": "{{i18n:{{NPCNAME}}.Housemate}}",
+    "SocialPage_Relationship_Spouse_{{ModId}}_{{NPCNAME}}": "{{i18n:{{NPCNAME}}.Spouse}}",
+    "SocialPage_Relationship_Partner_{{ModId}}_{{NPCNAME}}": "{{i18n:{{NPCNAME}}.Partner}}",
+    "SocialPage_Relationship_ExSpouse_{{ModId}}_{{NPCNAME}}": "{{i18n:{{NPCNAME}}.ExSpouse}}",
+    "SocialPage_Relationship_Single_{{ModId}}_{{NPCNAME}}": "{{i18n:{{NPCNAME}}.Single}}"
+   }
+  },
+  {
+   "LogName": "Relationship Status",
+   "Action": "EditData",
+   "Target": "Strings/StringsFromCSFiles",
+   "When": {
+    "Query: {{CUSTOMENDEARMENT}}": false
+   },
+   "Entries": {
+    "SocialPage_Relationship_Housemate_{{ModId}}_{{NPCNAME}}": "{{i18n:Test.Housemate}}",
+    "SocialPage_Relationship_Spouse_{{ModId}}_{{NPCNAME}}": "{{i18n:Test.Spouse}}",
+    "SocialPage_Relationship_Partner_{{ModId}}_{{NPCNAME}}": "{{i18n:Test.Partner}}",
+    "SocialPage_Relationship_ExSpouse_{{ModId}}_{{NPCNAME}}": "{{i18n:Test.ExSpouse}}",
+    "SocialPage_Relationship_Single_{{ModId}}_{{NPCNAME}}": "{{i18n:Test.Single}}"
    }
   },
   {
@@ -90,7 +108,7 @@
      "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, {{Query:{{Hearts:{{ModId}}_{{NPCNAME}}}} >= 2}}, ITEM_STACK Target 1, !PLAYER_NPC_RELATIONSHIP Current {{ModId}}_{{NPCNAME}} Married, ANY \"{{2HEART}}\" \"{{4HEART}}\" \"{{6HEART}}\" \"{{8HEART}}\" \"{{10HEART}}\"",
      "MarkActionApplied": false,
      "Actions": [
-      "Aviroen.Voidsent_RandomDialogue Aviroen.VoidsentCP {{ModId}}_{{NPCNAME}} BETAS.{{NPCNAME}}.{{DayOfWeek}}{{Hearts:{{NPCNAME}}}}_ {{Range:0,{{ENDRANGE}}}}",
+      "Aviroen.Voidsent_RandomDialogue Aviroen.VoidsentCP {{ModId}}_{{NPCNAME}} BETAS.{{NPCNAME}}.{{DayOfWeek}}{{Hearts:{{ModId}}_{{NPCNAME}}}}_ {{Range:0,{{ENDRANGE}}}}",
       "MarkActionApplied Current {{ModId}}_{{NPCNAME}}_DialogueOpened true"
      ]
     }
@@ -136,7 +154,7 @@
      "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, {{Query:{{Hearts:{{ModId}}_{{NPCNAME}}}} >= 2}}, ITEM_STACK Target 1, !PLAYER_NPC_RELATIONSHIP Current {{ModId}}_{{NPCNAME}} Married, PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}_Wiped, {{BETASWIPED}}, ANY \"{{2HEART}}\" \"{{4HEART}}\" \"{{6HEART}}\" \"{{8HEART}}\" \"{{10HEART}}\"",
      "MarkActionApplied": false,
      "Actions": [
-      "Aviroen.Voidsent_RandomDialogue Aviroen.VoidsentCP {{ModId}}_{{NPCNAME}} BETAS.Wiped.{{NPCNAME}}.{{DayOfWeek}}{{Hearts:{{NPCNAME}}}}_ {{Range:0,{{ENDRANGE}}}}",
+      "Aviroen.Voidsent_RandomDialogue Aviroen.VoidsentCP {{ModId}}_{{NPCNAME}} BETAS.Wiped.{{NPCNAME}}.{{DayOfWeek}}{{Hearts:{{ModId}}_{{NPCNAME}}}}_ {{Range:0,{{ENDRANGE}}}}",
       "MarkActionApplied Current {{ModId}}_{{NPCNAME}}_DialogueOpened true"
      ]
     }

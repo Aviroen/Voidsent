@@ -6,10 +6,10 @@
    "Entries": {
     "{{ModId}}_BIBRoom": {
      "Question": "[LocalizedText Strings/StringsFromCSFiles:{{ModId}}_RoomCheck]",
-     "Speaker": "{{Yrnal}}",
+     //"Speaker": "{{Yrnal}}",
      "ResponseEntries": {
       "ExpensiveRoom": {
-       "Label": "The expensive one, please!",
+       "Label": "[LocalizedText Strings/StringsFromCSFiles:{{ModId}}_ExpensiveBuy]",
        "Condition": "PLAYER_CURRENT_MONEY Current 20000",
        // both actions run
        "Actions": [
@@ -19,7 +19,7 @@
        ]
       },
       "CheapRoom": {
-       "Label": "Just here for a safe stay!",
+       "Label": "[LocalizedText Strings/StringsFromCSFiles:{{ModId}}_CheapBuy]",
        "Condition": "PLAYER_CURRENT_MONEY Current 1000",
        "Actions": [
         "AddMail Current {{ModId}}_CheapRoom now",
@@ -32,7 +32,7 @@
     },
     "{{ModId}}_BIBLeave": {
      "Question": "[LocalizedText Strings/StringsFromCSFiles:{{ModId}}_Leave]",
-     "Speaker": "{{Yrnal}}",
+     //"Speaker": "{{Yrnal}}",
      "ResponseEntries": {
       "YesLeave": {
        "Label": "Yes, please!",

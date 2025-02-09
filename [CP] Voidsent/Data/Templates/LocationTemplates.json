@@ -37,6 +37,14 @@
    }
   },
   {
+   "LogName": "{{MAPNAME}} First Edit",
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_{{MAPNAME}}",
+   "MapProperties": {
+    "LocationContext": "{{ModId}}"
+   }
+  },
+  {
    "Action": "EditData",
    "Target": "Mods/CJBok.CheatsMenu/WarpSections",
    "Entries": {

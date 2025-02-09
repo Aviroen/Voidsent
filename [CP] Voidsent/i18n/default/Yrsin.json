@@ -45,7 +45,6 @@
  "BETAS.Yrsin.Monday_2": "Big ol' baddy shark is handling business just fine, love.$7",
  "BETAS.Yrsin.Monday_3": "Yrrek, escort our guest out.$9#$action Spiderbuttons.BETAS_WarpFarmer Aviroen.VoidsentCP_Moor <X> <Y> <FacingDirection>",
  //daily
- //daily
  "Yrsin.Monday_0": "Yrrek?$2#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"Did you find that one snitch?\"#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"Yes Boss. He's being held... *Ahem*\" 3000 3000",
  "Yrsin.Monday_1": "Yrrek?$2#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"How's the situation at the armory?\"#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"Yes Boss. We've got stores for two platoo-- *Ahem*\" 3000 3000",
  "Yrsin.Monday_2": "Yrrek?$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"What would you like for lunch today?\"#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrrek \"Oh! Boss I'd really like some lobster! I bet Yrnal would like shrimp.\" 3000 3000",

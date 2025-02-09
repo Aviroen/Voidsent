@@ -1,0 +1,44 @@
+{
+ "Changes": [
+  {
+   "Action": "EditData",
+   "Target": "Data/LocationContexts",
+   "Entries": {
+    "{{ModId}}": {
+     "PlayRandomAbmbientSounds": true,
+     "ReviveLocations": [
+      {
+       "Id": "{{ModId}}_BreakfastInnBed",
+       "Condition": "LOCATION_CONTEXT Here {{ModId}}",
+       "Location": "{{ModId}}_BreakfastInnBed",
+       "Position": {
+        "X": 17,
+        "Y": 38
+       }
+      }
+     ],
+     "MaxPassOutCost": 5000,
+     "PassOutMail": [
+      {
+       "Id": "FoundByYrrek",
+       "Condition": null,
+       "Mail": "{{ModId}}_PassedOutYrrek",
+       "MaxPassOutCost": 5000,
+       "SkipRandomSelection": true
+      }
+     ],
+     "PassOutLocations": [
+      {
+       "Id": "{{ModId}}_BreakfastInnBed",
+       "Location": "{{ModId}}_BreakfastInnBed",
+       "Position": {
+        "X": 17,
+        "Y": 38
+       }
+      }
+     ]
+    }
+   }
+  }
+ ]
+}
