@@ -10,7 +10,7 @@ using StardewValley.SpecialOrders;
 using Voidsent.Integration;
 using Voidsent.Patches;
 using Voidsent.Framework.TileActions;
-using Voidsent.Custom;
+using Voidsent.Framework;
 
 namespace Voidsent
 {

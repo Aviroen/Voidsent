@@ -10,7 +10,7 @@ using StardewValley.SpecialOrders;
 using StardewValley.Extensions;
 using StardewValley.Characters;
 
-namespace Voidsent.Custom
+namespace Voidsent.Framework
 {
     internal class VSSpecialOrderBoard : SpecialOrdersBoard
     {
@@ -25,11 +25,11 @@ namespace Voidsent.Custom
             Helper = helper;
         }
 
-        internal VSSpecialOrderBoard(string board_type = "") : base(board_type)
+        internal VSSpecialOrderBoard(string board_type = "Aviroen.VoidsentCP") : base(board_type)
         {
-            UpdateAvailableVSSpecialOrders(board_type, force_refresh: false);
+            UpdateAvailableVSSpecialOrders(board_type, forceRefresh: false);
             Texture2D texture;
-            if (boardType.Equals("Aviroen.VoidsentCP"))
+            if (board_type.Equals("Aviroen.VoidsentCP"))
             {
                 texture = Game1.temporaryContent.Load<Texture2D>("LooseSprites\\SpecialOrdersBoard");
                 //change out the texture to "LooseSprites\\Aviroen.VoidsentCP_Board" ya dingus
@@ -74,115 +74,62 @@ namespace Voidsent.Custom
             base.draw(b);
             if (leftOrder is null)
             {
-                b.DrawString(Game1.dialogueFont, Helper.Translation.Get("Aviroen.VoidsentCP_NoNewOrder"), new Vector2(xPositionOnScreen + 125, yPositionOnScreen + 375), Game1.textColor);
+                b.DrawString(Game1.dialogueFont, Helper.Translation.Get("Aviroen.Voidsent_NoNewOrder"), new Vector2(xPositionOnScreen + 125, yPositionOnScreen + 375), Game1.textColor);
             }
             if (rightOrder is null)
             {
-                b.DrawString(Game1.dialogueFont, Helper.Translation.Get("Aviroen.VoidsentCP_NoNewOrder"), new Vector2(xPositionOnScreen + 125, yPositionOnScreen + 375), Game1.textColor);
+                int indent = (boardType == "Aviroen.VoidsentCP") ? 800 : 775;
+                b.DrawString(Game1.dialogueFont, Helper.Translation.Get("Aviroen.Voidsent_NoNewOrder"), new Vector2(xPositionOnScreen + indent, yPositionOnScreen + 375), Game1.textColor);
             }
         }
-        public static void UpdateAvailableVSSpecialOrders(string orderType, bool force_refresh)
+        public static void UpdateAvailableVSSpecialOrders(string orderType, bool forceRefresh)
         {
-            if (Game1.player.team.availableSpecialOrders is not null)
+            foreach (SpecialOrder order in Game1.player.team.specialOrders)
             {
-                foreach (SpecialOrder order in Game1.player.team.availableSpecialOrders)
+                if ((order.questDuration.Value == QuestDuration.TwoDays || order.questDuration.Value == QuestDuration.ThreeDays) && !Game1.player.team.acceptedSpecialOrderTypes.Contains(order.orderType.Value))
                 {
-                    if ((order.questDuration.Value == QuestDuration.TwoDays || order.questDuration.Value == QuestDuration.ThreeDays) && !Game1.player.team.acceptedSpecialOrderTypes.Contains(order.orderType.Value))
+                    order.SetDuration(order.questDuration.Value);
+                }
+            }
+            if (!forceRefresh)
+            {
+                foreach (SpecialOrder availableSpecialOrder in Game1.player.team.availableSpecialOrders)
+                {
+                    if (availableSpecialOrder.orderType.Value == orderType)
                     {
-                        order.SetDuration(order.questDuration.Value);
+                        return;
                     }
                 }
             }
-
-            var availableOrders = Game1.player.team.availableSpecialOrders;
-
-            Game1.player.team.acceptedSpecialOrderTypes.Remove("Aviroen.VoidsentCP");
-
-            for (int i = 0; i < availableOrders?.Count; i++)
+            SpecialOrder.RemoveAllSpecialOrders(orderType);
+            List<string> keyQueue = new List<string>();
+            foreach (KeyValuePair<string, SpecialOrderData> pair in DataLoader.SpecialOrders(Game1.content))
             {
-                if (availableOrders[i].orderType.Equals("Aviroen.VoidsentCP"))
+                if (pair.Value.OrderType == orderType && SpecialOrder.CanStartOrderNow(pair.Key, pair.Value))
                 {
-                    availableOrders.RemoveAt(i);
-                    i--;
+                    keyQueue.Add(pair.Key);
                 }
             }
-
-            Dictionary<string, SpecialOrderData> order_data = Game1.content.Load<Dictionary<string, SpecialOrderData>>("Data\\SpecialOrders");
-            List<string> keys = new List<string>(order_data.Keys);
-
-            for (int k = 0; k < keys.Count; k++)
+            List<string> keysIncludingCompleted = new List<string>(keyQueue);
+            if (orderType == "")
             {
-                string key = keys[k];
-                bool invalid = false;
-                bool repeatable = order_data[key].Repeatable == true;
-                if (repeatable && Game1.MasterPlayer.team.completedSpecialOrders.Contains(key))
-                {
-                    invalid = true;
-                }
-                if (Game1.dayOfMonth >= 16 && order_data[key].Duration == QuestDuration.Month)
-                {
-                    invalid = true;
-                }
-                if (!invalid && !SpecialOrder.CheckTags(order_data[key].RequiredTags))
-                {
-                    invalid = true;
-                }
-                if (!invalid)
-                {
-                    foreach (SpecialOrder specialOrder in Game1.player.team.specialOrders)
-                    {
-                        if ((string)specialOrder.questKey.Value == key)
-                        {
-                            invalid = true;
-                            break;
-                        }
-                    }
-                }
-                if (invalid)
-                {
-                    keys.RemoveAt(k);
-                    k--;
-                }
+                keyQueue.RemoveAll((string id) => Game1.player.team.completedSpecialOrders.Contains(id));
             }
-            Random r = new Random((int)Game1.uniqueIDForThisGame + (int)(Game1.stats.DaysPlayed * 1.3f));
-            string[] array = new string[1] { "Aviroen.VoidsentCP" };
-            foreach (string type_to_find in array)
+            Random r = Utility.CreateRandom(Game1.uniqueIDForThisGame, (double)Game1.stats.DaysPlayed * 1.3);
+            for (int i = 0; i < 2; i++)
             {
-                List<string> typed_keys = new List<string>();
-                foreach (string key3 in keys)
+                if (keyQueue.Count == 0)
                 {
-                    if (order_data[key3].OrderType == type_to_find)
+                    if (keysIncludingCompleted.Count == 0)
                     {
-                        typed_keys.Add(key3);
+                        break;
                     }
+                    keyQueue = new List<string>(keysIncludingCompleted);
                 }
-                List<string> all_keys = new List<string>(typed_keys);
-
-                for (int j = 0; j < typed_keys.Count; j++)
-                {
-                    if (Game1.player.team.completedSpecialOrders.Contains(typed_keys[j]))
-                    {
-                        typed_keys.RemoveAt(j);
-                        j--;
-                    }
-                }
-
-                for (int i = 0; i < 2; i++)
-                {
-                    if (typed_keys.Count == 0)
-                    {
-                        if (all_keys.Count == 0)
-                        {
-                            break;
-                        }
-                        typed_keys = new List<string>(all_keys);
-                    }
-                    int index = r.Next(typed_keys.Count);
-                    string key2 = typed_keys[index];
-                    availableOrders?.Add(SpecialOrder.GetSpecialOrder(key2, r.Next()));
-                    typed_keys.Remove(key2);
-                    all_keys.Remove(key2);
-                }
+                string key = r.ChooseFrom(keyQueue);
+                Game1.player.team.availableSpecialOrders.Add(SpecialOrder.GetSpecialOrder(key, r.Next()));
+                keyQueue.Remove(key);
+                keysIncludingCompleted.Remove(key);
             }
         }
     }
