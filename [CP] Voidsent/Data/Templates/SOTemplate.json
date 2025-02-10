@@ -6,11 +6,11 @@
    "Entries": {
     "{{ModId}}_{{ORDERNAME}}": {
      "Name": "{{ModId}}_{{NPCNAME}}",
-     "Requester": "{{NPCNAME}}",
-     "Duration": "Month",
+     "Requester": "{{ModId}}_{{NPCNAME}}",
+     "Duration": "{{DURATION}}",
      "Repeatable": false,
      "RequiredTags": "!dropbox_{{ModId}}_{{LOCATION}}",
-     "Condition": "",
+     "Condition": "{{CONDITION}}",
      "OrderType": "{{ModId}}",
      "SpecialRule": "",
      "Text": "{{i18n:{{ORDERNAME}}.Text}}",
@@ -31,10 +31,7 @@
         "MailReceived": "{{ModId}}_{{ORDERNAME}}_Mail"
        }
       }
-     ],
-     "CustomFields": {
-      "Aviroen.SOQuest": "T"
-     }
+     ]
     }
    }
   }

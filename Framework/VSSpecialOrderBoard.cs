@@ -84,20 +84,26 @@ namespace Voidsent.Framework
         }
         public static void UpdateAvailableVSSpecialOrders(string orderType, bool forceRefresh)
         {
-            foreach (SpecialOrder order in Game1.player.team.specialOrders)
+            foreach (SpecialOrder order in Game1.player.team.availableSpecialOrders)
             {
-                if ((order.questDuration.Value == QuestDuration.TwoDays || order.questDuration.Value == QuestDuration.ThreeDays) && !Game1.player.team.acceptedSpecialOrderTypes.Contains(order.orderType.Value))
+                if (orderType == "Aviroen.VoidsentCP")
                 {
-                    order.SetDuration(order.questDuration.Value);
+                    if ((order.questDuration.Value == QuestDuration.TwoDays || order.questDuration.Value == QuestDuration.ThreeDays) && !Game1.player.team.acceptedSpecialOrderTypes.Contains(order.orderType.Value))
+                    {
+                        order.SetDuration(order.questDuration.Value);
+                    }
                 }
             }
             if (!forceRefresh)
             {
                 foreach (SpecialOrder availableSpecialOrder in Game1.player.team.availableSpecialOrders)
                 {
-                    if (availableSpecialOrder.orderType.Value == orderType)
+                    if (orderType == "Aviroen.VoidsentCP")
                     {
-                        return;
+                        if (availableSpecialOrder.orderType.Value == orderType)
+                        {
+                            return;
+                        }
                     }
                 }
             }
@@ -105,13 +111,16 @@ namespace Voidsent.Framework
             List<string> keyQueue = new List<string>();
             foreach (KeyValuePair<string, SpecialOrderData> pair in DataLoader.SpecialOrders(Game1.content))
             {
-                if (pair.Value.OrderType == orderType && SpecialOrder.CanStartOrderNow(pair.Key, pair.Value))
+                if (orderType == "Aviroen.VoidsentCP")
                 {
-                    keyQueue.Add(pair.Key);
+                    if (pair.Value.OrderType == orderType && SpecialOrder.CanStartOrderNow(pair.Key, pair.Value))
+                    {
+                        keyQueue.Add(pair.Key);
+                    }
                 }
             }
             List<string> keysIncludingCompleted = new List<string>(keyQueue);
-            if (orderType == "")
+            if (orderType == "Aviroen.VoidsentCP")
             {
                 keyQueue.RemoveAll((string id) => Game1.player.team.completedSpecialOrders.Contains(id));
             }
