@@ -8,22 +8,54 @@
     "NPCNAME": "Yrsin",
     "DURATION": "Month",
     "CONDITION": "",
+    "LOCATION": "Voidsent",
     "MONEY": "5000"
    }
   },
   {
    "Action": "EditData",
    "Target": "Data/SpecialOrders",
-   "TargetField": [ "{{ModId}}_TEST", "Objectives" ],
+   "TargetField": [ "{{ModId}}_TEST" ],
    "Entries": {
-    "{{ModId}}_1": {
-     "Type": "Collect",
-     "Text": "[Willy_Objective_0_Text]",
-     "RequiredCount": "100",
-     "Data": {
-      "AcceptedContextTags": "item_bug_meat"
+    "Objectives": [
+     {
+      "Type": "Collect",
+      "Text": "[Willy_Objective_0_Text]",
+      "RequiredCount": "100",
+      "Data": {
+       "AcceptedContextTags": "item_bug_meat"
+      }
      }
-    }
+    ]
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/SOTemplate.json",
+   "LocalTokens": {
+    "ORDERNAME": "Untimed_TESTER",
+    "NPCNAME": "Yrnal",
+    "DURATION": "",
+    "CONDITION": "",
+    "LOCATION": "Voidsent",
+    "MONEY": "5000"
+   }
+  },
+  {
+   "Action": "EditData",
+   "Target": "Data/SpecialOrders",
+   "TargetField": [ "{{ModId}}_Untimed_TESTER" ],
+   "Entries": {
+    "Objectives": [
+     {
+      "Type": "Collect",
+      "Text": "[Willy_Objective_0_Text]",
+      "RequiredCount": "100",
+      "Data": {
+       "AcceptedContextTags": "item_bug_meat"
+      }
+     }
+    ]
    }
   }
  ]

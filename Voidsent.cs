@@ -78,6 +78,7 @@ namespace Voidsent
             Pathoschild.Initialize(helper.ModRegistry, ModManifest.UniqueID);
             VSSpecialOrderBoard.Initialize(Monitor, helper);
 
+            
             Harmony.Patch(original: AccessTools.Method(typeof(SpecialOrder), nameof(SpecialOrder.IsTimedQuest)),
             postfix: new HarmonyMethod(typeof(SpecialOrderPatch), nameof(SpecialOrderPatch.IsTimedQuest_Postfix)));
             // patch to make special order time never decrease
