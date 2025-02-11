@@ -15,6 +15,7 @@
      "Owners": [
       {
        "Name": "{{NAMEENTRY}}",
+       "Portrait": "{{PORTRAIT}}",
        "Dialogues": [
         {
          "Id": "{{ModId}}_{{SHOPNAME}}",

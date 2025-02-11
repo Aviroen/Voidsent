@@ -13,10 +13,10 @@
    "Action": "Include",
    "FromFile": "Data/Templates/SOTemplate.json",
    "LocalTokens": {
-    "ORDERNAME": "BlacksmithQuarterly",
+    "ORDERNAME": "Untimed_BlacksmithQuarterly",
     "NPCNAME": "Duvin",
     "DURATION": "Month",
-    "REPEATABLE": "true",
+    "REPEATABLE": "false",
     "CONDITION": "",
     "LOCATION": "Voidsent",
     "MONEY": "5000",
@@ -26,7 +26,7 @@
   {
    "Action": "EditData",
    "Target": "Data/SpecialOrders",
-   "TargetField": [ "{{ModId}}_BlacksmithQuarterly" ],
+   "TargetField": [ "{{ModId}}_Untimed_BlacksmithQuarterly" ],
    "Entries": {
     "Objectives": [
      {

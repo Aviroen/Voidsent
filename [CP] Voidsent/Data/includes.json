@@ -78,7 +78,7 @@
   {
    "LogName": "Data Include",
    "Action": "Include",
-   "FromFile": "Data/Other/Animals.json, Data/Other/Craftables.json, Data/Other/EMA.json, Data/Other/Events.json, Data/Other/Festivals.json, Data/Other/Fish.json, Data/Other/LocContext.json, Data/Other/Mail.json, Data/Other/MMAP.json, Data/Other/Shops.json, Data/Other/SpaceCore.json, Data/Other/SpecialOrders.json, Data/Other/Strings.json, Data/Other/TriggerActions.json" //Data/Other/TrinketTrinker.json
+   "FromFile": "Data/Other/Animals.json, Data/Other/Craftables.json, Data/Other/EMA.json, Data/Other/Fish.json, Data/Other/LocContext.json, Data/Other/Mail.json, Data/Other/MMAP.json, Data/Other/Shops.json, Data/Other/SpaceCore.json, Data/Other/SpecialOrders.json, Data/Other/SpecialOrdersUntimed.json, Data/Other/Strings.json, Data/Other/TriggerActions.json" //Data/Other/TrinketTrinker.json, Data/Other/Events.json, Data/Other/Festivals.json
   },
   {
    "LogName": "Spouseroom Load",

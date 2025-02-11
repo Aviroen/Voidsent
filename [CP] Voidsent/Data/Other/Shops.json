@@ -5,7 +5,8 @@
    "FromFile": "Data/Templates/ShopTemplate.json",
    "LocalTokens": {
     "SHOPNAME": "ShadyShack",
-    "NAMEENTRY": "AnyOrNone"
+    "NAMEENTRY": "AnyOrNone",
+    "PORTRAIT": ""
    }
   },
   {
@@ -13,7 +14,8 @@
    "FromFile": "Data/Templates/ShopTemplate.json",
    "LocalTokens": {
     "SHOPNAME": "BIBKitchen",
-    "NAMEENTRY": "AnyOrNone"
+    "NAMEENTRY": "AnyOrNone",
+    "PORTRAIT": ""
    }
   },
   {
@@ -21,7 +23,8 @@
    "FromFile": "Data/Templates/ShopTemplate.json",
    "LocalTokens": {
     "SHOPNAME": "BIBCheckin",
-    "NAMEENTRY": "AnyOrNone"
+    "NAMEENTRY": "{{ModId}}_Yrnal",
+    "PORTRAIT": ""
    }
   },
   {
