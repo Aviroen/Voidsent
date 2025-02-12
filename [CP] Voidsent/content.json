@@ -152,38 +152,6 @@
    "Value": "{{ModId}}_Yrnal"
   },
   {
-   "Name": "Pau", //r
-   "Value": "{{ModId}}_Pau"
-  },
-  {
-   "Name": "Rei", //r
-   "Value": "{{ModId}}_Rei"
-  },
-  {
-   "Name": "Luna", //r
-   "Value": "{{ModId}}_Luna"
-  },
-  {
-   "Name": "Alan", //r
-   "Value": "{{ModId}}_Alan"
-  },
-  {
-   "Name": "Lou", //r
-   "Value": "{{ModId}}_Lou"
-  },
-  {
-   "Name": "Claire", //r
-   "Value": "{{ModId}}_Claire"
-  },
-  {
-   "Name": "Tia", //r
-   "Value": "{{ModId}}_Tia"
-  },
-  {
-   "Name": "Lina", //r
-   "Value": "{{ModId}}_Lina"
-  },
-  {
    "Name": "Sai", //r
    "Value": "{{ModId}}_Sai"
   },

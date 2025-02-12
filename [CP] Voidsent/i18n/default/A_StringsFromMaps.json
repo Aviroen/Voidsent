@@ -52,9 +52,13 @@
  "Books.31": "'Bound Blood'",
  "Books.32": "'Oath'",
  "Books.33": "'Penance'",
- "Books.34": "'Whispers'",
- "Books.35": "'Faith'",
- "Books.": "'Leatherbound'",
+
+ //"Books.": "",
+ "Books.34": "'Unbroken'#'Volume 1, A Warrior, Unfettered.'#Huh... seems like a story about an adventurer-turned-hero.#'As my tale becomes a memory, I find myself wishing to note how life had come to be so far.'",
+ "Books.35": "'Whispers'#'Volume 2, Remnants of Another Shard.'#Huh... seems like the second part to that adventurer-turned-hero series.#'We had avoided a calamity, but not without its losses.'",
+ "Books.36": "'Faith'#'Volume 3, Together, We Are Stronger.'#Huh... seems like the third part to that adventurer-turned-hero series.#'My dearest friend... gone to protect me. Shall he live forevermore in our hearts.'",
+ "Books.37": "'Shadows'#'Volume 4, Ancestry, Reincarnation.'#Huh... seems like the fourth part to that adventurer-turned-hero series.#'I will remember you, as you lived, as you fought so desperately to keep our star safe.'",
+ "Books.38": "'Singer'#'Volume 5, Sing, The Song of Oblivion.'#Huh... seems like the fifth and final part to that adventurer-turned-hero series.#'But more than that, the future you seek is not the past we loved.'#Seems like this was an autobiography.",
  //"Books.": "If you're reading this, that means you've found our little secret.#Peri and I had a whooole book written out about how we managed to wrangle the feral child known as Sai.#If you've found this book, that means that you've unlocked some part of the tower that we've locked.#Congratulations!#Hopefully Sai is still doing well out there.#Such a sweet child, burdened by the responsibility of power.#We hope that they weren't so burdened by our departure.#It was to protect them, war and all that.#We hope you can find love for that child.#-Our sincerest wishes, Perigee and Mary."
 
  "Kitchen.0": "Smells like oils.",
