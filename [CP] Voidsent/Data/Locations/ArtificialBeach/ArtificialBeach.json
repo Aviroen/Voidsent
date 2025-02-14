@@ -63,9 +63,6 @@
   {
    "Action": "EditMap",
    "Target": "Maps/{{ModId}}_ArtificialBeach",
-   "MapProperties": {
-    "AmbientLight": "75 75 75"
-   },
    "AddWarps": [
     "9 2 UndergroundMine77377 32 3"
    ],

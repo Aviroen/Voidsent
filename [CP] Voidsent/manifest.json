@@ -37,15 +37,7 @@
    "IsRequired": true
   },
   {
-   "UniqueID": "mushymato.LivestockBazaar",
-   "IsRequired": true
-  },
-  {
    "UniqueID": "rokugin.extramapactions",
-   "IsRequired": true
-  },
-  {
-   "UniqueID": "focustense.StardewUI",
    "IsRequired": true
   },
   {
@@ -60,6 +52,16 @@
    "UniqueID": "crystalinerose.Tilesheets",
    "IsRequired": true
   }
+  /*
+    {
+   "UniqueID": "mushymato.LivestockBazaar",
+   "IsRequired": true
+  },
+    {
+   "UniqueID": "focustense.StardewUI",
+   "IsRequired": true
+  },
+  */
  ],
  "UpdateKeys": [
   "Nexus:26053"

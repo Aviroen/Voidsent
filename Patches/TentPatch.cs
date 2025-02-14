@@ -9,20 +9,20 @@ namespace Voidsent.Patches;
 [HarmonyPatch(nameof(StardewValley.Object.placementAction))]
 public static class TentPatch
 {
-    private static IMonitor Monitor { get; set; }
-    private static string ModID { get; set; }
+    private static IMonitor Monitor { get; set; } = null!;
+    internal static IManifest Manifest { get; set; } = null!;
 
-    internal static void Initialize(IMonitor monitor, string modID)
+    internal static void Initialize(IMonitor monitor, IManifest manifest)
     {
         Monitor = monitor;
-        ModID = modID;
+        Manifest = manifest;
     }
 
     static bool LocationCheck(GameLocation loc)
     {
         var location = loc.GetData();
         return location.CustomFields is not null &&
-               location.CustomFields.TryGetValue($"{ModID}_UnsafeForTent", out string unsafeForTent) &&
+               location.CustomFields.TryGetValue($"{Manifest}_UnsafeForTent", out string? unsafeForTent) &&
                unsafeForTent == "True";
     }
 

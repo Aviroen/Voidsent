@@ -16,15 +16,7 @@ namespace Voidsent
 {
     internal class Voidsent : Mod
     {
-        //internal static IViewEngine viewEngine = null!;
-        //internal static string viewAssetPrefix = null!;
-        /* iterate a list of all npcs with {{ModId}}_ to check per 8 heart and flag //might not need this
-         * IncrementStat custom stat Aviroen.VoidsentCP_Fighters
-         * use c# to check how many that is
-         * divide the boss health 2% per int
-         */
         internal static IFtmApi ftmApi = null!;
-        //private IViewEngine viewEngine = null!;
         internal static IModHelper ModHelper { get; set; } = null!;
         internal static IMonitor ModMonitor { get; set; } = null!;
         internal static Harmony Harmony { get; set; } = null!;
@@ -50,8 +42,6 @@ namespace Voidsent
         internal static readonly List<GameLocation> indoorLocations = [];
         public override void Entry(IModHelper helper)
         {
-            //viewAssetPrefix = $"Mods/{ModManifest.UniqueID}/Views";
-
             helper.Events.GameLoop.GameLaunched += OnGameLaunched;
             helper.Events.Input.ButtonPressed += OnButtonPressed;
             helper.Events.GameLoop.SaveLoaded += (_, _) => SetMyLocationFlags(); //netbools
@@ -61,7 +51,7 @@ namespace Voidsent
 
             helper.ConsoleCommands.Add("lizard", "Spawn lizard.", Lizard.LizardDebugCmd);
             GameLocation.RegisterTileAction("Aviroen.Voidsent_SummonLizard", Lizard.HandleSummonLizard);
-            GameLocation.RegisterTileAction("Aviroen.Voidsent", Pathoschild.OnCentralAction);
+            //GameLocation.RegisterTileAction("Aviroen.Voidsent", Pathoschild.OnCentralAction);
             GameLocation.RegisterTileAction("Aviroen.VoidsentBoard", VSSpecialOrderBoard.OpenVSBoard);
             TriggerActionManager.RegisterAction("Aviroen.Voidsent_RandomDialogue", RandomDialogueAction.Action);
 
@@ -71,11 +61,11 @@ namespace Voidsent
             Manifest = ModManifest;
 
             Lizard.Initialize(Monitor);
-            TentPatch.Initialize(Monitor, ModManifest.UniqueID);
+            TentPatch.Initialize(Monitor, ModManifest);
             SocialPagePatch.Initialize(Monitor);
             ProfileMenuPatch.Initialize(Monitor);
             RandomDialogueAction.Initialize(helper.ModRegistry);
-            Pathoschild.Initialize(helper.ModRegistry, ModManifest.UniqueID);
+            //Pathoschild.Initialize(helper.ModRegistry, ModManifest.UniqueID);
             VSSpecialOrderBoard.Initialize(Monitor, helper);
 
             
@@ -115,7 +105,7 @@ namespace Voidsent
                 {
                     //loc.treatAsOutdoors.Value = true;
                     loc.ignoreDebrisWeather.Value = false;
-                    loc.ignoreOutdoorLighting.Value = true;
+                    loc.ignoreOutdoorLighting.Value = false;
                     loc.tryToAddCritters();
                     loc.IsOutdoors = false;
 

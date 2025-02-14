@@ -157,11 +157,11 @@
  "Yrsin.Romantic.Tuesday8_3": "...I feel like causing some chaos today...$6#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*BrrRrRrrRing*\" 3000 0 true#$e#...!$1#$b#Shh... I've got business to attend to.$9#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Trinity \"To what do I owe the pleasure for the illustrious Mermadic leader calling me at this hour?$7\"#$e#Trin! Baby! Give me an update on what supplies you need for the Fall season.$7#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Trinity \"...I will not grace your nicknames with a response. Nonetheless. I have finalized the contract with Nightingale City.$7\"#$e#Always my perfect business partner, aren't we?$1#$b#Do you have any leads on what their product quality will be like?$7#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Trinity \"Yes, it seems as if they're going forward with the entertainment industry and furthermore--\"#$action Spiderbuttons.BETAS_Message \"Seems like Yrsin is busy.",
  "BETAS.Yrsin.Tuesday8_0": "Pardon me, sweetheart. Got calls to make.$1#$b#This is Yrsin, calling about some acquisitions.$9#$action Spiderbuttons.BETAS_Message \"Seems like Yrsin is a little busy.\"",
  "BETAS.Yrsin.Tuesday8_1": "Well, yes, sir. Your next payment is in roughly twenty days, thank you for your patronage.$9#$action Spiderbuttons.BETAS_Message \"Seems like Yrsin is a little busy.\"",
- "BETAS.Yrsin.Tuesday8_2": "",
- "BETAS.Yrsin.Tuesday8_3": "",
+ "BETAS.Yrsin.Tuesday8_2": "Mhm, yes. The rate at which payments would occur would be--#$action Spiderbuttons.BETAS_Message \"Seems like Yrsin is a little busy.\"",
+ "BETAS.Yrsin.Tuesday8_3": "Yes, Syrsa can finalize the rest of the paperwork on the office--#$action Spiderbuttons.BETAS_Message \"Seems like Yrsin is a little busy.\"",
  //10 platonic
- "Yrsin.Platonic.Tuesday10_0": "Give me a moment, love.$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*BrrRrRrrRing*\" 3000 0 true#$e#...#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Thandael \"Yo, Sinny! To what do I owe the pleasure?$1\"#$e#...$7#$b#You're lucky I'm in a good mood today, Than.$7#$b#I need an update on the head of the snake.#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Thandael \"Oh, sure. So the schedule for the week looks like a meeting with an embassador across the sea.\"#$action Spiderbuttons.BETAS_Message \"Seems like Yrsin is busy.",
- "Yrsin.Platonic.Tuesday10_1": "Give me a moment, love.$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*BrrRrRrrRing*\" 3000 0 true#$e#...$1#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrnal \"Helooo Boss.$6\"#$e#Yrna, what would you like to eat this afternoon?$1#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrnal \"Oh! Can we have a buffet today?$1\"#$e#A buffet, huh?$1#$b#I assume you want your usual, shrimp?$6#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrnal \"Oh you know me so well Boss~$1\"#$e#Of course.$1#$b#Go ahead and call Syrs and Yrrek and we'll set something up later on today.$1#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrnal \"Okay! Your usual white-fish?$3\"#$e#You know me so well.$7#$action Spiderbuttons.BETAS_Message \"Seems like Yrsin is busy.",
+ "Yrsin.Platonic.Tuesday10_0": "Give me a moment, love.$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*BrrRrRrrRing*\" 3000 0 true#$e#...#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Thandael \"Yo, Sinny! To what do I owe the pleasure?$1\"#$e#...$7#$b#You're lucky I'm in a good mood today, Than.$7#$b#I need an update on the head of the snake.#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Thandael \"Oh, sure. So the schedule for the week looks like a meeting with an embassador across the sea.\"#$action Spiderbuttons.BETAS_Message \"Seems like Yrsin is busy.\"",
+ "Yrsin.Platonic.Tuesday10_1": "Give me a moment, love.$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*BrrRrRrrRing*\" 3000 0 true#$e#...$1#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrnal \"Helooo Boss.$6\"#$e#Yrna, what would you like to eat this afternoon?$1#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrnal \"Oh! Can we have a buffet today?$1\"#$e#A buffet, huh?$1#$b#I assume you want your usual, shrimp?$6#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrnal \"Oh you know me so well Boss~$1\"#$e#Of course.$1#$b#Go ahead and call Syrs and Yrrek and we'll set something up later on today.$1#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrnal \"Okay! Your usual white-fish?$3\"#$e#You know me so well.$7#$action Spiderbuttons.BETAS_Message \"Seems like Yrsin is busy.\"",
  "Yrsin.Platonic.Tuesday10_2": "Sorry, love, today isn't a good time.$7#$action Spiderbuttons.BETAS_WarpFarmer Aviroen.VoidsentCP_Moor <X> <Y> <FacingDirection>",
  "Yrsin.Platonic.Tuesday10_3": "$action Spiderbuttons.BETAS_Message \"Sounds like Yrsin is... humming?\"#$e#Living in your empty shadow.$8#$e#Should've been two of us, just you and I.$8",
  //romantic
@@ -169,10 +169,10 @@
  "Yrsin.Romantic.Tuesday10_1": "Today's an extremely busy day, you'll have to pardon my manners, sweetheart.$5",
  "Yrsin.Romantic.Tuesday10_2": "Even though it is public knowledge of our relationship, I still cannot afford the kiddie gloves with you, sweetheart.$6#$b#Gotta keep the respect of the people.$7",
  "Yrsin.Romantic.Tuesday10_3": "It is quite often that you visit me during work hours, sweetheart, but you'll have to pardon my manners.$9#$b#Life still moves on and the wicked don't rest.$6",
- "BETAS.Yrsin.Tuesday10_0": "",
- "BETAS.Yrsin.Tuesday10_1": "",
- "BETAS.Yrsin.Tuesday10_2": "",
- "BETAS.Yrsin.Tuesday10_3": "",
+ "BETAS.Yrsin.Tuesday10_0": "Give me a moment, love.$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*BrrRrRrrRing*\" 3000 0 true#$e#...#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Thandael \"Yo, Sinny! To what do I owe the pleasure?$1\"#$e#...$7#$b#You're lucky I'm in a good mood today, Than.$7#$b#I need an update on the head of the snake.#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Thandael \"Oh, sure. So the schedule for the week looks like a meeting with an embassador across the sea.\"#$action Spiderbuttons.BETAS_Message \"Seems like Yrsin is busy.\"",
+ "BETAS.Yrsin.Tuesday10_1": "Give me a moment, love.$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*BrrRrRrrRing*\" 3000 0 true#$e#...$1#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrnal \"Helooo Boss.$6\"#$e#Yrna, what would you like to eat this afternoon?$1#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrnal \"Oh! Can we have a buffet today?$1\"#$e#A buffet, huh?$1#$b#I assume you want your usual, shrimp?$6#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrnal \"Oh you know me so well Boss~$1\"#$e#Of course.$1#$b#Go ahead and call Syrs and Yrrek and we'll set something up later on today.$1#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrnal \"Okay! Your usual white-fish?$3\"#$e#You know me so well.$7#$action Spiderbuttons.BETAS_Message \"Seems like Yrsin is busy.\"",
+ "BETAS.Yrsin.Tuesday10_2": "Sorry, love, today isn't a good time.$7#$action Spiderbuttons.BETAS_WarpFarmer Aviroen.VoidsentCP_Moor <X> <Y> <FacingDirection>",
+ "BETAS.Yrsin.Tuesday10_3": "$action Spiderbuttons.BETAS_Message \"Sounds like Yrsin is... humming?\"#$e#Living in your empty shadow.$8#$e#Should've been two of us, just you and I.$8",
 
  //wednesday
  //BETAS
@@ -251,7 +251,7 @@
  "Yrsin.Thursday_0": "The coral?#$b#They're mermadic tradition to show the leader of a pack.$1",
  "Yrsin.Thursday_1": "Can't get enough of the thrill of danger?$1#$b#I'd call you reckless, but everyone chases after what they can't have.$6",
  "Yrsin.Thursday_2": "Should I call you careless, or a fool?$1#$b#Seeking me out shouldn't be in your best interest.$6",
- "Yrsin.Thursday_3": "Don't...$2#$b#Move...$5#$action Spiderbuttons.BETAS_Message \"Yrsin is breathing deeply.#$e#You're treading a dangerous path, @.$2#$b#You should leave soon.$5",
+ "Yrsin.Thursday_3": "Don't...$2#$b#Move...$5#$action Spiderbuttons.BETAS_Message \"Yrsin is breathing deeply.\"#$e#You're treading a dangerous path, @.$2#$b#You should leave soon.$5",
  //2 heart
  "Yrsin.Thursday2_0": "",
  "Yrsin.Thursday2_1": "",
@@ -317,8 +317,8 @@
  //daily
  "Yrsin.Friday_0": "Mmn. Today's one of my days to rest, love.#$b#Mind coming a different day?$4",
  "Yrsin.Friday_1": "Rest days are important, today so happens to be mine.$6",
- "Yrsin.Friday_2": "...$8#$action Spiderbuttons.BETAS_Message \"Is Yrsin... sleeping with his eyes open?#$e#...?$3#$action Spiderbuttons.BETAS_Message \"Best not to wake a sleeping shark.",
- "Yrsin.Friday_3": "...$8#$action Spiderbuttons.BETAS_Message \"'Yrsin?'#$action Spiderbuttons.BETAS_Message \"Seems like he's asleep with his eyes open.",
+ "Yrsin.Friday_2": "...$8#$action Spiderbuttons.BETAS_Message \"Is Yrsin... sleeping with his eyes open?\"#$e#...?$3#$action Spiderbuttons.BETAS_Message \"Best not to wake a sleeping shark.\"",
+ "Yrsin.Friday_3": "...$8#$action Spiderbuttons.BETAS_Message \"'Yrsin?'\"#$action Spiderbuttons.BETAS_Message \"Seems like he's asleep with his eyes open.\"",
  //2 heart
  "Yrsin.Friday2_0": "",
  "Yrsin.Friday2_1": "",

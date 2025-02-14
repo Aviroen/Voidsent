@@ -4,79 +4,39 @@
    "Action": "EditData",
    "Target": "Strings/SpecialOrderStrings",
    "Entries": {
-    "BlacksmithQuarterly.1": "{{i18n:BlacksmithQuarterly.1}}",
-    "BlacksmithQuarterly.2": "{{i18n:BlacksmithQuarterly.2}}",
-    "BlacksmithQuarterly.3": "{{i18n:BlacksmithQuarterly.3}}"
+    "LostCat.1": "{{i18n:LostCat.1}}"
    }
   },
   {
    "Action": "Include",
    "FromFile": "Data/Templates/SOTemplate.json",
    "LocalTokens": {
-    "ORDERNAME": "Untimed_BlacksmithQuarterly",
-    "NPCNAME": "Duvin",
+    "ORDERNAME": "Untimed_LostCat",
+    "NPCNAME": "Ren",
     "DURATION": "Month",
     "REPEATABLE": "false",
     "CONDITION": "",
     "LOCATION": "Voidsent",
     "MONEY": "5000",
-    "ITEMID": "SkillBook_4"
+    "ITEMID": "(TR){{ModId}}_BushelOCats"
    }
   },
   {
    "Action": "EditData",
    "Target": "Data/SpecialOrders",
-   "TargetField": [ "{{ModId}}_Untimed_BlacksmithQuarterly" ],
+   "TargetField": [ "{{ModId}}_Untimed_LostCat" ],
    "Entries": {
     "Objectives": [
      {
       "Type": "Deliver",
-      "Text": "[BlacksmithQuarterly.1]",
+      "Text": "[LostCat.1]",
       "RequiredCount": "1",
       "Data": {
        "AcceptedContextTags": "item_jade",
-       "TargetName": "{{Yrsin}}"
-      }
-     },
-     {
-      "Type": "Deliver",
-      "Text": "[BlacksmithQuarterly.2]",
-      "RequiredCount": "1",
-      "Data": {
-       "AcceptedContextTags": "item_topaz",
-       "TargetName": "{{Yrsin}}"
-      }
-     },
-     {
-      "Type": "Deliver",
-      "Text": "[BlacksmithQuarterly.3]",
-      "RequiredCount": "1",
-      "Data": {
-       "AcceptedContextTags": "item_emerald",
-       "TargetName": "{{Yrsin}}"
+       "TargetName": "{{Penumbra}}"
       }
      }
     ]
-    /*    "RandomizedElements": [
-      {
-        "Name": "FishType",
-        "Values": [
-          {
-            "RequiredTags": "",
-            "Value": "Text|[Demetrius2_RE_FishType_0_Text]|Tags|fish_river"
-          },
-          {
-            "RequiredTags": "",
-            "Value": "Text|[Demetrius2_RE_FishType_1_Text]|Tags|fish_ocean"
-          },
-          {
-            "RequiredTags": "",
-            "Value": "Text|[Demetrius2_RE_FishType_2_Text]|Tags|fish_lake"
-          }
-        ]
-      }
-    ],
- */
    }
   }
  ]

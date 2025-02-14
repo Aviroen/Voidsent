@@ -54,6 +54,7 @@
      },
      "Layer": "Buildings",
      "SetProperties": {
+      "LockedDoorMessage": "Strings\\\\Locations:DoorUnlock_NotFriend_{{ModId}}_Yrsin",
       "EMA_CustomDoor": "{{ModId}}_GlassDoorPolo",
       "Action": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_YrsinHideoutsUnlocked"
      }
@@ -75,6 +76,7 @@
      },
      "Layer": "Buildings",
      "SetProperties": {
+      "LockedDoorMessage": "Strings\\\\Locations:DoorUnlock_NotFriend_{{ModId}}_Yrsin",
       "EMA_CustomDoor": "{{ModId}}_GlassDoorFlipPolo",
       "Action": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_YrsinHideoutsUnlocked"
      }

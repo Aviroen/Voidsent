@@ -14,8 +14,8 @@ namespace Voidsent.Framework
 {
     internal class VSSpecialOrderBoard : SpecialOrdersBoard
     {
-        private static IMonitor Monitor { get; set; }
-        private static IModHelper Helper { get; set; }
+        private static IMonitor Monitor { get; set; } = null!;
+        private static IModHelper Helper { get; set; } = null!;
         int timestampOpened;
         static int safetyTimer = 500;
 

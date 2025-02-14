@@ -13,6 +13,18 @@
    }
   },
   {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "BreakfastInnBed1",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "19",
+    "YARRIVAL": "9",
+    "MUSIC": "mermaidSong",
+    "AREA": "Morabyr"
+   }
+  },
+  {
    "Action": "EditMap",
    "Target": "Maps/{{ModId}}_BreakfastInnBed",
    "MapProperties": {
@@ -23,7 +35,11 @@
    },
    "AddWarps": [
     "19 5 {{Yrsin}}_Office 2 6",
-    "19 4 {{Yrsin}}_Office 2 6"
+    "19 4 {{Yrsin}}_Office 2 6",
+    "0 5 {{ModId}}_BreakfastInnBed1 1 8",
+    "0 6 {{ModId}}_BreakfastInnBed 1 8",
+    "0 7 {{ModId}}_BreakfastInnBed 1 8",
+    "0 8 {{ModId}}_BreakfastInnBed 1 8"
     //"17 39 {{Morabyr}}",
     //"18 39 {{Morabyr}}"
    ],
@@ -67,6 +83,7 @@
      },
      "Layer": "Buildings",
      "SetProperties": {
+      "LockedDoorMessage": "Strings\\\\Locations:DoorUnlock_NotFriend_{{ModId}}_Yrsin",
       "Action": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_YrsinHideoutsUnlocked",
       "EMA_CustomDoor": "{{ModId}}_GlassDoorBrown"
      }
@@ -258,6 +275,125 @@
      "SetProperties": {
       "TouchAction": "Sleep",
       "Bed": "T"
+     }
+    }
+   ]
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_BreakfastInBed1",
+   "MapProperties": {
+    "AmbientLight": "255 255 255",
+    "NPCWarp": "5 14 {{ModId}}_WarpNetwork 1 0 5 23 {{ModId}}_WarpNetwork 1 0 34 14 {{ModId}}_WarpNetwork 1 0 34 23 {{ModId}}_WarpNetwork 1 0",
+    "Doors": "19 6 0 0",
+    "PassOutSafe": "T"
+   },
+   "AddWarps": [
+    "19 5 {{Yrsin}}_Office 2 6",
+    "19 4 {{Yrsin}}_Office 2 6",
+    "0 8 {{ModId}}_BreakfastInnBed 1 7"
+   ],
+   "MapTiles": [
+    {
+     "Position": {
+      "X": 19,
+      "Y": 6
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "LockedDoorMessage": "Strings\\\\Locations:DoorUnlock_NotFriend_{{ModId}}_Yrsin",
+      "Action": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_YrsinHideoutsUnlocked",
+      "EMA_CustomDoor": "{{ModId}}_GlassDoorBrown"
+     }
+    },
+    {
+     "Position": {
+      "X": 19,
+      "Y": 6
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "TouchAction": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_YrsinHideoutsUnlocked"
+     }
+    },
+    {
+     "Position": {
+      "X": 14,
+      "Y": 18
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "NPCPassable": "T"
+     }
+    },
+    {
+     "Position": {
+      "X": 25,
+      "Y": 18
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "NPCPassable": "T"
+     }
+    },
+    {
+     "Position": {
+      "X": 6,
+      "Y": 30
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "NPCPassable": "T"
+     }
+    },
+    {
+     "Position": {
+      "X": 33,
+      "Y": 30
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "NPCPassable": "T"
+     }
+    },
+    {
+     "Position": {
+      "X": 11,
+      "Y": 31
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "EMA_Fireplace"
+     }
+    },
+    {
+     "Position": {
+      "X": 12,
+      "Y": 31
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "EMA_Fireplace right"
+     }
+    },
+    {
+     "Position": {
+      "X": 27,
+      "Y": 31
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "EMA_Fireplace"
+     }
+    },
+    {
+     "Position": {
+      "X": 28,
+      "Y": 31
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "EMA_Fireplace right"
      }
     }
    ]

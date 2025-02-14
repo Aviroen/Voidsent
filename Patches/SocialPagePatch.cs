@@ -24,7 +24,7 @@ namespace Voidsent.Patches;
 [HarmonyPatch(nameof(StardewValley.Menus.SocialPage.drawNPCSlot))]
 public static class SocialPagePatch
 {
-    private static IMonitor Monitor { get; set; }
+    private static IMonitor Monitor { get; set; } = null!;
 
     public static void Initialize(IMonitor monitor)
     {

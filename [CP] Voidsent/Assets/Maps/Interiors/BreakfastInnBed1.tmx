@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="40" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="88">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="40" height="40" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="92">
  <tileset firstgid="1" name="townInterior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
   <image source="townInterior.png" width="512" height="1088"/>
   <tile id="581">
@@ -381,12 +381,32 @@
  <objectgroup id="10" name="Buildings">
   <object id="80" name="TileData" x="240" y="112" width="32" height="16">
    <properties>
-    <property name="Action" value="Aviroen.Voidsent Bookshelf"/>
+    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_Bookshelf true"/>
    </properties>
   </object>
   <object id="87" name="TileData" x="352" y="112" width="32" height="16">
    <properties>
-    <property name="Action" value="Aviroen.Voidsent Bookshelf"/>
+    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_Bookshelf true"/>
+   </properties>
+  </object>
+  <object id="88" name="TileData" x="240" y="560" width="156" height="32">
+   <properties>
+    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_Dining true"/>
+   </properties>
+  </object>
+  <object id="89" name="TileData" x="112" y="224" width="32" height="16">
+   <properties>
+    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_Bookshelf true"/>
+   </properties>
+  </object>
+  <object id="90" name="TileData" x="128" y="368" width="32" height="16">
+   <properties>
+    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_Bookshelf true"/>
+   </properties>
+  </object>
+  <object id="91" name="TileData" x="496" y="368" width="32" height="16">
+   <properties>
+    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_Bookshelf true"/>
    </properties>
   </object>
  </objectgroup>
