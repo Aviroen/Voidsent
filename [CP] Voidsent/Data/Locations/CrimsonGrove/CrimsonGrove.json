@@ -11,6 +11,19 @@
     "MUSIC": "mermaidSong",
     "AREA": "CrimsonGrove"
    }
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{CrimsonGrove}}",
+   "MapProperties": {
+
+   },
+   "AddWarps": [
+    "28 9 {{ModId}}_Grandberg1 14 28",
+    "29 9 {{ModId}}_Grandberg1 15 28",
+    "59 46 {{Morabyr}} 30 1",
+    "0 34 {{Grove}} 48 22"
+   ]
   }
  ]
 }

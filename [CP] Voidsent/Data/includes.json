@@ -58,12 +58,12 @@
   {
    "LogName": "Exterior Locations Include",
    "Action": "Include",
-   "FromFile": "Data/Locations/ArtificialBeach/ArtificialBeach.json, Data/Locations/CrimsonGrove/CrimsonGrove.json" //, Data/Locations/Commonwealth/Commonwealth.json, Data/Locations/CrimsonGrove/CrimsonGrove.json, Data/Locations/Grandberg/Grandberg.json, Data/Locations/Grove/Grove.json, Data/Locations/Moor/Moor.json, Data/Locations/Morabyr/Morabyr.json, Data/Locations/Outlands/Outlands.json
+   "FromFile": "Data/Locations/ArtificialBeach/ArtificialBeach.json, Data/Locations/Commonwealth/Commonwealth.json, Data/Locations/CrimsonGrove/CrimsonGrove.json, Data/Locations/Grove/Grove.json, Data/Locations/Moor/Moor.json, Data/Locations/Morabyr/Morabyr.json" //, Data/Locations/Outlands/Outlands.json
   },
   {
    "LogName": "Interior Locations Include",
    "Action": "Include",
-   "FromFile": "Data/Locations/ArtificialBeach/Edelweiss.json, Data/Locations/Morabyr/BreakfastInnBed.json, Data/Locations/Moor/JustOneBite.json"
+   "FromFile": "Data/Locations/ArtificialBeach/Edelweiss.json, Data/Locations/Morabyr/BreakfastInnBed.json, Data/Locations/Moor/JustOneBite.json, Data/Locations/Grandberg/Grandberg.json"
   },
   {
    "LogName": "Other Locations Include",

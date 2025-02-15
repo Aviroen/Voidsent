@@ -656,13 +656,7 @@
       "{{i18n: Books.37}}",
       "{{i18n: Books.38}}"
      ]
-    }
-   }
-  },
-  {
-   "Action": "EditData",
-   "Target": "rokugin.EMA/Messages",
-   "Entries": {
+    },
     "{{ModId}}_Kitchen": {
      "Messages": [
       "{{i18n: Kitchen.0}}",
@@ -702,13 +696,7 @@
       "{{i18n: Kitchen.34}}",
       "{{i18n: Kitchen.35}}"
      ]
-    }
-   }
-   },
-  {
-   "Action": "EditData",
-   "Target": "rokugin.EMA/Messages",
-   "Entries": {
+    },
     "{{ModId}}_Dresser": {
      "Messages": [
       "{{i18n: Dresser.0}}",
@@ -748,13 +736,7 @@
       "{{i18n: Dresser.34}}",
       "{{i18n: Dresser.35}}"
      ]
-    }
-   }
-   },
-  {
-   "Action": "EditData",
-   "Target": "rokugin.EMA/Messages",
-   "Entries": {
+    },
     "{{ModId}}_Dining": {
      "Messages": [
       "{{i18n: Dining.0}}",
@@ -794,13 +776,7 @@
       "{{i18n: Dining.34}}",
       "{{i18n: Dining.35}}"
      ]
-    }
-   }
-   },
-  {
-   "Action": "EditData",
-   "Target": "rokugin.EMA/Messages",
-   "Entries": {
+    },
     "{{ModId}}_Cabinet": {
      "Messages": [
       "{{i18n: Cabinet.0}}",
@@ -840,13 +816,7 @@
       "{{i18n: Cabinet.34}}",
       "{{i18n: Cabinet.35}}"
      ]
-    }
-   }
-   },
-  {
-   "Action": "EditData",
-   "Target": "rokugin.EMA/Messages",
-   "Entries": {
+    },
     "{{ModId}}_TV": {
      "Messages": [
       "{{i18n: TV.0}}",
@@ -886,13 +856,7 @@
       "{{i18n: TV.34}}",
       "{{i18n: TV.35}}"
      ]
-    }
-   }
-   },
-  {
-   "Action": "EditData",
-   "Target": "rokugin.EMA/Messages",
-   "Entries": {
+    },
     "{{ModId}}_Clock": {
      "Messages": [
       "{{i18n: Clock.0}}",
@@ -932,13 +896,7 @@
       "{{i18n: Clock.34}}",
       "{{i18n: Clock.35}}"
      ]
-    }
-   }
-   },
-  {
-   "Action": "EditData",
-   "Target": "rokugin.EMA/Messages",
-   "Entries": {
+    },
     "{{ModId}}_Coat": {
      "Messages": [
       "{{i18n: Coat.0}}",
@@ -978,13 +936,7 @@
       "{{i18n: Coat.34}}",
       "{{i18n: Coat.35}}"
      ]
-    }
-   }
-   },
-  {
-   "Action": "EditData",
-   "Target": "rokugin.EMA/Messages",
-   "Entries": {
+    },
     "{{ModId}}_Misc": {
      "Messages": [
       "{{i18n: Misc.0}}",
@@ -1024,7 +976,207 @@
       "{{i18n: Misc.34}}",
       "{{i18n: Misc.35}}"
      ]
+    },
+    "{{ModId}}_Boggarts": {
+     "Messages": [
+      "{{i18n: Boggarts.0}}",
+      "{{i18n: Boggarts.1}}",
+      "{{i18n: Boggarts.2}}",
+      "{{i18n: Boggarts.3}}",
+      "{{i18n: Boggarts.4}}",
+      "{{i18n: Boggarts.5}}",
+      "{{i18n: Boggarts.6}}",
+      "{{i18n: Boggarts.7}}",
+      "{{i18n: Boggarts.8}}",
+      "{{i18n: Boggarts.9}}",
+      "{{i18n: Boggarts.10}}",
+      "{{i18n: Boggarts.11}}",
+      "{{i18n: Boggarts.12}}",
+      "{{i18n: Boggarts.13}}",
+      "{{i18n: Boggarts.14}}",
+      "{{i18n: Boggarts.15}}",
+      "{{i18n: Boggarts.16}}",
+      "{{i18n: Boggarts.17}}",
+      "{{i18n: Boggarts.18}}",
+      "{{i18n: Boggarts.19}}",
+      "{{i18n: Boggarts.20}}",
+      "{{i18n: Boggarts.21}}",
+      "{{i18n: Boggarts.22}}",
+      "{{i18n: Boggarts.23}}",
+      "{{i18n: Boggarts.24}}",
+      "{{i18n: Boggarts.25}}",
+      "{{i18n: Boggarts.26}}",
+      "{{i18n: Boggarts.27}}",
+      "{{i18n: Boggarts.28}}",
+      "{{i18n: Boggarts.29}}",
+      "{{i18n: Boggarts.30}}",
+      "{{i18n: Boggarts.31}}",
+      "{{i18n: Boggarts.32}}",
+      "{{i18n: Boggarts.33}}",
+      "{{i18n: Boggarts.34}}",
+      "{{i18n: Boggarts.35}}"
+     ]
+    },
+    "{{ModId}}_BoggartsStand": {
+     "Messages": [
+      "{{i18n: BoggartsStand.0}}",
+      "{{i18n: BoggartsStand.1}}",
+      "{{i18n: BoggartsStand.2}}",
+      "{{i18n: BoggartsStand.3}}",
+      "{{i18n: BoggartsStand.4}}",
+      "{{i18n: BoggartsStand.5}}",
+      "{{i18n: BoggartsStand.6}}",
+      "{{i18n: BoggartsStand.7}}",
+      "{{i18n: BoggartsStand.8}}",
+      "{{i18n: BoggartsStand.9}}",
+      "{{i18n: BoggartsStand.10}}",
+      "{{i18n: BoggartsStand.11}}",
+      "{{i18n: BoggartsStand.12}}",
+      "{{i18n: BoggartsStand.13}}",
+      "{{i18n: BoggartsStand.14}}",
+      "{{i18n: BoggartsStand.15}}",
+      "{{i18n: BoggartsStand.16}}",
+      "{{i18n: BoggartsStand.17}}",
+      "{{i18n: BoggartsStand.18}}",
+      "{{i18n: BoggartsStand.19}}",
+      "{{i18n: BoggartsStand.20}}",
+      "{{i18n: BoggartsStand.21}}",
+      "{{i18n: BoggartsStand.22}}",
+      "{{i18n: BoggartsStand.23}}",
+      "{{i18n: BoggartsStand.24}}",
+      "{{i18n: BoggartsStand.25}}",
+      "{{i18n: BoggartsStand.26}}",
+      "{{i18n: BoggartsStand.27}}",
+      "{{i18n: BoggartsStand.28}}",
+      "{{i18n: BoggartsStand.29}}",
+      "{{i18n: BoggartsStand.30}}",
+      "{{i18n: BoggartsStand.31}}",
+      "{{i18n: BoggartsStand.32}}",
+      "{{i18n: BoggartsStand.33}}",
+      "{{i18n: BoggartsStand.34}}",
+      "{{i18n: BoggartsStand.35}}"
+     ]
     }
+   },
+   "{{ModId}}_BoggartsCauldron": {
+    "Messages": [
+     "{{i18n: BoggartsCauldron.0}}",
+     "{{i18n: BoggartsCauldron.1}}",
+     "{{i18n: BoggartsCauldron.2}}",
+     "{{i18n: BoggartsCauldron.3}}",
+     "{{i18n: BoggartsCauldron.4}}",
+     "{{i18n: BoggartsCauldron.5}}",
+     "{{i18n: BoggartsCauldron.6}}",
+     "{{i18n: BoggartsCauldron.7}}",
+     "{{i18n: BoggartsCauldron.8}}",
+     "{{i18n: BoggartsCauldron.9}}",
+     "{{i18n: BoggartsCauldron.10}}",
+     "{{i18n: BoggartsCauldron.11}}",
+     "{{i18n: BoggartsCauldron.12}}",
+     "{{i18n: BoggartsCauldron.13}}",
+     "{{i18n: BoggartsCauldron.14}}",
+     "{{i18n: BoggartsCauldron.15}}",
+     "{{i18n: BoggartsCauldron.16}}",
+     "{{i18n: BoggartsCauldron.17}}",
+     "{{i18n: BoggartsCauldron.18}}",
+     "{{i18n: BoggartsCauldron.19}}",
+     "{{i18n: BoggartsCauldron.20}}",
+     "{{i18n: BoggartsCauldron.21}}",
+     "{{i18n: BoggartsCauldron.22}}",
+     "{{i18n: BoggartsCauldron.23}}",
+     "{{i18n: BoggartsCauldron.24}}",
+     "{{i18n: BoggartsCauldron.25}}",
+     "{{i18n: BoggartsCauldron.26}}",
+     "{{i18n: BoggartsCauldron.27}}",
+     "{{i18n: BoggartsCauldron.28}}",
+     "{{i18n: BoggartsCauldron.29}}",
+     "{{i18n: BoggartsCauldron.30}}",
+     "{{i18n: BoggartsCauldron.31}}",
+     "{{i18n: BoggartsCauldron.32}}",
+     "{{i18n: BoggartsCauldron.33}}",
+     "{{i18n: BoggartsCauldron.34}}",
+     "{{i18n: BoggartsCauldron.35}}"
+    ]
+   },
+   "{{ModId}}_BoggartsPotions": {
+    "Messages": [
+     "{{i18n: BoggartsPotions.0}}",
+     "{{i18n: BoggartsPotions.1}}",
+     "{{i18n: BoggartsPotions.2}}",
+     "{{i18n: BoggartsPotions.3}}",
+     "{{i18n: BoggartsPotions.4}}",
+     "{{i18n: BoggartsPotions.5}}",
+     "{{i18n: BoggartsPotions.6}}",
+     "{{i18n: BoggartsPotions.7}}",
+     "{{i18n: BoggartsPotions.8}}",
+     "{{i18n: BoggartsPotions.9}}",
+     "{{i18n: BoggartsPotions.10}}",
+     "{{i18n: BoggartsPotions.11}}",
+     "{{i18n: BoggartsPotions.12}}",
+     "{{i18n: BoggartsPotions.13}}",
+     "{{i18n: BoggartsPotions.14}}",
+     "{{i18n: BoggartsPotions.15}}",
+     "{{i18n: BoggartsPotions.16}}",
+     "{{i18n: BoggartsPotions.17}}",
+     "{{i18n: BoggartsPotions.18}}",
+     "{{i18n: BoggartsPotions.19}}",
+     "{{i18n: BoggartsPotions.20}}",
+     "{{i18n: BoggartsPotions.21}}",
+     "{{i18n: BoggartsPotions.22}}",
+     "{{i18n: BoggartsPotions.23}}",
+     "{{i18n: BoggartsPotions.24}}",
+     "{{i18n: BoggartsPotions.25}}",
+     "{{i18n: BoggartsPotions.26}}",
+     "{{i18n: BoggartsPotions.27}}",
+     "{{i18n: BoggartsPotions.28}}",
+     "{{i18n: BoggartsPotions.29}}",
+     "{{i18n: BoggartsPotions.30}}",
+     "{{i18n: BoggartsPotions.31}}",
+     "{{i18n: BoggartsPotions.32}}",
+     "{{i18n: BoggartsPotions.33}}",
+     "{{i18n: BoggartsPotions.34}}",
+     "{{i18n: BoggartsPotions.35}}"
+    ]
+   },
+   "{{ModId}}_BoggartsRations": {
+    "Messages": [
+     "{{i18n: BoggartsRations.0}}",
+     "{{i18n: BoggartsRations.1}}",
+     "{{i18n: BoggartsRations.2}}",
+     "{{i18n: BoggartsRations.3}}",
+     "{{i18n: BoggartsRations.4}}",
+     "{{i18n: BoggartsRations.5}}",
+     "{{i18n: BoggartsRations.6}}",
+     "{{i18n: BoggartsRations.7}}",
+     "{{i18n: BoggartsRations.8}}",
+     "{{i18n: BoggartsRations.9}}",
+     "{{i18n: BoggartsRations.10}}",
+     "{{i18n: BoggartsRations.11}}",
+     "{{i18n: BoggartsRations.12}}",
+     "{{i18n: BoggartsRations.13}}",
+     "{{i18n: BoggartsRations.14}}",
+     "{{i18n: BoggartsRations.15}}",
+     "{{i18n: BoggartsRations.16}}",
+     "{{i18n: BoggartsRations.17}}",
+     "{{i18n: BoggartsRations.18}}",
+     "{{i18n: BoggartsRations.19}}",
+     "{{i18n: BoggartsRations.20}}",
+     "{{i18n: BoggartsRations.21}}",
+     "{{i18n: BoggartsRations.22}}",
+     "{{i18n: BoggartsRations.23}}",
+     "{{i18n: BoggartsRations.24}}",
+     "{{i18n: BoggartsRations.25}}",
+     "{{i18n: BoggartsRations.26}}",
+     "{{i18n: BoggartsRations.27}}",
+     "{{i18n: BoggartsRations.28}}",
+     "{{i18n: BoggartsRations.29}}",
+     "{{i18n: BoggartsRations.30}}",
+     "{{i18n: BoggartsRations.31}}",
+     "{{i18n: BoggartsRations.32}}",
+     "{{i18n: BoggartsRations.33}}",
+     "{{i18n: BoggartsRations.34}}",
+     "{{i18n: BoggartsRations.35}}"
+    ]
    }
   }
  ]

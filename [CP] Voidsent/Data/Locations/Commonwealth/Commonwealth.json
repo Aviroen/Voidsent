@@ -1,3 +1,26 @@
 {
+ "Changes": [
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "Commonwealth",
+    "INTERIORORLOCATIONS": "Locations",
+    "XARRIVAL": "8",
+    "YARRIVAL": "18",
+    "MUSIC": "mermaidSong",
+    "AREA": "Commonwealth"
+   }
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{Commonwealth}}",
+   "MapProperties": {
 
+   },
+   "AddWarps": [
+    "0 12 {{Morabyr}} 110 51"
+   ]
+  }
+ ]
 }

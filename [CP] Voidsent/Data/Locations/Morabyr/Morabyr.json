@@ -1,3 +1,29 @@
 {
+ "Changes": [
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "Morabyr",
+    "INTERIORORLOCATIONS": "Locations",
+    "XARRIVAL": "8",
+    "YARRIVAL": "18",
+    "MUSIC": "mermaidSong",
+    "AREA": "Morabyr"
+   }
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{Morabyr}}",
+   "MapProperties": {
 
+   },
+   "AddWarps": [
+    "111 51 {{Commonwealth}} 1 12",
+    "30 0 {{CrimsonGrove}} 58 53",
+    "3 42 {{Moor}} 58 1",
+    "71 69 {{ArtificialBeach}} 26 47"
+   ]
+  }
+ ]
 }

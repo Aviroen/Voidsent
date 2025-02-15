@@ -64,7 +64,8 @@
    "Action": "EditMap",
    "Target": "Maps/{{ModId}}_ArtificialBeach",
    "AddWarps": [
-    "9 2 UndergroundMine77377 32 3"
+    "9 2 UndergroundMine77377 32 3",
+    "26 48 {{Morabyr}} 71 68"
    ],
    "MapTiles": [
     {
