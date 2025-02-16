@@ -6,8 +6,8 @@
    "LocalTokens": {
     "MAPNAME": "CrimsonGrove",
     "INTERIORORLOCATIONS": "Locations",
-    "XARRIVAL": "8",
-    "YARRIVAL": "18",
+    "XARRIVAL": "30",
+    "YARRIVAL": "52",
     "MUSIC": "mermaidSong",
     "AREA": "CrimsonGrove"
    }

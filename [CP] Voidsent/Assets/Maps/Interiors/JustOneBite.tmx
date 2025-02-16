@@ -125,7 +125,7 @@
 1,4137,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,4138,1,
 4168,4810,4811,4811,4811,4811,4811,4811,4811,0,0,4811,4811,4811,4811,4811,4811,4811,4812,4171,
 4108,4842,4843,4843,4843,4843,4843,4843,4843,0,0,4843,4843,4843,4843,4843,4843,4843,4844,4110,
-4108,4874,4875,4875,4875,4875,4875,4875,4875,2489,2490,4875,4875,4875,4875,4875,4875,4875,4876,4110,
+4108,4874,4875,4875,4875,4875,4875,4875,4875,2213,2214,4875,4875,4875,4875,4875,4875,4875,4876,4110,
 4108,0,0,4739,0,0,4730,0,0,0,0,0,3240,3241,525,526,527,887,0,4110,
 4108,0,0,0,0,0,0,0,0,0,0,0,719,720,0,0,0,555,556,4110,
 4108,0,887,0,0,0,0,887,0,0,0,0,751,752,0,0,0,587,588,4110,
@@ -273,42 +273,42 @@
  <objectgroup id="12" name="Buildings">
   <object id="1" name="TileData" x="96" y="64" width="16" height="16">
    <properties>
-    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_Kitchen true"/>
+    <property name="Action" value="Aviroen.Voidsent Kitchen"/>
    </properties>
   </object>
   <object id="2" name="TileData" x="48" y="64" width="16" height="16">
    <properties>
-    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_Kitchen true"/>
+    <property name="Action" value="Aviroen.Voidsent Kitchen"/>
    </properties>
   </object>
   <object id="3" name="TileData" x="112" y="272" width="16" height="16">
    <properties>
-    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_Kitchen true"/>
+    <property name="Action" value="Aviroen.Voidsent Kitchen"/>
    </properties>
   </object>
   <object id="4" name="TileData" x="128" y="272" width="16" height="16">
    <properties>
-    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_Kitchen true"/>
+    <property name="Action" value="Aviroen.Voidsent Kitchen"/>
    </properties>
   </object>
   <object id="5" name="TileData" x="160" y="224" width="16" height="16">
    <properties>
-    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_Misc true"/>
+    <property name="Action" value="Aviroen.Voidsent Misc"/>
    </properties>
   </object>
   <object id="6" name="TileData" x="176" y="224" width="16" height="16">
    <properties>
-    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_TV true"/>
+    <property name="Action" value="Aviroen.Voidsent TV"/>
    </properties>
   </object>
   <object id="7" name="TileData" x="192" y="64" width="16" height="16">
    <properties>
-    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_TV true"/>
+    <property name="Action" value="Aviroen.Voidsent TV"/>
    </properties>
   </object>
   <object id="8" name="TileData" x="208" y="64" width="16" height="16">
    <properties>
-    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_TV true"/>
+    <property name="Action" value="Aviroen.Voidsent TV"/>
    </properties>
   </object>
  </objectgroup>

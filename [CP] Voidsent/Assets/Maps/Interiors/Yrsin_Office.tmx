@@ -124,10 +124,10 @@
 65,66,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,67,68,69,
 65,98,99,99,99,99,99,99,99,99,99,99,99,99,99,99,99,99,100,69,
 65,729,730,644,705,705,705,645,618,0,0,582,644,645,795,796,644,645,0,69,
-65,0,0,0,719,720,0,0,3166,3167,3167,3168,0,0,0,0,898,0,0,69,
-65,0,1160,0,751,752,0,0,3198,3199,3199,3200,0,0,887,0,0,0,0,69,
-65,0,0,0,783,784,0,3261,3262,3263,3263,3264,3265,0,0,0,0,0,0,69,
-65,0,0,0,0,0,0,3293,3294,3295,3295,3296,3297,0,0,0,0,0,0,69,
+65,0,0,0,719,720,0,0,0,3197,3198,0,0,0,0,0,898,0,0,69,
+65,0,1160,0,751,752,0,0,0,0,0,0,0,0,887,0,0,0,0,69,
+65,0,0,0,783,784,0,0,3260,3261,3262,3263,0,0,0,0,0,0,0,69,
+65,0,0,0,0,0,0,0,3292,3293,3294,3295,0,0,0,0,0,0,0,69,
 161,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,168,
 1,2,3,3,3,3,3,3,195,0,0,194,3,3,3,3,3,3,4,1,
 33,0,0,0,0,0,0,0,56,0,0,55,0,0,0,0,0,0,0,37,
@@ -148,7 +148,7 @@
 0,0,0,580,641,641,641,581,226,153,154,226,580,581,699,700,580,581,0,0,
 0,665,666,612,673,673,673,613,258,185,186,258,612,613,731,732,612,613,899,0,
 0,697,698,612,673,673,673,613,586,0,1339,550,612,613,763,764,612,613,0,0,
-0,0,0,0,0,0,0,0,0,0,1371,0,0,0,795,796,866,0,0,0,
+0,0,0,0,0,0,0,0,0,3165,3166,0,0,0,795,796,866,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,994,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -172,10 +172,10 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,513,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,513,0,1339,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,1371,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,3229,3230,3231,2147486879,3232,3233,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,3228,3229,3230,3231,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,162,166,166,166,166,166,166,163,0,0,164,166,166,166,166,166,166,167,0,
@@ -220,32 +220,32 @@
  <objectgroup id="9" name="Buildings">
   <object id="1" name="TileData" x="48" y="64" width="80" height="16">
    <properties>
-    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_Bookshelf true"/>
+    <property name="Action" value="Aviroen.Voidsent Bookshelf"/>
    </properties>
   </object>
   <object id="2" name="TileData" x="192" y="64" width="32" height="16">
    <properties>
-    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_Bookshelf true"/>
+    <property name="Action" value="Aviroen.Voidsent Bookshelf"/>
    </properties>
   </object>
   <object id="3" name="TileData" x="256" y="64" width="32" height="16">
    <properties>
-    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_Bookshelf true"/>
+    <property name="Action" value="Aviroen.Voidsent Bookshelf"/>
    </properties>
   </object>
   <object id="4" name="TileData" x="32" y="224" width="80" height="16">
    <properties>
-    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_Kitchen true"/>
+    <property name="Action" value="Aviroen.Voidsent Kitchen"/>
    </properties>
   </object>
   <object id="5" name="TileData" x="112" y="224" width="32" height="16">
    <properties>
-    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_Dresser true"/>
+    <property name="Action" value="Aviroen.Voidsent Dresser"/>
    </properties>
   </object>
   <object id="6" name="TileData" x="240" y="224" width="32" height="16">
    <properties>
-    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_Misc true"/>
+    <property name="Action" value="Aviroen.Voidsent Misc"/>
    </properties>
   </object>
  </objectgroup>

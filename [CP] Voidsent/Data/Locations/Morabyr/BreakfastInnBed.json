@@ -37,9 +37,9 @@
     "19 5 {{Yrsin}}_Office 2 6",
     "19 4 {{Yrsin}}_Office 2 6",
     "0 5 {{ModId}}_BreakfastInnBed1 1 8",
-    "0 6 {{ModId}}_BreakfastInnBed 1 8",
-    "0 7 {{ModId}}_BreakfastInnBed 1 8",
-    "0 8 {{ModId}}_BreakfastInnBed 1 8"
+    "0 6 {{ModId}}_BreakfastInnBed1 1 8",
+    "0 7 {{ModId}}_BreakfastInnBed1 1 8",
+    "0 8 {{ModId}}_BreakfastInnBed1 1 8"
     //"17 39 {{Morabyr}}",
     //"18 39 {{Morabyr}}"
    ],
@@ -106,7 +106,7 @@
      "Layer": "Buildings",
      "SetProperties": {
       "Action": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_ExpensiveRoom",
-      "EMA_CustomDoor": "{{ModId}}_GlassDoorBrown"
+      "EMA_CustomDoor": "{{ModId}}_SolidDoorBrown"
      }
     },
     {
@@ -127,7 +127,7 @@
      "Layer": "Buildings",
      "SetProperties": {
       "Action": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_ExpensiveRoom",
-      "EMA_CustomDoor": "{{ModId}}_GlassDoorFlipBrown"
+      "EMA_CustomDoor": "{{ModId}}_SolidDoorFlipBrown"
      }
     },
     {
@@ -148,7 +148,7 @@
      "Layer": "Buildings",
      "SetProperties": {
       "Action": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_CheapRoom",
-      "EMA_CustomDoor": "{{ModId}}_GlassDoorBrown"
+      "EMA_CustomDoor": "{{ModId}}_SolidDoorBrown"
      }
     },
     {
@@ -169,7 +169,7 @@
      "Layer": "Buildings",
      "SetProperties": {
       "Action": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_CheapRoom",
-      "EMA_CustomDoor": "{{ModId}}_GlassDoorFlipBrown"
+      "EMA_CustomDoor": "{{ModId}}_SolidDoorFlipBrown"
      }
     },
     {
@@ -281,7 +281,7 @@
   },
   {
    "Action": "EditMap",
-   "Target": "Maps/{{ModId}}_BreakfastInBed1",
+   "Target": "Maps/{{ModId}}_BreakfastInnBed1",
    "MapProperties": {
     "AmbientLight": "255 255 255",
     "NPCWarp": "5 14 {{ModId}}_WarpNetwork 1 0 5 23 {{ModId}}_WarpNetwork 1 0 34 14 {{ModId}}_WarpNetwork 1 0 34 23 {{ModId}}_WarpNetwork 1 0",
