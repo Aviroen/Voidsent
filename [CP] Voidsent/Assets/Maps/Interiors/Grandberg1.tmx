@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="1">
  <properties>
-  <property name="Outdoors" value="T"/>
+  <property name="indoorWater" value="T"/>
  </properties>
  <tileset firstgid="1" name="spring_kailey_outdoors" tilewidth="16" tileheight="16" tilecount="3276" columns="42">
   <image source="spring_kailey_outdoors.png" width="672" height="1248"/>

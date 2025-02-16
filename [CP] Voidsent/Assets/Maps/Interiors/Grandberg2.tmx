@@ -4,7 +4,7 @@
   <export target="Grandberg6.tmx" format="tmx"/>
  </editorsettings>
  <properties>
-  <property name="Outdoors" value="T"/>
+  <property name="indoorWater" value="T"/>
  </properties>
  <tileset firstgid="1" name="townInterior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
   <image source="townInterior.png" width="512" height="1088"/>

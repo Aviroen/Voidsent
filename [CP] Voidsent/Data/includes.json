@@ -43,14 +43,14 @@
    },
    "Target": "Mods/shekurika.EventLookup/locationnames",
    "Entries": {
-    "{{ArtificialBeach}}": "Artificial Beach",
-    "{{Morabyr}}": "Port Morabyr",
-    "{{Commonwealth}}": "Commonwealth",
-    "{{Moor}}": "The Moor",
-    "{{Grandberg}}": "Grandberg Castle",
-    "{{CrimsonGrove}}": "Crimson Grove",
-    "{{Outlands}}": "Outlands",
-    "{{Grove}}": "Grove"
+    "{{ArtificialBeach}}": "{{i18n:ArtificialBeach}}",
+    "{{Morabyr}}": "{{i18n:Morabyr}}",
+    "{{Commonwealth}}": "{{i18n:Commonwealth}}",
+    "{{Moor}}": "{{i18n:Moor}}",
+    "{{Grandberg}}": "{{i18n:Grandberg}}",
+    "{{CrimsonGrove}}": "{{i18n:CrimsonGrove}}",
+    "{{Outlands}}": "{{i18n:Outlands}}",
+    "{{Grove}}": "{{i18n:Grove}}"
    }
   },
   {
@@ -81,7 +81,7 @@
   {
    "LogName": "Interior Locations Include",
    "Action": "Include",
-   "FromFile": "Data/Locations/ArtificialBeach/Edelweiss.json, Data/Locations/Morabyr/BreakfastInnBed.json, Data/Locations/Moor/JustOneBite.json, Data/Locations/Grandberg/Grandberg.json"
+   "FromFile": "Data/Locations/ArtificialBeach/Edelweiss.json, Data/Locations/Morabyr/BreakfastInnBed.json, Data/Locations/Moor/JustOneBite.json, Data/Locations/CrimsonGrove/Grandberg.json"
   },
   {
    "LogName": "Other Locations Include",

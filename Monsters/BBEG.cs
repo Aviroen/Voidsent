@@ -18,6 +18,12 @@ public class BBEG : Monster
      * call relevant phase method
      * 8 frames per 50ms
      * don't tie behavior to animation
+     * the main thing to understand is that u r decide what do in the Update method
+and ur state is either "doing something rn" or "just got done doing something"
+in this context even "stand around so player can hit me" is "doing something rn"
+    you get to pick "what do next" when you enter the "just got done doing something" state
+i suppose there is also the secret third state of "oh i didn't get to do what i wanted to do" that is essentialy same as "just got done doing something"
+    this would be case where boss hit 50% hp left, interrupt previous doings and immediately pick next thing
      */
 
     public BBEG()
