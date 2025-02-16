@@ -5,33 +5,33 @@
    "Target": "mushymato.MMAP/QuestionDialogue",
    "Entries": {
     "{{ModId}}_BIBRoom": {
-     "Question": "[LocalizedText Strings/StringsFromCSFiles:{{ModId}}_RoomCheck]",
+     "Question": "[LocalizedText {{ModId}}/A_Strings:RoomCheck]",
      //"Speaker": "{{Yrnal}}",
      "ResponseEntries": {
       "ExpensiveRoom": {
-       "Label": "[LocalizedText Strings/StringsFromCSFiles:{{ModId}}_ExpensiveBuy]",
+       "Label": "[LocalizedText {{ModId}}/A_Strings:ExpensiveBuy]",
        "Condition": "PLAYER_CURRENT_MONEY Current 20000",
        // both actions run
        "Actions": [
         "AddMail Current {{ModId}}_ExpensiveRoom now",
         "AddMoney -20000",
-        "Spiderbuttons.BETAS_DialogueBox {{Yrnal}} Strings/StringsFromCSFiles:{{ModId}}_Expensive"
+        "Spiderbuttons.BETAS_DialogueBox {{Yrnal}} [LocalizedText {{ModId}}/A_Strings:Expensive]"
        ]
       },
       "CheapRoom": {
-       "Label": "[LocalizedText Strings/StringsFromCSFiles:{{ModId}}_CheapBuy]",
+       "Label": "[LocalizedText {{ModId}}/A_Strings:CheapBuy]",
        "Condition": "PLAYER_CURRENT_MONEY Current 1000",
        "Actions": [
         "AddMail Current {{ModId}}_CheapRoom now",
         "AddMoney -1000",
-        "Spiderbuttons.BETAS_DialogueBox {{Yrnal}} Strings/StringsFromCSFiles:{{ModId}}_Cheap"
+        "Spiderbuttons.BETAS_DialogueBox {{Yrnal}} [LocalizedText {{ModId}}/A_Strings:Cheap]"
        ]
       },
       "Cancel": {}
      }
     },
     "{{ModId}}_BIBLeave": {
-     "Question": "[LocalizedText Strings/StringsFromCSFiles:{{ModId}}_Leave]",
+     "Question": "[LocalizedText {{ModId}}/A_Strings:Leave]",
      //"Speaker": "{{Yrnal}}",
      "ResponseEntries": {
       "YesLeave": {
@@ -41,7 +41,7 @@
         "RemoveMail Current {{ModId}}_ExpensiveRoom now",
         "RemoveMail Current {{ModId}}_CheapRoom now",
         "Spiderbuttons.BETAS_WarpFarmer {{ModId}}_BreakfastInnBed 18 32 0",
-        "Spiderbuttons.BETAS_DialogueBox {{Yrnal}} Strings/StringsFromCSFiles:{{ModId}}_Leaving"
+        "Spiderbuttons.BETAS_DialogueBox {{Yrnal}} [LocalizedText {{ModId}}/A_Strings:Leaving]"
        ]
       },
       "Cancel": {}

@@ -26,17 +26,6 @@
     "GroveMessage": "{{i18n:GroveMessage}}"
 
    }
-  },
-  {
-   "Action": "EditData",
-   "Target": "Strings/StringsFromCSFiles",
-   "Entries": {
-    "{{ModId}}_RoomCheck": "{{i18n:RoomCheck}}",
-    "{{ModId}}_Expensive": "{{i18n:Expensive}}",
-    "{{ModId}}_Cheap": "{{i18n:Cheap}}",
-    "{{ModId}}_Leave": "{{i18n:Leave}}",
-    "{{ModId}}_Leaving": "{{i18n:Leaving}}"
-   }
   }
  ]
 }

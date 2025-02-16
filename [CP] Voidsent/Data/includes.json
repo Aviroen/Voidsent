@@ -19,6 +19,24 @@
    "FromFile": "Assets/Animals/AnimalShop.png"
   },
   {
+   "Action": "Load",
+   "FromFile": "{{FirstValidFile: i18n/{{language}}/A_Mail.json, i18n/default/A_Mail.json}}",
+   "Priority": "Low",
+   "Target": "{{ModId}}/Mail"
+  },
+  {
+   "Action": "Load",
+   "FromFile": "{{FirstValidFile: i18n/{{language}}/A_Objects.json, i18n/default/A_Objects.json}}",
+   "Priority": "Low",
+   "Target": "{{ModId}}/Objects"
+  },
+  {
+   "Action": "Load",
+   "FromFile": "{{FirstValidFile: i18n/{{language}}/A_Strings.json, i18n/default/A_Strings.json}}",
+   "Priority": "Low",
+   "Target": "{{ModId}}/Strings"
+  },
+  {
    "Action": "EditData",
    "When": {
     "HasMod": "shekurika.EventLookup"
