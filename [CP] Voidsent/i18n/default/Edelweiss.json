@@ -1,33 +1,46 @@
 {
- //start of characters/dialogue/npc
  "Edelweiss": "Edelweiss",
- "Edelweiss.Housemate": "Bestie",
- "Edelweiss.Spouse": "Spouse",
- "Edelweiss.Partner": "Partner",
- "Edelweiss.ExSpouse": "Ex-Spouse",
- "Edelweiss.Single": "Singlet",
- "Edelweiss.breakUp": "",
- "Edelweiss.divorced": "",
- "Edelweiss.DumpsterDiveComment": "",
- "Edelweiss.HitBySlingshot": "",
- "Edelweiss.SpouseFarmhouseClutter": "",
- "Edelweiss.SpouseGiftJealous": "",
- "Edelweiss.Spouse_MonstersInHouse": "",
- "Edelweiss.SpouseStardrop": "",
- "Edelweiss.WipedMemory": "",
- "Edelweiss.AcceptBouquet": "",
- "Edelweiss.MovieInvitation": "",
- "Edelweiss.RejectBouquet": "",
- "Edelweiss.RejectGift_Divorced": "",
- "Edelweiss.RejectMermaidPendant": "",
- "Edelweiss.RejectMovieTicket": "",
- "Edelweiss.GreenRain": "",
- "Edelweiss.GreenRainFinished": "",
- "Edelweiss.Engaged": "",
- "Edelweiss.AfterWedding": "",
+ "Edelweiss.RejectPendant": "Sorry, I don't know what that I'm supposed to do with this.",
+ "Edelweiss.RejectTea": "Sorry, I don't know what that I'm supposed to do with this.",
+ //start of characters/dialogue/npc
+ "Edelweiss.Housemate": "(housemate)",
+ "Edelweiss.Spouse": "(spouse)",
+ "Edelweiss.Partner": "(partner)",
+ "Edelweiss.ExSpouse": "(ex-spouse)",
+ "Edelweiss.Single": "(single)",
+ //door unlock
+ "Edelweiss.NotFriend_Door": "Magicks are locking this door.",
+
+ //gift taste dialogue
+ "Edelweiss.Gifts.Loved": "For me?$1#$b#Thanks.$1",
+ "Edelweiss.Gifts.Liked": "Oh, useful material.$3#$b#Thanks.$3",
+ "Edelweiss.Gifts.Disliked": "...Did Syl put you up to this?$6",
+ "Edelweiss.Gifts.Hated": "...Syl put you up to this, didn't she?$5",
+ "Edelweiss.Gifts.Neutral": "Useful for kindling, I suppose.$6",
+
+ //gen dialogue
+ "Edelweiss.breakUp": "...$6#$e#What, did you want some kind of fanfare?$3#$e#Mundanes come and go.$6",
+ "Edelweiss.divorced": "Much to my chagrin, seems I've followed in my father's footsteps.$6",
+ "Edelweiss.DumpsterDiveComment": "...?$1",
+ "Edelweiss.HitBySlingshot": "...A spy?#$action spacechase0.SpaceCore_DamageCurrentFarmer 50",
+ "Edelweiss.SpouseFarmhouseClutter": "...I know some magic that could help out if you'd like...?$3",
+ "Edelweiss.SpouseGiftJealous": "I'm used to it.$6",
+ "Edelweiss.Spouse_MonstersInHouse": "A new experiment?$3",
+ "Edelweiss.SpouseStardrop": "Gotoro lands are quite prosperous with these, useful?$3#$e#Good.$4",
+ "Edelweiss.WipedMemory": "Paltry secondrate spells won't work on me.$5",
+ "Edelweiss.AcceptBouquet": "...?$1#$b#Oh, you... Wish to date?$3#$b#Sure?$1",
+ "Edelweiss.MovieInvitation": "Muvi?$5#$b#Oh, cinema.$3#$b#Sure, sounds interesting.$4",
+ "Edelweiss.RejectBouquet": "Sorry, not interested.$3",
+ "Edelweiss.RejectGift_Divorced": "...$6",
+ "Edelweiss.RejectMermaidPendant": "...?$1#$b#I don't know what this means.$1",
+ "Edelweiss.RejectMovieTicket": "Maybe another time.$6",
+ "Edelweiss.GreenRain": "The rains are a perfect time for me to work on potions...$6#$e#I need to get some more mushrooms...$6",
+ "Edelweiss.GreenRainFinished": "Today was a good haul for my potion supplies.$1",
+ "Edelweiss.Engaged": "Never really expected to see myself engaged, but I guess the tides turn, as they say.$3",
+ "Edelweiss.AfterWedding": "Here's to years together.$4",
 
  //monday
- //BETAS
+ //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_
  "BETAS.Edelweiss.Monday_0": "",
  "BETAS.Edelweiss.Monday_1": "",
  "BETAS.Edelweiss.Monday_2": "",
@@ -37,22 +50,33 @@
  "Edelweiss.Monday_1": "",
  "Edelweiss.Monday_2": "",
  "Edelweiss.Monday_3": "",
- "Edelweiss.Monday_4": "Hello.$2",
  //2 heart
  "Edelweiss.Monday2_0": "",
  "Edelweiss.Monday2_1": "",
  "Edelweiss.Monday2_2": "",
  "Edelweiss.Monday2_3": "",
+ "BETAS.Edelweiss.Monday2_0": "",
+ "BETAS.Edelweiss.Monday2_1": "",
+ "BETAS.Edelweiss.Monday2_2": "",
+ "BETAS.Edelweiss.Monday2_3": "",
  //4 heart
  "Edelweiss.Monday4_0": "",
  "Edelweiss.Monday4_1": "",
  "Edelweiss.Monday4_2": "",
  "Edelweiss.Monday4_3": "",
+ "BETAS.Edelweiss.Monday4_0": "",
+ "BETAS.Edelweiss.Monday4_1": "",
+ "BETAS.Edelweiss.Monday4_2": "",
+ "BETAS.Edelweiss.Monday4_3": "",
  //6
  "Edelweiss.Monday6_0": "",
  "Edelweiss.Monday6_1": "",
  "Edelweiss.Monday6_2": "",
  "Edelweiss.Monday6_3": "",
+ "BETAS.Edelweiss.Monday6_0": "",
+ "BETAS.Edelweiss.Monday6_1": "",
+ "BETAS.Edelweiss.Monday6_2": "",
+ "BETAS.Edelweiss.Monday6_3": "",
  //8 platonic
  "Edelweiss.Platonic.Monday8_0": "",
  "Edelweiss.Platonic.Monday8_1": "",
@@ -63,26 +87,26 @@
  "Edelweiss.Romantic.Monday8_1": "",
  "Edelweiss.Romantic.Monday8_2": "",
  "Edelweiss.Romantic.Monday8_3": "",
+ //8
+ "BETAS.Edelweiss.Monday8_0": "",
+ "BETAS.Edelweiss.Monday8_1": "",
+ "BETAS.Edelweiss.Monday8_2": "",
+ "BETAS.Edelweiss.Monday8_3": "",
  //10 platonic
  "Edelweiss.Platonic.Monday10_0": "",
  "Edelweiss.Platonic.Monday10_1": "",
  "Edelweiss.Platonic.Monday10_2": "",
  "Edelweiss.Platonic.Monday10_3": "",
- //romantic
+ //10 romantic
  "Edelweiss.Romantic.Monday10_0": "",
  "Edelweiss.Romantic.Monday10_1": "",
  "Edelweiss.Romantic.Monday10_2": "",
  "Edelweiss.Romantic.Monday10_3": "",
- //12
- "Edelweiss.Monday12_0": "",
- "Edelweiss.Monday12_1": "",
- "Edelweiss.Monday12_2": "",
- "Edelweiss.Monday12_3": "",
- //14
- "Edelweiss.Monday14_0": "",
- "Edelweiss.Monday14_1": "",
- "Edelweiss.Monday14_2": "",
- "Edelweiss.Monday14_3": "",
+ //10
+ "BETAS.Edelweiss.Monday10_0": "",
+ "BETAS.Edelweiss.Monday10_1": "",
+ "BETAS.Edelweiss.Monday10_2": "",
+ "BETAS.Edelweiss.Monday10_3": "",
 
  //tuesday
  //BETAS
@@ -100,16 +124,28 @@
  "Edelweiss.Tuesday2_1": "",
  "Edelweiss.Tuesday2_2": "",
  "Edelweiss.Tuesday2_3": "",
+ "BETAS.Edelweiss.Tuesday2_0": "",
+ "BETAS.Edelweiss.Tuesday2_1": "",
+ "BETAS.Edelweiss.Tuesday2_2": "",
+ "BETAS.Edelweiss.Tuesday2_3": "",
  //4 heart
  "Edelweiss.Tuesday4_0": "",
  "Edelweiss.Tuesday4_1": "",
  "Edelweiss.Tuesday4_2": "",
  "Edelweiss.Tuesday4_3": "",
+ "BETAS.Edelweiss.Tuesday4_0": "",
+ "BETAS.Edelweiss.Tuesday4_1": "",
+ "BETAS.Edelweiss.Tuesday4_2": "",
+ "BETAS.Edelweiss.Tuesday4_3": "",
  //6
  "Edelweiss.Tuesday6_0": "",
  "Edelweiss.Tuesday6_1": "",
  "Edelweiss.Tuesday6_2": "",
  "Edelweiss.Tuesday6_3": "",
+ "BETAS.Edelweiss.Tuesday6_0": "",
+ "BETAS.Edelweiss.Tuesday6_1": "",
+ "BETAS.Edelweiss.Tuesday6_2": "",
+ "BETAS.Edelweiss.Tuesday6_3": "",
  //8 platonic
  "Edelweiss.Platonic.Tuesday8_0": "",
  "Edelweiss.Platonic.Tuesday8_1": "",
@@ -120,6 +156,10 @@
  "Edelweiss.Romantic.Tuesday8_1": "",
  "Edelweiss.Romantic.Tuesday8_2": "",
  "Edelweiss.Romantic.Tuesday8_3": "",
+ "BETAS.Edelweiss.Tuesday8_0": "",
+ "BETAS.Edelweiss.Tuesday8_1": "",
+ "BETAS.Edelweiss.Tuesday8_2": "",
+ "BETAS.Edelweiss.Tuesday8_3": "",
  //10 platonic
  "Edelweiss.Platonic.Tuesday10_0": "",
  "Edelweiss.Platonic.Tuesday10_1": "",
@@ -130,16 +170,10 @@
  "Edelweiss.Romantic.Tuesday10_1": "",
  "Edelweiss.Romantic.Tuesday10_2": "",
  "Edelweiss.Romantic.Tuesday10_3": "",
- //12
- "Edelweiss.Tuesday12_0": "",
- "Edelweiss.Tuesday12_1": "",
- "Edelweiss.Tuesday12_2": "",
- "Edelweiss.Tuesday12_3": "",
- //14
- "Edelweiss.Tuesday14_0": "",
- "Edelweiss.Tuesday14_1": "",
- "Edelweiss.Tuesday14_2": "",
- "Edelweiss.Tuesday14_3": "",
+ "BETAS.Edelweiss.Tuesday10_0": "",
+ "BETAS.Edelweiss.Tuesday10_1": "",
+ "BETAS.Edelweiss.Tuesday10_2": "",
+ "BETAS.Edelweiss.Tuesday10_3": "",
 
  //wednesday
  //BETAS
@@ -157,16 +191,28 @@
  "Edelweiss.Wednesday2_1": "",
  "Edelweiss.Wednesday2_2": "",
  "Edelweiss.Wednesday2_3": "",
+ "BETAS.Edelweiss.Wednesday2_0": "",
+ "BETAS.Edelweiss.Wednesday2_1": "",
+ "BETAS.Edelweiss.Wednesday2_2": "",
+ "BETAS.Edelweiss.Wednesday2_3": "",
  //4 heart
  "Edelweiss.Wednesday4_0": "",
  "Edelweiss.Wednesday4_1": "",
  "Edelweiss.Wednesday4_2": "",
  "Edelweiss.Wednesday4_3": "",
+ "BETAS.Edelweiss.Wednesday4_0": "",
+ "BETAS.Edelweiss.Wednesday4_1": "",
+ "BETAS.Edelweiss.Wednesday4_2": "",
+ "BETAS.Edelweiss.Wednesday4_3": "",
  //6
  "Edelweiss.Wednesday6_0": "",
  "Edelweiss.Wednesday6_1": "",
  "Edelweiss.Wednesday6_2": "",
  "Edelweiss.Wednesday6_3": "",
+ "BETAS.Edelweiss.Wednesday6_0": "",
+ "BETAS.Edelweiss.Wednesday6_1": "",
+ "BETAS.Edelweiss.Wednesday6_2": "",
+ "BETAS.Edelweiss.Wednesday6_3": "",
  //8 platonic
  "Edelweiss.Platonic.Wednesday8_0": "",
  "Edelweiss.Platonic.Wednesday8_1": "",
@@ -177,6 +223,10 @@
  "Edelweiss.Romantic.Wednesday8_1": "",
  "Edelweiss.Romantic.Wednesday8_2": "",
  "Edelweiss.Romantic.Wednesday8_3": "",
+ "BETAS.Edelweiss.Wednesday8_0": "",
+ "BETAS.Edelweiss.Wednesday8_1": "",
+ "BETAS.Edelweiss.Wednesday8_2": "",
+ "BETAS.Edelweiss.Wednesday8_3": "",
  //10 platonic
  "Edelweiss.Platonic.Wednesday10_0": "",
  "Edelweiss.Platonic.Wednesday10_1": "",
@@ -187,16 +237,10 @@
  "Edelweiss.Romantic.Wednesday10_1": "",
  "Edelweiss.Romantic.Wednesday10_2": "",
  "Edelweiss.Romantic.Wednesday10_3": "",
- //12
- "Edelweiss.Wednesday12_0": "",
- "Edelweiss.Wednesday12_1": "",
- "Edelweiss.Wednesday12_2": "",
- "Edelweiss.Wednesday12_3": "",
- //14
- "Edelweiss.Wednesday14_0": "",
- "Edelweiss.Wednesday14_1": "",
- "Edelweiss.Wednesday14_2": "",
- "Edelweiss.Wednesday14_3": "",
+ "BETAS.Edelweiss.Wednesday10_0": "",
+ "BETAS.Edelweiss.Wednesday10_1": "",
+ "BETAS.Edelweiss.Wednesday10_2": "",
+ "BETAS.Edelweiss.Wednesday10_3": "",
 
  //thursday
  //BETAS
@@ -214,16 +258,28 @@
  "Edelweiss.Thursday2_1": "",
  "Edelweiss.Thursday2_2": "",
  "Edelweiss.Thursday2_3": "",
+ "BETAS.Edelweiss.Thursday2_0": "",
+ "BETAS.Edelweiss.Thursday2_1": "",
+ "BETAS.Edelweiss.Thursday2_2": "",
+ "BETAS.Edelweiss.Thursday2_3": "",
  //4 heart
  "Edelweiss.Thursday4_0": "",
  "Edelweiss.Thursday4_1": "",
  "Edelweiss.Thursday4_2": "",
  "Edelweiss.Thursday4_3": "",
+ "BETAS.Edelweiss.Thursday4_0": "",
+ "BETAS.Edelweiss.Thursday4_1": "",
+ "BETAS.Edelweiss.Thursday4_2": "",
+ "BETAS.Edelweiss.Thursday4_3": "",
  //6
  "Edelweiss.Thursday6_0": "",
  "Edelweiss.Thursday6_1": "",
  "Edelweiss.Thursday6_2": "",
  "Edelweiss.Thursday6_3": "",
+ "BETAS.Edelweiss.Thursday6_0": "",
+ "BETAS.Edelweiss.Thursday6_1": "",
+ "BETAS.Edelweiss.Thursday6_2": "",
+ "BETAS.Edelweiss.Thursday6_3": "",
  //8 platonic
  "Edelweiss.Platonic.Thursday8_0": "",
  "Edelweiss.Platonic.Thursday8_1": "",
@@ -234,6 +290,10 @@
  "Edelweiss.Romantic.Thursday8_1": "",
  "Edelweiss.Romantic.Thursday8_2": "",
  "Edelweiss.Romantic.Thursday8_3": "",
+ "BETAS.Edelweiss.Thursday8_0": "",
+ "BETAS.Edelweiss.Thursday8_1": "",
+ "BETAS.Edelweiss.Thursday8_2": "",
+ "BETAS.Edelweiss.Thursday8_3": "",
  //10 platonic
  "Edelweiss.Platonic.Thursday10_0": "",
  "Edelweiss.Platonic.Thursday10_1": "",
@@ -244,16 +304,10 @@
  "Edelweiss.Romantic.Thursday10_1": "",
  "Edelweiss.Romantic.Thursday10_2": "",
  "Edelweiss.Romantic.Thursday10_3": "",
- //12
- "Edelweiss.Thursday12_0": "",
- "Edelweiss.Thursday12_1": "",
- "Edelweiss.Thursday12_2": "",
- "Edelweiss.Thursday12_3": "",
- //14
- "Edelweiss.Thursday14_0": "",
- "Edelweiss.Thursday14_1": "",
- "Edelweiss.Thursday14_2": "",
- "Edelweiss.Thursday14_3": "",
+ "BETAS.Edelweiss.Thursday10_0": "",
+ "BETAS.Edelweiss.Thursday10_1": "",
+ "BETAS.Edelweiss.Thursday10_2": "",
+ "BETAS.Edelweiss.Thursday10_3": "",
 
  //friday
  //BETAS
@@ -271,16 +325,28 @@
  "Edelweiss.Friday2_1": "",
  "Edelweiss.Friday2_2": "",
  "Edelweiss.Friday2_3": "",
+ "BETAS.Edelweiss.Friday2_0": "",
+ "BETAS.Edelweiss.Friday2_1": "",
+ "BETAS.Edelweiss.Friday2_2": "",
+ "BETAS.Edelweiss.Friday2_3": "",
  //4 heart
  "Edelweiss.Friday4_0": "",
  "Edelweiss.Friday4_1": "",
  "Edelweiss.Friday4_2": "",
  "Edelweiss.Friday4_3": "",
+ "BETAS.Edelweiss.Friday4_0": "",
+ "BETAS.Edelweiss.Friday4_1": "",
+ "BETAS.Edelweiss.Friday4_2": "",
+ "BETAS.Edelweiss.Friday4_3": "",
  //6
  "Edelweiss.Friday6_0": "",
  "Edelweiss.Friday6_1": "",
  "Edelweiss.Friday6_2": "",
  "Edelweiss.Friday6_3": "",
+ "BETAS.Edelweiss.Friday6_0": "",
+ "BETAS.Edelweiss.Friday6_1": "",
+ "BETAS.Edelweiss.Friday6_2": "",
+ "BETAS.Edelweiss.Friday6_3": "",
  //8 platonic
  "Edelweiss.Platonic.Friday8_0": "",
  "Edelweiss.Platonic.Friday8_1": "",
@@ -291,6 +357,10 @@
  "Edelweiss.Romantic.Friday8_1": "",
  "Edelweiss.Romantic.Friday8_2": "",
  "Edelweiss.Romantic.Friday8_3": "",
+ "BETAS.Edelweiss.Friday8_0": "",
+ "BETAS.Edelweiss.Friday8_1": "",
+ "BETAS.Edelweiss.Friday8_2": "",
+ "BETAS.Edelweiss.Friday8_3": "",
  //10 platonic
  "Edelweiss.Platonic.Friday10_0": "",
  "Edelweiss.Platonic.Friday10_1": "",
@@ -301,16 +371,10 @@
  "Edelweiss.Romantic.Friday10_1": "",
  "Edelweiss.Romantic.Friday10_2": "",
  "Edelweiss.Romantic.Friday10_3": "",
- //12
- "Edelweiss.Friday12_0": "",
- "Edelweiss.Friday12_1": "",
- "Edelweiss.Friday12_2": "",
- "Edelweiss.Friday12_3": "",
- //14
- "Edelweiss.Friday14_0": "",
- "Edelweiss.Friday14_1": "",
- "Edelweiss.Friday14_2": "",
- "Edelweiss.Friday14_3": "",
+ "BETAS.Edelweiss.Friday10_0": "",
+ "BETAS.Edelweiss.Friday10_1": "",
+ "BETAS.Edelweiss.Friday10_2": "",
+ "BETAS.Edelweiss.Friday10_3": "",
 
  //saturday
  //BETAS
@@ -328,16 +392,28 @@
  "Edelweiss.Saturday2_1": "",
  "Edelweiss.Saturday2_2": "",
  "Edelweiss.Saturday2_3": "",
+ "BETAS.Edelweiss.Saturday2_0": "",
+ "BETAS.Edelweiss.Saturday2_1": "",
+ "BETAS.Edelweiss.Saturday2_2": "",
+ "BETAS.Edelweiss.Saturday2_3": "",
  //4 heart
  "Edelweiss.Saturday4_0": "",
  "Edelweiss.Saturday4_1": "",
  "Edelweiss.Saturday4_2": "",
  "Edelweiss.Saturday4_3": "",
+ "BETAS.Edelweiss.Saturday4_0": "",
+ "BETAS.Edelweiss.Saturday4_1": "",
+ "BETAS.Edelweiss.Saturday4_2": "",
+ "BETAS.Edelweiss.Saturday4_3": "",
  //6
  "Edelweiss.Saturday6_0": "",
  "Edelweiss.Saturday6_1": "",
  "Edelweiss.Saturday6_2": "",
  "Edelweiss.Saturday6_3": "",
+ "BETAS.Edelweiss.Saturday6_0": "",
+ "BETAS.Edelweiss.Saturday6_1": "",
+ "BETAS.Edelweiss.Saturday6_2": "",
+ "BETAS.Edelweiss.Saturday6_3": "",
  //8 platonic
  "Edelweiss.Platonic.Saturday8_0": "",
  "Edelweiss.Platonic.Saturday8_1": "",
@@ -348,6 +424,10 @@
  "Edelweiss.Romantic.Saturday8_1": "",
  "Edelweiss.Romantic.Saturday8_2": "",
  "Edelweiss.Romantic.Saturday8_3": "",
+ "BETAS.Edelweiss.Saturday8_0": "",
+ "BETAS.Edelweiss.Saturday8_1": "",
+ "BETAS.Edelweiss.Saturday8_2": "",
+ "BETAS.Edelweiss.Saturday8_3": "",
  //10 platonic
  "Edelweiss.Platonic.Saturday10_0": "",
  "Edelweiss.Platonic.Saturday10_1": "",
@@ -358,16 +438,10 @@
  "Edelweiss.Romantic.Saturday10_1": "",
  "Edelweiss.Romantic.Saturday10_2": "",
  "Edelweiss.Romantic.Saturday10_3": "",
- //12
- "Edelweiss.Saturday12_0": "",
- "Edelweiss.Saturday12_1": "",
- "Edelweiss.Saturday12_2": "",
- "Edelweiss.Saturday12_3": "",
- //14
- "Edelweiss.Saturday14_0": "",
- "Edelweiss.Saturday14_1": "",
- "Edelweiss.Saturday14_2": "",
- "Edelweiss.Saturday14_3": "",
+ "BETAS.Edelweiss.Saturday10_0": "",
+ "BETAS.Edelweiss.Saturday10_1": "",
+ "BETAS.Edelweiss.Saturday10_2": "",
+ "BETAS.Edelweiss.Saturday10_3": "",
 
  //sunday
  //BETAS
@@ -385,16 +459,28 @@
  "Edelweiss.Sunday2_1": "",
  "Edelweiss.Sunday2_2": "",
  "Edelweiss.Sunday2_3": "",
+ "BETAS.Edelweiss.Sunday2_0": "",
+ "BETAS.Edelweiss.Sunday2_1": "",
+ "BETAS.Edelweiss.Sunday2_2": "",
+ "BETAS.Edelweiss.Sunday2_3": "",
  //4 heart
  "Edelweiss.Sunday4_0": "",
  "Edelweiss.Sunday4_1": "",
  "Edelweiss.Sunday4_2": "",
  "Edelweiss.Sunday4_3": "",
+ "BETAS.Edelweiss.Sunday4_0": "",
+ "BETAS.Edelweiss.Sunday4_1": "",
+ "BETAS.Edelweiss.Sunday4_2": "",
+ "BETAS.Edelweiss.Sunday4_3": "",
  //6
  "Edelweiss.Sunday6_0": "",
  "Edelweiss.Sunday6_1": "",
  "Edelweiss.Sunday6_2": "",
  "Edelweiss.Sunday6_3": "",
+ "BETAS.Edelweiss.Sunday6_0": "",
+ "BETAS.Edelweiss.Sunday6_1": "",
+ "BETAS.Edelweiss.Sunday6_2": "",
+ "BETAS.Edelweiss.Sunday6_3": "",
  //8 platonic
  "Edelweiss.Platonic.Sunday8_0": "",
  "Edelweiss.Platonic.Sunday8_1": "",
@@ -405,6 +491,10 @@
  "Edelweiss.Romantic.Sunday8_1": "",
  "Edelweiss.Romantic.Sunday8_2": "",
  "Edelweiss.Romantic.Sunday8_3": "",
+ "BETAS.Edelweiss.Sunday8_0": "",
+ "BETAS.Edelweiss.Sunday8_1": "",
+ "BETAS.Edelweiss.Sunday8_2": "",
+ "BETAS.Edelweiss.Sunday8_3": "",
  //10 platonic
  "Edelweiss.Platonic.Sunday10_0": "",
  "Edelweiss.Platonic.Sunday10_1": "",
@@ -415,28 +505,17 @@
  "Edelweiss.Romantic.Sunday10_1": "",
  "Edelweiss.Romantic.Sunday10_2": "",
  "Edelweiss.Romantic.Sunday10_3": "",
- //12
- "Edelweiss.Sunday12_0": "",
- "Edelweiss.Sunday12_1": "",
- "Edelweiss.Sunday12_2": "",
- "Edelweiss.Sunday12_3": "",
- //14
- "Edelweiss.Sunday14_0": "",
- "Edelweiss.Sunday14_1": "",
- "Edelweiss.Sunday14_2": "",
- "Edelweiss.Sunday14_3": "",
-
- //door unlock
- "Edelweiss.NotFriend_Door": "",
-
- //gift taste dialogue
- "Edelweiss.Gifts.Loved": "",
- "Edelweiss.Gifts.Liked": "",
- "Edelweiss.Gifts.Disliked": "",
- "Edelweiss.Gifts.Hated": "",
- "Edelweiss.Gifts.Neutral": "",
+ "BETAS.Edelweiss.Sunday10_0": "",
+ "BETAS.Edelweiss.Sunday10_1": "",
+ "BETAS.Edelweiss.Sunday10_2": "",
+ "BETAS.Edelweiss.Sunday10_3": "",
 
  //begin marriage dialogue
+ //BETAS BETAS.{{NPCNAME}}.Married.{{DayOfWeek}}_
+ "BETAS.Edelweiss.Married.Monday_0": "",
+ "BETAS.Edelweiss.Married.Monday_1": "",
+ "BETAS.Edelweiss.Married.Monday_2": "",
+ "BETAS.Edelweiss.Married.Monday_3": "",
  "Edelweiss.SpringM_0": "",
  "Edelweiss.SpringM_1": "",
  "Edelweiss.SpringM_2": "",
@@ -502,8 +581,9 @@
  "Edelweiss.Bad_2": "",
  "Edelweiss.Bad_3": "",
 
- //begin wiped dialogue
- //start of characters/dialogue/npc
+ //start suffering wiped dialogue
+ //THIS NEEDS TO BE TOGGLED ON, OR ELSE YOU DON'T HAVE TO WRITE IT
+ //gen dialogue
  "Wiped.Edelweiss.breakUp": "",
  "Wiped.Edelweiss.divorced": "",
  "Wiped.Edelweiss.DumpsterDiveComment": "",
@@ -525,7 +605,7 @@
  "Wiped.Edelweiss.AfterWedding": "",
 
  //monday
- //BETAS
+ //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_
  "BETAS.Wiped.Edelweiss.Monday_0": "",
  "BETAS.Wiped.Edelweiss.Monday_1": "",
  "BETAS.Wiped.Edelweiss.Monday_2": "",
@@ -540,16 +620,28 @@
  "Wiped.Edelweiss.Monday2_1": "",
  "Wiped.Edelweiss.Monday2_2": "",
  "Wiped.Edelweiss.Monday2_3": "",
+ "BETAS.Wiped.Edelweiss.Monday2_0": "",
+ "BETAS.Wiped.Edelweiss.Monday2_1": "",
+ "BETAS.Wiped.Edelweiss.Monday2_2": "",
+ "BETAS.Wiped.Edelweiss.Monday2_3": "",
  //4 heart
  "Wiped.Edelweiss.Monday4_0": "",
  "Wiped.Edelweiss.Monday4_1": "",
  "Wiped.Edelweiss.Monday4_2": "",
  "Wiped.Edelweiss.Monday4_3": "",
+ "BETAS.Wiped.Edelweiss.Monday4_0": "",
+ "BETAS.Wiped.Edelweiss.Monday4_1": "",
+ "BETAS.Wiped.Edelweiss.Monday4_2": "",
+ "BETAS.Wiped.Edelweiss.Monday4_3": "",
  //6
  "Wiped.Edelweiss.Monday6_0": "",
  "Wiped.Edelweiss.Monday6_1": "",
  "Wiped.Edelweiss.Monday6_2": "",
  "Wiped.Edelweiss.Monday6_3": "",
+ "BETAS.Wiped.Edelweiss.Monday6_0": "",
+ "BETAS.Wiped.Edelweiss.Monday6_1": "",
+ "BETAS.Wiped.Edelweiss.Monday6_2": "",
+ "BETAS.Wiped.Edelweiss.Monday6_3": "",
  //8 platonic
  "Wiped.Edelweiss.Platonic.Monday8_0": "",
  "Wiped.Edelweiss.Platonic.Monday8_1": "",
@@ -560,26 +652,26 @@
  "Wiped.Edelweiss.Romantic.Monday8_1": "",
  "Wiped.Edelweiss.Romantic.Monday8_2": "",
  "Wiped.Edelweiss.Romantic.Monday8_3": "",
+ //8
+ "BETAS.Wiped.Edelweiss.Monday8_0": "",
+ "BETAS.Wiped.Edelweiss.Monday8_1": "",
+ "BETAS.Wiped.Edelweiss.Monday8_2": "",
+ "BETAS.Wiped.Edelweiss.Monday8_3": "",
  //10 platonic
  "Wiped.Edelweiss.Platonic.Monday10_0": "",
  "Wiped.Edelweiss.Platonic.Monday10_1": "",
  "Wiped.Edelweiss.Platonic.Monday10_2": "",
  "Wiped.Edelweiss.Platonic.Monday10_3": "",
- //romantic
+ //10 romantic
  "Wiped.Edelweiss.Romantic.Monday10_0": "",
  "Wiped.Edelweiss.Romantic.Monday10_1": "",
  "Wiped.Edelweiss.Romantic.Monday10_2": "",
  "Wiped.Edelweiss.Romantic.Monday10_3": "",
- //12
- "Wiped.Edelweiss.Monday12_0": "",
- "Wiped.Edelweiss.Monday12_1": "",
- "Wiped.Edelweiss.Monday12_2": "",
- "Wiped.Edelweiss.Monday12_3": "",
- //14
- "Wiped.Edelweiss.Monday14_0": "",
- "Wiped.Edelweiss.Monday14_1": "",
- "Wiped.Edelweiss.Monday14_2": "",
- "Wiped.Edelweiss.Monday14_3": "",
+ //10
+ "BETAS.Wiped.Edelweiss.Monday10_0": "",
+ "BETAS.Wiped.Edelweiss.Monday10_1": "",
+ "BETAS.Wiped.Edelweiss.Monday10_2": "",
+ "BETAS.Wiped.Edelweiss.Monday10_3": "",
 
  //tuesday
  //BETAS
@@ -597,16 +689,28 @@
  "Wiped.Edelweiss.Tuesday2_1": "",
  "Wiped.Edelweiss.Tuesday2_2": "",
  "Wiped.Edelweiss.Tuesday2_3": "",
+ "BETAS.Wiped.Edelweiss.Tuesday2_0": "",
+ "BETAS.Wiped.Edelweiss.Tuesday2_1": "",
+ "BETAS.Wiped.Edelweiss.Tuesday2_2": "",
+ "BETAS.Wiped.Edelweiss.Tuesday2_3": "",
  //4 heart
  "Wiped.Edelweiss.Tuesday4_0": "",
  "Wiped.Edelweiss.Tuesday4_1": "",
  "Wiped.Edelweiss.Tuesday4_2": "",
  "Wiped.Edelweiss.Tuesday4_3": "",
+ "BETAS.Wiped.Edelweiss.Tuesday4_0": "",
+ "BETAS.Wiped.Edelweiss.Tuesday4_1": "",
+ "BETAS.Wiped.Edelweiss.Tuesday4_2": "",
+ "BETAS.Wiped.Edelweiss.Tuesday4_3": "",
  //6
  "Wiped.Edelweiss.Tuesday6_0": "",
  "Wiped.Edelweiss.Tuesday6_1": "",
  "Wiped.Edelweiss.Tuesday6_2": "",
  "Wiped.Edelweiss.Tuesday6_3": "",
+ "BETAS.Wiped.Edelweiss.Tuesday6_0": "",
+ "BETAS.Wiped.Edelweiss.Tuesday6_1": "",
+ "BETAS.Wiped.Edelweiss.Tuesday6_2": "",
+ "BETAS.Wiped.Edelweiss.Tuesday6_3": "",
  //8 platonic
  "Wiped.Edelweiss.Platonic.Tuesday8_0": "",
  "Wiped.Edelweiss.Platonic.Tuesday8_1": "",
@@ -617,6 +721,10 @@
  "Wiped.Edelweiss.Romantic.Tuesday8_1": "",
  "Wiped.Edelweiss.Romantic.Tuesday8_2": "",
  "Wiped.Edelweiss.Romantic.Tuesday8_3": "",
+ "BETAS.Wiped.Edelweiss.Tuesday8_0": "",
+ "BETAS.Wiped.Edelweiss.Tuesday8_1": "",
+ "BETAS.Wiped.Edelweiss.Tuesday8_2": "",
+ "BETAS.Wiped.Edelweiss.Tuesday8_3": "",
  //10 platonic
  "Wiped.Edelweiss.Platonic.Tuesday10_0": "",
  "Wiped.Edelweiss.Platonic.Tuesday10_1": "",
@@ -627,16 +735,10 @@
  "Wiped.Edelweiss.Romantic.Tuesday10_1": "",
  "Wiped.Edelweiss.Romantic.Tuesday10_2": "",
  "Wiped.Edelweiss.Romantic.Tuesday10_3": "",
- //12
- "Wiped.Edelweiss.Tuesday12_0": "",
- "Wiped.Edelweiss.Tuesday12_1": "",
- "Wiped.Edelweiss.Tuesday12_2": "",
- "Wiped.Edelweiss.Tuesday12_3": "",
- //14
- "Wiped.Edelweiss.Tuesday14_0": "",
- "Wiped.Edelweiss.Tuesday14_1": "",
- "Wiped.Edelweiss.Tuesday14_2": "",
- "Wiped.Edelweiss.Tuesday14_3": "",
+ "BETAS.Wiped.Edelweiss.Tuesday10_0": "",
+ "BETAS.Wiped.Edelweiss.Tuesday10_1": "",
+ "BETAS.Wiped.Edelweiss.Tuesday10_2": "",
+ "BETAS.Wiped.Edelweiss.Tuesday10_3": "",
 
  //wednesday
  //BETAS
@@ -654,16 +756,28 @@
  "Wiped.Edelweiss.Wednesday2_1": "",
  "Wiped.Edelweiss.Wednesday2_2": "",
  "Wiped.Edelweiss.Wednesday2_3": "",
+ "BETAS.Wiped.Edelweiss.Wednesday2_0": "",
+ "BETAS.Wiped.Edelweiss.Wednesday2_1": "",
+ "BETAS.Wiped.Edelweiss.Wednesday2_2": "",
+ "BETAS.Wiped.Edelweiss.Wednesday2_3": "",
  //4 heart
  "Wiped.Edelweiss.Wednesday4_0": "",
  "Wiped.Edelweiss.Wednesday4_1": "",
  "Wiped.Edelweiss.Wednesday4_2": "",
  "Wiped.Edelweiss.Wednesday4_3": "",
+ "BETAS.Wiped.Edelweiss.Wednesday4_0": "",
+ "BETAS.Wiped.Edelweiss.Wednesday4_1": "",
+ "BETAS.Wiped.Edelweiss.Wednesday4_2": "",
+ "BETAS.Wiped.Edelweiss.Wednesday4_3": "",
  //6
  "Wiped.Edelweiss.Wednesday6_0": "",
  "Wiped.Edelweiss.Wednesday6_1": "",
  "Wiped.Edelweiss.Wednesday6_2": "",
  "Wiped.Edelweiss.Wednesday6_3": "",
+ "BETAS.Wiped.Edelweiss.Wednesday6_0": "",
+ "BETAS.Wiped.Edelweiss.Wednesday6_1": "",
+ "BETAS.Wiped.Edelweiss.Wednesday6_2": "",
+ "BETAS.Wiped.Edelweiss.Wednesday6_3": "",
  //8 platonic
  "Wiped.Edelweiss.Platonic.Wednesday8_0": "",
  "Wiped.Edelweiss.Platonic.Wednesday8_1": "",
@@ -674,6 +788,10 @@
  "Wiped.Edelweiss.Romantic.Wednesday8_1": "",
  "Wiped.Edelweiss.Romantic.Wednesday8_2": "",
  "Wiped.Edelweiss.Romantic.Wednesday8_3": "",
+ "BETAS.Wiped.Edelweiss.Wednesday8_0": "",
+ "BETAS.Wiped.Edelweiss.Wednesday8_1": "",
+ "BETAS.Wiped.Edelweiss.Wednesday8_2": "",
+ "BETAS.Wiped.Edelweiss.Wednesday8_3": "",
  //10 platonic
  "Wiped.Edelweiss.Platonic.Wednesday10_0": "",
  "Wiped.Edelweiss.Platonic.Wednesday10_1": "",
@@ -684,16 +802,10 @@
  "Wiped.Edelweiss.Romantic.Wednesday10_1": "",
  "Wiped.Edelweiss.Romantic.Wednesday10_2": "",
  "Wiped.Edelweiss.Romantic.Wednesday10_3": "",
- //12
- "Wiped.Edelweiss.Wednesday12_0": "",
- "Wiped.Edelweiss.Wednesday12_1": "",
- "Wiped.Edelweiss.Wednesday12_2": "",
- "Wiped.Edelweiss.Wednesday12_3": "",
- //14
- "Wiped.Edelweiss.Wednesday14_0": "",
- "Wiped.Edelweiss.Wednesday14_1": "",
- "Wiped.Edelweiss.Wednesday14_2": "",
- "Wiped.Edelweiss.Wednesday14_3": "",
+ "BETAS.Wiped.Edelweiss.Wednesday10_0": "",
+ "BETAS.Wiped.Edelweiss.Wednesday10_1": "",
+ "BETAS.Wiped.Edelweiss.Wednesday10_2": "",
+ "BETAS.Wiped.Edelweiss.Wednesday10_3": "",
 
  //thursday
  //BETAS
@@ -711,16 +823,28 @@
  "Wiped.Edelweiss.Thursday2_1": "",
  "Wiped.Edelweiss.Thursday2_2": "",
  "Wiped.Edelweiss.Thursday2_3": "",
+ "BETAS.Wiped.Edelweiss.Thursday2_0": "",
+ "BETAS.Wiped.Edelweiss.Thursday2_1": "",
+ "BETAS.Wiped.Edelweiss.Thursday2_2": "",
+ "BETAS.Wiped.Edelweiss.Thursday2_3": "",
  //4 heart
  "Wiped.Edelweiss.Thursday4_0": "",
  "Wiped.Edelweiss.Thursday4_1": "",
  "Wiped.Edelweiss.Thursday4_2": "",
  "Wiped.Edelweiss.Thursday4_3": "",
+ "BETAS.Wiped.Edelweiss.Thursday4_0": "",
+ "BETAS.Wiped.Edelweiss.Thursday4_1": "",
+ "BETAS.Wiped.Edelweiss.Thursday4_2": "",
+ "BETAS.Wiped.Edelweiss.Thursday4_3": "",
  //6
  "Wiped.Edelweiss.Thursday6_0": "",
  "Wiped.Edelweiss.Thursday6_1": "",
  "Wiped.Edelweiss.Thursday6_2": "",
  "Wiped.Edelweiss.Thursday6_3": "",
+ "BETAS.Wiped.Edelweiss.Thursday6_0": "",
+ "BETAS.Wiped.Edelweiss.Thursday6_1": "",
+ "BETAS.Wiped.Edelweiss.Thursday6_2": "",
+ "BETAS.Wiped.Edelweiss.Thursday6_3": "",
  //8 platonic
  "Wiped.Edelweiss.Platonic.Thursday8_0": "",
  "Wiped.Edelweiss.Platonic.Thursday8_1": "",
@@ -731,6 +855,10 @@
  "Wiped.Edelweiss.Romantic.Thursday8_1": "",
  "Wiped.Edelweiss.Romantic.Thursday8_2": "",
  "Wiped.Edelweiss.Romantic.Thursday8_3": "",
+ "BETAS.Wiped.Edelweiss.Thursday8_0": "",
+ "BETAS.Wiped.Edelweiss.Thursday8_1": "",
+ "BETAS.Wiped.Edelweiss.Thursday8_2": "",
+ "BETAS.Wiped.Edelweiss.Thursday8_3": "",
  //10 platonic
  "Wiped.Edelweiss.Platonic.Thursday10_0": "",
  "Wiped.Edelweiss.Platonic.Thursday10_1": "",
@@ -741,16 +869,10 @@
  "Wiped.Edelweiss.Romantic.Thursday10_1": "",
  "Wiped.Edelweiss.Romantic.Thursday10_2": "",
  "Wiped.Edelweiss.Romantic.Thursday10_3": "",
- //12
- "Wiped.Edelweiss.Thursday12_0": "",
- "Wiped.Edelweiss.Thursday12_1": "",
- "Wiped.Edelweiss.Thursday12_2": "",
- "Wiped.Edelweiss.Thursday12_3": "",
- //14
- "Wiped.Edelweiss.Thursday14_0": "",
- "Wiped.Edelweiss.Thursday14_1": "",
- "Wiped.Edelweiss.Thursday14_2": "",
- "Wiped.Edelweiss.Thursday14_3": "",
+ "BETAS.Wiped.Edelweiss.Thursday10_0": "",
+ "BETAS.Wiped.Edelweiss.Thursday10_1": "",
+ "BETAS.Wiped.Edelweiss.Thursday10_2": "",
+ "BETAS.Wiped.Edelweiss.Thursday10_3": "",
 
  //friday
  //BETAS
@@ -768,16 +890,28 @@
  "Wiped.Edelweiss.Friday2_1": "",
  "Wiped.Edelweiss.Friday2_2": "",
  "Wiped.Edelweiss.Friday2_3": "",
+ "BETAS.Wiped.Edelweiss.Friday2_0": "",
+ "BETAS.Wiped.Edelweiss.Friday2_1": "",
+ "BETAS.Wiped.Edelweiss.Friday2_2": "",
+ "BETAS.Wiped.Edelweiss.Friday2_3": "",
  //4 heart
  "Wiped.Edelweiss.Friday4_0": "",
  "Wiped.Edelweiss.Friday4_1": "",
  "Wiped.Edelweiss.Friday4_2": "",
  "Wiped.Edelweiss.Friday4_3": "",
+ "BETAS.Wiped.Edelweiss.Friday4_0": "",
+ "BETAS.Wiped.Edelweiss.Friday4_1": "",
+ "BETAS.Wiped.Edelweiss.Friday4_2": "",
+ "BETAS.Wiped.Edelweiss.Friday4_3": "",
  //6
  "Wiped.Edelweiss.Friday6_0": "",
  "Wiped.Edelweiss.Friday6_1": "",
  "Wiped.Edelweiss.Friday6_2": "",
  "Wiped.Edelweiss.Friday6_3": "",
+ "BETAS.Wiped.Edelweiss.Friday6_0": "",
+ "BETAS.Wiped.Edelweiss.Friday6_1": "",
+ "BETAS.Wiped.Edelweiss.Friday6_2": "",
+ "BETAS.Wiped.Edelweiss.Friday6_3": "",
  //8 platonic
  "Wiped.Edelweiss.Platonic.Friday8_0": "",
  "Wiped.Edelweiss.Platonic.Friday8_1": "",
@@ -788,6 +922,10 @@
  "Wiped.Edelweiss.Romantic.Friday8_1": "",
  "Wiped.Edelweiss.Romantic.Friday8_2": "",
  "Wiped.Edelweiss.Romantic.Friday8_3": "",
+ "BETAS.Wiped.Edelweiss.Friday8_0": "",
+ "BETAS.Wiped.Edelweiss.Friday8_1": "",
+ "BETAS.Wiped.Edelweiss.Friday8_2": "",
+ "BETAS.Wiped.Edelweiss.Friday8_3": "",
  //10 platonic
  "Wiped.Edelweiss.Platonic.Friday10_0": "",
  "Wiped.Edelweiss.Platonic.Friday10_1": "",
@@ -798,16 +936,10 @@
  "Wiped.Edelweiss.Romantic.Friday10_1": "",
  "Wiped.Edelweiss.Romantic.Friday10_2": "",
  "Wiped.Edelweiss.Romantic.Friday10_3": "",
- //12
- "Wiped.Edelweiss.Friday12_0": "",
- "Wiped.Edelweiss.Friday12_1": "",
- "Wiped.Edelweiss.Friday12_2": "",
- "Wiped.Edelweiss.Friday12_3": "",
- //14
- "Wiped.Edelweiss.Friday14_0": "",
- "Wiped.Edelweiss.Friday14_1": "",
- "Wiped.Edelweiss.Friday14_2": "",
- "Wiped.Edelweiss.Friday14_3": "",
+ "BETAS.Wiped.Edelweiss.Friday10_0": "",
+ "BETAS.Wiped.Edelweiss.Friday10_1": "",
+ "BETAS.Wiped.Edelweiss.Friday10_2": "",
+ "BETAS.Wiped.Edelweiss.Friday10_3": "",
 
  //saturday
  //BETAS
@@ -825,16 +957,28 @@
  "Wiped.Edelweiss.Saturday2_1": "",
  "Wiped.Edelweiss.Saturday2_2": "",
  "Wiped.Edelweiss.Saturday2_3": "",
+ "BETAS.Wiped.Edelweiss.Saturday2_0": "",
+ "BETAS.Wiped.Edelweiss.Saturday2_1": "",
+ "BETAS.Wiped.Edelweiss.Saturday2_2": "",
+ "BETAS.Wiped.Edelweiss.Saturday2_3": "",
  //4 heart
  "Wiped.Edelweiss.Saturday4_0": "",
  "Wiped.Edelweiss.Saturday4_1": "",
  "Wiped.Edelweiss.Saturday4_2": "",
  "Wiped.Edelweiss.Saturday4_3": "",
+ "BETAS.Wiped.Edelweiss.Saturday4_0": "",
+ "BETAS.Wiped.Edelweiss.Saturday4_1": "",
+ "BETAS.Wiped.Edelweiss.Saturday4_2": "",
+ "BETAS.Wiped.Edelweiss.Saturday4_3": "",
  //6
  "Wiped.Edelweiss.Saturday6_0": "",
  "Wiped.Edelweiss.Saturday6_1": "",
  "Wiped.Edelweiss.Saturday6_2": "",
  "Wiped.Edelweiss.Saturday6_3": "",
+ "BETAS.Wiped.Edelweiss.Saturday6_0": "",
+ "BETAS.Wiped.Edelweiss.Saturday6_1": "",
+ "BETAS.Wiped.Edelweiss.Saturday6_2": "",
+ "BETAS.Wiped.Edelweiss.Saturday6_3": "",
  //8 platonic
  "Wiped.Edelweiss.Platonic.Saturday8_0": "",
  "Wiped.Edelweiss.Platonic.Saturday8_1": "",
@@ -845,6 +989,10 @@
  "Wiped.Edelweiss.Romantic.Saturday8_1": "",
  "Wiped.Edelweiss.Romantic.Saturday8_2": "",
  "Wiped.Edelweiss.Romantic.Saturday8_3": "",
+ "BETAS.Wiped.Edelweiss.Saturday8_0": "",
+ "BETAS.Wiped.Edelweiss.Saturday8_1": "",
+ "BETAS.Wiped.Edelweiss.Saturday8_2": "",
+ "BETAS.Wiped.Edelweiss.Saturday8_3": "",
  //10 platonic
  "Wiped.Edelweiss.Platonic.Saturday10_0": "",
  "Wiped.Edelweiss.Platonic.Saturday10_1": "",
@@ -855,16 +1003,10 @@
  "Wiped.Edelweiss.Romantic.Saturday10_1": "",
  "Wiped.Edelweiss.Romantic.Saturday10_2": "",
  "Wiped.Edelweiss.Romantic.Saturday10_3": "",
- //12
- "Wiped.Edelweiss.Saturday12_0": "",
- "Wiped.Edelweiss.Saturday12_1": "",
- "Wiped.Edelweiss.Saturday12_2": "",
- "Wiped.Edelweiss.Saturday12_3": "",
- //14
- "Wiped.Edelweiss.Saturday14_0": "",
- "Wiped.Edelweiss.Saturday14_1": "",
- "Wiped.Edelweiss.Saturday14_2": "",
- "Wiped.Edelweiss.Saturday14_3": "",
+ "BETAS.Wiped.Edelweiss.Saturday10_0": "",
+ "BETAS.Wiped.Edelweiss.Saturday10_1": "",
+ "BETAS.Wiped.Edelweiss.Saturday10_2": "",
+ "BETAS.Wiped.Edelweiss.Saturday10_3": "",
 
  //sunday
  //BETAS
@@ -882,16 +1024,28 @@
  "Wiped.Edelweiss.Sunday2_1": "",
  "Wiped.Edelweiss.Sunday2_2": "",
  "Wiped.Edelweiss.Sunday2_3": "",
+ "BETAS.Wiped.Edelweiss.Sunday2_0": "",
+ "BETAS.Wiped.Edelweiss.Sunday2_1": "",
+ "BETAS.Wiped.Edelweiss.Sunday2_2": "",
+ "BETAS.Wiped.Edelweiss.Sunday2_3": "",
  //4 heart
  "Wiped.Edelweiss.Sunday4_0": "",
  "Wiped.Edelweiss.Sunday4_1": "",
  "Wiped.Edelweiss.Sunday4_2": "",
  "Wiped.Edelweiss.Sunday4_3": "",
+ "BETAS.Wiped.Edelweiss.Sunday4_0": "",
+ "BETAS.Wiped.Edelweiss.Sunday4_1": "",
+ "BETAS.Wiped.Edelweiss.Sunday4_2": "",
+ "BETAS.Wiped.Edelweiss.Sunday4_3": "",
  //6
  "Wiped.Edelweiss.Sunday6_0": "",
  "Wiped.Edelweiss.Sunday6_1": "",
  "Wiped.Edelweiss.Sunday6_2": "",
  "Wiped.Edelweiss.Sunday6_3": "",
+ "BETAS.Wiped.Edelweiss.Sunday6_0": "",
+ "BETAS.Wiped.Edelweiss.Sunday6_1": "",
+ "BETAS.Wiped.Edelweiss.Sunday6_2": "",
+ "BETAS.Wiped.Edelweiss.Sunday6_3": "",
  //8 platonic
  "Wiped.Edelweiss.Platonic.Sunday8_0": "",
  "Wiped.Edelweiss.Platonic.Sunday8_1": "",
@@ -902,6 +1056,10 @@
  "Wiped.Edelweiss.Romantic.Sunday8_1": "",
  "Wiped.Edelweiss.Romantic.Sunday8_2": "",
  "Wiped.Edelweiss.Romantic.Sunday8_3": "",
+ "BETAS.Wiped.Edelweiss.Sunday8_0": "",
+ "BETAS.Wiped.Edelweiss.Sunday8_1": "",
+ "BETAS.Wiped.Edelweiss.Sunday8_2": "",
+ "BETAS.Wiped.Edelweiss.Sunday8_3": "",
  //10 platonic
  "Wiped.Edelweiss.Platonic.Sunday10_0": "",
  "Wiped.Edelweiss.Platonic.Sunday10_1": "",
@@ -912,25 +1070,17 @@
  "Wiped.Edelweiss.Romantic.Sunday10_1": "",
  "Wiped.Edelweiss.Romantic.Sunday10_2": "",
  "Wiped.Edelweiss.Romantic.Sunday10_3": "",
- //12
- "Wiped.Edelweiss.Sunday12_0": "",
- "Wiped.Edelweiss.Sunday12_1": "",
- "Wiped.Edelweiss.Sunday12_2": "",
- "Wiped.Edelweiss.Sunday12_3": "",
- //14
- "Wiped.Edelweiss.Sunday14_0": "",
- "Wiped.Edelweiss.Sunday14_1": "",
- "Wiped.Edelweiss.Sunday14_2": "",
- "Wiped.Edelweiss.Sunday14_3": "",
-
- //gift taste dialogue
- "Wiped.Edelweiss.Gifts.Loved": "",
- "Wiped.Edelweiss.Gifts.Liked": "",
- "Wiped.Edelweiss.Gifts.Disliked": "",
- "Wiped.Edelweiss.Gifts.Hated": "",
- "Wiped.Edelweiss.Gifts.Neutral": "",
+ "BETAS.Wiped.Edelweiss.Sunday10_0": "",
+ "BETAS.Wiped.Edelweiss.Sunday10_1": "",
+ "BETAS.Wiped.Edelweiss.Sunday10_2": "",
+ "BETAS.Wiped.Edelweiss.Sunday10_3": "",
 
  //begin marriage dialogue
+ //BETAS BETAS.{{NPCNAME}}.Married.{{DayOfWeek}}_
+ "BETAS.Wiped.Edelweiss.Married.Monday_0": "",
+ "BETAS.Wiped.Edelweiss.Married.Monday_1": "",
+ "BETAS.Wiped.Edelweiss.Married.Monday_2": "",
+ "BETAS.Wiped.Edelweiss.Married.Monday_3": "",
  "Wiped.Edelweiss.SpringM_0": "",
  "Wiped.Edelweiss.SpringM_1": "",
  "Wiped.Edelweiss.SpringM_2": "",

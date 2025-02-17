@@ -4,9 +4,9 @@
  "Yrsin.RejectTea": "Sorry, I don't know what that I'm supposed to do with this.$1",
  //start of characters/dialogue/npc
  "Yrsin.Housemate": "(housemate)",
- "Yrsin.Spouse": "(spouse)",
+ "Yrsin.Spouse": "(husband)",
  "Yrsin.Partner": "(partner)",
- "Yrsin.ExSpouse": "(ex-spouse)",
+ "Yrsin.ExSpouse": "(ex-husband)",
  "Yrsin.Single": "(single)",
  //door unlock
  "Yrsin.NotFriend_Door": "You shouldn't pry into the underground.",
@@ -169,8 +169,8 @@
  "Yrsin.Romantic.Tuesday10_1": "Today's an extremely busy day, you'll have to pardon my manners, sweetheart.$5",
  "Yrsin.Romantic.Tuesday10_2": "Even though it is public knowledge of our relationship, I still cannot afford the kiddie gloves with you, sweetheart.$6#$b#Gotta keep the respect of the people.$7",
  "Yrsin.Romantic.Tuesday10_3": "It is quite often that you visit me during work hours, sweetheart, but you'll have to pardon my manners.$9#$b#Life still moves on and the wicked don't rest.$6",
- "BETAS.Yrsin.Tuesday10_0": "Give me a moment, love.$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*BrrRrRrrRing*\" 3000 0 true#$e#...#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Thandael \"Yo, Sinny! To what do I owe the pleasure?$1\"#$e#...$7#$b#You're lucky I'm in a good mood today, Than.$7#$b#I need an update on the head of the snake.#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Thandael \"Oh, sure. So the schedule for the week looks like a meeting with an embassador across the sea.\"#$action Spiderbuttons.BETAS_Message \"Seems like Yrsin is busy.\"",
- "BETAS.Yrsin.Tuesday10_1": "Give me a moment, love.$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*BrrRrRrrRing*\" 3000 0 true#$e#...$1#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrnal \"Helooo Boss.$6\"#$e#Yrna, what would you like to eat this afternoon?$1#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrnal \"Oh! Can we have a buffet today?$1\"#$e#A buffet, huh?$1#$b#I assume you want your usual, shrimp?$6#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrnal \"Oh you know me so well Boss~$1\"#$e#Of course.$1#$b#Go ahead and call Syrs and Yrrek and we'll set something up later on today.$1#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrnal \"Okay! Your usual white-fish?$3\"#$e#You know me so well.$7#$action Spiderbuttons.BETAS_Message \"Seems like Yrsin is busy.\"",
+ "BETAS.Yrsin.Tuesday10_0": "",
+ "BETAS.Yrsin.Tuesday10_1": "",
  "BETAS.Yrsin.Tuesday10_2": "Sorry, love, today isn't a good time.$7#$action Spiderbuttons.BETAS_WarpFarmer Aviroen.VoidsentCP_Moor <X> <Y> <FacingDirection>",
  "BETAS.Yrsin.Tuesday10_3": "$action Spiderbuttons.BETAS_Message \"Sounds like Yrsin is... humming?\"#$e#Living in your empty shadow.$8#$e#Should've been two of us, just you and I.$8",
 
@@ -218,8 +218,8 @@
  "Yrsin.Platonic.Wednesday8_2": "",
  "Yrsin.Platonic.Wednesday8_3": "",
  //8 romantic
- "Yrsin.Romantic.Wednesday8_0": "", //Hah... sobriety is a joke...[angry emote]#$action Spiderbuttons.BETAS_Message \"Seems like Yrsin is... intoxicated?#$e#Well sweetness, do you believe this shark should've lived the straight and sober life?#$b#Are you disillusioned?[flirty emote]#$b#Is it surprising to finally find me at a weak point?[angry emote]#$e#Maybe it's best if you... left me alone for the day.[angry emote]
- "Yrsin.Romantic.Wednesday8_1": "", //BETAS_message \"Kind of smells like liquor in here...\"#$e#Well hellooo sweetness.[happy emote]#$b#Come to see this apex predator at a low point? Cute.$9#$action Spiderbuttons.BETAS_Message \"Seems like Yrsin is intoxicated.#$e#Yes yes, the straight and sober life is oh so high and mighty, but did you really expect a leader of a black market to not delve in vices? Cute.$9#$e#I'm not really in a good mood to talk with you today, sweetness, maybe another time.[wink]
+ "Yrsin.Romantic.Wednesday8_0": "Give me a moment, love.$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*BrrRrRrrRing*\" 3000 0 true#$e#...#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Thandael \"Yo, Sinny! To what do I owe the pleasure?$1\"#$e#...$7#$b#You're lucky I'm in a good mood today, Than.$7#$b#I need an update on the head of the snake.#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Thandael \"Oh, sure. So the schedule for the week looks like a meeting with an embassador across the sea.\"#$action Spiderbuttons.BETAS_Message \"Seems like Yrsin is busy.\"", //Hah... sobriety is a joke...[angry emote]#$action Spiderbuttons.BETAS_Message \"Seems like Yrsin is... intoxicated?#$e#Well sweetness, do you believe this shark should've lived the straight and sober life?#$b#Are you disillusioned?[flirty emote]#$b#Is it surprising to finally find me at a weak point?[angry emote]#$e#Maybe it's best if you... left me alone for the day.[angry emote]
+ "Yrsin.Romantic.Wednesday8_1": "Give me a moment, love.$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*BrrRrRrrRing*\" 3000 0 true#$e#...$1#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrnal \"Helooo Boss.$6\"#$e#Yrna, what would you like to eat this afternoon?$1#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrnal \"Oh! Can we have a buffet today?$1\"#$e#A buffet, huh?$1#$b#I assume you want your usual, shrimp?$6#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrnal \"Oh you know me so well Boss~$1\"#$e#Of course.$1#$b#Go ahead and call Syrs and Yrrek and we'll set something up later on today.$1#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrnal \"Okay! Your usual white-fish?$3\"#$e#You know me so well.$7#$action Spiderbuttons.BETAS_Message \"Seems like Yrsin is busy.\"", //BETAS_message \"Kind of smells like liquor in here...\"#$e#Well hellooo sweetness.[happy emote]#$b#Come to see this apex predator at a low point? Cute.$9#$action Spiderbuttons.BETAS_Message \"Seems like Yrsin is intoxicated.#$e#Yes yes, the straight and sober life is oh so high and mighty, but did you really expect a leader of a black market to not delve in vices? Cute.$9#$e#I'm not really in a good mood to talk with you today, sweetness, maybe another time.[wink]
  "Yrsin.Romantic.Wednesday8_2": "", //BETAS_message \"The office smells of strong liquor...\"
  "Yrsin.Romantic.Wednesday8_3": "",
  "BETAS.Yrsin.Wednesday8_0": "",
