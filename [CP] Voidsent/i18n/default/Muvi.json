@@ -3,25 +3,24 @@
  "Muvi.RejectTea": "Sorry, I don't know what that I'm supposed to do with this.",
  //start of characters/dialogue/npc
  //door unlock
- "Muvi.NotFriend_Door": "",
+ "Muvi.NotFriend_Door": "Muvi has misplaced the key to this lock.",
 
  //gift taste dialogue
- "Muvi.Gifts.Loved": "",
- "Muvi.Gifts.Liked": "",
- "Muvi.Gifts.Disliked": "",
- "Muvi.Gifts.Hated": "",
- "Muvi.Gifts.Neutral": "",
+ "Muvi.Gifts.Loved": "Oh!$1#$b#For me?$1#$b#Thanks!$1",
+ "Muvi.Gifts.Liked": "Oh, do you think Rao would also be interested in this, too?$3",
+ "Muvi.Gifts.Disliked": "...?$1#$b#Oh you meant for me, sure, I could always use... whatever this is.$1",
+ "Muvi.Gifts.Hated": "Hmm...$6#$b#I'm not really good at cooking... I guess I'll have to ask Linlin...$6",
+ "Muvi.Gifts.Neutral": "Kindling?$3",
 
  //gen dialogue
- "Muvi.DumpsterDiveComment": "",
- "Muvi.HitBySlingshot": "",
- "Muvi.MovieInvitation": "",
- "Muvi.RejectBouquet": "",
- "Muvi.RejectGift_Divorced": "",
- "Muvi.RejectMermaidPendant": "",
- "Muvi.RejectMovieTicket": "",
- "Muvi.GreenRain": "",
- "Muvi.GreenRainFinished": "",
+ "Muvi.DumpsterDiveComment": "I'm not allowed to dig in the trash like that anymore.$2#$b#Linlin gets mad...$3",
+ "Muvi.HitBySlingshot": "...Times of war do not make for good roughousing jokes. Let this be a lesson.$5#$action spacechase0.SpaceCore_DamageCurrentFarmer 50",
+ "Muvi.MovieInvitation": "Invite me out for what?$3#$b#Is there someone else named Muvi?$3#$b#Can I meet them...?$3#$b#Oh! A M-o-v-i-e!$1#$b#Sure!$1",
+ "Muvi.RejectBouquet": "Sorry?$4#$b#What are these meant to represent?$4",
+ "Muvi.RejectMermaidPendant": "Sorry, I'm quite comfortable with my life as it is.$1",
+ "Muvi.RejectMovieTicket": "I'm not quite interested in watching myself.$6",
+ "Muvi.GreenRain": "Green rains!$1#$b#Hopefully this batch of potions will make Linlin happy.$1",
+ "Muvi.GreenRainFinished": "I've asked Edelweiss to bring about several casks of the rains, I hope their gathering was fruitful.$1",
 
  //monday
  //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_
