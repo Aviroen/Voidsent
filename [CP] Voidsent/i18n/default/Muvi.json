@@ -15,7 +15,7 @@
  //gen dialogue
  "Muvi.DumpsterDiveComment": "I'm not allowed to dig in the trash like that anymore.$2#$b#Linlin gets mad...$3",
  "Muvi.HitBySlingshot": "...Times of war do not make for good roughousing jokes. Let this be a lesson.$5#$action spacechase0.SpaceCore_DamageCurrentFarmer 50",
- "Muvi.MovieInvitation": "Invite me out for what?$3#$b#Is there someone else named Muvi?$3#$b#Can I meet them...?$3#$b#Oh! A M-o-v-i-e!$1#$b#Sure!$1",
+ "Muvi.MovieInvitation": "Invite me out for what?$3#$b#Is there someone else named Muvi?$3#$b#Can I meet them...?$3#$b#Oh! A m-o-v-i-e!$1#$b#Sure!$1",
  "Muvi.RejectBouquet": "Sorry?$4#$b#What are these meant to represent?$4",
  "Muvi.RejectMermaidPendant": "Sorry, I'm quite comfortable with my life as it is.$1",
  "Muvi.RejectMovieTicket": "I'm not quite interested in watching myself.$6",

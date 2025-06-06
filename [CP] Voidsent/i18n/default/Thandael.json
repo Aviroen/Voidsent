@@ -4,9 +4,9 @@
  "Thandael.RejectTea": "Sorry, I don't know what that I'm supposed to do with this.",
  //start of characters/dialogue/npc
  "Thandael.Housemate": "(housemate)",
- "Thandael.Spouse": "(spouse)",
+ "Thandael.Spouse": "(husband)",
  "Thandael.Partner": "(partner)",
- "Thandael.ExSpouse": "(ex-spouse)",
+ "Thandael.ExSpouse": "(ex-husband)",
  "Thandael.Single": "(single)",
  //door unlock
  "Thandael.NotFriend_Door": "The secrets are beyond you.",
@@ -19,8 +19,8 @@
  "Thandael.Gifts.Neutral": "...Thanks?$3",
 
  //gen dialogue
- "Thandael.breakUp": "...No, no, that's... Yeah, everyone has their own way to go.$6#$e#It was a good time.$3",
- "Thandael.divorced": "...$5",
+ "Thandael.breakUp": "...No, no, that's... Yeah, everyone has their own way to go.$6#$e#It was a good time.$3#$action Spiderbuttons.BETAS_Message \"Thandael is ignoring you.\"",
+ "Thandael.divorced": "...$5#$action Spiderbuttons.BETAS_Message \"Thandael is ignoring you.\"",
  "Thandael.DumpsterDiveComment": "Reminds me of when I was young.$3",
  "Thandael.HitBySlingshot": "...I may be the rearguard, but I am not to be taken lightly.$5#$action spacechase0.SpaceCore_DamageCurrentFarmer 50",
  "Thandael.SpouseFarmhouseClutter": "Need help cleaning up, sweetie?$3",

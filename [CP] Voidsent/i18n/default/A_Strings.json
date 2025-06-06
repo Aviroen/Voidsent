@@ -1,5 +1,7 @@
 {
  //standard
+
+
  "Friend": "Friend",
  "Teacher": "Teacher",
  "Colleague": "Colleague",
@@ -56,7 +58,6 @@
  "ShadyShack.7": "Ever spoke to Penumbra? He's some kinda character.",
  "ShadyShack.8": "Edelweiss is my contractor, best not to get on their bad side.",
  "ShadyShack.9": "If you're not buying, I'm not interested.",
-
  "BIBKitchen.0": "All these damn mermadics... and their tall stature...",
  "BIBKitchen.1": "You think you can ask the Boss for shorter counters?",
  "BIBKitchen.2": "I work part time here, I'm mostly a designer by trade.",
@@ -67,14 +68,16 @@
  "BIBKitchen.7": "Wonder what I should make for dinner...",
  "BIBKitchen.8": "The funniest thing? I'm allergic to shellfish.",
  "BIBKitchen.9": "The WORST part? I love to eat fish.",
-
  "Shjorbk.Name": "Shjorbk",
  "Shjorbk.ShopDescription": "Somehow, someway, you've managed to put Shorbk in a bowl. His new name is Shjorbk.",
  "Shjorbk.MissingBuilding": "This building isn't big enough for Shorbk.",
-
  "Goldie.Name": "Goldie",
  "Goldie.ShopDescription": "A sweet little goldfish in a bowl, sneaks out to the large lakes at night.",
  "Goldie.MissingBuilding": "This building isn't suitable for Queen Goldie.",
+
+ //artificial beach
+ "ABCheck": "Pay 1,000g to go to Port Morabyr?",
+ "ABBuy": "Yes.",
 
  //hotel
  "RoomCheck": "Which room would you like, darlin'?",
@@ -187,7 +190,6 @@
  "Kitchen.33": "",
  "Kitchen.34": "",
  "Kitchen.35": "",
-
  "Dresser.0": "",
  "Dresser.1": "",
  "Dresser.2": "",
@@ -224,7 +226,6 @@
  "Dresser.33": "",
  "Dresser.34": "",
  "Dresser.35": "",
-
  "Dining.0": "",
  "Dining.1": "",
  "Dining.2": "",
@@ -261,7 +262,6 @@
  "Dining.33": "",
  "Dining.34": "",
  "Dining.35": "",
-
  "Cabinet.0": "",
  "Cabinet.1": "",
  "Cabinet.2": "",
@@ -298,7 +298,6 @@
  "Cabinet.33": "",
  "Cabinet.34": "",
  "Cabinet.35": "",
-
  "TV.0": "Live! From the coast of Gotoro Bay!#We bring you footage of a beached whale being pushed back into the sea!",
  "TV.1": "",
  "TV.2": "",
@@ -335,7 +334,6 @@
  "TV.33": "",
  "TV.34": "",
  "TV.35": "",
-
  "Clock.0": "It's time for you to get a watch.",
  "Clock.1": "",
  "Clock.2": "",
@@ -372,7 +370,6 @@
  "Clock.33": "",
  "Clock.34": "",
  "Clock.35": "",
-
  "Coat.0": "",
  "Coat.1": "",
  "Coat.2": "",
@@ -409,7 +406,6 @@
  "Coat.33": "",
  "Coat.34": "",
  "Coat.35": "",
-
  "Misc.0": "",
  "Misc.1": "",
  "Misc.2": "",
@@ -469,7 +465,6 @@
  "Hideout3.Sign": "Maybe you'll get in my good graces and I'll open up these warps to you, love.",
  "Hideout4.Sign": "Welcome to my least used hideout, love, enjoy yourself.",
  "Hideout5.Sign": "Reminder to self:#Yrnal likes salmon.#Yrrek likes tuna.#Syrsa only eats mackerel.",
-
  "TentUnallowed": "It's not safe to sleep here. You should probably find real shelter.",
  "DoorUnlock_NotFriend_Undefined": "You're not good enough friends with {0} to enter their bedroom."
 }

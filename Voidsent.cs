@@ -1,8 +1,6 @@
 ﻿using StardewValley;
 using StardewModdingAPI;
 using StardewModdingAPI.Events;
-//using Microsoft.Xna.Framework;
-//using StardewUI.Framework;
 using HarmonyLib;
 using StardewValley.Triggers;
 using System.Reflection;
@@ -11,6 +9,7 @@ using Voidsent.Integration;
 using Voidsent.Patches;
 using Voidsent.Framework.TileActions;
 using Voidsent.Framework;
+using System.Reflection.Metadata.Ecma335;
 
 namespace Voidsent
 {
@@ -41,6 +40,9 @@ namespace Voidsent
         internal static readonly List<GameLocation> indoorLocations = [];
         public override void Entry(IModHelper helper)
         {
+            if (!this.ValidateInstall())
+                return;
+
             helper.Events.GameLoop.GameLaunched += OnGameLaunched;
             helper.Events.Input.ButtonPressed += OnButtonPressed;
             helper.Events.GameLoop.SaveLoaded += (_, _) => SetMyLocationFlags(); //netbools
@@ -79,10 +81,23 @@ namespace Voidsent
         public void OnGameLaunched(object? sender, GameLaunchedEventArgs e)
         {
             ftmApi = Helper.ModRegistry.GetApi<IFtmApi>("Esca.FarmTypeManager")!;
-            //viewEngine = Helper.ModRegistry.GetApi<IViewEngine>("focustense.StardewUI")!;
-            //viewEngine.RegisterSprites($"Mods/{ModManifest.UniqueID}/Sprites", "Assets/Sprites");
-            //viewEngine.RegisterViews($"Mods/{ModManifest.UniqueID}/Views", "Assets/Views");
-
+            
+        }
+        private bool ValidateInstall()
+        {
+            IModInfo? contentPack = this.Helper.ModRegistry.Get("Aviroen.VoidsentCP");
+            IModInfo? contentCheck = this.Helper.ModRegistry.Get("ApryllForever.PolyamorySweetLove");
+            if (contentPack is null)
+            {
+                this.Monitor.Log("VoidsentCP is missing the Content Pack. Please delete and reinstall the mod to fix.", LogLevel.Error);
+                return false;
+            }
+            if (contentCheck != null)
+            {
+                this.Monitor.Log("Voidsent is incompatible with Polyamory Sweet. Voidsent will not be loaded.", LogLevel.Error);
+                return false;
+            }
+            return true;
         }
         private void OnButtonPressed(object? sender, ButtonPressedEventArgs e)
         {

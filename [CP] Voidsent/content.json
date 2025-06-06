@@ -296,18 +296,7 @@
  "Changes": [
   {
    "Action": "Include",
-   "When": {
-    "HasMod|contains=ApryllForever.PolyamorySweetLove, ApryllForever.PolyamorySweetRooms, ApryllForever.PolyamoryKiss, ApryllForever.PolyamorySweetWedding, ApryllForever.PolyamorySweetBed, ApryllForever.SweetPolyamory": false
-   },
    "FromFile": "Data/includes.json"
-  },
-  {
-   "LogName": "PolyamorySweet is Incompatible with Voidsent. Voidsent will not be loaded.",
-   "Action": "Include",
-   "When": {
-    "HasMod|contains=ApryllForever.PolyamorySweetLove, ApryllForever.PolyamorySweetRooms, ApryllForever.PolyamoryKiss, ApryllForever.PolyamorySweetWedding, ApryllForever.PolyamorySweetBed, ApryllForever.SweetPolyamory": true
-   },
-   "FromFile": "WARNING.json"
   }
  ]
 }

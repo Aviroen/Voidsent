@@ -7,78 +7,83 @@
  "Caliburnus": "Caliburnus",
  "Caliburc": "Caliburc",
  "Caliburn": "Caliburn",
+ "Excalibur.RejectPendant": "Sorry, I don't know what that I'm supposed to do with this.",
+ "Excalibur.RejectTea": "Sorry, I don't know what that I'm supposed to do with this.",
  //start of characters/dialogue/npc
- "Excalibur.Housemate": "A",
- "Excalibur.Spouse": "B",
- "Excalibur.Partner": "C",
- "Excalibur.ExSpouse": "D",
- "Excalibur.Single": "E",
- "Excalibur.breakUp": "",
- "Excalibur.divorced": "",
- "Excalibur.DumpsterDiveComment": "",
- "Excalibur.HitBySlingshot": "",
- "Excalibur.SpouseFarmhouseClutter": "",
- "Excalibur.SpouseGiftJealous": "",
- "Excalibur.Spouse_MonstersInHouse": "",
- "Excalibur.SpouseStardrop": "",
- "Excalibur.WipedMemory": "",
- "Excalibur.AcceptBouquet": "",
- "Excalibur.MovieInvitation": "",
- "Excalibur.RejectBouquet": "",
- "Excalibur.RejectGift_Divorced": "",
- "Excalibur.RejectMermaidPendant": "",
- "Excalibur.RejectMovieTicket": "",
- "Excalibur.GreenRain": "",
- "Excalibur.GreenRainFinished": "",
- "Excalibur.Engaged": "",
- "Excalibur.AfterWedding": "",
- /*
- i'm angsty time to write some backstory while i still feel this way
- Excalibur: why was i possessing a sword? well, in the past i used to be relatively strong with magic and sword, i didn't know any better, and i ended up becoming a weapon for powerful people for the wrong reasons
- it's not something i'm proud of, and after finally realizing that i wasn't fighting for anyone but those who sought power, i decided to seal myself away with my best friend, this sword
- i guess you can say my time away from the world gave me some relief, i don't think i've found the power to forgive myself for being ignorant
- - is it wrong to be ignorant?
- it's not inherently wrong to be ignorant, but the lives i took... the families i shattered... i feel as though this possession and everlasting "life" of mine is a sort of pennance, that i should see these lives through at my own expense
- i guess that's not really a great way to think about it though.. haha... [ex is silent]
- nggrh [ex is having a nightmare]
- for the crimes against my liege, i sentence you... to death [possession]
- ...rrg...
- huh?
- was i... 
- where am i?
- was i dreaming...?
- it's strange to have a dream as a ghost, but i guess that's just what happens to those of us who are too far gone with magic
- i should really ask sai if they can take me to see the witches in the outlands... maybe they'll have something for me
- - have you tried asking thetlin?
- thetlin sees me as a study subject for the manifestation of magic built around a soul, i'd... rather not be subject to those kinds of viewing any longer
- sorry, i guess this is something i need to work on for myself
- */
+ "Excalibur.Housemate": "(housemate)",
+ "Excalibur.Spouse": "(spouse)",
+ "Excalibur.Partner": "(partner)",
+ "Excalibur.ExSpouse": "(ex-spouse)",
+ "Excalibur.Single": "(single)",
+ //door unlock
+ "Excalibur.NotFriend_Door": "No Visitors.",
+
+ //gift taste dialogue
+ "Excalibur.Gifts.Loved": "I--Oh--Thank... you...$1",
+ "Excalibur.Gifts.Liked": "For--me? Thank you.$1",
+ "Excalibur.Gifts.Disliked": "...?$3",
+ "Excalibur.Gifts.Hated": "...$5",
+ "Excalibur.Gifts.Neutral": "...?$9",
+
+ //gen dialogue
+ "Excalibur.breakUp": "...Mundane relationships are strange...$5#$action Spiderbuttons.BETAS_Message \"Excalibur is ignoring you.\"",
+ "Excalibur.divorced": "...$2#$action Spiderbuttons.BETAS_Message \"Excalibur is ignoring you.\"",
+ "Excalibur.DumpsterDiveComment": "...$9",
+ "Excalibur.HitBySlingshot": "...$5#$action spacechase0.SpaceCore_DamageCurrentFarmer 50",
+ "Excalibur.SpouseFarmhouseClutter": "I--could... clean...?$3",
+ "Excalibur.SpouseGiftJealous": "...?$3",
+ "Excalibur.Spouse_MonstersInHouse": "...!$6",
+ "Excalibur.SpouseStardrop": "Had this--stashed away... For a special person--$8#$b#Glad you're... here with me.$1",
+ "Excalibur.WipedMemory": "...$5",
+ "Excalibur.AcceptBouquet": "...?$1#$b#For me?$4#$b#...What is... 'dating'?$5#$b#Elopement?$8#$b#Not quite?$5#$b#Intermediate... relationship?$5#$b#Sure?$9",
+ "Excalibur.MovieInvitation": "A--m-o-v-i-e?$5#$b#Pictures?$5#$b#Moving pictures?$5#$b#Sounds interesting.$9",
+ "Excalibur.RejectBouquet": "Sorry--I don't... know what this means?$5",
+ "Excalibur.RejectGift_Divorced": "...$5",
+ "Excalibur.RejectMermaidPendant": "Sorry, I don't... wish to elope...?$5",
+ "Excalibur.RejectMovieTicket": "Maybe--next time...$8",
+ "Excalibur.GreenRain": "...$8#$b#These rains are... comforting.$8",
+ "Excalibur.GreenRainFinished": "...$2#$b#I miss the rains--already.$2",
+ "Excalibur.Engaged": "Shall--we... see what this life... has in store for us?$9",
+ "Excalibur.AfterWedding": "Together... To this new eternity.$9",
+
  //monday
- //BETAS
- "BETAS.Excalibur.Monday_0": "",
- "BETAS.Excalibur.Monday_1": "",
- "BETAS.Excalibur.Monday_2": "",
- "BETAS.Excalibur.Monday_3": "",
+ //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_
+ "BETAS.Excalibur.Monday_0": "$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Excalibur \"Between grandeur and prosperity.\"",
+ "BETAS.Excalibur.Monday_1": "$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Excalibur \"Flitting dreams of nothingness.\"",
+ "BETAS.Excalibur.Monday_2": "$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Excalibur \"Apt lies.\"",
+ "BETAS.Excalibur.Monday_3": "$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Excalibur \"Memories remain.\"",
  //daily
- "Excalibur.Monday_0": "", //rrg [sounds like excalibur is having a hard time] #$b#Sorry, I'm just... remembering... the past.
- "Excalibur.Monday_1": "",
- "Excalibur.Monday_2": "",
- "Excalibur.Monday_3": "",
+ "Excalibur.Monday_0": "$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Excalibur \"A wonderful dream.\"",
+ "Excalibur.Monday_1": "$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Excalibur \"A screaming nightmare.\"",
+ "Excalibur.Monday_2": "$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Excalibur \"Tales of war, unseen.\"",
+ "Excalibur.Monday_3": "$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Excalibur \"Lives burnt out.\"",
  //2 heart
- "Excalibur.Monday2_0": "",
- "Excalibur.Monday2_1": "",
- "Excalibur.Monday2_2": "",
- "Excalibur.Monday2_3": "",
+ "Excalibur.Monday2_0": "$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Excalibur \"Between truth and deception.\"",
+ "Excalibur.Monday2_1": "$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Excalibur \"A sliver of remorse.\"",
+ "Excalibur.Monday2_2": "$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Excalibur \"Shackled, a martyr.\"",
+ "Excalibur.Monday2_3": "$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Excalibur \"My pennance.\"",
+ "BETAS.Excalibur.Monday2_0": "$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Excalibur \"Why wake me?\"",
+ "BETAS.Excalibur.Monday2_1": "$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Excalibur \"This... burdensome form.\"",
+ "BETAS.Excalibur.Monday2_2": "$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Excalibur \"This... spectre of humanity.\"",
+ "BETAS.Excalibur.Monday2_3": "$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Excalibur \"My sins remain.\"",
  //4 heart
- "Excalibur.Monday4_0": "",
- "Excalibur.Monday4_1": "",
- "Excalibur.Monday4_2": "",
- "Excalibur.Monday4_3": "",
+ "Excalibur.Monday4_0": "...#$action Spiderbuttons.BETAS_Message \"Excalibur is fidgeting.\"",
+ "Excalibur.Monday4_1": "Hmm...#$action Spiderbuttons.BETAS_Message \"Excalibur is too focused on their hands.\"",
+ "Excalibur.Monday4_2": "This form...$5#$action Spiderbuttons.BETAS_Message \"Excalibur is unaware of you.\"",
+ "Excalibur.Monday4_3": "What have I become...?$5#$action Spiderbuttons.BETAS_Message \"Excalibur is unaware of you.\"",
+ "BETAS.Excalibur.Monday4_0": "$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Excalibur \"What can I--ow.\"",
+ "BETAS.Excalibur.Monday4_1": "$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Excalibur \"What if I--ow.\"",
+ "BETAS.Excalibur.Monday4_2": "$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Excalibur \"Hmm...\"",
+ "BETAS.Excalibur.Monday4_3": "$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Excalibur \"Numbness...\"",
  //6
- "Excalibur.Monday6_0": "",
- "Excalibur.Monday6_1": "",
- "Excalibur.Monday6_2": "",
- "Excalibur.Monday6_3": "",
+ "Excalibur.Monday6_0": "Hello...#$action Spiderbuttons.BETAS_Message \"Excalibur is aware of your presence.\"",
+ "Excalibur.Monday6_1": "You've come to see me again.",
+ "Excalibur.Monday6_2": "Do you--know what I am?$5",
+ "Excalibur.Monday6_3": "Were you the one that broke the seals?",
+ "BETAS.Excalibur.Monday6_0": "You seem... nice.$4",
+ "BETAS.Excalibur.Monday6_1": "Pray... what year is it?$4",
+ "BETAS.Excalibur.Monday6_2": "...Konryn?$5#$B#Is it not King === anymore?$5",
+ "BETAS.Excalibur.Monday6_3": "...How long have I been asleep...?$5",
  //8 platonic
  "Excalibur.Platonic.Monday8_0": "",
  "Excalibur.Platonic.Monday8_1": "",
@@ -89,16 +94,26 @@
  "Excalibur.Romantic.Monday8_1": "",
  "Excalibur.Romantic.Monday8_2": "",
  "Excalibur.Romantic.Monday8_3": "",
+ //8
+ "BETAS.Excalibur.Monday8_0": "",
+ "BETAS.Excalibur.Monday8_1": "",
+ "BETAS.Excalibur.Monday8_2": "",
+ "BETAS.Excalibur.Monday8_3": "",
  //10 platonic
  "Excalibur.Platonic.Monday10_0": "",
  "Excalibur.Platonic.Monday10_1": "",
  "Excalibur.Platonic.Monday10_2": "",
  "Excalibur.Platonic.Monday10_3": "",
- //romantic
+ //10 romantic
  "Excalibur.Romantic.Monday10_0": "",
  "Excalibur.Romantic.Monday10_1": "",
  "Excalibur.Romantic.Monday10_2": "",
  "Excalibur.Romantic.Monday10_3": "",
+ //10
+ "BETAS.Excalibur.Monday10_0": "",
+ "BETAS.Excalibur.Monday10_1": "",
+ "BETAS.Excalibur.Monday10_2": "",
+ "BETAS.Excalibur.Monday10_3": "",
 
  //tuesday
  //BETAS
@@ -116,16 +131,28 @@
  "Excalibur.Tuesday2_1": "",
  "Excalibur.Tuesday2_2": "",
  "Excalibur.Tuesday2_3": "",
+ "BETAS.Excalibur.Tuesday2_0": "",
+ "BETAS.Excalibur.Tuesday2_1": "",
+ "BETAS.Excalibur.Tuesday2_2": "",
+ "BETAS.Excalibur.Tuesday2_3": "",
  //4 heart
  "Excalibur.Tuesday4_0": "",
  "Excalibur.Tuesday4_1": "",
  "Excalibur.Tuesday4_2": "",
  "Excalibur.Tuesday4_3": "",
+ "BETAS.Excalibur.Tuesday4_0": "",
+ "BETAS.Excalibur.Tuesday4_1": "",
+ "BETAS.Excalibur.Tuesday4_2": "",
+ "BETAS.Excalibur.Tuesday4_3": "",
  //6
  "Excalibur.Tuesday6_0": "",
  "Excalibur.Tuesday6_1": "",
  "Excalibur.Tuesday6_2": "",
  "Excalibur.Tuesday6_3": "",
+ "BETAS.Excalibur.Tuesday6_0": "",
+ "BETAS.Excalibur.Tuesday6_1": "",
+ "BETAS.Excalibur.Tuesday6_2": "",
+ "BETAS.Excalibur.Tuesday6_3": "",
  //8 platonic
  "Excalibur.Platonic.Tuesday8_0": "",
  "Excalibur.Platonic.Tuesday8_1": "",
@@ -136,6 +163,10 @@
  "Excalibur.Romantic.Tuesday8_1": "",
  "Excalibur.Romantic.Tuesday8_2": "",
  "Excalibur.Romantic.Tuesday8_3": "",
+ "BETAS.Excalibur.Tuesday8_0": "",
+ "BETAS.Excalibur.Tuesday8_1": "",
+ "BETAS.Excalibur.Tuesday8_2": "",
+ "BETAS.Excalibur.Tuesday8_3": "",
  //10 platonic
  "Excalibur.Platonic.Tuesday10_0": "",
  "Excalibur.Platonic.Tuesday10_1": "",
@@ -146,6 +177,10 @@
  "Excalibur.Romantic.Tuesday10_1": "",
  "Excalibur.Romantic.Tuesday10_2": "",
  "Excalibur.Romantic.Tuesday10_3": "",
+ "BETAS.Excalibur.Tuesday10_0": "",
+ "BETAS.Excalibur.Tuesday10_1": "",
+ "BETAS.Excalibur.Tuesday10_2": "",
+ "BETAS.Excalibur.Tuesday10_3": "",
 
  //wednesday
  //BETAS
@@ -163,16 +198,28 @@
  "Excalibur.Wednesday2_1": "",
  "Excalibur.Wednesday2_2": "",
  "Excalibur.Wednesday2_3": "",
+ "BETAS.Excalibur.Wednesday2_0": "",
+ "BETAS.Excalibur.Wednesday2_1": "",
+ "BETAS.Excalibur.Wednesday2_2": "",
+ "BETAS.Excalibur.Wednesday2_3": "",
  //4 heart
  "Excalibur.Wednesday4_0": "",
  "Excalibur.Wednesday4_1": "",
  "Excalibur.Wednesday4_2": "",
  "Excalibur.Wednesday4_3": "",
+ "BETAS.Excalibur.Wednesday4_0": "",
+ "BETAS.Excalibur.Wednesday4_1": "",
+ "BETAS.Excalibur.Wednesday4_2": "",
+ "BETAS.Excalibur.Wednesday4_3": "",
  //6
  "Excalibur.Wednesday6_0": "",
  "Excalibur.Wednesday6_1": "",
  "Excalibur.Wednesday6_2": "",
  "Excalibur.Wednesday6_3": "",
+ "BETAS.Excalibur.Wednesday6_0": "",
+ "BETAS.Excalibur.Wednesday6_1": "",
+ "BETAS.Excalibur.Wednesday6_2": "",
+ "BETAS.Excalibur.Wednesday6_3": "",
  //8 platonic
  "Excalibur.Platonic.Wednesday8_0": "",
  "Excalibur.Platonic.Wednesday8_1": "",
@@ -183,6 +230,10 @@
  "Excalibur.Romantic.Wednesday8_1": "",
  "Excalibur.Romantic.Wednesday8_2": "",
  "Excalibur.Romantic.Wednesday8_3": "",
+ "BETAS.Excalibur.Wednesday8_0": "",
+ "BETAS.Excalibur.Wednesday8_1": "",
+ "BETAS.Excalibur.Wednesday8_2": "",
+ "BETAS.Excalibur.Wednesday8_3": "",
  //10 platonic
  "Excalibur.Platonic.Wednesday10_0": "",
  "Excalibur.Platonic.Wednesday10_1": "",
@@ -193,6 +244,10 @@
  "Excalibur.Romantic.Wednesday10_1": "",
  "Excalibur.Romantic.Wednesday10_2": "",
  "Excalibur.Romantic.Wednesday10_3": "",
+ "BETAS.Excalibur.Wednesday10_0": "",
+ "BETAS.Excalibur.Wednesday10_1": "",
+ "BETAS.Excalibur.Wednesday10_2": "",
+ "BETAS.Excalibur.Wednesday10_3": "",
 
  //thursday
  //BETAS
@@ -210,16 +265,28 @@
  "Excalibur.Thursday2_1": "",
  "Excalibur.Thursday2_2": "",
  "Excalibur.Thursday2_3": "",
+ "BETAS.Excalibur.Thursday2_0": "",
+ "BETAS.Excalibur.Thursday2_1": "",
+ "BETAS.Excalibur.Thursday2_2": "",
+ "BETAS.Excalibur.Thursday2_3": "",
  //4 heart
  "Excalibur.Thursday4_0": "",
  "Excalibur.Thursday4_1": "",
  "Excalibur.Thursday4_2": "",
  "Excalibur.Thursday4_3": "",
+ "BETAS.Excalibur.Thursday4_0": "",
+ "BETAS.Excalibur.Thursday4_1": "",
+ "BETAS.Excalibur.Thursday4_2": "",
+ "BETAS.Excalibur.Thursday4_3": "",
  //6
  "Excalibur.Thursday6_0": "",
  "Excalibur.Thursday6_1": "",
  "Excalibur.Thursday6_2": "",
  "Excalibur.Thursday6_3": "",
+ "BETAS.Excalibur.Thursday6_0": "",
+ "BETAS.Excalibur.Thursday6_1": "",
+ "BETAS.Excalibur.Thursday6_2": "",
+ "BETAS.Excalibur.Thursday6_3": "",
  //8 platonic
  "Excalibur.Platonic.Thursday8_0": "",
  "Excalibur.Platonic.Thursday8_1": "",
@@ -230,6 +297,10 @@
  "Excalibur.Romantic.Thursday8_1": "",
  "Excalibur.Romantic.Thursday8_2": "",
  "Excalibur.Romantic.Thursday8_3": "",
+ "BETAS.Excalibur.Thursday8_0": "",
+ "BETAS.Excalibur.Thursday8_1": "",
+ "BETAS.Excalibur.Thursday8_2": "",
+ "BETAS.Excalibur.Thursday8_3": "",
  //10 platonic
  "Excalibur.Platonic.Thursday10_0": "",
  "Excalibur.Platonic.Thursday10_1": "",
@@ -240,6 +311,10 @@
  "Excalibur.Romantic.Thursday10_1": "",
  "Excalibur.Romantic.Thursday10_2": "",
  "Excalibur.Romantic.Thursday10_3": "",
+ "BETAS.Excalibur.Thursday10_0": "",
+ "BETAS.Excalibur.Thursday10_1": "",
+ "BETAS.Excalibur.Thursday10_2": "",
+ "BETAS.Excalibur.Thursday10_3": "",
 
  //friday
  //BETAS
@@ -257,16 +332,28 @@
  "Excalibur.Friday2_1": "",
  "Excalibur.Friday2_2": "",
  "Excalibur.Friday2_3": "",
+ "BETAS.Excalibur.Friday2_0": "",
+ "BETAS.Excalibur.Friday2_1": "",
+ "BETAS.Excalibur.Friday2_2": "",
+ "BETAS.Excalibur.Friday2_3": "",
  //4 heart
  "Excalibur.Friday4_0": "",
  "Excalibur.Friday4_1": "",
  "Excalibur.Friday4_2": "",
  "Excalibur.Friday4_3": "",
+ "BETAS.Excalibur.Friday4_0": "",
+ "BETAS.Excalibur.Friday4_1": "",
+ "BETAS.Excalibur.Friday4_2": "",
+ "BETAS.Excalibur.Friday4_3": "",
  //6
  "Excalibur.Friday6_0": "",
  "Excalibur.Friday6_1": "",
  "Excalibur.Friday6_2": "",
  "Excalibur.Friday6_3": "",
+ "BETAS.Excalibur.Friday6_0": "",
+ "BETAS.Excalibur.Friday6_1": "",
+ "BETAS.Excalibur.Friday6_2": "",
+ "BETAS.Excalibur.Friday6_3": "",
  //8 platonic
  "Excalibur.Platonic.Friday8_0": "",
  "Excalibur.Platonic.Friday8_1": "",
@@ -277,6 +364,10 @@
  "Excalibur.Romantic.Friday8_1": "",
  "Excalibur.Romantic.Friday8_2": "",
  "Excalibur.Romantic.Friday8_3": "",
+ "BETAS.Excalibur.Friday8_0": "",
+ "BETAS.Excalibur.Friday8_1": "",
+ "BETAS.Excalibur.Friday8_2": "",
+ "BETAS.Excalibur.Friday8_3": "",
  //10 platonic
  "Excalibur.Platonic.Friday10_0": "",
  "Excalibur.Platonic.Friday10_1": "",
@@ -287,6 +378,10 @@
  "Excalibur.Romantic.Friday10_1": "",
  "Excalibur.Romantic.Friday10_2": "",
  "Excalibur.Romantic.Friday10_3": "",
+ "BETAS.Excalibur.Friday10_0": "",
+ "BETAS.Excalibur.Friday10_1": "",
+ "BETAS.Excalibur.Friday10_2": "",
+ "BETAS.Excalibur.Friday10_3": "",
 
  //saturday
  //BETAS
@@ -304,16 +399,28 @@
  "Excalibur.Saturday2_1": "",
  "Excalibur.Saturday2_2": "",
  "Excalibur.Saturday2_3": "",
+ "BETAS.Excalibur.Saturday2_0": "",
+ "BETAS.Excalibur.Saturday2_1": "",
+ "BETAS.Excalibur.Saturday2_2": "",
+ "BETAS.Excalibur.Saturday2_3": "",
  //4 heart
  "Excalibur.Saturday4_0": "",
  "Excalibur.Saturday4_1": "",
  "Excalibur.Saturday4_2": "",
  "Excalibur.Saturday4_3": "",
+ "BETAS.Excalibur.Saturday4_0": "",
+ "BETAS.Excalibur.Saturday4_1": "",
+ "BETAS.Excalibur.Saturday4_2": "",
+ "BETAS.Excalibur.Saturday4_3": "",
  //6
  "Excalibur.Saturday6_0": "",
  "Excalibur.Saturday6_1": "",
  "Excalibur.Saturday6_2": "",
  "Excalibur.Saturday6_3": "",
+ "BETAS.Excalibur.Saturday6_0": "",
+ "BETAS.Excalibur.Saturday6_1": "",
+ "BETAS.Excalibur.Saturday6_2": "",
+ "BETAS.Excalibur.Saturday6_3": "",
  //8 platonic
  "Excalibur.Platonic.Saturday8_0": "",
  "Excalibur.Platonic.Saturday8_1": "",
@@ -324,6 +431,10 @@
  "Excalibur.Romantic.Saturday8_1": "",
  "Excalibur.Romantic.Saturday8_2": "",
  "Excalibur.Romantic.Saturday8_3": "",
+ "BETAS.Excalibur.Saturday8_0": "",
+ "BETAS.Excalibur.Saturday8_1": "",
+ "BETAS.Excalibur.Saturday8_2": "",
+ "BETAS.Excalibur.Saturday8_3": "",
  //10 platonic
  "Excalibur.Platonic.Saturday10_0": "",
  "Excalibur.Platonic.Saturday10_1": "",
@@ -334,6 +445,10 @@
  "Excalibur.Romantic.Saturday10_1": "",
  "Excalibur.Romantic.Saturday10_2": "",
  "Excalibur.Romantic.Saturday10_3": "",
+ "BETAS.Excalibur.Saturday10_0": "",
+ "BETAS.Excalibur.Saturday10_1": "",
+ "BETAS.Excalibur.Saturday10_2": "",
+ "BETAS.Excalibur.Saturday10_3": "",
 
  //sunday
  //BETAS
@@ -351,16 +466,28 @@
  "Excalibur.Sunday2_1": "",
  "Excalibur.Sunday2_2": "",
  "Excalibur.Sunday2_3": "",
+ "BETAS.Excalibur.Sunday2_0": "",
+ "BETAS.Excalibur.Sunday2_1": "",
+ "BETAS.Excalibur.Sunday2_2": "",
+ "BETAS.Excalibur.Sunday2_3": "",
  //4 heart
  "Excalibur.Sunday4_0": "",
  "Excalibur.Sunday4_1": "",
  "Excalibur.Sunday4_2": "",
  "Excalibur.Sunday4_3": "",
+ "BETAS.Excalibur.Sunday4_0": "",
+ "BETAS.Excalibur.Sunday4_1": "",
+ "BETAS.Excalibur.Sunday4_2": "",
+ "BETAS.Excalibur.Sunday4_3": "",
  //6
  "Excalibur.Sunday6_0": "",
  "Excalibur.Sunday6_1": "",
  "Excalibur.Sunday6_2": "",
  "Excalibur.Sunday6_3": "",
+ "BETAS.Excalibur.Sunday6_0": "",
+ "BETAS.Excalibur.Sunday6_1": "",
+ "BETAS.Excalibur.Sunday6_2": "",
+ "BETAS.Excalibur.Sunday6_3": "",
  //8 platonic
  "Excalibur.Platonic.Sunday8_0": "",
  "Excalibur.Platonic.Sunday8_1": "",
@@ -371,6 +498,10 @@
  "Excalibur.Romantic.Sunday8_1": "",
  "Excalibur.Romantic.Sunday8_2": "",
  "Excalibur.Romantic.Sunday8_3": "",
+ "BETAS.Excalibur.Sunday8_0": "",
+ "BETAS.Excalibur.Sunday8_1": "",
+ "BETAS.Excalibur.Sunday8_2": "",
+ "BETAS.Excalibur.Sunday8_3": "",
  //10 platonic
  "Excalibur.Platonic.Sunday10_0": "",
  "Excalibur.Platonic.Sunday10_1": "",
@@ -381,18 +512,17 @@
  "Excalibur.Romantic.Sunday10_1": "",
  "Excalibur.Romantic.Sunday10_2": "",
  "Excalibur.Romantic.Sunday10_3": "",
-
- //door unlock
- "Excalibur.NotFriend_Door": "",
-
- //gift taste dialogue
- "Excalibur.Gifts.Loved": "",
- "Excalibur.Gifts.Liked": "",
- "Excalibur.Gifts.Disliked": "",
- "Excalibur.Gifts.Hated": "",
- "Excalibur.Gifts.Neutral": "",
+ "BETAS.Excalibur.Sunday10_0": "",
+ "BETAS.Excalibur.Sunday10_1": "",
+ "BETAS.Excalibur.Sunday10_2": "",
+ "BETAS.Excalibur.Sunday10_3": "",
 
  //begin marriage dialogue
+ //BETAS BETAS.{{NPCNAME}}.Married.{{DayOfWeek}}_
+ "BETAS.Excalibur.Married.Monday_0": "",
+ "BETAS.Excalibur.Married.Monday_1": "",
+ "BETAS.Excalibur.Married.Monday_2": "",
+ "BETAS.Excalibur.Married.Monday_3": "",
  "Excalibur.SpringM_0": "",
  "Excalibur.SpringM_1": "",
  "Excalibur.SpringM_2": "",
@@ -458,8 +588,9 @@
  "Excalibur.Bad_2": "",
  "Excalibur.Bad_3": "",
 
- //begin wiped dialogue
- //start of characters/dialogue/npc
+ //start suffering wiped dialogue
+ //THIS NEEDS TO BE TOGGLED ON, OR ELSE YOU DON'T HAVE TO WRITE IT
+ //gen dialogue
  "Wiped.Excalibur.breakUp": "",
  "Wiped.Excalibur.divorced": "",
  "Wiped.Excalibur.DumpsterDiveComment": "",
@@ -481,7 +612,7 @@
  "Wiped.Excalibur.AfterWedding": "",
 
  //monday
- //BETAS
+ //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_
  "BETAS.Wiped.Excalibur.Monday_0": "",
  "BETAS.Wiped.Excalibur.Monday_1": "",
  "BETAS.Wiped.Excalibur.Monday_2": "",
@@ -496,16 +627,28 @@
  "Wiped.Excalibur.Monday2_1": "",
  "Wiped.Excalibur.Monday2_2": "",
  "Wiped.Excalibur.Monday2_3": "",
+ "BETAS.Wiped.Excalibur.Monday2_0": "",
+ "BETAS.Wiped.Excalibur.Monday2_1": "",
+ "BETAS.Wiped.Excalibur.Monday2_2": "",
+ "BETAS.Wiped.Excalibur.Monday2_3": "",
  //4 heart
  "Wiped.Excalibur.Monday4_0": "",
  "Wiped.Excalibur.Monday4_1": "",
  "Wiped.Excalibur.Monday4_2": "",
  "Wiped.Excalibur.Monday4_3": "",
+ "BETAS.Wiped.Excalibur.Monday4_0": "",
+ "BETAS.Wiped.Excalibur.Monday4_1": "",
+ "BETAS.Wiped.Excalibur.Monday4_2": "",
+ "BETAS.Wiped.Excalibur.Monday4_3": "",
  //6
  "Wiped.Excalibur.Monday6_0": "",
  "Wiped.Excalibur.Monday6_1": "",
  "Wiped.Excalibur.Monday6_2": "",
  "Wiped.Excalibur.Monday6_3": "",
+ "BETAS.Wiped.Excalibur.Monday6_0": "",
+ "BETAS.Wiped.Excalibur.Monday6_1": "",
+ "BETAS.Wiped.Excalibur.Monday6_2": "",
+ "BETAS.Wiped.Excalibur.Monday6_3": "",
  //8 platonic
  "Wiped.Excalibur.Platonic.Monday8_0": "",
  "Wiped.Excalibur.Platonic.Monday8_1": "",
@@ -516,26 +659,26 @@
  "Wiped.Excalibur.Romantic.Monday8_1": "",
  "Wiped.Excalibur.Romantic.Monday8_2": "",
  "Wiped.Excalibur.Romantic.Monday8_3": "",
+ //8
+ "BETAS.Wiped.Excalibur.Monday8_0": "",
+ "BETAS.Wiped.Excalibur.Monday8_1": "",
+ "BETAS.Wiped.Excalibur.Monday8_2": "",
+ "BETAS.Wiped.Excalibur.Monday8_3": "",
  //10 platonic
  "Wiped.Excalibur.Platonic.Monday10_0": "",
  "Wiped.Excalibur.Platonic.Monday10_1": "",
  "Wiped.Excalibur.Platonic.Monday10_2": "",
  "Wiped.Excalibur.Platonic.Monday10_3": "",
- //romantic
+ //10 romantic
  "Wiped.Excalibur.Romantic.Monday10_0": "",
  "Wiped.Excalibur.Romantic.Monday10_1": "",
  "Wiped.Excalibur.Romantic.Monday10_2": "",
  "Wiped.Excalibur.Romantic.Monday10_3": "",
- //12
- "Wiped.Excalibur.Monday12_0": "",
- "Wiped.Excalibur.Monday12_1": "",
- "Wiped.Excalibur.Monday12_2": "",
- "Wiped.Excalibur.Monday12_3": "",
- //14
- "Wiped.Excalibur.Monday14_0": "",
- "Wiped.Excalibur.Monday14_1": "",
- "Wiped.Excalibur.Monday14_2": "",
- "Wiped.Excalibur.Monday14_3": "",
+ //10
+ "BETAS.Wiped.Excalibur.Monday10_0": "",
+ "BETAS.Wiped.Excalibur.Monday10_1": "",
+ "BETAS.Wiped.Excalibur.Monday10_2": "",
+ "BETAS.Wiped.Excalibur.Monday10_3": "",
 
  //tuesday
  //BETAS
@@ -553,16 +696,28 @@
  "Wiped.Excalibur.Tuesday2_1": "",
  "Wiped.Excalibur.Tuesday2_2": "",
  "Wiped.Excalibur.Tuesday2_3": "",
+ "BETAS.Wiped.Excalibur.Tuesday2_0": "",
+ "BETAS.Wiped.Excalibur.Tuesday2_1": "",
+ "BETAS.Wiped.Excalibur.Tuesday2_2": "",
+ "BETAS.Wiped.Excalibur.Tuesday2_3": "",
  //4 heart
  "Wiped.Excalibur.Tuesday4_0": "",
  "Wiped.Excalibur.Tuesday4_1": "",
  "Wiped.Excalibur.Tuesday4_2": "",
  "Wiped.Excalibur.Tuesday4_3": "",
+ "BETAS.Wiped.Excalibur.Tuesday4_0": "",
+ "BETAS.Wiped.Excalibur.Tuesday4_1": "",
+ "BETAS.Wiped.Excalibur.Tuesday4_2": "",
+ "BETAS.Wiped.Excalibur.Tuesday4_3": "",
  //6
  "Wiped.Excalibur.Tuesday6_0": "",
  "Wiped.Excalibur.Tuesday6_1": "",
  "Wiped.Excalibur.Tuesday6_2": "",
  "Wiped.Excalibur.Tuesday6_3": "",
+ "BETAS.Wiped.Excalibur.Tuesday6_0": "",
+ "BETAS.Wiped.Excalibur.Tuesday6_1": "",
+ "BETAS.Wiped.Excalibur.Tuesday6_2": "",
+ "BETAS.Wiped.Excalibur.Tuesday6_3": "",
  //8 platonic
  "Wiped.Excalibur.Platonic.Tuesday8_0": "",
  "Wiped.Excalibur.Platonic.Tuesday8_1": "",
@@ -573,6 +728,10 @@
  "Wiped.Excalibur.Romantic.Tuesday8_1": "",
  "Wiped.Excalibur.Romantic.Tuesday8_2": "",
  "Wiped.Excalibur.Romantic.Tuesday8_3": "",
+ "BETAS.Wiped.Excalibur.Tuesday8_0": "",
+ "BETAS.Wiped.Excalibur.Tuesday8_1": "",
+ "BETAS.Wiped.Excalibur.Tuesday8_2": "",
+ "BETAS.Wiped.Excalibur.Tuesday8_3": "",
  //10 platonic
  "Wiped.Excalibur.Platonic.Tuesday10_0": "",
  "Wiped.Excalibur.Platonic.Tuesday10_1": "",
@@ -583,16 +742,10 @@
  "Wiped.Excalibur.Romantic.Tuesday10_1": "",
  "Wiped.Excalibur.Romantic.Tuesday10_2": "",
  "Wiped.Excalibur.Romantic.Tuesday10_3": "",
- //12
- "Wiped.Excalibur.Tuesday12_0": "",
- "Wiped.Excalibur.Tuesday12_1": "",
- "Wiped.Excalibur.Tuesday12_2": "",
- "Wiped.Excalibur.Tuesday12_3": "",
- //14
- "Wiped.Excalibur.Tuesday14_0": "",
- "Wiped.Excalibur.Tuesday14_1": "",
- "Wiped.Excalibur.Tuesday14_2": "",
- "Wiped.Excalibur.Tuesday14_3": "",
+ "BETAS.Wiped.Excalibur.Tuesday10_0": "",
+ "BETAS.Wiped.Excalibur.Tuesday10_1": "",
+ "BETAS.Wiped.Excalibur.Tuesday10_2": "",
+ "BETAS.Wiped.Excalibur.Tuesday10_3": "",
 
  //wednesday
  //BETAS
@@ -610,16 +763,28 @@
  "Wiped.Excalibur.Wednesday2_1": "",
  "Wiped.Excalibur.Wednesday2_2": "",
  "Wiped.Excalibur.Wednesday2_3": "",
+ "BETAS.Wiped.Excalibur.Wednesday2_0": "",
+ "BETAS.Wiped.Excalibur.Wednesday2_1": "",
+ "BETAS.Wiped.Excalibur.Wednesday2_2": "",
+ "BETAS.Wiped.Excalibur.Wednesday2_3": "",
  //4 heart
  "Wiped.Excalibur.Wednesday4_0": "",
  "Wiped.Excalibur.Wednesday4_1": "",
  "Wiped.Excalibur.Wednesday4_2": "",
  "Wiped.Excalibur.Wednesday4_3": "",
+ "BETAS.Wiped.Excalibur.Wednesday4_0": "",
+ "BETAS.Wiped.Excalibur.Wednesday4_1": "",
+ "BETAS.Wiped.Excalibur.Wednesday4_2": "",
+ "BETAS.Wiped.Excalibur.Wednesday4_3": "",
  //6
  "Wiped.Excalibur.Wednesday6_0": "",
  "Wiped.Excalibur.Wednesday6_1": "",
  "Wiped.Excalibur.Wednesday6_2": "",
  "Wiped.Excalibur.Wednesday6_3": "",
+ "BETAS.Wiped.Excalibur.Wednesday6_0": "",
+ "BETAS.Wiped.Excalibur.Wednesday6_1": "",
+ "BETAS.Wiped.Excalibur.Wednesday6_2": "",
+ "BETAS.Wiped.Excalibur.Wednesday6_3": "",
  //8 platonic
  "Wiped.Excalibur.Platonic.Wednesday8_0": "",
  "Wiped.Excalibur.Platonic.Wednesday8_1": "",
@@ -630,6 +795,10 @@
  "Wiped.Excalibur.Romantic.Wednesday8_1": "",
  "Wiped.Excalibur.Romantic.Wednesday8_2": "",
  "Wiped.Excalibur.Romantic.Wednesday8_3": "",
+ "BETAS.Wiped.Excalibur.Wednesday8_0": "",
+ "BETAS.Wiped.Excalibur.Wednesday8_1": "",
+ "BETAS.Wiped.Excalibur.Wednesday8_2": "",
+ "BETAS.Wiped.Excalibur.Wednesday8_3": "",
  //10 platonic
  "Wiped.Excalibur.Platonic.Wednesday10_0": "",
  "Wiped.Excalibur.Platonic.Wednesday10_1": "",
@@ -640,16 +809,10 @@
  "Wiped.Excalibur.Romantic.Wednesday10_1": "",
  "Wiped.Excalibur.Romantic.Wednesday10_2": "",
  "Wiped.Excalibur.Romantic.Wednesday10_3": "",
- //12
- "Wiped.Excalibur.Wednesday12_0": "",
- "Wiped.Excalibur.Wednesday12_1": "",
- "Wiped.Excalibur.Wednesday12_2": "",
- "Wiped.Excalibur.Wednesday12_3": "",
- //14
- "Wiped.Excalibur.Wednesday14_0": "",
- "Wiped.Excalibur.Wednesday14_1": "",
- "Wiped.Excalibur.Wednesday14_2": "",
- "Wiped.Excalibur.Wednesday14_3": "",
+ "BETAS.Wiped.Excalibur.Wednesday10_0": "",
+ "BETAS.Wiped.Excalibur.Wednesday10_1": "",
+ "BETAS.Wiped.Excalibur.Wednesday10_2": "",
+ "BETAS.Wiped.Excalibur.Wednesday10_3": "",
 
  //thursday
  //BETAS
@@ -667,16 +830,28 @@
  "Wiped.Excalibur.Thursday2_1": "",
  "Wiped.Excalibur.Thursday2_2": "",
  "Wiped.Excalibur.Thursday2_3": "",
+ "BETAS.Wiped.Excalibur.Thursday2_0": "",
+ "BETAS.Wiped.Excalibur.Thursday2_1": "",
+ "BETAS.Wiped.Excalibur.Thursday2_2": "",
+ "BETAS.Wiped.Excalibur.Thursday2_3": "",
  //4 heart
  "Wiped.Excalibur.Thursday4_0": "",
  "Wiped.Excalibur.Thursday4_1": "",
  "Wiped.Excalibur.Thursday4_2": "",
  "Wiped.Excalibur.Thursday4_3": "",
+ "BETAS.Wiped.Excalibur.Thursday4_0": "",
+ "BETAS.Wiped.Excalibur.Thursday4_1": "",
+ "BETAS.Wiped.Excalibur.Thursday4_2": "",
+ "BETAS.Wiped.Excalibur.Thursday4_3": "",
  //6
  "Wiped.Excalibur.Thursday6_0": "",
  "Wiped.Excalibur.Thursday6_1": "",
  "Wiped.Excalibur.Thursday6_2": "",
  "Wiped.Excalibur.Thursday6_3": "",
+ "BETAS.Wiped.Excalibur.Thursday6_0": "",
+ "BETAS.Wiped.Excalibur.Thursday6_1": "",
+ "BETAS.Wiped.Excalibur.Thursday6_2": "",
+ "BETAS.Wiped.Excalibur.Thursday6_3": "",
  //8 platonic
  "Wiped.Excalibur.Platonic.Thursday8_0": "",
  "Wiped.Excalibur.Platonic.Thursday8_1": "",
@@ -687,6 +862,10 @@
  "Wiped.Excalibur.Romantic.Thursday8_1": "",
  "Wiped.Excalibur.Romantic.Thursday8_2": "",
  "Wiped.Excalibur.Romantic.Thursday8_3": "",
+ "BETAS.Wiped.Excalibur.Thursday8_0": "",
+ "BETAS.Wiped.Excalibur.Thursday8_1": "",
+ "BETAS.Wiped.Excalibur.Thursday8_2": "",
+ "BETAS.Wiped.Excalibur.Thursday8_3": "",
  //10 platonic
  "Wiped.Excalibur.Platonic.Thursday10_0": "",
  "Wiped.Excalibur.Platonic.Thursday10_1": "",
@@ -697,16 +876,10 @@
  "Wiped.Excalibur.Romantic.Thursday10_1": "",
  "Wiped.Excalibur.Romantic.Thursday10_2": "",
  "Wiped.Excalibur.Romantic.Thursday10_3": "",
- //12
- "Wiped.Excalibur.Thursday12_0": "",
- "Wiped.Excalibur.Thursday12_1": "",
- "Wiped.Excalibur.Thursday12_2": "",
- "Wiped.Excalibur.Thursday12_3": "",
- //14
- "Wiped.Excalibur.Thursday14_0": "",
- "Wiped.Excalibur.Thursday14_1": "",
- "Wiped.Excalibur.Thursday14_2": "",
- "Wiped.Excalibur.Thursday14_3": "",
+ "BETAS.Wiped.Excalibur.Thursday10_0": "",
+ "BETAS.Wiped.Excalibur.Thursday10_1": "",
+ "BETAS.Wiped.Excalibur.Thursday10_2": "",
+ "BETAS.Wiped.Excalibur.Thursday10_3": "",
 
  //friday
  //BETAS
@@ -724,16 +897,28 @@
  "Wiped.Excalibur.Friday2_1": "",
  "Wiped.Excalibur.Friday2_2": "",
  "Wiped.Excalibur.Friday2_3": "",
+ "BETAS.Wiped.Excalibur.Friday2_0": "",
+ "BETAS.Wiped.Excalibur.Friday2_1": "",
+ "BETAS.Wiped.Excalibur.Friday2_2": "",
+ "BETAS.Wiped.Excalibur.Friday2_3": "",
  //4 heart
  "Wiped.Excalibur.Friday4_0": "",
  "Wiped.Excalibur.Friday4_1": "",
  "Wiped.Excalibur.Friday4_2": "",
  "Wiped.Excalibur.Friday4_3": "",
+ "BETAS.Wiped.Excalibur.Friday4_0": "",
+ "BETAS.Wiped.Excalibur.Friday4_1": "",
+ "BETAS.Wiped.Excalibur.Friday4_2": "",
+ "BETAS.Wiped.Excalibur.Friday4_3": "",
  //6
  "Wiped.Excalibur.Friday6_0": "",
  "Wiped.Excalibur.Friday6_1": "",
  "Wiped.Excalibur.Friday6_2": "",
  "Wiped.Excalibur.Friday6_3": "",
+ "BETAS.Wiped.Excalibur.Friday6_0": "",
+ "BETAS.Wiped.Excalibur.Friday6_1": "",
+ "BETAS.Wiped.Excalibur.Friday6_2": "",
+ "BETAS.Wiped.Excalibur.Friday6_3": "",
  //8 platonic
  "Wiped.Excalibur.Platonic.Friday8_0": "",
  "Wiped.Excalibur.Platonic.Friday8_1": "",
@@ -744,6 +929,10 @@
  "Wiped.Excalibur.Romantic.Friday8_1": "",
  "Wiped.Excalibur.Romantic.Friday8_2": "",
  "Wiped.Excalibur.Romantic.Friday8_3": "",
+ "BETAS.Wiped.Excalibur.Friday8_0": "",
+ "BETAS.Wiped.Excalibur.Friday8_1": "",
+ "BETAS.Wiped.Excalibur.Friday8_2": "",
+ "BETAS.Wiped.Excalibur.Friday8_3": "",
  //10 platonic
  "Wiped.Excalibur.Platonic.Friday10_0": "",
  "Wiped.Excalibur.Platonic.Friday10_1": "",
@@ -754,16 +943,10 @@
  "Wiped.Excalibur.Romantic.Friday10_1": "",
  "Wiped.Excalibur.Romantic.Friday10_2": "",
  "Wiped.Excalibur.Romantic.Friday10_3": "",
- //12
- "Wiped.Excalibur.Friday12_0": "",
- "Wiped.Excalibur.Friday12_1": "",
- "Wiped.Excalibur.Friday12_2": "",
- "Wiped.Excalibur.Friday12_3": "",
- //14
- "Wiped.Excalibur.Friday14_0": "",
- "Wiped.Excalibur.Friday14_1": "",
- "Wiped.Excalibur.Friday14_2": "",
- "Wiped.Excalibur.Friday14_3": "",
+ "BETAS.Wiped.Excalibur.Friday10_0": "",
+ "BETAS.Wiped.Excalibur.Friday10_1": "",
+ "BETAS.Wiped.Excalibur.Friday10_2": "",
+ "BETAS.Wiped.Excalibur.Friday10_3": "",
 
  //saturday
  //BETAS
@@ -781,16 +964,28 @@
  "Wiped.Excalibur.Saturday2_1": "",
  "Wiped.Excalibur.Saturday2_2": "",
  "Wiped.Excalibur.Saturday2_3": "",
+ "BETAS.Wiped.Excalibur.Saturday2_0": "",
+ "BETAS.Wiped.Excalibur.Saturday2_1": "",
+ "BETAS.Wiped.Excalibur.Saturday2_2": "",
+ "BETAS.Wiped.Excalibur.Saturday2_3": "",
  //4 heart
  "Wiped.Excalibur.Saturday4_0": "",
  "Wiped.Excalibur.Saturday4_1": "",
  "Wiped.Excalibur.Saturday4_2": "",
  "Wiped.Excalibur.Saturday4_3": "",
+ "BETAS.Wiped.Excalibur.Saturday4_0": "",
+ "BETAS.Wiped.Excalibur.Saturday4_1": "",
+ "BETAS.Wiped.Excalibur.Saturday4_2": "",
+ "BETAS.Wiped.Excalibur.Saturday4_3": "",
  //6
  "Wiped.Excalibur.Saturday6_0": "",
  "Wiped.Excalibur.Saturday6_1": "",
  "Wiped.Excalibur.Saturday6_2": "",
  "Wiped.Excalibur.Saturday6_3": "",
+ "BETAS.Wiped.Excalibur.Saturday6_0": "",
+ "BETAS.Wiped.Excalibur.Saturday6_1": "",
+ "BETAS.Wiped.Excalibur.Saturday6_2": "",
+ "BETAS.Wiped.Excalibur.Saturday6_3": "",
  //8 platonic
  "Wiped.Excalibur.Platonic.Saturday8_0": "",
  "Wiped.Excalibur.Platonic.Saturday8_1": "",
@@ -801,6 +996,10 @@
  "Wiped.Excalibur.Romantic.Saturday8_1": "",
  "Wiped.Excalibur.Romantic.Saturday8_2": "",
  "Wiped.Excalibur.Romantic.Saturday8_3": "",
+ "BETAS.Wiped.Excalibur.Saturday8_0": "",
+ "BETAS.Wiped.Excalibur.Saturday8_1": "",
+ "BETAS.Wiped.Excalibur.Saturday8_2": "",
+ "BETAS.Wiped.Excalibur.Saturday8_3": "",
  //10 platonic
  "Wiped.Excalibur.Platonic.Saturday10_0": "",
  "Wiped.Excalibur.Platonic.Saturday10_1": "",
@@ -811,16 +1010,10 @@
  "Wiped.Excalibur.Romantic.Saturday10_1": "",
  "Wiped.Excalibur.Romantic.Saturday10_2": "",
  "Wiped.Excalibur.Romantic.Saturday10_3": "",
- //12
- "Wiped.Excalibur.Saturday12_0": "",
- "Wiped.Excalibur.Saturday12_1": "",
- "Wiped.Excalibur.Saturday12_2": "",
- "Wiped.Excalibur.Saturday12_3": "",
- //14
- "Wiped.Excalibur.Saturday14_0": "",
- "Wiped.Excalibur.Saturday14_1": "",
- "Wiped.Excalibur.Saturday14_2": "",
- "Wiped.Excalibur.Saturday14_3": "",
+ "BETAS.Wiped.Excalibur.Saturday10_0": "",
+ "BETAS.Wiped.Excalibur.Saturday10_1": "",
+ "BETAS.Wiped.Excalibur.Saturday10_2": "",
+ "BETAS.Wiped.Excalibur.Saturday10_3": "",
 
  //sunday
  //BETAS
@@ -838,16 +1031,28 @@
  "Wiped.Excalibur.Sunday2_1": "",
  "Wiped.Excalibur.Sunday2_2": "",
  "Wiped.Excalibur.Sunday2_3": "",
+ "BETAS.Wiped.Excalibur.Sunday2_0": "",
+ "BETAS.Wiped.Excalibur.Sunday2_1": "",
+ "BETAS.Wiped.Excalibur.Sunday2_2": "",
+ "BETAS.Wiped.Excalibur.Sunday2_3": "",
  //4 heart
  "Wiped.Excalibur.Sunday4_0": "",
  "Wiped.Excalibur.Sunday4_1": "",
  "Wiped.Excalibur.Sunday4_2": "",
  "Wiped.Excalibur.Sunday4_3": "",
+ "BETAS.Wiped.Excalibur.Sunday4_0": "",
+ "BETAS.Wiped.Excalibur.Sunday4_1": "",
+ "BETAS.Wiped.Excalibur.Sunday4_2": "",
+ "BETAS.Wiped.Excalibur.Sunday4_3": "",
  //6
  "Wiped.Excalibur.Sunday6_0": "",
  "Wiped.Excalibur.Sunday6_1": "",
  "Wiped.Excalibur.Sunday6_2": "",
  "Wiped.Excalibur.Sunday6_3": "",
+ "BETAS.Wiped.Excalibur.Sunday6_0": "",
+ "BETAS.Wiped.Excalibur.Sunday6_1": "",
+ "BETAS.Wiped.Excalibur.Sunday6_2": "",
+ "BETAS.Wiped.Excalibur.Sunday6_3": "",
  //8 platonic
  "Wiped.Excalibur.Platonic.Sunday8_0": "",
  "Wiped.Excalibur.Platonic.Sunday8_1": "",
@@ -858,6 +1063,10 @@
  "Wiped.Excalibur.Romantic.Sunday8_1": "",
  "Wiped.Excalibur.Romantic.Sunday8_2": "",
  "Wiped.Excalibur.Romantic.Sunday8_3": "",
+ "BETAS.Wiped.Excalibur.Sunday8_0": "",
+ "BETAS.Wiped.Excalibur.Sunday8_1": "",
+ "BETAS.Wiped.Excalibur.Sunday8_2": "",
+ "BETAS.Wiped.Excalibur.Sunday8_3": "",
  //10 platonic
  "Wiped.Excalibur.Platonic.Sunday10_0": "",
  "Wiped.Excalibur.Platonic.Sunday10_1": "",
@@ -868,25 +1077,17 @@
  "Wiped.Excalibur.Romantic.Sunday10_1": "",
  "Wiped.Excalibur.Romantic.Sunday10_2": "",
  "Wiped.Excalibur.Romantic.Sunday10_3": "",
- //12
- "Wiped.Excalibur.Sunday12_0": "",
- "Wiped.Excalibur.Sunday12_1": "",
- "Wiped.Excalibur.Sunday12_2": "",
- "Wiped.Excalibur.Sunday12_3": "",
- //14
- "Wiped.Excalibur.Sunday14_0": "",
- "Wiped.Excalibur.Sunday14_1": "",
- "Wiped.Excalibur.Sunday14_2": "",
- "Wiped.Excalibur.Sunday14_3": "",
-
- //gift taste dialogue
- "Wiped.Excalibur.Gifts.Loved": "",
- "Wiped.Excalibur.Gifts.Liked": "",
- "Wiped.Excalibur.Gifts.Disliked": "",
- "Wiped.Excalibur.Gifts.Hated": "",
- "Wiped.Excalibur.Gifts.Neutral": "",
+ "BETAS.Wiped.Excalibur.Sunday10_0": "",
+ "BETAS.Wiped.Excalibur.Sunday10_1": "",
+ "BETAS.Wiped.Excalibur.Sunday10_2": "",
+ "BETAS.Wiped.Excalibur.Sunday10_3": "",
 
  //begin marriage dialogue
+ //BETAS BETAS.{{NPCNAME}}.Married.{{DayOfWeek}}_
+ "BETAS.Wiped.Excalibur.Married.Monday_0": "",
+ "BETAS.Wiped.Excalibur.Married.Monday_1": "",
+ "BETAS.Wiped.Excalibur.Married.Monday_2": "",
+ "BETAS.Wiped.Excalibur.Married.Monday_3": "",
  "Wiped.Excalibur.SpringM_0": "",
  "Wiped.Excalibur.SpringM_1": "",
  "Wiped.Excalibur.SpringM_2": "",

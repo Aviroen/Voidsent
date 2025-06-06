@@ -26,6 +26,11 @@
   },
   {
    "UniqueID": "Spiderbuttons.CustomScheduleKeys",
+   /*
+   for a "fake marriage" effectively
+so that my npcs still exist in their own realm, but they'll have the "marriage schedule" because of button's custom schedules
+
+   */
    "IsRequired": true
   },
   {

@@ -57,21 +57,20 @@
     "Height": 4
    },
    "AddWarps": [
-    "32 3 {{ArtificialBeach}} 9 2"
+    "32 3 {{ArtificialBeach}} 12 2"
    ]
   },
   {
    "Action": "EditMap",
    "Target": "Maps/{{ModId}}_ArtificialBeach",
    "AddWarps": [
-    "9 2 UndergroundMine77377 32 3",
-    "26 48 {{Morabyr}} 71 68"
+    "12 1 UndergroundMine77377 32 4"
    ],
    "MapTiles": [
     {
      "Position": {
-      "X": 24,
-      "Y": 25
+      "X": 15,
+      "Y": 26
      },
      "Layer": "Buildings",
      "SetProperties": {
@@ -80,18 +79,8 @@
     },
     {
      "Position": {
-      "X": 3,
-      "Y": 13
-     },
-     "Layer": "Buildings",
-     "SetProperties": {
-      "Action": "Aviroen.Voidsent_SummonLizard"
-     }
-    },
-    {
-     "Position": {
-      "X": 24,
-      "Y": 19
+      "X": 19,
+      "Y": 3
      },
      "Layer": "Buildings",
      "SetProperties": {
@@ -99,6 +88,17 @@
       //"Action": "Spiderbuttons.BETAS_Action Spiderbuttons.BETAS_Message \"{{i18n:EdelGrave}}\""
      }
     },
+    {
+     "Position": {
+      "X": 16,
+      "Y": 20
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "mushymato.MMAP_QuestionDialogue {{ModId}}_ABMor"
+     }
+    },
+    /*
     {
      "Position": {
       "X": 15,
@@ -119,10 +119,11 @@
       "TouchAction": "MagicWarp Farm 64 15 {{ModId}}_EdelweissBackwarp"
      }
     },
+ */
     {
      "Position": {
-      "X": 22,
-      "Y": 11
+      "X": 13,
+      "Y": 15
      },
      "Layer": "Buildings",
      "SetProperties": {

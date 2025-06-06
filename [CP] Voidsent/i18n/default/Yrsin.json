@@ -5,7 +5,7 @@
  //start of characters/dialogue/npc
  "Yrsin.Housemate": "(housemate)",
  "Yrsin.Spouse": "(husband)",
- "Yrsin.Partner": "(partner)",
+ "Yrsin.Partner": "(husband)",
  "Yrsin.ExSpouse": "(ex-husband)",
  "Yrsin.Single": "(single)",
  //door unlock
@@ -169,8 +169,8 @@
  "Yrsin.Romantic.Tuesday10_1": "Today's an extremely busy day, you'll have to pardon my manners, sweetheart.$5",
  "Yrsin.Romantic.Tuesday10_2": "Even though it is public knowledge of our relationship, I still cannot afford the kiddie gloves with you, sweetheart.$6#$b#Gotta keep the respect of the people.$7",
  "Yrsin.Romantic.Tuesday10_3": "It is quite often that you visit me during work hours, sweetheart, but you'll have to pardon my manners.$9#$b#Life still moves on and the wicked don't rest.$6",
- "BETAS.Yrsin.Tuesday10_0": "",
- "BETAS.Yrsin.Tuesday10_1": "",
+ "BETAS.Yrsin.Tuesday10_0": "Hmm...$9#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"Wonder if that new shipment of weapons came in yet...\"",
+ "BETAS.Yrsin.Tuesday10_1": "$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"Wonder if that new shipment of weapons came in yet...\"",
  "BETAS.Yrsin.Tuesday10_2": "Sorry, love, today isn't a good time.$7#$action Spiderbuttons.BETAS_WarpFarmer Aviroen.VoidsentCP_Moor <X> <Y> <FacingDirection>",
  "BETAS.Yrsin.Tuesday10_3": "$action Spiderbuttons.BETAS_Message \"Sounds like Yrsin is... humming?\"#$e#Living in your empty shadow.$8#$e#Should've been two of us, just you and I.$8",
 

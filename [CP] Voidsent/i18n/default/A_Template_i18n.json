@@ -3,6 +3,13 @@
  "Test.RejectPendant": "Sorry, I don't know what that I'm supposed to do with this.",
  "Test.RejectTea": "Sorry, I don't know what that I'm supposed to do with this.",
  //start of characters/dialogue/npc
+ /*
+ CHANGE THESE OUT WITH RELATIONSHIP FLAG TAGS, WE'RE GETTING RID OF MARRIAGE
+ READ: SPECIAL ORDER MARRIAGE EVENTS
+ TRIGGER FLAG DURING MARRIAGE EVENT
+ CHANGE TITLE
+ ADJUST TO CUSTOMSCHEDULE FROM BUTTON
+ */
  "Test.Housemate": "(housemate)",
  "Test.Spouse": "(spouse)",
  "Test.Partner": "(partner)",

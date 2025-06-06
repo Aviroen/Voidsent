@@ -7,7 +7,7 @@
     "{{ModId}}_WarpTotem": {
      "TotemWarp": {
       "Location": "{{ModId}}_ArtificialBeach",
-      "Position": "7, 28",
+      "Position": "9, 8",
       "Color": {
        "R": 152,
        "G": 146,
