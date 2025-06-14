@@ -27,6 +27,10 @@
 	  <ContentPacks Include="[FTM] Voidsent" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="[CP] Voidsent\Data\NPCData\Nonromanceable\" />
+	</ItemGroup>
+
 
 	<ProjectExtensions>
 		<VisualStudio>
