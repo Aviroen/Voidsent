@@ -1,5 +1,16 @@
 {
  "Changes": [
+
+  {
+   "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "When": {
+    "HasFlag": "{{ModId}}_{{NPCNAME}}_Wiped"
+   },
+   "Entries": {
+    "{{ModId}}_{{NPCNAME}}": "{{i18n:Wiped.{{NPCNAME}}.Gifts.Loved}}/{{LOVEDGIFTS}}/{{i18n:Wiped.{{NPCNAME}}.Gifts.Liked}}/{{LIKEDGIFTS}}/{{i18n:Wiped.{{NPCNAME}}.Gifts.Disliked}}/{{DISLIKEDGIFTS}}/{{i18n:Wiped.{{NPCNAME}}.Gifts.Hated}}/{{HATEDGIFTS}}/{{i18n:Wiped.{{NPCNAME}}.Gifts.Neutral}}/{{NEUTRALGIFTS}}/"
+   }
+  },
   {
    "LogName": "Wiped Checker",
    "Action": "EditData",
@@ -16,6 +27,7 @@
     }
    }
   }, //wiped dialogue
+
   {
    "LogName": "Trigger Actions: BETAS Wiped",
    "Action": "EditData",

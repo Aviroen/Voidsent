@@ -1,20 +1,26 @@
 {
-  /*
+ /*
    | This file is automatically updated by ModManifestBuilder
    | when the project is compiled.
    | 
    | Changes made to this file may be overwritten.
    | 
    */
-  "$schema": "https://smapi.io/schemas/manifest.json",
-  "UniqueID": "Aviroen.Voidsent",
-  "Name": "Voidsent",
-  "Author": "Voidsent Rebels",
-  "Version": "0.1.0",
-  "Description": "Dungeons and Dragons style Expansion.",
-  "MinimumGameVersion": "1.6.15",
-  "EntryDll": "Voidsent.dll",
-  "UpdateKeys": [
-    "Nexus:26053"
-  ]
+ "$schema": "https://smapi.io/schemas/manifest.json",
+ "UniqueID": "Aviroen.Voidsent",
+ "Name": "Voidsent",
+ "Author": "Voidsent Rebels",
+ "Version": "0.1.0",
+ "Description": "Dungeons and Dragons style Expansion.",
+ "MinimumGameVersion": "1.6.15",
+ "EntryDll": "Voidsent.dll",
+ "UpdateKeys": [
+  "Nexus:26053"
+ ],
+ "Dependencies": [
+  {
+   "UniqueID": "Pathoschild.ContentPatcher",
+   "MinimumVersion": "2.7.0"
+  }
+ ]
 }

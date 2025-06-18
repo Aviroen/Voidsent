@@ -9,7 +9,6 @@ using Voidsent.Integration;
 using Voidsent.Patches;
 using Voidsent.Framework.TileActions;
 using Voidsent.Framework;
-using System.Reflection.Metadata.Ecma335;
 
 namespace Voidsent
 {
@@ -80,8 +79,8 @@ namespace Voidsent
         }
         public void OnGameLaunched(object? sender, GameLaunchedEventArgs e)
         {
-            ftmApi = Helper.ModRegistry.GetApi<IFtmApi>("Esca.FarmTypeManager")!;
-            
+            var ftmApi = Helper.ModRegistry.GetApi<IFtmApi>("Esca.FarmTypeManager")!;
+
         }
         private bool ValidateInstall()
         {
@@ -89,7 +88,7 @@ namespace Voidsent
             IModInfo? contentCheck = this.Helper.ModRegistry.Get("ApryllForever.PolyamorySweetLove");
             if (contentPack is null)
             {
-                this.Monitor.Log("VoidsentCP is missing the Content Pack. Please delete and reinstall the mod to fix.", LogLevel.Error);
+                this.Monitor.Log("Voidsent is missing the Content Pack. Please delete and reinstall the mod to fix.", LogLevel.Error);
                 return false;
             }
             if (contentCheck != null)

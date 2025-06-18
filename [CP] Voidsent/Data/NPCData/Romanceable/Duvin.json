@@ -15,12 +15,6 @@
     "ROMANCE": "true",
     "LIKESGENDER": "Male",
     "GIFTABLE": "true",
-    "CHILDREN": "false",
-    "ADOPT": "false",
-    "XINDEXSPOUSE": "0",
-    "YINDEXSPOUSE": "0",
-    "XINDEXPATIO": "0",
-    "YINDEXPATIO": "0",
     "UNLOCKCONDITIONS": "PLAYER_HAS_MAIL Current {{ModId}}_EdelweissWarp any",
     "HOMELOCATION": "{{ModId}}_Grandberg1",
     "HOMEXTILE": "17",
@@ -53,13 +47,6 @@
     "FRIDAYSCHEDULE": "GOTO spring",
     "SATURDAYSCHEDULE": "GOTO spring",
     "SUNDAYSCHEDULE": "GOTO spring",
-    "marriage_MONDAYSCHEDULE": "GOTO spring",
-    "marriage_TUESDAYSCHEDULE": "GOTO spring",
-    "marriage_WEDNESDAYSCHEDULE": "GOTO spring",
-    "marriage_THURSAYSCHEDULE": "GOTO spring",
-    "marriage_FRIDAYSCHEDULE": "GOTO spring",
-    "marriage_SATURDAYSCHEDULE": "GOTO spring",
-    "marriage_SUNDAYSCHEDULE": "GOTO spring",
 
     //HEART DIALOGUES
     "2HEART": true, //true/false
@@ -75,6 +62,22 @@
     "REJECTPENDANT": true, //whether you want the npc to reject the pendant and instead want engagement through spacecore
     "REJECTTEA": true
     //"AFTERPARTY": ""
+   }
+  },
+  /////////////heart event triggers
+  {
+   "LogName": "Duvin Hearts",
+   "Action": "Include",
+   "FromFile": "Data/Templates/SORTemplate.json",
+   "LocalTokens": {
+    "ORDERNAME": "Duvin",
+    "NUMBER": "1",
+    "NPCNAME": "Duvin",
+    "DURATION": "Month",
+    "REPEATABLE": "false",
+    "CONDITION": "", //gsq heart check + prior event check
+    "LOCATION": "Voidsent",
+    "ITEMTAG": ""
    }
   }
  ]
