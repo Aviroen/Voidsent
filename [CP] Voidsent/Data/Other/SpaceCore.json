@@ -109,7 +109,7 @@
         { "Contents": "{{i18n: guidebook.chapter.NEA.Events}}" },
         { // Artificer skill info
          "Contents": "{{i18n: guidebook.chapter.NEA.Skill}}",
-         "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_EdelweissWarp" // Only show this page after the appropriate event
+         "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_Warp" // Only show this page after the appropriate event
         }
        ]
       },

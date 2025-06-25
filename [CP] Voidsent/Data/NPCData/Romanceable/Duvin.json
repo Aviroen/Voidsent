@@ -12,10 +12,10 @@
     "ANXIETY": "Outgoing", //outgoing, neutral, shy changes stringsfromcsfiles
     "OPTIMISM": "Positive", //positive, neutral, negative changes stringsfromcsfiles
     "DARKSKIN": "true",
-    "ROMANCE": "true",
+    "ROMANCE": "false",
     "LIKESGENDER": "Male",
     "GIFTABLE": "true",
-    "UNLOCKCONDITIONS": "PLAYER_HAS_MAIL Current {{ModId}}_EdelweissWarp any",
+    "UNLOCKCONDITIONS": "PLAYER_HAS_MAIL Current {{ModId}}_Warp any",
     "HOMELOCATION": "{{ModId}}_Grandberg1",
     "HOMEXTILE": "17",
     "HOMEYTILE": "14",
@@ -75,9 +75,9 @@
     "NPCNAME": "Duvin",
     "DURATION": "Month",
     "REPEATABLE": "false",
-    "CONDITION": "", //gsq heart check + prior event check
+    "CONDITION": "PLAYER_FRIENDSHIP_POINTS Current {{Duvin}} 250 499", //gsq heart check + prior event check
     "LOCATION": "Voidsent",
-    "ITEMTAG": ""
+    "ITEMTAG": "item_topaz"
    }
   }
  ]

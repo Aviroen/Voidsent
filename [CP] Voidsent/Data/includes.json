@@ -91,13 +91,14 @@
   {
    "LogName": "CHAOS BEGIN",
    "Action": "Include",
-   "FromFile": "Data/NPCData/BaseNPCs.json" //, Data/NPCData/CameoNPCs.json
+   "FromFile": "Data/NPCData/Romanceable/Duvin.json, Data/NPCData/Romanceable/Edelweiss.json, Data/NPCData/Romanceable/Excalibur.json, Data/NPCData/Romanceable/Fothao.json, Data/NPCData/Romanceable/Konryn.json, Data/NPCData/Romanceable/Lysella.json, Data/NPCData/Romanceable/Muvi.json, Data/NPCData/Romanceable/Nimora.json, Data/NPCData/Romanceable/Orikhan.json, Data/NPCData/Romanceable/Penumbra.json, Data/NPCData/Romanceable/Sai.json, Data/NPCData/Romanceable/Solace.json, Data/NPCData/Romanceable/Sylria.json, Data/NPCData/Romanceable/Syrsa.json, Data/NPCData/Romanceable/Thandael.json, Data/NPCData/Romanceable/Thetlin.json, Data/NPCData/Romanceable/Trinity.json, Data/NPCData/Romanceable/Vorgar.json, Data/NPCData/Romanceable/Yrnal.json, Data/NPCData/Romanceable/Yrrek.json, Data/NPCData/Romanceable/Yrsin.json" //, Data/NPCData/Cameos/.json
   },
   {
    "LogName": "Data Include",
    "Action": "Include",
    "FromFile": "Data/Other/Animals.json, Data/Other/Craftables.json, Data/Other/EMA.json, Data/Other/Fish.json, Data/Other/LocContext.json, Data/Other/Mail.json, Data/Other/MMAP.json, Data/Other/Shops.json, Data/Other/SpaceCore.json, Data/Other/SpecialOrders.json, Data/Other/Strings.json, Data/Other/TriggerActions.json" //Data/Other/TrinketTrinker.json, Data/Other/Events.json, Data/Other/Festivals.json, Data/Other/SpecialOrdersUntimed.json
-  },
+  }
+/*
   {
    "LogName": "Spouseroom Load",
    "Action": "Load",
@@ -110,5 +111,6 @@
    "Target": "Maps/{{ModId}}_Patio",
    "FromFile": "Assets/Maps/Other/Patio.tmx"
   }
+ */
  ]
 }

@@ -12,16 +12,10 @@
     "ANXIETY": "Outgoing", //outgoing, neutral, shy changes stringsfromcsfiles
     "OPTIMISM": "Positive", //positive, neutral, negative changes stringsfromcsfiles
     "DARKSKIN": "true",
-    "ROMANCE": "true",
+    "ROMANCE": "false",
     "LIKESGENDER": "Male",
     "GIFTABLE": "true",
-    "CHILDREN": "false",
-    "ADOPT": "false",
-    "XINDEXSPOUSE": "0",
-    "YINDEXSPOUSE": "0",
-    "XINDEXPATIO": "0",
-    "YINDEXPATIO": "0",
-    "UNLOCKCONDITIONS": "PLAYER_HAS_MAIL Current {{ModId}}_EdelweissWarp any",
+    "UNLOCKCONDITIONS": "PLAYER_HAS_MAIL Current {{ModId}}_Warp any",
     "HOMELOCATION": "{{ModId}}_Grandberg1",
     "HOMEXTILE": "21",
     "HOMEYTILE": "16",
@@ -75,6 +69,22 @@
     "REJECTPENDANT": true, //whether you want the npc to reject the pendant and instead want engagement through spacecore
     "REJECTTEA": true
     //"AFTERPARTY": ""
+   }
+  },
+  /////////////heart event triggers
+  {
+   "LogName": "Fothao Hearts",
+   "Action": "Include",
+   "FromFile": "Data/Templates/SORTemplate.json",
+   "LocalTokens": {
+    "ORDERNAME": "Fothao",
+    "NUMBER": "1",
+    "NPCNAME": "Fothao",
+    "DURATION": "Month",
+    "REPEATABLE": "false",
+    "CONDITION": "", //gsq heart check + prior event check
+    "LOCATION": "Voidsent",
+    "ITEMTAG": "item_topaz"
    }
   }
  ]

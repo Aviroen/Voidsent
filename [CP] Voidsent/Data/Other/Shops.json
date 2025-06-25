@@ -15,7 +15,7 @@
    "LocalTokens": {
     "SHOPNAME": "BIBKitchen",
     "NAMEENTRY": "AnyOrNone",
-    "PORTRAIT": ""
+    "PORTRAIT": "{{InternalAssetKey: Assets/NPCS/Portraits/{{ModId}}_Kisaa{{Random:{{Range:1,3}}}}.png}}"
    }
   },
   {

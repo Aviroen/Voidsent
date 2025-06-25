@@ -20,7 +20,18 @@
         {
          "Id": "{{ModId}}_{{SHOPNAME}}",
          "Condition": null,
-         "Dialogue": "{{i18n:{{SHOPNAME}}.{{Random:{{Range:0,9}}}}}}"
+         "RandomDialogue": [
+          "{{i18n:{{SHOPNAME}}.0}}",
+          "{{i18n:{{SHOPNAME}}.1}}",
+          "{{i18n:{{SHOPNAME}}.2}}",
+          "{{i18n:{{SHOPNAME}}.3}}",
+          "{{i18n:{{SHOPNAME}}.4}}",
+          "{{i18n:{{SHOPNAME}}.5}}",
+          "{{i18n:{{SHOPNAME}}.6}}",
+          "{{i18n:{{SHOPNAME}}.7}}",
+          "{{i18n:{{SHOPNAME}}.8}}",
+          "{{i18n:{{SHOPNAME}}.9}}"
+         ]
         }
        ],
        "RandomizeDialogueOnOpen": true

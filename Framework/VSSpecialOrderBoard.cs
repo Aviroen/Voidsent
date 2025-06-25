@@ -16,7 +16,7 @@ namespace Voidsent.Framework
     {
         private static IMonitor Monitor { get; set; } = null!;
         private static IModHelper Helper { get; set; } = null!;
-        int timestampOpened;
+        private int timestampOpened;
         static int safetyTimer = 500;
 
         public static void Initialize(IMonitor monitor, IModHelper helper)

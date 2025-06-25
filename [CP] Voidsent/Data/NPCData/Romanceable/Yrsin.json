@@ -12,16 +12,10 @@
     "ANXIETY": "Neutral", //outgoing, neutral, shy changes stringsfromcsfiles
     "OPTIMISM": "Negative", //positive, neutral, negative changes stringsfromcsfiles
     "DARKSKIN": "false",
-    "ROMANCE": "true",
+    "ROMANCE": "false",
     "LIKESGENDER": "Both",
     "GIFTABLE": "true",
-    "CHILDREN": "false",
-    "ADOPT": "false",
-    "XINDEXSPOUSE": "0",
-    "YINDEXSPOUSE": "0",
-    "XINDEXPATIO": "0",
-    "YINDEXPATIO": "0",
-    "UNLOCKCONDITIONS": "PLAYER_HAS_MAIL Current {{ModId}}_EdelweissWarp any",
+    "UNLOCKCONDITIONS": "PLAYER_HAS_MAIL Current {{ModId}}_Warp any",
     "HOMELOCATION": "{{Yrsin}}_Hideout3",
     "HOMEXTILE": "13",
     "HOMEYTILE": "8",
@@ -89,6 +83,22 @@
      "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_YrsinFinger",
      "Portrait": "{{InternalAssetKey: Assets/NPCS/Portraits/{{ModId}}_Yrsin_Finger.png}}"
     }
+   }
+  },
+  /////////////heart event triggers
+  {
+   "LogName": "Yrsin Hearts",
+   "Action": "Include",
+   "FromFile": "Data/Templates/SORTemplate.json",
+   "LocalTokens": {
+    "ORDERNAME": "Yrsin",
+    "NUMBER": "1",
+    "NPCNAME": "Yrsin",
+    "DURATION": "Month",
+    "REPEATABLE": "false",
+    "CONDITION": "PLAYER_FRIENDSHIP_POINTS Current {{Yrsin}} 250 499", //gsq heart check + prior event check
+    "LOCATION": "Voidsent",
+    "ITEMTAG": "item_topaz"
    }
   }
  ]

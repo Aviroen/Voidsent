@@ -1,5 +1,5 @@
 ﻿Edelweiss:
-{{ModId}}_EdelweissWarp
+{{ModId}}_Warp
 {{ModId}}_EdelweissBackwarp
 {{ModId}}_CrimsonGroveUnlock
 {{ModId}}_MoorUnlock

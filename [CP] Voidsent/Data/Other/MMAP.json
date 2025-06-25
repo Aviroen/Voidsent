@@ -6,7 +6,7 @@
    "Entries": {
     "{{ModId}}_BIBRoom": {
      "Question": "[LocalizedText {{ModId}}/Strings:RoomCheck]",
-     //"Speaker": "{{Yrnal}}",
+     "Speaker": "{{Yrnal}}",
      "ResponseEntries": {
       "ExpensiveRoom": {
        "Label": "[LocalizedText {{ModId}}/Strings:ExpensiveBuy]",
@@ -57,7 +57,7 @@
        // both actions run
        "Actions": [
         "AddMoney -1000",
-        "Spiderbuttons.BETAS_DialogueBox {{Yrnal}} [LocalizedText {{ModId}}/Strings:Expensive]" //LOOK AT NEW DOCS
+        "Spiderbuttons.BETAS_WarpFarmer {{ModId}}_BreakfastInnBed 18 32 0" //LOOK AT NEW DOCS
         //"spacechase0.SpaceCore_PlayEvent eventid true"
        ]
       },
@@ -67,6 +67,7 @@
    }
   }
  ]
+}
  // {
  //   "Action": "EditMap",
  //   "Target": "Maps/BusStop",
@@ -95,4 +96,3 @@
  //     }
  //   ]
  // },
-}

@@ -12,16 +12,10 @@
     "ANXIETY": "Outgoing", //outgoing, neutral, shy changes stringsfromcsfiles
     "OPTIMISM": "Positive", //positive, neutral, negative changes stringsfromcsfiles
     "DARKSKIN": "true",
-    "ROMANCE": "true",
+    "ROMANCE": "false",
     "LIKESGENDER": "Male",
     "GIFTABLE": "true",
-    "CHILDREN": "false",
-    "ADOPT": "false",
-    "XINDEXSPOUSE": "0",
-    "YINDEXSPOUSE": "0",
-    "XINDEXPATIO": "0",
-    "YINDEXPATIO": "0",
-    "UNLOCKCONDITIONS": "PLAYER_HAS_MAIL Current {{ModId}}_EdelweissWarp any",
+    "UNLOCKCONDITIONS": "PLAYER_HAS_MAIL Current {{ModId}}_Warp any",
     "HOMELOCATION": "{{ModId}}_BreakfastInnBed",
     "HOMEXTILE": "33",
     "HOMEYTILE": "34",
@@ -75,6 +69,22 @@
     "REJECTPENDANT": true, //whether you want the npc to reject the pendant and instead want engagement through spacecore
     "REJECTTEA": true
     //"AFTERPARTY": ""
+   }
+  },
+  /////////////heart event triggers
+  {
+   "LogName": "Thandael Hearts",
+   "Action": "Include",
+   "FromFile": "Data/Templates/SORTemplate.json",
+   "LocalTokens": {
+    "ORDERNAME": "Thandael",
+    "NUMBER": "1",
+    "NPCNAME": "Thandael",
+    "DURATION": "Month",
+    "REPEATABLE": "false",
+    "CONDITION": "PLAYER_FRIENDSHIP_POINTS Current {{Thandael}} 250 499", //gsq heart check + prior event check
+    "LOCATION": "Voidsent",
+    "ITEMTAG": "item_topaz"
    }
   }
  ]

@@ -10,7 +10,7 @@
      "Trigger": "DayStarted",
      "Condition": "MINE_LOWEST_LEVEL_REACHED 121",
      "Actions": [
-      "AddMail Current {{ModId}}_EdelweissWarp tomorrow"
+      "AddMail Current {{ModId}}_Warp tomorrow"
      ]
     },
     "{{ModId}}_Rooms": {
