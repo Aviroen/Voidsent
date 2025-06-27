@@ -47,7 +47,7 @@ i suppose there is also the secret third state of "oh i didn't get to do what i 
         base.initNetFields();
         base.flip = Game1.random.NextBool();
         base.wildernessFarmMonster = false;
-        base.objectsToDrop.Add("Aviroen.Voidsent_ITEMHERE");
+        //base.objectsToDrop.Add("Aviroen.Voidsent_ITEMHERE");
         base.MaxHealth = 100000;
         base.DamageToFarmer *= 15;
         if (Game1.player.mailReceived.Contains("Aviroen.Voidsent_ExcaliburMail"))

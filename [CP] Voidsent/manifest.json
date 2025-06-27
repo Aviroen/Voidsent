@@ -45,10 +45,12 @@ so that my npcs still exist in their own realm, but they'll have the "marriage s
    "UniqueID": "rokugin.extramapactions",
    "IsRequired": true
   },
+  /*
   {
    "UniqueID": "spacechase0.SpaceCore",
    "IsRequired": true
   },
+  */
   {
    "UniqueID": "KaileyStardew.Tilesheets",
    "IsRequired": true

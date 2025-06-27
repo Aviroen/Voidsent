@@ -30,11 +30,23 @@
     "ActionList": "\"[LocalizedText StringStorage:rolledOne]\" \"[LocalizedText StringStorage:rolledTwo]\"",
     "roll": "Spiderbuttons.BETAS_RandomAction [LocalizedText StringStorage:ActionList]"
    }
-  }
-/*
+  },
+  /*
  "d4": "do actionlist here but only the first four",
 "d6": "[LocalizedText StringStorage:d4] (then put the next 2 here)",
 "d10": "[LocalizedText StringStorage:d6] (then the next 4 here)",
  */
+  {
+   "Action": "EditData",
+   "Target": "Data/TriggerActions",
+   "Entries": {
+    "ExampleTriggerAction": {
+     "Id": "ExampleTriggerAction",
+     "Trigger": "Spiderbuttons.BETAS_ForgeUsed",
+     "Condition": "Spiderbuttons.BETAS_ITEM_ENCHANTMENTS Target Generous",
+     "Action": "AddMail Current EnchantedWithGenerosity"
+    }
+   }
+  }
  ]
 }

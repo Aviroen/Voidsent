@@ -12,12 +12,12 @@
   "Author": "Voidsent Rebels",
   "Version": "0.1.0",
   "Description": "Dungeons and Dragons style Expansion.",
-  "MinimumGameVersion": "1.6.15",
+  "MinimumGameVersion": "1.6.16",
   "EntryDll": "Voidsent.dll",
   "Dependencies": [
     {
       "UniqueID": "Pathoschild.ContentPatcher",
-      "MinimumVersion": "2.7.0"
+      "MinimumVersion": "2.7.2"
     }
   ],
   "UpdateKeys": [

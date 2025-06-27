@@ -105,7 +105,7 @@
      "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
      "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}.1%&NL&%",
      "Actions": [
-      "Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} {{i18n:SO.{{NPCNAME}}.1.E}}"
+      "Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} \"{{i18n:SO.{{NPCNAME}}.1.E}}\""
      ]
     },
     "{{ModId}}_{{NPCNAME}}_Heart2": {
@@ -122,7 +122,7 @@
      "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
      "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}.2%&NL&%",
      "Actions": [
-      "Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} {{i18n:SO.{{NPCNAME}}.2.E}}"
+      "Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} \"{{i18n:SO.{{NPCNAME}}.2.E}}\""
      ]
     },
     "{{ModId}}_{{NPCNAME}}_Heart3": {
@@ -139,7 +139,7 @@
      "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
      "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}.3%&NL&%",
      "Actions": [
-      "Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} {{i18n:SO.{{NPCNAME}}.3.E}}"
+      "Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} \"{{i18n:SO.{{NPCNAME}}.3.E}}\""
      ]
     }
    }
