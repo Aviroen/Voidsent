@@ -1144,5 +1144,12 @@
  "Wiped.Fothao.Bad_0": "",
  "Wiped.Fothao.Bad_1": "",
  "Wiped.Fothao.Bad_2": "",
- "Wiped.Fothao.Bad_3": ""
+ "Wiped.Fothao.Bad_3": "",
+
+ //heart event special orders
+ "SO.Fothao.1": "Witless Maiden",
+ "SO.Fothao.1.Text": "I am in need of a hero to help me finish this request.",
+ "SO.Fothao.1.Deliver": "Deliver a Topaz to Fothao.",
+ "Fothao.1.Mail": "I thank ye for your utmost speed in helping me with that request, lovely. I hope this item finds you well.",
+ "Fothao.1.Title": "Thundering Heart"
 }

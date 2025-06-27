@@ -94,91 +94,52 @@
     "{{ModId}}_{{NPCNAME}}_Heart1": {
      "Id": "{{ModId}}_{{NPCNAME}}_Heart1",
      "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, !PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}.1.Mail, PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_{{NPCNAME}} 500",
+     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, !PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}.1%&NL&%, PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_{{NPCNAME}} 500",
      "MarkActionApplied": false,
      "Actions": [
       "Spiderbuttons.BETAS_SetFriendshipPoints {{ModId}}_{{NPCNAME}} 499"
      ]
     },
+    "{{ModId}}_{{NPCNAME}}_Heart1.E": {
+     "Id": "{{ModId}}_{{NPCNAME}}_Heart1.E",
+     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
+     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}.1%&NL&%",
+     "Actions": [
+      "Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} {{i18n:SO.{{NPCNAME}}.1.E}}"
+     ]
+    },
     "{{ModId}}_{{NPCNAME}}_Heart2": {
      "Id": "{{ModId}}_{{NPCNAME}}_Heart2",
      "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, !PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}.2.Mail, PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_{{NPCNAME}} 750",
+     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, !PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}.2%&NL&%, PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_{{NPCNAME}} 750",
      "MarkActionApplied": false,
      "Actions": [
       "Spiderbuttons.BETAS_SetFriendshipPoints {{ModId}}_{{NPCNAME}} 749"
      ]
     },
+    "{{ModId}}_{{NPCNAME}}_Heart2.E": {
+     "Id": "{{ModId}}_{{NPCNAME}}_Heart2.E",
+     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
+     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}.2%&NL&%",
+     "Actions": [
+      "Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} {{i18n:SO.{{NPCNAME}}.2.E}}"
+     ]
+    },
     "{{ModId}}_{{NPCNAME}}_Heart3": {
      "Id": "{{ModId}}_{{NPCNAME}}_Heart3",
      "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, !PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}.3.Mail, PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_{{NPCNAME}} 1000",
+     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, !PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}.3%&NL&%, PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_{{NPCNAME}} 1000",
      "MarkActionApplied": false,
      "Actions": [
       "Spiderbuttons.BETAS_SetFriendshipPoints {{ModId}}_{{NPCNAME}} 999"
      ]
     },
-    "{{ModId}}_{{NPCNAME}}_Heart4": {
-     "Id": "{{ModId}}_{{NPCNAME}}_Heart4",
+    "{{ModId}}_{{NPCNAME}}_Heart3.E": {
+     "Id": "{{ModId}}_{{NPCNAME}}_Heart3.E",
      "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, !PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}.4.Mail, PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_{{NPCNAME}} 1250",
-     "MarkActionApplied": false,
+     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}.3%&NL&%",
      "Actions": [
-      "Spiderbuttons.BETAS_SetFriendshipPoints {{ModId}}_{{NPCNAME}} 1249"
-     ]
-    },
-    "{{ModId}}_{{NPCNAME}}_Heart5": {
-     "Id": "{{ModId}}_{{NPCNAME}}_Heart5",
-     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, !PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}.5.Mail, PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_{{NPCNAME}} 1500",
-     "MarkActionApplied": false,
-     "Actions": [
-      "Spiderbuttons.BETAS_SetFriendshipPoints {{ModId}}_{{NPCNAME}} 1499"
-     ]
-    },
-    "{{ModId}}_{{NPCNAME}}_Heart6": {
-     "Id": "{{ModId}}_{{NPCNAME}}_Heart6",
-     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, !PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}.6.Mail, PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_{{NPCNAME}} 1750",
-     "MarkActionApplied": false,
-     "Actions": [
-      "Spiderbuttons.BETAS_SetFriendshipPoints {{ModId}}_{{NPCNAME}} 1749"
-     ]
-    },
-    "{{ModId}}_{{NPCNAME}}_Heart7": {
-     "Id": "{{ModId}}_{{NPCNAME}}_Heart7",
-     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, !PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}.7.Mail, PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_{{NPCNAME}} 2000",
-     "MarkActionApplied": false,
-     "Actions": [
-      "Spiderbuttons.BETAS_SetFriendshipPoints {{ModId}}_{{NPCNAME}} 1999"
-     ]
-    },
-    "{{ModId}}_{{NPCNAME}}_Heart8": {
-     "Id": "{{ModId}}_{{NPCNAME}}_Heart8",
-     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, !PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}.8.Mail, PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_{{NPCNAME}} 2250",
-     "MarkActionApplied": false,
-     "Actions": [
-      "Spiderbuttons.BETAS_SetFriendshipPoints {{ModId}}_{{NPCNAME}} 2249"
-     ]
-    },
-    "{{ModId}}_{{NPCNAME}}_Heart9": {
-     "Id": "{{ModId}}_{{NPCNAME}}_Heart9",
-     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, !PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}.9.Mail, PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_{{NPCNAME}} 2500",
-     "MarkActionApplied": false,
-     "Actions": [
-      "Spiderbuttons.BETAS_SetFriendshipPoints {{ModId}}_{{NPCNAME}} 2499"
-     ]
-    },
-    "{{ModId}}_{{NPCNAME}}_Heart10": {
-     "Id": "{{ModId}}_{{NPCNAME}}_Heart10",
-     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, !PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}.10.Mail, PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_{{NPCNAME}} 2750",
-     "MarkActionApplied": false,
-     "Actions": [
-      "Spiderbuttons.BETAS_SetFriendshipPoints {{ModId}}_{{NPCNAME}} 2749"
+      "Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} {{i18n:SO.{{NPCNAME}}.3.E}}"
      ]
     }
    }

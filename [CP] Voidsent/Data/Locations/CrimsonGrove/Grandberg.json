@@ -28,7 +28,7 @@
    "Action": "EditMap",
    "Target": "Maps/{{ModId}}_Grandberg1",
    "MapProperties": {
-
+    "mushymato.MMAP_WaterColor": "Red"
    },
    "AddWarps": [
     "14 29 {{CrimsonGrove}} 28 10",

@@ -4,15 +4,16 @@
    "Action": "EditData",
    "Target": "Strings/SpecialOrderStrings",
    "Entries": {
-    "{{ModId}}_{{ORDERNAME}}.{{NUMBER}}": "{{i18n:{{ORDERNAME}}}}",
-    "{{ModId}}_{{ORDERNAME}}.{{NUMBER}}.Text": "{{i18n:{{ORDERNAME}}.Text}}"
+    "{{ModId}}_{{ORDERNAME}}.{{NUMBER}}": "{{i18n:SO.{{ORDERNAME}}.{{NUMBER}}}}",
+    "{{ModId}}_{{ORDERNAME}}.{{NUMBER}}.Text": "{{i18n:SO.{{ORDERNAME}}.{{NUMBER}}.Text}}",
+    "{{ModId}}_{{ORDERNAME}}.{{NUMBER}}.Deliver": "{{i18n:SO.{{ORDERNAME}}.{{NUMBER}}.Deliver}}"
    }
   },
   {
    "Action": "EditData",
    "Target": "Data/Mail",
    "Entries": {
-    "{{ModId}}_{{ORDERNAME}}.{{NUMBER}}.Mail": "{{i18n:{{ORDERNAME}}.{{NUMBER}}.Mail}}%% {{i18n:{{ORDERNAME}}.{{NUMBER}}.Title}}"
+    "{{ModId}}_{{ORDERNAME}}.{{NUMBER}}.Mail": "{{i18n:{{ORDERNAME}}.{{NUMBER}}.Mail}} [#]{{i18n:{{ORDERNAME}}.{{NUMBER}}.Title}}"
    }
   },
   {
@@ -28,14 +29,14 @@
      "Condition": "{{CONDITION}}",
      "OrderType": "{{ModId}}",
      "SpecialRule": "",
-     "Text": "[{{ModId}}_{{ORDERNAME}}.Text]",
+     "Text": "[{{ModId}}_{{ORDERNAME}}.{{NUMBER}}.Text]",
      "ItemToRemoveOnEnd": null,
      "MailToRemoveOnEnd": null,
      "RandomizedElements": [],
      "Objectives": [
       {
        "Type": "Deliver",
-       "Text": "[{{ORDERNAME}}.{{NUMBER}}]",
+       "Text": "[{{ModId}}_{{ORDERNAME}}.{{NUMBER}}.Deliver]",
        "RequiredCount": "1",
        "Data": {
         "AcceptedContextTags": "{{ITEMTAG}}",
@@ -47,8 +48,8 @@
       {
        "Type": "Mail",
        "Data": {
-        "MailReceived": "{{ModId}}_{{ORDERNAME}}.{{NUMBER}}.Mail",
-        "NoLetter": "false"
+        "MailReceived": "{{ModId}}_{{ORDERNAME}}.{{NUMBER}}", //Aviroen.VoidsentCP_Fothao.1%&NL&%
+        "NoLetter": "true"
        }
       }
      ]

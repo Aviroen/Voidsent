@@ -4,7 +4,7 @@
    "Action": "EditData",
    "Target": "Strings/SpecialOrderStrings",
    "Entries": {
-    "LostCat.1": "{{i18n:LostCat.1}}"
+    "{{ModId}}_LostCat.1": "{{i18n:LostCat.1}}"
    }
   },
   {
@@ -29,7 +29,7 @@
     "Objectives": [
      {
       "Type": "Deliver",
-      "Text": "[LostCat.1]",
+      "Text": "[{{ModId}}_LostCat.1]",
       "RequiredCount": "1",
       "Data": {
        "AcceptedContextTags": "item_jade",
