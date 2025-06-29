@@ -31,8 +31,23 @@
     "mushymato.MMAP_WaterColor": "Red"
    },
    "AddWarps": [
-    "14 29 {{CrimsonGrove}} 28 10",
-    "15 29 {{CrimsonGrove}} 29 10"
+    "14 29 {{CrimsonGrove}} 28 11",
+    "15 29 {{CrimsonGrove}} 29 11",
+    "10 2 {{ModId}}_Grandberg2 13 28",
+    "19 2 {{ModId}}_Grandberg2 16 28"
+   ]
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_Grandberg2",
+   "MapProperties": {
+    "mushymato.MMAP_WaterColor": "Red"
+   },
+   "AddWarps": [
+    "13 29 {{ModId}}_Grandberg1 10 4",
+    "14 29 {{ModId}}_Grandberg1 10 4",
+    "15 29 {{ModId}}_Grandberg1 19 4",
+    "16 29 {{ModId}}_Grandberg1 19 4"
    ]
   }
  ]

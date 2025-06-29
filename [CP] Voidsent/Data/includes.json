@@ -81,7 +81,7 @@
   {
    "LogName": "Interior Locations Include",
    "Action": "Include",
-   "FromFile": "Data/Locations/ArtificialBeach/Edelweiss.json, Data/Locations/Morabyr/BreakfastInnBed.json, Data/Locations/Moor/JustOneBite.json, Data/Locations/CrimsonGrove/Grandberg.json"
+   "FromFile": "Data/Locations/ArtificialBeach/Edelweiss.json, Data/Locations/Morabyr/BreakfastInnBed.json, Data/Locations/Moor/JustOneBite.json, Data/Locations/CrimsonGrove/Grandberg.json, Data/Locations/Morabyr/Cichlidian.json"
   },
   {
    "LogName": "Other Locations Include",

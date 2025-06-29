@@ -1,5 +1,16 @@
 {
   "Changes": [
-
+   {
+    "Action": "Include",
+    "FromFile": "Data/Templates/LocationTemplates.json",
+    "LocalTokens": {
+     "MAPNAME": "BWClothing",
+     "INTERIORORLOCATIONS": "Interiors",
+     "XARRIVAL": "17",
+     "YARRIVAL": "38",
+     "MUSIC": "mermaidSong",
+     "AREA": "Moor"
+    }
+   }
   ]
 }

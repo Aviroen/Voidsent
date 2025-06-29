@@ -1,5 +1,24 @@
 {
-  "Changes": [
-
-  ]
+ "Changes": [
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "Boggarts",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "10",
+    "YARRIVAL": "12",
+    "MUSIC": "mermaidSong",
+    "AREA": "Commonwealth"
+   }
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_Boggarts",
+   "MapProperties": {
+   },
+   "AddWarps": [
+   ]
+  }
+ ]
 }
