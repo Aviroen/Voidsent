@@ -1,19 +1,19 @@
 {
  "Changes": [
   {
-   "LogName": "Thetlin",
+   "LogName": "Excalibur",
    "Action": "Include",
    "FromFile": "Data/Templates/A_Template_NPCs.json",
    "LocalTokens": {
-    "NPCNAME": "Thetlin",
-    "DISPLAYNAME": "Thetlin",
-    "GENDER": "Female",
+    "NPCNAME": "Excalibur",
+    "DISPLAYNAME": "Excalibur",
+    "GENDER": "Undefined",
     "MANNER": "Polite", //polite, neutral, rude changes stringsfromcsfiles
     "ANXIETY": "Outgoing", //outgoing, neutral, shy changes stringsfromcsfiles
     "OPTIMISM": "Positive", //positive, neutral, negative changes stringsfromcsfiles
     "DARKSKIN": "true",
     "ROMANCE": "false",
-    "LIKESGENDER": "Male",
+    "LIKESGENDER": "Both",
     "GIFTABLE": "true",
     "UNLOCKCONDITIONS": "PLAYER_HAS_MAIL Current {{ModId}}_Warp any",
     "HOMELOCATION": "{{ModId}}_Grandberg1",
@@ -62,22 +62,6 @@
     "REJECTPENDANT": true, //whether you want the npc to reject the pendant and instead want engagement through spacecore
     "REJECTTEA": true
     //"AFTERPARTY": ""
-   }
-  },
-  /////////////heart event triggers
-  {
-   "LogName": "Thetlin Hearts",
-   "Action": "Include",
-   "FromFile": "Data/Templates/SORTemplate.json",
-   "LocalTokens": {
-    "ORDERNAME": "Thetlin",
-    "NUMBER": "1",
-    "NPCNAME": "Thetlin",
-    "DURATION": "Month",
-    "REPEATABLE": "false",
-    "CONDITION": "PLAYER_FRIENDSHIP_POINTS Current {{Thetlin}} 250 499", //gsq heart check + prior event check
-    "LOCATION": "Voidsent",
-    "ITEMTAG": "item_topaz"
    }
   }
  ]

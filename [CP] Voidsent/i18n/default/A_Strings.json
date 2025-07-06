@@ -471,5 +471,45 @@
  "Hideout4.Sign": "Welcome to my least used hideout, love, enjoy yourself.",
  "Hideout5.Sign": "Reminder to self:#Yrnal likes salmon.#Yrrek likes tuna.#Syrsa only eats mackerel.",
  "TentUnallowed": "It's not safe to sleep here. You should probably find real shelter.",
- "DoorUnlock_NotFriend_Undefined": "You're not good enough friends with {0} to enter their bedroom."
+ "DoorUnlock_NotFriend_Undefined": "You're not good enough friends with {0} to enter their bedroom.",
+
+ "Quest.1": "Unravel Time",
+ "Quest.1.Description": "Figure out the secrets of Grandberg.",
+ "Quest.1.Hint": "Explore the sights.",
+ //
+ "Quest.2": "",
+ "Quest.2.Description": "",
+ "Quest.2.Hint": "",
+ //
+ "Quest.3": "",
+ "Quest.3.Description": "",
+ "Quest.3.Hint": "",
+ //
+ "Quest.4": "",
+ "Quest.4.Description": "",
+ "Quest.4.Hint": "",
+ //
+ "Quest.5": "",
+ "Quest.5.Description": "",
+ "Quest.5.Hint": "",
+ //
+ "Quest.6": "",
+ "Quest.6.Description": "",
+ "Quest.6.Hint": "",
+ //
+ "Quest.7": "",
+ "Quest.7.Description": "",
+ "Quest.7.Hint": "",
+ //
+ "Quest.8": "",
+ "Quest.8.Description": "",
+ "Quest.8.Hint": "",
+ //
+ "Quest.9": "",
+ "Quest.9.Description": "",
+ "Quest.9.Hint": "",
+ //
+ "Quest.10": "",
+ "Quest.10.Description": "",
+ "Quest.10.Hint": ""
 }

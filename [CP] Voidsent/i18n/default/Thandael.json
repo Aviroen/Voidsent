@@ -39,44 +39,44 @@
  "Thandael.Engaged": "...Never really thought I'd see myself get married.$4",
  "Thandael.AfterWedding": "Still doesn't exactly feel real, yanno?$3#$b#I'm glad that we're together though.$4",
 
- //monday
+ //monday crimson grove
  //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_
- "BETAS.Thandael.Monday_0": "",
- "BETAS.Thandael.Monday_1": "",
- "BETAS.Thandael.Monday_2": "",
- "BETAS.Thandael.Monday_3": "",
+ "BETAS.Thandael.Monday_0": "Shh! I'm being... Sneaky.$3",
+ "BETAS.Thandael.Monday_1": "Don't worry about me, I'll figure out how to escape their grasp.$1",
+ "BETAS.Thandael.Monday_2": "If you listen closely, you can hear Fothao singing.",
+ "BETAS.Thandael.Monday_3": "It's that time of the day!$1#$b#Where I sit here contemplating what to do with the rest of it!$1",
  //daily
- "Thandael.Monday_0": "",
- "Thandael.Monday_1": "",
- "Thandael.Monday_2": "",
- "Thandael.Monday_3": "",
+ "Thandael.Monday_0": "So far the intel is lackluster.$6",
+ "Thandael.Monday_1": "Have you found the secret paths around the castle yet?",
+ "Thandael.Monday_2": "Konnie is a good brother...$5",
+ "Thandael.Monday_3": "Unfortunately, I'm not that good at magic.$7",
  //2 heart
- "Thandael.Monday2_0": "",
- "Thandael.Monday2_1": "",
- "Thandael.Monday2_2": "",
- "Thandael.Monday2_3": "",
+ "Thandael.Monday2_0": "Sinny is my best friend, though I don't think he feels the same about me.$1",
+ "Thandael.Monday2_1": "Have you found the special berry hidden in this place?$1#$b#I hid it myself!$3",
+ "Thandael.Monday2_2": "Duvin is often misunderstood by the masses.#$b#Fothao is...#$b#A very smart strategist.$7",
+ "Thandael.Monday2_3": "Sometimes I just get these headaches that don't go away.$6",
  "BETAS.Thandael.Monday2_0": "",
  "BETAS.Thandael.Monday2_1": "",
  "BETAS.Thandael.Monday2_2": "",
  "BETAS.Thandael.Monday2_3": "",
  //4 heart
- "Thandael.Monday4_0": "",
- "Thandael.Monday4_1": "",
- "Thandael.Monday4_2": "",
- "Thandael.Monday4_3": "",
+ "Thandael.Monday4_0": "If you're ever curious about whittling, I could tell you a few things.$1",
+ "Thandael.Monday4_1": "Konnie would always try to teach me magic.#$b#I just never grasped it.$1",
+ "Thandael.Monday4_2": "Unfortunately for me, I now have to shack with Vorgar.$3#$b#He likes my baking, though.$4",
+ "Thandael.Monday4_3": "Vorgar isn't so bad, beyond the nagging.$1",
  "BETAS.Thandael.Monday4_0": "",
  "BETAS.Thandael.Monday4_1": "",
  "BETAS.Thandael.Monday4_2": "",
  "BETAS.Thandael.Monday4_3": "",
  //6
- "Thandael.Monday6_0": "",
- "Thandael.Monday6_1": "",
- "Thandael.Monday6_2": "",
- "Thandael.Monday6_3": "",
- "BETAS.Thandael.Monday6_0": "",
- "BETAS.Thandael.Monday6_1": "",
- "BETAS.Thandael.Monday6_2": "",
- "BETAS.Thandael.Monday6_3": "",
+ "Thandael.Monday6_0": "...I wonder if that's true...$2",
+ "Thandael.Monday6_1": "...Sorry, I've just been thinking to myself...$2",
+ "Thandael.Monday6_2": "...But what if I could just...$9",
+ "Thandael.Monday6_3": "...Maybe there's another way...$9",
+ "BETAS.Thandael.Monday6_0": "...Sorry, I'm still a little frazzled.$6",
+ "BETAS.Thandael.Monday6_1": "...Maybe some other time, @?$6",
+ "BETAS.Thandael.Monday6_2": "Let's take a raincheck on hanging out, yeah?$6",
+ "BETAS.Thandael.Monday6_3": "I need some time to sort some stuff out.$9",
  //8 platonic
  "Thandael.Platonic.Monday8_0": "",
  "Thandael.Platonic.Monday8_1": "",
@@ -108,17 +108,17 @@
  "BETAS.Thandael.Monday10_2": "",
  "BETAS.Thandael.Monday10_3": "",
 
- //tuesday
+ //tuesday crimson grove wizard hut
  //BETAS
- "BETAS.Thandael.Tuesday_0": "",
- "BETAS.Thandael.Tuesday_1": "",
+ "BETAS.Thandael.Tuesday_0": "I've never been able to get inside.$7",
+ "BETAS.Thandael.Tuesday_1": "I hear there's some kind of secret behind opening the door, but I'm unsure.$7",
  "BETAS.Thandael.Tuesday_2": "",
  "BETAS.Thandael.Tuesday_3": "",
  //daily
- "Thandael.Tuesday_0": "",
- "Thandael.Tuesday_1": "",
- "Thandael.Tuesday_2": "",
- "Thandael.Tuesday_3": "",
+ "Thandael.Tuesday_0": "Door's locked.$9",
+ "Thandael.Tuesday_1": "I've always wondered what's inside.$6",
+ "Thandael.Tuesday_2": "Do let me know if you ever figure out the key, yeah?$1",
+ "Thandael.Tuesday_3": "Sinny would never hear the end of it if I get into this tower.$1",
  //2 heart
  "Thandael.Tuesday2_0": "",
  "Thandael.Tuesday2_1": "",
@@ -175,7 +175,7 @@
  "BETAS.Thandael.Tuesday10_2": "",
  "BETAS.Thandael.Tuesday10_3": "",
 
- //wednesday
+ //wednesday annoying yrsin
  //BETAS
  "BETAS.Thandael.Wednesday_0": "",
  "BETAS.Thandael.Wednesday_1": "",

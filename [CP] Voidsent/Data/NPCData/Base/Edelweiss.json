@@ -47,13 +47,6 @@
     "FRIDAYSCHEDULE": "GOTO spring",
     "SATURDAYSCHEDULE": "GOTO spring", //commonwealth
     "SUNDAYSCHEDULE": "GOTO spring", //commonwealth
-    "marriage_MONDAYSCHEDULE": "GOTO spring",
-    "marriage_TUESDAYSCHEDULE": "GOTO spring",
-    "marriage_WEDNESDAYSCHEDULE": "GOTO spring",
-    "marriage_THURSAYSCHEDULE": "GOTO spring",
-    "marriage_FRIDAYSCHEDULE": "GOTO spring",
-    "marriage_SATURDAYSCHEDULE": "GOTO spring",
-    "marriage_SUNDAYSCHEDULE": "GOTO spring",
 
     //HEART DIALOGUES
     "2HEART": true, //true/false
@@ -69,22 +62,6 @@
     "REJECTPENDANT": true, //whether you want the npc to reject the pendant and instead want engagement through spacecore
     "REJECTTEA": true
     //"AFTERPARTY": ""
-   }
-  },
-  /////////////heart event triggers
-  {
-   "LogName": "Edelweiss Hearts",
-   "Action": "Include",
-   "FromFile": "Data/Templates/SORTemplate.json",
-   "LocalTokens": {
-    "ORDERNAME": "Edelweiss",
-    "NUMBER": "1",
-    "NPCNAME": "Edelweiss",
-    "DURATION": "Month",
-    "REPEATABLE": "false",
-    "CONDITION": "PLAYER_FRIENDSHIP_POINTS Current {{Edelweiss}} 250 499", //gsq heart check + prior event check
-    "LOCATION": "Voidsent",
-    "ITEMTAG": "item_topaz"
    }
   }
  ]

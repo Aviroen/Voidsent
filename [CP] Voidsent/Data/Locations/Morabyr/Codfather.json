@@ -1,5 +1,64 @@
 {
-  "Changes": [
-
-  ]
+ "Changes": [
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "Codfather",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "10",
+    "YARRIVAL": "25",
+    "MUSIC": "mermaidSong",
+    "AREA": "Morabyr"
+   }
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_Codfather",
+   "MapProperties": {
+    "AmbientLight": "255 255 255",
+    "NPCWarp": "17 6 {{ModId}}_WarpNetwork 1 0",
+    "Doors": "8 19 0 0 9 19 0 0 14 19 0 0",
+    "PassOutSafe": "T"
+   },
+   "AddWarps": [
+    //"9 26 {{Morabyr}}"
+   ],
+   "MapTiles": [
+    {
+     "Position": {
+      "X": 8,
+      "Y": 19
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Door",
+      "EMA_CustomDoor": "{{ModId}}_AviBrownDoor"
+     }
+    },
+    {
+     "Position": {
+      "X": 9,
+      "Y": 19
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Door",
+      "EMA_CustomDoor": "{{ModId}}_AviBrownDoorFlip"
+     }
+    },
+    {
+     "Position": {
+      "X": 14,
+      "Y": 19
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Door",
+      "EMA_CustomDoor": "{{ModId}}_AviBrownDoor"
+     }
+    }
+   ]
+  }
+ ]
 }

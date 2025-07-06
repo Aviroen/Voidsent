@@ -6,6 +6,33 @@
    "Entries": {
     "{{ModId}}": {
      "PlayRandomAbmbientSounds": true,
+     "MaxPassOutCost": 5000,
+     "PassOutMail": [
+      {
+       "Id": "FoundByYrrek",
+       "Condition": null,
+       "Mail": "passedOut_Yrrek",
+       "MaxPassOutCost": 5000,
+       "SkipRandomSelection": true
+      },
+      {
+       "Id": "FoundByPartner",
+       "Condition": "PLAYER_STAT Current Aviroen.VoidsentCP_Fighters 1",
+       "Mail": "passedOut_{{ModId}}",
+       "MaxPassOutCost": 0,
+       "SkipRandomSelection": true
+      }
+     ],
+     "PassOutLocations": [
+      {
+       "Id": "{{ModId}}_BreakfastInnBed",
+       "Location": "{{ModId}}_BreakfastInnBed",
+       "Position": {
+        "X": 17,
+        "Y": 38
+       }
+      }
+     ],
      "ReviveLocations": [
       {
        "Id": "{{ModId}}_BreakfastInnBed",
@@ -15,21 +42,10 @@
         "X": 17,
         "Y": 38
        }
-      }
-     ],
-     "MaxPassOutCost": 5000,
-     "PassOutMail": [
-      {
-       "Id": "FoundByYrrek",
-       "Condition": null,
-       "Mail": "{{ModId}}_PassedOutYrrek",
-       "MaxPassOutCost": 5000,
-       "SkipRandomSelection": true
-      }
-     ],
-     "PassOutLocations": [
+      },
       {
        "Id": "{{ModId}}_BreakfastInnBed",
+       "Condition": "LOCATION_CONTEXT Here {{ModId}}, PLAYER_STAT Current Aviroen.VoidsentCP_Fighters 1",
        "Location": "{{ModId}}_BreakfastInnBed",
        "Position": {
         "X": 17,

@@ -1,13 +1,13 @@
 {
  "Changes": [
   {
-   "LogName": "Vorgar",
+   "LogName": "Sylria",
    "Action": "Include",
    "FromFile": "Data/Templates/A_Template_NPCs.json",
    "LocalTokens": {
-    "NPCNAME": "Vorgar",
-    "DISPLAYNAME": "Vorgar",
-    "GENDER": "Male",
+    "NPCNAME": "Sylria",
+    "DISPLAYNAME": "Sylria",
+    "GENDER": "Female",
     "MANNER": "Polite", //polite, neutral, rude changes stringsfromcsfiles
     "ANXIETY": "Outgoing", //outgoing, neutral, shy changes stringsfromcsfiles
     "OPTIMISM": "Positive", //positive, neutral, negative changes stringsfromcsfiles
@@ -62,22 +62,6 @@
     "REJECTPENDANT": true, //whether you want the npc to reject the pendant and instead want engagement through spacecore
     "REJECTTEA": true
     //"AFTERPARTY": ""
-   }
-  },
-  /////////////heart event triggers
-  {
-   "LogName": "Vorgar Hearts",
-   "Action": "Include",
-   "FromFile": "Data/Templates/SORTemplate.json",
-   "LocalTokens": {
-    "ORDERNAME": "Vorgar",
-    "NUMBER": "1",
-    "NPCNAME": "Vorgar",
-    "DURATION": "Month",
-    "REPEATABLE": "false",
-    "CONDITION": "PLAYER_FRIENDSHIP_POINTS Current {{Vorgar}} 250 499", //gsq heart check + prior event check
-    "LOCATION": "Voidsent",
-    "ITEMTAG": "item_topaz"
    }
   }
  ]

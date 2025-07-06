@@ -41,8 +41,8 @@
 
  //monday
  //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_
- "BETAS.Edelweiss.Monday_0": "",
- "BETAS.Edelweiss.Monday_1": "",
+ "BETAS.Edelweiss.Monday_0": "Iron...$2#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Edelweiss \"Is there a way to heat it up without coal...\"",
+ "BETAS.Edelweiss.Monday_1": "Phosphorite?$2#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Edelweiss \"I don't have a need for more fertilizers...\"",
  "BETAS.Edelweiss.Monday_2": "",
  "BETAS.Edelweiss.Monday_3": "",
  //daily

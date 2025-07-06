@@ -26,11 +26,6 @@
   },
   {
    "UniqueID": "Spiderbuttons.CustomScheduleKeys",
-   /*
-   for a "fake marriage" effectively
-so that my npcs still exist in their own realm, but they'll have the "marriage schedule" because of button's custom schedules
-
-   */
    "IsRequired": true
   },
   {
@@ -59,16 +54,6 @@ so that my npcs still exist in their own realm, but they'll have the "marriage s
    "UniqueID": "crystalinerose.Tilesheets",
    "IsRequired": true
   }
-  /*
-    {
-   "UniqueID": "mushymato.LivestockBazaar",
-   "IsRequired": true
-  },
-    {
-   "UniqueID": "focustense.StardewUI",
-   "IsRequired": true
-  },
-  */
  ],
  "UpdateKeys": [
   "Nexus:26053"

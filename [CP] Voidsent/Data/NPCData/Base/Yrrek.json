@@ -1,12 +1,12 @@
 {
  "Changes": [
   {
-   "LogName": "Solace",
+   "LogName": "Yrrek",
    "Action": "Include",
    "FromFile": "Data/Templates/A_Template_NPCs.json",
    "LocalTokens": {
-    "NPCNAME": "Solace",
-    "DISPLAYNAME": "Solace",
+    "NPCNAME": "Yrrek",
+    "DISPLAYNAME": "Yrrek",
     "GENDER": "Male",
     "MANNER": "Polite", //polite, neutral, rude changes stringsfromcsfiles
     "ANXIETY": "Outgoing", //outgoing, neutral, shy changes stringsfromcsfiles
@@ -62,22 +62,6 @@
     "REJECTPENDANT": true, //whether you want the npc to reject the pendant and instead want engagement through spacecore
     "REJECTTEA": true
     //"AFTERPARTY": ""
-   }
-  },
-  /////////////heart event triggers
-  {
-   "LogName": "Solace Hearts",
-   "Action": "Include",
-   "FromFile": "Data/Templates/SORTemplate.json",
-   "LocalTokens": {
-    "ORDERNAME": "Solace",
-    "NUMBER": "1",
-    "NPCNAME": "Solace",
-    "DURATION": "Month",
-    "REPEATABLE": "false",
-    "CONDITION": "PLAYER_FRIENDSHIP_POINTS Current {{Solace}} 250 499", //gsq heart check + prior event check
-    "LOCATION": "Voidsent",
-    "ITEMTAG": "item_topaz"
    }
   }
  ]

@@ -176,6 +176,7 @@ public static class ProfileMenuPatch
         }
         catch (Exception ex)
         {
+            Monitor.Log("ProfileMenu Error", LogLevel.Error);
             Monitor.Log(ex.Message, LogLevel.Error);
         }
 

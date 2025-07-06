@@ -176,6 +176,7 @@ public static class SocialPagePatch
         }
         catch (Exception ex)
         {
+            Monitor.Log("SocialPage Error", LogLevel.Error);
             Monitor.Log(ex.Message, LogLevel.Error);
         }
 

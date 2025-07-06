@@ -48,14 +48,7 @@
     "FRIDAYSCHEDULE": "610 {{ModId}}_BreakfastInnBed 11 33 2/2600 {{Yrsin}}_Hideout1 15 16 2 {{Yrsin}}_sleep",
     //port morabyr port
     "SATURDAYSCHEDULE": "GOTO spring",
-    "SUNDAYSCHEDULE": "610 {{ModId}}_BreakfastInnBed 34 6 2 {{Yrsin}}_wag/2600 {{Yrsin}}_Hideout1 15 16 2 {{Yrsin}}_sleep",
-    "marriage_MONDAYSCHEDULE": "GOTO Mon",
-    "marriage_TUESDAYSCHEDULE": "GOTO Tue",
-    "marriage_WEDNESDAYSCHEDULE": "GOTO Wed",
-    "marriage_THURSAYSCHEDULE": "GOTO Thu",
-    "marriage_FRIDAYSCHEDULE": "GOTO Fri",
-    "marriage_SATURDAYSCHEDULE": "GOTO Sat",
-    "marriage_SUNDAYSCHEDULE": "GOTO Sun",
+    "SUNDAYSCHEDULE": "GOTO spring",
 
     //HEART DIALOGUES
     "2HEART": true, //true/false

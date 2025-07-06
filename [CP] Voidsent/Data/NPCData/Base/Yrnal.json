@@ -1,12 +1,12 @@
 {
  "Changes": [
   {
-   "LogName": "Duvin",
+   "LogName": "Yrnal",
    "Action": "Include",
    "FromFile": "Data/Templates/A_Template_NPCs.json",
    "LocalTokens": {
-    "NPCNAME": "Duvin",
-    "DISPLAYNAME": "Duvin",
+    "NPCNAME": "Yrnal",
+    "DISPLAYNAME": "Yrnal",
     "GENDER": "Female",
     "MANNER": "Polite", //polite, neutral, rude changes stringsfromcsfiles
     "ANXIETY": "Outgoing", //outgoing, neutral, shy changes stringsfromcsfiles
@@ -62,22 +62,6 @@
     "REJECTPENDANT": true, //whether you want the npc to reject the pendant and instead want engagement through spacecore
     "REJECTTEA": true
     //"AFTERPARTY": ""
-   }
-  },
-  /////////////heart event triggers
-  {
-   "LogName": "Duvin Hearts",
-   "Action": "Include",
-   "FromFile": "Data/Templates/SORTemplate.json",
-   "LocalTokens": {
-    "ORDERNAME": "Duvin",
-    "NUMBER": "1",
-    "NPCNAME": "Duvin",
-    "DURATION": "Month",
-    "REPEATABLE": "false",
-    "CONDITION": "PLAYER_FRIENDSHIP_POINTS Current {{Duvin}} 250 499", //gsq heart check + prior event check
-    "LOCATION": "Voidsent",
-    "ITEMTAG": "item_topaz"
    }
   }
  ]

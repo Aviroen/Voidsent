@@ -76,12 +76,12 @@
   {
    "LogName": "Exterior Locations Include",
    "Action": "Include",
-   "FromFile": "Data/Locations/ArtificialBeach/ArtificialBeach.json, Data/Locations/Commonwealth/Commonwealth.json, Data/Locations/CrimsonGrove/CrimsonGrove.json, Data/Locations/Grove/Grove.json, Data/Locations/Moor/Moor.json, Data/Locations/Morabyr/Morabyr.json" //, Data/Locations/Outlands/Outlands.json
+   "FromFile": "Data/Locations/ArtificialBeach/ArtificialBeach.json, Data/Locations/Commonwealth/Commonwealth.json, Data/Locations/CrimsonGrove/CrimsonGrove.json, Data/Locations/Grove/Grove.json, Data/Locations/Moor/Moor.json, Data/Locations/Morabyr/Morabyr.json"
   },
   {
    "LogName": "Interior Locations Include",
    "Action": "Include",
-   "FromFile": "Data/Locations/ArtificialBeach/Edelweiss.json, Data/Locations/Morabyr/BreakfastInnBed.json, Data/Locations/Moor/JustOneBite.json, Data/Locations/CrimsonGrove/Grandberg.json, Data/Locations/Morabyr/Cichlidian.json"
+   "FromFile": "Data/Locations/ArtificialBeach/Edelweiss.json, Data/Locations/Morabyr/BreakfastInnBed.json, Data/Locations/Moor/JustOneBite.json, Data/Locations/CrimsonGrove/Grandberg.json, Data/Locations/Commonwealth/Donnlos.json, Data/Locations/Morabyr/Cichlidian.json, Data/Locations/Morabyr/Codfather.json"
   },
   {
    "LogName": "Other Locations Include",
@@ -91,12 +91,12 @@
   {
    "LogName": "CHAOS BEGIN",
    "Action": "Include",
-   "FromFile": "Data/NPCData/Romanceable/Duvin.json, Data/NPCData/Romanceable/Edelweiss.json, Data/NPCData/Romanceable/Fothao.json, Data/NPCData/Romanceable/Lysella.json, Data/NPCData/Romanceable/Muvi.json, Data/NPCData/Romanceable/Thandael.json, Data/NPCData/Romanceable/Yrsin.json" //, Data/NPCData/Cameos/.json, Data/NPCData/Romanceable/Excalibur.json, Data/NPCData/Romanceable/Konryn.json, Data/NPCData/Romanceable/Nimora.json, Data/NPCData/Romanceable/Orikhan.json, Data/NPCData/Romanceable/Penumbra.json, Data/NPCData/Romanceable/Sai.json, Data/NPCData/Romanceable/Solace.json, Data/NPCData/Romanceable/Sylria.json, Data/NPCData/Romanceable/Syrsa.json, Data/NPCData/Romanceable/Thetlin.json, Data/NPCData/Romanceable/Trinity.json, Data/NPCData/Romanceable/Vorgar.json, Data/NPCData/Romanceable/Yrnal.json, Data/NPCData/Romanceable/Yrrek.json
+   "FromFile": "Data/NPCData/Base/Duvin.json, Data/NPCData/Base/Edelweiss.json, Data/NPCData/Base/Fothao.json, Data/NPCData/Base/Lysella.json, Data/NPCData/Base/Muvi.json, Data/NPCData/Base/Thandael.json, Data/NPCData/Base/Yrsin.json, Data/NPCData/Base/Trinity.json"
   },
   {
    "LogName": "Data Include",
    "Action": "Include",
-   "FromFile": "Data/Other/Animals.json, Data/Other/Craftables.json, Data/Other/EMA.json, Data/Other/Fish.json, Data/Other/LocContext.json, Data/Other/Mail.json, Data/Other/MMAP.json, Data/Other/Shops.json, Data/Other/SpaceCore.json, Data/Other/SpecialOrders.json, Data/Other/Strings.json, Data/Other/TriggerActions.json" //Data/Other/TrinketTrinker.json, Data/Other/Events.json, Data/Other/Festivals.json, Data/Other/SpecialOrdersUntimed.json, Data/Other/BETAS.json
+   "FromFile": "Data/Other/Animals.json, Data/Other/Craftables.json, Data/Other/EMA.json, Data/Other/Fish.json, Data/Other/LocContext.json, Data/Other/Mail.json, Data/Other/MMAP.json, Data/Other/Shops.json, Data/Other/SpaceCore.json, Data/Other/SpecialOrders.json, Data/Other/Spiderbuttons.json, Data/Other/Strings.json, Data/Other/TriggerActions.json"
   }
 /*
   {

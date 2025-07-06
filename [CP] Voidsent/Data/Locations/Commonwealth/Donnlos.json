@@ -4,7 +4,7 @@
    "Action": "Include",
    "FromFile": "Data/Templates/LocationTemplates.json",
    "LocalTokens": {
-    "MAPNAME": "Boggarts",
+    "MAPNAME": "Donnlos",
     "INTERIORORLOCATIONS": "Interiors",
     "XARRIVAL": "10",
     "YARRIVAL": "12",
@@ -14,10 +14,19 @@
   },
   {
    "Action": "EditMap",
-   "Target": "Maps/{{ModId}}_Boggarts",
+   "Target": "Maps/{{ModId}}_Donnlos",
    "MapProperties": {
+    "AmbientLight": "255 255 255",
+    "NPCWarp": "3 5 {{ModId}}_WarpNetwork 1 0",
+    "PassOutSafe": "T"
    },
    "AddWarps": [
+    //"8 19 {{Commonwealth}}"
+    //"9 19 {{Commonwealth}}"
+    //"10 19 {{Commonwealth}}"
+    //"11 19 {{Commonwealth}}"
+   ],
+   "MapTiles": [
    ]
   }
  ]

@@ -63,22 +63,6 @@
     "REJECTTEA": true
     //"AFTERPARTY": ""
    }
-  },
-  /////////////heart event triggers
-  {
-   "LogName": "Orikhan Hearts",
-   "Action": "Include",
-   "FromFile": "Data/Templates/SORTemplate.json",
-   "LocalTokens": {
-    "ORDERNAME": "Orikhan",
-    "NUMBER": "1",
-    "NPCNAME": "Orikhan",
-    "DURATION": "Month",
-    "REPEATABLE": "false",
-    "CONDITION": "PLAYER_FRIENDSHIP_POINTS Current {{Orikhan}} 250 499", //gsq heart check + prior event check
-    "LOCATION": "Voidsent",
-    "ITEMTAG": "item_topaz"
-   }
   }
  ]
 }

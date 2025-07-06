@@ -106,7 +106,7 @@
      "Layer": "Buildings",
      "SetProperties": {
       "Action": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_ExpensiveRoom",
-      "EMA_CustomDoor": "{{ModId}}_SolidDoorBrown"
+      "EMA_CustomDoor": "{{ModId}}_AviBrownDoor"
      }
     },
     {
@@ -127,7 +127,7 @@
      "Layer": "Buildings",
      "SetProperties": {
       "Action": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_ExpensiveRoom",
-      "EMA_CustomDoor": "{{ModId}}_SolidDoorFlipBrown"
+      "EMA_CustomDoor": "{{ModId}}_AviBrownDoorFlip"
      }
     },
     {
@@ -148,7 +148,7 @@
      "Layer": "Buildings",
      "SetProperties": {
       "Action": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_CheapRoom",
-      "EMA_CustomDoor": "{{ModId}}_SolidDoorBrown"
+      "EMA_CustomDoor": "{{ModId}}_AviBrownDoor"
      }
     },
     {
@@ -169,7 +169,7 @@
      "Layer": "Buildings",
      "SetProperties": {
       "Action": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_CheapRoom",
-      "EMA_CustomDoor": "{{ModId}}_SolidDoorFlipBrown"
+      "EMA_CustomDoor": "{{ModId}}_AviBrownDoorFlip"
      }
     },
     {

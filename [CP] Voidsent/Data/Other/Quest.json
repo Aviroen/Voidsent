@@ -1,0 +1,19 @@
+{
+ "Changes": [
+  {
+   "LogName": "Unravel Time Quests",
+   "Action": "EditData",
+   "Target": "Data/Quests",
+   "{{ModId}}.1": "Basic/{{i18n:Quest.1}}/{{i18n:Quest.1.Description}}/{{i18n:Quest.1.Hint}}/{{ModId}}.2/1000/-1/false",
+   "{{ModId}}.2": "Basic/{{i18n:Quest.2}}/{{i18n:Quest.2.Description}}/{{i18n:Quest.2.Hint}}/{{ModId}}.3/1000/-1/false",
+   "{{ModId}}.3": "Basic/{{i18n:Quest.3}}/{{i18n:Quest.3.Description}}/{{i18n:Quest.3.Hint}}/{{ModId}}.4/1000/-1/false",
+   "{{ModId}}.4": "Basic/{{i18n:Quest.4}}/{{i18n:Quest.4.Description}}/{{i18n:Quest.4.Hint}}/{{ModId}}.5/1000/-1/false",
+   "{{ModId}}.5": "Basic/{{i18n:Quest.5}}/{{i18n:Quest.5.Description}}/{{i18n:Quest.5.Hint}}/{{ModId}}.6/1000/-1/false",
+   "{{ModId}}.6": "Basic/{{i18n:Quest.6}}/{{i18n:Quest.6.Description}}/{{i18n:Quest.6.Hint}}/{{ModId}}.7/1000/-1/false",
+   "{{ModId}}.7": "Basic/{{i18n:Quest.7}}/{{i18n:Quest.7.Description}}/{{i18n:Quest.7.Hint}}/{{ModId}}.8/1000/-1/false",
+   "{{ModId}}.8": "Basic/{{i18n:Quest.1}}/{{i18n:Quest.8.Description}}/{{i18n:Quest.8.Hint}}/{{ModId}}.9/1000/-1/false",
+   "{{ModId}}.9": "Basic/{{i18n:Quest.1}}/{{i18n:Quest.9.Description}}/{{i18n:Quest.9.Hint}}/{{ModId}}.10/1000/-1/false",
+   "{{ModId}}.10": "Basic/{{i18n:Quest.10}}/{{i18n:Quest.10.Description}}/{{i18n:Quest.10.Hint}}//1000/-1/false"
+  }
+ ]
+}

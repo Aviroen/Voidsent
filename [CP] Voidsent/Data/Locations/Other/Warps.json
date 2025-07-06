@@ -50,7 +50,7 @@
     "8 0 Town 104 79",
     //"0 2 {{Commonwealth}}",
     //grand ministry
-    //boggart's
+    "2 2 {{ModId}}_Boggarts 11 11",
 
     //"0 4 {{CrimsonGrove}}",
     //grand magus tower
@@ -78,6 +78,8 @@
     //fish and flammables
     //swimmers and flippers
     "2 12 {{ModId}}_BreakfastInnBed 38 20",
+    "4 12 {{ModId}}_Cichlidian 16 12",
+    "6 12 {{ModId}}_Codfather 16 23",
 
     //"0 14 {{Outlands}}"
     //witch hut

@@ -1,0 +1,99 @@
+﻿{ //ye all beware whoever comes into this file, only fucked up chaos resides here
+ "Changes": [
+  {
+   "Action": "EditData",
+   "Target": "Spiderbuttons.CustomScheduleKeys/ScheduleKeys",
+   "Entries": {
+    "{{Thandael}}_H4Mon": {
+     "Id": "{{Thandael}}_H4Mon",
+     "ScheduleKey": "{{Thandael}}_H4Mon",
+     "Priority": "Late",
+     "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_ThanYrsinH4, DAY_OF_WEEK Monday"
+    },
+    "{{Thandael}}_H4Tue": {
+     "Id": "{{Thandael}}_H4Tue",
+     "ScheduleKey": "{{Thandael}}_H4Tue",
+     "Priority": "Late",
+     "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_ThanYrsinH4, DAY_OF_WEEK Tuesday"
+    },
+    "{{Thandael}}_H4Wed": {
+     "Id": "{{Thandael}}_H4Wed",
+     "ScheduleKey": "{{Thandael}}_H4Wed",
+     "Priority": "Late",
+     "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_ThanYrsinH4, DAY_OF_WEEK Wednesday"
+    },
+    "{{Thandael}}_H4Wed2": {
+     "Id": "{{Thandael}}_H4Wed2",
+     "ScheduleKey": "{{Thandael}}_H4Wed2",
+     "Priority": "Late",
+     "Condition": "PLAYER_HAS_CONVERSATION_TOPIC Current {{ModId}}_KickThanOut, DAY_OF_WEEK Wednesday"
+    },
+    "{{Thandael}}_H4Thu": {
+     "Id": "{{Thandael}}_H4Thu",
+     "ScheduleKey": "{{Thandael}}_H4Thu",
+     "Priority": "Late",
+     "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_ThanYrsinH4, DAY_OF_WEEK Thursday"
+    }
+   }
+  },
+  {
+   "Action": "EditData",
+   "Target": "Characters/schedules/{{Thandael}}",
+   "Entries": {
+    "{{Thandael}}_H4Mon": "610 {{CrimsonGrove}} 56 14 2/2600 {{ModId}}_Codfather 11 5 0",
+    "{{Thandael}}_H4Tue": "610 {{CrimsonGrove}} 41 46 2/2600 {{ModId}}_Codfather 11 5 0",
+    "{{Thandael}}_H4Wed": "610 {{Yrsin}}_Office 12 7 3/2600 {{ModId}}_Codfather 11 5 0",
+    "{{Thandael}}_H4Wed2": "610 {{ModId}}_BreakfastInnBed 20 8 2/2600 {{ModId}}_Codfather 11 5 0",
+    "{{Thandael}}_H4Thu": "610 {{ModId}}_Codfather 5 21 2/2600 {{ModId}}_Codfather 11 5 0"
+   }
+  }
+  /*
+ "d4": "do actionlist here but only the first four",
+"d6": "[LocalizedText StringStorage:d4] (then put the next 2 here)",
+"d10": "[LocalizedText StringStorage:d6] (then the next 4 here)",
+    {
+   "Action": "EditData",
+   "Target": "StringStorage",
+   "Entries": {
+    "rolledOne": "Spiderbuttons.BETAS_WritePlayerModData DamageStore 1",
+    "rolledTwo": "Spiderbuttons.BETAS_WritePlayerModData DamageStore 2",
+    "ActionList": "\"[LocalizedText StringStorage:rolledOne]\" \"[LocalizedText StringStorage:rolledTwo]\"",
+    "roll": "Spiderbuttons.BETAS_RandomAction [LocalizedText StringStorage:ActionList]"
+   }
+  },
+    {
+   "Action": "EditData",
+   "Target": "Spiderbuttons.BETAS/HarmonyPatches",
+   "Entries": {
+    "ExampleTriggerAction": {
+     "Id": "ExampleTriggerAction",
+     "Target": {
+      "Type": "StardewValley.Menus.LetterViewerMenu",
+      "Method": "AcceptQuest",
+      "Parameters": null,
+      "IsGetter": false,
+      "IsSetter": false,
+      "Assembly": "Stardew Valley"
+     },
+     "PatchType": "Postfix",
+     "ChangeResult": null,
+     "Condition": "SEASON spring",
+     "Action": "IncrementStat SpringLetterQuests 1"
+    }
+   }
+  },
+  {
+   "Action": "EditData",
+   "Target": "Data/TriggerActions",
+   "Entries": {
+    "ExampleTriggerAction": {
+     "Id": "ExampleTriggerAction",
+     "Trigger": "Spiderbuttons.BETAS_ForgeUsed",
+     "Condition": "Spiderbuttons.BETAS_ITEM_ENCHANTMENTS Target Generous",
+     "Action": "AddMail Current EnchantedWithGenerosity"
+    }
+   }
+  }
+  */
+ ]
+}

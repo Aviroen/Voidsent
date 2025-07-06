@@ -37,7 +37,7 @@
    }
   },
   {
-   "LogName": "{{MAPNAME}} First Edit",
+   "LogName": "{{MAPNAME}} LocationContext edit",
    "Action": "EditMap",
    "Target": "Maps/{{ModId}}_{{MAPNAME}}",
    "MapProperties": {
@@ -45,6 +45,7 @@
    }
   },
   {
+   "LogName": "CJB Warp Sections",
    "Action": "EditData",
    "Target": "Mods/CJBok.CheatsMenu/WarpSections",
    "Entries": {
@@ -55,6 +56,7 @@
    }
   },
   {
+   "LogName": "CJB Cheat Menu",
    "Action": "EditData",
    "Target": "Mods/CJBok.CheatsMenu/Warps",
    "Entries": {

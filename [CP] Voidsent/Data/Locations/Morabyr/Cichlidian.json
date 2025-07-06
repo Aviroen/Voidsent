@@ -11,6 +11,27 @@
     "MUSIC": "mermaidSong",
     "AREA": "Morabyr"
    }
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_Cichlidian",
+   "MapProperties": {
+    "AmbientLight": "255 255 255",
+    "NPCWarp": "16 8 {{ModId}}_WarpNetwork 1 0",
+    "PassOutSafe": "T"
+   },
+   "AddWarps": [
+    //"6 19 {{Morabyr}}"
+    //"7 19 {{Morabyr}}"
+    //"8 19 {{Morabyr}}"
+    //"9 19 {{Morabyr}}"
+    //"10 19 {{Morabyr}}"
+    //"11 19 {{Morabyr}}"
+    //"12 19 {{Morabyr}}"
+    //"13 19 {{Morabyr}}"
+   ],
+   "MapTiles": [
+   ]
   }
  ]
 }
