@@ -277,20 +277,6 @@
     "DayOfWeek": "Sunday"
    },
    "Value": "Sun"
-  },
-  {
-   "Name": "PlatonicCheck",
-   "When": {
-    "HasMod": "Cherry.PlatonicRelationships"
-   },
-   "Value": "Platonic"
-  },
-  {
-   "Name": "PlatonicCheck",
-   "When": {
-    "HasMod|contains=Cherry.PlatonicRelationships": false
-   },
-   "Value": "Romantic"
   }
  ],
  "Changes": [

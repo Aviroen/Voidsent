@@ -81,7 +81,7 @@
   {
    "LogName": "Interior Locations Include",
    "Action": "Include",
-   "FromFile": "Data/Locations/ArtificialBeach/Edelweiss.json, Data/Locations/Morabyr/BreakfastInnBed.json, Data/Locations/Moor/JustOneBite.json, Data/Locations/CrimsonGrove/Grandberg.json, Data/Locations/Commonwealth/Donnlos.json, Data/Locations/Morabyr/Cichlidian.json, Data/Locations/Morabyr/Codfather.json"
+   "FromFile": "Data/Locations/ArtificialBeach/Edelweiss.json, Data/Locations/Morabyr/BreakfastInnBed.json, Data/Locations/Moor/JustOneBite.json, Data/Locations/CrimsonGrove/Grandberg.json, Data/Locations/Commonwealth/Donnlos.json, Data/Locations/Morabyr/Cichlidian.json, Data/Locations/Morabyr/Codfather.json, Data/Locations/Commonwealth/GrandMinistry.json, Data/Locations/CrimsonGrove/GMBlacksmithy.json, Data/Locations/CrimsonGrove/Menagerie.json"
   },
   {
    "LogName": "Other Locations Include",

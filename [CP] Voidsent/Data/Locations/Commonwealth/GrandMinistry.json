@@ -1,5 +1,33 @@
 {
-  "Changes": [
-
-  ]
+ "Changes": [
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "GrandMinistry",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "31",
+    "YARRIVAL": "12",
+    "MUSIC": "mermaidSong",
+    "AREA": "Commonwealth"
+   }
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_GrandMinistry",
+   "MapProperties": {
+    "AmbientLight": "255 255 255",
+    "NPCWarp": "19 12 {{ModId}}_WarpNetwork 1 0",
+    "PassOutSafe": "T"
+   },
+   "AddWarps": [
+    //"8 19 {{Commonwealth}}"
+    //"9 19 {{Commonwealth}}"
+    //"10 19 {{Commonwealth}}"
+    //"11 19 {{Commonwealth}}"
+   ],
+   "MapTiles": [
+   ]
+  }
+ ]
 }

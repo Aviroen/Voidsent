@@ -320,8 +320,32 @@
     "{{WeekDay}}2": "$query {{2HEART}} # {{i18n:{{NPCNAME}}.{{DayOfWeek}}2_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | {{i18n:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}}",
     "{{WeekDay}}4": "$query {{4HEART}} # {{i18n:{{NPCNAME}}.{{DayOfWeek}}4_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | {{i18n:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}}",
     "{{WeekDay}}6": "$query {{6HEART}} # {{i18n:{{NPCNAME}}.{{DayOfWeek}}6_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | {{i18n:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}}",
-    "{{WeekDay}}8": "$query {{8HEART}} # {{i18n:{{NPCNAME}}.{{PlatonicCheck}}.{{DayOfWeek}}8_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | {{i18n:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}}",
-    "{{WeekDay}}10": "$query {{10HEART}} # {{i18n:{{NPCNAME}}.{{PlatonicCheck}}.{{DayOfWeek}}10_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | {{i18n:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}}"
+    "{{WeekDay}}8": "$query {{8HEART}} # {{i18n:{{NPCNAME}}.{{DayOfWeek}}8_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | {{i18n:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}}",
+    "{{WeekDay}}10": "$query {{10HEART}} # {{i18n:{{NPCNAME}}.{{DayOfWeek}}10_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | {{i18n:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}}"
+   }
+  },
+  {
+   "LogName": "Base Dialogue 8/10 heart platonic",
+   "Action": "EditData",
+   "When": {
+    "HasFlag |contains={{ModId}}_{{NPCNAME}}_Platonic": true
+   },
+   "Target": "Characters/Dialogue/{{ModId}}_{{NPCNAME}}",
+   "Entries": {
+    "{{WeekDay}}8": "$query {{8HEART}} # {{i18n:{{NPCNAME}}.Platonic.{{DayOfWeek}}8_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | {{i18n:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}}",
+    "{{WeekDay}}10": "$query {{10HEART}} # {{i18n:{{NPCNAME}}.Platonic.{{DayOfWeek}}10_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | {{i18n:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}}"
+   }
+  },
+  {
+   "LogName": "Base Dialogue 8/10 heart romantic",
+   "Action": "EditData",
+   "When": {
+    "HasFlag |contains={{ModId}}_{{NPCNAME}}_Romantic": true
+   },
+   "Target": "Characters/Dialogue/{{ModId}}_{{NPCNAME}}",
+   "Entries": {
+    "{{WeekDay}}8": "$query {{8HEART}} # {{i18n:{{NPCNAME}}.Romantic.{{DayOfWeek}}8_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | {{i18n:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}}",
+    "{{WeekDay}}10": "$query {{10HEART}} # {{i18n:{{NPCNAME}}.Romantic.{{DayOfWeek}}10_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | {{i18n:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}}"
    }
   },
   {
