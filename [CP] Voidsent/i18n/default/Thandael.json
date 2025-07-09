@@ -41,10 +41,10 @@
 
  //monday crimson grove
  //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_
- "BETAS.Thandael.Monday_0": "Shh! I'm being... Sneaky.$3",
- "BETAS.Thandael.Monday_1": "Don't worry about me, I'll figure out how to escape their grasp.$1",
+ "BETAS.Thandael.Monday_0": "Shh! I'm being... Sneaky.$3#",
+ "BETAS.Thandael.Monday_1": "Don't worry about me, I'll figure out how to escape their grasp.$1#",
  "BETAS.Thandael.Monday_2": "If you listen closely, you can hear Fothao singing.",
- "BETAS.Thandael.Monday_3": "It's that time of the day!$1#$b#Where I sit here contemplating what to do with the rest of it!$1",
+ "BETAS.Thandael.Monday_3": "It's that time of the day!$1#$b#Where I sit here contemplating what to do with the rest of it!$1#",
  //daily
  "Thandael.Monday_0": "So far the intel is lackluster.$6",
  "Thandael.Monday_1": "Have you found the secret paths around the castle yet?",

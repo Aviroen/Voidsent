@@ -18,6 +18,7 @@
    "MapProperties": {
     "AmbientLight": "255 255 255",
     "NPCWarp": "3 21 {{ModId}}_WarpNetwork 1 0",
+    "Doors": "10 3 0 0",
     "PassOutSafe": "T"
    },
    "AddWarps": [
@@ -27,6 +28,17 @@
     //"11 19 {{Commonwealth}}"
    ],
    "MapTiles": [
+    {
+     "Position": {
+      "X": 10,
+      "Y": 3
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "ConditionalDoor PLAYER_HAS_MAIL Current {{Fothao}}_DoorOpen",
+      "EMA_CustomDoor": "{{ModId}}_AviBrownDoor"
+     }
+    }
    ]
   }
  ]

@@ -26,6 +26,7 @@
     }
    }
   },
+/*
   {
    "Action": "EditMap",
    "Target": "Maps/Town",
@@ -38,6 +39,7 @@
     }
    ]
   },
+ */
   {
    "Action": "EditMap",
    "Target": "Maps/{{ModId}}_WarpNetwork",

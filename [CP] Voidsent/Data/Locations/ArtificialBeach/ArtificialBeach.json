@@ -37,8 +37,7 @@
   },
   {
    "When": {
-    "HasFlag|contains={{ModId}}_Friendship1": true,
-    "HasFlag|contains={{ModId}}_Friendship2": true
+    "HasFlag|contains={{ModId}}_Warp": true
    },
    "Action": "EditMap",
    "Target": "Maps/Mines/77377",

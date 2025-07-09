@@ -8,9 +8,10 @@
     "{{ModId}}_WarpMailer": {
      "Id": "{{ModId}}_WarpMailer",
      "Trigger": "DayStarted",
-     "Condition": "MINE_LOWEST_LEVEL_REACHED 121",
+     "Condition": "PLAYER_HAS_MAIL Any ccCraftsRoom",
      "Actions": [
-      "AddMail Current {{ModId}}_Warp tomorrow"
+      "AddMail Current {{ModId}}_Warp received",
+      "Spiderbuttons.BETAS_Message \"{{i18n:QuarryUnlocked}}\""
      ]
     },
     "{{ModId}}_Rooms": {
@@ -35,6 +36,12 @@
      "Trigger": "DayStarted",
      "Condition": null,
      "Action": "AddMail Current {{ModId}}_TheBeginning tomorrow"
+    },
+    "{{ModId}}_Shack": {
+     "Id": "{{ModId}}_Shack",
+     "Trigger": "Manual",
+     "Condition": null,
+     "Action": "AddBuff 23 -2"
     }
    }
   }

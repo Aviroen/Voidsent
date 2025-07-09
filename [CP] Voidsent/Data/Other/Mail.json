@@ -5,8 +5,7 @@
       "Action": "EditData",
       "Target": "Data/Mail",
      "Entries": {
-      "{{ModId}}_Warp": "{{i18n:EdelweissWarpMail}}%item id (O){{ModId}}_WarpTotem 2 %% %item craftingRecipe {{ModId}}_WarpTotem %% [#]{{i18n:EdelweissWarpTitle}}",
-      "{{ModId}}_TheBeginning": "{{i18n:TheBeginning}}[#]{{i18n:TheBeginningTitle}}",
+      "{{ModId}}_TheBeginning": "{{i18n:TheBeginning}}[#]{{i18n:TheBeginningTitle}}"
      }
     }
   ]
