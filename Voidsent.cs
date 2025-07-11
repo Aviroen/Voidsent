@@ -24,6 +24,7 @@ namespace Voidsent
         "Aviroen.VoidsentCP_ArtificialBeach",
         "Aviroen.VoidsentCP_Commonwealth",
         "Aviroen.VoidsentCP_CrimsonGrove",
+        "Aviroen.VoidsentCP_Grandberg1",
         "Aviroen.VoidsentCP_Grove",
         "Aviroen.VoidsentCP_Morabyr",
         "Aviroen.VoidsentCP_Outlands",

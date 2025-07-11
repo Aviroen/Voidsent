@@ -1,6 +1,6 @@
 { //yoinked straight from tiakall.LFL "Tiakall - Little Free Libraries"
  "ForageSpawnEnabled": true,
- "LargeObjectSpawnEnabled": false,
+ "LargeObjectSpawnEnabled": true,
  "OreSpawnEnabled": false,
  "MonsterSpawnEnabled": false,
  "Forage_Spawn_Settings": {
@@ -35,7 +35,7 @@
       "CanBePickedUp": false
      }
     ],
-    "UniqueAreaID": "Voidsent",
+    "UniqueAreaID": "Aviroen.VoidsentCP_BreakfastInnBed",
     "MapName": "Aviroen.VoidsentCP_BreakfastInnBed",
     "MinimumSpawnsPerDay": 4,
     "MaximumSpawnsPerDay": 4,
@@ -100,7 +100,7 @@
       "CanBePickedUp": false
      }
     ],
-    "UniqueAreaID": "Voidsent",
+    "UniqueAreaID": "Aviroen.VoidsentCP_BreakfastInnBed1",
     "MapName": "Aviroen.VoidsentCP_BreakfastInnBed1",
     "MinimumSpawnsPerDay": 4,
     "MaximumSpawnsPerDay": 4,

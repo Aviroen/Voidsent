@@ -28,7 +28,9 @@
    "Action": "EditMap",
    "Target": "Maps/{{ModId}}_Grandberg1",
    "MapProperties": {
-    "mushymato.MMAP_WaterColor": "Red"
+    "mushymato.MMAP_WaterColor": "Red",
+    "DayTiles": "AlwaysFront 9 14 907 AlwaysFront 11 8 907 AlwaysFront 18 8 907 AlwaysFront 20 14 907",
+    "NightTiles": "AlwaysFront 9 14 908 AlwaysFront 11 8 908 AlwaysFront 18 8 908 AlwaysFront 20 14 908"
    },
    "AddWarps": [
     "14 29 {{CrimsonGrove}} 28 11",
