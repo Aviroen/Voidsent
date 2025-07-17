@@ -15,7 +15,7 @@
     "ROMANCE": "false",
     "LIKESGENDER": "Both",
     "GIFTABLE": "true",
-    "UNLOCKCONDITIONS": "PLAYER_HAS_MAIL Current {{ModId}}_Warp any",
+    "UNLOCKCONDITIONS": "",
     "HOMELOCATION": "{{Yrsin}}_Hideout3",
     "HOMEXTILE": "13",
     "HOMEYTILE": "8",

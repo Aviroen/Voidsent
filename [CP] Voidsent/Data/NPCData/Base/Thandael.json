@@ -15,7 +15,7 @@
     "ROMANCE": "false",
     "LIKESGENDER": "Male",
     "GIFTABLE": "true",
-    "UNLOCKCONDITIONS": "PLAYER_HAS_MAIL Current {{ModId}}_Warp any",
+    "UNLOCKCONDITIONS": "",
     "HOMELOCATION": "{{ModId}}_BreakfastInnBed",
     "HOMEXTILE": "33",
     "HOMEYTILE": "34",

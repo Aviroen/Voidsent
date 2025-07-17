@@ -110,24 +110,6 @@
   },
   {
    "Action": "EditMap",
-   "Target": "Maps/{{CrimsonGrove}}",
-   "PatchMode": "Overlay",
-   "FromFile": "Assets/Maps/Patches/AllPatches.tmx",
-   "FromArea": {
-    "X": 9,
-    "Y": 3,
-    "Width": 28,
-    "Height": 4
-   },
-   "ToArea": {
-    "X": 15,
-    "Y": 2,
-    "Width": 28,
-    "Height": 4
-   }
-  },
-  {
-   "Action": "EditMap",
    "Target": "Maps/{{ModId}}_Grandberg2",
    "PatchMode": "Overlay",
    "FromFile": "Assets/Maps/Patches/AllPatches.tmx",

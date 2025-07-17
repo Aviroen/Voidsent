@@ -102,7 +102,7 @@ public static class TentPatch
         }
         catch (Exception e)
         {
-            Monitor.Log("ProfileMenu Error", LogLevel.Error);
+            Monitor.Log("TentPatch Error", LogLevel.Error);
             Monitor.Log(e.Message, LogLevel.Error);
         }
 

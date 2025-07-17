@@ -33,6 +33,12 @@
      "ScheduleKey": "{{Thandael}}_H4Thu",
      "Priority": "Late",
      "Condition": "PLAYER_HAS_SEEN_EVENT Current {{ModId}}_ThanYrsinH4, DAY_OF_WEEK Thursday"
+    },
+    "{{ModId}}_Iro_arisephoto": {
+     "Id": "{{ModId}}_Iro_arisephoto",
+     "ScheduleKey": "{{ModId}}_Iro_arisephoto",
+     "Priority": "Late",
+     "Condition": "ANY \"{{Photosensitive Mode|contains=true}}\", DAY_OF_WEEK Tuesday"
     }
    }
   },
@@ -45,6 +51,13 @@
     "{{Thandael}}_H4Wed": "610 {{Yrsin}}_Office 12 7 3/2600 {{ModId}}_Codfather 11 5 0",
     "{{Thandael}}_H4Wed2": "610 {{ModId}}_BreakfastInnBed 20 8 2/2600 {{ModId}}_Codfather 11 5 0",
     "{{Thandael}}_H4Thu": "610 {{ModId}}_Codfather 5 21 2/2600 {{ModId}}_Codfather 11 5 0"
+   }
+  },
+  {
+   "Action": "EditData",
+   "Target": "Characters/schedules/{{ModId}}_Iro",
+   "Entries": {
+    "{{ModId}}_Iro_arisephoto": "610 {{CrimsonGrove}} 22 41 2/1200 {{CrimsonGrove}} 22 41 2 {{ModId}}_Iro_arisephoto/1500 {{CrimsonGrove}} 22 41 2"
    }
   }
   /*

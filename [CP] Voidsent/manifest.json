@@ -40,12 +40,10 @@
    "UniqueID": "rokugin.extramapactions",
    "IsRequired": true
   },
-  /*
   {
    "UniqueID": "spacechase0.SpaceCore",
    "IsRequired": true
   },
-  */
   {
    "UniqueID": "KaileyStardew.Tilesheets",
    "IsRequired": true

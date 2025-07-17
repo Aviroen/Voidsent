@@ -17,11 +17,12 @@
    "Target": "Maps/{{CrimsonGrove}}",
    "MapProperties": {
     "mushymato.MMAP_WaterColor": "Red",
-    "SeasonOverride": "Fall"
+    "SeasonOverride": "Fall",
+    "Outdoors": "T"
    },
    "AddWarps": [
-    "28 9 {{ModId}}_Grandberg1 14 28",
-    "29 9 {{ModId}}_Grandberg1 15 28",
+    "30 8 {{ModId}}_Grandberg1 14 28",
+    "31 8 {{ModId}}_Grandberg1 15 28",
     "59 46 {{Morabyr}} 30 1",
     "0 34 {{Grove}} 48 22"
    ]

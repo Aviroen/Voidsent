@@ -52,7 +52,6 @@ namespace Voidsent
 
             helper.ConsoleCommands.Add("lizard", "Spawn lizard.", Lizard.LizardDebugCmd);
             GameLocation.RegisterTileAction("Aviroen.Voidsent_SummonLizard", Lizard.HandleSummonLizard);
-            //GameLocation.RegisterTileAction("Aviroen.Voidsent", Pathoschild.OnCentralAction);
             GameLocation.RegisterTileAction("Aviroen.VoidsentBoard", VSSpecialOrderBoard.OpenVSBoard);
             TriggerActionManager.RegisterAction("Aviroen.Voidsent_RandomDialogue", RandomDialogueAction.Action);
 
@@ -66,7 +65,6 @@ namespace Voidsent
             SocialPagePatch.Initialize(Monitor);
             ProfileMenuPatch.Initialize(Monitor);
             RandomDialogueAction.Initialize(helper.ModRegistry);
-            //Pathoschild.Initialize(helper.ModRegistry, ModManifest.UniqueID);
             VSSpecialOrderBoard.Initialize(Monitor, helper);
 
             

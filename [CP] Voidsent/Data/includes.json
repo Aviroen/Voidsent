@@ -94,6 +94,11 @@
    "FromFile": "Data/NPCData/Base/Duvin.json, Data/NPCData/Base/Edelweiss.json, Data/NPCData/Base/Fothao.json, Data/NPCData/Base/Lysella.json, Data/NPCData/Base/Muvi.json, Data/NPCData/Base/Thandael.json, Data/NPCData/Base/Yrsin.json, Data/NPCData/Base/Trinity.json"
   },
   {
+   "LogName": "Cats",
+   "Action": "Include",
+   "FromFile": "Data/NPCData/Cats/Avicat.json, Data/NPCData/Cats/Johcat.json, Data/NPCData/Cats/Kiscat.json, Data/NPCData/Cats/Irocat.json, Data/NPCData/Cats/Paucat.json"
+  },
+  {
    "LogName": "Data Include",
    "Action": "Include",
    "FromFile": "Data/Other/Animals.json, Data/Other/Craftables.json, Data/Other/EMA.json, Data/Other/Fish.json, Data/Other/LocContext.json, Data/Other/Mail.json, Data/Other/MMAP.json, Data/Other/Shops.json, Data/Other/SpaceCore.json, Data/Other/SpecialOrders.json, Data/Other/Spiderbuttons.json, Data/Other/Strings.json, Data/Other/TriggerActions.json"
