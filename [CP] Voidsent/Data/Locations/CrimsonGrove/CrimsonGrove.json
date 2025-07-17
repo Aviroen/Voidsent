@@ -18,7 +18,7 @@
    "MapProperties": {
     "mushymato.MMAP_WaterColor": "Red",
     "SeasonOverride": "Fall",
-    "Outdoors": "T"
+    //"Outdoors": "T"
    },
    "AddWarps": [
     "30 8 {{ModId}}_Grandberg1 14 28",

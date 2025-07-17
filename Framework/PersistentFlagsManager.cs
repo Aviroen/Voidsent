@@ -1,6 +1,7 @@
 ﻿// SPDX-License-Identifier: MIT
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
+using ContentPatcher;
 using StardewModdingAPI;
 using StardewModdingAPI.Events;
 using StardewValley;
@@ -8,7 +9,7 @@ using StardewValley.Delegates;
 using StardewValley.Extensions;
 using StardewValley.Triggers;
 
-namespace Voidsent.Integration;
+namespace Voidsent.Framework;
 
 /// <summary>
 /// Model of data that will go into global app data.

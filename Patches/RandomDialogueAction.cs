@@ -9,7 +9,7 @@ namespace Voidsent.Patches;
 
 public static class RandomDialogueAction
 {
-    private static IModRegistry ModRegistry { get; set; }
+    private static IModRegistry ModRegistry { get; set; } = null!;
     public static void Initialize(IModRegistry registry)
     {
         ModRegistry = registry;

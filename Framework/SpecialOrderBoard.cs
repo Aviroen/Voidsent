@@ -9,6 +9,7 @@ using StardewValley.GameData.SpecialOrders;
 using StardewValley.SpecialOrders;
 using StardewValley.Extensions;
 using StardewValley.Characters;
+//code from Ridgeside Village https://github.com/Rafseazz/Ridgeside-Village-Mod
 
 namespace Voidsent.Framework
 {

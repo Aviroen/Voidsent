@@ -35,8 +35,10 @@
    "AddWarps": [
     "14 29 {{CrimsonGrove}} 28 11",
     "15 29 {{CrimsonGrove}} 29 11",
-    "10 2 {{ModId}}_Grandberg2 13 28",
-    "19 2 {{ModId}}_Grandberg2 16 28"
+    "13 0 {{ModId}}_Grandberg2 13 28",
+    "14 0 {{ModId}}_Grandberg2 16 28",
+    "15 0 {{ModId}}_Grandberg2 13 28",
+    "16 0 {{ModId}}_Grandberg2 13 28"
    ]
   },
   {

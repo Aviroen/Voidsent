@@ -24,7 +24,7 @@ namespace Voidsent.Patches;
 [HarmonyPatch("_SetCharacter")]
 public static class ProfileMenuPatch
 {
-    private static IMonitor Monitor { get; set; }
+    private static IMonitor Monitor { get; set; } = null!;
 
     public static void Initialize(IMonitor monitor)
     {
