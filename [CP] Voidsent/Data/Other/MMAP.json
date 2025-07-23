@@ -15,7 +15,7 @@
        "Actions": [
         "AddMail Current {{ModId}}_ExpensiveRoom now",
         "AddMoney -20000",
-        "Spiderbuttons.BETAS_DialogueBox {{Yrnal}} [LocalizedText {{ModId}}/Strings:Expensive]" //LOOK AT NEW DOCS
+        "Spiderbuttons.BETAS_DialogueBox {{Yrnal}} [LocalizedText {{ModId}}/Strings:Expensive]"
        ]
       },
       "CheapRoom": {
@@ -24,7 +24,7 @@
        "Actions": [
         "AddMail Current {{ModId}}_CheapRoom now",
         "AddMoney -1000",
-        "Spiderbuttons.BETAS_DialogueBox {{Yrnal}} [LocalizedText {{ModId}}/Strings:Cheap]" //LOOK AT NEW DOCS
+        "Spiderbuttons.BETAS_DialogueBox {{Yrnal}} [LocalizedText {{ModId}}/Strings:Cheap]"
        ]
       },
       "Cancel": {}
@@ -32,16 +32,16 @@
     },
     "{{ModId}}_BIBLeave": {
      "Question": "[LocalizedText {{ModId}}/Strings:Leave]",
-     //"Speaker": "{{Yrnal}}",
+     "Speaker": "{{Yrnal}}",
      "ResponseEntries": {
       "YesLeave": {
-       "Label": "Yes, please!",
+       "Label": "[LocalizedText {{ModId}}/Strings:LeaveYes]",
        // both actions run
        "Actions": [
         "RemoveMail Current {{ModId}}_ExpensiveRoom now",
         "RemoveMail Current {{ModId}}_CheapRoom now",
-        "Spiderbuttons.BETAS_WarpFarmer {{ModId}}_BreakfastInnBed 18 32 0", //LOOK AT NEW DOCS
-        "Spiderbuttons.BETAS_DialogueBox {{Yrnal}} [LocalizedText {{ModId}}/Strings:Leaving]" //LOOK AT NEW DOCS
+        "Spiderbuttons.BETAS_WarpFarmer {{ModId}}_BreakfastInnBed 18 32 0",
+        "Spiderbuttons.BETAS_DialogueBox {{Yrnal}} [LocalizedText {{ModId}}/Strings:Leaving]"
        ]
       },
       "Cancel": {}
@@ -51,48 +51,39 @@
      "Question": "[LocalizedText {{ModId}}/Strings:ABCheck]",
      //"Speaker": "{{Yrnal}}",
      "ResponseEntries": {
-      "ExpensiveRoom": {
+      "PurchaseTicket": {
        "Label": "[LocalizedText {{ModId}}/Strings:ABBuy]",
        "Condition": "PLAYER_CURRENT_MONEY Current 1000",
        // both actions run
        "Actions": [
         "AddMoney -1000",
-        "Spiderbuttons.BETAS_WarpFarmer {{ModId}}_BreakfastInnBed 18 32 0" //LOOK AT NEW DOCS
+        "Spiderbuttons.BETAS_WarpFarmer {{Morabyr}} 63 94 3"
         //"spacechase0.SpaceCore_PlayEvent eventid true"
        ]
       },
       "Cancel": {}
+     }
+    },
+    "{{ModId}}_Grave": {
+     "Question": "[LocalizedText {{ModId}}/Strings:Grave]",
+     "ResponseEntries": {
+      "ReadGrave": {
+       "Label": "[LocalizedText {{ModId}}/Strings:GraveLabel]",
+       "Condition": "",
+       "Actions": [
+        "Spiderbuttons.BETAS_DialogueBox {{ModId}}_Avi [LocalizedText {{ModId}}/Strings:GraveText]",
+        "AddMail Current {{ModId}}_GraveRead now"
+       ]
+      }
      }
     }
    }
   }
  ]
 }
- // {
- //   "Action": "EditMap",
- //   "Target": "Maps/BusStop",
- //   "MapTiles": [
- //     {
- //       "Position": {
- //         "X": 14,
- //         "Y": 23
- //       },
- //       "Layer": "Back",
- //       "SetProperties": {
- //         "TouchAction": "mushymato.MMAP_HoleWarp WitchHut 7 15"
- //       }
- //     },
- //     {
- //       "Position": {
- //         "X": 14,
- //         "Y": 23
- //       },
- //       "SetTilesheet": "outdoors",
- //       "SetIndex": 161,
- //       "Layer": "Front",
- //       "SetProperties": {
- //         "mushymato.MMAP_Light": "4 White"
- //       }
- //     }
- //   ]
- // },
+/*
+   {
+   "Action": "EditData",
+   "Target":  "mushymato.MMAP/Panorama"
+  }
+*/

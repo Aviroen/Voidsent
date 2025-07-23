@@ -50,7 +50,7 @@
     "10HEART": false, //true/false
 
     "SEPARATEDATABILITY": false, //true/false
-    "BETASTOGGLED": false, //true/false
+    "BETASTOGGLED": true, //true/false
     //"BETASWIPED": true, //whether you want the dialogue to change based on npc having wiped memory
     "CUSTOMENDEARMENT": false, //whether or not you're fulfilling a string for custom endearments like (single), (partner), (enemy)
     "REJECTPENDANT": true, //whether you want the npc to reject the pendant and instead want engagement through spacecore

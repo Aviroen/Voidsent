@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="23" nextobjectid="2">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="23" nextobjectid="3">
  <properties>
   <property name="TreatAsOutdoors" value="T"/>
+  <property name="mushymato.MMAP_LightRays" value="T"/>
+  <property name="mushymato.MMAP_WoodsLighting" value="T"/>
  </properties>
  <tileset firstgid="1" name="spring_kailey_outdoors" tilewidth="16" tileheight="16" tilecount="3276" columns="42">
   <image source="spring_kailey_outdoors.png" width="672" height="1248"/>
@@ -2040,7 +2042,7 @@
 2340,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2338,
 2340,0,21116,5421,5422,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5420,5421,21116,0,2338,
 2340,0,5452,5453,5454,0,0,0,0,0,0,0,0,0,0,0,0,0,0,22841,22842,22843,0,0,0,5452,5453,5454,0,2338,
-2340,0,3340,3341,3342,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3340,3341,3342,0,2338,
+2340,0,3340,3341,3342,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20373,20374,0,0,3340,3341,3342,0,2338,
 2340,0,0,0,0,0,0,0,0,0,0,21799,21118,21119,0,0,21118,21119,21799,0,0,0,0,0,0,0,0,0,0,2338,
 2340,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2338,
 2340,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2338,
@@ -2073,7 +2075,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,21084,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,21084,0,0,
 0,0,3290,3291,3292,0,0,0,0,0,0,21703,0,0,0,0,0,0,21703,22809,22810,22811,0,0,0,3290,3291,3292,0,0,
-0,0,3315,3316,3317,0,0,0,0,0,0,21735,0,0,0,0,0,0,21735,0,0,0,0,0,0,3315,3316,3317,0,0,
+0,0,3315,3316,3317,0,0,0,0,0,0,21735,0,0,0,0,0,0,21735,0,0,20357,20358,0,0,3315,3316,3317,0,0,
 0,0,0,0,0,0,0,0,0,0,0,21767,21086,21087,0,0,21086,21087,21767,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,21867,21867,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -2168,6 +2170,11 @@
   <object id="1" name="TileData" x="304" y="144" width="48" height="16">
    <properties>
     <property name="Action" value="Aviroen.VoidsentBoard 2"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="336" y="160" width="32" height="16">
+   <properties>
+    <property name="Action" value="mushymato.MMAP_ShowBag Aviroen.Voidsent#Grandberg BigChest"/>
    </properties>
   </object>
  </objectgroup>

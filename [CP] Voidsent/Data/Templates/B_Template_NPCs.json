@@ -1,0 +1,195 @@
+{
+ "Changes": [
+  {
+   "LogName": "Portrait/Character loads",
+   "Action": "Load",
+   "Priority": "Low",
+   "Target": "Characters/{{ModId}}_{{NPCNAME}}, Portraits/{{ModId}}_{{NPCNAME}}",
+   "FromFile": "Assets/NPCS/Antisocials/{{TYPEOFPERSON}}.png"
+  },
+  { //blank loads so that i can target edit
+   "LogName": "BlankLoads",
+   "Action": "Load",
+   "Priority": "Low",
+   "Target": "Characters/Dialogue/{{ModId}}_{{NPCNAME}}, Characters/Dialogue/MarriageDialogue{{ModId}}_{{NPCNAME}}, Characters/schedules/{{ModId}}_{{NPCNAME}}, Strings/Schedules/{{ModId}}_{{NPCNAME}}",
+   "FromFile": "data/blank.json"
+  },
+  {
+   "Action": "Load",
+   "FromFile": "{{FirstValidFile: i18n/{{language}}/AntiSocials.json, i18n/default/AntiSocials.json}}",
+   "Priority": "Low",
+   "Target": "{{ModId}}/NPCTranslations"
+  },
+  {
+   "LogName": "Trigger Actions: BETAS",
+   "Action": "EditData",
+   "Target": "Data/TriggerActions",
+   "Entries": {
+    "{{ModId}}_{{NPCNAME}}_DialogueOpened": {
+     "Id": "{{ModId}}_{{NPCNAME}}_DialogueOpened",
+     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
+     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, ITEM_STACK Target 1",
+     "MarkActionApplied": false,
+     "Action": "Aviroen.Voidsent_RandomDialogue Aviroen.VoidsentCP {{ModId}}_{{NPCNAME}} BETAS.{{NPCNAME}}.{{DayOfWeek}}_ {{Range:0,{{ENDRANGE}}}}"
+    }
+   }
+  },
+  {
+   "Action": "EditData",
+   "Target": "Data/Characters",
+   "Entries": {
+    "{{ModId}}_{{NPCNAME}}": {
+     "DisplayName": "{{i18n:{{DISPLAYNAME}}}}",
+     "BirthSeason": null,
+     "BirthDay": 0,
+     "HomeRegion": "Other",
+     "Language": "Default",
+     "Gender": "{{GENDER}}",
+     "Age": "Adult",
+     "Manner": "{{MANNER}}",
+     "SocialAnxiety": "{{ANXIETY}}",
+     "Optimism": "{{OPTIMISM}}",
+     "IsDarkSkinned": "{{DARKSKIN}}",
+     "CanBeRomanced": false,
+     "LoveInterest": null,
+     "Calendar": "HiddenUntilMet",
+     "SocialTab": "HiddenUntilMet",
+     "CanSocialize": "{{GIFTABLE}}",
+     "CanReceiveGifts": "{{GIFTABLE}}",
+     "CanGreetNearbyCharacters": true,
+     "CanCommentOnPurchasedShopItems": null,
+     "CanVisitIsland": false,
+     "IntroductionsQuest": false,
+     "ItemDeliveryQuests": null,
+     "PerfectionScore": false,
+     "EndSlideShow": "TrailingGroup",
+     "SpouseAdopts": null,
+     "SpouseWantsChildren": null,
+     "SpouseGiftJealousy": null,
+     "SpouseGiftJealousyFriendshipChange": -30,
+     "SpouseRoom": null,
+     "SpousePatio": null,
+     "SpouseFloors": [],
+     "SpouseWallpapers": [],
+     "DumpsterDiveFriendshipEffect": -5,
+     "DumpsterDiveEmote": null,
+     "FriendsAndFamily": {
+     },
+     "FlowerDanceCanDance": false,
+     "WinterStarGifts": [],
+     "WinterStarParticipant": null,
+     "UnlockConditions": "{{UNLOCKCONDITIONS}}",
+     "SpawnIfMissing": true,
+     "Home": [
+      {
+       "Id": "Default",
+       "Condition": null,
+       "Location": "{{HOMELOCATION}}",
+       "Tile": {
+        "X": "{{HOMEXTILE}}",
+        "Y": "{{HOMEYTILE}}"
+       },
+       "Direction": "{{HOMEFACING}}"
+      }
+     ],
+     "TextureName": null,
+     "Appearance": null,
+     "MugShotSourceRect": null,
+     "Size": {
+      "X": 16,
+      "Y": 32
+     },
+     "Breather": true,
+     "BreathChestRect": null,
+     "BreathChestPosition": null,
+     "Shadow": null,
+     "EmoteOffset": {
+      "X": 0,
+      "Y": 0
+     },
+     "ShakePortraits": [ 15 ],
+     "KissSpriteIndex": 28,
+     "KissSpriteFacingRight": false,
+     "HiddenProfileEmoteSound": "newRecipe",
+     "HiddenProfileEmoteDuration": 4000,
+     "HiddenProfileEmoteStartFrame": 32,
+     "HiddenProfileEmoteFrameCount": 2,
+     "HiddenProfileEmoteFrameDuration": 200.0,
+     "FormerCharacterNames": [],
+     "CustomFields": null
+    }
+   }
+  },
+  //////////////////////////////////////////////////////////////////////////////////////////////////
+  {
+   "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "Entries": {
+    "{{ModId}}_{{NPCNAME}}": "{{i18n:{{NPCNAME}}.Gifts.Loved}}/{{LOVEDGIFTS}}/{{i18n:{{NPCNAME}}.Gifts.Liked}}/{{LIKEDGIFTS}}/{{i18n:{{NPCNAME}}.Gifts.Disliked}}/{{DISLIKEDGIFTS}}/{{i18n:{{NPCNAME}}.Gifts.Hated}}/{{HATEDGIFTS}}/{{i18n:{{NPCNAME}}.Gifts.Neutral}}/{{NEUTRALGIFTS}}/"
+   }
+  },
+
+  //////////////////////////////////////////////////////////////////////////////////////////////////
+  {
+   "LogName": "Schedule Data",
+   "Action": "EditData",
+   "Target": "Characters/schedules/{{ModId}}_{{NPCNAME}}",
+   "Entries": {
+    "spring": "{{SPRINGSCHEDULE}}",
+    "summer": "{{SUMMERSCHEDULE}}",
+    "fall": "{{FALLSCHEDULE}}",
+    "winter": "{{WINTERSCHEDULE}}",
+    "Mon": "{{MONDAYSCHEDULE}}",
+    "Tue": "{{TUESDAYSCHEDULE}}",
+    "Wed": "{{WEDNESDAYSCHEDULE}}",
+    "Thu": "{{THURSAYSCHEDULE}}",
+    "Fri": "{{FRIDAYSCHEDULE}}",
+    "Sat": "{{SATURDAYSCHEDULE}}",
+    "Sun": "{{SUNDAYSCHEDULE}}"
+   }
+  },
+  /*
+  {
+   "LogName": "Gender locks",
+   "Action": "EditData",
+   "Target": "Data/Characters",
+   "When": {
+    "Query: ('{{PlayerGender}}' = '{{LIKESGENDER}}') OR ('{{LIKESGENDER}}' = 'Both')": true,
+    "Query: {{ROMANCE}}": true
+   },
+   "Fields": {
+    "{{ModId}}_{{NPCNAME}}": {
+     "CanBeRomanced": true
+    }
+   }
+  },
+  */
+  //////////////////////////////////////////////////////////////////////////////////////////////////
+  {
+   "LogName": "Base Dialogue",
+   "Action": "EditData",
+   "Target": "Characters/Dialogue/{{ModId}}_{{NPCNAME}}",
+   "Entries": {
+    "breakUp": "{{i18n:{{NPCNAME}}.breakUp}}",
+    "divorced": "{{i18n:{{NPCNAME}}.divorced}}",
+    "DumpsterDiveComment": "{{i18n:{{NPCNAME}}.DumpsterDiveComment}}",
+    "HitBySlingshot": "{{i18n:{{NPCNAME}}.HitBySlingshot}}",
+    "SpouseFarmhouseClutter": "{{i18n:{{NPCNAME}}.SpouseFarmhouseClutter}}",
+    "SpouseGiftJealous": "{{i18n:{{NPCNAME}}.SpouseGiftJealous}}",
+    "Spouse_MonstersInHouse": "{{i18n:{{NPCNAME}}.Spouse_MonstersInHouse}}",
+    "SpouseStardrop": "{{i18n:{{NPCNAME}}.SpouseStardrop}}",
+    "WipedMemory": "{{i18n:{{NPCNAME}}.WipedMemory}}",
+    "AcceptBouquet": "{{i18n:{{NPCNAME}}.AcceptBouquet}}",
+    "MovieInvitation": "{{i18n:{{NPCNAME}}.MovieInvitation}}",
+    "RejectBouquet": "{{i18n:{{NPCNAME}}.RejectBouquet}}",
+    "RejectGift_Divorced": "{{i18n:{{NPCNAME}}.RejectGift_Divorced}}",
+    "RejectMermaidPendant": "{{i18n:{{NPCNAME}}.RejectMermaidPendant}}",
+    "RejectMovieTicket": "{{i18n:{{NPCNAME}}.RejectMovieTicket}}",
+    "GreenRain": "{{i18n:{{NPCNAME}}.GreenRain}}",
+    "GreenRainFinished": "{{i18n:{{NPCNAME}}.GreenRainFinished}}",
+
+    "{{WeekDay}}": "$query {{Query: {{ENDRANGE}} > 3}} # {{i18n:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | {{i18n:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}}"
+   }
+  }
+ ]
+}

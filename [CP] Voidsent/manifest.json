@@ -40,18 +40,24 @@
    "UniqueID": "rokugin.extramapactions",
    "IsRequired": true
   },
-/*
   {
    "UniqueID": "spacechase0.SpaceCore",
    "IsRequired": true
   },
- */
   {
    "UniqueID": "KaileyStardew.Tilesheets",
    "IsRequired": true
   },
   {
    "UniqueID": "crystalinerose.Tilesheets",
+   "IsRequired": true
+  },
+  {
+   "UniqueID": "hxw.tilesheets",
+   "IsRequired": true
+  },
+  {
+   "UniqueID": "Lumisteria.TtilesheetsOutdoor",
    "IsRequired": true
   }
  ],

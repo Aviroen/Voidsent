@@ -43,12 +43,12 @@
     //office
     "WEDNESDAYSCHEDULE": "610 {{Yrsin}}_Office 9 5 2/2600 {{Yrsin}}_Hideout1 15 16 2 {{Yrsin}}_sleep",
     //morabyr alley
-    "THURSAYSCHEDULE": "GOTO spring",
+    "THURSAYSCHEDULE": "610 {{Morabyr}} 23 52 2/1200 {{Morabyr}} 21 63 2/1800 {{Morabyr}} 29 74 2/2600 {{Yrsin}}_Hideout1 15 16 2 {{Yrsin}}_sleep",
     //breakfast inn bed
     "FRIDAYSCHEDULE": "610 {{ModId}}_BreakfastInnBed 11 33 2/2600 {{Yrsin}}_Hideout1 15 16 2 {{Yrsin}}_sleep",
     //port morabyr port
-    "SATURDAYSCHEDULE": "GOTO spring",
-    "SUNDAYSCHEDULE": "GOTO spring",
+    "SATURDAYSCHEDULE": "610 {{Morabyr}} 69 79 0/1200 {{Morabyr}} 52 73 3/1800 {{Morabyr}} 62 93 2/2600 {{Yrsin}}_Hideout1 15 16 2 {{Yrsin}}_sleep",
+    "SUNDAYSCHEDULE": "610 {{Morabyr}} 69 79 0/1200 {{Morabyr}} 52 73 3/1800 {{Morabyr}} 62 93 2/2600 {{Yrsin}}_Hideout1 15 16 2 {{Yrsin}}_sleep",
 
     //HEART DIALOGUES
     "2HEART": true, //true/false

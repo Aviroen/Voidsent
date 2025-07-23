@@ -18,7 +18,7 @@ internal static class GuidHelper
 
 public static class Lizard
 {
-    private static IMonitor Monitor { get; set; }
+    private static IMonitor Monitor { get; set; } = null!;
 
     public static void Initialize(IMonitor monitor)
     {

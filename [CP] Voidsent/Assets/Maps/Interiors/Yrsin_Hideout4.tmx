@@ -2,6 +2,8 @@
 <map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="21" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="2">
  <properties>
   <property name="indoorWater" value="T"/>
+  <property name="mushymato.MMAP_LightRays" value="T"/>
+  <property name="mushymato.MMAP_WoodsLighting" value="T"/>
  </properties>
  <tileset firstgid="1" name="spring_outdoorsTileSheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
   <image source="spring_outdoorsTileSheet.png" width="400" height="1264"/>

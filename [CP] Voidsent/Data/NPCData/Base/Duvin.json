@@ -16,9 +16,9 @@
     "LIKESGENDER": "Male",
     "GIFTABLE": "true",
     "UNLOCKCONDITIONS": "",
-    "HOMELOCATION": "{{ModId}}_Grandberg1",
-    "HOMEXTILE": "17",
-    "HOMEYTILE": "14",
+    "HOMELOCATION": "{{ModId}}_GMBlacksmithy",
+    "HOMEXTILE": "5",
+    "HOMEYTILE": "7",
     "HOMEFACING": "down", //left, right, up, down
     "LOVEDGIFTS": "166",
     "LIKEDGIFTS": "category_fish",
@@ -35,18 +35,13 @@
     "SUMMERSCHEDULE": "GOTO spring",
     "FALLSCHEDULE": "GOTO spring",
     "WINTERSCHEDULE": "GOTO spring",
-    //hammering
-    "MONDAYSCHEDULE": "GOTO spring",
-    //alchemy
-    "TUESDAYSCHEDULE": "GOTO spring",
-    //reading
+    "MONDAYSCHEDULE": "610 {{ModId}}_GMBlacksmithy 5 7 3",
+    "TUESDAYSCHEDULE": "610 {{ModId}}_Menagerie 12 10 1/1200 {{ModId}}_GMBlacksmithy 5 7 3",
     "WEDNESDAYSCHEDULE": "GOTO spring",
-    //grave
     "THURSAYSCHEDULE": "GOTO spring",
-    //hammer
     "FRIDAYSCHEDULE": "GOTO spring",
     "SATURDAYSCHEDULE": "GOTO spring",
-    "SUNDAYSCHEDULE": "GOTO spring",
+    "SUNDAYSCHEDULE": "610 {{ModId}}_Grandberg1 15 11 3",
 
     //HEART DIALOGUES
     "2HEART": true, //true/false

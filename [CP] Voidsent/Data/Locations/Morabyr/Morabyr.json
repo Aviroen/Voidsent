@@ -6,23 +6,230 @@
    "LocalTokens": {
     "MAPNAME": "Morabyr",
     "INTERIORORLOCATIONS": "Locations",
-    "XARRIVAL": "8",
-    "YARRIVAL": "18",
+    "XARRIVAL": "69",
+    "YARRIVAL": "95",
     "MUSIC": "mermaidSong",
     "AREA": "Morabyr"
+   }
+  },
+  {
+   "LogName": "Fish",
+   "Action": "EditData",
+   "Target": "Data/Locations",
+   "TargetField": [ "{{ModId}}_Morabyr", "Fish" ],
+   "Entries": {
+    "{{ModId}}_ShortfinMakoShark": {
+     "Id": "{{ModId}}_ShortfinMakoShark",
+     "ItemID": "(O){{ModId}}_ShortfinMakoShark",
+     "Chance": 0.02
+    },
+    "{{ModId}}_DogfishShark": {
+     "Id": "{{ModId}}_DogfishShark",
+     "ItemID": "(O){{ModId}}_DogfishShark",
+     "Chance": 0.02
+    },
+    "{{ModId}}_FrilledShark": {
+     "Id": "{{ModId}}_FrilledShark",
+     "ItemID": "(O){{ModId}}_FrilledShark",
+     "Chance": 0.02
+    },
+    "{{ModId}}_ThresherShark": {
+     "Id": "{{ModId}}_ThresherShark",
+     "ItemID": "(O){{ModId}}_ThresherShark",
+     "Chance": 0.02
+    },
+    "{{ModId}}_BlueShark": {
+     "Id": "{{ModId}}_BlueShark",
+     "ItemID": "(O){{ModId}}_BlueShark",
+     "Chance": 0.02
+    },
+    "{{ModId}}_NurseShark": {
+     "Id": "{{ModId}}_NurseShark",
+     "ItemID": "(O){{ModId}}_NurseShark",
+     "Chance": 0.02
+    },
+    "{{ModId}}_ZebraShark": {
+     "Id": "{{ModId}}_ZebraShark",
+     "ItemID": "(O){{ModId}}_ZebraShark",
+     "Chance": 0.02
+    },
+    "{{ModId}}_TigerShark": {
+     "Id": "{{ModId}}_TigerShark",
+     "ItemID": "(O){{ModId}}_TigerShark",
+     "Chance": 0.02
+    },
+    "{{ModId}}_BullShark": {
+     "Id": "{{ModId}}_BullShark",
+     "ItemID": "(O){{ModId}}_BullShark",
+     "Chance": 0.02
+    },
+    "{{ModId}}_HammerheadShark": {
+     "Id": "{{ModId}}_HammerheadShark",
+     "ItemID": "(O){{ModId}}_HammerheadShark",
+     "Chance": 0.02
+    },
+    "{{ModId}}_Shorbk": {
+     "Id": "{{ModId}}_Shorbk",
+     "ItemID": "(O){{ModId}}_Shorbk",
+     "Chance": 0.002
+    },
+    "{{ModId}}_WhaleShark": {
+     "Id": "{{ModId}}_WhaleShark",
+     "ItemID": "(O){{ModId}}_WhaleShark",
+     "Chance": 0.02
+    },
+    "{{ModId}}_Megalodon": {
+     "Id": "{{ModId}}_Megalodon",
+     "ItemID": "(O){{ModId}}_Megalodon",
+     "Chance": 0.002
+    }
    }
   },
   {
    "Action": "EditMap",
    "Target": "Maps/{{Morabyr}}",
    "MapProperties": {
-
+    "Outdoors": "T",
+    "mushymato.MMAP_WaterColor": "Red",
+    "mushymato.MMAP_Panorama": "MMAP_ClearSky",
+    "NPCWarp": "95 68 {{ModId}}_WarpNetwork 1 0"
    },
    "AddWarps": [
-    "111 51 {{Commonwealth}} 1 12",
-    "30 0 {{CrimsonGrove}} 58 53",
-    "3 42 {{Moor}} 58 1",
-    "71 69 {{ArtificialBeach}} 26 47"
+    "126 0 {{CrimsonGrove}} 56 56",
+    "127 0 {{CrimsonGrove}} 55 56",
+    "128 0 {{CrimsonGrove}} 55 56"
+   ],
+   "MapTiles": [
+    {
+     "Position": {
+      "X": 14,
+      "Y": 49
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "mushymato.MMAP_QuestionDialogue {{ModId}}_Grave"
+     }
+    },
+    {
+     "Position": {
+      "X": 9,
+      "Y": 50
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Warp 9 19 {{ModId}}_JustOneBite"
+     }
+    },
+    {
+     "Position": {
+      "X": 58,
+      "Y": 62
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Warp 17 37 {{ModId}}_BreakfastInnBed"
+     }
+    },
+    {
+     "Position": {
+      "X": 59,
+      "Y": 62
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Warp 17 37 {{ModId}}_BreakfastInnBed"
+     }
+    },
+    {
+     "Position": {
+      "X": 74,
+      "Y": 72
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Warp 9 25 {{ModId}}_Codfather"
+     }
+    },
+    {
+     "Position": {
+      "X": 75,
+      "Y": 72
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Warp 9 25 {{ModId}}_Codfather"
+     }
+    },
+    {
+     "Position": {
+      "X": 81,
+      "Y": 67
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Warp 9 17 {{ModId}}_Cichlidian"
+     }
+    },
+    {
+     "Position": {
+      "X": 154,
+      "Y": 63
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Warp 16 38 {{ModId}}_GrandMinistry"
+     }
+    },
+    {
+     "Position": {
+      "X": 143,
+      "Y": 53
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Warp 9 17 {{ModId}}_Donnlos"
+     }
+    },
+    {
+     "Position": {
+      "X": 63,
+      "Y": 93
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Warp 14 23 {{ModId}}_ArtificialBeach"
+     }
+    },
+    {
+     "Position": {
+      "X": 62,
+      "Y": 93
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Aviroen.Voidsent_SummonLizard"
+     }
+    },
+    {
+     "Position": {
+      "X": 82,
+      "Y": 55
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Aviroen.Voidsent_SummonLizard"
+     }
+    },
+    {
+     "Position": {
+      "X": 68,
+      "Y": 13
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Aviroen.Voidsent_SummonLizard"
+     }
+    }
    ]
   }
  ]

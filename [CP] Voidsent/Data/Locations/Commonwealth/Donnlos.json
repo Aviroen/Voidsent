@@ -21,10 +21,10 @@
     "PassOutSafe": "T"
    },
    "AddWarps": [
-    //"8 19 {{Commonwealth}}"
-    //"9 19 {{Commonwealth}}"
-    //"10 19 {{Commonwealth}}"
-    //"11 19 {{Commonwealth}}"
+    "8 19 {{Morabyr}} 143 54",
+    "9 19 {{Morabyr}} 143 54",
+    "10 19 {{Morabyr}} 143 54",
+    "11 19 {{Morabyr}} 143 54"
    ],
    "MapTiles": [
    ]

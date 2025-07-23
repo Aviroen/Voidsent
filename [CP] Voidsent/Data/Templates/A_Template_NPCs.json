@@ -182,7 +182,7 @@
      "LoveInterest": null,
      "Calendar": "HiddenUntilMet",
      "SocialTab": "HiddenUntilMet",
-     "CanSocialize": null,
+     "CanSocialize": "{{GIFTABLE}}",
      "CanReceiveGifts": "{{GIFTABLE}}",
      "CanGreetNearbyCharacters": true,
      "CanCommentOnPurchasedShopItems": null,

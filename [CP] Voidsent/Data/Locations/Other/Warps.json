@@ -50,13 +50,13 @@
     "4 0 {{ModId}}_EdelweissAttic 2 6",
     "6 0 {{ModId}}_EdelweissBasement 14 4",
     "8 0 Town 104 79",
-    //"0 2 {{Commonwealth}}",
-    //grand ministry
-    "2 2 {{ModId}}_Boggarts 11 11",
+    "0 2 {{ModId}}_GrandMinistry 19 11",
+    "2 2 {{ModId}}_Donnlos 11 11",
 
-    //"0 4 {{CrimsonGrove}}",
+    "0 4 {{CrimsonGrove}} 53 8",
+    "2 4 {{ModId}}_GMBlacksmithy 2 13",
+    "4 4 {{ModId}}_Menagerie 10 8",
     //grand magus tower
-    //grandmaster blacksmithy
     //menagerie of mystery
     //secret hideout
 
@@ -69,13 +69,12 @@
 
     //"0 8 {{Grove}}", //grove will not have an interior
 
-    //"0 10 {{Moor}}",
     //swords and swingers
     //killer couturier
     //black widow clothing
     "0 10 {{ModId}}_JustOneBite 11 19",
 
-    //"0 12 {{Morabyr}}",
+    "0 12 {{Morabyr}} 81 51",
     //jingles and jams
     //fish and flammables
     //swimmers and flippers
@@ -91,7 +90,8 @@
     "2 16 {{ModId}}_Yrsin_Hideout2 8 5",
     "4 16 {{ModId}}_Yrsin_Hideout3 7 6",
     "6 16 {{ModId}}_Yrsin_Hideout4 7 6",
-    "8 16 {{ModId}}_Yrsin_Hideout4 7 6"
+    "8 16 {{ModId}}_Yrsin_Hideout5 7 6",
+    "10 16 {{ModId}}_Yrsin_Office 18 6"
    ]
   }
  ]

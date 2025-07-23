@@ -62,6 +62,11 @@
   {
    "Action": "EditMap",
    "Target": "Maps/{{ModId}}_ArtificialBeach",
+   "MapProperties": {
+    "AmbientLight": "255 255 255",
+    "NPCWarp": "9 16 {{ModId}}_WarpNetwork 1 0",
+    "PassOutSafe": "T"
+   },
    "AddWarps": [
     "12 1 UndergroundMine77377 32 4"
    ],

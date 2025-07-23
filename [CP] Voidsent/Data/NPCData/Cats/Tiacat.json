@@ -1,12 +1,12 @@
 {
  "Changes": [
   {
-   "LogName": "Kiscat",
+   "LogName": "Tiacat",
    "Action": "Include",
    "FromFile": "Data/Templates/A_Template_NPCs.json",
    "LocalTokens": {
-    "NPCNAME": "Kis",
-    "DISPLAYNAME": "Kis",
+    "NPCNAME": "Tia",
+    "DISPLAYNAME": "Tia",
     "GENDER": "Undefined",
     "MANNER": "Polite", //polite, neutral, rude changes stringsfromcsfiles
     "ANXIETY": "Outgoing", //outgoing, neutral, shy changes stringsfromcsfiles
@@ -17,7 +17,7 @@
     "UNLOCKCONDITIONS": "",
     "HOMELOCATION": "{{CrimsonGrove}}",
     "HOMEXTILE": "14",
-    "HOMEYTILE": "41",
+    "HOMEYTILE": "38",
     "HOMEFACING": "down", //left, right, up, down
     "LOVEDGIFTS": "166",
     "LIKEDGIFTS": "category_fish",
@@ -25,22 +25,22 @@
     "HATEDGIFTS": "category_litter, category_junk",
     "NEUTRALGIFTS": "category_building_resources",
     "SLEEPANIMATION": "18/19 19 19 19 19 18 18 18 18 19 19 19 19 18 18 18 18 19 19 19 19/19",
-    "SPECIAL1": "knife",
-    "SPECIAL1ANIMATION": "16/16 16 16 16 16 17 17 17 17 17 18 18 18 18 18 19 19 19 19 19 19 19 19 19 19 19 20 20 20 21 21 21 20 20 20 21 21 21 20 20 20 19 19 19 19 19 19 19 19 19 19 19 18 18 18 18 18 17 17 17 17 17 16 16 16 16 16/16",
-    "SPECIAL2": "brick",
-    "SPECIAL2ANIMATION": "16/16 16 16 16 16 17 17 17 17 17 18 18 18 18 18 19 19 19 19 19 19 19 19 19 19 19 22 22 22 23 23 23 22 22 22 23 23 23 22 22 22 24 24 24 25 25 25 26 26 26 27 27 27 26 26 26 25 25 25 26 26 26 27 27 27 26 26 26 25 25 25 26 26 26 27 27 27 26 26 26 25 25 25/0",
+    "SPECIAL1": "doomscroll",
+    "SPECIAL1ANIMATION": "16/16 16 16 16 16 17 17 17 17 17 18 18 18 18 18 19 19 19 19 19 18 18 18 18 18 17 17 17 17 17 16 16 16 16 16/16",
+    "SPECIAL2": "gone",
+    "SPECIAL2ANIMATION": "24/24 24 24 24 24 24/24",
     "ENDRANGE": "3",
-    "SPRINGSCHEDULE": "610 {{CrimsonGrove}} 14 41 2 {{ModId}}_Kis_brick",
+    "SPRINGSCHEDULE": "610 {{CrimsonGrove}} 14 38 2 {{ModId}}_Tia_doomscroll",
     "SUMMERSCHEDULE": "GOTO spring",
     "FALLSCHEDULE": "GOTO spring",
     "WINTERSCHEDULE": "GOTO spring",
-    "MONDAYSCHEDULE": "610 {{CrimsonGrove}} 14 41 2/1200 {{CrimsonGrove}} 14 41 2 {{ModId}}_Kis_brick/1600 {{CrimsonGrove}} 14 41 2",
-    "TUESDAYSCHEDULE": "610 {{CrimsonGrove}} 14 41 2/1200 {{CrimsonGrove}} 14 41 2 {{ModId}}_Kis_brick/1600 {{CrimsonGrove}} 14 41 2",
-    "WEDNESDAYSCHEDULE": "610 {{CrimsonGrove}} 14 41 2/1200 {{CrimsonGrove}} 14 41 2 {{ModId}}_Kis_knife/1300 {{CrimsonGrove}} 14 41 2",
-    "THURSAYSCHEDULE": "610 {{CrimsonGrove}} 14 41 2/1200 {{CrimsonGrove}} 14 41 2 {{ModId}}_Kis_brick/1600 {{CrimsonGrove}} 14 41 2",
-    "FRIDAYSCHEDULE": "610 {{CrimsonGrove}} 14 41 2/1200 {{CrimsonGrove}} 14 41 2 {{ModId}}_Kis_brick/1600 {{CrimsonGrove}} 14 41 2",
-    "SATURDAYSCHEDULE": "610 {{CrimsonGrove}} 14 41 2/1200 {{CrimsonGrove}} 14 41 2 {{ModId}}_Kis_brick/1600 {{CrimsonGrove}} 14 41 2",
-    "SUNDAYSCHEDULE": "610 {{CrimsonGrove}} 14 41 2/1200 {{CrimsonGrove}} 14 41 2 {{ModId}}_Kis_brick/1600 {{CrimsonGrove}} 14 41 2",
+    "MONDAYSCHEDULE": "610 {{CrimsonGrove}} 14 38 2/1200 {{CrimsonGrove}} 14 38 2 {{ModId}}_Tia_doomscroll",
+    "TUESDAYSCHEDULE": "610 {{CrimsonGrove}} 14 38 2/1200 {{CrimsonGrove}} 14 38 2 {{ModId}}_Tia_doomscroll",
+    "WEDNESDAYSCHEDULE": "610 {{CrimsonGrove}} 14 38 2",
+    "THURSAYSCHEDULE": "610 {{CrimsonGrove}} 14 38 2/1200 {{CrimsonGrove}} 14 38 2 {{ModId}}_Tia_doomscroll",
+    "FRIDAYSCHEDULE": "610 {{CrimsonGrove}} 14 38 2/1200 {{CrimsonGrove}} 14 38 2 {{ModId}}_Tia_doomscroll",
+    "SATURDAYSCHEDULE": "610 {{CrimsonGrove}} 14 38 2/1200 {{CrimsonGrove}} 14 38 2 {{ModId}}_Tia_doomscroll",
+    "SUNDAYSCHEDULE": "610 {{CrimsonGrove}} 14 38 2/1200 {{CrimsonGrove}} 14 38 2 {{ModId}}_Tia_doomscroll",
 
     //HEART DIALOGUES
     "2HEART": false, //true/false

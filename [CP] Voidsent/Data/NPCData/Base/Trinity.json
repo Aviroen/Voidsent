@@ -44,7 +44,7 @@
     //grave
     "THURSAYSCHEDULE": "GOTO spring",
     //hammer
-    "FRIDAYSCHEDULE": "GOTO spring",
+    "FRIDAYSCHEDULE": "610 {{Morabyr}} 59 75 3/1400 {{Morabyr}} 66 93 2",
     "SATURDAYSCHEDULE": "GOTO spring",
     "SUNDAYSCHEDULE": "GOTO spring",
 

@@ -92,6 +92,7 @@
  "CheapBuy": "Just here for a safe stay!",
  "Cheap": "Nothin' safer than here, darlin'. Here's the key.$h",
  "Leave": "Well good mornin' darlin, ready for checkout?",
+ "LeaveYes": "Yes, please!",
  "Leaving": "Well I hope you had a good night's rest from all the hustle n' bustle, darlin'!$h",
 
  //maps
@@ -115,6 +116,11 @@
  "Edelweiss.Tower": "Edelweiss' Tower",
  "Edelweiss.Attic": "Edelweiss' Attic",
  "Edelweiss.Basement": "Edelweiss' Basement",
+
+ "Grave": "A well kept grave.",
+ "GraveLabel": "Wipe off the dust.",
+ "GraveText": "My beloved father, Varaphong, may he rest in peace.#$b#Rest in the knowledge that your child is safe and happy.#$b#You will always be missed, dearly.",
+ //'Here lies Varaphong.'#'Beloved Father.'#'Precious mentor.'#'You will always be missed.'#...The rest seems scratched off...
 
  //flavor text
  "Books.0": "'Chemistry: The Central Science'#An interesting choice of topic.",
@@ -888,6 +894,46 @@
  "BoggartsRations.37": "",
  "BoggartsRations.38": "",
 
+ "Billboard.0": "",
+ "Billboard.1": "",
+ "Billboard.2": "",
+ "Billboard.3": "",
+ "Billboard.4": "",
+ "Billboard.5": "",
+ "Billboard.6": "",
+ "Billboard.7": "",
+ "Billboard.8": "",
+ "Billboard.9": "",
+ "Billboard.10": "",
+ "Billboard.11": "",
+ "Billboard.12": "",
+ "Billboard.13": "",
+ "Billboard.14": "",
+ "Billboard.15": "",
+ "Billboard.16": "",
+ "Billboard.17": "",
+ "Billboard.18": "",
+ "Billboard.19": "",
+ "Billboard.20": "",
+ "Billboard.21": "",
+ "Billboard.22": "",
+ "Billboard.23": "",
+ "Billboard.24": "",
+ "Billboard.25": "",
+ "Billboard.26": "",
+ "Billboard.27": "",
+ "Billboard.28": "",
+ "Billboard.29": "",
+ "Billboard.30": "",
+ "Billboard.31": "",
+ "Billboard.32": "",
+ "Billboard.33": "",
+ "Billboard.34": "",
+ "Billboard.35": "",
+ "Billboard.36": "",
+ "Billboard.37": "",
+ "Billboard.38": "",
+
  //edelhouse
  "EdelHouse.5": "Edelweiss makes strange weapons here.", //anvil
  "EdelHouse.6": "The dents of hard work.", //anvil
@@ -898,10 +944,7 @@
  "EdelBear": "A big bear.", //attic bear
  "EdelJewel": "A purple jewel.", //attic jewel
  "EdelJunimo": "A Junimo plush.", //attic junimo
- "EdelGrave": "'Here lies Varaphong.'#'Beloved Father.'#'Precious mentor.'#'You will always be missed.'#...The rest seems scratched off...",
  "CrimsonGroveMessage": "A warp to the Crimson Grove.",
- "MoorMessage": "A warp to The Moor.",
- "CommonwealthMessage": "A warp to Commonwealth.",
  "GroveMessage": "A warp to the Grove.",
  //Because it's my destiny to continue to live, even if it may result in the destruction of humanity. But I can also die here. Life and death are of equal value to me.
 

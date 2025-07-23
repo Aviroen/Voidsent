@@ -16,9 +16,9 @@
     "LIKESGENDER": "Both",
     "GIFTABLE": "true",
     "UNLOCKCONDITIONS": "",
-    "HOMELOCATION": "{{Yrsin}}_Hideout2",
-    "HOMEXTILE": "13",
-    "HOMEYTILE": "8",
+    "HOMELOCATION": "{{ModId}}_GrandMinistry",
+    "HOMEXTILE": "36",
+    "HOMEYTILE": "17",
     "HOMEFACING": "down", //left, right, up, down
     "LOVEDGIFTS": "166",
     "LIKEDGIFTS": "category_fish",

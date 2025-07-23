@@ -39,9 +39,9 @@
     "0 5 {{ModId}}_BreakfastInnBed1 1 8",
     "0 6 {{ModId}}_BreakfastInnBed1 1 8",
     "0 7 {{ModId}}_BreakfastInnBed1 1 8",
-    "0 8 {{ModId}}_BreakfastInnBed1 1 8"
-    //"17 39 {{Morabyr}}",
-    //"18 39 {{Morabyr}}"
+    "0 8 {{ModId}}_BreakfastInnBed1 1 8",
+    "17 39 {{Morabyr}} 58 63",
+    "18 39 {{Morabyr}} 59 63"
    ],
    "MapTiles": [ //NPCWarp [<int fromX> <int fromY> <string toArea> <int toX> <int toY>]+
     {

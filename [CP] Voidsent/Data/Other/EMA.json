@@ -1434,6 +1434,46 @@
       "{{i18n: BoggartsRations.34}}",
       "{{i18n: BoggartsRations.35}}"
      ]
+    },
+    "{{ModId}}_Billboard": {
+     "Messages": [
+      "{{i18n: Billboard.0}}",
+      "{{i18n: Billboard.1}}",
+      "{{i18n: Billboard.2}}",
+      "{{i18n: Billboard.3}}",
+      "{{i18n: Billboard.4}}",
+      "{{i18n: Billboard.5}}",
+      "{{i18n: Billboard.6}}",
+      "{{i18n: Billboard.7}}",
+      "{{i18n: Billboard.8}}",
+      "{{i18n: Billboard.9}}",
+      "{{i18n: Billboard.10}}",
+      "{{i18n: Billboard.11}}",
+      "{{i18n: Billboard.12}}",
+      "{{i18n: Billboard.13}}",
+      "{{i18n: Billboard.14}}",
+      "{{i18n: Billboard.15}}",
+      "{{i18n: Billboard.16}}",
+      "{{i18n: Billboard.17}}",
+      "{{i18n: Billboard.18}}",
+      "{{i18n: Billboard.19}}",
+      "{{i18n: Billboard.20}}",
+      "{{i18n: Billboard.21}}",
+      "{{i18n: Billboard.22}}",
+      "{{i18n: Billboard.23}}",
+      "{{i18n: Billboard.24}}",
+      "{{i18n: Billboard.25}}",
+      "{{i18n: Billboard.26}}",
+      "{{i18n: Billboard.27}}",
+      "{{i18n: Billboard.28}}",
+      "{{i18n: Billboard.29}}",
+      "{{i18n: Billboard.30}}",
+      "{{i18n: Billboard.31}}",
+      "{{i18n: Billboard.32}}",
+      "{{i18n: Billboard.33}}",
+      "{{i18n: Billboard.34}}",
+      "{{i18n: Billboard.35}}"
+     ]
     }
    }
   }

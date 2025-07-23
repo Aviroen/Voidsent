@@ -76,7 +76,7 @@
   {
    "LogName": "Exterior Locations Include",
    "Action": "Include",
-   "FromFile": "Data/Locations/ArtificialBeach/ArtificialBeach.json, Data/Locations/Commonwealth/Commonwealth.json, Data/Locations/CrimsonGrove/CrimsonGrove.json, Data/Locations/Grove/Grove.json, Data/Locations/Moor/Moor.json, Data/Locations/Morabyr/Morabyr.json"
+   "FromFile": "Data/Locations/ArtificialBeach/ArtificialBeach.json, Data/Locations/CrimsonGrove/CrimsonGrove.json, Data/Locations/Grove/Grove.json, Data/Locations/Morabyr/Morabyr.json"
   },
   {
    "LogName": "Interior Locations Include",
@@ -96,12 +96,12 @@
   {
    "LogName": "Cats",
    "Action": "Include",
-   "FromFile": "Data/NPCData/Cats/Avicat.json, Data/NPCData/Cats/Johcat.json, Data/NPCData/Cats/Kiscat.json, Data/NPCData/Cats/Irocat.json, Data/NPCData/Cats/Paucat.json"
+   "FromFile": "Data/NPCData/Cats/Avicat.json, Data/NPCData/Cats/Johcat.json, Data/NPCData/Cats/Kiscat.json, Data/NPCData/Cats/Irocat.json, Data/NPCData/Cats/Paucat.json, Data/NPCData/Cats/Noxcat.json, Data/NPCData/Cats/Tiacat.json"
   },
   {
    "LogName": "Data Include",
    "Action": "Include",
-   "FromFile": "Data/Other/Animals.json, Data/Other/Craftables.json, Data/Other/EMA.json, Data/Other/Fish.json, Data/Other/LocContext.json, Data/Other/Mail.json, Data/Other/MMAP.json, Data/Other/Shops.json, Data/Other/SpaceCore.json, Data/Other/SpecialOrders.json, Data/Other/Spiderbuttons.json, Data/Other/Strings.json, Data/Other/TriggerActions.json"
+   "FromFile": "Data/Other/Animals.json, Data/Other/Craftables.json, Data/Other/EMA.json, Data/Other/Fish.json, Data/Other/LocContext.json, Data/Other/Mail.json, Data/Other/MMAP.json, Data/Other/Shops.json, Data/Other/SpaceCore.json, Data/Other/SpecialOrders.json, Data/Other/Spiderbuttons.json, Data/Other/Strings.json, Data/Other/TriggerActions.json, Data/Other/GarbageCans.json"
   }
 /*
   {

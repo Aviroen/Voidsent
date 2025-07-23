@@ -1,0 +1,364 @@
+{
+ "Changes": [
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/GarbageTemplate.json",
+   "LocalTokens": {
+    "NUMBER": "1",
+    "CONDITION": "RANDOM 0.2 @addDailyLuck",
+    "IDNAME": "{{ModId}}_Stackables",
+    "RANDOM1stack": "RANDOM_BASE_SEASON_ITEM",
+    "RANDOM2stack": "DISH_OF_THE_DAY",
+    "RANDOM3stack": "(O)382"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/GarbageTemplate.json",
+   "LocalTokens": {
+    "NUMBER": "2",
+    "CONDITION": "RANDOM 0.02 @addDailyLuck",
+    "IDNAME": "{{ModId}}_Stackables",
+    "RANDOM1stack": "RANDOM_BASE_SEASON_ITEM",
+    "RANDOM2stack": "DISH_OF_THE_DAY",
+    "RANDOM3stack": "(O)382"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/GarbageTemplate.json",
+   "LocalTokens": {
+    "NUMBER": "3",
+    "CONDITION": "RANDOM 0.2 @addDailyLuck",
+    "IDNAME": "{{ModId}}_Stackables",
+    "RANDOM1stack": "RANDOM_BASE_SEASON_ITEM",
+    "RANDOM2stack": "DISH_OF_THE_DAY",
+    "RANDOM3stack": "(O)382"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/GarbageTemplate.json",
+   "LocalTokens": {
+    "NUMBER": "4",
+    "CONDITION": "RANDOM 0.09 @addDailyLuck",
+    "IDNAME": "{{ModId}}_Stackables",
+    "RANDOM1stack": "RANDOM_BASE_SEASON_ITEM",
+    "RANDOM2stack": "DISH_OF_THE_DAY",
+    "RANDOM3stack": "(O)749"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/GarbageTemplate.json",
+   "LocalTokens": {
+    "NUMBER": "5",
+    "CONDITION": "RANDOM 0.09 @addDailyLuck",
+    "IDNAME": "{{ModId}}_Stackables",
+    "RANDOM1stack": "RANDOM_BASE_SEASON_ITEM",
+    "RANDOM2stack": "DISH_OF_THE_DAY",
+    "RANDOM3stack": "(O)749"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/GarbageTemplate.json",
+   "LocalTokens": {
+    "NUMBER": "6",
+    "CONDITION": "RANDOM 0.09 @addDailyLuck",
+    "IDNAME": "{{ModId}}_Stackables",
+    "RANDOM1stack": "RANDOM_BASE_SEASON_ITEM",
+    "RANDOM2stack": "DISH_OF_THE_DAY",
+    "RANDOM3stack": "(O)749"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/GarbageTemplate.json",
+   "LocalTokens": {
+    "NUMBER": "7",
+    "CONDITION": "RANDOM 0.09 @addDailyLuck",
+    "IDNAME": "{{ModId}}_Stackables",
+    "RANDOM1stack": "RANDOM_BASE_SEASON_ITEM",
+    "RANDOM2stack": "DISH_OF_THE_DAY",
+    "RANDOM3stack": "(O)749"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/GarbageTemplate.json",
+   "LocalTokens": {
+    "NUMBER": "8",
+    "CONDITION": "RANDOM 0.09 @addDailyLuck",
+    "IDNAME": "{{ModId}}_Stackables",
+    "RANDOM1stack": "RANDOM_BASE_SEASON_ITEM",
+    "RANDOM2stack": "DISH_OF_THE_DAY",
+    "RANDOM3stack": "(O)749"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/GarbageTemplate.json",
+   "LocalTokens": {
+    "NUMBER": "9",
+    "CONDITION": "RANDOM 0.09 @addDailyLuck",
+    "IDNAME": "{{ModId}}_Stackables",
+    "RANDOM1stack": "RANDOM_BASE_SEASON_ITEM",
+    "RANDOM2stack": "DISH_OF_THE_DAY",
+    "RANDOM3stack": "(O)749"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/GarbageTemplate.json",
+   "LocalTokens": {
+    "NUMBER": "10",
+    "CONDITION": "RANDOM 0.09 @addDailyLuck",
+    "IDNAME": "{{ModId}}_Stackables",
+    "RANDOM1stack": "RANDOM_BASE_SEASON_ITEM",
+    "RANDOM2stack": "DISH_OF_THE_DAY",
+    "RANDOM3stack": "(O)749"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/GarbageTemplate.json",
+   "LocalTokens": {
+    "NUMBER": "11",
+    "CONDITION": "RANDOM 0.09 @addDailyLuck",
+    "IDNAME": "{{ModId}}_Stackables",
+    "RANDOM1stack": "RANDOM_BASE_SEASON_ITEM",
+    "RANDOM2stack": "DISH_OF_THE_DAY",
+    "RANDOM3stack": "(O)749"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/GarbageTemplate.json",
+   "LocalTokens": {
+    "NUMBER": "12",
+    "CONDITION": "RANDOM 0.09 @addDailyLuck",
+    "IDNAME": "{{ModId}}_Stackables",
+    "RANDOM1stack": "RANDOM_BASE_SEASON_ITEM",
+    "RANDOM2stack": "DISH_OF_THE_DAY",
+    "RANDOM3stack": "(O)749"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/GarbageTemplate.json",
+   "LocalTokens": {
+    "NUMBER": "13",
+    "CONDITION": "RANDOM 0.09 @addDailyLuck",
+    "IDNAME": "{{ModId}}_Stackables",
+    "RANDOM1stack": "RANDOM_BASE_SEASON_ITEM",
+    "RANDOM2stack": "DISH_OF_THE_DAY",
+    "RANDOM3stack": "(O)749"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/GarbageTemplate.json",
+   "LocalTokens": {
+    "NUMBER": "14",
+    "CONDITION": "RANDOM 0.09 @addDailyLuck",
+    "IDNAME": "{{ModId}}_Stackables",
+    "RANDOM1stack": "RANDOM_BASE_SEASON_ITEM",
+    "RANDOM2stack": "DISH_OF_THE_DAY",
+    "RANDOM3stack": "(O)749"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/GarbageTemplate.json",
+   "LocalTokens": {
+    "NUMBER": "15",
+    "CONDITION": "RANDOM 0.09 @addDailyLuck",
+    "IDNAME": "{{ModId}}_Stackables",
+    "RANDOM1stack": "RANDOM_BASE_SEASON_ITEM",
+    "RANDOM2stack": "DISH_OF_THE_DAY",
+    "RANDOM3stack": "(O)749"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/GarbageTemplate.json",
+   "LocalTokens": {
+    "NUMBER": "16",
+    "CONDITION": "RANDOM 0.09 @addDailyLuck",
+    "IDNAME": "{{ModId}}_Stackables",
+    "RANDOM1stack": "RANDOM_BASE_SEASON_ITEM",
+    "RANDOM2stack": "DISH_OF_THE_DAY",
+    "RANDOM3stack": "(O)749"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/GarbageTemplate.json",
+   "LocalTokens": {
+    "NUMBER": "17",
+    "CONDITION": "RANDOM 0.09 @addDailyLuck",
+    "IDNAME": "{{ModId}}_Stackables",
+    "RANDOM1stack": "RANDOM_BASE_SEASON_ITEM",
+    "RANDOM2stack": "DISH_OF_THE_DAY",
+    "RANDOM3stack": "(O)749"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/GarbageTemplate.json",
+   "LocalTokens": {
+    "NUMBER": "18",
+    "CONDITION": "RANDOM 0.09 @addDailyLuck",
+    "IDNAME": "{{ModId}}_Stackables",
+    "RANDOM1stack": "RANDOM_BASE_SEASON_ITEM",
+    "RANDOM2stack": "DISH_OF_THE_DAY",
+    "RANDOM3stack": "(O)749"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/GarbageTemplate.json",
+   "LocalTokens": {
+    "NUMBER": "19",
+    "CONDITION": "RANDOM 0.09 @addDailyLuck",
+    "IDNAME": "{{ModId}}_Stackables",
+    "RANDOM1stack": "RANDOM_BASE_SEASON_ITEM",
+    "RANDOM2stack": "DISH_OF_THE_DAY",
+    "RANDOM3stack": "(O)749"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/GarbageTemplate.json",
+   "LocalTokens": {
+    "NUMBER": "20",
+    "CONDITION": "RANDOM 0.09 @addDailyLuck",
+    "IDNAME": "{{ModId}}_Stackables",
+    "RANDOM1stack": "RANDOM_BASE_SEASON_ITEM",
+    "RANDOM2stack": "DISH_OF_THE_DAY",
+    "RANDOM3stack": "(O)749"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/GarbageTemplate.json",
+   "LocalTokens": {
+    "NUMBER": "21",
+    "CONDITION": "RANDOM 0.09 @addDailyLuck",
+    "IDNAME": "{{ModId}}_Stackables",
+    "RANDOM1stack": "RANDOM_BASE_SEASON_ITEM",
+    "RANDOM2stack": "DISH_OF_THE_DAY",
+    "RANDOM3stack": "(O)749"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/GarbageTemplate.json",
+   "LocalTokens": {
+    "NUMBER": "22",
+    "CONDITION": "RANDOM 0.09 @addDailyLuck",
+    "IDNAME": "{{ModId}}_Stackables",
+    "RANDOM1stack": "RANDOM_BASE_SEASON_ITEM",
+    "RANDOM2stack": "DISH_OF_THE_DAY",
+    "RANDOM3stack": "(O)749"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/GarbageTemplate.json",
+   "LocalTokens": {
+    "NUMBER": "23",
+    "CONDITION": "RANDOM 0.09 @addDailyLuck",
+    "IDNAME": "{{ModId}}_Stackables",
+    "RANDOM1stack": "RANDOM_BASE_SEASON_ITEM",
+    "RANDOM2stack": "DISH_OF_THE_DAY",
+    "RANDOM3stack": "(O)749"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/GarbageTemplate.json",
+   "LocalTokens": {
+    "NUMBER": "24",
+    "CONDITION": "RANDOM 0.09 @addDailyLuck",
+    "IDNAME": "{{ModId}}_Stackables",
+    "RANDOM1stack": "RANDOM_BASE_SEASON_ITEM",
+    "RANDOM2stack": "DISH_OF_THE_DAY",
+    "RANDOM3stack": "(O)749"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/GarbageTemplate.json",
+   "LocalTokens": {
+    "NUMBER": "25",
+    "CONDITION": "RANDOM 0.09 @addDailyLuck",
+    "IDNAME": "{{ModId}}_Stackables",
+    "RANDOM1stack": "RANDOM_BASE_SEASON_ITEM",
+    "RANDOM2stack": "DISH_OF_THE_DAY",
+    "RANDOM3stack": "(O)749"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/GarbageTemplate.json",
+   "LocalTokens": {
+    "NUMBER": "26",
+    "CONDITION": "RANDOM 0.09 @addDailyLuck",
+    "IDNAME": "{{ModId}}_Stackables",
+    "RANDOM1stack": "RANDOM_BASE_SEASON_ITEM",
+    "RANDOM2stack": "DISH_OF_THE_DAY",
+    "RANDOM3stack": "(O)749"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/GarbageTemplate.json",
+   "LocalTokens": {
+    "NUMBER": "27",
+    "CONDITION": "RANDOM 0.09 @addDailyLuck",
+    "IDNAME": "{{ModId}}_Stackables",
+    "RANDOM1stack": "RANDOM_BASE_SEASON_ITEM",
+    "RANDOM2stack": "DISH_OF_THE_DAY",
+    "RANDOM3stack": "(O)749"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/GarbageTemplate.json",
+   "LocalTokens": {
+    "NUMBER": "28",
+    "CONDITION": "RANDOM 0.09 @addDailyLuck",
+    "IDNAME": "{{ModId}}_Stackables",
+    "RANDOM1stack": "RANDOM_BASE_SEASON_ITEM",
+    "RANDOM2stack": "DISH_OF_THE_DAY",
+    "RANDOM3stack": "(O)749"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/GarbageTemplate.json",
+   "LocalTokens": {
+    "NUMBER": "29",
+    "CONDITION": "RANDOM 0.09 @addDailyLuck",
+    "IDNAME": "{{ModId}}_Stackables",
+    "RANDOM1stack": "RANDOM_BASE_SEASON_ITEM",
+    "RANDOM2stack": "DISH_OF_THE_DAY",
+    "RANDOM3stack": "(O)749"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/GarbageTemplate.json",
+   "LocalTokens": {
+    "NUMBER": "30",
+    "CONDITION": "RANDOM 0.09 @addDailyLuck",
+    "IDNAME": "{{ModId}}_Stackables",
+    "RANDOM1stack": "RANDOM_BASE_SEASON_ITEM",
+    "RANDOM2stack": "DISH_OF_THE_DAY",
+    "RANDOM3stack": "(O)749"
+   }
+  }
+ ]
+}

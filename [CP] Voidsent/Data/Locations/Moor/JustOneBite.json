@@ -22,9 +22,9 @@
    },
    "AddWarps": [
     "9 0 {{Yrsin}}_Office 2 6",
-    "10 0 {{Yrsin}}_Office 2 6"
-    //"9 20 {{Moor}}",
-    //"10 20 {{Moor}}"
+    "10 0 {{Yrsin}}_Office 2 6",
+    "9 20 {{Morabyr}} 9 51",
+    "10 20 {{Morabyr}} 9 51"
    ],
    "MapTiles": [ //NPCWarp [<int fromX> <int fromY> <string toArea> <int toX> <int toY>]+
     {

@@ -21,14 +21,14 @@
     "PassOutSafe": "T"
    },
    "AddWarps": [
-    //"6 19 {{Morabyr}}"
-    //"7 19 {{Morabyr}}"
-    //"8 19 {{Morabyr}}"
-    //"9 19 {{Morabyr}}"
-    //"10 19 {{Morabyr}}"
-    //"11 19 {{Morabyr}}"
-    //"12 19 {{Morabyr}}"
-    //"13 19 {{Morabyr}}"
+    "6 19 {{Morabyr}} 81 68",
+    "7 19 {{Morabyr}} 81 68",
+    "8 19 {{Morabyr}} 81 68",
+    "9 19 {{Morabyr}} 81 68",
+    "10 19 {{Morabyr}} 81 68",
+    "11 19 {{Morabyr}} 81 68",
+    "12 19 {{Morabyr}} 81 68",
+    "13 19 {{Morabyr}} 81 68"
    ],
    "MapTiles": [
    ]

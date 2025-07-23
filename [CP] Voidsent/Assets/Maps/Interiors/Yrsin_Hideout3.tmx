@@ -2,6 +2,8 @@
 <map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="20" height="21" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="3">
  <properties>
   <property name="indoorWater" value="T"/>
+  <property name="mushymato.MMAP_LightRays" value="T"/>
+  <property name="mushymato.MMAP_WoodsLighting" value="T"/>
  </properties>
  <tileset firstgid="1" name="kailey_mine_lava_dark" tilewidth="16" tileheight="16" tilecount="848" columns="16">
   <image source="kailey_mine_lava_dark.png" width="256" height="848"/>
