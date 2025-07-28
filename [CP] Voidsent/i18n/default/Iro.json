@@ -1,74 +1,28 @@
 {
  "Iro": "Iro",
- "Iro.RejectPendant": "Am I supposed to eat that?$3",
- "Iro.RejectTea": "Not interested.$2",
- //start of characters/dialogue/npc
- /*
- CHANGE THESE OUT WITH RELATIONSHIP FLAG TAGS, WE'RE GETTING RID OF MARRIAGE
- READ: SPECIAL ORDER MARRIAGE EVENTS
- TRIGGER FLAG DURING MARRIAGE EVENT
- CHANGE TITLE
- ADJUST TO CUSTOMSCHEDULE FROM BUTTON
- */
- "Iro.Housemate": "(housemate)",
- "Iro.Spouse": "(spouse)",
- "Iro.Partner": "(partner)",
- "Iro.ExSpouse": "(ex-spouse)",
- "Iro.Single": "(single)",
- //door unlock
- "Iro.NotFriend_Door": "",
-
- //gift taste dialogue
- "Iro.Gifts.Loved": "",
- "Iro.Gifts.Liked": "",
- "Iro.Gifts.Disliked": "",
- "Iro.Gifts.Hated": "",
- "Iro.Gifts.Neutral": "",
-
- //gen dialogue
- "Iro.breakUp": "",
- "Iro.divorced": "",
- "Iro.DumpsterDiveComment": "",
- "Iro.HitBySlingshot": "",
- "Iro.SpouseFarmhouseClutter": "",
- "Iro.SpouseGiftJealous": "",
- "Iro.Spouse_MonstersInHouse": "",
- "Iro.SpouseStardrop": "",
- "Iro.WipedMemory": "",
- "Iro.AcceptBouquet": "",
- "Iro.MovieInvitation": "",
- "Iro.RejectBouquet": "",
- "Iro.RejectGift_Divorced": "",
- "Iro.RejectMermaidPendant": "",
- "Iro.RejectMovieTicket": "",
- "Iro.GreenRain": "",
- "Iro.GreenRainFinished": "",
- "Iro.Engaged": "",
- "Iro.AfterWedding": "",
-
- //monday
+ //monday https://lingojam.com/WingdingsTranslator
  //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_
- "BETAS.Iro.Monday_0": "",
- "BETAS.Iro.Monday_1": "",
- "BETAS.Iro.Monday_2": "",
+ "BETAS.Iro.Monday_0": "✋︎ ♋︎❍︎ ■︎□︎⧫︎ ◻︎❒︎♏︎⧫︎♏︎■︎⧫︎♓︎□︎◆︎⬧︎📪︎ ✋︎ ♋︎❍︎ ☯︎☸︎.#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Nox \"I dOn'T kNoW eVeRyThInG. I dOn'T kNoW aNyThiNg.$3\"#$b#❄︎♒︎♓︎⬧︎ ♓︎⬧︎ ♐︎◆︎■︎■︎⍓︎ ⧫︎□︎ ⍓︎□︎◆︎ ☠︎□︎⌧︎✍︎ ✌︎ ☯︎☸︎ ♓︎⬧︎ ☯︎☸︎ ♋︎■︎♎︎ ⍓︎□︎◆︎🕯︎❒︎♏︎ ●︎♋︎◆︎♑︎♒︎♓︎■︎♑︎📬︎$3",
+ "BETAS.Iro.Monday_1": "🕈︎♒︎⍓︎ ♋︎❒︎♏︎ ⍓︎□︎◆︎ ⧫︎♋︎●︎🙵♓︎■︎♑︎ ⧫︎□︎ ❍︎♏︎",
+ "BETAS.Iro.Monday_2": "❄︎♒︎□︎◆︎♑︎♒︎⧫︎ ♓︎⧫︎ ⬥︎□︎◆︎●︎♎︎ ♌︎♏︎ ⧫︎♒︎♋︎⧫︎ ♏♋⬧︎⍓︎✍︎ ✡︎□︎◆︎❼︎❖︎♏︎ □︎■︎●︎⍓︎ 🙰◆︎⬧︎⧫︎ ⬧︎♍︎❒︎♋⧫♍♒︎♏♎ ⧫︎♒︎♏︎ ⬧︎◆︎❒︎♐︎♋︎♍︎♏︎📬︎ 💧︎□︎⬥︎ 🙰□︎❒︎♏︎❖ ⍓♏︎⬥︎✍ ☼︎♏︎⌘︎♏︎⌘︎🙰♏︎❒︎📪︎ ⬥︎🙵♏︎ ♍︎◆︎♓︎♑︎■︎ 🙰❒︎□︎♌⬧︎ ❖︎□︎⌧︎ ⬥︎🙵♋︎⬥︎ ❖︎□︎♏︎♒︎⬧︎🕯︎⬥︎ ⧫︎◆︎⌘︎❑︎ □︎♎︎♏❒ ●︎♋︎♐︎⍓ ◻︎□❍︎♏︎♒︎ ♓︎♒︎ ◻︎□︎◆︎❒︎⬥︎♏︎♏︎⬧︎ ◻︎❒□⌘ ⬥︎🙵♏︎ ■︎♏︎⍓︎📬︎ ✈︎⌧︎◻︎⬧︎🙵❒︎🙰♋︎✏︎ 👍︎♍︎□︎ ♌︎♏︎♐︎ ◆︎♏︎●︎♏︎♎︎ ♑❒♑︎♐︎●●︎●︎ ♌︎♏︎♐︎🙵 ⍓︎⌘︎⌧︎❑︎✍︎",
  "BETAS.Iro.Monday_3": "",
  //daily
- "Iro.Monday_0": "Game1.currentLightSources = new()",
- "Iro.Monday_1": "",
- "Iro.Monday_2": "",
- "Iro.Monday_3": "",
+ "Iro.Monday_0": "👎︎□︎ ◻︎❒︎♓︎❖︎♋︎⧫︎♏︎ ⬧︎♍︎♒︎□︎□︎●︎⬧︎ ♑︎□︎ ♌︎⍓︎ ♐︎♋︎■︎♍︎⍓︎ ◻︎♏︎❒︎⬧︎□︎■︎♋︎●︎♓︎⌘︎♏︎♎︎ ♌︎◆︎⬧︎♏︎⬧︎✍︎",
+ "Iro.Monday_1": "👎︎□︎ ⍓︎□︎◆︎ ♏︎❖︎♏︎❒︎ 🙰◆︎⬧︎⧫︎📬︎📬︎📬︎$3#$b#-=()-=()-=()-=()-=()$3#$action Spiderbuttons.BETAS_WarpNpc Aviroen.VoidsentCP_Iro {{ModId}}_Donnlos 3 5 2",
+ "Iro.Monday_2": "☠︎□︎ □︎■︎♏︎ ♒︎♋︎⬧︎ ⧫︎□︎●︎♎︎ 😐︎♓︎⬧︎ ⧫︎♒︎♋︎⧫︎ ■︎□︎⧫︎ ♋︎●︎●︎ ♐︎♋︎❒︎❍︎♓︎■︎♑︎ ♑︎♋︎❍︎♏︎⬧︎ ♋︎❒︎♏︎ 🕯︎♐︎♋︎❒︎❍︎ ♎︎♏︎♍︎□︎❒︎♋︎⧫︎♓︎■︎♑︎ ⬧︎♓︎❍︎◆︎●︎♋︎⧫︎□︎❒︎⬧︎🕯︎📬︎#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Kis \"I'll take that as a compliment.\"",
+ "Iro.Monday_3": "✋︎ ♎︎□︎■︎🕯︎⧫︎ 🙵■︎□︎⬥︎ ♋︎■︎⍓︎⧫︎♒︎♓︎■︎♑︎",
 
  //tuesday
  //BETAS
- "BETAS.Iro.Tuesday_0": "",
- "BETAS.Iro.Tuesday_1": "",
- "BETAS.Iro.Tuesday_2": "",
- "BETAS.Iro.Tuesday_3": "",
+ "BETAS.Iro.Tuesday_0": "☜︎⌧︎♍︎♏︎●︎●︎♏︎■︎⧫︎ □︎♌︎⬧︎♏︎❒︎❖︎♋︎■︎♍︎♏︎✏︎",
+ "BETAS.Iro.Tuesday_1": "🕈︎□︎◆︎●︎♎︎ ⍓︎□︎◆︎ ●︎♓︎🙵♏︎ ♋︎ ♍︎□︎□︎🙵♓︎♏︎✍︎",
+ "BETAS.Iro.Tuesday_2": "💣︎♋︎⍓︎♌︎♏︎ ⬧︎□︎❍︎♏︎ ❍︎♋︎◻︎ ♏︎❖︎♏︎■︎⧫︎ ❍︎♋︎❒︎🙵♏︎❒︎⬧︎✍︎",
+ "BETAS.Iro.Tuesday_3": "💣︎♋︎⍓︎♌︎♏︎ ♋︎ ●︎♓︎⌘︎♋︎❒︎♎︎✍︎",
  //daily
- "Iro.Tuesday_0": "",
- "Iro.Tuesday_1": "",
- "Iro.Tuesday_2": "",
- "Iro.Tuesday_3": "",
+ "Iro.Tuesday_0": "✋︎ ♋︎❍︎ ♍︎●︎□︎⬧︎♏︎❒︎ ♓︎■︎ ●︎♓︎♐︎♏︎ ⬧︎⧫︎♋︎⧫︎♏︎ ⧫︎□︎ ❍︎□︎⬧︎⬧︎ ⧫︎♒︎♋︎■︎ ✋︎ ♋︎❍︎ ♋︎ ♍︎♋︎⧫︎📬︎",
+ "Iro.Tuesday_1": "✋︎🕯︎❍︎ □︎■︎ ⬧︎⧫︎❒︎♓︎🙵♏︎",
+ "Iro.Tuesday_2": "💣︎⍓︎ ♎︎□︎♑︎ ♓︎⬧︎ ⧫︎♒︎♏︎ 🙵♓︎■︎♑︎ □︎♐︎ ♏︎❖︎♏︎❒︎⍓︎⧫︎♒︎♓︎■︎♑︎",
+ "Iro.Tuesday_3": "❍︎⍓︎ ■︎♋︎❍︎♏︎ ♓︎⬧︎ ♓︎❒︎□︎ ♋︎■︎♎︎ ✋︎ ♋︎◻︎◻︎❒︎□︎❖︎♏︎ ⧫︎♒︎♓︎⬧︎ ⬥︎♓︎■︎♑︎♎︎♓︎■︎♑︎ ◆︎⬧︎♏︎",
 
  //wednesday
  //BETAS

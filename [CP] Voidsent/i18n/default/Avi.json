@@ -1,132 +1,86 @@
 {
  "Avi": "Avi",
- "Avi.RejectPendant": "Am I supposed to eat that?$3",
- "Avi.RejectTea": "Not interested.$2",
- //start of characters/dialogue/npc
- /*
- CHANGE THESE OUT WITH RELATIONSHIP FLAG TAGS, WE'RE GETTING RID OF MARRIAGE
- READ: SPECIAL ORDER MARRIAGE EVENTS
- TRIGGER FLAG DURING MARRIAGE EVENT
- CHANGE TITLE
- ADJUST TO CUSTOMSCHEDULE FROM BUTTON
- */
- "Avi.Housemate": "(housemate)",
- "Avi.Spouse": "(spouse)",
- "Avi.Partner": "(partner)",
- "Avi.ExSpouse": "(ex-spouse)",
- "Avi.Single": "(single)",
- //door unlock
- "Avi.NotFriend_Door": "",
-
- //gift taste dialogue
- "Avi.Gifts.Loved": "",
- "Avi.Gifts.Liked": "",
- "Avi.Gifts.Disliked": "",
- "Avi.Gifts.Hated": "",
- "Avi.Gifts.Neutral": "",
-
- //gen dialogue
- "Avi.breakUp": "",
- "Avi.divorced": "",
- "Avi.DumpsterDiveComment": "",
- "Avi.HitBySlingshot": "",
- "Avi.SpouseFarmhouseClutter": "",
- "Avi.SpouseGiftJealous": "",
- "Avi.Spouse_MonstersInHouse": "",
- "Avi.SpouseStardrop": "",
- "Avi.WipedMemory": "",
- "Avi.AcceptBouquet": "",
- "Avi.MovieInvitation": "",
- "Avi.RejectBouquet": "",
- "Avi.RejectGift_Divorced": "",
- "Avi.RejectMermaidPendant": "",
- "Avi.RejectMovieTicket": "",
- "Avi.GreenRain": "",
- "Avi.GreenRainFinished": "",
- "Avi.Engaged": "",
- "Avi.AfterWedding": "",
-
  //monday
  //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_
- "BETAS.Avi.Monday_0": "",
- "BETAS.Avi.Monday_1": "",
- "BETAS.Avi.Monday_2": "",
- "BETAS.Avi.Monday_3": "",
+ "BETAS.Avi.Monday_0": "I have two sons, actually.#$b#A long haired mix, and a feral orange tabby.",
+ "BETAS.Avi.Monday_1": "They're very spoiled boys.",
+ "BETAS.Avi.Monday_2": "Do you ever wonder what it's like on the inside of an author's mind?#$b#It's empty in here.",
+ "BETAS.Avi.Monday_3": "Under certain circumstances, I could possibly be a tia.#$b#But I'd rather not deal with the likes of you.$3",
  //daily
  "Avi.Monday_0": "Game1.currentLightSources = new()",
- "Avi.Monday_1": "",
- "Avi.Monday_2": "",
- "Avi.Monday_3": "",
+ "Avi.Monday_1": "You will burn in the pyre to hell if you speak to me in 'uwu speak'.",
+ "Avi.Monday_2": "Is it slavery if I have my own pet orange cat?$3#$b#Eh, whatever.",
+ "Avi.Monday_3": "Are we dancers?#$b#Or are we cats?",
 
  //tuesday
  //BETAS
- "BETAS.Avi.Tuesday_0": "",
- "BETAS.Avi.Tuesday_1": "",
- "BETAS.Avi.Tuesday_2": "",
- "BETAS.Avi.Tuesday_3": "",
+ "BETAS.Avi.Tuesday_0": "I still like to -=()post, though.",
+ "BETAS.Avi.Tuesday_1": "Which reminds me, I have not yet met my quota for -=()posting.",
+ "BETAS.Avi.Tuesday_2": "The Boncher mod took a solid 54 minutes to make.",
+ "BETAS.Avi.Tuesday_3": "Mothman took a good 48 hours to make.",
  //daily
- "Avi.Tuesday_0": "",
- "Avi.Tuesday_1": "",
- "Avi.Tuesday_2": "",
- "Avi.Tuesday_3": "",
+ "Avi.Tuesday_0": "Over the course of the first year of work on Voidsent, I've gone through many transitions.#$b#Not actual physical transitions, mind you.#$b#I had created several different kinds of mods to expand my repertoire.#$b#Started art work projects that I never deemed possible before.#$b#Made a lot of good friends along the way.#$b#The friends you see around me, sans my husband, are just a few that have helped me and comforted me.#$b#Iro is still a -=() though.#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Iro \"♋︎⬥︎⬥︎⬥︎ ⧫︎♒︎♋︎⧫︎❼︎⬧︎ ⬧︎□︎ ♍︎◆︎⧫︎♏︎ ✋︎❼︎❍︎ ♑︎□︎♓︎■︎♑︎ ⧫︎□︎ ♌︎◆︎●︎●︎⍓︎ ⍓︎□︎◆︎ ♋︎♌︎□︎◆︎⧫︎ ⧫︎♒︎♓︎⬧︎ ♐︎□︎❒︎♏︎❖︎♏︎❒︎\"#$b#Yeah, yeah, shut up wingdings.$3",
+ "Avi.Tuesday_1": "That isn't to say my other friends aren't -=()ters, they're just -=()ters in their own ways.",
+ "Avi.Tuesday_2": "A collective of -=()s, I should make a new word for that...$2",
+ "Avi.Tuesday_3": "Should I call it a -=()storm?$2#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Nox \"Why not a murder of -=()s?\"#$b#...?$3#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Iro \"✋︎⧫︎ ⬥︎♋︎⬧︎ ♌︎♏︎⧫︎⬥︎♏︎♏︎■︎ 😐︎♓︎⬧︎ □︎❒︎ ☠︎□︎⌧︎📪︎ ☠︎□︎⌧︎ ⬥︎□︎■︎📬︎\"",
 
  //wednesday
  //BETAS
- "BETAS.Avi.Wednesday_0": "",
- "BETAS.Avi.Wednesday_1": "",
- "BETAS.Avi.Wednesday_2": "",
- "BETAS.Avi.Wednesday_3": "",
+ "BETAS.Avi.Wednesday_0": "If you know, you know.$3",
+ "BETAS.Avi.Wednesday_1": "You don't have to remind me.$3",
+ "BETAS.Avi.Wednesday_2": "I'm not proud of that bout of mania.$3",
+ "BETAS.Avi.Wednesday_3": "While it taught me a lot of things, it opened the flood gates to things I wished I never had seen.$3",
  //daily
- "Avi.Wednesday_0": "",
- "Avi.Wednesday_1": "",
- "Avi.Wednesday_2": "",
- "Avi.Wednesday_3": "",
+ "Avi.Wednesday_0": "There are some things I regret in life.#$b#That being The Mod That Shall Not Be Named.$3",
+ "Avi.Wednesday_1": "Will I ever make an hour long event cutscene again?#$b#I don't know, do YOU want one?$3",
+ "Avi.Wednesday_2": "...I'm hungry.#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Joh \"What do you want to eat?\"#$b#...I don't know.$3#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Joh \"...$1\"#$b#What?$3#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Joh \"...Nothing, love.$3\"",
+ "Avi.Wednesday_3": "In the end, all I am on this screen are a series of randomized pixels, numbers, and screaming.",
 
  //thursday
  //BETAS
- "BETAS.Avi.Thursday_0": "",
- "BETAS.Avi.Thursday_1": "",
- "BETAS.Avi.Thursday_2": "",
- "BETAS.Avi.Thursday_3": "",
+ "BETAS.Avi.Thursday_0": "I think my upbringing on MMOs, jRPGs, and story-driven games are the reason why I wanted my own expansion.",
+ "BETAS.Avi.Thursday_1": "You're talking to the 'me' that I've written, isn't that weird?",
+ "BETAS.Avi.Thursday_2": "Makes you wonder what goes on when someone contemplates making a mod for their own purpose.",
+ "BETAS.Avi.Thursday_3": "Personally, I didn't make Voidsent for anyone but myself.",
  //daily
- "Avi.Thursday_0": "",
- "Avi.Thursday_1": "",
- "Avi.Thursday_2": "",
- "Avi.Thursday_3": "",
+ "Avi.Thursday_0": "If you're really curious, Iro speaks in ciphers and wingdings.",
+ "Avi.Thursday_1": "Will you manage to get the museum items from all of us 'cats'?",
+ "Avi.Thursday_2": "Have you spoken to all of us every single day for a year? I'm counting.",
+ "Avi.Thursday_3": "Did you know the spinning stardrops hold Final Fantasy-style battles that give you combat experience?#$b#It was a pain in the ass to script.",
 
  //friday
  //BETAS
- "BETAS.Avi.Friday_0": "",
- "BETAS.Avi.Friday_1": "",
- "BETAS.Avi.Friday_2": "",
- "BETAS.Avi.Friday_3": "",
+ "BETAS.Avi.Friday_0": "Are you enjoying Voidsent so far?",
+ "BETAS.Avi.Friday_1": "I guess it is quite weird for the creator of a mod to not be a tia, but I don't want anyone to romance me.",
+ "BETAS.Avi.Friday_2": "Happily married and I don't really care all that much to be likeable by the populace.",
+ "BETAS.Avi.Friday_3": "There are always the weirdoes who will probably make a tiaoid version of this NPC, and I will look at them in disgust.$3",
  //daily
- "Avi.Friday_0": "",
- "Avi.Friday_1": "",
- "Avi.Friday_2": "",
- "Avi.Friday_3": "",
+ "Avi.Friday_0": "I long for the day where I can sunbathe like my sons.#$b#In front of a window in a sunroom, chores done for the day.#$b#Yet I must toil, working a menial job as I continue my hobbies to keep myself sane.",
+ "Avi.Friday_1": "If we look back at the history of my modwork, going from portraits and sprites to a full blown expansion is quite a leap.#$b#I had a lot of fun learning and breaking things in real time.#$b#There's just nothing like seeing your own creation instantly in front of you quite like modwork.",
+ "Avi.Friday_2": "At first, Voidsent was going to be a 'Gotoro Lands' expansion, and then I didn't really care to write about real-world war.#$b#Being someone who lives in a war-driven country has made me jaded to it and I felt like I wouldn't do a realistic-war story justice.#$b#That being said, Konryn has his own pitfalls and fallacies that doesn't quite set this as a full blown country-versus-country war.#$b#Civil wars are important, but I wanted to go in depth of the psyche of a character.",
+ "Avi.Friday_3": "At first, Kis was going to do the mapwork for all of Voidsent, I was going to commission her so that I could get a grasp of the beautiful farms she's created.#$b#I got impatient, and we now have what we get now.#$b#I'm still quite proud of what I've done so far with my own hands, and it could be better.#$b#But that's for a different time.#$b#And maybe a content update.",
 
  //saturday
  //BETAS
- "BETAS.Avi.Saturday_0": "",
- "BETAS.Avi.Saturday_1": "",
- "BETAS.Avi.Saturday_2": "",
- "BETAS.Avi.Saturday_3": "",
+ "BETAS.Avi.Saturday_0": "Well that was fucking sappy now wasn't it.",
+ "BETAS.Avi.Saturday_1": "And no, if someone tries to romance this NPC or my husband's NPC I will be sorely disgusted.",
+ "BETAS.Avi.Saturday_2": "You ask why I put them in, then?#$b#Because it's a fun bout of dialogue seeing inside of the house that made this home, isn't it?",
+ "BETAS.Avi.Saturday_3": "Peering into the mind of the author and my circumstances, as it is.#$b#If you cared so much to talk to this NPC and realize that I'm a strong fourth wall breaker, maybe this is a breath of fresh air.#$b#Maybe you're offput by the fact that I break the fourth wall so often.#$b#You're free to stop talking to this NPC.#$b#Free will is a thing, after all.",
  //daily
- "Avi.Saturday_0": "",
- "Avi.Saturday_1": "",
- "Avi.Saturday_2": "",
- "Avi.Saturday_3": "",
+ "Avi.Saturday_0": "My own personal cat is where I, as the author of Voidsent, want to rant about the makings of this entire process as well as the credits given all around.#$b#Consider this the credit roll, a bow out of the actors involved.#$b#If it weren't for the community and its boundless love for the game, I wouldn't have continued this project.#$b#Though they aren't explicitly here, I'd like to thank a few people like Abagaianye, Pixeltica, Spiderbuttons, Mushymato, Rokugin, and the Sunberry team.#$b#Some of them have seen me from the very start of my mod career and seen me go from pool floaties to sky-diving off the top rope within a short amount of time.#$b#There are multitudes of others I'd like to thank but then we'd just be here for forever, wouldn't we?",
+ "Avi.Saturday_1": "Even though I gripe about The Mod That Shall Not Be Named, having an entire archive-of-our-own fanfiction dedicated to it made my cold, dead heart, warm again.",
+ "Avi.Saturday_2": "Do I care about Voidsent being translated to other languages?#$b#No, not really.#$b#This is something near and dear to my heart that I would like to translate of my own accord, no machine translations to botch the sensibility of the feelings I wanted to get across in English.",
+ "Avi.Saturday_3": "Of course, there's always those that want to profit off of the work of others.#$b#Voidsent is a labor of love that I've cared for, for well over a year at this point in July of 2025.",
 
  //sunday
  //BETAS
- "BETAS.Avi.Sunday_0": "",
- "BETAS.Avi.Sunday_1": "",
- "BETAS.Avi.Sunday_2": "",
- "BETAS.Avi.Sunday_3": "",
+ "BETAS.Avi.Sunday_0": "This cat has turned into a mushfest, gross.",
+ "BETAS.Avi.Sunday_1": "If you're still listening, good morning, good afternoon, and if I don't see you, good night.",
+ "BETAS.Avi.Sunday_2": "It's a wonder you've spoken to the cats this often that you keep coming back for more.",
+ "BETAS.Avi.Sunday_3": "Are we actually cats?#$b#No, we're just pixels.#$b#But so are you.",
  //daily
- "Avi.Sunday_0": "",
- "Avi.Sunday_1": "",
- "Avi.Sunday_2": "",
- "Avi.Sunday_3": "",
+ "Avi.Sunday_0": "And thus, we come to the last bits of dialogue for this cat.#$b#I had a lot of fun making this mod, and I hope you, too, enjoy the experience.#$b#After all, consider this a diary of my own, open to the public to enjoy the sentiments of an author.",
+ "Avi.Sunday_1": "Whether you're a friend of mine, some random just downloading this mod and happening upon this cat and going, 'what the actual--'.#$b#There were a lot of mechanics I wanted to play with in my own game of Stardew.#$b#I wanted livelier NPCs, more immersive talking, combat mechanics that were fun but not grating.#$b#I wanted an experience that made me want to keep on playing.#$b#To see if anything could grip me long enough and still come back to it.#$b#I'm still trying, as a writer, I'd like it if people saw my art in all of its forms as inspiring.#$b#Maybe, you, too, could become a mod author.#$b#Please, for the love of god read wikis though.",
+ "Avi.Sunday_2": "You might be asking why I just didn't go into a career for game development, the short answer is that I didn't really go to school for it.#$b#The long answer for it is that I don't think I could continue the creative streak if it were my job.",
+ "Avi.Sunday_3": "I leave this dialogue open to make a final tally of all of the words written for Voidsent.#$b#My love letter to those lost, a memory of my beloved father, a digital memoir for myself."
 }

@@ -12,10 +12,10 @@
     "ANXIETY": "Shy", //outgoing, neutral, shy changes stringsfromcsfiles
     "OPTIMISM": "Negative", //positive, neutral, negative changes stringsfromcsfiles
     "DARKSKIN": "true",
-    "ROMANCE": "false",
+    
     "LIKESGENDER": "Male",
     "GIFTABLE": "true",
-    "UNLOCKCONDITIONS": "",
+    
     "HOMELOCATION": "{{ModId}}_Cichlidian",
     "HOMEXTILE": "14",
     "HOMEYTILE": "14",

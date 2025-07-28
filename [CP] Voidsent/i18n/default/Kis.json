@@ -2,73 +2,30 @@
  "Kis": "Kis",
  "Kis.RejectPendant": "Am I supposed to eat that?$3",
  "Kis.RejectTea": "Not interested.$2",
- //start of characters/dialogue/npc
- /*
- CHANGE THESE OUT WITH RELATIONSHIP FLAG TAGS, WE'RE GETTING RID OF MARRIAGE
- READ: SPECIAL ORDER MARRIAGE EVENTS
- TRIGGER FLAG DURING MARRIAGE EVENT
- CHANGE TITLE
- ADJUST TO CUSTOMSCHEDULE FROM BUTTON
- */
- "Kis.Housemate": "(housemate)",
- "Kis.Spouse": "(spouse)",
- "Kis.Partner": "(partner)",
- "Kis.ExSpouse": "(ex-spouse)",
- "Kis.Single": "(single)",
- //door unlock
- "Kis.NotFriend_Door": "",
-
- //gift taste dialogue
- "Kis.Gifts.Loved": "",
- "Kis.Gifts.Liked": "",
- "Kis.Gifts.Disliked": "",
- "Kis.Gifts.Hated": "",
- "Kis.Gifts.Neutral": "",
-
- //gen dialogue
- "Kis.breakUp": "",
- "Kis.divorced": "",
- "Kis.DumpsterDiveComment": "",
- "Kis.HitBySlingshot": "",
- "Kis.SpouseFarmhouseClutter": "",
- "Kis.SpouseGiftJealous": "",
- "Kis.Spouse_MonstersInHouse": "",
- "Kis.SpouseStardrop": "",
- "Kis.WipedMemory": "",
- "Kis.AcceptBouquet": "",
- "Kis.MovieInvitation": "",
- "Kis.RejectBouquet": "",
- "Kis.RejectGift_Divorced": "",
- "Kis.RejectMermaidPendant": "",
- "Kis.RejectMovieTicket": "",
- "Kis.GreenRain": "",
- "Kis.GreenRainFinished": "",
- "Kis.Engaged": "",
- "Kis.AfterWedding": "",
 
  //monday
  //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_
- "BETAS.Kis.Monday_0": "",
- "BETAS.Kis.Monday_1": "",
- "BETAS.Kis.Monday_2": "",
- "BETAS.Kis.Monday_3": "",
+ "BETAS.Kis.Monday_0": "Hard dough makes biscuits, soft dough makes cookies.",
+ "BETAS.Kis.Monday_1": "This is part of my thesis research.",
+ "BETAS.Kis.Monday_2": "My product isn't weird.",
+ "BETAS.Kis.Monday_3": "They're actually tasty.",
  //daily
- "Kis.Monday_0": "Game1.currentLightSources = new()",
- "Kis.Monday_1": "",
- "Kis.Monday_2": "",
- "Kis.Monday_3": "",
+ "Kis.Monday_0": "There is a scientific distinction between dough that uses water and dough that uses a syrup phase of sugar to affect its texture.",
+ "Kis.Monday_1": "A running habit in my program was that those of us whose thesis are focused on end product development share leftover samples as snacks during lab hours.#$b#Testing would take so -=()ing long and require one hundred percent attention that we just don't have enough time to go out and buy snacks.",
+ "Kis.Monday_2": "In my research period I'm known as the one guy who people actively flock to for leftovers.",
+ "Kis.Monday_3": "I don't share the high thickener concentration samples because they feel like chewing on rubber sandals.",
 
  //tuesday
  //BETAS
- "BETAS.Kis.Tuesday_0": "",
- "BETAS.Kis.Tuesday_1": "",
- "BETAS.Kis.Tuesday_2": "",
- "BETAS.Kis.Tuesday_3": "",
+ "BETAS.Kis.Tuesday_0": "Assuming burnt bread has 100 micrograms of acrylamide.",
+ "BETAS.Kis.Tuesday_1": "You would need to eat anywhere between 10-20kg of burnt bread at once to die of acrylamide poisoning.",
+ "BETAS.Kis.Tuesday_2": "By which point you would sooner die to a ruptured stomach than that.",
+ "BETAS.Kis.Tuesday_3": "Additionally, dietary acrylamide is very unlikely to cause cancer in tias.",
  //daily
- "Kis.Tuesday_0": "",
+ "Kis.Tuesday_0": "Ages ago, I did a research on special snacks... where I had to make twenty -=()ing five samples in triplicate PLUS confirmation tests.#$b#They were good snacks, but they were too MANY of them, so I gave my taste-testers 'complimentary treats'.#$b#Even so, they keep piling up between testing... and at one point I was like... please... -=()ing take them. I can't stand seeing these snacks anymore.",
  "Kis.Tuesday_1": "",
- "Kis.Tuesday_2": "",
- "Kis.Tuesday_3": "",
+ "Kis.Tuesday_2": "Unless you're Iro, baking is a science.#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Iro \"That does sound like something I'd say but also doesn't.\"",
+ "Kis.Tuesday_3": "Bread contains lots of sugars and amino acids.#$b#Which produce acrylamide when burnt.#$b#So that's bad, but it's not like you'll get instant mega cancer for eating one (1) piece of coal bread.",
 
  //wednesday
  //BETAS

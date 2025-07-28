@@ -16,18 +16,18 @@
  "Trinity.ExSpouse": "(ex-spouse)",
  "Trinity.Single": "(single)",
  //door unlock
- "Trinity.NotFriend_Door": "",
+ "Trinity.NotFriend_Door": "The seas rampage.",
 
  //gift taste dialogue
- "Trinity.Gifts.Loved": "",
- "Trinity.Gifts.Liked": "",
- "Trinity.Gifts.Disliked": "",
- "Trinity.Gifts.Hated": "",
- "Trinity.Gifts.Neutral": "",
+ "Trinity.Gifts.Loved": "Oh?$3#$b#Scaring off this old woman's scurvy?$1#$b#How kind.",
+ "Trinity.Gifts.Liked": "Well thank you kindly.$1",
+ "Trinity.Gifts.Disliked": "Did you think I had a need for this?$5",
+ "Trinity.Gifts.Hated": "You insult me.$5",
+ "Trinity.Gifts.Neutral": "I could take it or leave it.$6",
 
  //gen dialogue
- "Trinity.breakUp": "",
- "Trinity.divorced": "",
+ "Trinity.breakUp": "Oh, sweetheart. You weren't my first. You won't be my last.$7",
+ "Trinity.divorced": "I'm keeping the gifts.$9#$b#You signed the prenup, after all.$8#$b#I've learned my lesson dealing with that frivolous harpy.$7",
  "Trinity.DumpsterDiveComment": "",
  "Trinity.HitBySlingshot": "",
  "Trinity.SpouseFarmhouseClutter": "",

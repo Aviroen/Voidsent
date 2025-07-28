@@ -206,7 +206,7 @@
      "FlowerDanceCanDance": false,
      "WinterStarGifts": [],
      "WinterStarParticipant": null,
-     "UnlockConditions": "{{UNLOCKCONDITIONS}}",
+     "UnlockConditions": null,
      "SpawnIfMissing": true,
      "Home": [
       {

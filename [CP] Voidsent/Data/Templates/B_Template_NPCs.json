@@ -1,61 +1,27 @@
 {
  "Changes": [
   {
-   "LogName": "Portrait/Character loads",
-   "Action": "Load",
-   "Priority": "Low",
-   "Target": "Characters/{{ModId}}_{{NPCNAME}}, Portraits/{{ModId}}_{{NPCNAME}}",
-   "FromFile": "Assets/NPCS/Antisocials/{{TYPEOFPERSON}}.png"
-  },
-  { //blank loads so that i can target edit
-   "LogName": "BlankLoads",
-   "Action": "Load",
-   "Priority": "Low",
-   "Target": "Characters/Dialogue/{{ModId}}_{{NPCNAME}}, Characters/Dialogue/MarriageDialogue{{ModId}}_{{NPCNAME}}, Characters/schedules/{{ModId}}_{{NPCNAME}}, Strings/Schedules/{{ModId}}_{{NPCNAME}}",
-   "FromFile": "data/blank.json"
-  },
-  {
-   "Action": "Load",
-   "FromFile": "{{FirstValidFile: i18n/{{language}}/AntiSocials.json, i18n/default/AntiSocials.json}}",
-   "Priority": "Low",
-   "Target": "{{ModId}}/NPCTranslations"
-  },
-  {
-   "LogName": "Trigger Actions: BETAS",
-   "Action": "EditData",
-   "Target": "Data/TriggerActions",
-   "Entries": {
-    "{{ModId}}_{{NPCNAME}}_DialogueOpened": {
-     "Id": "{{ModId}}_{{NPCNAME}}_DialogueOpened",
-     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, ITEM_STACK Target 1",
-     "MarkActionApplied": false,
-     "Action": "Aviroen.Voidsent_RandomDialogue Aviroen.VoidsentCP {{ModId}}_{{NPCNAME}} BETAS.{{NPCNAME}}.{{DayOfWeek}}_ {{Range:0,{{ENDRANGE}}}}"
-    }
-   }
-  },
-  {
    "Action": "EditData",
    "Target": "Data/Characters",
    "Entries": {
-    "{{ModId}}_{{NPCNAME}}": {
-     "DisplayName": "{{i18n:{{DISPLAYNAME}}}}",
+    "{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}": {
+     "DisplayName": "{{i18n:{{NUMBER}}{{TYPEOFPERSON}}",
      "BirthSeason": null,
      "BirthDay": 0,
      "HomeRegion": "Other",
      "Language": "Default",
-     "Gender": "{{GENDER}}",
+     "Gender": "Undefined",
      "Age": "Adult",
-     "Manner": "{{MANNER}}",
-     "SocialAnxiety": "{{ANXIETY}}",
-     "Optimism": "{{OPTIMISM}}",
-     "IsDarkSkinned": "{{DARKSKIN}}",
+     "Manner": "Polite",
+     "SocialAnxiety": "Outgoing",
+     "Optimism": "Positive",
+     "IsDarkSkinned": true,
      "CanBeRomanced": false,
      "LoveInterest": null,
      "Calendar": "HiddenUntilMet",
      "SocialTab": "HiddenUntilMet",
-     "CanSocialize": "{{GIFTABLE}}",
-     "CanReceiveGifts": "{{GIFTABLE}}",
+     "CanSocialize": false,
+     "CanReceiveGifts": false,
      "CanGreetNearbyCharacters": true,
      "CanCommentOnPurchasedShopItems": null,
      "CanVisitIsland": false,
@@ -78,13 +44,13 @@
      "FlowerDanceCanDance": false,
      "WinterStarGifts": [],
      "WinterStarParticipant": null,
-     "UnlockConditions": "{{UNLOCKCONDITIONS}}",
+     "UnlockConditions": null,
      "SpawnIfMissing": true,
      "Home": [
       {
        "Id": "Default",
        "Condition": null,
-       "Location": "{{HOMELOCATION}}",
+       "Location": "{{Morabyr}}",
        "Tile": {
         "X": "{{HOMEXTILE}}",
         "Y": "{{HOMEYTILE}}"
@@ -120,25 +86,53 @@
     }
    }
   },
-  //////////////////////////////////////////////////////////////////////////////////////////////////
   {
    "Action": "EditData",
-   "Target": "Data/NPCGiftTastes",
+   "Target": "Data/Characters",
+   "TargetField": [ "{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}", "Appearance" ],
    "Entries": {
-    "{{ModId}}_{{NPCNAME}}": "{{i18n:{{NPCNAME}}.Gifts.Loved}}/{{LOVEDGIFTS}}/{{i18n:{{NPCNAME}}.Gifts.Liked}}/{{LIKEDGIFTS}}/{{i18n:{{NPCNAME}}.Gifts.Disliked}}/{{DISLIKEDGIFTS}}/{{i18n:{{NPCNAME}}.Gifts.Hated}}/{{HATEDGIFTS}}/{{i18n:{{NPCNAME}}.Gifts.Neutral}}/{{NEUTRALGIFTS}}/"
+    "{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}Random1": {
+     "Id": "{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}Random1",
+     "Condition": null,
+     "Sprite": "{{InternalAssetKey: Assets/NPCS/Antisocials/{{NUMBER}}{{TYPEOFPERSON}}.png}}"
+    },
+    "{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}Random2": {
+     "Id": "{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}Random2",
+     "Condition": null,
+     "Sprite": "{{InternalAssetKey: Assets/NPCS/Antisocials/{{NUMBER}}{{TYPEOFPERSON}}.png}}"
+    },
+    "{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}Random3": {
+     "Id": "{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}Random3",
+     "Condition": null,
+     "Sprite": "{{InternalAssetKey: Assets/NPCS/Antisocials/{{NUMBER}}{{TYPEOFPERSON}}.png}}"
+    },
+    "{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}Random4": {
+     "Id": "{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}Random4",
+     "Condition": null,
+     "Sprite": "{{InternalAssetKey: Assets/NPCS/Antisocials/{{NUMBER}}{{TYPEOFPERSON}}.png}}"
+    },
+    "{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}Random5": {
+     "Id": "{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}Random5",
+     "Condition": null,
+     "Sprite": "{{InternalAssetKey: Assets/NPCS/Antisocials/{{NUMBER}}{{TYPEOFPERSON}}.png}}"
+    },
+    "{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}Random6": {
+     "Id": "{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}Random6",
+     "Condition": null,
+     "Sprite": "{{InternalAssetKey: Assets/NPCS/Antisocials/{{NUMBER}}{{TYPEOFPERSON}}.png}}"
+    }
    }
   },
-
   //////////////////////////////////////////////////////////////////////////////////////////////////
   {
    "LogName": "Schedule Data",
    "Action": "EditData",
-   "Target": "Characters/schedules/{{ModId}}_{{NPCNAME}}",
+   "Target": "Characters/schedules/{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}",
    "Entries": {
     "spring": "{{SPRINGSCHEDULE}}",
-    "summer": "{{SUMMERSCHEDULE}}",
-    "fall": "{{FALLSCHEDULE}}",
-    "winter": "{{WINTERSCHEDULE}}",
+    "summer": "GOTO spring",
+    "fall": "GOTO spring",
+    "winter": "GOTO spring",
     "Mon": "{{MONDAYSCHEDULE}}",
     "Tue": "{{TUESDAYSCHEDULE}}",
     "Wed": "{{WEDNESDAYSCHEDULE}}",
@@ -148,47 +142,13 @@
     "Sun": "{{SUNDAYSCHEDULE}}"
    }
   },
-  /*
-  {
-   "LogName": "Gender locks",
-   "Action": "EditData",
-   "Target": "Data/Characters",
-   "When": {
-    "Query: ('{{PlayerGender}}' = '{{LIKESGENDER}}') OR ('{{LIKESGENDER}}' = 'Both')": true,
-    "Query: {{ROMANCE}}": true
-   },
-   "Fields": {
-    "{{ModId}}_{{NPCNAME}}": {
-     "CanBeRomanced": true
-    }
-   }
-  },
-  */
-  //////////////////////////////////////////////////////////////////////////////////////////////////
+  ////
   {
    "LogName": "Base Dialogue",
    "Action": "EditData",
-   "Target": "Characters/Dialogue/{{ModId}}_{{NPCNAME}}",
+   "Target": "Characters/Dialogue/{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}",
    "Entries": {
-    "breakUp": "{{i18n:{{NPCNAME}}.breakUp}}",
-    "divorced": "{{i18n:{{NPCNAME}}.divorced}}",
-    "DumpsterDiveComment": "{{i18n:{{NPCNAME}}.DumpsterDiveComment}}",
-    "HitBySlingshot": "{{i18n:{{NPCNAME}}.HitBySlingshot}}",
-    "SpouseFarmhouseClutter": "{{i18n:{{NPCNAME}}.SpouseFarmhouseClutter}}",
-    "SpouseGiftJealous": "{{i18n:{{NPCNAME}}.SpouseGiftJealous}}",
-    "Spouse_MonstersInHouse": "{{i18n:{{NPCNAME}}.Spouse_MonstersInHouse}}",
-    "SpouseStardrop": "{{i18n:{{NPCNAME}}.SpouseStardrop}}",
-    "WipedMemory": "{{i18n:{{NPCNAME}}.WipedMemory}}",
-    "AcceptBouquet": "{{i18n:{{NPCNAME}}.AcceptBouquet}}",
-    "MovieInvitation": "{{i18n:{{NPCNAME}}.MovieInvitation}}",
-    "RejectBouquet": "{{i18n:{{NPCNAME}}.RejectBouquet}}",
-    "RejectGift_Divorced": "{{i18n:{{NPCNAME}}.RejectGift_Divorced}}",
-    "RejectMermaidPendant": "{{i18n:{{NPCNAME}}.RejectMermaidPendant}}",
-    "RejectMovieTicket": "{{i18n:{{NPCNAME}}.RejectMovieTicket}}",
-    "GreenRain": "{{i18n:{{NPCNAME}}.GreenRain}}",
-    "GreenRainFinished": "{{i18n:{{NPCNAME}}.GreenRainFinished}}",
-
-    "{{WeekDay}}": "$query {{Query: {{ENDRANGE}} > 3}} # {{i18n:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | {{i18n:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}}"
+    "{{WeekDay}}": "{{i18n:{{TYPEOFPERSON}}.{{DayOfWeek}}_{{Random:{{Range: 0, 3}}}}}}"
    }
   }
  ]

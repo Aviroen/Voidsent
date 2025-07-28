@@ -2,85 +2,42 @@
  "Pau": "Pau",
  "Pau.RejectPendant": "Am I supposed to eat that?$3",
  "Pau.RejectTea": "Not interested.$2",
- //start of characters/dialogue/npc
- /*
- CHANGE THESE OUT WITH RELATIONSHIP FLAG TAGS, WE'RE GETTING RID OF MARRIAGE
- READ: SPECIAL ORDER MARRIAGE EVENTS
- TRIGGER FLAG DURING MARRIAGE EVENT
- CHANGE TITLE
- ADJUST TO CUSTOMSCHEDULE FROM BUTTON
- */
- "Pau.Housemate": "(housemate)",
- "Pau.Spouse": "(spouse)",
- "Pau.Partner": "(partner)",
- "Pau.ExSpouse": "(ex-spouse)",
- "Pau.Single": "(single)",
- //door unlock
- "Pau.NotFriend_Door": "",
-
- //gift taste dialogue
- "Pau.Gifts.Loved": "",
- "Pau.Gifts.Liked": "",
- "Pau.Gifts.Disliked": "",
- "Pau.Gifts.Hated": "",
- "Pau.Gifts.Neutral": "",
-
- //gen dialogue
- "Pau.breakUp": "",
- "Pau.divorced": "",
- "Pau.DumpsterDiveComment": "",
- "Pau.HitBySlingshot": "",
- "Pau.SpouseFarmhouseClutter": "",
- "Pau.SpouseGiftJealous": "",
- "Pau.Spouse_MonstersInHouse": "",
- "Pau.SpouseStardrop": "",
- "Pau.WipedMemory": "",
- "Pau.AcceptBouquet": "",
- "Pau.MovieInvitation": "",
- "Pau.RejectBouquet": "",
- "Pau.RejectGift_Divorced": "",
- "Pau.RejectMermaidPendant": "",
- "Pau.RejectMovieTicket": "",
- "Pau.GreenRain": "",
- "Pau.GreenRainFinished": "",
- "Pau.Engaged": "",
- "Pau.AfterWedding": "",
 
  //monday
  //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_
- "BETAS.Pau.Monday_0": "",
- "BETAS.Pau.Monday_1": "",
- "BETAS.Pau.Monday_2": "",
- "BETAS.Pau.Monday_3": "",
+ "BETAS.Pau.Monday_0": "I is important.",
+ "BETAS.Pau.Monday_1": "I is cute.$2",
+ "BETAS.Pau.Monday_2": "I--I wish to just draw glorbos.$1",
+ "BETAS.Pau.Monday_3": "Is that so wrong...?$3",
  //daily
- "Pau.Monday_0": "Game1.currentLightSources = new()",
- "Pau.Monday_1": "",
- "Pau.Monday_2": "",
- "Pau.Monday_3": "",
+ "Pau.Monday_0": "It's a crime that booty shorts aren't accepted by all genders in this day and age.",
+ "Pau.Monday_1": "Day... Three...#$b#I will not burn another cookie...",
+ "Pau.Monday_2": "Is it so wrong to have my glorbos be bullied by my friends' glorbos?",
+ "Pau.Monday_3": "Mayonnaise is important.#$b#...And good.",
 
  //tuesday
  //BETAS
- "BETAS.Pau.Tuesday_0": "",
- "BETAS.Pau.Tuesday_1": "",
- "BETAS.Pau.Tuesday_2": "",
- "BETAS.Pau.Tuesday_3": "",
+ "BETAS.Pau.Tuesday_0": "AWJehfkawnefk",
+ "BETAS.Pau.Tuesday_1": "AJWNkjnwawklemf",
+ "BETAS.Pau.Tuesday_2": "LKnfkjenawef",
+ "BETAS.Pau.Tuesday_3": "WFenjknfwe",
  //daily
- "Pau.Tuesday_0": "",
- "Pau.Tuesday_1": "",
- "Pau.Tuesday_2": "",
- "Pau.Tuesday_3": "",
+ "Pau.Tuesday_0": "My... Shayla...",
+ "Pau.Tuesday_1": "I love bbno$.",
+ "Pau.Tuesday_2": "Love me an edgelord.",
+ "Pau.Tuesday_3": "An edgelord slathered in mayonnaise?#$b#Count me in.",
 
  //wednesday
  //BETAS
- "BETAS.Pau.Wednesday_0": "",
- "BETAS.Pau.Wednesday_1": "",
- "BETAS.Pau.Wednesday_2": "",
- "BETAS.Pau.Wednesday_3": "",
+ "BETAS.Pau.Wednesday_0": "Hiiiii!",
+ "BETAS.Pau.Wednesday_1": "Would you like to see my art?",
+ "BETAS.Pau.Wednesday_2": "Maybe toss a coin to your witc--local cat?",
+ "BETAS.Pau.Wednesday_3": "Did you know I'm planning my own expansion?",
  //daily
- "Pau.Wednesday_0": "",
- "Pau.Wednesday_1": "",
- "Pau.Wednesday_2": "",
- "Pau.Wednesday_3": "",
+ "Pau.Wednesday_0": "#$action Spiderbuttons.BETAS_Message \"Pau is drawing.\"",
+ "Pau.Wednesday_1": "#$action Spiderbuttons.BETAS_Message \"Pau is contemplating a cookie.\"",
+ "Pau.Wednesday_2": "#$action Spiderbuttons.BETAS_Message \"Pau is drawing her glorbos.\"",
+ "Pau.Wednesday_3": "#$action Spiderbuttons.BETAS_Message \"Pau is playing Dungeons and Dragons.\"",
 
  //thursday
  //BETAS

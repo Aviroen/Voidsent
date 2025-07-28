@@ -13,93 +13,32 @@
    }
   },
   {
-   "LogName": "Fish",
-   "Action": "EditData",
-   "Target": "Data/Locations",
-   "TargetField": [ "{{ModId}}_Morabyr", "Fish" ],
-   "Entries": {
-    "{{ModId}}_ShortfinMakoShark": {
-     "Id": "{{ModId}}_ShortfinMakoShark",
-     "ItemID": "(O){{ModId}}_ShortfinMakoShark",
-     "Chance": 0.02
-    },
-    "{{ModId}}_DogfishShark": {
-     "Id": "{{ModId}}_DogfishShark",
-     "ItemID": "(O){{ModId}}_DogfishShark",
-     "Chance": 0.02
-    },
-    "{{ModId}}_FrilledShark": {
-     "Id": "{{ModId}}_FrilledShark",
-     "ItemID": "(O){{ModId}}_FrilledShark",
-     "Chance": 0.02
-    },
-    "{{ModId}}_ThresherShark": {
-     "Id": "{{ModId}}_ThresherShark",
-     "ItemID": "(O){{ModId}}_ThresherShark",
-     "Chance": 0.02
-    },
-    "{{ModId}}_BlueShark": {
-     "Id": "{{ModId}}_BlueShark",
-     "ItemID": "(O){{ModId}}_BlueShark",
-     "Chance": 0.02
-    },
-    "{{ModId}}_NurseShark": {
-     "Id": "{{ModId}}_NurseShark",
-     "ItemID": "(O){{ModId}}_NurseShark",
-     "Chance": 0.02
-    },
-    "{{ModId}}_ZebraShark": {
-     "Id": "{{ModId}}_ZebraShark",
-     "ItemID": "(O){{ModId}}_ZebraShark",
-     "Chance": 0.02
-    },
-    "{{ModId}}_TigerShark": {
-     "Id": "{{ModId}}_TigerShark",
-     "ItemID": "(O){{ModId}}_TigerShark",
-     "Chance": 0.02
-    },
-    "{{ModId}}_BullShark": {
-     "Id": "{{ModId}}_BullShark",
-     "ItemID": "(O){{ModId}}_BullShark",
-     "Chance": 0.02
-    },
-    "{{ModId}}_HammerheadShark": {
-     "Id": "{{ModId}}_HammerheadShark",
-     "ItemID": "(O){{ModId}}_HammerheadShark",
-     "Chance": 0.02
-    },
-    "{{ModId}}_Shorbk": {
-     "Id": "{{ModId}}_Shorbk",
-     "ItemID": "(O){{ModId}}_Shorbk",
-     "Chance": 0.002
-    },
-    "{{ModId}}_WhaleShark": {
-     "Id": "{{ModId}}_WhaleShark",
-     "ItemID": "(O){{ModId}}_WhaleShark",
-     "Chance": 0.02
-    },
-    "{{ModId}}_Megalodon": {
-     "Id": "{{ModId}}_Megalodon",
-     "ItemID": "(O){{ModId}}_Megalodon",
-     "Chance": 0.002
-    }
-   }
-  },
-  {
    "Action": "EditMap",
    "Target": "Maps/{{Morabyr}}",
    "MapProperties": {
     "Outdoors": "T",
-    "mushymato.MMAP_WaterColor": "Red",
     "mushymato.MMAP_Panorama": "MMAP_ClearSky",
-    "NPCWarp": "95 68 {{ModId}}_WarpNetwork 1 0"
+    "NPCWarp": "95 68 {{ModId}}_WarpNetwork 1 0",
+    "DayTiles": "AlwaysFront 19 37 907 AlwaysFront 38 36 907 AlwaysFront 18 48 907 AlwaysFront 23 64 907 AlwaysFront 23 71 907 AlwaysFront 30 75 907 AlwaysFront 36 75 907 AlwaysFront 34 60 907 AlwaysFront 39 60 907 AlwaysFront 55 45 907 AlwaysFront 76 48 907 AlwaysFront 56 60 907 AlwaysFront 61 60 907 AlwaysFront 55 78 907 AlwaysFront 62 78 907 AlwaysFront 55 82 907 AlwaysFront 62 82 907 AlwaysFront 82 70 907",
+    "NightTiles": "AlwaysFront 19 37 908 AlwaysFront 38 36 908 AlwaysFront 18 48 908 AlwaysFront 23 64 908 AlwaysFront 23 71 908 AlwaysFront 30 75 908 AlwaysFront 36 75 908 AlwaysFront 34 60 908 AlwaysFront 39 60 908 AlwaysFront 55 45 908 AlwaysFront 76 48 908 AlwaysFront 56 60 908 AlwaysFront 61 60 908 AlwaysFront 55 78 908 AlwaysFront 62 78 908 AlwaysFront 55 82 908 AlwaysFront 62 82 908 AlwaysFront 82 70 908"
    },
    "AddWarps": [
     "126 0 {{CrimsonGrove}} 56 56",
     "127 0 {{CrimsonGrove}} 55 56",
-    "128 0 {{CrimsonGrove}} 55 56"
+    "128 0 {{CrimsonGrove}} 55 56",
+    "84 71 {{ModId}}_Codfather 9 25"
    ],
    "MapTiles": [
+    {
+     "Position": {
+      "X": 72,
+      "Y": 15
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "CustomCompanions": "Spawn 1 Aviroen.VoidsentCC.tia1"
+     }
+    },
     {
      "Position": {
       "X": 14,
@@ -122,6 +61,16 @@
     },
     {
      "Position": {
+      "X": 80,
+      "Y": 67
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Warp 9 17 {{ModId}}_Cichlidian"
+     }
+    },
+    {
+     "Position": {
       "X": 58,
       "Y": 62
      },
@@ -138,36 +87,6 @@
      "Layer": "Buildings",
      "SetProperties": {
       "Action": "Warp 17 37 {{ModId}}_BreakfastInnBed"
-     }
-    },
-    {
-     "Position": {
-      "X": 74,
-      "Y": 72
-     },
-     "Layer": "Buildings",
-     "SetProperties": {
-      "Action": "Warp 9 25 {{ModId}}_Codfather"
-     }
-    },
-    {
-     "Position": {
-      "X": 75,
-      "Y": 72
-     },
-     "Layer": "Buildings",
-     "SetProperties": {
-      "Action": "Warp 9 25 {{ModId}}_Codfather"
-     }
-    },
-    {
-     "Position": {
-      "X": 81,
-      "Y": 67
-     },
-     "Layer": "Buildings",
-     "SetProperties": {
-      "Action": "Warp 9 17 {{ModId}}_Cichlidian"
      }
     },
     {

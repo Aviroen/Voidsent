@@ -2,49 +2,6 @@
  "Nox": "Nox",
  "Nox.RejectPendant": "Sorry, I don't know what that I'm supposed to do with this.",
  "Nox.RejectTea": "Sorry, I don't know what that I'm supposed to do with this.",
- //start of characters/dialogue/npc
- /*
- CHANGE THESE OUT WITH RELATIONSHIP FLAG TAGS, WE'RE GETTING RID OF MARRIAGE
- READ: SPECIAL ORDER MARRIAGE EVENTS
- TRIGGER FLAG DURING MARRIAGE EVENT
- CHANGE TITLE
- ADJUST TO CUSTOMSCHEDULE FROM BUTTON
- */
- "Nox.Housemate": "(housemate)",
- "Nox.Spouse": "(spouse)",
- "Nox.Partner": "(partner)",
- "Nox.ExSpouse": "(ex-spouse)",
- "Nox.Single": "(single)",
- //door unlock
- "Nox.NotFriend_Door": "",
-
- //gift taste dialogue
- "Nox.Gifts.Loved": "",
- "Nox.Gifts.Liked": "",
- "Nox.Gifts.Disliked": "",
- "Nox.Gifts.Hated": "",
- "Nox.Gifts.Neutral": "",
-
- //gen dialogue
- "Nox.breakUp": "",
- "Nox.divorced": "",
- "Nox.DumpsterDiveComment": "",
- "Nox.HitBySlingshot": "",
- "Nox.SpouseFarmhouseClutter": "",
- "Nox.SpouseGiftJealous": "",
- "Nox.Spouse_MonstersInHouse": "",
- "Nox.SpouseStardrop": "",
- "Nox.WipedMemory": "",
- "Nox.AcceptBouquet": "",
- "Nox.MovieInvitation": "",
- "Nox.RejectBouquet": "",
- "Nox.RejectGift_Divorced": "",
- "Nox.RejectMermaidPendant": "",
- "Nox.RejectMovieTicket": "",
- "Nox.GreenRain": "",
- "Nox.GreenRainFinished": "",
- "Nox.Engaged": "",
- "Nox.AfterWedding": "",
 
  //monday
  //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_

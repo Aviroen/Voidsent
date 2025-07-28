@@ -12,9 +12,9 @@
     "ANXIETY": "Outgoing", //outgoing, neutral, shy changes stringsfromcsfiles
     "OPTIMISM": "Positive", //positive, neutral, negative changes stringsfromcsfiles
     "DARKSKIN": "true",
-    "ROMANCE": "false",
+    
     "GIFTABLE": "false",
-    "UNLOCKCONDITIONS": "",
+    
     "HOMELOCATION": "{{CrimsonGrove}}",
     "HOMEXTILE": "22",
     "HOMEYTILE": "41",

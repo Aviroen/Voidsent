@@ -12,10 +12,10 @@
     "ANXIETY": "Outgoing", //outgoing, neutral, shy changes stringsfromcsfiles
     "OPTIMISM": "Positive", //positive, neutral, negative changes stringsfromcsfiles
     "DARKSKIN": "true",
-    "ROMANCE": "false",
+    
     "LIKESGENDER": "Male",
     "GIFTABLE": "true",
-    "UNLOCKCONDITIONS": "",
+    
     "HOMELOCATION": "{{ModId}}_Grandberg1",
     "HOMEXTILE": "17",
     "HOMEYTILE": "14",

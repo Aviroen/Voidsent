@@ -12,10 +12,10 @@
     "ANXIETY": "Outgoing", //outgoing, neutral, shy changes stringsfromcsfiles
     "OPTIMISM": "Positive", //positive, neutral, negative changes stringsfromcsfiles
     "DARKSKIN": "true",
-    "ROMANCE": "false",
+    
     "LIKESGENDER": "Both",
     "GIFTABLE": "true",
-    "UNLOCKCONDITIONS": "",
+    
     "HOMELOCATION": "{{ModId}}_GrandMinistry",
     "HOMEXTILE": "36",
     "HOMEYTILE": "17",

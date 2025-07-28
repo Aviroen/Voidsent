@@ -12,10 +12,10 @@
     "ANXIETY": "Shy", //outgoing, neutral, shy changes stringsfromcsfiles
     "OPTIMISM": "Negative", //positive, neutral, negative changes stringsfromcsfiles
     "DARKSKIN": "false",
-    "ROMANCE": "false",
+    
     "LIKESGENDER": "Both",
     "GIFTABLE": "true",
-    "UNLOCKCONDITIONS": "",
+    
     "HOMELOCATION": "{{ModId}}_EdelweissHouse",
     "HOMEXTILE": "18",
     "HOMEYTILE": "4",

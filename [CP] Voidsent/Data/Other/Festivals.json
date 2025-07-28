@@ -1,3 +1,78 @@
 {
-
+ "Changes": [
+  {
+   "Action": "EditData",
+   "Target": "Data/PassiveFestivals",
+   "Entries": {
+    "{{ModId}}_Spring": {
+     "DisplayName": "[LocalizedText Strings\\UI:Billboard_NightMarket]",
+     "Condition": "",
+     "ShowOnCalendar": true,
+     "Season": "Spring",
+     "StartDay": 15,
+     "EndDay": 17,
+     "StartTime": 1700,
+     "StartMessage": "[LocalizedText Strings\\Events:BeachNightMarket_NowOpen]",
+     "OnlyShowMessageOnFirstDay": false,
+     "MapReplacements": {
+      "{{Morabyr}}": "{{Morabyr}}_SpringFestival"
+     },
+     "DailySetupMethod": null,
+     "CleanupMethod": null,
+     "CustomFields": null
+    },
+    "{{ModId}}_Summer": {
+     "DisplayName": "[LocalizedText Strings\\UI:Billboard_NightMarket]",
+     "Condition": "",
+     "ShowOnCalendar": true,
+     "Season": "Summer",
+     "StartDay": 15,
+     "EndDay": 17,
+     "StartTime": 1700,
+     "StartMessage": "[LocalizedText Strings\\Events:BeachNightMarket_NowOpen]",
+     "OnlyShowMessageOnFirstDay": false,
+     "MapReplacements": {
+      "{{Morabyr}}": "{{Morabyr}}_SummerFestival"
+     },
+     "DailySetupMethod": null,
+     "CleanupMethod": null,
+     "CustomFields": null
+    },
+    "{{ModId}}_Fall": {
+     "DisplayName": "[LocalizedText Strings\\UI:Billboard_NightMarket]",
+     "Condition": "",
+     "ShowOnCalendar": true,
+     "Season": "Fall",
+     "StartDay": 15,
+     "EndDay": 17,
+     "StartTime": 1700,
+     "StartMessage": "[LocalizedText Strings\\Events:BeachNightMarket_NowOpen]",
+     "OnlyShowMessageOnFirstDay": false,
+     "MapReplacements": {
+      "{{Morabyr}}": "{{Morabyr}}_FallFestival"
+     },
+     "DailySetupMethod": null,
+     "CleanupMethod": null,
+     "CustomFields": null
+    },
+    "{{ModId}}_Winter": {
+     "DisplayName": "[LocalizedText Strings\\UI:Billboard_NightMarket]",
+     "Condition": "",
+     "ShowOnCalendar": true,
+     "Season": "Winter",
+     "StartDay": 15,
+     "EndDay": 17,
+     "StartTime": 1700,
+     "StartMessage": "[LocalizedText Strings\\Events:BeachNightMarket_NowOpen]",
+     "OnlyShowMessageOnFirstDay": false,
+     "MapReplacements": {
+      "{{Morabyr}}": "{{Morabyr}}_WinterFestival"
+     },
+     "DailySetupMethod": null,
+     "CleanupMethod": null,
+     "CustomFields": null
+    }
+   }
+  }
+ ]
 }

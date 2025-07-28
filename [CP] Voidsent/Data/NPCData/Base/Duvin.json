@@ -12,10 +12,10 @@
     "ANXIETY": "Outgoing", //outgoing, neutral, shy changes stringsfromcsfiles
     "OPTIMISM": "Positive", //positive, neutral, negative changes stringsfromcsfiles
     "DARKSKIN": "true",
-    "ROMANCE": "false",
+    
     "LIKESGENDER": "Male",
     "GIFTABLE": "true",
-    "UNLOCKCONDITIONS": "",
+    
     "HOMELOCATION": "{{ModId}}_GMBlacksmithy",
     "HOMEXTILE": "5",
     "HOMEYTILE": "7",
@@ -37,10 +37,10 @@
     "WINTERSCHEDULE": "GOTO spring",
     "MONDAYSCHEDULE": "610 {{ModId}}_GMBlacksmithy 5 7 3",
     "TUESDAYSCHEDULE": "610 {{ModId}}_Menagerie 12 10 1/1200 {{ModId}}_GMBlacksmithy 5 7 3",
-    "WEDNESDAYSCHEDULE": "GOTO spring",
-    "THURSAYSCHEDULE": "GOTO spring",
-    "FRIDAYSCHEDULE": "GOTO spring",
-    "SATURDAYSCHEDULE": "GOTO spring",
+    "WEDNESDAYSCHEDULE": "610 {{ModId}}_GMBlacksmithy 5 7 3",
+    "THURSAYSCHEDULE": "610 {{ModId}}_GMBlacksmithy 5 7 3",
+    "FRIDAYSCHEDULE": "610 {{ModId}}_GMBlacksmithy 5 7 3",
+    "SATURDAYSCHEDULE": "610 {{ModId}}_GMBlacksmithy 5 7 3",
     "SUNDAYSCHEDULE": "610 {{ModId}}_Grandberg1 15 11 3",
 
     //HEART DIALOGUES

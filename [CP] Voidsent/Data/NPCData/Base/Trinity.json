@@ -12,41 +12,36 @@
     "ANXIETY": "Outgoing", //outgoing, neutral, shy changes stringsfromcsfiles
     "OPTIMISM": "Positive", //positive, neutral, negative changes stringsfromcsfiles
     "DARKSKIN": "true",
-    "ROMANCE": "false",
+    
     "LIKESGENDER": "Male",
     "GIFTABLE": "true",
-    "UNLOCKCONDITIONS": "",
-    "HOMELOCATION": "{{ModId}}_Codfather",
-    "HOMEXTILE": "17",
-    "HOMEYTILE": "23",
+    
+    "HOMELOCATION": "{{ModId}}_BreakfastInnBed1",
+    "HOMEXTILE": "32",
+    "HOMEYTILE": "15",
     "HOMEFACING": "down", //left, right, up, down
-    "LOVEDGIFTS": "166",
-    "LIKEDGIFTS": "category_fish",
-    "DISLIKEDGIFTS": "category_bait category_ingredients category_monster_loot",
-    "HATEDGIFTS": "category_litter, category_junk",
-    "NEUTRALGIFTS": "category_building_resources",
+    "LOVEDGIFTS": "215 218 222 226 611 873", //pepper poppers/tom kha/rhubarb pie/spicy eel/blackberry cob/pina colada
+    "LIKEDGIFTS": "906 907 732 610 635 634 797 814", //fruit salad/orange/apricot/poi/trop curry/crab cakes/pearl/squid ink
+    "DISLIKEDGIFTS": "category_crafting category_milk category_fertilizer",
+    "HATEDGIFTS": "category_junk category_bait category_tackle",
+    "NEUTRALGIFTS": "category_monster_loot",
     "SLEEPANIMATION": "18/19 19 19 19 19 18 18 18 18 19 19 19 19 18 18 18 18 19 19 19 19/19",
     "SPECIAL1": "sleforward",
     "SPECIAL1ANIMATION": "16/16 16 17 17 17 18 18 18 17 17 18 18 19 19 18 18 17 17 18 18 19 19 18 18 17 17 16 16/16",
     "SPECIAL2": "wag",
     "SPECIAL2ANIMATION": "20/20 20 20 20 20 21 22 23 20 20 20 20 20 20/20",
     "ENDRANGE": "3",
-    "SPRINGSCHEDULE": "610 {{ModId}}_Codfather 15 24 2",
+    "SPRINGSCHEDULE": "610 {{ModId}}_Codfather 15 24 2/2600 {{ModId}}_BreakfastInnBed1 35 13 0 {{Trinity}}_sleep",
     "SUMMERSCHEDULE": "GOTO spring",
     "FALLSCHEDULE": "GOTO spring",
     "WINTERSCHEDULE": "GOTO spring",
-    //hammering
-    "MONDAYSCHEDULE": "GOTO spring",
-    //alchemy
-    "TUESDAYSCHEDULE": "GOTO spring",
-    //reading
-    "WEDNESDAYSCHEDULE": "GOTO spring",
-    //grave
-    "THURSAYSCHEDULE": "GOTO spring",
-    //hammer
-    "FRIDAYSCHEDULE": "610 {{Morabyr}} 59 75 3/1400 {{Morabyr}} 66 93 2",
-    "SATURDAYSCHEDULE": "GOTO spring",
-    "SUNDAYSCHEDULE": "GOTO spring",
+    "MONDAYSCHEDULE": "610 {{Morabyr}} 64 96 2/2600 {{ModId}}_BreakfastInnBed1 35 13 0 {{Trinity}}_sleep",
+    "TUESDAYSCHEDULE": "610 {{ModId}}_EdelweissHouse 12 14 3/2600 {{ModId}}_BreakfastInnBed1 35 13 0 {{Trinity}}_sleep",
+    "WEDNESDAYSCHEDULE": "610 {{Morabyr}} 63 66 2/2600 {{ModId}}_BreakfastInnBed1 35 13 0 {{Trinity}}_sleep",
+    "THURSAYSCHEDULE": "610 {{Morabyr}} 125 92 2/2600 {{ModId}}_BreakfastInnBed1 35 13 0 {{Trinity}}_sleep",
+    "FRIDAYSCHEDULE": "610 {{Morabyr}} 59 75 3/1400 {{Morabyr}} 66 93 2/2600 {{ModId}}_BreakfastInnBed1 35 13 0 {{Trinity}}_sleep",
+    "SATURDAYSCHEDULE": "610 {{ModId}}_GrandMinistry 20 11 2/2600 {{ModId}}_BreakfastInnBed1 35 13 0 {{Trinity}}_sleep",
+    "SUNDAYSCHEDULE": "610 {{ModId}}_BreakfastInnBed 6 9 1/2600 {{ModId}}_BreakfastInnBed1 35 13 0 {{Trinity}}_sleep",
 
     //HEART DIALOGUES
     "2HEART": true, //true/false
