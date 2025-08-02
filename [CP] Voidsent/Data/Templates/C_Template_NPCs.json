@@ -1,0 +1,170 @@
+{
+ "Changes": [
+  {
+   "LogName": "Portrait/Character loads",
+   "Action": "Load",
+   "Priority": "Low",
+   "Target": "Characters/{{ModId}}_{{NPCNAME}}, Portraits/{{ModId}}_{{NPCNAME}}",
+   "FromFile": "Assets/NPCS/{{TargetPathOnly}}/{{TargetWithoutPath}}.png"
+  },
+  { //blank loads so that i can target edit
+   "LogName": "BlankLoads",
+   "Action": "Load",
+   "Priority": "Low",
+   "Target": "Characters/Dialogue/{{ModId}}_{{NPCNAME}}, Characters/Dialogue/MarriageDialogue{{ModId}}_{{NPCNAME}}, Characters/schedules/{{ModId}}_{{NPCNAME}}, Strings/Schedules/{{ModId}}_{{NPCNAME}}",
+   "FromFile": "data/blank.json"
+  },
+  {
+   "Action": "Load",
+   "FromFile": "{{FirstValidFile: i18n/{{language}}/{{NPCNAME}}.json, i18n/default/{{NPCNAME}}.json}}",
+   "Priority": "Low",
+   "Target": "{{ModId}}/NPCTranslations"
+  },
+  {
+   "Action": "EditData",
+   "Target": "Data/Characters",
+   "Entries": {
+    "{{ModId}}_{{NPCNAME}}": {
+     "DisplayName": "{{i18n:{{NPCNAME}}}}",
+     "BirthSeason": null,
+     "BirthDay": 0,
+     "HomeRegion": "Other",
+     "Language": "Default",
+     "Gender": "Undefined",
+     "Age": "Adult",
+     "Manner": "Polite",
+     "SocialAnxiety": "Outgoing",
+     "Optimism": "Positive",
+     "IsDarkSkinned": true,
+     "CanBeRomanced": false,
+     "LoveInterest": null,
+     "Calendar": "HiddenUntilMet",
+     "SocialTab": "HiddenUntilMet",
+     "CanSocialize": false,
+     "CanReceiveGifts": false,
+     "CanGreetNearbyCharacters": true,
+     "CanCommentOnPurchasedShopItems": null,
+     "CanVisitIsland": false,
+     "IntroductionsQuest": false,
+     "ItemDeliveryQuests": null,
+     "PerfectionScore": false,
+     "EndSlideShow": "TrailingGroup",
+     "SpouseAdopts": null,
+     "SpouseWantsChildren": null,
+     "SpouseGiftJealousy": null,
+     "SpouseGiftJealousyFriendshipChange": -30,
+     "SpouseRoom": null,
+     "SpousePatio": null,
+     "SpouseFloors": [],
+     "SpouseWallpapers": [],
+     "DumpsterDiveFriendshipEffect": -5,
+     "DumpsterDiveEmote": null,
+     "FriendsAndFamily": {
+     },
+     "FlowerDanceCanDance": false,
+     "WinterStarGifts": [],
+     "WinterStarParticipant": null,
+     "UnlockConditions": null,
+     "SpawnIfMissing": true,
+     "Home": [
+      {
+       "Id": "Default",
+       "Condition": null,
+       "Location": "{{CrimsonGrove}}",
+       "Tile": {
+        "X": "{{HOMEX}}",
+        "Y": "{{HOMEY}}"
+       },
+       "Direction": "0"
+      }
+     ],
+     "TextureName": null,
+     "Appearance": null,
+     "MugShotSourceRect": null,
+     "Size": {
+      "X": 16,
+      "Y": 32
+     },
+     "Breather": true,
+     "BreathChestRect": null,
+     "BreathChestPosition": null,
+     "Shadow": null,
+     "EmoteOffset": {
+      "X": 0,
+      "Y": 0
+     },
+     "ShakePortraits": [ 15 ],
+     "KissSpriteIndex": 28,
+     "KissSpriteFacingRight": false,
+     "HiddenProfileEmoteSound": "newRecipe",
+     "HiddenProfileEmoteDuration": 4000,
+     "HiddenProfileEmoteStartFrame": 32,
+     "HiddenProfileEmoteFrameCount": 2,
+     "HiddenProfileEmoteFrameDuration": 200.0,
+     "FormerCharacterNames": [],
+     "CustomFields": null
+    }
+   }
+  },
+  {
+   "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "Entries": {
+    "{{ModId}}_{{NPCNAME}}": "Text/1/Text/2/Text/3/Text/4/Text/5/"
+   }
+  },
+  {
+   "LogName": "Trigger Actions: BETAS",
+   "Action": "EditData",
+   "Target": "Data/TriggerActions",
+   "Entries": {
+    "{{ModId}}_{{NPCNAME}}_DialogueOpened": {
+     "Id": "{{ModId}}_{{NPCNAME}}_DialogueOpened",
+     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
+     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, ITEM_STACK Target 1",
+     "MarkActionApplied": false,
+     "Action": "Aviroen.Voidsent_RandomDialogue Aviroen.VoidsentCP {{ModId}}_{{NPCNAME}} BETAS.{{NPCNAME}}.{{DayOfWeek}}_ {{Range:0,3}}"
+    }
+   }
+  },
+  //////////////////////////////////////////////////////////////////////////////////////////////////
+  {
+   "LogName": "Schedule Data",
+   "Action": "EditData",
+   "Target": "Characters/schedules/{{ModId}}_{{NPCNAME}}",
+   "Entries": {
+    "spring": "{{SPRINGSCHEDULE}}",
+    "summer": "GOTO spring",
+    "fall": "GOTO spring",
+    "winter": "GOTO spring",
+    "Mon": "{{MONDAYSCHEDULE}}",
+    "Tue": "{{TUESDAYSCHEDULE}}",
+    "Wed": "{{WEDNESDAYSCHEDULE}}",
+    "Thu": "{{THURSDAYSCHEDULE}}",
+    "Fri": "{{FRIDAYSCHEDULE}}",
+    "Sat": "{{SATURDAYSCHEDULE}}",
+    "Sun": "{{SUNDAYSCHEDULE}}"
+   }
+  },
+  ////
+  {
+   "LogName": "Base Dialogue",
+   "Action": "EditData",
+   "Target": "Characters/Dialogue/{{ModId}}_{{NPCNAME}}",
+   "Entries": {
+    "{{WeekDay}}": "{{i18n:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, 3}}}}}}"
+   }
+  },
+  {
+   "LogName": "NPC animationDescriptions edit",
+   "Action": "EditData",
+   "Target": "Data/animationDescriptions",
+   "Entries": {
+    "{{ModId}}_{{NPCNAME}}_stand": "0/0/0",
+    "{{Lowercase:{{ModId}}_{{NPCNAME}}_sleep}}": "{{SLEEPANIMATION}}",
+    "{{ModId}}_{{NPCNAME}}_{{SPECIAL1}}": "{{SPECIAL1ANIMATION}}",
+    "{{ModId}}_{{NPCNAME}}_{{SPECIAL2}}": "{{SPECIAL2ANIMATION}}"
+   }
+  }
+ ]
+}

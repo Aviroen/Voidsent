@@ -2,257 +2,257 @@
  "Human": "Human",
  //monday
  //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_
- "BETAS.Human.Monday_0": "",
- "BETAS.Human.Monday_1": "",
- "BETAS.Human.Monday_2": "",
- "BETAS.Human.Monday_3": "",
+ "BETAS.Human.Monday_0": "%A question of children?#%Children have no place in times of war, ${boy^girl^kid}$.",
+ "BETAS.Human.Monday_1": "%We who have traveled to these lands left behind our families to safer pastures.#%If you're so afraid, maybe you should head back too.",
+ "BETAS.Human.Monday_2": "%I hear the people born n' raised here sent off their children to safer lands.",
+ "BETAS.Human.Monday_3": "%Ya either shape up or find yaself in a grave.",
  //daily
- "Human.Monday_0": "",
- "Human.Monday_1": "",
- "Human.Monday_2": "",
- "Human.Monday_3": "",
+ "Human.Monday_0": "%Don't you love the smell of the salty air?",
+ "Human.Monday_1": "%I definitely want one of Thandael's fresh breads!",
+ "Human.Monday_2": "%Have you ever ridden any of the passenger boats?",
+ "Human.Monday_3": "%I hear Yrsin is giving out a generous reward for this year's festival!",
 
  //tuesday
  //BETAS
- "BETAS.Human.Tuesday_0": "",
- "BETAS.Human.Tuesday_1": "",
- "BETAS.Human.Tuesday_2": "",
- "BETAS.Human.Tuesday_3": "",
+ "BETAS.Human.Tuesday_0": "%weomp womp",
+ "BETAS.Human.Tuesday_1": "%swepom",
+ "BETAS.Human.Tuesday_2": "%awegawe",
+ "BETAS.Human.Tuesday_3": "%awefaweg",
  //daily
- "Human.Tuesday_0": "",
- "Human.Tuesday_1": "",
- "Human.Tuesday_2": "",
- "Human.Tuesday_3": "",
+ "Human.Tuesday_0": "%woop woop",
+ "Human.Tuesday_1": "%woop woop",
+ "Human.Tuesday_2": "%woop woop",
+ "Human.Tuesday_3": "%woop woop",
 
  //wednesday
  //BETAS
- "BETAS.Human.Wednesday_0": "",
- "BETAS.Human.Wednesday_1": "",
- "BETAS.Human.Wednesday_2": "",
- "BETAS.Human.Wednesday_3": "",
+ "BETAS.Human.Wednesday_0": "%",
+ "BETAS.Human.Wednesday_1": "%",
+ "BETAS.Human.Wednesday_2": "%",
+ "BETAS.Human.Wednesday_3": "%",
  //daily
- "Human.Wednesday_0": "",
- "Human.Wednesday_1": "",
- "Human.Wednesday_2": "",
- "Human.Wednesday_3": "",
+ "Human.Wednesday_0": "%",
+ "Human.Wednesday_1": "%",
+ "Human.Wednesday_2": "%",
+ "Human.Wednesday_3": "%",
 
  //thursday
  //BETAS
- "BETAS.Human.Thursday_0": "",
- "BETAS.Human.Thursday_1": "",
- "BETAS.Human.Thursday_2": "",
- "BETAS.Human.Thursday_3": "",
+ "BETAS.Human.Thursday_0": "%",
+ "BETAS.Human.Thursday_1": "%",
+ "BETAS.Human.Thursday_2": "%",
+ "BETAS.Human.Thursday_3": "%",
  //daily
- "Human.Thursday_0": "",
- "Human.Thursday_1": "",
- "Human.Thursday_2": "",
- "Human.Thursday_3": "",
+ "Human.Thursday_0": "%",
+ "Human.Thursday_1": "%",
+ "Human.Thursday_2": "%",
+ "Human.Thursday_3": "%",
 
  //friday
  //BETAS
- "BETAS.Human.Friday_0": "",
- "BETAS.Human.Friday_1": "",
- "BETAS.Human.Friday_2": "",
- "BETAS.Human.Friday_3": "",
+ "BETAS.Human.Friday_0": "%",
+ "BETAS.Human.Friday_1": "%",
+ "BETAS.Human.Friday_2": "%",
+ "BETAS.Human.Friday_3": "%",
  //daily
- "Human.Friday_0": "",
- "Human.Friday_1": "",
- "Human.Friday_2": "",
- "Human.Friday_3": "",
+ "Human.Friday_0": "%",
+ "Human.Friday_1": "%",
+ "Human.Friday_2": "%",
+ "Human.Friday_3": "%",
 
  //saturday
  //BETAS
- "BETAS.Human.Saturday_0": "",
- "BETAS.Human.Saturday_1": "",
- "BETAS.Human.Saturday_2": "",
- "BETAS.Human.Saturday_3": "",
+ "BETAS.Human.Saturday_0": "%",
+ "BETAS.Human.Saturday_1": "%",
+ "BETAS.Human.Saturday_2": "%",
+ "BETAS.Human.Saturday_3": "%",
  //daily
- "Human.Saturday_0": "",
- "Human.Saturday_1": "",
- "Human.Saturday_2": "",
- "Human.Saturday_3": "",
+ "Human.Saturday_0": "%",
+ "Human.Saturday_1": "%",
+ "Human.Saturday_2": "%",
+ "Human.Saturday_3": "%",
 
  //sunday
  //BETAS
- "BETAS.Human.Sunday_0": "",
- "BETAS.Human.Sunday_1": "",
- "BETAS.Human.Sunday_2": "",
- "BETAS.Human.Sunday_3": "",
+ "BETAS.Human.Sunday_0": "%",
+ "BETAS.Human.Sunday_1": "%",
+ "BETAS.Human.Sunday_2": "%",
+ "BETAS.Human.Sunday_3": "%",
  //daily
- "Human.Sunday_0": "",
- "Human.Sunday_1": "",
- "Human.Sunday_2": "",
- "Human.Sunday_3": "",
+ "Human.Sunday_0": "%",
+ "Human.Sunday_1": "%",
+ "Human.Sunday_2": "%",
+ "Human.Sunday_3": "%",
 
  //////
  "Voidketh": "Voidketh",
  //monday
  //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_
- "BETAS.Voidketh.Monday_0": "",
- "BETAS.Voidketh.Monday_1": "",
- "BETAS.Voidketh.Monday_2": "",
- "BETAS.Voidketh.Monday_3": "",
+ "BETAS.Voidketh.Monday_0": "%",
+ "BETAS.Voidketh.Monday_1": "%",
+ "BETAS.Voidketh.Monday_2": "%",
+ "BETAS.Voidketh.Monday_3": "%",
  //daily
- "Voidketh.Monday_0": "",
- "Voidketh.Monday_1": "",
- "Voidketh.Monday_2": "",
- "Voidketh.Monday_3": "",
+ "Voidketh.Monday_0": "%What can I help ya with, kid?",
+ "Voidketh.Monday_1": "%King Konryn's a poor sod, poor kid.",
+ "Voidketh.Monday_2": "%Y'think Second Prince Thandael would make a good king?",
+ "Voidketh.Monday_3": "%I hear Vorgar's got a new forge ready.",
 
  //tuesday
  //BETAS
- "BETAS.Voidketh.Tuesday_0": "",
- "BETAS.Voidketh.Tuesday_1": "",
- "BETAS.Voidketh.Tuesday_2": "",
- "BETAS.Voidketh.Tuesday_3": "",
+ "BETAS.Voidketh.Tuesday_0": "%",
+ "BETAS.Voidketh.Tuesday_1": "%",
+ "BETAS.Voidketh.Tuesday_2": "%",
+ "BETAS.Voidketh.Tuesday_3": "%",
  //daily
- "Voidketh.Tuesday_0": "",
- "Voidketh.Tuesday_1": "",
- "Voidketh.Tuesday_2": "",
- "Voidketh.Tuesday_3": "",
+ "Voidketh.Tuesday_0": "%",
+ "Voidketh.Tuesday_1": "%",
+ "Voidketh.Tuesday_2": "%",
+ "Voidketh.Tuesday_3": "%",
 
  //wednesday
  //BETAS
- "BETAS.Voidketh.Wednesday_0": "",
- "BETAS.Voidketh.Wednesday_1": "",
- "BETAS.Voidketh.Wednesday_2": "",
- "BETAS.Voidketh.Wednesday_3": "",
+ "BETAS.Voidketh.Wednesday_0": "%",
+ "BETAS.Voidketh.Wednesday_1": "%",
+ "BETAS.Voidketh.Wednesday_2": "%",
+ "BETAS.Voidketh.Wednesday_3": "%",
  //daily
- "Voidketh.Wednesday_0": "",
- "Voidketh.Wednesday_1": "",
- "Voidketh.Wednesday_2": "",
- "Voidketh.Wednesday_3": "",
+ "Voidketh.Wednesday_0": "%",
+ "Voidketh.Wednesday_1": "%",
+ "Voidketh.Wednesday_2": "%",
+ "Voidketh.Wednesday_3": "%",
 
  //thursday
  //BETAS
- "BETAS.Voidketh.Thursday_0": "",
- "BETAS.Voidketh.Thursday_1": "",
- "BETAS.Voidketh.Thursday_2": "",
- "BETAS.Voidketh.Thursday_3": "",
+ "BETAS.Voidketh.Thursday_0": "%",
+ "BETAS.Voidketh.Thursday_1": "%",
+ "BETAS.Voidketh.Thursday_2": "%",
+ "BETAS.Voidketh.Thursday_3": "%",
  //daily
- "Voidketh.Thursday_0": "",
- "Voidketh.Thursday_1": "",
- "Voidketh.Thursday_2": "",
- "Voidketh.Thursday_3": "",
+ "Voidketh.Thursday_0": "%",
+ "Voidketh.Thursday_1": "%",
+ "Voidketh.Thursday_2": "%",
+ "Voidketh.Thursday_3": "%",
 
  //friday
  //BETAS
- "BETAS.Voidketh.Friday_0": "",
- "BETAS.Voidketh.Friday_1": "",
- "BETAS.Voidketh.Friday_2": "",
- "BETAS.Voidketh.Friday_3": "",
+ "BETAS.Voidketh.Friday_0": "%",
+ "BETAS.Voidketh.Friday_1": "%",
+ "BETAS.Voidketh.Friday_2": "%",
+ "BETAS.Voidketh.Friday_3": "%",
  //daily
- "Voidketh.Friday_0": "",
- "Voidketh.Friday_1": "",
- "Voidketh.Friday_2": "",
- "Voidketh.Friday_3": "",
+ "Voidketh.Friday_0": "%",
+ "Voidketh.Friday_1": "%",
+ "Voidketh.Friday_2": "%",
+ "Voidketh.Friday_3": "%",
 
  //saturday
  //BETAS
- "BETAS.Voidketh.Saturday_0": "",
- "BETAS.Voidketh.Saturday_1": "",
- "BETAS.Voidketh.Saturday_2": "",
- "BETAS.Voidketh.Saturday_3": "",
+ "BETAS.Voidketh.Saturday_0": "%",
+ "BETAS.Voidketh.Saturday_1": "%",
+ "BETAS.Voidketh.Saturday_2": "%",
+ "BETAS.Voidketh.Saturday_3": "%",
  //daily
- "Voidketh.Saturday_0": "",
- "Voidketh.Saturday_1": "",
- "Voidketh.Saturday_2": "",
- "Voidketh.Saturday_3": "",
+ "Voidketh.Saturday_0": "%",
+ "Voidketh.Saturday_1": "%",
+ "Voidketh.Saturday_2": "%",
+ "Voidketh.Saturday_3": "%",
 
  //sunday
  //BETAS
- "BETAS.Voidketh.Sunday_0": "",
- "BETAS.Voidketh.Sunday_1": "",
- "BETAS.Voidketh.Sunday_2": "",
- "BETAS.Voidketh.Sunday_3": "",
+ "BETAS.Voidketh.Sunday_0": "%",
+ "BETAS.Voidketh.Sunday_1": "%",
+ "BETAS.Voidketh.Sunday_2": "%",
+ "BETAS.Voidketh.Sunday_3": "%",
  //daily
- "Voidketh.Sunday_0": "",
- "Voidketh.Sunday_1": "",
- "Voidketh.Sunday_2": "",
- "Voidketh.Sunday_3": "",
+ "Voidketh.Sunday_0": "%",
+ "Voidketh.Sunday_1": "%",
+ "Voidketh.Sunday_2": "%",
+ "Voidketh.Sunday_3": "%",
 
  ////////////
  "Merm": "Merm",
  //monday
  //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_
- "BETAS.Merm.Monday_0": "",
- "BETAS.Merm.Monday_1": "",
- "BETAS.Merm.Monday_2": "",
- "BETAS.Merm.Monday_3": "",
+ "BETAS.Merm.Monday_0": "%",
+ "BETAS.Merm.Monday_1": "%",
+ "BETAS.Merm.Monday_2": "%",
+ "BETAS.Merm.Monday_3": "%",
  //daily
- "Merm.Monday_0": "",
- "Merm.Monday_1": "",
- "Merm.Monday_2": "",
- "Merm.Monday_3": "",
+ "Merm.Monday_0": "%We've blown in from the trench!",
+ "Merm.Monday_1": "%The deep depths of the trench is where our hero Yrsin came from.",
+ "Merm.Monday_2": "%Warm waters ahoy! Fresh seafood!",
+ "Merm.Monday_3": "%Interested in some fresh clams?",
 
  //tuesday
  //BETAS
- "BETAS.Merm.Tuesday_0": "",
- "BETAS.Merm.Tuesday_1": "",
- "BETAS.Merm.Tuesday_2": "",
- "BETAS.Merm.Tuesday_3": "",
+ "BETAS.Merm.Tuesday_0": "%",
+ "BETAS.Merm.Tuesday_1": "%",
+ "BETAS.Merm.Tuesday_2": "%",
+ "BETAS.Merm.Tuesday_3": "%",
  //daily
- "Merm.Tuesday_0": "",
- "Merm.Tuesday_1": "",
- "Merm.Tuesday_2": "",
- "Merm.Tuesday_3": "",
+ "Merm.Tuesday_0": "%",
+ "Merm.Tuesday_1": "%",
+ "Merm.Tuesday_2": "%",
+ "Merm.Tuesday_3": "%",
 
  //wednesday
  //BETAS
- "BETAS.Merm.Wednesday_0": "",
- "BETAS.Merm.Wednesday_1": "",
- "BETAS.Merm.Wednesday_2": "",
- "BETAS.Merm.Wednesday_3": "",
+ "BETAS.Merm.Wednesday_0": "%",
+ "BETAS.Merm.Wednesday_1": "%",
+ "BETAS.Merm.Wednesday_2": "%",
+ "BETAS.Merm.Wednesday_3": "%",
  //daily
- "Merm.Wednesday_0": "",
- "Merm.Wednesday_1": "",
- "Merm.Wednesday_2": "",
- "Merm.Wednesday_3": "",
+ "Merm.Wednesday_0": "%",
+ "Merm.Wednesday_1": "%",
+ "Merm.Wednesday_2": "%",
+ "Merm.Wednesday_3": "%",
 
  //thursday
  //BETAS
- "BETAS.Merm.Thursday_0": "",
- "BETAS.Merm.Thursday_1": "",
- "BETAS.Merm.Thursday_2": "",
- "BETAS.Merm.Thursday_3": "",
+ "BETAS.Merm.Thursday_0": "%",
+ "BETAS.Merm.Thursday_1": "%",
+ "BETAS.Merm.Thursday_2": "%",
+ "BETAS.Merm.Thursday_3": "%",
  //daily
- "Merm.Thursday_0": "",
- "Merm.Thursday_1": "",
- "Merm.Thursday_2": "",
- "Merm.Thursday_3": "",
+ "Merm.Thursday_0": "%",
+ "Merm.Thursday_1": "%",
+ "Merm.Thursday_2": "%",
+ "Merm.Thursday_3": "%",
 
  //friday
  //BETAS
- "BETAS.Merm.Friday_0": "",
- "BETAS.Merm.Friday_1": "",
- "BETAS.Merm.Friday_2": "",
- "BETAS.Merm.Friday_3": "",
+ "BETAS.Merm.Friday_0": "%",
+ "BETAS.Merm.Friday_1": "%",
+ "BETAS.Merm.Friday_2": "%",
+ "BETAS.Merm.Friday_3": "%",
  //daily
- "Merm.Friday_0": "",
- "Merm.Friday_1": "",
- "Merm.Friday_2": "",
- "Merm.Friday_3": "",
+ "Merm.Friday_0": "%",
+ "Merm.Friday_1": "%",
+ "Merm.Friday_2": "%",
+ "Merm.Friday_3": "%",
 
  //saturday
  //BETAS
- "BETAS.Merm.Saturday_0": "",
- "BETAS.Merm.Saturday_1": "",
- "BETAS.Merm.Saturday_2": "",
- "BETAS.Merm.Saturday_3": "",
+ "BETAS.Merm.Saturday_0": "%",
+ "BETAS.Merm.Saturday_1": "%",
+ "BETAS.Merm.Saturday_2": "%",
+ "BETAS.Merm.Saturday_3": "%",
  //daily
- "Merm.Saturday_0": "",
- "Merm.Saturday_1": "",
- "Merm.Saturday_2": "",
- "Merm.Saturday_3": "",
+ "Merm.Saturday_0": "%",
+ "Merm.Saturday_1": "%",
+ "Merm.Saturday_2": "%",
+ "Merm.Saturday_3": "%",
 
  //sunday
  //BETAS
- "BETAS.Merm.Sunday_0": "",
- "BETAS.Merm.Sunday_1": "",
- "BETAS.Merm.Sunday_2": "",
- "BETAS.Merm.Sunday_3": "",
+ "BETAS.Merm.Sunday_0": "%",
+ "BETAS.Merm.Sunday_1": "%",
+ "BETAS.Merm.Sunday_2": "%",
+ "BETAS.Merm.Sunday_3": "%",
  //daily
- "Merm.Sunday_0": "",
- "Merm.Sunday_1": "",
- "Merm.Sunday_2": "",
- "Merm.Sunday_3": ""
+ "Merm.Sunday_0": "%",
+ "Merm.Sunday_1": "%",
+ "Merm.Sunday_2": "%",
+ "Merm.Sunday_3": "%"
 }

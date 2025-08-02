@@ -1,0 +1,61 @@
+{
+ "Changes": [
+  {
+   "Action": "EditData",
+   "Target": "Data/TriggerActions",
+   "Entries": {
+    "{{ModId}}_{{NPCNAME}}_Heart1": {
+     "Id": "{{ModId}}_{{NPCNAME}}_Heart1",
+     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
+     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, !PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}.1%&NL&%, PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_{{NPCNAME}} 500",
+     "MarkActionApplied": false,
+     "Actions": [
+      "Spiderbuttons.BETAS_SetFriendshipPoints {{ModId}}_{{NPCNAME}} 499"
+     ]
+    },
+    "{{ModId}}_{{NPCNAME}}_Heart1.E": {
+     "Id": "{{ModId}}_{{NPCNAME}}_Heart1.E",
+     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
+     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}.1%&NL&%",
+     "Actions": [
+      "Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} \"{{i18n:SO.{{NPCNAME}}.1.E}}\""
+     ]
+    },
+    "{{ModId}}_{{NPCNAME}}_Heart2": {
+     "Id": "{{ModId}}_{{NPCNAME}}_Heart2",
+     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
+     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, !PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}.2%&NL&%, PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_{{NPCNAME}} 750",
+     "MarkActionApplied": false,
+     "Actions": [
+      "Spiderbuttons.BETAS_SetFriendshipPoints {{ModId}}_{{NPCNAME}} 749"
+     ]
+    },
+    "{{ModId}}_{{NPCNAME}}_Heart2.E": {
+     "Id": "{{ModId}}_{{NPCNAME}}_Heart2.E",
+     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
+     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}.2%&NL&%",
+     "Actions": [
+      "Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} \"{{i18n:SO.{{NPCNAME}}.2.E}}\""
+     ]
+    },
+    "{{ModId}}_{{NPCNAME}}_Heart3": {
+     "Id": "{{ModId}}_{{NPCNAME}}_Heart3",
+     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
+     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, !PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}.3%&NL&%, PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_{{NPCNAME}} 1000",
+     "MarkActionApplied": false,
+     "Actions": [
+      "Spiderbuttons.BETAS_SetFriendshipPoints {{ModId}}_{{NPCNAME}} 999"
+     ]
+    },
+    "{{ModId}}_{{NPCNAME}}_Heart3.E": {
+     "Id": "{{ModId}}_{{NPCNAME}}_Heart3.E",
+     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
+     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}.3%&NL&%",
+     "Actions": [
+      "Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} \"{{i18n:SO.{{NPCNAME}}.3.E}}\""
+     ]
+    }
+   }
+  }
+ ]
+}

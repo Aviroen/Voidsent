@@ -37,6 +37,12 @@
    "Target": "{{ModId}}/Strings"
   },
   {
+   "Action": "Load",
+   "FromFile": "{{FirstValidFile: i18n/{{language}}/A_AntiSocials.json, i18n/default/A_AntiSocials.json}}",
+   "Priority": "Low",
+   "Target": "{{ModId}}/NPCTranslations"
+  },
+  {
    "Action": "EditData",
    "When": {
     "HasMod": "shekurika.EventLookup"
@@ -91,12 +97,7 @@
   {
    "LogName": "CHAOS BEGIN",
    "Action": "Include",
-   "FromFile": "Data/NPCData/Base/Duvin.json, Data/NPCData/Base/Edelweiss.json, Data/NPCData/Base/Fothao.json, Data/NPCData/Base/Lysella.json, Data/NPCData/Base/Muvi.json, Data/NPCData/Base/Thandael.json, Data/NPCData/Base/Yrsin.json, Data/NPCData/Base/Trinity.json"
-  },
-  {
-   "LogName": "Cats",
-   "Action": "Include",
-   "FromFile": "Data/NPCData/Cats/Avicat.json, Data/NPCData/Cats/Johcat.json, Data/NPCData/Cats/Kiscat.json, Data/NPCData/Cats/Irocat.json, Data/NPCData/Cats/Paucat.json, Data/NPCData/Cats/Noxcat.json, Data/NPCData/Cats/tiacat.json"
+   "FromFile": "Data/NPCData/Base/Antisocials.json, Data/NPCData/Base/Duvin.json, Data/NPCData/Base/Edelweiss.json, Data/NPCData/Base/Fothao.json, Data/NPCData/Base/Lysella.json, Data/NPCData/Base/Muvi.json, Data/NPCData/Base/Thandael.json, Data/NPCData/Base/Yrsin.json, Data/NPCData/Base/Trinity.json, Data/NPCData/Base/Sai.json, Data/NPCData/Base/Thetlin.json, Data/NPCData/Base/Vorgar.json, Data/NPCData/Base/Yrrek.json, Data/NPCData/Base/Yrnal.json"
   },
   {
    "LogName": "Data Include",

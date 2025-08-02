@@ -12,13 +12,10 @@
     "ANXIETY": "Outgoing", //outgoing, neutral, shy changes stringsfromcsfiles
     "OPTIMISM": "Positive", //positive, neutral, negative changes stringsfromcsfiles
     "DARKSKIN": "true",
-    
-    "LIKESGENDER": "Male",
     "GIFTABLE": "true",
-    
-    "HOMELOCATION": "{{ModId}}_Grandberg1",
-    "HOMEXTILE": "17",
-    "HOMEYTILE": "14",
+    "HOMELOCATION": "{{ModId}}_GrandMinistry",
+    "HOMEXTILE": "14",
+    "HOMEYTILE": "10",
     "HOMEFACING": "down", //left, right, up, down
     "LOVEDGIFTS": "166",
     "LIKEDGIFTS": "category_fish",
@@ -31,19 +28,14 @@
     "SPECIAL2": "wag",
     "SPECIAL2ANIMATION": "20/20 20 20 20 20 21 22 23 20 20 20 20 20 20/20",
     "ENDRANGE": "3",
-    "SPRINGSCHEDULE": "610 {{ModId}}_Grandberg1 16 15 2",
+    "SPRINGSCHEDULE": "610 {{ModId}}_GrandMinistry 14 10 2",
     "SUMMERSCHEDULE": "GOTO spring",
     "FALLSCHEDULE": "GOTO spring",
     "WINTERSCHEDULE": "GOTO spring",
-    //hammering
     "MONDAYSCHEDULE": "GOTO spring",
-    //alchemy
     "TUESDAYSCHEDULE": "GOTO spring",
-    //reading
     "WEDNESDAYSCHEDULE": "GOTO spring",
-    //grave
     "THURSAYSCHEDULE": "GOTO spring",
-    //hammer
     "FRIDAYSCHEDULE": "GOTO spring",
     "SATURDAYSCHEDULE": "GOTO spring",
     "SUNDAYSCHEDULE": "GOTO spring",
@@ -57,7 +49,7 @@
 
     "SEPARATEDATABILITY": true, //true/false
     "BETASTOGGLED": true, //true/false
-    //"BETASWIPED": true, //whether you want the dialogue to change based on npc having wiped memory
+    
     "CUSTOMENDEARMENT": true, //whether or not you're fulfilling a string for custom endearments like (single), (partner), (enemy)
     "REJECTPENDANT": true, //whether you want the npc to reject the pendant and instead want engagement through spacecore
     "REJECTTEA": true

@@ -1,19 +1,19 @@
 {
  "Changes": [
   {
-   "LogName": "Excalibur",
+   "LogName": "TEST",
    "Action": "Include",
    "FromFile": "Data/Templates/A_Template_NPCs.json",
    "LocalTokens": {
-    "NPCNAME": "Excalibur",
-    "DISPLAYNAME": "Excalibur",
-    "GENDER": "Undefined",
+    "NPCNAME": "TEST",
+    "DISPLAYNAME": "TEST",
+    "GENDER": "Female",
     "MANNER": "Polite", //polite, neutral, rude changes stringsfromcsfiles
     "ANXIETY": "Outgoing", //outgoing, neutral, shy changes stringsfromcsfiles
     "OPTIMISM": "Positive", //positive, neutral, negative changes stringsfromcsfiles
     "DARKSKIN": "true",
     
-    "LIKESGENDER": "Both",
+   
     "GIFTABLE": "true",
     
     "HOMELOCATION": "{{ModId}}_Grandberg1",
@@ -35,15 +35,10 @@
     "SUMMERSCHEDULE": "GOTO spring",
     "FALLSCHEDULE": "GOTO spring",
     "WINTERSCHEDULE": "GOTO spring",
-    //hammering
     "MONDAYSCHEDULE": "GOTO spring",
-    //alchemy
     "TUESDAYSCHEDULE": "GOTO spring",
-    //reading
     "WEDNESDAYSCHEDULE": "GOTO spring",
-    //grave
     "THURSAYSCHEDULE": "GOTO spring",
-    //hammer
     "FRIDAYSCHEDULE": "GOTO spring",
     "SATURDAYSCHEDULE": "GOTO spring",
     "SUNDAYSCHEDULE": "GOTO spring",
@@ -57,11 +52,27 @@
 
     "SEPARATEDATABILITY": true, //true/false
     "BETASTOGGLED": true, //true/false
-    //"BETASWIPED": true, //whether you want the dialogue to change based on npc having wiped memory
+    
     "CUSTOMENDEARMENT": true, //whether or not you're fulfilling a string for custom endearments like (single), (partner), (enemy)
     "REJECTPENDANT": true, //whether you want the npc to reject the pendant and instead want engagement through spacecore
     "REJECTTEA": true
     //"AFTERPARTY": ""
+   }
+  },
+  /////////////heart event triggers
+  {
+   "LogName": "TEST Hearts",
+   "Action": "Include",
+   "FromFile": "Data/Templates/SORTemplate.json",
+   "LocalTokens": {
+    "ORDERNAME": "TEST",
+    "NUMBER": "1",
+    "NPCNAME": "TEST",
+    "DURATION": "Month",
+    "REPEATABLE": "false",
+    "CONDITION": "PLAYER_FRIENDSHIP_POINTS Current {{TEST}} 250 499", //gsq heart check + prior event check
+    "LOCATION": "Voidsent",
+    "ITEMTAG": "item_topaz"
    }
   }
  ]

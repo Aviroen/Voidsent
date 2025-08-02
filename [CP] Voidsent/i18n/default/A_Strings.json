@@ -1,6 +1,7 @@
 {
  //standard
-
+ "config.Photosensitive Mode": "Photosensitive Mode",
+ "config.Photosensitive Mode.description": "Turns off all flashing effects, from Map effects, to character sprites. Default Off.",
 
  "Friend": "Friend",
  "Teacher": "Teacher",
@@ -190,8 +191,8 @@
  "FBooks.22": "'The Forgotten Son'#Seems like a diary.#'The fracture of power, my own hubris.'#'These unraveled fragments of time stem from my guilt.'#'I could have done more, I could have saved them.'#'Too many times of attempting to save our parents, to come back to a present where you no longer breathe.'#'Why is it that we must sacrifice one for the other?'#'How many times have I repeated this same mistake?'#'Will my other selves repeat the failures of us all?'#'Will I lose you as well, Than?'#...The rest of the pages are too torn to read.",
  "FBooks.23": "'Broken, Forgotten Son'#More parts of the mysterious diary.#'No! I will not have this!'#'I will not lose you as well!'#'My sanity be forsaken, bind me to a temptress' whims, I will not lose what little family I have left!'#Multiple pages are torn out.#'...Is this how it has to be?'#'Must I suffer this loneliness?'#'This guilt?'#'This... pain?'#'Will I ever be freed of it?'#'Are you watching me?'#'Is my suffering for your losses a game I must play out?'#'Is there nothing that can be done?'#It seems the diary ends here.",
  "FBooks.24": "'F Diary'#...A diary?#'Soooo... Duvvie has hidden the reins to Sir Levelot.'#'Apaaaarently it's improper for the commander of the army to ride around inside of the castle on her mount.'#'I told her that I'm instilling a sense of loyalty to the recruits!'#'How else will they know that I'm not to be taken lightly?'#'Sir Levelot only ate two rhibeetles!'#'It's not MY fault that others don't keep their mounts in order!'#'It's almost time for Sir Levelot to begin his ecdysis...'#'He's going to be so itchy!'",
- "FBooks.25": "",
- "FBooks.26": "",
+ "FBooks.25": "'Oblivion'#Looks like an abandoned journal.#'I do not know how many timelines I've fractured in pursuit of avoidance.'#'The madness is seeping into the lands itself and I fear that my power is being corrupted alongside it.'#'How many countless iterations of myself have failed, is this yet another failed timeline?'#'My brother, every time the timeline changes, you change as well.'#'Maybe it's an aftereffective of the madness, maybe it's because you're retaining some of the time magic I've been trying to teach you.'#'Will you remember, this time?'#The journal ends here.",
+ "FBooks.26": "", //$action Spiderbuttons.BETAS_ShowMail {{ModId}}_TheBeginning ShowMail <Mail Id> change letterbg to be photo album style with baby photos of thandael/konryn
  "FBooks.27": "",
  "FBooks.28": "",
  "FBooks.29": "",
@@ -956,43 +957,43 @@
  "TentUnallowed": "It's not safe to sleep here. You should probably find real shelter.",
  "DoorUnlock_NotFriend_Undefined": "You're not good enough friends with {0} to enter their bedroom.",
 
- "Quest.1": "Unravel Time",
+ "Quest.1": "Enter, Oblivion",
  "Quest.1.Description": "Figure out the secrets of Grandberg.",
  "Quest.1.Hint": "Explore the sights.",
  //
- "Quest.2": "",
- "Quest.2.Description": "",
- "Quest.2.Hint": "",
+ "Quest.2": "Mourning, Bloodshed",
+ "Quest.2.Description": "Meet the King.",
+ "Quest.2.Hint": "Explore the castle.",
  //
- "Quest.3": "",
- "Quest.3.Description": "",
- "Quest.3.Hint": "",
+ "Quest.3": "Rooted, Rotting",
+ "Quest.3.Description": "Deja Vu",
+ "Quest.3.Hint": "Investigate the exterior of the castle.",
  //
- "Quest.4": "",
- "Quest.4.Description": "",
- "Quest.4.Hint": "",
+ "Quest.4": "Deception, Rebellion",
+ "Quest.4.Description": "Get acquainted with the citizens.",
+ "Quest.4.Hint": "Maybe there's a rebellion amongst the whispers.",
  //
- "Quest.5": "",
- "Quest.5.Description": "",
- "Quest.5.Hint": "",
+ "Quest.5": "Righteous, Ignorance",
+ "Quest.5.Description": "Confront Konryn.",
+ "Quest.5.Hint": "You should probably bring friends with you.",
  //
- "Quest.6": "",
- "Quest.6.Description": "",
- "Quest.6.Hint": "",
+ "Quest.6": "A Vow, Unspoken",
+ "Quest.6.Description": "Experience the past.",
+ "Quest.6.Hint": "Maybe Thandael has some answers.",
  //
- "Quest.7": "",
- "Quest.7.Description": "",
- "Quest.7.Hint": "",
+ "Quest.7": "A Vow, Broken",
+ "Quest.7.Description": "Speak to Konryn.",
+ "Quest.7.Hint": "Maybe the king can shed some light on this situation.",
  //
- "Quest.8": "",
- "Quest.8.Description": "",
- "Quest.8.Hint": "",
+ "Quest.8": "Embers of Truth",
+ "Quest.8.Description": "Discover the truth in the past.",
+ "Quest.8.Hint": "Bring back evidence of the truth of the past.",
  //
- "Quest.9": "",
- "Quest.9.Description": "",
- "Quest.9.Hint": "",
+ "Quest.9": "Ambition",
+ "Quest.9.Description": "Help the efforts in getting Thandael to recover.",
+ "Quest.9.Hint": "Special Orders are now updated.",
  //
- "Quest.10": "",
- "Quest.10.Description": "",
- "Quest.10.Hint": ""
+ "Quest.10": "Quelled",
+ "Quest.10.Description": "Fight the king.",
+ "Quest.10.Hint": "Will you tell Thandael the truth?"
 }

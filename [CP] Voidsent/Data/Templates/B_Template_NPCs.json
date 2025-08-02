@@ -1,11 +1,32 @@
 {
  "Changes": [
+  { //blank loads so that i can target edit
+   "LogName": "BlankLoads",
+   "Action": "Load",
+   "Priority": "Low",
+   "Target": "Characters/Dialogue/{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}, Characters/Dialogue/MarriageDialogue{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}",
+   "FromFile": "data/blank.json"
+  },
+  {
+   "LogName": "Portrait/Character loads",
+   "Action": "Load",
+   "Priority": "Low",
+   "Target": "Characters/{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}",
+   "FromFile": "Assets/NPCS/Antisocials/{{ModId}}_{{TYPEOFPERSON}}.png"
+  },
+  {
+   "LogName": "Portrait/Character loads",
+   "Action": "Load",
+   "Priority": "Low",
+   "Target": "Portraits/{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}",
+   "FromFile": "Assets/NPCS/Antisocials/Blank.png"
+  },
   {
    "Action": "EditData",
    "Target": "Data/Characters",
    "Entries": {
     "{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}": {
-     "DisplayName": "{{i18n:{{NUMBER}}{{TYPEOFPERSON}}",
+     "DisplayName": "{{i18n:{{TYPEOFPERSON}}}}",
      "BirthSeason": null,
      "BirthDay": 0,
      "HomeRegion": "Other",
@@ -52,10 +73,10 @@
        "Condition": null,
        "Location": "{{Morabyr}}",
        "Tile": {
-        "X": "{{HOMEXTILE}}",
-        "Y": "{{HOMEYTILE}}"
+        "X": "{{HOMEX}}",
+        "Y": "{{HOMEY}}"
        },
-       "Direction": "{{HOMEFACING}}"
+       "Direction": "{{Random:{{Range:0,3}}}}"
       }
      ],
      "TextureName": null,
@@ -94,32 +115,53 @@
     "{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}Random1": {
      "Id": "{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}Random1",
      "Condition": null,
-     "Sprite": "{{InternalAssetKey: Assets/NPCS/Antisocials/{{NUMBER}}{{TYPEOFPERSON}}.png}}"
+     "Sprite": "{{InternalAssetKey: Assets/NPCS/Antisocials/{{ModId}}_0{{TYPEOFPERSON}}.png}}"
     },
     "{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}Random2": {
      "Id": "{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}Random2",
      "Condition": null,
-     "Sprite": "{{InternalAssetKey: Assets/NPCS/Antisocials/{{NUMBER}}{{TYPEOFPERSON}}.png}}"
+     "Sprite": "{{InternalAssetKey: Assets/NPCS/Antisocials/{{ModId}}_1{{TYPEOFPERSON}}.png}}"
     },
     "{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}Random3": {
      "Id": "{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}Random3",
      "Condition": null,
-     "Sprite": "{{InternalAssetKey: Assets/NPCS/Antisocials/{{NUMBER}}{{TYPEOFPERSON}}.png}}"
+     "Sprite": "{{InternalAssetKey: Assets/NPCS/Antisocials/{{ModId}}_2{{TYPEOFPERSON}}.png}}"
     },
     "{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}Random4": {
      "Id": "{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}Random4",
      "Condition": null,
-     "Sprite": "{{InternalAssetKey: Assets/NPCS/Antisocials/{{NUMBER}}{{TYPEOFPERSON}}.png}}"
+     "Sprite": "{{InternalAssetKey: Assets/NPCS/Antisocials/{{ModId}}_3{{TYPEOFPERSON}}.png}}"
     },
     "{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}Random5": {
      "Id": "{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}Random5",
      "Condition": null,
-     "Sprite": "{{InternalAssetKey: Assets/NPCS/Antisocials/{{NUMBER}}{{TYPEOFPERSON}}.png}}"
+     "Sprite": "{{InternalAssetKey: Assets/NPCS/Antisocials/{{ModId}}_4{{TYPEOFPERSON}}.png}}"
     },
     "{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}Random6": {
      "Id": "{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}Random6",
      "Condition": null,
-     "Sprite": "{{InternalAssetKey: Assets/NPCS/Antisocials/{{NUMBER}}{{TYPEOFPERSON}}.png}}"
+     "Sprite": "{{InternalAssetKey: Assets/NPCS/Antisocials/{{ModId}}_5{{TYPEOFPERSON}}.png}}"
+    }
+   }
+  },
+  {
+   "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "Entries": {
+    "{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}": "Text/1/Text/2/Text/3/Text/4/Text/5/"
+   }
+  },
+  {
+   "LogName": "Trigger Actions: BETAS",
+   "Action": "EditData",
+   "Target": "Data/TriggerActions",
+   "Entries": {
+    "{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}_DialogueOpened": {
+     "Id": "{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}_DialogueOpened",
+     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
+     "Condition": "ITEM_ID Target {{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}, ITEM_STACK Target 1",
+     "MarkActionApplied": false,
+     "Action": "Aviroen.Voidsent_RandomDialogue Aviroen.VoidsentCP {{ModId}}_{{NUMBER}}{{TYPEOFPERSON}} BETAS.{{TYPEOFPERSON}}.{{DayOfWeek}}_ {{Range:0,3}}"
     }
    }
   },
@@ -136,7 +178,7 @@
     "Mon": "{{MONDAYSCHEDULE}}",
     "Tue": "{{TUESDAYSCHEDULE}}",
     "Wed": "{{WEDNESDAYSCHEDULE}}",
-    "Thu": "{{THURSAYSCHEDULE}}",
+    "Thu": "{{THURSDAYSCHEDULE}}",
     "Fri": "{{FRIDAYSCHEDULE}}",
     "Sat": "{{SATURDAYSCHEDULE}}",
     "Sun": "{{SUNDAYSCHEDULE}}"

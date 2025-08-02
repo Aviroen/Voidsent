@@ -1,0 +1,529 @@
+{
+ "Changes": [
+  {
+   "LogName": "Antisocial",
+   "Action": "Include",
+   "FromFile": "Data/Templates/B_Template_NPCs.json",
+   "LocalTokens": {
+    "NUMBER": "0", //0-6
+    "TYPEOFPERSON": "Human",
+    "HOMEX": "54",
+    "HOMEY": "66",
+    "SPRINGSCHEDULE": "0 {{Morabyr}} 54 66 3",
+    "MONDAYSCHEDULE": "0 {{Morabyr}} 54 66 3",
+    "TUESDAYSCHEDULE": "0 {{Morabyr}} 54 66 3",
+    "WEDNESDAYSCHEDULE": "0 {{Morabyr}} 54 66 3",
+    "THURSDAYSCHEDULE": "0 {{Morabyr}} 54 66 3",
+    "FRIDAYSCHEDULE": "0 {{Morabyr}} 54 66 3",
+    "SATURDAYSCHEDULE": "0 {{Morabyr}} 54 66 3",
+    "SUNDAYSCHEDULE": "0 {{Morabyr}} 54 66 3"
+   }
+  },
+  {
+   "LogName": "Antisocial",
+   "Action": "Include",
+   "FromFile": "Data/Templates/B_Template_NPCs.json",
+   "LocalTokens": {
+    "NUMBER": "1", //0-6
+    "TYPEOFPERSON": "Human",
+    "HOMEX": "44",
+    "HOMEY": "64",
+    "SPRINGSCHEDULE": "0 {{Morabyr}} 44 64 2",
+    "MONDAYSCHEDULE": "0 {{Morabyr}} 44 64 2",
+    "TUESDAYSCHEDULE": "0 {{Morabyr}} 44 64 2",
+    "WEDNESDAYSCHEDULE": "0 {{Morabyr}} 44 64 2",
+    "THURSDAYSCHEDULE": "0 {{Morabyr}} 44 64 2",
+    "FRIDAYSCHEDULE": "0 {{Morabyr}} 44 64 2",
+    "SATURDAYSCHEDULE": "0 {{Morabyr}} 44 64 2",
+    "SUNDAYSCHEDULE": "0 {{Morabyr}} 44 64 2"
+   }
+  },
+  {
+   "LogName": "Antisocial",
+   "Action": "Include",
+   "FromFile": "Data/Templates/B_Template_NPCs.json",
+   "LocalTokens": {
+    "NUMBER": "2", //0-6
+    "TYPEOFPERSON": "Human",
+    "HOMEX": "44",
+    "HOMEY": "79",
+    "SPRINGSCHEDULE": "0 {{Morabyr}} 44 79 2",
+    "MONDAYSCHEDULE": "0 {{Morabyr}} 44 79 2",
+    "TUESDAYSCHEDULE": "0 {{Morabyr}} 44 79 2",
+    "WEDNESDAYSCHEDULE": "0 {{Morabyr}} 44 79 2",
+    "THURSDAYSCHEDULE": "0 {{Morabyr}} 44 79 2",
+    "FRIDAYSCHEDULE": "0 {{Morabyr}} 44 79 2",
+    "SATURDAYSCHEDULE": "0 {{Morabyr}} 44 79 2",
+    "SUNDAYSCHEDULE": "0 {{Morabyr}} 44 79 2"
+   }
+  },
+  {
+   "LogName": "Antisocial",
+   "Action": "Include",
+   "FromFile": "Data/Templates/B_Template_NPCs.json",
+   "LocalTokens": {
+    "NUMBER": "3", //0-6
+    "TYPEOFPERSON": "Human",
+    "HOMEX": "64",
+    "HOMEY": "77",
+    "SPRINGSCHEDULE": "0 {{Morabyr}} 64 77 0",
+    "MONDAYSCHEDULE": "0 {{Morabyr}} 64 77 0",
+    "TUESDAYSCHEDULE": "0 {{Morabyr}} 64 77 0",
+    "WEDNESDAYSCHEDULE": "0 {{Morabyr}} 64 77 0",
+    "THURSDAYSCHEDULE": "0 {{Morabyr}} 64 77 0",
+    "FRIDAYSCHEDULE": "0 {{Morabyr}} 64 77 0",
+    "SATURDAYSCHEDULE": "0 {{Morabyr}} 64 77 0",
+    "SUNDAYSCHEDULE": "0 {{Morabyr}} 64 77 0"
+   }
+  },
+  {
+   "LogName": "Antisocial",
+   "Action": "Include",
+   "FromFile": "Data/Templates/B_Template_NPCs.json",
+   "LocalTokens": {
+    "NUMBER": "4", //0-6
+    "TYPEOFPERSON": "Human",
+    "HOMEX": "76",
+    "HOMEY": "80",
+    "SPRINGSCHEDULE": "0 {{Morabyr}} 76 80 2",
+    "MONDAYSCHEDULE": "0 {{Morabyr}} 76 80 2",
+    "TUESDAYSCHEDULE": "0 {{Morabyr}} 76 80 2",
+    "WEDNESDAYSCHEDULE": "0 {{Morabyr}} 76 80 2",
+    "THURSDAYSCHEDULE": "0 {{Morabyr}} 76 80 2",
+    "FRIDAYSCHEDULE": "0 {{Morabyr}} 76 80 2",
+    "SATURDAYSCHEDULE": "0 {{Morabyr}} 76 80 2",
+    "SUNDAYSCHEDULE": "0 {{Morabyr}} 76 80 2"
+   }
+  },
+  {
+   "LogName": "Antisocial",
+   "Action": "Include",
+   "FromFile": "Data/Templates/B_Template_NPCs.json",
+   "LocalTokens": {
+    "NUMBER": "5", //0-6
+    "TYPEOFPERSON": "Human",
+    "HOMEX": "88",
+    "HOMEY": "90",
+    "SPRINGSCHEDULE": "0 {{Morabyr}} 88 90 2",
+    "MONDAYSCHEDULE": "0 {{Morabyr}} 88 90 2",
+    "TUESDAYSCHEDULE": "0 {{Morabyr}} 88 90 2",
+    "WEDNESDAYSCHEDULE": "0 {{Morabyr}} 88 90 2",
+    "THURSDAYSCHEDULE": "0 {{Morabyr}} 88 90 2",
+    "FRIDAYSCHEDULE": "0 {{Morabyr}} 88 90 2",
+    "SATURDAYSCHEDULE": "0 {{Morabyr}} 88 90 2",
+    "SUNDAYSCHEDULE": "0 {{Morabyr}} 88 90 2"
+   }
+  },
+  {
+   "LogName": "Antisocial",
+   "Action": "Include",
+   "FromFile": "Data/Templates/B_Template_NPCs.json",
+   "LocalTokens": {
+    "NUMBER": "0", //0-6
+    "TYPEOFPERSON": "Voidketh",
+    "HOMEX": "108",
+    "HOMEY": "58",
+    "SPRINGSCHEDULE": "0 {{Morabyr}} 108 58 3",
+    "MONDAYSCHEDULE": "0 {{Morabyr}} 108 58 3",
+    "TUESDAYSCHEDULE": "0 {{Morabyr}} 108 58 3",
+    "WEDNESDAYSCHEDULE": "0 {{Morabyr}} 108 58 3",
+    "THURSDAYSCHEDULE": "0 {{Morabyr}} 108 58 3",
+    "FRIDAYSCHEDULE": "0 {{Morabyr}} 108 58 3",
+    "SATURDAYSCHEDULE": "0 {{Morabyr}} 108 58 3",
+    "SUNDAYSCHEDULE": "0 {{Morabyr}} 108 58 3"
+   }
+  },
+  {
+   "LogName": "Antisocial",
+   "Action": "Include",
+   "FromFile": "Data/Templates/B_Template_NPCs.json",
+   "LocalTokens": {
+    "NUMBER": "1", //0-6
+    "TYPEOFPERSON": "Voidketh",
+    "HOMEX": "132",
+    "HOMEY": "55",
+    "SPRINGSCHEDULE": "0 {{Morabyr}} 132 55 3",
+    "MONDAYSCHEDULE": "0 {{Morabyr}} 132 55 3",
+    "TUESDAYSCHEDULE": "0 {{Morabyr}} 132 55 3",
+    "WEDNESDAYSCHEDULE": "0 {{Morabyr}} 132 55 3",
+    "THURSDAYSCHEDULE": "0 {{Morabyr}} 132 55 3",
+    "FRIDAYSCHEDULE": "0 {{Morabyr}} 132 55 3",
+    "SATURDAYSCHEDULE": "0 {{Morabyr}} 132 55 3",
+    "SUNDAYSCHEDULE": "0 {{Morabyr}} 132 55 3"
+   }
+  },
+  {
+   "LogName": "Antisocial",
+   "Action": "Include",
+   "FromFile": "Data/Templates/B_Template_NPCs.json",
+   "LocalTokens": {
+    "NUMBER": "2", //0-6
+    "TYPEOFPERSON": "Voidketh",
+    "HOMEX": "125",
+    "HOMEY": "78",
+    "SPRINGSCHEDULE": "0 {{Morabyr}} 125 78 3",
+    "MONDAYSCHEDULE": "0 {{Morabyr}} 125 78 3",
+    "TUESDAYSCHEDULE": "0 {{Morabyr}} 125 78 3",
+    "WEDNESDAYSCHEDULE": "0 {{Morabyr}} 125 78 3",
+    "THURSDAYSCHEDULE": "0 {{Morabyr}} 125 78 3",
+    "FRIDAYSCHEDULE": "0 {{Morabyr}} 125 78 3",
+    "SATURDAYSCHEDULE": "0 {{Morabyr}} 125 78 3",
+    "SUNDAYSCHEDULE": "0 {{Morabyr}} 125 78 3"
+   }
+  },
+  {
+   "LogName": "Antisocial",
+   "Action": "Include",
+   "FromFile": "Data/Templates/B_Template_NPCs.json",
+   "LocalTokens": {
+    "NUMBER": "3", //0-6
+    "TYPEOFPERSON": "Voidketh",
+    "HOMEX": "154",
+    "HOMEY": "22",
+    "SPRINGSCHEDULE": "0 {{Morabyr}} 154 22 3",
+    "MONDAYSCHEDULE": "0 {{Morabyr}} 154 22 3",
+    "TUESDAYSCHEDULE": "0 {{Morabyr}} 154 22 3",
+    "WEDNESDAYSCHEDULE": "0 {{Morabyr}} 154 22 3",
+    "THURSDAYSCHEDULE": "0 {{Morabyr}} 154 22 3",
+    "FRIDAYSCHEDULE": "0 {{Morabyr}} 154 22 3",
+    "SATURDAYSCHEDULE": "0 {{Morabyr}} 154 22 3",
+    "SUNDAYSCHEDULE": "0 {{Morabyr}} 154 22 3"
+   }
+  },
+  {
+   "LogName": "Antisocial",
+   "Action": "Include",
+   "FromFile": "Data/Templates/B_Template_NPCs.json",
+   "LocalTokens": {
+    "NUMBER": "4", //0-6
+    "TYPEOFPERSON": "Voidketh",
+    "HOMEX": "75",
+    "HOMEY": "24",
+    "SPRINGSCHEDULE": "0 {{Morabyr}} 75 24 3",
+    "MONDAYSCHEDULE": "0 {{Morabyr}} 75 24 3",
+    "TUESDAYSCHEDULE": "0 {{Morabyr}} 75 24 3",
+    "WEDNESDAYSCHEDULE": "0 {{Morabyr}} 75 24 3",
+    "THURSDAYSCHEDULE": "0 {{Morabyr}} 75 24 3",
+    "FRIDAYSCHEDULE": "0 {{Morabyr}} 75 24 3",
+    "SATURDAYSCHEDULE": "0 {{Morabyr}} 75 24 3",
+    "SUNDAYSCHEDULE": "0 {{Morabyr}} 75 24 3"
+   }
+  },
+  {
+   "LogName": "Antisocial",
+   "Action": "Include",
+   "FromFile": "Data/Templates/B_Template_NPCs.json",
+   "LocalTokens": {
+    "NUMBER": "5", //0-6
+    "TYPEOFPERSON": "Voidketh",
+    "HOMEX": "51",
+    "HOMEY": "24",
+    "SPRINGSCHEDULE": "0 {{Morabyr}} 51 24 3",
+    "MONDAYSCHEDULE": "0 {{Morabyr}} 51 24 3",
+    "TUESDAYSCHEDULE": "0 {{Morabyr}} 51 24 3",
+    "WEDNESDAYSCHEDULE": "0 {{Morabyr}} 51 24 3",
+    "THURSDAYSCHEDULE": "0 {{Morabyr}} 51 24 3",
+    "FRIDAYSCHEDULE": "0 {{Morabyr}} 51 24 3",
+    "SATURDAYSCHEDULE": "0 {{Morabyr}} 51 24 3",
+    "SUNDAYSCHEDULE": "0 {{Morabyr}} 51 24 3"
+   }
+  },
+  {
+   "LogName": "Antisocial",
+   "Action": "Include",
+   "FromFile": "Data/Templates/B_Template_NPCs.json",
+   "LocalTokens": {
+    "NUMBER": "0", //0-6
+    "TYPEOFPERSON": "Merm",
+    "HOMEX": "69",
+    "HOMEY": "31",
+    "SPRINGSCHEDULE": "0 {{Morabyr}} 69 31 3",
+    "MONDAYSCHEDULE": "0 {{Morabyr}} 69 31 3",
+    "TUESDAYSCHEDULE": "0 {{Morabyr}} 69 31 3",
+    "WEDNESDAYSCHEDULE": "0 {{Morabyr}} 69 31 3",
+    "THURSDAYSCHEDULE": "0 {{Morabyr}} 69 31 3",
+    "FRIDAYSCHEDULE": "0 {{Morabyr}} 69 31 3",
+    "SATURDAYSCHEDULE": "0 {{Morabyr}} 69 31 3",
+    "SUNDAYSCHEDULE": "0 {{Morabyr}} 69 31 3"
+   }
+  },
+  {
+   "LogName": "Antisocial",
+   "Action": "Include",
+   "FromFile": "Data/Templates/B_Template_NPCs.json",
+   "LocalTokens": {
+    "NUMBER": "1", //0-6
+    "TYPEOFPERSON": "Merm",
+    "HOMEX": "45",
+    "HOMEY": "36",
+    "SPRINGSCHEDULE": "0 {{Morabyr}} 45 36 3",
+    "MONDAYSCHEDULE": "0 {{Morabyr}} 45 36 3",
+    "TUESDAYSCHEDULE": "0 {{Morabyr}} 45 36 3",
+    "WEDNESDAYSCHEDULE": "0 {{Morabyr}} 45 36 3",
+    "THURSDAYSCHEDULE": "0 {{Morabyr}} 45 36 3",
+    "FRIDAYSCHEDULE": "0 {{Morabyr}} 45 36 3",
+    "SATURDAYSCHEDULE": "0 {{Morabyr}} 45 36 3",
+    "SUNDAYSCHEDULE": "0 {{Morabyr}} 45 36 3"
+   }
+  },
+  {
+   "LogName": "Antisocial",
+   "Action": "Include",
+   "FromFile": "Data/Templates/B_Template_NPCs.json",
+   "LocalTokens": {
+    "NUMBER": "2", //0-6
+    "TYPEOFPERSON": "Merm",
+    "HOMEX": "14",
+    "HOMEY": "36",
+    "SPRINGSCHEDULE": "0 {{Morabyr}} 14 36 3",
+    "MONDAYSCHEDULE": "0 {{Morabyr}} 14 36 3",
+    "TUESDAYSCHEDULE": "0 {{Morabyr}} 14 36 3",
+    "WEDNESDAYSCHEDULE": "0 {{Morabyr}} 14 36 3",
+    "THURSDAYSCHEDULE": "0 {{Morabyr}} 14 36 3",
+    "FRIDAYSCHEDULE": "0 {{Morabyr}} 14 36 3",
+    "SATURDAYSCHEDULE": "0 {{Morabyr}} 14 36 3",
+    "SUNDAYSCHEDULE": "0 {{Morabyr}} 14 36 3"
+   }
+  },
+  {
+   "LogName": "Antisocial",
+   "Action": "Include",
+   "FromFile": "Data/Templates/B_Template_NPCs.json",
+   "LocalTokens": {
+    "NUMBER": "3", //0-6
+    "TYPEOFPERSON": "Merm",
+    "HOMEX": "16",
+    "HOMEY": "64",
+    "SPRINGSCHEDULE": "0 {{Morabyr}} 16 64 3",
+    "MONDAYSCHEDULE": "0 {{Morabyr}} 16 64 3",
+    "TUESDAYSCHEDULE": "0 {{Morabyr}} 16 64 3",
+    "WEDNESDAYSCHEDULE": "0 {{Morabyr}} 16 64 3",
+    "THURSDAYSCHEDULE": "0 {{Morabyr}} 16 64 3",
+    "FRIDAYSCHEDULE": "0 {{Morabyr}} 16 64 3",
+    "SATURDAYSCHEDULE": "0 {{Morabyr}} 16 64 3",
+    "SUNDAYSCHEDULE": "0 {{Morabyr}} 16 64 3"
+   }
+  },
+  {
+   "LogName": "Antisocial",
+   "Action": "Include",
+   "FromFile": "Data/Templates/B_Template_NPCs.json",
+   "LocalTokens": {
+    "NUMBER": "4", //0-6
+    "TYPEOFPERSON": "Merm",
+    "HOMEX": "36",
+    "HOMEY": "85",
+    "SPRINGSCHEDULE": "0 {{Morabyr}} 36 85 3",
+    "MONDAYSCHEDULE": "0 {{Morabyr}} 36 85 3",
+    "TUESDAYSCHEDULE": "0 {{Morabyr}} 36 85 3",
+    "WEDNESDAYSCHEDULE": "0 {{Morabyr}} 36 85 3",
+    "THURSDAYSCHEDULE": "0 {{Morabyr}} 36 85 3",
+    "FRIDAYSCHEDULE": "0 {{Morabyr}} 36 85 3",
+    "SATURDAYSCHEDULE": "0 {{Morabyr}} 36 85 3",
+    "SUNDAYSCHEDULE": "0 {{Morabyr}} 36 85 3"
+   }
+  },
+  {
+   "LogName": "Antisocial",
+   "Action": "Include",
+   "FromFile": "Data/Templates/B_Template_NPCs.json",
+   "LocalTokens": {
+    "NUMBER": "5", //0-6
+    "TYPEOFPERSON": "Merm",
+    "HOMEX": "60",
+    "HOMEY": "95",
+    "SPRINGSCHEDULE": "0 {{Morabyr}} 60 95 3",
+    "MONDAYSCHEDULE": "0 {{Morabyr}} 60 95 3",
+    "TUESDAYSCHEDULE": "0 {{Morabyr}} 60 95 3",
+    "WEDNESDAYSCHEDULE": "0 {{Morabyr}} 60 95 3",
+    "THURSDAYSCHEDULE": "0 {{Morabyr}} 60 95 3",
+    "FRIDAYSCHEDULE": "0 {{Morabyr}} 60 95 3",
+    "SATURDAYSCHEDULE": "0 {{Morabyr}} 60 95 3",
+    "SUNDAYSCHEDULE": "0 {{Morabyr}} 60 95 3"
+   }
+  },
+  /////////// cats
+  {
+   "LogName": "Antisocial",
+   "Action": "Include",
+   "FromFile": "Data/Templates/C_Template_NPCs.json",
+   "LocalTokens": {
+    "NPCNAME": "Avi",
+    "HOMEX": "19",
+    "HOMEY": "41",
+    "SLEEPANIMATION": "18/19 19 19 19 19 18 18 18 18 19 19 19 19 18 18 18 18 19 19 19 19/19",
+    "SPECIAL1": "johnless",
+    "SPECIAL1ANIMATION": "16/16 18 24 16 17 18 16 24 19 17 18 16 20 24 23 16 22 18 24 23 19 17 18 16 21 24 17 18 23 19 24/16",
+    "SPECIAL2": "gone",
+    "SPECIAL2ANIMATION": "24/24 24 24 24 24 24/24",
+    "SPRINGSCHEDULE": "610 {{CrimsonGrove}} 19 41 2 {{ModId}}_Avi_johnless",
+    "SUMMERSCHEDULE": "GOTO spring",
+    "FALLSCHEDULE": "GOTO spring",
+    "WINTERSCHEDULE": "GOTO spring",
+    "MONDAYSCHEDULE": "610 {{CrimsonGrove}} 19 41 2/1200 {{CrimsonGrove}} 19 41 2 {{ModId}}_Avi_gone/2200 {{CrimsonGrove}} 19 41 2",
+    "TUESDAYSCHEDULE": "610 {{CrimsonGrove}} 19 41 2/1200 {{CrimsonGrove}} 19 41 2 {{ModId}}_Avi_gone",
+    "WEDNESDAYSCHEDULE": "610 {{CrimsonGrove}} 19 41 2/1200 {{CrimsonGrove}} 19 41 2 {{ModId}}_Avi_johnless/1300 {{CrimsonGrove}} 19 41 2",
+    "THURSDAYSCHEDULE": "610 {{CrimsonGrove}} 19 41 2/1200 {{CrimsonGrove}} 19 41 2 {{ModId}}_Avi_gone",
+    "FRIDAYSCHEDULE": "610 {{CrimsonGrove}} 19 41 2/1200 {{CrimsonGrove}} 19 41 2 {{ModId}}_Avi_gone",
+    "SATURDAYSCHEDULE": "610 {{CrimsonGrove}} 19 41 2/1200 {{CrimsonGrove}} 19 41 2 {{ModId}}_Avi_gone",
+    "SUNDAYSCHEDULE": "610 {{CrimsonGrove}} 19 41 2/1200 {{CrimsonGrove}} 19 41 2 {{ModId}}_Avi_gone"
+   }
+  },
+  {
+   "LogName": "Antisocial",
+   "Action": "Include",
+   "FromFile": "Data/Templates/C_Template_NPCs.json",
+   "LocalTokens": {
+    "NPCNAME": "Iro",
+    "HOMEX": "22",
+    "HOMEY": "41",
+    "SLEEPANIMATION": "18/19 19 19 19 19 18 18 18 18 19 19 19 19 18 18 18 18 19 19 19 19/19",
+    "SPECIAL1": "arise",
+    "SPECIAL1ANIMATION": "16/16 16 16 16 16 17 17 17 17 17 18 18 18 18 18 19 19 19 19 19 20 20 20 20 20 21 21 21 21 21 22 22 22 22 22 23 23 22 22 23 23 22 22 23 23 22 22 23 23 22 22 23 23 22 22 23 23 24 24 25 25 26 26 27 27 26 26 25 25 24 24 22 22 23 23 22 22 23 23 22 22 23 23 22 22 23 23 22 22 23 23 22 22 23 23 22 21 21 21 21 21 20 20 20 20 20 19 19 19 19 19 18 18 18 18 18 17 17 17 17 17 16 16 16 16 16/16",
+    "SPECIAL2": "gone",
+    "SPECIAL2ANIMATION": "24/24 24 25 25 26 26 27 27 26 26 25 25 24 24/24",
+    "SPRINGSCHEDULE": "610 {{CrimsonGrove}} 22 41 2 {{ModId}}_Iro_arise",
+    "SUMMERSCHEDULE": "GOTO spring",
+    "FALLSCHEDULE": "GOTO spring",
+    "WINTERSCHEDULE": "GOTO spring",
+    "MONDAYSCHEDULE": "610 {{CrimsonGrove}} 22 41 2/1200 {{CrimsonGrove}} 22 41 2 {{ModId}}_Iro_gone/1500 {{CrimsonGrove}} 22 41 2",
+    "TUESDAYSCHEDULE": "610 {{CrimsonGrove}} 22 41 2/1200 {{CrimsonGrove}} 22 41 2 {{ModId}}_Iro_arise/1500 {{CrimsonGrove}} 22 41 2",
+    "WEDNESDAYSCHEDULE": "610 {{CrimsonGrove}} 22 41 2/1200 {{CrimsonGrove}} 22 41 2 {{ModId}}_Iro_gone/1300 {{CrimsonGrove}} 22 41 2",
+    "THURSDAYSCHEDULE": "610 {{CrimsonGrove}} 22 41 2",
+    "FRIDAYSCHEDULE": "610 {{CrimsonGrove}} 22 41 2/1200 {{CrimsonGrove}} 22 41 2 {{ModId}}_Iro_gone/1500 {{CrimsonGrove}} 22 41 2",
+    "SATURDAYSCHEDULE": "610 {{CrimsonGrove}} 22 41 2",
+    "SUNDAYSCHEDULE": "610 {{CrimsonGrove}} 22 41 2/1200 {{CrimsonGrove}} 22 41 2 {{ModId}}_Iro_gone/1500 {{CrimsonGrove}} 22 41 2"
+   }
+  },
+  {
+   "LogName": "Antisocial",
+   "Action": "Include",
+   "FromFile": "Data/Templates/C_Template_NPCs.json",
+   "LocalTokens": {
+    "NPCNAME": "Joh",
+    "HOMEX": "18",
+    "HOMEY": "41",
+    "SLEEPANIMATION": "18/19 19 19 19 19 18 18 18 18 19 19 19 19 18 18 18 18 19 19 19 19/19",
+    "SPECIAL1": "homf",
+    "SPECIAL1ANIMATION": "8/8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 10 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 11 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12 12/12",
+    "SPECIAL2": "cuddle",
+    "SPECIAL2ANIMATION": "8/8 8 8 8 8 8 8 8 8 8 8 8 8 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 8 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 9 8 8 8 8 8 8 8 8 8 8 8 8/8",
+    "SPRINGSCHEDULE": "610 {{CrimsonGrove}} 18 41 2 {{ModId}}_Joh_homf",
+    "SUMMERSCHEDULE": "GOTO spring",
+    "FALLSCHEDULE": "GOTO spring",
+    "WINTERSCHEDULE": "GOTO spring",
+    "MONDAYSCHEDULE": "610 {{CrimsonGrove}} 18 41 2/1200 {{CrimsonGrove}} 18 41 2 {{ModId}}_Joh_homf/2200 {{CrimsonGrove}} 18 41 2",
+    "TUESDAYSCHEDULE": "610 {{CrimsonGrove}} 18 41 2/1200 {{CrimsonGrove}} 18 41 2 {{ModId}}_Joh_cuddle",
+    "WEDNESDAYSCHEDULE": "610 {{CrimsonGrove}} 18 41 2",
+    "THURSDAYSCHEDULE": "610 {{CrimsonGrove}} 18 41 2/1200 {{CrimsonGrove}} 18 41 2 {{ModId}}_Joh_cuddle",
+    "FRIDAYSCHEDULE": "610 {{CrimsonGrove}} 18 41 2/1200 {{CrimsonGrove}} 18 41 2 {{ModId}}_Joh_cuddle",
+    "SATURDAYSCHEDULE": "610 {{CrimsonGrove}} 18 41 2/1200 {{CrimsonGrove}} 18 41 2 {{ModId}}_Joh_cuddle",
+    "SUNDAYSCHEDULE": "610 {{CrimsonGrove}} 18 41 2/1200 {{CrimsonGrove}} 18 41 2 {{ModId}}_Joh_cuddle"
+   }
+  },
+  {
+   "LogName": "Antisocial",
+   "Action": "Include",
+   "FromFile": "Data/Templates/C_Template_NPCs.json",
+   "LocalTokens": {
+    "NPCNAME": "Kis",
+    "HOMEX": "14",
+    "HOMEY": "41",
+    "SLEEPANIMATION": "18/19 19 19 19 19 18 18 18 18 19 19 19 19 18 18 18 18 19 19 19 19/19",
+    "SPECIAL1": "knife",
+    "SPECIAL1ANIMATION": "16/16 16 16 16 16 17 17 17 17 17 18 18 18 18 18 19 19 19 19 19 19 19 19 19 19 19 20 20 20 21 21 21 20 20 20 21 21 21 20 20 20 19 19 19 19 19 19 19 19 19 19 19 18 18 18 18 18 17 17 17 17 17 16 16 16 16 16/16",
+    "SPECIAL2": "brick",
+    "SPECIAL2ANIMATION": "16/16 16 16 16 16 17 17 17 17 17 18 18 18 18 18 19 19 19 19 19 19 19 19 19 19 19 22 22 22 23 23 23 22 22 22 23 23 23 22 22 22 24 24 24 25 25 25 26 26 26 27 27 27 26 26 26 25 25 25 26 26 26 27 27 27 26 26 26 25 25 25 26 26 26 27 27 27 26 26 26 25 25 25/0",
+    "SPRINGSCHEDULE": "610 {{CrimsonGrove}} 14 41 2 {{ModId}}_Kis_brick",
+    "SUMMERSCHEDULE": "GOTO spring",
+    "FALLSCHEDULE": "GOTO spring",
+    "WINTERSCHEDULE": "GOTO spring",
+    "MONDAYSCHEDULE": "610 {{CrimsonGrove}} 14 41 2/1200 {{CrimsonGrove}} 14 41 2 {{ModId}}_Kis_brick/1600 {{CrimsonGrove}} 14 41 2",
+    "TUESDAYSCHEDULE": "610 {{CrimsonGrove}} 14 41 2/1200 {{CrimsonGrove}} 14 41 2 {{ModId}}_Kis_brick/1600 {{CrimsonGrove}} 14 41 2",
+    "WEDNESDAYSCHEDULE": "610 {{CrimsonGrove}} 14 41 2/1200 {{CrimsonGrove}} 14 41 2 {{ModId}}_Kis_knife/1300 {{CrimsonGrove}} 14 41 2",
+    "THURSDAYSCHEDULE": "610 {{CrimsonGrove}} 14 41 2/1200 {{CrimsonGrove}} 14 41 2 {{ModId}}_Kis_brick/1600 {{CrimsonGrove}} 14 41 2",
+    "FRIDAYSCHEDULE": "610 {{CrimsonGrove}} 14 41 2/1200 {{CrimsonGrove}} 14 41 2 {{ModId}}_Kis_brick/1600 {{CrimsonGrove}} 14 41 2",
+    "SATURDAYSCHEDULE": "610 {{CrimsonGrove}} 14 41 2/1200 {{CrimsonGrove}} 14 41 2 {{ModId}}_Kis_brick/1600 {{CrimsonGrove}} 14 41 2",
+    "SUNDAYSCHEDULE": "610 {{CrimsonGrove}} 14 41 2/1200 {{CrimsonGrove}} 14 41 2 {{ModId}}_Kis_brick/1600 {{CrimsonGrove}} 14 41 2"
+   }
+  },
+  {
+   "LogName": "Antisocial",
+   "Action": "Include",
+   "FromFile": "Data/Templates/C_Template_NPCs.json",
+   "LocalTokens": {
+    "NPCNAME": "Nox",
+    "HOMEX": "15",
+    "HOMEY": "44",
+    "SLEEPANIMATION": "18/19 19 19 19 19 18 18 18 18 19 19 19 19 18 18 18 18 19 19 19 19/19",
+    "SPECIAL1": "fear",
+    "SPECIAL1ANIMATION": "16/16 16 16 16 16 17 17 17 17 17 18 18 18 18 18 19 19 19 19 19 18 18 18 18 18 17 17 17 17 17 16 16 16 16 16/16",
+    "SPECIAL2": "gone",
+    "SPECIAL2ANIMATION": "24/24 24 24 24 24 24/24",
+    "SPRINGSCHEDULE": "610 {{CrimsonGrove}} 15 44 2 {{ModId}}_Nox_fear",
+    "SUMMERSCHEDULE": "GOTO spring",
+    "FALLSCHEDULE": "GOTO spring",
+    "WINTERSCHEDULE": "GOTO spring",
+    "MONDAYSCHEDULE": "610 {{CrimsonGrove}} 15 44 2",
+    "TUESDAYSCHEDULE": "610 {{CrimsonGrove}} 15 44 2/1200 {{CrimsonGrove}} 15 44 2 {{ModId}}_Nox_fear",
+    "WEDNESDAYSCHEDULE": "610 {{CrimsonGrove}} 15 44 2",
+    "THURSDAYSCHEDULE": "610 {{CrimsonGrove}} 15 44 2/1200 {{CrimsonGrove}} 15 44 2 {{ModId}}_Nox_fear",
+    "FRIDAYSCHEDULE": "610 {{CrimsonGrove}} 15 44 2/1200 {{CrimsonGrove}} 15 44 2 {{ModId}}_Nox_fear",
+    "SATURDAYSCHEDULE": "610 {{CrimsonGrove}} 15 44 2/1200 {{CrimsonGrove}} 15 44 2 {{ModId}}_Nox_fear",
+    "SUNDAYSCHEDULE": "610 {{CrimsonGrove}} 15 44 2/1200 {{CrimsonGrove}} 15 44 2 {{ModId}}_Nox_fear"
+   }
+  },
+  {
+   "LogName": "Antisocial",
+   "Action": "Include",
+   "FromFile": "Data/Templates/C_Template_NPCs.json",
+   "LocalTokens": {
+    "NPCNAME": "Pau",
+    "HOMEX": "13",
+    "HOMEY": "41",
+    "SLEEPANIMATION": "18/19 19 19 19 19 18 18 18 18 19 19 19 19 18 18 18 18 19 19 19 19/19",
+    "SPECIAL1": "cry",
+    "SPECIAL1ANIMATION": "16/16 16 16 16 16 17 17 17 17 17 18 18 18 18 18 19 19 19 19 19 18 18 18 18 18 17 17 17 17 17 16 16 16 16 16/16",
+    "SPECIAL2": "thoughts",
+    "SPECIAL2ANIMATION": "20/20 20 20 20 20 20 20 20 20 20 21 21 21 21 21 21 21 21 21 21 22 22 22 22 22 23 23 23 23 23 24 24 24 25 25 25 24 24 24 25 25 25 26 26 27 27 26 26 27 27 26 26 27 27/26",
+    "SPRINGSCHEDULE": "610 {{CrimsonGrove}} 13 41 2",
+    "SUMMERSCHEDULE": "GOTO spring",
+    "FALLSCHEDULE": "GOTO spring",
+    "WINTERSCHEDULE": "GOTO spring",
+    "MONDAYSCHEDULE": "610 {{CrimsonGrove}} 13 41 2/1200 {{CrimsonGrove}} 13 41 2 {{ModId}}_Pau_cry/1500 {{CrimsonGrove}} 13 41 2",
+    "TUESDAYSCHEDULE": "610 {{CrimsonGrove}} 13 41 2/1200 {{CrimsonGrove}} 13 41 2 {{ModId}}_Pau_thoughts/1800 {{CrimsonGrove}} 13 41 2",
+    "WEDNESDAYSCHEDULE": "610 {{CrimsonGrove}} 13 41 2/1200 {{CrimsonGrove}} 13 41 2 {{ModId}}_Pau_cry/1500 {{CrimsonGrove}} 13 41 2",
+    "THURSDAYSCHEDULE": "610 {{CrimsonGrove}} 13 41 2/1200 {{CrimsonGrove}} 13 41 2 {{ModId}}_Pau_cry/1500 {{CrimsonGrove}} 13 41 2",
+    "FRIDAYSCHEDULE": "610 {{CrimsonGrove}} 13 41 2/1200 {{CrimsonGrove}} 13 41 2 {{ModId}}_Pau_cry/1500 {{CrimsonGrove}} 13 41 2",
+    "SATURDAYSCHEDULE": "610 {{CrimsonGrove}} 13 41 2/1200 {{CrimsonGrove}} 13 41 2 {{ModId}}_Pau_thoughts/1800 {{CrimsonGrove}} 13 41 2",
+    "SUNDAYSCHEDULE": "610 {{CrimsonGrove}} 13 41 2/1200 {{CrimsonGrove}} 13 41 2 {{ModId}}_Pau_cry/1500 {{CrimsonGrove}} 13 41 2"
+   }
+  },
+  {
+   "LogName": "Antisocial",
+   "Action": "Include",
+   "FromFile": "Data/Templates/C_Template_NPCs.json",
+   "LocalTokens": {
+    "NPCNAME": "Tia",
+    "HOMEX": "14",
+    "HOMEY": "38",
+    "SLEEPANIMATION": "18/19 19 19 19 19 18 18 18 18 19 19 19 19 18 18 18 18 19 19 19 19/19",
+    "SPECIAL1": "doomscroll",
+    "SPECIAL1ANIMATION": "16/16 16 16 16 16 17 17 17 17 17 18 18 18 18 18 19 19 19 19 19 18 18 18 18 18 17 17 17 17 17 16 16 16 16 16/16",
+    "SPECIAL2": "gone",
+    "SPECIAL2ANIMATION": "24/24 24 24 24 24 24/24",
+    "SPRINGSCHEDULE": "610 {{CrimsonGrove}} 14 38 2 {{ModId}}_Tia_doomscroll",
+    "SUMMERSCHEDULE": "GOTO spring",
+    "FALLSCHEDULE": "GOTO spring",
+    "WINTERSCHEDULE": "GOTO spring",
+    "MONDAYSCHEDULE": "610 {{CrimsonGrove}} 14 38 2/1200 {{CrimsonGrove}} 14 38 2 {{ModId}}_Tia_doomscroll",
+    "TUESDAYSCHEDULE": "610 {{CrimsonGrove}} 14 38 2/1200 {{CrimsonGrove}} 14 38 2 {{ModId}}_Tia_doomscroll",
+    "WEDNESDAYSCHEDULE": "610 {{CrimsonGrove}} 14 38 2",
+    "THURSDAYSCHEDULE": "610 {{CrimsonGrove}} 14 38 2/1200 {{CrimsonGrove}} 14 38 2 {{ModId}}_Tia_doomscroll",
+    "FRIDAYSCHEDULE": "610 {{CrimsonGrove}} 14 38 2/1200 {{CrimsonGrove}} 14 38 2 {{ModId}}_Tia_doomscroll",
+    "SATURDAYSCHEDULE": "610 {{CrimsonGrove}} 14 38 2/1200 {{CrimsonGrove}} 14 38 2 {{ModId}}_Tia_doomscroll",
+    "SUNDAYSCHEDULE": "610 {{CrimsonGrove}} 14 38 2/1200 {{CrimsonGrove}} 14 38 2 {{ModId}}_Tia_doomscroll"
+   }
+  }
+ ]
+}

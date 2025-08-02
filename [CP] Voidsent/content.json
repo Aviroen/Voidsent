@@ -1,15 +1,10 @@
 {
  "Format": "2.5.0",
  "ConfigSchema": {
-  "SpouseRooms": {
-   "AllowValues": "Furnished, Unfurnished",
-   "Default": "Unfurnished",
-   "Description": "Choose whether the spouserooms will be furnished or unfurnished."
-  },
   "Photosensitive Mode": {
    "AllowValues": "true, false",
    "Default": "false",
-   "Description": "Turns off all pulsating runic circles on all maps. Default off."
+   "Description": "Turns off all flashing effects, from Map effects, to character sprites. Default Off."
   }
  },
  "DynamicTokens": [

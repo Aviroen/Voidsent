@@ -5,7 +5,8 @@
       "Action": "EditData",
       "Target": "Data/Mail",
      "Entries": {
-      "{{ModId}}_TheBeginning": "{{i18n:TheBeginning}}[#]{{i18n:TheBeginningTitle}}"
+      "{{ModId}}_TheBeginning": "{{i18n:TheBeginning}}[#]{{i18n:TheBeginningTitle}}",
+      "{{ModId}}_PhotoAlbum": ""
      }
     }
   ]

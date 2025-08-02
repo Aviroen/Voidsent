@@ -59,7 +59,7 @@
    "Entries": {
     "{{ModId}}_Iro_arisephoto": "610 {{CrimsonGrove}} 22 41 2/1200 {{CrimsonGrove}} 22 41 2 {{ModId}}_Iro_arisephoto/1500 {{CrimsonGrove}} 22 41 2"
    }
-  }
+  },
   /*
  "d4": "do actionlist here but only the first four",
 "d6": "[LocalizedText StringStorage:d4] (then put the next 2 here)",
@@ -94,19 +94,6 @@
      "Action": "IncrementStat SpringLetterQuests 1"
     }
    }
-  },
-  {
-   "Action": "EditData",
-   "Target": "Data/TriggerActions",
-   "Entries": {
-    "ExampleTriggerAction": {
-     "Id": "ExampleTriggerAction",
-     "Trigger": "Spiderbuttons.BETAS_ForgeUsed",
-     "Condition": "Spiderbuttons.BETAS_ITEM_ENCHANTMENTS Target Generous",
-     "Action": "AddMail Current EnchantedWithGenerosity"
-    }
-   }
-  }
-  */
+  },*/
  ]
 }

@@ -11,7 +11,7 @@
 		<Authors>Voidsent Rebels</Authors>
 		<Description>Dungeons and Dragons style Expansion.</Description>
 		<UniqueId>Aviroen.Voidsent</UniqueId>
-		<MinimumGameVersion>1.6.16</MinimumGameVersion>
+		<MinimumGameVersion>1.6.15</MinimumGameVersion>
 		<UpdateKeys>Nexus:26053</UpdateKeys>
 		<Version>0.1.0</Version>
 		<ContentPacks_VersionBehavior>Set</ContentPacks_VersionBehavior>
