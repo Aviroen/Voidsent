@@ -12,10 +12,7 @@
     "ANXIETY": "Outgoing", //outgoing, neutral, shy changes stringsfromcsfiles
     "OPTIMISM": "Positive", //positive, neutral, negative changes stringsfromcsfiles
     "DARKSKIN": "true",
-
-
     "GIFTABLE": "true",
-
     "HOMELOCATION": "{{ModId}}_BreakfastInnBed",
     "HOMEXTILE": "18",
     "HOMEYTILE": "30",
@@ -35,15 +32,10 @@
     "SUMMERSCHEDULE": "GOTO spring",
     "FALLSCHEDULE": "GOTO spring",
     "WINTERSCHEDULE": "GOTO spring",
-    //hammering
     "MONDAYSCHEDULE": "GOTO spring",
-    //alchemy
     "TUESDAYSCHEDULE": "GOTO spring",
-    //reading
     "WEDNESDAYSCHEDULE": "GOTO spring",
-    //grave
     "THURSAYSCHEDULE": "GOTO spring",
-    //hammer
     "FRIDAYSCHEDULE": "GOTO spring",
     "SATURDAYSCHEDULE": "GOTO spring",
     "SUNDAYSCHEDULE": "GOTO spring",
@@ -57,7 +49,6 @@
 
     "SEPARATEDATABILITY": true, //true/false
     "BETASTOGGLED": true, //true/false
-
     "CUSTOMENDEARMENT": true, //whether or not you're fulfilling a string for custom endearments like (single), (partner), (enemy)
     "REJECTPENDANT": true, //whether you want the npc to reject the pendant and instead want engagement through spacecore
     "REJECTTEA": true

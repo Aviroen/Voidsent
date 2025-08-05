@@ -12,10 +12,10 @@
     "ANXIETY": "Neutral", //outgoing, neutral, shy changes stringsfromcsfiles
     "OPTIMISM": "Negative", //positive, neutral, negative changes stringsfromcsfiles
     "DARKSKIN": "false",
-    
-   
+
+
     "GIFTABLE": "true",
-    
+
     "HOMELOCATION": "{{Yrsin}}_Hideout3",
     "HOMEXTILE": "13",
     "HOMEYTILE": "8",
@@ -47,8 +47,8 @@
     //breakfast inn bed
     "FRIDAYSCHEDULE": "610 {{ModId}}_BreakfastInnBed 11 33 2/2600 {{Yrsin}}_Hideout1 15 16 2 {{Yrsin}}_sleep",
     //port morabyr port
-    "SATURDAYSCHEDULE": "610 {{Morabyr}} 70 79 0/1200 {{Morabyr}} 52 73 3/1800 {{Morabyr}} 62 93 2/2600 {{Yrsin}}_Hideout1 15 16 2 {{Yrsin}}_sleep",
-    "SUNDAYSCHEDULE": "610 {{Morabyr}} 69 79 0/1200 {{Morabyr}} 52 73 3/1800 {{Morabyr}} 62 93 2/2600 {{Yrsin}}_Hideout1 15 16 2 {{Yrsin}}_sleep",
+    "SATURDAYSCHEDULE": "610 {{Morabyr}} 70 79 0/1200 {{Morabyr}} 52 73 3/1800 {{Morabyr}} 61 93 2/2600 {{Yrsin}}_Hideout1 15 16 2 {{Yrsin}}_sleep",
+    "SUNDAYSCHEDULE": "610 {{Morabyr}} 69 79 0/1200 {{Morabyr}} 52 73 3/1800 {{Morabyr}} 61 93 2/2600 {{Yrsin}}_Hideout1 15 16 2 {{Yrsin}}_sleep",
 
     //HEART DIALOGUES
     "2HEART": true, //true/false
@@ -59,7 +59,7 @@
 
     "SEPARATEDATABILITY": true, //true/false
     "BETASTOGGLED": true, //true/false
-    
+
     "CUSTOMENDEARMENT": true, //whether or not you're fulfilling a string for custom endearments like (single), (partner), (enemy)
     "REJECTPENDANT": true, //whether you want the npc to reject the pendant and instead want engagement through spacecore
     "REJECTTEA": true

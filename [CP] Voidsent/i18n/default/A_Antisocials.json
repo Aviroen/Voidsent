@@ -1,5 +1,18 @@
 {
  "Human": "Human",
+
+ "Human.DumpsterDiveComment": "%Hey! That's gross!",
+ "Human.HitBySlingshot": "%Excuse me? Do you think I'm a wimp?#$action spacechase0.SpaceCore_DamageCurrentFarmer 50",
+ "Human.GreenRain": "%Ooh, the seas bless us with her bounty!",
+ "Human.GreenRainFinished": "%Rains, you can never predict them.",
+ "Merm.DumpsterDiveComment": "%Erm. Just One Bite can handle your money issues if you're struggling that badly...",
+ "Merm.HitBySlingshot": "%Hey! I didn't brave the depths of the sea for nothing!#$action spacechase0.SpaceCore_DamageCurrentFarmer 50",
+ "Merm.GreenRain": "%Ah, Master Yrsin has done his rain ritual, has he?",
+ "Merm.GreenRainFinished": "%It always feels so nice after the rains.",
+ "Voidketh.DumpsterDiveComment": "%...Our king does not discriminate...",
+ "Voidketh.HitBySlingshot": "%We knights of the crown are not to be taken lightly!#$action spacechase0.SpaceCore_DamageCurrentFarmer 50",
+ "Voidketh.GreenRain": "%The burdensome rains...",
+ "Voidketh.GreenRainFinished": "%I feel weighed down now...",
  //monday
  //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_
  "BETAS.Human.Monday_0": "%A question of children?#%Children have no place in times of war, ${boy^girl^kid}$.",
@@ -14,25 +27,25 @@
 
  //tuesday
  //BETAS
- "BETAS.Human.Tuesday_0": "%weomp womp",
- "BETAS.Human.Tuesday_1": "%swepom",
- "BETAS.Human.Tuesday_2": "%awegawe",
- "BETAS.Human.Tuesday_3": "%awefaweg",
+ "BETAS.Human.Tuesday_0": "%Aye, the seas have called us here.",
+ "BETAS.Human.Tuesday_1": "%We offer our loyalty to Yrsin for calmin' the seas for us.",
+ "BETAS.Human.Tuesday_2": "%Interested in the seas, kid?",
+ "BETAS.Human.Tuesday_3": "%Just don't get on Yrsin's bad side, aye?",
  //daily
- "Human.Tuesday_0": "%woop woop",
- "Human.Tuesday_1": "%woop woop",
- "Human.Tuesday_2": "%woop woop",
- "Human.Tuesday_3": "%woop woop",
+ "Human.Tuesday_0": "%The king?#$b#%We ain't loyal to no king, we're loyal to the master of the seas.",
+ "Human.Tuesday_1": "%Ye best be on yer way.#$b#%Gotta move cargo, kid.",
+ "Human.Tuesday_2": "%Sing the shanties o' the sea, listen to her voice.#$b#%You'll see who our real master is.",
+ "Human.Tuesday_3": "%O' hear our call.#$e#%We wretches of the lands.#$e#%We sing your praises.#$e#%We heed your master.#$e#%Give us our king.#$e#%The real king o' the sea.",
 
  //wednesday
  //BETAS
- "BETAS.Human.Wednesday_0": "%",
- "BETAS.Human.Wednesday_1": "%",
+ "BETAS.Human.Wednesday_0": "%The waters' shanty? Ye should know it by now, kid.",
+ "BETAS.Human.Wednesday_1": "%Tis a reminder to those of us that might forget our origins.#$e#%Shipwrights brought together through the master of the seas' devout exploration.",
  "BETAS.Human.Wednesday_2": "%",
  "BETAS.Human.Wednesday_3": "%",
  //daily
- "Human.Wednesday_0": "%",
- "Human.Wednesday_1": "%",
+ "Human.Wednesday_0": "%We promise to be faithful when we go.#$e#%If we prove to be a lying coward, feel the wrath of water's power.#$e#%Listen, hear, the siren calls our hearts asunder.#$e#%Hear her call, fear her wrath.",
+ "Human.Wednesday_1": "%Find ye sealegs soon, kid.#$e#%You're gonna need em.",
  "Human.Wednesday_2": "%",
  "Human.Wednesday_3": "%",
 

@@ -126,8 +126,8 @@
             ]
           ],
           "AbilityUnlockConditions": [
-            "PLAYER_HAS_FLAG Current {{ModId}}_TerraprismaUnlocked",
-            "PLAYER_HAS_FLAG Current {{ModId}}_TerraprismaUpgraded"
+            "PLAYER_HAS_MAIL Current {{ModId}}_TerraprismaUnlocked",
+            "PLAYER_HAS_MAIL Current {{ModId}}_TerraprismaUpgraded"
           ]
         }
       }
@@ -295,10 +295,10 @@
             ]
           ],
           "AbilityUnlockConditions": [
-            "PLAYER_HAS_FLAG Current {{ModId}}_ExcaliburUnlocked",
-            "PLAYER_HAS_FLAG Current {{ModId}}_ExcaliburUpgraded2",
-            "PLAYER_HAS_FLAG Current {{ModId}}_ExcaliburUpgraded3",
-            "PLAYER_HAS_FLAG Current {{ModId}}_ExcaliburUpgraded4"
+            "PLAYER_HAS_MAIL Current {{ModId}}_ExcaliburUnlocked",
+            "PLAYER_HAS_MAIL Current {{ModId}}_ExcaliburUpgraded2",
+            "PLAYER_HAS_MAIL Current {{ModId}}_ExcaliburUpgraded3",
+            "PLAYER_HAS_MAIL Current {{ModId}}_ExcaliburUpgraded4"
           ]
         }
       }
@@ -423,8 +423,8 @@
             ]
           ],
           "AbilityUnlockConditions": [
-            "PLAYER_HAS_FLAG Current {{ModId}}_RoBUnlocked",
-            "PLAYER_HAS_FLAG Current {{ModId}}_RoBUpgraded"
+            "PLAYER_HAS_MAIL Current {{ModId}}_RoBUnlocked",
+            "PLAYER_HAS_MAIL Current {{ModId}}_RoBUpgraded"
           ]
         }
       }
@@ -556,8 +556,8 @@
             ]
           ],
           "AbilityUnlockConditions": [
-            "PLAYER_HAS_FLAG Current {{ModId}}_StelleUnlocked",
-            "PLAYER_HAS_FLAG Current {{ModId}}_StelleUpgraded"
+            "PLAYER_HAS_MAIL Current {{ModId}}_StelleUnlocked",
+            "PLAYER_HAS_MAIL Current {{ModId}}_StelleUpgraded"
           ]
         }
       }

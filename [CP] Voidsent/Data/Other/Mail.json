@@ -5,8 +5,9 @@
       "Action": "EditData",
       "Target": "Data/Mail",
      "Entries": {
-      "{{ModId}}_TheBeginning": "{{i18n:TheBeginning}}[#]{{i18n:TheBeginningTitle}}",
-      "{{ModId}}_PhotoAlbum": ""
+      "{{ModId}}_Postcard": "{{i18n:Postcard}}[letterbg {{ModId}}/LetterBG 0][#]{{i18n:PostcardTitle}}",
+      "{{ModId}}_TheBeginning": "{{i18n:TheBeginning}}[letterbg {{ModId}}/LetterBG 1][#]{{i18n:TheBeginningTitle}}",
+      "{{ModId}}_PhotoAlbum": "{{i18n:TheBeginning}}[letterbg {{ModId}}/LetterBG 2][#]{{i18n:TheBeginningTitle}}"
      }
     }
   ]

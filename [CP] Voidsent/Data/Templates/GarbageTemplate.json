@@ -7,7 +7,7 @@
    "TargetField": [ "GarbageCans" ],
    "Entries": {
     "{{ModId}}_Morabyr{{NUMBER}}": {
-     "BaseChance": 10.0,
+     "BaseChance": 1.0,
      "Items": [
       {
        "IgnoreBaseChance": false,

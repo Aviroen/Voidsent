@@ -38,7 +38,25 @@
      "Id": "{{ModId}}_Iro_arisephoto",
      "ScheduleKey": "{{ModId}}_Iro_arisephoto",
      "Priority": "Late",
-     "Condition": "ANY \"{{Photosensitive Mode|contains=true}}\", DAY_OF_WEEK Tuesday"
+     "Condition": "{{Photosensitive Mode}}, DAY_OF_WEEK Tuesday"
+    },
+    "{{Sai}}_H4Wed": {
+     "Id": "{{Sai}}_H4Wed",
+     "ScheduleKey": "{{Sai}}_H4Wed",
+     "Priority": "Late",
+     "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Maincast, DAY_OF_WEEK Wednesday"
+    },
+    "{{Lysella}}_H4Wed": {
+     "Id": "{{Lysella}}_H4Wed",
+     "ScheduleKey": "{{Lysella}}_H4Wed",
+     "Priority": "Late",
+     "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Maincast, DAY_OF_WEEK Wednesday"
+    },
+    "{{Muvi}}_H4Wed": {
+     "Id": "{{Muvi}}_H4Wed",
+     "ScheduleKey": "{{Muvi}}_H4Wed",
+     "Priority": "Late",
+     "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Maincast, DAY_OF_WEEK Wednesday"
     }
    }
   },
@@ -55,11 +73,47 @@
   },
   {
    "Action": "EditData",
+   "Target": "Characters/schedules/{{Sai}}",
+   "Entries": {
+    "{{Sai}}_H4Wed": "710 {{Yrsin}}_Office 15 5 0"
+   }
+  },
+  {
+   "Action": "EditData",
+   "Target": "Characters/schedules/{{Lysella}}",
+   "Entries": {
+    "{{Lysella}}_H4Wed": "810 {{Yrsin}}_Office 5 6 1 {{Lysella}}_sit"
+   }
+  },
+  {
+   "Action": "EditData",
+   "Target": "Characters/schedules/{{Muvi}}",
+   "Entries": {
+    "{{Muvi}}_H4Wed": "1010 {{Yrsin}}_Office 16 6 2"
+   }
+  },
+  {
+   "Action": "EditData",
    "Target": "Characters/schedules/{{ModId}}_Iro",
    "Entries": {
     "{{ModId}}_Iro_arisephoto": "610 {{CrimsonGrove}} 22 41 2/1200 {{CrimsonGrove}} 22 41 2 {{ModId}}_Iro_arisephoto/1500 {{CrimsonGrove}} 22 41 2"
    }
   },
+  {
+   "Action": "EditData",
+   "Target": "Data/TriggerActions",
+   "Entries": {
+    "{{ModId}}_Photos": {
+     "Id": "{{ModId}}_Photos",
+     "Trigger": "Spiderbuttons.BETAS_MenuChanged",
+     "Condition": "!ITEM_ID Target DialogueBox, PLAYER_LOCATION_NAME Current {{ModId}}_Menagerie, ITEM_ID Input DialogueBox, RANDOM 0.01",
+     "MarkActionApplied": false,
+     "Actions": [
+      "Spiderbuttons.BETAS_DelayedAction \"Spiderbuttons.BETAS_ShowMail {{ModId}}_PhotoAlbum\" 250"
+     ]
+    }
+   }
+  }
   /*
  "d4": "do actionlist here but only the first four",
 "d6": "[LocalizedText StringStorage:d4] (then put the next 2 here)",

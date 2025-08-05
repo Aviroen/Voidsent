@@ -84,10 +84,20 @@
     "{{ModId}}_{{NPCNAME}}_DialogueOpened1": {
      "Id": "{{ModId}}_{{NPCNAME}}_DialogueOpened1",
      "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, {{Query:{{Hearts:{{ModId}}_{{NPCNAME}}}} >= 2}}, ITEM_STACK Target 1, ANY \"{{2HEART}}\" \"{{4HEART}}\" \"{{6HEART}}\" \"{{8HEART}}\" \"{{10HEART}}\"",
+     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, {{Query:{{Hearts:{{ModId}}_{{NPCNAME}}}} >= 2}}, ITEM_STACK Target 1, ANY \"{{2HEART}}\" \"{{4HEART}}\" \"{{6HEART}}\" \"{{8HEART}}\" \"{{10HEART}}\", !PLAYER_HAS_MAIL Current {{ModId}}_Maincast",
      "MarkActionApplied": false,
      "Actions": [
       "Aviroen.Voidsent_RandomDialogue Aviroen.VoidsentCP {{ModId}}_{{NPCNAME}} BETAS.{{NPCNAME}}.{{DayOfWeek}}{{Hearts:{{ModId}}_{{NPCNAME}}}}_ {{Range:0,{{ENDRANGE}}}}",
+      "MarkActionApplied Current {{ModId}}_{{NPCNAME}}_DialogueOpened true"
+     ]
+    },
+    "{{ModId}}_{{NPCNAME}}_DialogueOpened2": {
+     "Id": "{{ModId}}_{{NPCNAME}}_DialogueOpened2",
+     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
+     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, {{Query:{{Hearts:{{ModId}}_{{NPCNAME}}}} >= 4}}, ITEM_STACK Target 1, ANY \"{{4HEART}}\" \"{{6HEART}}\" \"{{8HEART}}\" \"{{10HEART}}\", PLAYER_HAS_MAIL Current {{ModId}}_Maincast, DAY_OF_WEEK Wednesday",
+     "MarkActionApplied": false,
+     "Actions": [
+      "Aviroen.Voidsent_RandomDialogue Aviroen.VoidsentCP {{ModId}}_{{NPCNAME}} BETAS.{{NPCNAME}}.Wednesday_Alt_{{Hearts:{{ModId}}_{{NPCNAME}}}}_ {{Range:0,{{ENDRANGE}}}}",
       "MarkActionApplied Current {{ModId}}_{{NPCNAME}}_DialogueOpened true"
      ]
     }

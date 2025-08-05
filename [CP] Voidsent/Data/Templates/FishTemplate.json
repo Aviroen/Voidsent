@@ -35,7 +35,8 @@
      "ContextTags": [
       "{{COLORTAG}}",
       "{{WATERTAG}}",
-      "{{RARITYTAG}}"
+      "{{RARITYTAG}}",
+      "shark"
      ]
     }
    }

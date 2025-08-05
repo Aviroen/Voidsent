@@ -31,17 +31,31 @@
      "Condition": null,
      "Action": "AddBuff {{Random:20,22,statue_of_blessings_0,statue_of_blessings_1,statue_of_blessings_2,statue_of_blessings_3,statue_of_blessings_5,statue_of_blessings_6}} -2"
     },
+    "{{ModId}}_Postcard": {
+     "Id": "{{ModId}}_Postcard",
+     "Trigger": "Spiderbuttons.BETAS_MenuChanged",
+     "Condition": "!ITEM_ID Target LetterViewerMenu, PLAYER_HAS_MAIL Current {{ModId}}_Postcard, ITEM_ID Input LetterViewerMenu",
+     "Actions": [
+      "Spiderbuttons.BETAS_ShowMail {{ModId}}_TheBeginning true"
+     ]
+    },
     "{{ModId}}_TheBeginning": {
      "Id": "{{ModId}}_TheBeginning",
      "Trigger": "DayStarted",
      "Condition": null,
-     "Action": "AddMail Current {{ModId}}_TheBeginning tomorrow"
+     "Action": "AddMail Current {{ModId}}_Postcard now"
     },
     "{{ModId}}_Shack": {
      "Id": "{{ModId}}_Shack",
      "Trigger": "Manual",
      "Condition": null,
      "Action": "AddBuff 23 -2"
+    },
+    "{{ModId}}_MaincastMail": {
+     "Id": "{{ModId}}_MaincastMail",
+     "Trigger": "LocationChanged",
+     "Condition": "PLAYER_FRIENDSHIP_POINTS Current {{Yrsin}} 1000, PLAYER_FRIENDSHIP_POINTS Current {{Thandael}} 1000, PLAYER_FRIENDSHIP_POINTS Current {{Muvi}} 1000, PLAYER_FRIENDSHIP_POINTS Current {{Lysella}} 1000, PLAYER_FRIENDSHIP_POINTS Current {{Sai}} 1000",
+     "Action": "AddMail Current {{ModId}}_Maincast received"
     }
    }
   }

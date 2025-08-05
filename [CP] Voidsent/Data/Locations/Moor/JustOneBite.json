@@ -34,6 +34,7 @@
      },
      "Layer": "Buildings",
      "SetProperties": {
+      "Action": "Door",
       "EMA_CustomDoor": "{{ModId}}_SaloonDoorBrown"
      }
     },
@@ -44,6 +45,7 @@
      },
      "Layer": "Buildings",
      "SetProperties": {
+      "Action": "Door",
       "EMA_CustomDoor": "{{ModId}}_SaloonDoorFlipBrown"
      }
     },

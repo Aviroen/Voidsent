@@ -43,8 +43,8 @@
      "SocialTab": "HiddenUntilMet",
      "CanSocialize": false,
      "CanReceiveGifts": false,
-     "CanGreetNearbyCharacters": true,
-     "CanCommentOnPurchasedShopItems": null,
+     "CanGreetNearbyCharacters": false,
+     "CanCommentOnPurchasedShopItems": false,
      "CanVisitIsland": false,
      "IntroductionsQuest": false,
      "ItemDeliveryQuests": null,
@@ -190,6 +190,10 @@
    "Action": "EditData",
    "Target": "Characters/Dialogue/{{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}",
    "Entries": {
+    "DumpsterDiveComment": "{{i18n:{{TYPEOFPERSON}}.DumpsterDiveComment}}",
+    "HitBySlingshot": "{{i18n:{{TYPEOFPERSON}}.HitBySlingshot}}",
+    "GreenRain": "{{i18n:{{TYPEOFPERSON}}.GreenRain}}",
+    "GreenRainFinished": "{{i18n:{{TYPEOFPERSON}}.GreenRainFinished}}",
     "{{WeekDay}}": "{{i18n:{{TYPEOFPERSON}}.{{DayOfWeek}}_{{Random:{{Range: 0, 3}}}}}}"
    }
   }

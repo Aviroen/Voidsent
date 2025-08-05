@@ -29,7 +29,7 @@
     "INGREDIENTS": "{{ModId}}_ShortfinMakoShark 1 {{ModId}}_DogfishShark 1 {{ModId}}_FrilledShark 1 {{ModId}}_ThresherShark 1 {{ModId}}_BlueShark 1 {{ModId}}_NurseShark 1 {{ModId}}_ZebraShark 1 {{ModId}}_TigerShark 1 {{ModId}}_BullShark 1 {{ModId}}_HammerheadShark 1 {{ModId}}_WhaleShark 1",
     "YIELD": "{{ModId}}_Shorbkie",
     "BIGCRAFTABLE": "false",
-    "UNLOCKCONDITIONS": "PLAYER_HAS_FLAG Current {{ModId}}_ShorbkieRecipe",
+    "UNLOCKCONDITIONS": "PLAYER_HAS_MAIL Current {{ModId}}_ShorbkieRecipe",
     "TYPE": "Crafting",
     "CATEGORY": "0",
     "PRICE": "20",

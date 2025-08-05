@@ -43,6 +43,12 @@
    "Target": "{{ModId}}/NPCTranslations"
   },
   {
+   "Action": "Load",
+   "FromFile": "Assets/TileSheets/{{ModId}}_letterBG.png",
+   "Priority": "Low",
+   "Target": "{{ModId}}/LetterBG"
+  },
+  {
    "Action": "EditData",
    "When": {
     "HasMod": "shekurika.EventLookup"
