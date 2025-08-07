@@ -99,6 +99,7 @@
     "{{ModId}}_Iro_arisephoto": "610 {{CrimsonGrove}} 22 41 2/1200 {{CrimsonGrove}} 22 41 2 {{ModId}}_Iro_arisephoto/1500 {{CrimsonGrove}} 22 41 2"
    }
   },
+  /*
   {
    "Action": "EditData",
    "Target": "Data/TriggerActions",
@@ -106,15 +107,14 @@
     "{{ModId}}_Photos": {
      "Id": "{{ModId}}_Photos",
      "Trigger": "Spiderbuttons.BETAS_MenuChanged",
-     "Condition": "!ITEM_ID Target DialogueBox, PLAYER_LOCATION_NAME Current {{ModId}}_Menagerie, ITEM_ID Input DialogueBox, RANDOM 0.01",
+     "Condition": "!ITEM_ID Target DialogueBox, PLAYER_LOCATION_NAME Current {{ModId}}_Menagerie, ITEM_ID Input DialogueBox, RANDOM 0.1",
      "MarkActionApplied": false,
      "Actions": [
-      "Spiderbuttons.BETAS_DelayedAction \"Spiderbuttons.BETAS_ShowMail {{ModId}}_PhotoAlbum\" 250"
+      "Spiderbuttons.BETAS_RandomAction \"Spiderbuttons.BETAS_ShowMail {{ModId}}_PhotoAlbum Spiderbuttons.BETAS_ShowMail {{ModId}}_PhotoAlbum1\""
      ]
     }
    }
   }
-  /*
  "d4": "do actionlist here but only the first four",
 "d6": "[LocalizedText StringStorage:d4] (then put the next 2 here)",
 "d10": "[LocalizedText StringStorage:d6] (then the next 4 here)",

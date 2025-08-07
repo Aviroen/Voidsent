@@ -76,6 +76,30 @@
        ]
       }
      }
+    },
+    "{{ModId}}_Pictures": {
+     "Question": "[LocalizedText {{ModId}}/Strings:Grave]",
+     "ResponseEntries": {
+      "ReadGrave": {
+       "Label": "[LocalizedText {{ModId}}/Strings:GraveLabel]",
+       "Condition": "",
+       "Actions": [
+        "Spiderbuttons.BETAS_ShowMail {{ModId}}_PhotoAlbum"
+       ]
+      }
+     }
+    },
+    "{{ModId}}_Pictures1": {
+     "Question": "[LocalizedText {{ModId}}/Strings:Grave]",
+     "ResponseEntries": {
+      "ReadGrave": {
+       "Label": "[LocalizedText {{ModId}}/Strings:GraveLabel]",
+       "Condition": "",
+       "Actions": [
+        "Spiderbuttons.BETAS_ShowMail {{ModId}}_PhotoAlbum1"
+       ]
+      }
+     }
     }
    }
   }

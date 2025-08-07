@@ -21,8 +21,8 @@
     "Doors": "15 13 0 0 16 13 0 0 9 3 0 0 10 3 0 0"
    },
    "AddWarps": [
-    "9 0 {{Yrsin}}_Office 2 6",
-    "10 0 {{Yrsin}}_Office 2 6",
+    "9 0 {{Yrsin}}_Office 9 19",
+    "10 0 {{Yrsin}}_Office 10 19",
     "9 20 {{Morabyr}} 9 51",
     "10 20 {{Morabyr}} 9 51"
    ],
@@ -56,19 +56,8 @@
      },
      "Layer": "Buildings",
      "SetProperties": {
-      "LockedDoorMessage": "Strings\\\\Locations:DoorUnlock_NotFriend_{{ModId}}_Yrsin",
       "EMA_CustomDoor": "{{ModId}}_AviBrownDoor",
-      "Action": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_YrsinHideoutsUnlocked"
-     }
-    },
-    {
-     "Position": {
-      "X": 9,
-      "Y": 3
-     },
-     "Layer": "Back",
-     "SetProperties": {
-      "TouchAction": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_YrsinHideoutsUnlocked"
+      "Action": "Door"
      }
     },
     {
@@ -78,19 +67,8 @@
      },
      "Layer": "Buildings",
      "SetProperties": {
-      "LockedDoorMessage": "Strings\\\\Locations:DoorUnlock_NotFriend_{{ModId}}_Yrsin",
       "EMA_CustomDoor": "{{ModId}}_AviBrownDoorFlip",
-      "Action": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_YrsinHideoutsUnlocked"
-     }
-    },
-    {
-     "Position": {
-      "X": 10,
-      "Y": 3
-     },
-     "Layer": "Back",
-     "SetProperties": {
-      "Action": "ConditionalDoor PLAYER_HAS_MAIL Current {{ModId}}_YrsinHideoutsUnlocked"
+      "Action": "Door"
      }
     }
    ]

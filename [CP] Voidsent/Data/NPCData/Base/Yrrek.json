@@ -30,18 +30,22 @@
     "SPECIAL1ANIMATION": "16/16 16 17 17 17 18 18 18 17 17 18 18 19 19 18 18 17 17 18 18 19 19 18 18 17 17 16 16/16",
     "SPECIAL2": "wag",
     "SPECIAL2ANIMATION": "20/20 20 20 20 20 21 22 23 20 20 20 20 20 20/20",
+    "SPECIAL3": "work",
+    "SPECIAL3ANIMATION": "16/16 16 16 16 16 17 17 17 17 17/17//laying_down/offset 8 0",
+    "SPECIAL4": "angry",
+    "SPECIAL4ANIMATION": "20/20 20 20 20 20 21 22 23 20 20 20 20 20 20/20",
     "ENDRANGE": "3",
-    "SPRINGSCHEDULE": "710 {{Yrsin}}_Office 14 8 2/2600 {{ModId}}_JustOneBite 8 6 2 {{Yrrek}}_sleep",
+    "SPRINGSCHEDULE": "610 {{Yrsin}}_Office 14 8 2/2600 {{ModId}}_JustOneBite 8 6 2 {{Yrrek}}_sleep",
     "SUMMERSCHEDULE": "GOTO spring",
     "FALLSCHEDULE": "GOTO spring",
     "WINTERSCHEDULE": "GOTO spring",
 
     //office
-    "MONDAYSCHEDULE": "710 {{Yrsin}}_Office 14 8 2/2600 {{ModId}}_JustOneBite 8 6 2 {{Yrrek}}_sleep",
+    "MONDAYSCHEDULE": "610 {{Yrsin}}_Office 14 8 2/2600 {{ModId}}_JustOneBite 8 6 2 {{Yrrek}}_sleep",
     //office
-    "TUESDAYSCHEDULE": "710 {{Yrsin}}_Office 14 8 2/2600 {{ModId}}_JustOneBite 8 6 2 {{Yrrek}}_sleep",
+    "TUESDAYSCHEDULE": "610 {{Yrsin}}_Office 14 8 2/2600 {{ModId}}_JustOneBite 8 6 2 {{Yrrek}}_sleep",
     //office
-    "WEDNESDAYSCHEDULE": "710 {{Yrsin}}_Office 14 8 2/2600 {{ModId}}_JustOneBite 8 6 2 {{Yrrek}}_sleep",
+    "WEDNESDAYSCHEDULE": "610 {{Yrsin}}_Office 14 8 2/2600 {{ModId}}_JustOneBite 8 6 2 {{Yrrek}}_sleep",
     //grave
     "THURSAYSCHEDULE": "GOTO spring",
     //hammer

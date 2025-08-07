@@ -81,8 +81,8 @@
     "NPCWarp": "4 5 {{ModId}}_WarpNetwork 1 0"
    },
    "AddWarps": [
-    "8 19 {{Yrsin}}_Office 2 6",
-    "9 19 {{Yrsin}}_Office 2 6"
+    "8 19 {{Yrsin}}_Office 2 7",
+    "9 19 {{Yrsin}}_Office 2 7"
    ],
    "MapTiles": [ //NPCWarp [<int fromX> <int fromY> <string toArea> <int toX> <int toY>]+
     {
@@ -116,8 +116,8 @@
     "NPCWarp": "5 5 {{ModId}}_WarpNetwork 1 0"
    },
    "AddWarps": [
-    "9 19 {{Yrsin}}_Office 2 6",
-    "10 19 {{Yrsin}}_Office 2 6"
+    "8 19 {{Yrsin}}_Office 2 7",
+    "9 19 {{Yrsin}}_Office 2 7"
    ],
    "MapTiles": [ //NPCWarp [<int fromX> <int fromY> <string toArea> <int toX> <int toY>]+
     {
@@ -151,8 +151,8 @@
     "NPCWarp": "4 6 {{ModId}}_WarpNetwork 1 0"
    },
    "AddWarps": [
-    "9 19 {{Yrsin}}_Office 2 6",
-    "10 19 {{Yrsin}}_Office 2 6"
+    "8 19 {{Yrsin}}_Office 2 7",
+    "9 19 {{Yrsin}}_Office 2 7"
    ],
    "MapTiles": [ //NPCWarp [<int fromX> <int fromY> <string toArea> <int toX> <int toY>]+
     {
@@ -186,8 +186,8 @@
     "NPCWarp": "4 6 {{ModId}}_WarpNetwork 1 0"
    },
    "AddWarps": [
-    "10 19 {{Yrsin}}_Office 2 6",
-    "11 19 {{Yrsin}}_Office 2 6"
+    "8 19 {{Yrsin}}_Office 2 7",
+    "9 19 {{Yrsin}}_Office 2 7"
    ],
    "MapTiles": [ //NPCWarp [<int fromX> <int fromY> <string toArea> <int toX> <int toY>]+
     {
@@ -221,8 +221,8 @@
     "NPCWarp": "4 6 {{ModId}}_WarpNetwork 1 0"
    },
    "AddWarps": [
-    "12 20 {{Yrsin}}_Office 2 6",
-    "13 20 {{Yrsin}}_Office 2 6"
+    "8 19 {{Yrsin}}_Office 2 7",
+    "9 19 {{Yrsin}}_Office 2 7"
    ],
    "MapTiles": [ //NPCWarp [<int fromX> <int fromY> <string toArea> <int toX> <int toY>]+
     {
@@ -256,8 +256,8 @@
     "Doors": "9 13 0 0 10 13 0 0" //Doors [<int x> <int y> <string sheetID> <int tileID>]+
    },
    "AddWarps": [
-    "9 20 {{ModId}}_BreakfastInnBed 19 7",
-    "10 20 {{ModId}}_BreakfastInnBed 19 7"
+    "9 20 {{Yrsin}}_Office 9 4",
+    "10 20 {{Yrsin}}_Office 10 4"
    ],
    "MapTiles": [ //NPCWarp [<int fromX> <int fromY> <string toArea> <int toX> <int toY>]+
     {

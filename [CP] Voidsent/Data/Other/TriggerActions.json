@@ -34,7 +34,7 @@
     "{{ModId}}_Postcard": {
      "Id": "{{ModId}}_Postcard",
      "Trigger": "Spiderbuttons.BETAS_MenuChanged",
-     "Condition": "!ITEM_ID Target LetterViewerMenu, PLAYER_HAS_MAIL Current {{ModId}}_Postcard, ITEM_ID Input LetterViewerMenu",
+     "Condition": "!ITEM_ID Target LetterViewerMenu, PLAYER_HAS_MAIL Current {{ModId}}_Postcard, ITEM_ID Input LetterViewerMenu, PLAYER_LOCATION_NAME Current Farm",
      "Actions": [
       "Spiderbuttons.BETAS_ShowMail {{ModId}}_TheBeginning true"
      ]

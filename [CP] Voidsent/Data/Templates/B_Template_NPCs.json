@@ -58,7 +58,7 @@
      "SpousePatio": null,
      "SpouseFloors": [],
      "SpouseWallpapers": [],
-     "DumpsterDiveFriendshipEffect": -5,
+     "DumpsterDiveFriendshipEffect": 0,
      "DumpsterDiveEmote": null,
      "FriendsAndFamily": {
      },
