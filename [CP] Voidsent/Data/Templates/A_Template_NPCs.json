@@ -18,7 +18,7 @@
    "Action": "Load",
    "FromFile": "{{FirstValidFile: i18n/{{language}}/{{NPCNAME}}.json, i18n/default/{{NPCNAME}}.json}}",
    "Priority": "Low",
-   "Target": "{{ModId}}/NPCTranslations"
+   "Target": "{{ModId}}/NPCTranslations/{{NPCNAME}}"
   },
   {
    "LogName": "NotFriend_Door",

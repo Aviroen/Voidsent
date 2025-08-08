@@ -40,7 +40,7 @@
    "Action": "Load",
    "FromFile": "{{FirstValidFile: i18n/{{language}}/A_AntiSocials.json, i18n/default/A_AntiSocials.json}}",
    "Priority": "Low",
-   "Target": "{{ModId}}/NPCTranslations"
+   "Target": "{{ModId}}/NPCTranslations/Antisocials"
   },
   {
    "Action": "Load",
