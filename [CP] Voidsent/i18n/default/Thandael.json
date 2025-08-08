@@ -19,8 +19,8 @@
  "Thandael.Gifts.Neutral": "...Thanks?$3",
 
  //gen dialogue
- "Thandael.breakUp": "...No, no, that's... Yeah, everyone has their own way to go.$6#$e#It was a good time.$3#$action Spiderbuttons.BETAS_Message \"Thandael is ignoring you.\"",
- "Thandael.divorced": "...$5#$action Spiderbuttons.BETAS_Message \"Thandael is ignoring you.\"",
+ "Thandael.breakUp": "...No, no, that's... Yeah, everyone has their own way to go.$6#$e#It was a good time.$3#$action {0}Message \"Thandael is ignoring you.\"",
+ "Thandael.divorced": "...$5#$action {0}Message \"Thandael is ignoring you.\"",
  "Thandael.DumpsterDiveComment": "Reminds me of when I was young.$3",
  "Thandael.HitBySlingshot": "...I may be the rearguard, but I am not to be taken lightly.$5#$action spacechase0.SpaceCore_DamageCurrentFarmer 50",
  "Thandael.SpouseFarmhouseClutter": "Need help cleaning up, sweetie?$3",
@@ -57,8 +57,8 @@
  "Thandael.Monday2_3": "Sometimes I just get these headaches that don't go away.$6",
  "BETAS.Thandael.Monday2_0": "I've been practicing my magic, the problem is just the backfiring.$7",
  "BETAS.Thandael.Monday2_1": "There have been new species of birds lately, I've named this one Viteth.$1#$b#Yrsin is saying their name is already decided, and that it was crows.$9",
- "BETAS.Thandael.Monday2_2": "$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Thandael \"*Whistles*\" 3000 0 true#$b#Sorry?$6#$b#I've been practicing this song, is it that bad?$7",
- "BETAS.Thandael.Monday2_3": "$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Thandael \"*AGH!*\" 3000 0 true$5#$b#Sorry, did that scare you?$7#$b#This berry was just a little too tart.$4",
+ "BETAS.Thandael.Monday2_2": "$action {0}TextAboveHead {1}Thandael \"*Whistles*\" 3000 0 true#$b#Sorry?$6#$b#I've been practicing this song, is it that bad?$7",
+ "BETAS.Thandael.Monday2_3": "$action {0}TextAboveHead {1}Thandael \"*AGH!*\" 3000 0 true$5#$b#Sorry, did that scare you?$7#$b#This berry was just a little too tart.$4",
  //4 heart
  "Thandael.Monday4_0": "If you're ever curious about whittling, I could tell you a few things.$1",
  "Thandael.Monday4_1": "Konnie would always try to teach me magic.",
@@ -112,7 +112,7 @@
  //BETAS
  "BETAS.Thandael.Tuesday_0": "I've never been able to get inside.$7",
  "BETAS.Thandael.Tuesday_1": "I hear there's some kind of secret behind opening the door, but I'm unsure.$7",
- "BETAS.Thandael.Tuesday_2": "Twigs?$5#$b#Iron rods?$5#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Thandael \"*Drat!*\"#$b#Nothing so far has worked to open this door.$7",
+ "BETAS.Thandael.Tuesday_2": "Twigs?$5#$b#Iron rods?$5#$action {0}TextAboveHead {1}Thandael \"*Drat!*\"#$b#Nothing so far has worked to open this door.$7",
  "BETAS.Thandael.Tuesday_3": "Yrsin told me it's the beacon to seeing the other lands.$9#$b#I wonder if he was lying to me again.$7",
  //daily
  "Thandael.Tuesday_0": "Door's locked.$9",
@@ -177,15 +177,15 @@
 
  //wednesday annoying yrsin
  //BETAS
- "BETAS.Thandael.Wednesday_0": "Yrsin isn't mad at me, it's just Wednesday.$4#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"No, I am quite mad at you.\" 3000 0 true",
- "BETAS.Thandael.Wednesday_1": "Surely, Wednesday, your 'Friday', you would lend an olive branch to me, Sinny?$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"You're lucky you brought intel.\" 3000 0 true",
- "BETAS.Thandael.Wednesday_2": "Am I a nuisance?$7#$b#Well that depends on who you ask.$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"You are.\" 3000 0 true",
- "BETAS.Thandael.Wednesday_3": "Are we almost done for the day?$7#$b#I'd like to start cooking dinner for Vorgar and myself.$6#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"Just a few more hours.\" 3000 0 true",
+ "BETAS.Thandael.Wednesday_0": "Yrsin isn't mad at me, it's just Wednesday.$4#$action {0}TextAboveHead {1}Yrsin \"No, I am quite mad at you.\" 3000 0 true",
+ "BETAS.Thandael.Wednesday_1": "Surely, Wednesday, your 'Friday', you would lend an olive branch to me, Sinny?$1#$action {0}TextAboveHead {1}Yrsin \"You're lucky you brought intel.\" 3000 0 true",
+ "BETAS.Thandael.Wednesday_2": "Am I a nuisance?$7#$b#Well that depends on who you ask.$1#$action {0}TextAboveHead {1}Yrsin \"You are.\" 3000 0 true",
+ "BETAS.Thandael.Wednesday_3": "Are we almost done for the day?$7#$b#I'd like to start cooking dinner for Vorgar and myself.$6#$action {0}TextAboveHead {1}Yrsin \"Just a few more hours.\" 3000 0 true",
  //daily
- "Thandael.Wednesday_0": "...I was told to sit and 'look pretty'.$7#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*Grumbles*\" 3000 0 true#$e#...$9#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrsin \"I can hear you thinking of something obnoxious.$9\"#$e#I'm not! Well--well now I am.$3#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrsin \"Do I need to kick you out again?$9\"#$e#Oh please not the boot!$7#$b#I promise I'll be good.$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*Sigh*\" 3000 0 true",
- "Thandael.Wednesday_1": "Please?$3#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"No.\" 3000 0 true#$e#...Pretty please?$7#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrsin \"For the tenth time today, no. If I have to hear you got into my weapons cache I will gut you myself.$9\"#$e#You never let me in there!$2#$b#Just a peek?$2#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrsin \"Do I need to kick you out again?$9\"#$e#Oh please not the boot!$7#$b#I promise I'll be good.$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*Sigh*\" 3000 0 true",
- "Thandael.Wednesday_2": "...#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*Grumbles*\" 3000 0 true#$e#...$1#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrsin \"Whatever you're thinking of, no.$5\"#$e#I didn't even say anything!$7#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Yrsin \"You give out this click of your teeth when you're scheming something stupid.$9\"#$e#See! You are my best friend!$1#$b#You know all my quirks!$1#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*Sigh*\" 3000 0 true",
- "Thandael.Wednesday_3": "I... am zen...$8#$e#Nothing can fetter me...$8#$b#Noth--#$b#Is that a bug?!$5#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Yrsin \"*Grumbles*\" 3000 0 true",
+ "Thandael.Wednesday_0": "...I was told to sit and 'look pretty'.$7#$action {0}TextAboveHead {1}Yrsin \"*Grumbles*\" 3000 0 true#$e#...$9#$action {0}DialogueBox {1}Yrsin \"I can hear you thinking of something obnoxious.$9\"#$e#I'm not! Well--well now I am.$3#$action {0}DialogueBox {1}Yrsin \"Do I need to kick you out again?$9\"#$e#Oh please not the boot!$7#$b#I promise I'll be good.$1#$action {0}TextAboveHead {1}Yrsin \"*Sigh*\" 3000 0 true",
+ "Thandael.Wednesday_1": "Please?$3#$action {0}TextAboveHead {1}Yrsin \"No.\" 3000 0 true#$e#...Pretty please?$7#$action {0}DialogueBox {1}Yrsin \"For the tenth time today, no. If I have to hear you got into my weapons cache I will gut you myself.$9\"#$e#You never let me in there!$2#$b#Just a peek?$2#$action {0}DialogueBox {1}Yrsin \"Do I need to kick you out again?$9\"#$e#Oh please not the boot!$7#$b#I promise I'll be good.$1#$action {0}TextAboveHead {1}Yrsin \"*Sigh*\" 3000 0 true",
+ "Thandael.Wednesday_2": "...#$action {0}TextAboveHead {1}Yrsin \"*Grumbles*\" 3000 0 true#$e#...$1#$action {0}DialogueBox {1}Yrsin \"Whatever you're thinking of, no.$5\"#$e#I didn't even say anything!$7#$action {0}DialogueBox {1}Yrsin \"You give out this click of your teeth when you're scheming something stupid.$9\"#$e#See! You are my best friend!$1#$b#You know all my quirks!$1#$action {0}TextAboveHead {1}Yrsin \"*Sigh*\" 3000 0 true",
+ "Thandael.Wednesday_3": "I... am zen...$8#$e#Nothing can fetter me...$8#$b#Noth--#$b#Is that a bug?!$5#$action {0}TextAboveHead {1}Yrsin \"*Grumbles*\" 3000 0 true",
  //2 heart
  "Thandael.Wednesday2_0": "",
  "Thandael.Wednesday2_1": "",

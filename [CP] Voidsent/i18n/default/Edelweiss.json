@@ -19,7 +19,7 @@
  "Edelweiss.Gifts.Neutral": "Useful for kindling, I suppose.$6",
 
  //gen dialogue
- "Edelweiss.breakUp": "...$6#$e#What, did you want some kind of fanfare?$3#$e#Mundanes come and go.$6#$action Spiderbuttons.BETAS_Message \"Edelweiss is ignoring you.\"",
+ "Edelweiss.breakUp": "...$6#$e#What, did you want some kind of fanfare?$3#$e#Mundanes come and go.$6#$action {0}Message \"Edelweiss is ignoring you.\"",
  "Edelweiss.divorced": "Much to my chagrin, seems I've followed in my father's footsteps.$6",
  "Edelweiss.DumpsterDiveComment": "...?$1",
  "Edelweiss.HitBySlingshot": "...A spy?#$action spacechase0.SpaceCore_DamageCurrentFarmer 50",
@@ -41,8 +41,8 @@
 
  //monday
  //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_
- "BETAS.Edelweiss.Monday_0": "Iron...$2#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Edelweiss \"Is there a way to heat it up without coal...\"",
- "BETAS.Edelweiss.Monday_1": "Phosphorite?$2#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Edelweiss \"I don't have a need for more fertilizers...\"",
+ "BETAS.Edelweiss.Monday_0": "Iron...$2#$action {0}TextAboveHead {1}Edelweiss \"Is there a way to heat it up without coal...\"",
+ "BETAS.Edelweiss.Monday_1": "Phosphorite?$2#$action {0}TextAboveHead {1}Edelweiss \"I don't have a need for more fertilizers...\"",
  "BETAS.Edelweiss.Monday_2": "",
  "BETAS.Edelweiss.Monday_3": "",
  //daily

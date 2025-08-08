@@ -19,7 +19,7 @@
  "Fothao.Gifts.Neutral": "",
 
  //gen dialogue
- "Fothao.breakUp": "#$action Spiderbuttons.BETAS_Message \"Fothao is ignoring you.\"",
+ "Fothao.breakUp": "#$action {0}Message \"Fothao is ignoring you.\"",
  "Fothao.divorced": "",
  "Fothao.DumpsterDiveComment": "",
  "Fothao.HitBySlingshot": "",

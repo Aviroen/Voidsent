@@ -19,10 +19,10 @@
  "BETAS.Avi.Tuesday_2": "The Boncher mod took a solid 54 minutes to make.",
  "BETAS.Avi.Tuesday_3": "Mothman took a good 48 hours to make.",
  //daily
- "Avi.Tuesday_0": "Over the course of the first year of work on Voidsent, I've gone through many transitions.#$b#Not actual physical transitions, mind you.#$b#I had created several different kinds of mods to expand my repertoire.#$b#Started art work projects that I never deemed possible before.#$b#Made a lot of good friends along the way.#$b#The friends you see around me, sans my husband, are just a few that have helped me and comforted me.#$b#Iro is still a -=() though.#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Iro \"♋︎⬥︎⬥︎⬥︎ ⧫︎♒︎♋︎⧫︎❼︎⬧︎ ⬧︎□︎ ♍︎◆︎⧫︎♏︎ ✋︎❼︎❍︎ ♑︎□︎♓︎■︎♑︎ ⧫︎□︎ ♌︎◆︎●︎●︎⍓︎ ⍓︎□︎◆︎ ♋︎♌︎□︎◆︎⧫︎ ⧫︎♒︎♓︎⬧︎ ♐︎□︎❒︎♏︎❖︎♏︎❒︎\"#$b#Yeah, yeah, shut up wingdings.$3",
+ "Avi.Tuesday_0": "Over the course of the first year of work on Voidsent, I've gone through many transitions.#$b#Not actual physical transitions, mind you.#$b#I had created several different kinds of mods to expand my repertoire.#$b#Started art work projects that I never deemed possible before.#$b#Made a lot of good friends along the way.#$b#The friends you see around me, sans my husband, are just a few that have helped me and comforted me.#$b#Iro is still a -=() though.#$action {0}DialogueBox {1}Iro \"♋︎⬥︎⬥︎⬥︎ ⧫︎♒︎♋︎⧫︎❼︎⬧︎ ⬧︎□︎ ♍︎◆︎⧫︎♏︎ ✋︎❼︎❍︎ ♑︎□︎♓︎■︎♑︎ ⧫︎□︎ ♌︎◆︎●︎●︎⍓︎ ⍓︎□︎◆︎ ♋︎♌︎□︎◆︎⧫︎ ⧫︎♒︎♓︎⬧︎ ♐︎□︎❒︎♏︎❖︎♏︎❒︎\"#$b#Yeah, yeah, shut up wingdings.$3",
  "Avi.Tuesday_1": "That isn't to say my other friends aren't -=()ters, they're just -=()ters in their own ways.",
  "Avi.Tuesday_2": "A collective of -=()s, I should make a new word for that...$2",
- "Avi.Tuesday_3": "Should I call it a -=()storm?$2#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Nox \"Why not a murder of -=()s?\"#$b#...?$3#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Iro \"✋︎⧫︎ ⬥︎♋︎⬧︎ ♌︎♏︎⧫︎⬥︎♏︎♏︎■︎ 😐︎♓︎⬧︎ □︎❒︎ ☠︎□︎⌧︎📪︎ ☠︎□︎⌧︎ ⬥︎□︎■︎📬︎\"",
+ "Avi.Tuesday_3": "Should I call it a -=()storm?$2#$action {0}DialogueBox {1}Nox \"Why not a murder of -=()s?\"#$b#...?$3#$action {0}DialogueBox {1}Iro \"✋︎⧫︎ ⬥︎♋︎⬧︎ ♌︎♏︎⧫︎⬥︎♏︎♏︎■︎ 😐︎♓︎⬧︎ □︎❒︎ ☠︎□︎⌧︎📪︎ ☠︎□︎⌧︎ ⬥︎□︎■︎📬︎\"",
 
  //wednesday
  //BETAS
@@ -33,7 +33,7 @@
  //daily
  "Avi.Wednesday_0": "There are some things I regret in life.#$b#That being The Mod That Shall Not Be Named.$3",
  "Avi.Wednesday_1": "Will I ever make an hour long event cutscene again?#$b#I don't know, do YOU want one?$3",
- "Avi.Wednesday_2": "...I'm hungry.#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Joh \"What do you want to eat?\"#$b#...I don't know.$3#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Joh \"...$1\"#$b#What?$3#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Joh \"...Nothing, love.$3\"",
+ "Avi.Wednesday_2": "...I'm hungry.#$action {0}DialogueBox {1}Joh \"What do you want to eat?\"#$b#...I don't know.$3#$action {0}DialogueBox {1}Joh \"...$1\"#$b#What?$3#$action {0}DialogueBox {1}Joh \"...Nothing, love.$3\"",
  "Avi.Wednesday_3": "In the end, all I am on this screen are a series of randomized pixels, numbers, and screaming.",
 
  //thursday

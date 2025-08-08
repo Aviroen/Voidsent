@@ -1,67 +1,39 @@
 {
  "Changes": [
-  { //load edel's house
-   "LogName": "Load Edel's Locations",
-   "Action": "Load",
-   "Priority": "Low",
-   "Target": "Maps/{{ModId}}_EdelweissHouse",
-   "FromFile": "Assets/Maps/Interiors/EdelweissHouse.tmx"
-  },
-  { //load edel's attic
-   "LogName": "Load Edel's Attic",
-   "Action": "Load",
-   "Priority": "Low",
-   "Target": "Maps/{{ModId}}_EdelweissAttic",
-   "FromFile": "Assets/Maps/Interiors/EdelweissAttic.tmx"
-  },
-  { //load edel's basement
-   "LogName": "Load Edel's Basement",
-   "Action": "Load",
-   "Priority": "Low",
-   "Target": "Maps/{{ModId}}_EdelweissBasement",
-   "FromFile": "Assets/Maps/Interiors/EdelweissBasement.tmx"
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "EdelweissHouse",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "12",
+    "YARRIVAL": "7",
+    "MUSIC": "Of Dwarves",
+    "AREA": "ArtificialBeach"
+   }
   },
   {
-   "LogName": "Edel's maps",
-   "Action": "EditData",
-   "Target": "Data/Locations",
-   "Entries": {
-    "{{ModId}}_EdelweissHouse": {
-     "DisplayName": "{{i18n:Edelweiss.Tower}}",
-     "DefaultArrivalTile": {
-      "X": 12,
-      "Y": 7
-     },
-     "CreateOnLoad": {
-      "MapPath": "Maps\\{{ModId}}_EdelweissHouse",
-      "AlwaysActive": false
-     },
-     "MusicDefault": "Of Dwarves"
-    },
-    "{{ModId}}_EdelweissAttic": {
-     "DisplayName": "{{i18n:Edelweiss.Attic}}",
-     "DefaultArrivalTile": {
-      "X": 2,
-      "Y": 8
-     },
-     "CreateOnLoad": {
-      "MapPath": "Maps\\{{ModId}}_EdelweissAttic",
-      "AlwaysActive": false
-     },
-     "MusicDefault": "Plums"
-    },
-    "{{ModId}}_EdelweissBasement": {
-     "DisplayName": "{{i18n:Edelweiss.Basement}}",
-     "DefaultArrivalTile": {
-      "X": 18,
-      "Y": 4
-     },
-     "CreateOnLoad": {
-      "MapPath": "Maps\\{{ModId}}_EdelweissBasement",
-      "AlwaysActive": false
-     },
-     "MusicDefault": "Plums"
-    }
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "EdelweissAttic",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "2",
+    "YARRIVAL": "8",
+    "MUSIC": "Plums",
+    "AREA": "ArtificialBeach"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "EdelweissBasement",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "18",
+    "YARRIVAL": "4",
+    "MUSIC": "Of Dwarves",
+    "AREA": "ArtificialBeach"
    }
   },
   {
@@ -171,7 +143,7 @@
      },
      "Layer": "Back",
      "SetProperties": {
-      "TouchAction": "MagicWarp {{Moor}} 8 17 {{ModId}}_MoorUnlock"
+      "TouchAction": "MagicWarp {{Morabyr}} 8 17 {{ModId}}_MoorUnlock"
      }
     },
     {
@@ -181,7 +153,7 @@
      },
      "Layer": "Back",
      "SetProperties": {
-      "TouchAction": "MagicWarp {{Commonwealth}} 8 17 {{ModId}}_CommonwealthUnlock"
+      "TouchAction": "MagicWarp {{Morabyr}} 8 17 {{ModId}}_CommonwealthUnlock"
      }
     },
     {

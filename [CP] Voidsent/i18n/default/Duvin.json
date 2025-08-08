@@ -19,7 +19,7 @@
  "Duvin.Gifts.Neutral": "",
 
  //gen dialogue
- "Duvin.breakUp": "#$action Spiderbuttons.BETAS_Message \"Duvin is ignoring you.\"",
+ "Duvin.breakUp": "#$action {0}Message \"Duvin is ignoring you.\"",
  "Duvin.divorced": "",
  "Duvin.DumpsterDiveComment": "",
  "Duvin.HitBySlingshot": "",

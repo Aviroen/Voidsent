@@ -7,9 +7,9 @@
  "BETAS.Tia.Monday_2": "I like my men soft and delicate and my women to be able to murder me with their bare hands.$2",
  "BETAS.Tia.Monday_3": "",
  //daily
- "Tia.Monday_0": "Plot is like Soylent Green, you know. It's made of people.#$B#The people are probably more edible, though.#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Nox \"Don't you mean less edible?\"#$b#No.$2",
- "Tia.Monday_1": "What is wrong with this character? They have all the structural integrity of jello tossed into a clothes press.$3#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Pau \"Tia, that's mean.\"#$b#...True, I should probably apologize to the jello.$2#$b#Honestly, this bit here is like they brought in a three-ring circus when all we asked for was a birthday clown.",
- "Tia.Monday_2": "You know, @, the nice thing about being a cat is that I can eat whatever bothers me.#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Avi \"You might have a problem with the humans.$3\"#$b#One bite at a time.$2",
+ "Tia.Monday_0": "Plot is like Soylent Green, you know. It's made of people.#$B#The people are probably more edible, though.#$action {0}DialogueBox {1}Nox \"Don't you mean less edible?\"#$b#No.$2",
+ "Tia.Monday_1": "What is wrong with this character? They have all the structural integrity of jello tossed into a clothes press.$3#$action {0}DialogueBox {1}Pau \"Tia, that's mean.\"#$b#...True, I should probably apologize to the jello.$2#$b#Honestly, this bit here is like they brought in a three-ring circus when all we asked for was a birthday clown.",
+ "Tia.Monday_2": "You know, @, the nice thing about being a cat is that I can eat whatever bothers me.#$action {0}DialogueBox {1}Avi \"You might have a problem with the humans.$3\"#$b#One bite at a time.$2",
  "Tia.Monday_3": "Okay, time to attack and dethrone God.$2#$b#Wait. Crap.$3#$b#I am once again posting in the wrong reality.$1",
 
  //tuesday
