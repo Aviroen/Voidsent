@@ -23,67 +23,67 @@
  "BETAS.Kis.Tuesday_3": "Additionally, dietary acrylamide is very unlikely to cause cancer in tias.",
  //daily
  "Kis.Tuesday_0": "Ages ago, I did a research on special snacks... where I had to make twenty -=()ing five samples in triplicate PLUS confirmation tests.#$b#They were good snacks, but they were too MANY of them, so I gave my taste-testers 'complimentary treats'.#$b#Even so, they keep piling up between testing... and at one point I was like... please... -=()ing take them. I can't stand seeing these snacks anymore.",
- "Kis.Tuesday_1": "",
- "Kis.Tuesday_2": "Unless you're Iro, baking is a science.#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Iro \"❄︎♒︎♋︎⧫︎ ♎︎□︎♏︎⬧︎ ⬧︎□︎◆︎■︎♎︎ ●︎♓︎🙵♏︎ ⬧︎□︎❍︎♏︎⧫︎♒︎♓︎■︎♑︎ ✋︎🕯︎♎︎ ⬧︎♋︎⍓︎ ♌︎◆︎⧫︎ ♋︎●︎⬧︎□︎ ♎︎□︎♏︎⬧︎■︎🕯︎⧫︎📬︎\"",
+ "Kis.Tuesday_1": "no dialogue",
+ "Kis.Tuesday_2": "Unless you're Iro, baking is a science.#$action {0}DialogueBox {1}Iro \"❄︎♒︎♋︎⧫︎ ♎︎□︎♏︎⬧︎ ⬧︎□︎◆︎■︎♎︎ ●︎♓︎🙵♏︎ ⬧︎□︎❍︎♏︎⧫︎♒︎♓︎■︎♑︎ ✋︎🕯︎♎︎ ⬧︎♋︎⍓︎ ♌︎◆︎⧫︎ ♋︎●︎⬧︎□︎ ♎︎□︎♏︎⬧︎■︎🕯︎⧫︎📬︎\"",
  "Kis.Tuesday_3": "Bread contains lots of sugars and amino acids.#$b#Which produce acrylamide when burnt.#$b#So that's bad, but it's not like you'll get instant mega cancer for eating one (1) piece of coal bread.",
 
  //wednesday
  //BETAS
- "BETAS.Kis.Wednesday_0": "",
- "BETAS.Kis.Wednesday_1": "",
- "BETAS.Kis.Wednesday_2": "",
- "BETAS.Kis.Wednesday_3": "",
+ "BETAS.Kis.Wednesday_0": "no dialogue",
+ "BETAS.Kis.Wednesday_1": "no dialogue",
+ "BETAS.Kis.Wednesday_2": "no dialogue",
+ "BETAS.Kis.Wednesday_3": "no dialogue",
  //daily
- "Kis.Wednesday_0": "",
- "Kis.Wednesday_1": "",
- "Kis.Wednesday_2": "",
- "Kis.Wednesday_3": "",
+ "Kis.Wednesday_0": "no dialogue",
+ "Kis.Wednesday_1": "no dialogue",
+ "Kis.Wednesday_2": "no dialogue",
+ "Kis.Wednesday_3": "no dialogue",
 
  //thursday
  //BETAS
- "BETAS.Kis.Thursday_0": "",
- "BETAS.Kis.Thursday_1": "",
- "BETAS.Kis.Thursday_2": "",
- "BETAS.Kis.Thursday_3": "",
+ "BETAS.Kis.Thursday_0": "no dialogue",
+ "BETAS.Kis.Thursday_1": "no dialogue",
+ "BETAS.Kis.Thursday_2": "no dialogue",
+ "BETAS.Kis.Thursday_3": "no dialogue",
  //daily
- "Kis.Thursday_0": "",
- "Kis.Thursday_1": "",
- "Kis.Thursday_2": "",
- "Kis.Thursday_3": "",
+ "Kis.Thursday_0": "no dialogue",
+ "Kis.Thursday_1": "no dialogue",
+ "Kis.Thursday_2": "no dialogue",
+ "Kis.Thursday_3": "no dialogue",
 
  //friday
  //BETAS
- "BETAS.Kis.Friday_0": "",
- "BETAS.Kis.Friday_1": "",
- "BETAS.Kis.Friday_2": "",
- "BETAS.Kis.Friday_3": "",
+ "BETAS.Kis.Friday_0": "no dialogue",
+ "BETAS.Kis.Friday_1": "no dialogue",
+ "BETAS.Kis.Friday_2": "no dialogue",
+ "BETAS.Kis.Friday_3": "no dialogue",
  //daily
- "Kis.Friday_0": "",
- "Kis.Friday_1": "",
- "Kis.Friday_2": "",
- "Kis.Friday_3": "",
+ "Kis.Friday_0": "no dialogue",
+ "Kis.Friday_1": "no dialogue",
+ "Kis.Friday_2": "no dialogue",
+ "Kis.Friday_3": "no dialogue",
 
  //saturday
  //BETAS
- "BETAS.Kis.Saturday_0": "",
- "BETAS.Kis.Saturday_1": "",
- "BETAS.Kis.Saturday_2": "",
- "BETAS.Kis.Saturday_3": "",
+ "BETAS.Kis.Saturday_0": "no dialogue",
+ "BETAS.Kis.Saturday_1": "no dialogue",
+ "BETAS.Kis.Saturday_2": "no dialogue",
+ "BETAS.Kis.Saturday_3": "no dialogue",
  //daily
- "Kis.Saturday_0": "",
- "Kis.Saturday_1": "",
- "Kis.Saturday_2": "",
- "Kis.Saturday_3": "",
+ "Kis.Saturday_0": "no dialogue",
+ "Kis.Saturday_1": "no dialogue",
+ "Kis.Saturday_2": "no dialogue",
+ "Kis.Saturday_3": "no dialogue",
 
  //sunday
  //BETAS
- "BETAS.Kis.Sunday_0": "",
- "BETAS.Kis.Sunday_1": "",
- "BETAS.Kis.Sunday_2": "",
- "BETAS.Kis.Sunday_3": "",
+ "BETAS.Kis.Sunday_0": "no dialogue",
+ "BETAS.Kis.Sunday_1": "no dialogue",
+ "BETAS.Kis.Sunday_2": "no dialogue",
+ "BETAS.Kis.Sunday_3": "no dialogue",
  //daily
- "Kis.Sunday_0": "",
- "Kis.Sunday_1": "",
- "Kis.Sunday_2": "",
+ "Kis.Sunday_0": "no dialogue",
+ "Kis.Sunday_1": "no dialogue",
+ "Kis.Sunday_2": "no dialogue",
  "Kis.Sunday_3": ""
 }

@@ -161,7 +161,7 @@
      "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
      "Condition": "ITEM_ID Target {{ModId}}_{{NUMBER}}{{TYPEOFPERSON}}, ITEM_STACK Target 1",
      "MarkActionApplied": false,
-     "Action": "Aviroen.Voidsent_RandomDialogue Aviroen.VoidsentCP {{ModId}}_{{NUMBER}}{{TYPEOFPERSON}} BETAS.{{TYPEOFPERSON}}.{{DayOfWeek}}_ {{Range:0,3}}"
+     "Action": "Spiderbuttons.BETAS_RandomAction \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NUMBER}}{{TYPEOFPERSON}} [LocalizedText {{ModId}}/NPCTranslations/Antisocials:BETAS.{{NUMBER}}{{TYPEOFPERSON}}.{{DayOfWeek}}_0 Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]\" \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NUMBER}}{{TYPEOFPERSON}} [LocalizedText {{ModId}}/NPCTranslations/Antisocials:BETAS.{{NUMBER}}{{TYPEOFPERSON}}.{{DayOfWeek}}_1 Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]\" \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NUMBER}}{{TYPEOFPERSON}} [LocalizedText {{ModId}}/NPCTranslations/Antisocials:BETAS.{{NUMBER}}{{TYPEOFPERSON}}.{{DayOfWeek}}_2 Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]\" \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NUMBER}}{{TYPEOFPERSON}} [LocalizedText {{ModId}}/NPCTranslations/Antisocials:BETAS.{{NUMBER}}{{TYPEOFPERSON}}.{{DayOfWeek}}_3 Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]\""
     }
    }
   },

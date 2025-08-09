@@ -27,6 +27,155 @@
     "59 59 {{Morabyr}} 127 3",
     "0 34 {{Grove}} 48 22"
    ]
+  },
+  //grandberg castle interior
+
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "Grandberg1",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "14",
+    "YARRIVAL": "29",
+    "MUSIC": "mermaidSong",
+    "AREA": "Grandberg"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "Grandberg2",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "14",
+    "YARRIVAL": "20",
+    "MUSIC": "mermaidSong",
+    "AREA": "Grandberg"
+   }
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_Grandberg1",
+   "MapProperties": {
+    "mushymato.MMAP_WaterColor": "Red",
+    "DayTiles": "AlwaysFront 9 14 907 AlwaysFront 11 8 907 AlwaysFront 18 8 907 AlwaysFront 20 14 907",
+    "NightTiles": "AlwaysFront 9 14 908 AlwaysFront 11 8 908 AlwaysFront 18 8 908 AlwaysFront 20 14 908"
+   },
+   "AddWarps": [
+    "14 29 {{CrimsonGrove}} 28 11",
+    "15 29 {{CrimsonGrove}} 29 11",
+    "13 0 {{ModId}}_Grandberg2 13 28",
+    "14 0 {{ModId}}_Grandberg2 16 28",
+    "15 0 {{ModId}}_Grandberg2 13 28",
+    "16 0 {{ModId}}_Grandberg2 13 28"
+   ]
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_Grandberg2",
+   "MapProperties": {
+    "mushymato.MMAP_WaterColor": "Red"
+   },
+   "AddWarps": [
+    "13 29 {{ModId}}_Grandberg1 10 4",
+    "14 29 {{ModId}}_Grandberg1 10 4",
+    "15 29 {{ModId}}_Grandberg1 19 4",
+    "16 29 {{ModId}}_Grandberg1 19 4"
+   ]
+  },
+  //blacksmithy / duvin's room
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "GMBlacksmithy",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "5",
+    "YARRIVAL": "11",
+    "MUSIC": "mermaidSong",
+    "AREA": "CrimsonGrove"
+   }
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_GMBlacksmithy",
+   "MapProperties": {
+    "AmbientLight": "255 255 255",
+    "NPCWarp": "12 7 {{ModId}}_WarpNetwork 1 0",
+    "PassOutSafe": "T"
+   },
+   "AddWarps": [
+    //"8 19 {{Commonwealth}}"
+    //"9 19 {{Commonwealth}}"
+    //"10 19 {{Commonwealth}}"
+    //"11 19 {{Commonwealth}}"
+   ],
+   "MapTiles": [
+   ]
+  },
+  //fothao's room
+
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "Menagerie",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "10",
+    "YARRIVAL": "6",
+    "MUSIC": "mermaidSong",
+    "AREA": "CrimsonGrove"
+   }
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_Menagerie",
+   "MapProperties": {
+    "AmbientLight": "255 255 255",
+    "NPCWarp": "3 21 {{ModId}}_WarpNetwork 1 0",
+    "Doors": "10 3 0 0",
+    "PassOutSafe": "T"
+   },
+   "AddWarps": [
+    //"8 19 {{Commonwealth}}"
+    //"9 19 {{Commonwealth}}"
+    //"10 19 {{Commonwealth}}"
+    //"11 19 {{Commonwealth}}"
+   ],
+   "MapTiles": [
+    {
+     "Position": {
+      "X": 10,
+      "Y": 3
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "ConditionalDoor PLAYER_HAS_MAIL Current {{Fothao}}_DoorOpen",
+      "EMA_CustomDoor": "{{ModId}}_AviBrownDoor"
+     }
+    },
+    {
+     "Position": {
+      "X": 15,
+      "Y": 22
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "mushymato.MMAP_QuestionDialogue {{ModId}}_Pictures"
+     }
+    },
+    {
+     "Position": {
+      "X": 16,
+      "Y": 22
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "mushymato.MMAP_QuestionDialogue {{ModId}}_Pictures1"
+     }
+    }
+   ]
   }
  ]
 }

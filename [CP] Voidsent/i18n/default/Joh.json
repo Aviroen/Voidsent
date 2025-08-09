@@ -5,85 +5,85 @@
 
  //monday
  //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_
- "BETAS.Joh.Monday_0": "#$action Spiderbuttons.BETAS_Message \"Joh is playing Dota2.\"",
- "BETAS.Joh.Monday_1": "#$action Spiderbuttons.BETAS_Message \"Joh is playing Guilty Gear:Strive.\"",
- "BETAS.Joh.Monday_2": "#$action Spiderbuttons.BETAS_Message \"Joh is ignoring you.\"",
- "BETAS.Joh.Monday_3": "#$action Spiderbuttons.BETAS_Message \"Joh is playing Tekken 8.\"",
+ "BETAS.Joh.Monday_0": "#$action {0}Message \"Joh is playing Dota2.\"",
+ "BETAS.Joh.Monday_1": "#$action {0}Message \"Joh is playing Guilty Gear:Strive.\"",
+ "BETAS.Joh.Monday_2": "#$action {0}Message \"Joh is ignoring you.\"",
+ "BETAS.Joh.Monday_3": "#$action {0}Message \"Joh is playing Tekken 8.\"",
  //daily
- "Joh.Monday_0": "My wife is a little crazy sometimes, but I love them.#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Avi \"You think I'm only a little crazy?$3\"#$b#...Okay... Very crazy.",
- "Joh.Monday_1": "I am closer to a state of death than life.#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Avi \"Wish that were me.\"#$b#You're closer to a state of perpetual stupidity.#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Avi \"That would imply that I have times where I'm not an idiot.\"",
- "Joh.Monday_2": "...#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Avi \"Babe, what should I name the wi-fi?$1\"#$b#...$2#$b#...Thugshaker.#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Avi \"...Really?$3\"#$b#Yes.$2#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Avi \"*Sigh*\"#$b#...$1#$action Spiderbuttons.BETAS_Message \"The cats' wifi was renamed to 'Thugshaker'.\"#$b#...Perfect.#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Iro \"⧫︎⬥︎□︎ ♑︎❒︎□︎⬥︎■︎ ♋︎♎︎◆︎●︎⧫︎⬧︎ ♋︎■︎♎︎ ■︎□︎⧫︎ ♋︎ ⬧︎◻︎♏︎♍︎ □︎♐︎ ♓︎❍︎◻︎◆︎●︎⬧︎♏︎ ♓︎■︎♒︎♓︎♌︎♓︎⧫︎♓︎□︎■︎ ♓︎■︎ ⬧︎♓︎♑︎♒︎⧫︎$3\"",
+ "Joh.Monday_0": "My wife is a little crazy sometimes, but I love them.#$action {0}DialogueBox {1}Placeholder \"You think I'm only a little crazy?$3\" Portraits/{1}Avi Avi#$b#...Okay... Very crazy.",
+ "Joh.Monday_1": "I am closer to a state of death than life.#$action {0}DialogueBox {1}Placeholder \"Wish that were me.\" Portraits/{1}Avi Avi#$b#You're closer to a state of perpetual stupidity.#$action {0}DialogueBox {1}Placeholder \"That would imply that I have times where I'm not an idiot.\" Portraits/{1}Avi Avi",
+ "Joh.Monday_2": "...#$action {0}DialogueBox {1}Placeholder \"Babe, what should I name the wi-fi?$1\" Portraits/{1}Avi Avi#$b#...$2#$b#...Thugshaker.#$action {0}DialogueBox {1}Placeholder \"...Really?$3\" Portraits/{1}Avi Avi#$b#Yes.$2#$action {0}TextAboveHead {1}Avi \"*Sigh*\" Portraits/{1}Avi Avi#$b#...$1#$action {0}Message \"The cats' wifi was renamed to 'Thugshaker'.\"#$b#...Perfect.#$action {0}DialogueBox {1}Placeholder \"⧫︎⬥︎□︎ ♑︎❒︎□︎⬥︎■︎ ♋︎♎︎◆︎●︎⧫︎⬧︎ ♋︎■︎♎︎ ■︎□︎⧫︎ ♋︎ ⬧︎◻︎♏︎♍︎ □︎♐︎ ♓︎❍︎◻︎◆︎●︎⬧︎♏︎ ♓︎■︎♒︎♓︎♌︎♓︎⧫︎♓︎□︎■︎ ♓︎■︎ ⬧︎♓︎♑︎♒︎⧫︎$3\" Portraits/{1}Iro Iro",
  "Joh.Monday_3": "Do I know you?$3",
 
  //tuesday
  //BETAS
- "BETAS.Joh.Tuesday_0": "#$action Spiderbuttons.BETAS_Message \"Joh is playing Street Fighter 6.\"",
- "BETAS.Joh.Tuesday_1": "#$action Spiderbuttons.BETAS_Message \"Joh is playing Total War: Warhammer 3.\"",
- "BETAS.Joh.Tuesday_2": "#$action Spiderbuttons.BETAS_Message \"Joh is playing Rainbow Six: Siege.\"",
- "BETAS.Joh.Tuesday_3": "#$action Spiderbuttons.BETAS_Message \"Joh is ignoring you.\"",
+ "BETAS.Joh.Tuesday_0": "#$action {0}Message \"Joh is playing Street Fighter 6.\"",
+ "BETAS.Joh.Tuesday_1": "#$action {0}Message \"Joh is playing Total War: Warhammer 3.\"",
+ "BETAS.Joh.Tuesday_2": "#$action {0}Message \"Joh is playing Rainbow Six: Siege.\"",
+ "BETAS.Joh.Tuesday_3": "#$action {0}Message \"Joh is ignoring you.\"",
  //daily
- "Joh.Tuesday_0": "...#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Joh \"*Brrt*\"#$b#...$1#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Avi \"...$3\"#$b#Don't give me that look.$2#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Avi \"If it barks like a duck--$3\"#$b#Sounds like a duck...$3#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Avi \"Then it was your butt.$3\"#$b#It wasn't.$3",
+ "Joh.Tuesday_0": "...#$action {0}TextAboveHead {1}Joh \"*Brrt*\"#$b#...$1#$action {0}DialogueBox {1}Placeholder \"...$3\" Portraits/{1}Avi Avi#$b#Don't give me that look.$2#$action {0}DialogueBox {1}Placeholder \"If it barks like a duck--$3\" Portraits/{1}Avi Avi#$b#Sounds like a duck...$3#$action {0}DialogueBox {1}Placeholder \"Then it was your butt.$3\" Portraits/{1}Avi Avi#$b#It wasn't.$3",
  "Joh.Tuesday_1": "...Do you mind...?$3",
- "Joh.Tuesday_2": "...$2#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Avi \"*Typing noises*\"#$b#...$2#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Avi \"*Giggle*\"#$b#...$2#$action Spiderbuttons.BETAS_DialogueBox Aviroen.VoidsentCP_Avi \"What?$1\"#$b#Nothing, I can't watch my wife work?$2#$action Spiderbuttons.BETAS_TextAboveHead Aviroen.VoidsentCP_Avi \"*Brrt*\"",
- "Joh.Tuesday_3": "",
+ "Joh.Tuesday_2": "...$2#$action {0}TextAboveHead {1}Avi \"*Typing noises*\"#$b#...$2#$action {0}TextAboveHead {1}Avi \"*Giggle*\"#$b#...$2#$action {0}DialogueBox {1}Placeholder \"What?$1\" Portraits/{1}Avi Avi#$b#Nothing, I can't watch my wife work?$2#$action {0}EmoteNpc {1}Avi 60",
+ "Joh.Tuesday_3": "no dialogue",
 
  //wednesday
  //BETAS
- "BETAS.Joh.Wednesday_0": "#$action Spiderbuttons.BETAS_Message \"Joh is playing Elden Ring: Nightreign.\"",
- "BETAS.Joh.Wednesday_1": "#$action Spiderbuttons.BETAS_Message \"Joh is ignoring you.\"",
- "BETAS.Joh.Wednesday_2": "#$action Spiderbuttons.BETAS_Message \"Joh is playing Dynasty Warriors 8.\"",
- "BETAS.Joh.Wednesday_3": "#$action Spiderbuttons.BETAS_Message \"Joh is playing Demonologist.\"",
+ "BETAS.Joh.Wednesday_0": "#$action {0}Message \"Joh is playing Elden Ring: Nightreign.\"",
+ "BETAS.Joh.Wednesday_1": "#$action {0}Message \"Joh is ignoring you.\"",
+ "BETAS.Joh.Wednesday_2": "#$action {0}Message \"Joh is playing Dynasty Warriors 8.\"",
+ "BETAS.Joh.Wednesday_3": "#$action {0}Message \"Joh is playing Demonologist.\"",
  //daily
- "Joh.Wednesday_0": "",
- "Joh.Wednesday_1": "",
- "Joh.Wednesday_2": "",
- "Joh.Wednesday_3": "",
+ "Joh.Wednesday_0": "no dialogue",
+ "Joh.Wednesday_1": "no dialogue",
+ "Joh.Wednesday_2": "no dialogue",
+ "Joh.Wednesday_3": "no dialogue",
 
  //thursday
  //BETAS
- "BETAS.Joh.Thursday_0": "#$action Spiderbuttons.BETAS_Message \"Joh is playing Dragon Ball FighterZ.\"",
- "BETAS.Joh.Thursday_1": "#$action Spiderbuttons.BETAS_Message \"Joh is ignoring you.\"",
- "BETAS.Joh.Thursday_2": "#$action Spiderbuttons.BETAS_Message \"Joh is playing Dragon Ball:Sparking! Zero.\"",
- "BETAS.Joh.Thursday_3": "#$action Spiderbuttons.BETAS_Message \"Joh is playing Final Fantasy XIV.\"",
+ "BETAS.Joh.Thursday_0": "#$action {0}Message \"Joh is playing Dragon Ball FighterZ.\"",
+ "BETAS.Joh.Thursday_1": "#$action {0}Message \"Joh is ignoring you.\"",
+ "BETAS.Joh.Thursday_2": "#$action {0}Message \"Joh is playing Dragon Ball:Sparking! Zero.\"",
+ "BETAS.Joh.Thursday_3": "#$action {0}Message \"Joh is playing Final Fantasy XIV.\"",
  //daily
- "Joh.Thursday_0": "",
- "Joh.Thursday_1": "",
- "Joh.Thursday_2": "",
- "Joh.Thursday_3": "",
+ "Joh.Thursday_0": "no dialogue",
+ "Joh.Thursday_1": "no dialogue",
+ "Joh.Thursday_2": "no dialogue",
+ "Joh.Thursday_3": "no dialogue",
 
  //friday
  //BETAS
- "BETAS.Joh.Friday_0": "#$action Spiderbuttons.BETAS_Message \"Joh is ignoring you.\"",
- "BETAS.Joh.Friday_1": "#$action Spiderbuttons.BETAS_Message \"Joh is playing Dead By Daylight.\"",
- "BETAS.Joh.Friday_2": "#$action Spiderbuttons.BETAS_Message \"Joh is playing Dark Souls.\"",
- "BETAS.Joh.Friday_3": "#$action Spiderbuttons.BETAS_Message \"Joh is playing Dark Souls II.\"",
+ "BETAS.Joh.Friday_0": "#$action {0}Message \"Joh is ignoring you.\"",
+ "BETAS.Joh.Friday_1": "#$action {0}Message \"Joh is playing Dead By Daylight.\"",
+ "BETAS.Joh.Friday_2": "#$action {0}Message \"Joh is playing Dark Souls.\"",
+ "BETAS.Joh.Friday_3": "#$action {0}Message \"Joh is playing Dark Souls II.\"",
  //daily
- "Joh.Friday_0": "",
- "Joh.Friday_1": "",
- "Joh.Friday_2": "",
- "Joh.Friday_3": "",
+ "Joh.Friday_0": "no dialogue",
+ "Joh.Friday_1": "no dialogue",
+ "Joh.Friday_2": "no dialogue",
+ "Joh.Friday_3": "no dialogue",
 
  //saturday
  //BETAS
- "BETAS.Joh.Saturday_0": "#$action Spiderbuttons.BETAS_Message \"Joh is playing Dark Souls III.\"",
- "BETAS.Joh.Saturday_1": "#$action Spiderbuttons.BETAS_Message \"Joh is playing Helldivers 2.\"",
- "BETAS.Joh.Saturday_2": "#$action Spiderbuttons.BETAS_Message \"Joh is playing Marvel Rivals.\"",
- "BETAS.Joh.Saturday_3": "#$action Spiderbuttons.BETAS_Message \"Joh is playing Mortal Kombat 11.\"",
+ "BETAS.Joh.Saturday_0": "#$action {0}Message \"Joh is playing Dark Souls III.\"",
+ "BETAS.Joh.Saturday_1": "#$action {0}Message \"Joh is playing Helldivers 2.\"",
+ "BETAS.Joh.Saturday_2": "#$action {0}Message \"Joh is playing Marvel Rivals.\"",
+ "BETAS.Joh.Saturday_3": "#$action {0}Message \"Joh is playing Mortal Kombat 11.\"",
  //daily
- "Joh.Saturday_0": "",
- "Joh.Saturday_1": "",
- "Joh.Saturday_2": "",
- "Joh.Saturday_3": "",
+ "Joh.Saturday_0": "no dialogue",
+ "Joh.Saturday_1": "no dialogue",
+ "Joh.Saturday_2": "no dialogue",
+ "Joh.Saturday_3": "no dialogue",
 
  //sunday
  //BETAS
- "BETAS.Joh.Sunday_0": "#$action Spiderbuttons.BETAS_Message \"Joh is ignoring you.\"",
- "BETAS.Joh.Sunday_1": "#$action Spiderbuttons.BETAS_Message \"Joh is playing Path of Exile 2.\"",
- "BETAS.Joh.Sunday_2": "#$action Spiderbuttons.BETAS_Message \"Joh is playing Ravenswatch.\"",
- "BETAS.Joh.Sunday_3": "#$action Spiderbuttons.BETAS_Message \"Joh is playing Ready or Not.\"",
+ "BETAS.Joh.Sunday_0": "#$action {0}Message \"Joh is ignoring you.\"",
+ "BETAS.Joh.Sunday_1": "#$action {0}Message \"Joh is playing Path of Exile 2.\"",
+ "BETAS.Joh.Sunday_2": "#$action {0}Message \"Joh is playing Ravenswatch.\"",
+ "BETAS.Joh.Sunday_3": "#$action {0}Message \"Joh is playing Ready or Not.\"",
  //daily
- "Joh.Sunday_0": "",
- "Joh.Sunday_1": "",
- "Joh.Sunday_2": "",
+ "Joh.Sunday_0": "no dialogue",
+ "Joh.Sunday_1": "no dialogue",
+ "Joh.Sunday_2": "no dialogue",
  "Joh.Sunday_3": ""
 }

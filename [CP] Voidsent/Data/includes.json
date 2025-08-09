@@ -3,20 +3,26 @@
   //loads
   {
    "Action": "Load",
-   "Target": "Mods/{{ModId}}/Objects",
-   "FromFile": "Assets/Objects/Objects.png"
+   "Target": "{{ModId}}/Objects",
+   "FromFile": "Assets/Tilesheets/Objects.png"
   },
   {
    "Action": "Load",
    "Priority": "Low",
-   "Target": "Mods/{{ModId}}/Sharks",
+   "Target": "{{ModId}}/Sharks",
    "FromFile": "Assets/Animals/Pau_Sharks.png"
   },
   {
    "Action": "Load",
    "Priority": "Low",
-   "Target": "Mods/{{ModId}}/AnimalShop",
+   "Target": "{{ModId}}/AnimalShop",
    "FromFile": "Assets/Animals/AnimalShop.png"
+  },
+  {
+   "Action": "Load",
+   "Priority": "Low",
+   "Target": "{{ModId}}/LetterBG",
+   "FromFile": "Assets/TileSheets/letterBG.png"
   },
   {
    "Action": "Load",
@@ -43,12 +49,6 @@
    "Target": "{{ModId}}/NPCTranslations/Antisocials"
   },
   {
-   "Action": "Load",
-   "FromFile": "Assets/TileSheets/{{ModId}}_letterBG.png",
-   "Priority": "Low",
-   "Target": "{{ModId}}/LetterBG"
-  },
-  {
    "Action": "EditData",
    "When": {
     "HasMod": "shekurika.EventLookup"
@@ -66,7 +66,7 @@
    }
   },
   {
-   "LogName": "Load the tree drawn by AirynS",
+   "LogName": "Load the custom Tilesheets, trees done by AirynS, buildings template from Lumisteria",
    "Action": "Load",
    "Target": "Maps/{{ModId}}_Tilesheets",
    "FromFile": "Assets/Tilesheets/{{ModId}}_Tilesheets.png"
@@ -86,15 +86,17 @@
    "FromFile": "Data/Locations/Other/Accessibility.json"
   },
   {
-   "LogName": "Exterior Locations Include",
+   "LogName": "Locations Include",
    "Action": "Include",
    "FromFile": "Data/Locations/ArtificialBeach/ArtificialBeach.json, Data/Locations/CrimsonGrove/CrimsonGrove.json, Data/Locations/Grove/Grove.json, Data/Locations/Morabyr/Morabyr.json"
   },
+  /*
   {
    "LogName": "Interior Locations Include",
    "Action": "Include",
    "FromFile": "Data/Locations/ArtificialBeach/Edelweiss.json, Data/Locations/Morabyr/BreakfastInnBed.json, Data/Locations/Moor/JustOneBite.json, Data/Locations/CrimsonGrove/Grandberg.json, Data/Locations/Commonwealth/Donnlos.json, Data/Locations/Morabyr/Cichlidian.json, Data/Locations/Morabyr/Codfather.json, Data/Locations/Commonwealth/GrandMinistry.json, Data/Locations/CrimsonGrove/GMBlacksmithy.json, Data/Locations/CrimsonGrove/Menagerie.json, Data/Locations/Grove/Shack.json"
   },
+  */
   {
    "LogName": "Other Locations Include",
    "Action": "Include",
@@ -103,14 +105,14 @@
   {
    "LogName": "CHAOS BEGIN",
    "Action": "Include",
-   "FromFile": "Data/NPCData/Base/Antisocials.json, Data/NPCData/Base/Duvin.json, Data/NPCData/Base/Edelweiss.json, Data/NPCData/Base/Fothao.json, Data/NPCData/Base/Lysella.json, Data/NPCData/Base/Muvi.json, Data/NPCData/Base/Thandael.json, Data/NPCData/Base/Yrsin.json, Data/NPCData/Base/Trinity.json, Data/NPCData/Base/Sai.json, Data/NPCData/Base/Thetlin.json, Data/NPCData/Base/Vorgar.json, Data/NPCData/Base/Yrrek.json, Data/NPCData/Base/Yrnal.json"
+   "FromFile": "Data/NPCData/Base/Antisocials.json, Data/NPCData/Base/Duvin.json, Data/NPCData/Base/Edelweiss.json, Data/NPCData/Base/Fothao.json, Data/NPCData/Base/Konryn.json, Data/NPCData/Base/Lysella.json, Data/NPCData/Base/Muvi.json, Data/NPCData/Base/Sai.json, Data/NPCData/Base/Thandael.json, Data/NPCData/Base/Thetlin.json, Data/NPCData/Base/Trinity.json, Data/NPCData/Base/Vorgar.json, Data/NPCData/Base/Yrnal.json, Data/NPCData/Base/Yrrek.json, Data/NPCData/Base/Yrsin.json"
   },
   {
    "LogName": "Data Include",
    "Action": "Include",
    "FromFile": "Data/Other/Animals.json, Data/Other/Craftables.json, Data/Other/EMA.json, Data/Other/Fish.json, Data/Other/LocContext.json, Data/Other/Mail.json, Data/Other/MMAP.json, Data/Other/Shops.json, Data/Other/SpaceCore.json, Data/Other/SpecialOrders.json, Data/Other/Spiderbuttons.json, Data/Other/Strings.json, Data/Other/TriggerActions.json, Data/Other/GarbageCans.json"
   }
-/*
+  /*
   {
    "LogName": "Spouseroom Load",
    "Action": "Load",

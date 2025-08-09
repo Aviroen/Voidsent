@@ -123,7 +123,7 @@
      "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
      "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, ITEM_STACK Target 1",
      "MarkActionApplied": false,
-     "Action": "Aviroen.Voidsent_RandomDialogue Aviroen.VoidsentCP {{ModId}}_{{NPCNAME}} BETAS.{{NPCNAME}}.{{DayOfWeek}}_ {{Range:0,3}}"
+     "Action": "Spiderbuttons.BETAS_RandomAction \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:BETAS.{{NPCNAME}}.{{DayOfWeek}}_0 Spiderbuttons.BETAS_ Aviroen.VoidsentCP_ $0]\" \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:BETAS.{{NPCNAME}}.{{DayOfWeek}}_0 Spiderbuttons.BETAS_ Aviroen.VoidsentCP_ $0]\" \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:BETAS.{{NPCNAME}}.{{DayOfWeek}}_2 Spiderbuttons.BETAS_ Aviroen.VoidsentCP_ $0]\" \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:BETAS.{{NPCNAME}}.{{DayOfWeek}}_3 Spiderbuttons.BETAS_ Aviroen.VoidsentCP_ $0]\""
     }
    }
   },
@@ -152,7 +152,7 @@
    "Action": "EditData",
    "Target": "Characters/Dialogue/{{ModId}}_{{NPCNAME}}",
    "Entries": {
-    "{{WeekDay}}": "{{i18n:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, 3}}}}}}"
+    "{{WeekDay}}": "[LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, 3}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]"
    }
   },
   {
