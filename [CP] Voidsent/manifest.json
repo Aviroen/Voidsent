@@ -8,12 +8,10 @@
   "UniqueID": "Pathoschild.ContentPatcher"
  },
  "Dependencies": [
-/*
   {
    "UniqueID": "Aviroen.Voidsent",
    "IsRequired": true
   },
- */
   {
    "UniqueID": "Aviroen.VoidsentFTM",
    "IsRequired": true

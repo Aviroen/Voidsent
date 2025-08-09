@@ -2,14 +2,14 @@
  "Iro": "Iro",
  //monday https://lingojam.com/WingdingsTranslator
  //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_
- "BETAS.Iro.Monday_0": "✋︎ ♋︎❍︎ ■︎□︎⧫︎ ◻︎❒︎♏︎⧫︎♏︎■︎⧫︎♓︎□︎◆︎⬧︎📪︎ ✋︎ ♋︎❍︎ ☯︎☸︎.#$action {0}DialogueBox {1}Nox \"I dOn'T kNoW eVeRyThInG. I dOn'T kNoW aNyThiNg.$3\"#$b#❄︎♒︎♓︎⬧︎ ♓︎⬧︎ ♐︎◆︎■︎■︎⍓︎ ⧫︎□︎ ⍓︎□︎◆︎ ☠︎□︎⌧︎✍︎ ✌︎ ☯︎☸︎ ♓︎⬧︎ ☯︎☸︎ ♋︎■︎♎︎ ⍓︎□︎◆︎🕯︎❒︎♏︎ ●︎♋︎◆︎♑︎♒︎♓︎■︎♑︎📬︎$3",
+ "BETAS.Iro.Monday_0": "✋︎ ♋︎❍︎ ■︎□︎⧫︎ ◻︎❒︎♏︎⧫︎♏︎■︎⧫︎♓︎□︎◆︎⬧︎📪︎ ✋︎ ♋︎❍︎ ☯︎☸︎.#$action {0}DialogueBox {1}Placeholder \"I dOn'T kNoW eVeRyThInG. I dOn'T kNoW aNyThiNg.$3\" Portraits/{1}Nox Nox#$b#❄︎♒︎♓︎⬧︎ ♓︎⬧︎ ♐︎◆︎■︎■︎⍓︎ ⧫︎□︎ ⍓︎□︎◆︎ ☠︎□︎⌧︎✍︎ ✌︎ ☯︎☸︎ ♓︎⬧︎ ☯︎☸︎ ♋︎■︎♎︎ ⍓︎□︎◆︎🕯︎❒︎♏︎ ●︎♋︎◆︎♑︎♒︎♓︎■︎♑︎📬︎$3",
  "BETAS.Iro.Monday_1": "🕈︎♒︎⍓︎ ♋︎❒︎♏︎ ⍓︎□︎◆︎ ⧫︎♋︎●︎🙵♓︎■︎♑︎ ⧫︎□︎ ❍︎♏︎",
  "BETAS.Iro.Monday_2": "❄︎♒︎□︎◆︎♑︎♒︎⧫︎ ♓︎⧫︎ ⬥︎□︎◆︎●︎♎︎ ♌︎♏︎ ⧫︎♒︎♋︎⧫︎ ♏♋⬧︎⍓︎✍︎ ✡︎□︎◆︎❼︎❖︎♏︎ □︎■︎●︎⍓︎ 🙰◆︎⬧︎⧫︎ ⬧︎♍︎❒︎♋⧫♍♒︎♏♎ ⧫︎♒︎♏︎ ⬧︎◆︎❒︎♐︎♋︎♍︎♏︎📬︎ 💧︎□︎⬥︎ 🙰□︎❒︎♏︎❖ ⍓♏︎⬥︎✍ ☼︎♏︎⌘︎♏︎⌘︎🙰♏︎❒︎📪︎ ⬥︎🙵♏︎ ♍︎◆︎♓︎♑︎■︎ 🙰❒︎□︎♌⬧︎ ❖︎□︎⌧︎ ⬥︎🙵♋︎⬥︎ ❖︎□︎♏︎♒︎⬧︎🕯︎⬥︎ ⧫︎◆︎⌘︎❑︎ □︎♎︎♏❒ ●︎♋︎♐︎⍓ ◻︎□❍︎♏︎♒︎ ♓︎♒︎ ◻︎□︎◆︎❒︎⬥︎♏︎♏︎⬧︎ ◻︎❒□⌘ ⬥︎🙵♏︎ ■︎♏︎⍓︎📬︎ ✈︎⌧︎◻︎⬧︎🙵❒︎🙰♋︎✏︎ 👍︎♍︎□︎ ♌︎♏︎♐︎ ◆︎♏︎●︎♏︎♎︎ ♑❒♑︎♐︎●●︎●︎ ♌︎♏︎♐︎🙵 ⍓︎⌘︎⌧︎❑︎✍︎",
- "BETAS.Iro.Monday_3": "",
+ "BETAS.Iro.Monday_3": "no dialogue",
  //daily
  "Iro.Monday_0": "👎︎□︎ ◻︎❒︎♓︎❖︎♋︎⧫︎♏︎ ⬧︎♍︎♒︎□︎□︎●︎⬧︎ ♑︎□︎ ♌︎⍓︎ ♐︎♋︎■︎♍︎⍓︎ ◻︎♏︎❒︎⬧︎□︎■︎♋︎●︎♓︎⌘︎♏︎♎︎ ♌︎◆︎⬧︎♏︎⬧︎✍︎",
  "Iro.Monday_1": "👎︎□︎ ⍓︎□︎◆︎ ♏︎❖︎♏︎❒︎ 🙰◆︎⬧︎⧫︎📬︎📬︎📬︎$3#$b#-=()-=()-=()-=()-=()$3#$action {0}WarpNpc {1}Iro {{ModId}}_Donnlos 3 5 2",
- "Iro.Monday_2": "☠︎□︎ □︎■︎♏︎ ♒︎♋︎⬧︎ ⧫︎□︎●︎♎︎ 😐︎♓︎⬧︎ ⧫︎♒︎♋︎⧫︎ ■︎□︎⧫︎ ♋︎●︎●︎ ♐︎♋︎❒︎❍︎♓︎■︎♑︎ ♑︎♋︎❍︎♏︎⬧︎ ♋︎❒︎♏︎ 🕯︎♐︎♋︎❒︎❍︎ ♎︎♏︎♍︎□︎❒︎♋︎⧫︎♓︎■︎♑︎ ⬧︎♓︎❍︎◆︎●︎♋︎⧫︎□︎❒︎⬧︎🕯︎📬︎#$action {0}DialogueBox {1}Kis \"I'll take that as a compliment.\"",
+ "Iro.Monday_2": "☠︎□︎ □︎■︎♏︎ ♒︎♋︎⬧︎ ⧫︎□︎●︎♎︎ 😐︎♓︎⬧︎ ⧫︎♒︎♋︎⧫︎ ■︎□︎⧫︎ ♋︎●︎●︎ ♐︎♋︎❒︎❍︎♓︎■︎♑︎ ♑︎♋︎❍︎♏︎⬧︎ ♋︎❒︎♏︎ 🕯︎♐︎♋︎❒︎❍︎ ♎︎♏︎♍︎□︎❒︎♋︎⧫︎♓︎■︎♑︎ ⬧︎♓︎❍︎◆︎●︎♋︎⧫︎□︎❒︎⬧︎🕯︎📬︎#$action {0}DialogueBox {1}Placeholder \"I'll take that as a compliment.\" Portraits/{1}Kis Kis",
  "Iro.Monday_3": "✋︎ ♎︎□︎■︎🕯︎⧫︎ 🙵■︎□︎⬥︎ ♋︎■︎⍓︎⧫︎♒︎♓︎■︎♑︎",
 
  //tuesday
@@ -38,49 +38,49 @@
 
  //thursday
  //BETAS
- "BETAS.Iro.Thursday_0": "",
- "BETAS.Iro.Thursday_1": "",
- "BETAS.Iro.Thursday_2": "",
- "BETAS.Iro.Thursday_3": "",
+ "BETAS.Iro.Thursday_0": "no dialogue",
+ "BETAS.Iro.Thursday_1": "no dialogue",
+ "BETAS.Iro.Thursday_2": "no dialogue",
+ "BETAS.Iro.Thursday_3": "no dialogue",
  //daily
  "Iro.Thursday_0": "⧫︎♒︎♓︎⬧︎ ♎︎□︎♑︎ ♓︎⬧︎ ⧫︎♒︎♏︎ ●︎♓︎❖︎♓︎■︎♑︎ ♏︎❍︎♌︎□︎♎︎♓︎❍︎♏︎■︎⧫︎ □︎♐︎ ♌︎♏︎♋︎♑︎●︎♏︎⬧︎ □︎■︎●︎⍓︎ ⬧︎♒︎♏︎♎︎♎︎♓︎■︎♑︎ ⧫︎⬥︎♓︎♍︎♏︎ ♋︎ ⍓︎♏︎♋︎❒︎📪︎ ☺︎♋︎■︎◆︎♋︎❒︎⍓︎📫︎☺︎◆︎■︎♏︎ ♋︎■︎♎︎ ☺︎◆︎●︎⍓︎📫︎👎︎♏︎♍︎♏︎❍︎♌︎♏︎❒︎",
  "Iro.Thursday_1": "♌︎♏︎♋︎♑︎●︎♏︎ ⧫︎♋︎⌧︎",
  "Iro.Thursday_2": "⧫︎♒︎♏︎ ●︎♓︎♐︎♏︎ □︎♐︎ ♋︎ ♌︎♏︎♋︎♑︎●︎♏︎ ♓︎⬧︎ ⬧︎□︎ ♎︎♓︎♐︎♐︎♓︎♍︎◆︎●︎⧫︎",
- "Iro.Thursday_3": "",
+ "Iro.Thursday_3": "no dialogue",
 
  //friday
  //BETAS
- "BETAS.Iro.Friday_0": "",
- "BETAS.Iro.Friday_1": "",
- "BETAS.Iro.Friday_2": "",
- "BETAS.Iro.Friday_3": "",
+ "BETAS.Iro.Friday_0": "no dialogue",
+ "BETAS.Iro.Friday_1": "no dialogue",
+ "BETAS.Iro.Friday_2": "no dialogue",
+ "BETAS.Iro.Friday_3": "no dialogue",
  //daily
- "Iro.Friday_0": "",
- "Iro.Friday_1": "",
- "Iro.Friday_2": "",
- "Iro.Friday_3": "",
+ "Iro.Friday_0": "no dialogue",
+ "Iro.Friday_1": "no dialogue",
+ "Iro.Friday_2": "no dialogue",
+ "Iro.Friday_3": "no dialogue",
 
  //saturday
  //BETAS
- "BETAS.Iro.Saturday_0": "",
- "BETAS.Iro.Saturday_1": "",
- "BETAS.Iro.Saturday_2": "",
- "BETAS.Iro.Saturday_3": "",
+ "BETAS.Iro.Saturday_0": "no dialogue",
+ "BETAS.Iro.Saturday_1": "no dialogue",
+ "BETAS.Iro.Saturday_2": "no dialogue",
+ "BETAS.Iro.Saturday_3": "no dialogue",
  //daily
- "Iro.Saturday_0": "",
- "Iro.Saturday_1": "",
- "Iro.Saturday_2": "",
- "Iro.Saturday_3": "",
+ "Iro.Saturday_0": "no dialogue",
+ "Iro.Saturday_1": "no dialogue",
+ "Iro.Saturday_2": "no dialogue",
+ "Iro.Saturday_3": "no dialogue",
 
  //sunday
  //BETAS
- "BETAS.Iro.Sunday_0": "",
- "BETAS.Iro.Sunday_1": "",
- "BETAS.Iro.Sunday_2": "",
- "BETAS.Iro.Sunday_3": "",
+ "BETAS.Iro.Sunday_0": "no dialogue",
+ "BETAS.Iro.Sunday_1": "no dialogue",
+ "BETAS.Iro.Sunday_2": "no dialogue",
+ "BETAS.Iro.Sunday_3": "no dialogue",
  //daily
- "Iro.Sunday_0": "",
- "Iro.Sunday_1": "",
- "Iro.Sunday_2": "",
+ "Iro.Sunday_0": "no dialogue",
+ "Iro.Sunday_1": "no dialogue",
+ "Iro.Sunday_2": "no dialogue",
  "Iro.Sunday_3": ""
 }

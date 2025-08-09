@@ -5,82 +5,82 @@
  "BETAS.Tia.Monday_0": "Imagine thinking you're playing 3D chess just because you spilled the pieces on the floor.",
  "BETAS.Tia.Monday_1": "It was just a LITTLE fire, I don't see why everyone's so worked up.$2",
  "BETAS.Tia.Monday_2": "I like my men soft and delicate and my women to be able to murder me with their bare hands.$2",
- "BETAS.Tia.Monday_3": "",
+ "BETAS.Tia.Monday_3": "no dialogue",
  //daily
- "Tia.Monday_0": "Plot is like Soylent Green, you know. It's made of people.#$B#The people are probably more edible, though.#$action {0}DialogueBox {1}Nox \"Don't you mean less edible?\"#$b#No.$2",
- "Tia.Monday_1": "What is wrong with this character? They have all the structural integrity of jello tossed into a clothes press.$3#$action {0}DialogueBox {1}Pau \"Tia, that's mean.\"#$b#...True, I should probably apologize to the jello.$2#$b#Honestly, this bit here is like they brought in a three-ring circus when all we asked for was a birthday clown.",
- "Tia.Monday_2": "You know, @, the nice thing about being a cat is that I can eat whatever bothers me.#$action {0}DialogueBox {1}Avi \"You might have a problem with the humans.$3\"#$b#One bite at a time.$2",
+ "Tia.Monday_0": "Plot is like Soylent Green, you know. It's made of people.#$B#The people are probably more edible, though.#$action {0}DialogueBox {1}Placeholder \"Don't you mean less edible?\" Portraits/{1}Nox Nox#$b#No.$2",
+ "Tia.Monday_1": "What is wrong with this character? They have all the structural integrity of jello tossed into a clothes press.$3#$action {0}DialogueBox {1}Placeholder \"Tia, that's mean.\" Portraits/{1}Pau Pau#$b#...True, I should probably apologize to the jello.$2#$b#Honestly, this bit here is like they brought in a three-ring circus when all we asked for was a birthday clown.",
+ "Tia.Monday_2": "You know, @, the nice thing about being a cat is that I can eat whatever bothers me.#$action {0}DialogueBox {1}Placeholder \"You might have a problem with the humans.$3\" Portraits/{1}Avi Avi#$b#One bite at a time.$2",
  "Tia.Monday_3": "Okay, time to attack and dethrone God.$2#$b#Wait. Crap.$3#$b#I am once again posting in the wrong reality.$1",
 
  //tuesday
  //BETAS
- "BETAS.Tia.Tuesday_0": "",
- "BETAS.Tia.Tuesday_1": "",
- "BETAS.Tia.Tuesday_2": "",
- "BETAS.Tia.Tuesday_3": "",
+ "BETAS.Tia.Tuesday_0": "no dialogue",
+ "BETAS.Tia.Tuesday_1": "no dialogue",
+ "BETAS.Tia.Tuesday_2": "no dialogue",
+ "BETAS.Tia.Tuesday_3": "no dialogue",
  //daily
- "Tia.Tuesday_0": "",
- "Tia.Tuesday_1": "",
- "Tia.Tuesday_2": "",
- "Tia.Tuesday_3": "",
+ "Tia.Tuesday_0": "no dialogue",
+ "Tia.Tuesday_1": "no dialogue",
+ "Tia.Tuesday_2": "no dialogue",
+ "Tia.Tuesday_3": "no dialogue",
 
  //wednesday
  //BETAS
- "BETAS.Tia.Wednesday_0": "",
- "BETAS.Tia.Wednesday_1": "",
- "BETAS.Tia.Wednesday_2": "",
- "BETAS.Tia.Wednesday_3": "",
+ "BETAS.Tia.Wednesday_0": "no dialogue",
+ "BETAS.Tia.Wednesday_1": "no dialogue",
+ "BETAS.Tia.Wednesday_2": "no dialogue",
+ "BETAS.Tia.Wednesday_3": "no dialogue",
  //daily
- "Tia.Wednesday_0": "",
- "Tia.Wednesday_1": "",
- "Tia.Wednesday_2": "",
- "Tia.Wednesday_3": "",
+ "Tia.Wednesday_0": "no dialogue",
+ "Tia.Wednesday_1": "no dialogue",
+ "Tia.Wednesday_2": "no dialogue",
+ "Tia.Wednesday_3": "no dialogue",
 
  //thursday
  //BETAS
- "BETAS.Tia.Thursday_0": "",
- "BETAS.Tia.Thursday_1": "",
- "BETAS.Tia.Thursday_2": "",
- "BETAS.Tia.Thursday_3": "",
+ "BETAS.Tia.Thursday_0": "no dialogue",
+ "BETAS.Tia.Thursday_1": "no dialogue",
+ "BETAS.Tia.Thursday_2": "no dialogue",
+ "BETAS.Tia.Thursday_3": "no dialogue",
  //daily
- "Tia.Thursday_0": "",
- "Tia.Thursday_1": "",
- "Tia.Thursday_2": "",
- "Tia.Thursday_3": "",
+ "Tia.Thursday_0": "no dialogue",
+ "Tia.Thursday_1": "no dialogue",
+ "Tia.Thursday_2": "no dialogue",
+ "Tia.Thursday_3": "no dialogue",
 
  //friday
  //BETAS
- "BETAS.Tia.Friday_0": "",
- "BETAS.Tia.Friday_1": "",
- "BETAS.Tia.Friday_2": "",
- "BETAS.Tia.Friday_3": "",
+ "BETAS.Tia.Friday_0": "no dialogue",
+ "BETAS.Tia.Friday_1": "no dialogue",
+ "BETAS.Tia.Friday_2": "no dialogue",
+ "BETAS.Tia.Friday_3": "no dialogue",
  //daily
- "Tia.Friday_0": "",
- "Tia.Friday_1": "",
- "Tia.Friday_2": "",
- "Tia.Friday_3": "",
+ "Tia.Friday_0": "no dialogue",
+ "Tia.Friday_1": "no dialogue",
+ "Tia.Friday_2": "no dialogue",
+ "Tia.Friday_3": "no dialogue",
 
  //saturday
  //BETAS
- "BETAS.Tia.Saturday_0": "",
- "BETAS.Tia.Saturday_1": "",
- "BETAS.Tia.Saturday_2": "",
- "BETAS.Tia.Saturday_3": "",
+ "BETAS.Tia.Saturday_0": "no dialogue",
+ "BETAS.Tia.Saturday_1": "no dialogue",
+ "BETAS.Tia.Saturday_2": "no dialogue",
+ "BETAS.Tia.Saturday_3": "no dialogue",
  //daily
- "Tia.Saturday_0": "",
- "Tia.Saturday_1": "",
- "Tia.Saturday_2": "",
- "Tia.Saturday_3": "",
+ "Tia.Saturday_0": "no dialogue",
+ "Tia.Saturday_1": "no dialogue",
+ "Tia.Saturday_2": "no dialogue",
+ "Tia.Saturday_3": "no dialogue",
 
  //sunday
  //BETAS
- "BETAS.Tia.Sunday_0": "",
- "BETAS.Tia.Sunday_1": "",
- "BETAS.Tia.Sunday_2": "",
- "BETAS.Tia.Sunday_3": "",
+ "BETAS.Tia.Sunday_0": "no dialogue",
+ "BETAS.Tia.Sunday_1": "no dialogue",
+ "BETAS.Tia.Sunday_2": "no dialogue",
+ "BETAS.Tia.Sunday_3": "no dialogue",
  //daily
- "Tia.Sunday_0": "",
- "Tia.Sunday_1": "",
- "Tia.Sunday_2": "",
+ "Tia.Sunday_0": "no dialogue",
+ "Tia.Sunday_1": "no dialogue",
+ "Tia.Sunday_2": "no dialogue",
  "Tia.Sunday_3": ""
 }

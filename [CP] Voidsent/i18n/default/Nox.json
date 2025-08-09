@@ -41,10 +41,10 @@
 
  //thursday
  //BETAS
- "BETAS.Nox.Thursday_0": "",
- "BETAS.Nox.Thursday_1": "",
- "BETAS.Nox.Thursday_2": "",
- "BETAS.Nox.Thursday_3": "",
+ "BETAS.Nox.Thursday_0": "no dialogue",
+ "BETAS.Nox.Thursday_1": "no dialogue",
+ "BETAS.Nox.Thursday_2": "no dialogue",
+ "BETAS.Nox.Thursday_3": "no dialogue",
  //daily
  "Nox.Thursday_0": "Do you ever think about the expanse of the world and then it's just an immediate--I want a cookie.$1",
  "Nox.Thursday_1": "I come in with another glorbo!#$action {0}Message \"Nox shows you art of a comic strip she drew for her table-top RPG game.\"",
@@ -53,37 +53,37 @@
 
  //friday
  //BETAS
- "BETAS.Nox.Friday_0": "",
- "BETAS.Nox.Friday_1": "",
- "BETAS.Nox.Friday_2": "",
- "BETAS.Nox.Friday_3": "",
+ "BETAS.Nox.Friday_0": "no dialogue",
+ "BETAS.Nox.Friday_1": "no dialogue",
+ "BETAS.Nox.Friday_2": "no dialogue",
+ "BETAS.Nox.Friday_3": "no dialogue",
  //daily
- "Nox.Friday_0": "",
- "Nox.Friday_1": "",
- "Nox.Friday_2": "",
- "Nox.Friday_3": "",
+ "Nox.Friday_0": "no dialogue",
+ "Nox.Friday_1": "no dialogue",
+ "Nox.Friday_2": "no dialogue",
+ "Nox.Friday_3": "no dialogue",
 
  //saturday
  //BETAS
- "BETAS.Nox.Saturday_0": "",
- "BETAS.Nox.Saturday_1": "",
- "BETAS.Nox.Saturday_2": "",
- "BETAS.Nox.Saturday_3": "",
+ "BETAS.Nox.Saturday_0": "no dialogue",
+ "BETAS.Nox.Saturday_1": "no dialogue",
+ "BETAS.Nox.Saturday_2": "no dialogue",
+ "BETAS.Nox.Saturday_3": "no dialogue",
  //daily
- "Nox.Saturday_0": "",
- "Nox.Saturday_1": "",
- "Nox.Saturday_2": "",
- "Nox.Saturday_3": "",
+ "Nox.Saturday_0": "no dialogue",
+ "Nox.Saturday_1": "no dialogue",
+ "Nox.Saturday_2": "no dialogue",
+ "Nox.Saturday_3": "no dialogue",
 
  //sunday
  //BETAS
- "BETAS.Nox.Sunday_0": "",
- "BETAS.Nox.Sunday_1": "",
- "BETAS.Nox.Sunday_2": "",
- "BETAS.Nox.Sunday_3": "",
+ "BETAS.Nox.Sunday_0": "no dialogue",
+ "BETAS.Nox.Sunday_1": "no dialogue",
+ "BETAS.Nox.Sunday_2": "no dialogue",
+ "BETAS.Nox.Sunday_3": "no dialogue",
  //daily
- "Nox.Sunday_0": "",
- "Nox.Sunday_1": "",
- "Nox.Sunday_2": "",
+ "Nox.Sunday_0": "no dialogue",
+ "Nox.Sunday_1": "no dialogue",
+ "Nox.Sunday_2": "no dialogue",
  "Nox.Sunday_3": ""
 }

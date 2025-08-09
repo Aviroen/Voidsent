@@ -76,6 +76,11 @@
      "Id": "{{ModId}}_YrsinFinger",
      "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_YrsinFinger",
      "Portrait": "{{InternalAssetKey: Assets/NPCS/Portraits/{{ModId}}_Yrsin_Finger.png}}"
+    },
+    "{{ModId}}_YrsinFrenzy": {
+     "Id": "{{ModId}}_YrsinFrenzy",
+     "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_YrsinFrenzy",
+     "Portrait": "{{InternalAssetKey: Assets/NPCS/Portraits/{{ModId}}_Yrsin_Frenzy.png}}"
     }
    }
   },
