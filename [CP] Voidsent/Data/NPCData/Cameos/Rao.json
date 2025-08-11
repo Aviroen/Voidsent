@@ -13,22 +13,28 @@
     "OPTIMISM": "Positive", //positive, neutral, negative changes stringsfromcsfiles
     "DARKSKIN": "true",
     "GIFTABLE": "true",
-    "HOMELOCATION": "{{ModId}}_Grandberg1",
-    "HOMEXTILE": "17",
-    "HOMEYTILE": "14",
+    "HOMELOCATION": "{{ModId}}_GrandMinistry",
+    "HOMEXTILE": "34",
+    "HOMEYTILE": "30",
     "HOMEFACING": "down", //left, right, up, down
+    "WIDTH": "32",
+    "HEIGHT": "40",
     "LOVEDGIFTS": "166",
     "LIKEDGIFTS": "category_fish",
     "DISLIKEDGIFTS": "category_bait category_ingredients category_monster_loot",
     "HATEDGIFTS": "category_litter, category_junk",
     "NEUTRALGIFTS": "category_building_resources",
     "SLEEPANIMATION": "18/19 19 19 19 19 18 18 18 18 19 19 19 19 18 18 18 18 19 19 19 19/19",
-    "SPECIAL1": "sleforward",
+    "SPECIAL1": "wings",
     "SPECIAL1ANIMATION": "16/16 16 17 17 17 18 18 18 17 17 18 18 19 19 18 18 17 17 18 18 19 19 18 18 17 17 16 16/16",
     "SPECIAL2": "wag",
     "SPECIAL2ANIMATION": "20/20 20 20 20 20 21 22 23 20 20 20 20 20 20/20",
+    "SPECIAL3": "work",
+    "SPECIAL3ANIMATION": "16/16 16 16 16 16 17 17 17 17 17/17//laying_down/offset 8 0",
+    "SPECIAL4": "angry",
+    "SPECIAL4ANIMATION": "20/20 20 20 20 20 21 22 23 20 20 20 20 20 20/20",
     "ENDRANGE": "3",
-    "SPRINGSCHEDULE": "610 {{ModId}}_Grandberg1 16 15 2",
+    "SPRINGSCHEDULE": "610 {{ModId}}_GrandMinistry 34 30 2",
     "SUMMERSCHEDULE": "GOTO spring",
     "FALLSCHEDULE": "GOTO spring",
     "WINTERSCHEDULE": "GOTO spring",
@@ -54,7 +60,7 @@
 
     "SEPARATEDATABILITY": true, //true/false
     "BETASTOGGLED": true, //true/false
-    
+
     "CUSTOMENDEARMENT": true, //whether or not you're fulfilling a string for custom endearments like (single), (partner), (enemy)
     "REJECTPENDANT": true, //whether you want the npc to reject the pendant and instead want engagement through spacecore
     "REJECTTEA": true

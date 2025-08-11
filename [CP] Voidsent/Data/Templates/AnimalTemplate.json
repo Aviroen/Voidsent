@@ -2,7 +2,7 @@
   "Changes": [
     {
       "Action": "Load",
-      "Target": "Mods/{{ModId}}/Animals/{{ANIMAL}}",
+      "Target": "{{ModId}}/Animals/{{ANIMAL}}",
       "FromFile": "Assets/Animals/{{ANIMAL}}.png"
     },
     {
@@ -15,7 +15,7 @@
           "Gender": "MaleOrFemale",
           "PurchasePrice": "{{PRICE}}",
           "SellPrice": "{{SELLPRICE}}",
-          "ShopTexture": "Mods\\{{ModId}}\\AnimalShop",
+          "ShopTexture": "{{ModId}}\\AnimalShop",
           "ShopSourceRect": {
             "X": "{{XSOURCERECT}}",
             "Y": "{{YSOURCERECT}}",
@@ -64,7 +64,7 @@
           "ProfessionForFasterProduce": -1,
           "Sound": "wateringCan",
           "BabySound": null,
-          "Texture": "Mods\\{{ModId}}\\Animals\\{{ANIMAL}}",
+          "Texture": "{{ModId}}\\Animals\\{{ANIMAL}}",
           "HarvestedTexture": null,
           "BabyTexture": null,
           "UseFlippedRightForLeft": "{{USEFLIPPEDLR}}",

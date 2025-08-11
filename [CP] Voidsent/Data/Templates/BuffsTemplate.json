@@ -10,7 +10,7 @@
      "IsDebuff": "{{ISDEBUFF}}",
      "GlowColor": "{{GLOWCOLOR}}",
      "Duration": "{{DURATION}}", //ms
-     "IconTexture": "Mods/{{ModId}}/Objects",
+     "IconTexture": "{{ModId}}/Objects",
      "IconSpriteIndex": "{{ICONINDEX}}",
      "Effects": {
       "FarmingLevel": "{{FARMINGLEVEL}}",

@@ -12,14 +12,13 @@
     "ANXIETY": "Outgoing", //outgoing, neutral, shy changes stringsfromcsfiles
     "OPTIMISM": "Positive", //positive, neutral, negative changes stringsfromcsfiles
     "DARKSKIN": "true",
-
-
     "GIFTABLE": "true",
-
     "HOMELOCATION": "{{ModId}}_JustOneBite",
     "HOMEXTILE": "8",
     "HOMEYTILE": "6",
     "HOMEFACING": "down", //left, right, up, down
+    "WIDTH": "32",
+    "HEIGHT": "47",
     "LOVEDGIFTS": "166",
     "LIKEDGIFTS": "category_fish",
     "DISLIKEDGIFTS": "category_bait category_ingredients category_monster_loot",

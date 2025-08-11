@@ -3,9 +3,9 @@
  //monday
  //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_
  "BETAS.Tia.Monday_0": "Imagine thinking you're playing 3D chess just because you spilled the pieces on the floor.",
- "BETAS.Tia.Monday_1": "It was just a LITTLE fire, I don't see why everyone's so worked up.$2",
- "BETAS.Tia.Monday_2": "I like my men soft and delicate and my women to be able to murder me with their bare hands.$2",
- "BETAS.Tia.Monday_3": "no dialogue",
+ "BETAS.Tia.Monday_1": "It was just a LITTLE fire, I don't see why everyone's so worked up.{2}$2",
+ "BETAS.Tia.Monday_2": "I like my men soft and delicate and my women to be able to murder me with their bare hands.{2}$2",
+ "BETAS.Tia.Monday_3": "I found an old note to myself about writing the 'very wrong sm--'.{2}$1#$b#What did you know, past Tia?{2}$3#$b#What horrible thoughts were you entertaining?{2}$3",
  //daily
  "Tia.Monday_0": "Plot is like Soylent Green, you know. It's made of people.#$B#The people are probably more edible, though.#$action {0}DialogueBox {1}Placeholder \"Don't you mean less edible?\" Portraits/{1}Nox Nox#$b#No.$2",
  "Tia.Monday_1": "What is wrong with this character? They have all the structural integrity of jello tossed into a clothes press.$3#$action {0}DialogueBox {1}Placeholder \"Tia, that's mean.\" Portraits/{1}Pau Pau#$b#...True, I should probably apologize to the jello.$2#$b#Honestly, this bit here is like they brought in a three-ring circus when all we asked for was a birthday clown.",
@@ -14,31 +14,31 @@
 
  //tuesday
  //BETAS
- "BETAS.Tia.Tuesday_0": "no dialogue",
- "BETAS.Tia.Tuesday_1": "no dialogue",
- "BETAS.Tia.Tuesday_2": "no dialogue",
- "BETAS.Tia.Tuesday_3": "no dialogue",
+ "BETAS.Tia.Tuesday_0": "I decided to go into writing prose because I'm loquacious and read voraciously.{2}$2#$b#So I've acquired some skill for a turn of phrase.{2}$2#$b#Also, the paws make visual art a bit difficult.$1#$action {0}DialogueBox {1}Placeholder \"Hasn't stopped me.$2\" Portraits/{1}Avi Avi#$action {0}DialogueBox {1}Placeholder \"Me either!\" Portraits/{1}Pau Pau#$b#Silence, jerks!{2}$3#$b#Not everyone can be a genius at everything, you know!{2}$3",
+ "BETAS.Tia.Tuesday_1": "Some of those folks in Morabyr, I'd climb them like a tree.{2}$2#$b#I mean that literally, to be clear.{2}$3#$b#Not your weird human ideas of 'climbing.'{2}$1",
+ "BETAS.Tia.Tuesday_2": "$action {0}Message \"Tia is studying a draft intently.\"#$action {0}DialogueBox {1}Placeholder \"❄︎♒︎♋︎⧫︎🕯︎⬧︎ ♋︎ ♍︎□︎❍︎❍︎♋︎ ⬧︎◻︎●︎♓︎♍︎♏︎\" Portraits/{1}Iro Iro#$b#It's called house style.{2}$2#$action {0}DialogueBox {1}Placeholder \"✋︎⧫︎🕯︎⬧︎ ♍︎♋︎●︎●︎♏︎♎︎ ♑︎❒︎♋︎❍︎❍︎♋︎⧫︎♓︎♍︎♋︎●︎●︎⍓︎ ♓︎■︎♍︎□︎❒︎❒︎♏︎♍︎⧫︎ ⌧︎🗏︎\" Portraits/{1}Iro Iro#$b#Don't quote the grammar guides to me, kit.{2}$3#$b#I was there when it was written and I've got fanfics older than you are.{2}$3",
+ "BETAS.Tia.Tuesday_3": "Have I ever written a cat NPC? Well, they say write what you know.{2}$2", //(if Jorts and Jean is installed) "Have I ever written a cat NPC? Well, they say--oh, I see, you think you're funny, don't you."
  //daily
- "Tia.Tuesday_0": "no dialogue",
- "Tia.Tuesday_1": "no dialogue",
- "Tia.Tuesday_2": "no dialogue",
- "Tia.Tuesday_3": "no dialogue",
+ "Tia.Tuesday_0": "Well, I reviewed the latest feedback on my fanfic posting.$2#$action {0}DialogueBox {1}Placeholder \"Was it helpful?\" Portraits/{1}Nox Nox#$b#Quite. I have decided that I am perfect, actually, and it's the kids that are wrong.$2",
+ "Tia.Tuesday_1": "$action {0}Message \"Tia is typing frantically into a word processor.#It seems if she stops for too long, the program begins deleting their words.\"#$action {0}DialogueBox {1}Placeholder \"Uh, Tia--\" Portraits/{1}Cla Cla#$b#Not right now! I'm in the middle of a word war!$3#$action {0}DialogueBox {1}Placeholder \"Now THAT'S publish or perish!\" Portraits/{1}Avi Avi",
+ "Tia.Tuesday_2": "How old am I? Too old to exist, according to your human lore.$2#$b#...That and I lost count some years ago.$1",
+ "Tia.Tuesday_3": "If people are going to argue with me, I prefer they at least not be both incompetent and also wrong.#$b#One at a time, please.$2",
 
  //wednesday
  //BETAS
- "BETAS.Tia.Wednesday_0": "no dialogue",
- "BETAS.Tia.Wednesday_1": "no dialogue",
- "BETAS.Tia.Wednesday_2": "no dialogue",
- "BETAS.Tia.Wednesday_3": "no dialogue",
+ "BETAS.Tia.Wednesday_0": "I love reading people's characters.#$b#Just like people themselves, they're the sum of a lifetime of lived experiences condensed down to the essence of who a person is.{2}$2#$B#And just like people themselves, they're often adorable, if occasionally stupid.{2}$2",
+ "BETAS.Tia.Wednesday_1": "The truth of the world? Come on, @, you can't just ask for spoilers. That's cheating.{2}$2",
+ "BETAS.Tia.Wednesday_2": "The truth of the world? Well... what do you know about giant turtles?{2}$2",
+ "BETAS.Tia.Wednesday_3": "The truth of the world? Savage, selfish, heartless, compassionate, miraculous, and utterly beautiful.{2}$2",
  //daily
- "Tia.Wednesday_0": "no dialogue",
- "Tia.Wednesday_1": "no dialogue",
- "Tia.Wednesday_2": "no dialogue",
- "Tia.Wednesday_3": "no dialogue",
+ "Tia.Wednesday_0": "Yeah, try putting that part there.#$action {0}DialogueBox {1}Placeholder \"It broke.\" Portraits/{1}Avi Avi#$b#Okay, you probably shouldn't have listen to me, actually.$1",
+ "Tia.Wednesday_1": "Ask me for advice any time you like, @.#$b#I accept payment in the form of manga and head scritches.$2",
+ "Tia.Wednesday_2": "$action {0}Message \"Tia appears to be looking at some complicated legal language.\"#$b#Morabyr, who hurt you?$1#$action {0}DialogueBox {1}Placeholder \"Are those tax statutes?$3\" Portraits/{1}Avi Avi#$b#...Yes?$3#$action {0}DialogueBox {1}Placeholder \"Did I miss a bracket?$3\" Portraits/{1}Avi Avi#$action {0}TextAboveHead {1}Nox \"Ooh?\"#$action {0}TextAboveHead {1}Pau \"Ooh?\"#$action {0}TextAboveHead {1}Kis \"Ooh?\"#$action {0}TextAboveHead {1}Avi \"Ooh?\"#$action {0}TextAboveHead {1}Joh \"Ooh?\"#$b#...I got bored and wanted some good old fashioned human tomfoolery, bite me.$2",
+ "Tia.Wednesday_3": "Everyone should make art, @, including you.$2#$b#There's no better way of showing yourself to the world.$2#$b#...Whether you SHOULD show your art to the world is a separate question.$3",
 
  //thursday
  //BETAS
- "BETAS.Tia.Thursday_0": "no dialogue",
+ "BETAS.Tia.Thursday_0": "Man, I could go for a nice tasty duck right now.{2}$2#$b#Don't look at me like that.{2}$3#$b#If it doesn't talk, it's fair game as far as I'm concerned.{2}$3#$b#...Actually, even if it does talk, it's still in consideration if it's sufficiently annoying.{2}$3",
  "BETAS.Tia.Thursday_1": "no dialogue",
  "BETAS.Tia.Thursday_2": "no dialogue",
  "BETAS.Tia.Thursday_3": "no dialogue",
@@ -82,5 +82,5 @@
  "Tia.Sunday_0": "no dialogue",
  "Tia.Sunday_1": "no dialogue",
  "Tia.Sunday_2": "no dialogue",
- "Tia.Sunday_3": ""
+ "Tia.Sunday_3": "no dialogue"
 }

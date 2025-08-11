@@ -16,7 +16,10 @@
    "UniqueID": "Aviroen.VoidsentFTM",
    "IsRequired": true
   },
-
+  {
+   "UniqueID": "poohnhi.PoohCore",
+   "IsRequired": true
+  },
   {
    "UniqueID": "Spiderbuttons.ArbitraryTilesheetAccess",
    "IsRequired": true

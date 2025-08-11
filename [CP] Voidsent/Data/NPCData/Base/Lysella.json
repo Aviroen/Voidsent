@@ -17,6 +17,8 @@
     "HOMEXTILE": "14",
     "HOMEYTILE": "14",
     "HOMEFACING": "down", //left, right, up, down
+    "WIDTH": "32",
+    "HEIGHT": "40",
     "LOVEDGIFTS": "166",
     "LIKEDGIFTS": "category_fish",
     "DISLIKEDGIFTS": "category_bait category_ingredients category_monster_loot",

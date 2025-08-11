@@ -26,7 +26,7 @@
  "Thandael.SpouseFarmhouseClutter": "Need help cleaning up, sweetie?$3",
  "Thandael.SpouseGiftJealous": "It used to be tradition to have many spouses, it's still strange to me though.$3",
  "Thandael.Spouse_MonstersInHouse": "Well hello, little fella.$1",
- "Thandael.SpouseStardrop": "These are quite common across Gotoro lands, sweetie, but I figured this is useful to you.$4",
+ "Thandael.SpouseStardrop": "These are quite common across Grandberg lands, sweetie, but I figured this is useful to you.$4",
  "Thandael.WipedMemory": "...$5",
  "Thandael.AcceptBouquet": "Me?$3#$b#You're interested in me?$1#$b#I--I accept.$4",
  "Thandael.MovieInvitation": "Muvi?$1#$b#Oh! A movie!$3#$b#Sure, why not?$4",
@@ -187,7 +187,7 @@
  "Thandael.Wednesday_2": "...#$action {0}TextAboveHead {1}Yrsin \"*Grumbles*\" 3000 0 true#$e#...$1#$action {0}DelayedAction \"{0}DialogueBox {1}Placeholder \\\"Whatever you're thinking of, no.$5\\\" Portraits/{1}Yrsin Yrsin\" 1000#$e#I didn't even say anything!$7#$action {0}DelayedAction \"{0}DialogueBox {1}Placeholder \\\"You give out this click of your teeth when you're scheming something stupid.$9\\\" Portraits/{1}Yrsin Yrsin\" 1000#$e#See! You are my best friend!$1#$b#You know all my quirks!$1#$action {0}TextAboveHead {1}Yrsin \"*Sigh*\" 3000 0 true",
  "Thandael.Wednesday_3": "I... am zen...$8#$e#Nothing can fetter me...$8#$b#Noth--#$b#Is that a bug?!$5#$action {0}TextAboveHead {1}Yrsin \"*Grumbles*\" 3000 0 true",
  //2 heart
- "Thandael.Wednesday2_0": "no dialogue",
+ "Thandael.Wednesday2_0": "...$8#$action {0}TextAboveHead {1}Yrsin \"Hmm...\" 3000 0 true#$e#...$1#$action {0}DelayedAction \"{0}DialogueBox {1}Placeholder \\\"With the recent information, does that affect how we move forward?$2\\\" Portraits/{1}Yrsin_Frenzy Yrsin\" 1000#$e#Not that I know of...$9#$action {0}DialogueBox {1}Placeholder \"I'm gonna need a little more information than that, Than.$5\" Portraits/{1}Yrsin_Frenzy Yrsin#$e#Sorry, Sinny, that's about all I have on the matter.$6",
  "Thandael.Wednesday2_1": "no dialogue",
  "Thandael.Wednesday2_2": "no dialogue",
  "Thandael.Wednesday2_3": "no dialogue",

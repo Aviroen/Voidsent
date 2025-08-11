@@ -211,8 +211,8 @@
        "Appearance": null,
        "MugShotSourceRect": null,
        "Size": {
-        "X": 16,
-        "Y": 32
+        "X": "{{WIDTH}}",
+        "Y": "{{HEIGHT}}"
        },
        "Breather": true,
        "BreathChestRect": null,
@@ -231,7 +231,10 @@
        "HiddenProfileEmoteFrameCount": 2,
        "HiddenProfileEmoteFrameDuration": 200.0,
        "FormerCharacterNames": [],
-       "CustomFields": null
+       "CustomFields": {
+        "poohnhi.PoohCore/WideCharacter": "true",
+        "poohnhi.PoohCore/HighCharacter": "true"
+       }
       }
      }
     },

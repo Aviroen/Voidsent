@@ -100,7 +100,7 @@
   {
    "LogName": "Other Locations Include",
    "Action": "Include",
-   "FromFile": "Data/Locations/Other/Warps.json, Data/Locations/Other/Hideouts.json, Data/Locations/Other/Stardrops.json"
+   "FromFile": "Data/Locations/Other/Warps.json, Data/Locations/Other/Hideouts.json, Data/Locations/Other/Stardrops.json" //
   },
   {
    "LogName": "CHAOS BEGIN",
@@ -108,9 +108,14 @@
    "FromFile": "Data/NPCData/Base/Antisocials.json, Data/NPCData/Base/Duvin.json, Data/NPCData/Base/Edelweiss.json, Data/NPCData/Base/Fothao.json, Data/NPCData/Base/Konryn.json, Data/NPCData/Base/Lysella.json, Data/NPCData/Base/Muvi.json, Data/NPCData/Base/Sai.json, Data/NPCData/Base/Thandael.json, Data/NPCData/Base/Thetlin.json, Data/NPCData/Base/Trinity.json, Data/NPCData/Base/Vorgar.json, Data/NPCData/Base/Yrnal.json, Data/NPCData/Base/Yrrek.json, Data/NPCData/Base/Yrsin.json"
   },
   {
+   "LogName": "CAMEO CHAOS BEGIN",
+   "Action": "Include",
+   "FromFile": "Data/NPCData/Cameos/Rao.json"
+  },
+  {
    "LogName": "Data Include",
    "Action": "Include",
-   "FromFile": "Data/Other/Animals.json, Data/Other/Craftables.json, Data/Other/EMA.json, Data/Other/Fish.json, Data/Other/LocContext.json, Data/Other/Mail.json, Data/Other/MMAP.json, Data/Other/Shops.json, Data/Other/SpaceCore.json, Data/Other/SpecialOrders.json, Data/Other/Spiderbuttons.json, Data/Other/Strings.json, Data/Other/TriggerActions.json, Data/Other/GarbageCans.json"
+   "FromFile": "Data/Other/Animals.json, Data/Other/Craftables.json, Data/Other/Rokugin.json, Data/Other/Fish.json, Data/Other/LocContext.json, Data/Other/Mail.json, Data/Other/MMAP.json, Data/Other/Shops.json, Data/Other/SpaceCore.json, Data/Other/SpecialOrders.json, Data/Other/Spiderbuttons.json, Data/Other/Strings.json, Data/Other/TriggerActions.json, Data/Other/GarbageCans.json"
   }
   /*
   {

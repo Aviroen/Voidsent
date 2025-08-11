@@ -82,6 +82,17 @@
             indices 8 and 9. */
      "DrawOffset": "0, 0", // For example, Willy's fishing animation uses X=0 Y=96
      "AppearanceOverride": null // If not null, uses a specific appearance from the NPC's appearance data during this animation
+    },
+    "{{ModId}}_Rao_wings": { // Change this to your animation name
+     "SourceRectSize": "32, 32", // The size of the animation in pixels.
+     /* One thing to note about SourceRectSize is it changes how your sprites are indexed. 
+            If you take a look at the clint_hammer animation, it lists sprite indices 8 and 9,
+            But the animation starts at the normal index of 16. That's because when you change the
+            sprite size, it changes how sprites are indexed. You need to count by the new sprite size,
+            not the original one. So if you count by each 32x32 area in Clint's sprite, it comes out to
+            indices 8 and 9. */
+     "DrawOffset": "0, 0", // For example, Willy's fishing animation uses X=0 Y=96
+     "AppearanceOverride": null // If not null, uses a specific appearance from the NPC's appearance data during this animation
     }
    }
   },
@@ -155,3 +166,54 @@
   }
  ]
 }
+/*
+  {
+   "Action": "EditData",
+   "Target": "spacechase0.SpaceCore/TextureOverrides",
+   "Entries": {
+    "{{ModId}}_Rao": {
+     "TargetTexture": "Characters/Aviroen.VoidsentCP_Rao",
+     "TargetRect": {
+      "X": 0,
+      "Y": 0,
+      "Width": 16,
+      "Height": 32
+     },
+     "SourceTexture": "{{InternalAssetKey: Assets/NPCS/Characters/32x64.png}}",
+     "SourceSizeOverride": "32,45"
+    },
+    "{{ModId}}_Rao1": {
+     "TargetTexture": "Characters/Aviroen.VoidsentCP_Rao",
+     "TargetRect": {
+      "X": 16,
+      "Y": 0,
+      "Width": 16,
+      "Height": 32
+     },
+     "SourceTexture": "{{InternalAssetKey: Assets/NPCS/Characters/32x64.png}}",
+     "SourceSizeOverride": "32,45"
+    },
+    "{{ModId}}_Rao2": {
+     "TargetTexture": "Characters/Aviroen.VoidsentCP_Rao",
+     "TargetRect": {
+      "X": 32,
+      "Y": 0,
+      "Width": 16,
+      "Height": 32
+     },
+     "SourceTexture": "{{InternalAssetKey: Assets/NPCS/Characters/32x64.png}}",
+     "SourceSizeOverride": "32,45"
+    },
+    "{{ModId}}_Rao3": {
+     "TargetTexture": "Characters/Aviroen.VoidsentCP_Rao",
+     "TargetRect": {
+      "X": 48,
+      "Y": 0,
+      "Width": 16,
+      "Height": 32
+     },
+     "SourceTexture": "{{InternalAssetKey: Assets/NPCS/Characters/32x64.png}}",
+     "SourceSizeOverride": "32,45"
+    }
+   }
+  },*/

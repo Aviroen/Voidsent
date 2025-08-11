@@ -4,7 +4,7 @@
    "Action": "EditData",
    "Target": "Data/AquariumFish",
    "Entries": {
-    "{{ModId}}_{{FISH}}": "{{INDEX}}/{{TYPE}}/{{IDLEANIM}}////Mods\\{{ModId}}\\Sharks"
+    "{{ModId}}_{{FISH}}": "{{INDEX}}/{{TYPE}}/{{IDLEANIM}}////{{ModId}}\\Sharks"
    }
   },
   {
@@ -25,7 +25,7 @@
      "Type": "Fish",
      "Category": -4,
      "Price": 250,
-     "Texture": "Mods\\{{ModId}}\\Objects",
+     "Texture": "{{ModId}}\\Objects",
      "SpriteIndex": "{{16INDEX}}", //starts at 54
      "Edibility": "{{EDIBILITY}}",
      "IsDrink": false,
