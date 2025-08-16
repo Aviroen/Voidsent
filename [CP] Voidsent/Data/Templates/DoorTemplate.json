@@ -1,0 +1,20 @@
+{
+ "Changes": [
+  {
+   "Action": "EditData",
+   "Target": "rokugin.EMA/CustomDoors",
+   "Entries": {
+    "{{ModId}}_{{DOORNAME}}": {
+     "Texture": "Maps/{{ModId}}_Doors",
+     "SourceRect": {
+      "X": "{{XVAL}}",
+      "Y": "{{YVAL}}",
+      "Width": "{{WIDTH}}",
+      "Height": "{{HEIGHT}}"
+     },
+     "Flip": "{{FLIP}}"
+    }
+   }
+  }
+ ]
+}

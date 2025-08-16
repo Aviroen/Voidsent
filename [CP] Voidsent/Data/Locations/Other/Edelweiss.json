@@ -1,0 +1,256 @@
+{
+ "Changes": [
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "EdelweissHouse",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "12",
+    "YARRIVAL": "7",
+    "MUSIC": "Of Dwarves",
+    "AREA": "ArtificialBeach"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "EdelweissAttic",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "2",
+    "YARRIVAL": "8",
+    "MUSIC": "Plums",
+    "AREA": "ArtificialBeach"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "EdelweissBasement",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "18",
+    "YARRIVAL": "4",
+    "MUSIC": "Of Dwarves",
+    "AREA": "ArtificialBeach"
+   }
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_EdelweissHouse",
+   "AddWarps": [
+    "8 19 {{ModId}}_ArtificialBeach 13 16"
+   ],
+   "MapTiles": [
+    {
+     "Position": {
+      "X": 7,
+      "Y": 2
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "LockedDoorWarp 2 9 {{ModId}}_EdelweissAttic 600 2600 {{Edelweiss}} 2500"
+     }
+    },
+    {
+     "Position": {
+      "X": 18,
+      "Y": 3
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "LockedDoorWarp 18 4 {{ModId}}_EdelweissBasement 600 2600 {{Edelweiss}} 2500"
+     }
+    }
+   ]
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_EdelweissAttic",
+   "AddWarps": [
+    "2 10 {{ModId}}_EdelweissHouse 7 3"
+   ]
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_EdelweissBasement",
+   "MapTiles": [
+    {
+     "Position": {
+      "X": 18,
+      "Y": 3
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Warp 18 3 {{ModId}}_EdelweissHouse"
+     }
+    },
+    {
+     "Position": {
+      "X": 4,
+      "Y": 5
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Message CrimsonGroveMessage"
+     }
+    },
+    {
+     "Position": {
+      "X": 8,
+      "Y": 5
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Message MoorMessage"
+     }
+    },
+    {
+     "Position": {
+      "X": 12,
+      "Y": 5
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Message CommonwealthMessage"
+     }
+    },
+    {
+     "Position": {
+      "X": 16,
+      "Y": 5
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Message GroveMessage"
+     }
+    },
+    {
+     "Position": {
+      "X": 4,
+      "Y": 6
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "TouchAction": "MagicWarp {{CrimsonGrove}} 43 47 {{ModId}}_CrimsonGroveUnlock"
+     }
+    },
+    {
+     "Position": {
+      "X": 8,
+      "Y": 6
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "TouchAction": "MagicWarp {{Morabyr}} 8 17 {{ModId}}_MoorUnlock"
+     }
+    },
+    {
+     "Position": {
+      "X": 12,
+      "Y": 6
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "TouchAction": "MagicWarp {{Morabyr}} 8 17 {{ModId}}_CommonwealthUnlock"
+     }
+    },
+    {
+     "Position": {
+      "X": 16,
+      "Y": 6
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "TouchAction": "MagicWarp {{Grove}} 8 17 {{ModId}}_GroveUnlock"
+     }
+    }
+   ]
+  },
+  {
+   "When": {
+    "HasFlag": "{{ModId}}_CrimsonGroveUnlock"
+   },
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_EdelweissBasement",
+   "PatchMode": "Overlay",
+   "FromFile": "Assets/Maps/Patches/AllPatches.tmx",
+   "FromArea": {
+    "X": 3,
+    "Y": 0,
+    "Width": 3,
+    "Height": 3
+   },
+   "ToArea": {
+    "X": 3,
+    "Y": 5,
+    "Width": 3,
+    "Height": 3
+   }
+  },
+  {
+   "When": {
+    "HasFlag": "{{ModId}}_MoorUnlock"
+   },
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_EdelweissBasement",
+   "PatchMode": "Overlay",
+   "FromFile": "Assets/Maps/Patches/AllPatches.tmx",
+   "FromArea": {
+    "X": 6,
+    "Y": 0,
+    "Width": 3,
+    "Height": 3
+   },
+   "ToArea": {
+    "X": 7,
+    "Y": 5,
+    "Width": 3,
+    "Height": 3
+   }
+  },
+  {
+   "When": {
+    "HasFlag": "{{ModId}}_CommonwealthUnlock"
+   },
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_EdelweissBasement",
+   "PatchMode": "Overlay",
+   "FromFile": "Assets/Maps/Patches/AllPatches.tmx",
+   "FromArea": {
+    "X": 9,
+    "Y": 0,
+    "Width": 3,
+    "Height": 3
+   },
+   "ToArea": {
+    "X": 11,
+    "Y": 5,
+    "Width": 3,
+    "Height": 3
+   }
+  },
+  {
+   "When": {
+    "HasFlag": "{{ModId}}_GroveUnlock"
+   },
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_EdelweissBasement",
+   "PatchMode": "Overlay",
+   "FromFile": "Assets/Maps/Patches/AllPatches.tmx",
+   "FromArea": {
+    "X": 12,
+    "Y": 0,
+    "Width": 3,
+    "Height": 3
+   },
+   "ToArea": {
+    "X": 15,
+    "Y": 5,
+    "Width": 3,
+    "Height": 3
+   }
+  }
+ ]
+}

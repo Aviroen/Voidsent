@@ -209,7 +209,12 @@
        ],
        "TextureName": null,
        "Appearance": null,
-       "MugShotSourceRect": null,
+       "MugShotSourceRect": {
+        "X": "{{MUGX}}",
+        "Y": "{{MUGY}}",
+        "Width": "{{MUGWID}}",
+        "Height": "{{MUGHEI}}"
+       },
        "Size": {
         "X": "{{WIDTH}}",
         "Y": "{{HEIGHT}}"
@@ -307,12 +312,12 @@
       "GreenRainFinished": "{{i18n:{{NPCNAME}}.GreenRainFinished}}",
 
       //"{{WeekDay}}": "$query {{Query: {{ENDRANGE}} > 3}} # {{i18n:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | {{i18n:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, 3}}}}}}",
-      "{{WeekDay}}": "$query {{Query: {{ENDRANGE}} > 3}} # {{i18n:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, 3}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]",
-      "{{WeekDay}}2": "$query {{2HEART}} # {{i18n:{{NPCNAME}}.{{DayOfWeek}}2_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]",
-      "{{WeekDay}}4": "$query {{4HEART}} # {{i18n:{{NPCNAME}}.{{DayOfWeek}}4_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]",
-      "{{WeekDay}}6": "$query {{6HEART}} # {{i18n:{{NPCNAME}}.{{DayOfWeek}}6_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]",
-      "{{WeekDay}}8": "$query {{8HEART}} # {{i18n:{{NPCNAME}}.{{DayOfWeek}}8_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]",
-      "{{WeekDay}}10": "$query {{10HEART}} # {{i18n:{{NPCNAME}}.{{DayOfWeek}}10_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]"
+      "{{WeekDay}}": "$query {{Query: {{ENDRANGE}} > 3}} # [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_] | [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, 3}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]",
+      "{{WeekDay}}2": "$query {{2HEART}} # [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}2_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_] | [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]",
+      "{{WeekDay}}4": "$query {{4HEART}} # [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}4_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_] | [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]",
+      "{{WeekDay}}6": "$query {{6HEART}} # [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}6_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_] | [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]",
+      "{{WeekDay}}8": "$query {{8HEART}} # [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}8_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_] | [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]",
+      "{{WeekDay}}10": "$query {{10HEART}} # [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}10_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_] | [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]"
      }
     },
     {
@@ -323,8 +328,8 @@
      },
      "Target": "Characters/Dialogue/{{ModId}}_{{NPCNAME}}",
      "Entries": {
-      "{{WeekDay}}8": "$query {{8HEART}} # {{i18n:{{NPCNAME}}.Platonic.{{DayOfWeek}}8_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]",
-      "{{WeekDay}}10": "$query {{10HEART}} # {{i18n:{{NPCNAME}}.Platonic.{{DayOfWeek}}10_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]"
+      "{{WeekDay}}8": "$query {{8HEART}} # [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.Platonic.{{DayOfWeek}}8_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_] | [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.Platonic.{{DayOfWeek}}8_{{Random:{{Range: 0, 3}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]",
+      "{{WeekDay}}10": "$query {{10HEART}} # [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.Platonic.{{DayOfWeek}}10_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_] | [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.Platonic.{{DayOfWeek}}10_{{Random:{{Range: 0, 3}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]"
      }
     },
     {
@@ -335,8 +340,8 @@
      },
      "Target": "Characters/Dialogue/{{ModId}}_{{NPCNAME}}",
      "Entries": {
-      "{{WeekDay}}8": "$query {{8HEART}} # {{i18n:{{NPCNAME}}.Romantic.{{DayOfWeek}}8_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]",
-      "{{WeekDay}}10": "$query {{10HEART}} # {{i18n:{{NPCNAME}}.Romantic.{{DayOfWeek}}10_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]"
+      "{{WeekDay}}8": "$query {{8HEART}} # [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.Romantic.{{DayOfWeek}}8_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_] | [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.Romantic.{{DayOfWeek}}8_{{Random:{{Range: 0, 3}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]",
+      "{{WeekDay}}10": "$query {{10HEART}} # [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.Romantic.{{DayOfWeek}}10_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_] | [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.Romantic.{{DayOfWeek}}10_{{Random:{{Range: 0, 3}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]"
      }
     },
     {

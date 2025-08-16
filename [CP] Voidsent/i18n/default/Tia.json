@@ -5,9 +5,9 @@
  "BETAS.Tia.Monday_0": "Imagine thinking you're playing 3D chess just because you spilled the pieces on the floor.",
  "BETAS.Tia.Monday_1": "It was just a LITTLE fire, I don't see why everyone's so worked up.{2}$2",
  "BETAS.Tia.Monday_2": "I like my men soft and delicate and my women to be able to murder me with their bare hands.{2}$2",
- "BETAS.Tia.Monday_3": "I found an old note to myself about writing the 'very wrong sm--'.{2}$1#$b#What did you know, past Tia?{2}$3#$b#What horrible thoughts were you entertaining?{2}$3",
+ "BETAS.Tia.Monday_3": "I found an old note to myself about writing the 'very wrong nsfw'.{2}$1#$b#What did you know, past Tia?$3#$b#What horrible thoughts were you entertaining?$3",
  //daily
- "Tia.Monday_0": "Plot is like Soylent Green, you know. It's made of people.#$B#The people are probably more edible, though.#$action {0}DialogueBox {1}Placeholder \"Don't you mean less edible?\" Portraits/{1}Nox Nox#$b#No.$2",
+ "Tia.Monday_0": "Plot is like Soylent Green, you know. It's made of people.#$b#The people are probably more edible, though.#$action {0}DialogueBox {1}Placeholder \"Don't you mean less edible?\" Portraits/{1}Nox Nox#$b#No.$2",
  "Tia.Monday_1": "What is wrong with this character? They have all the structural integrity of jello tossed into a clothes press.$3#$action {0}DialogueBox {1}Placeholder \"Tia, that's mean.\" Portraits/{1}Pau Pau#$b#...True, I should probably apologize to the jello.$2#$b#Honestly, this bit here is like they brought in a three-ring circus when all we asked for was a birthday clown.",
  "Tia.Monday_2": "You know, @, the nice thing about being a cat is that I can eat whatever bothers me.#$action {0}DialogueBox {1}Placeholder \"You might have a problem with the humans.$3\" Portraits/{1}Avi Avi#$b#One bite at a time.$2",
  "Tia.Monday_3": "Okay, time to attack and dethrone God.$2#$b#Wait. Crap.$3#$b#I am once again posting in the wrong reality.$1",
@@ -33,7 +33,7 @@
  //daily
  "Tia.Wednesday_0": "Yeah, try putting that part there.#$action {0}DialogueBox {1}Placeholder \"It broke.\" Portraits/{1}Avi Avi#$b#Okay, you probably shouldn't have listen to me, actually.$1",
  "Tia.Wednesday_1": "Ask me for advice any time you like, @.#$b#I accept payment in the form of manga and head scritches.$2",
- "Tia.Wednesday_2": "$action {0}Message \"Tia appears to be looking at some complicated legal language.\"#$b#Morabyr, who hurt you?$1#$action {0}DialogueBox {1}Placeholder \"Are those tax statutes?$3\" Portraits/{1}Avi Avi#$b#...Yes?$3#$action {0}DialogueBox {1}Placeholder \"Did I miss a bracket?$3\" Portraits/{1}Avi Avi#$action {0}TextAboveHead {1}Nox \"Ooh?\"#$action {0}TextAboveHead {1}Pau \"Ooh?\"#$action {0}TextAboveHead {1}Kis \"Ooh?\"#$action {0}TextAboveHead {1}Avi \"Ooh?\"#$action {0}TextAboveHead {1}Joh \"Ooh?\"#$b#...I got bored and wanted some good old fashioned human tomfoolery, bite me.$2",
+ "Tia.Wednesday_2": "$action {0}Message \"Tia appears to be looking at some complicated legal language.\"#$b#Morabyr, who hurt you?$1#$action {0}DialogueBox {1}Placeholder \"Are those tax statutes?$3\" Portraits/{1}Avi Avi#$b#...Yes?$3#$action {0}DialogueBox {1}Placeholder \"Did I miss a bracket?$3\" Portraits/{1}Avi Avi#$action {0}TextAboveHead {1}Nox \"...\"#$action {0}TextAboveHead {1}Pau \"...\"#$action {0}TextAboveHead {1}Kis \"...\"#$action {0}TextAboveHead {1}Joh \"...\"#$action {0}TextAboveHead {1}Cla \"Ooh??\"#$b#...I got bored and wanted some good old fashioned human tomfoolery, bite me.$2",
  "Tia.Wednesday_3": "Everyone should make art, @, including you.$2#$b#There's no better way of showing yourself to the world.$2#$b#...Whether you SHOULD show your art to the world is a separate question.$3",
 
  //thursday

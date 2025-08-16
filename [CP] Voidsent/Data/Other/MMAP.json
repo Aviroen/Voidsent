@@ -74,7 +74,8 @@
         "Spiderbuttons.BETAS_DialogueBox {{ModId}}_Avi [LocalizedText {{ModId}}/Strings:GraveText]",
         "AddMail Current {{ModId}}_GraveRead now"
        ]
-      }
+      },
+      "Cancel": {}
      }
     },
     "{{ModId}}_Pictures": {
@@ -99,6 +100,111 @@
         "Spiderbuttons.BETAS_ShowMail {{ModId}}_PhotoAlbum1"
        ]
       }
+     }
+    },
+    "{{ModId}}_TrinityNote": {
+     "Question": "[LocalizedText {{ModId}}/Strings:Grave]",
+     "ResponseEntries": {
+      "ReadGrave": {
+       "Label": "[LocalizedText {{ModId}}/Strings:GraveLabel]",
+       "Condition": "",
+       "Actions": [
+        "Spiderbuttons.BETAS_ShowMail {{ModId}}_TrinityNote"
+       ]
+      }
+     }
+    }
+   }
+  },
+  {
+   "Action": "EditData",
+   "Target": "mushymato.MMAP/TAS",
+   "Entries": {
+    "{{ModId}}_Swirly": {
+     "Id": "{{ModId}}_Swirly",
+     "Texture": "LooseSprites/Cursors",
+     "SourceRect": {
+      "X": 553,
+      "Y": 333,
+      "Width": 13,
+      "Height": 13
+     },
+     "Interval": 100,
+     "Frames": 1,
+     "Loops": 9999,
+     "Scale": 2,
+     "RotationChange": 0.05,
+     "LayerDepth": 0,
+     "SpawnDelay": 1000,
+     "LightRadius": 4
+    },
+    "{{ModId}}_Snowman": {
+     "Id": "{{ModId}}_Snowman",
+     "Texture": "Maps/Festivals",
+     "SourceRect": {
+      "X": "{{Random:64,96,128}}",
+      "Y": 352,
+      "Width": 32,
+      "Height": 48
+     },
+     "Interval": 10000,
+     "Frames": 1,
+     "Loops": 999999,
+     "Scale": 1,
+     "RotationChange": 0,
+     "LayerDepth": 0.09,
+     "SpawnDelay": 0,
+     "LightRadius": 4
+    },
+    "{{ModId}}_Snowflower": {
+     "Id": "{{ModId}}_Snowflower",
+     "Texture": "{{ModId}}/Objects",
+     "SourceRect": {
+      "X": 192,
+      "Y": 16,
+      "Width": 16,
+      "Height": 16
+     },
+     "Interval": 10000,
+     "Frames": 1,
+     "Loops": 999999,
+     "Scale": 1,
+     "RotationChange": 0,
+     "LayerDepth": 0,
+     "SpawnDelay": 0,
+     "LightRadius": 4
+    },
+    "{{ModId}}_CauldronSmoke": {
+     "Id": "{{ModId}}_CauldronSmoke",
+     "Texture": "LooseSprites/Cursors",
+     "DrawAboveAlwaysFront": true,
+     "SourceRect": {
+      "X": 372,
+      "Y": 1956,
+      "Width": 10,
+      "Height": 10
+     },
+     "Alpha": 0.75,
+     "AlphaFade": 0.002,
+     "Motion": "0,-0.5",
+     "Acceleration": "-0.002,0",
+     "Interval": 99999,
+     "LayerDepth": 0.144,
+     "SortOffset": 0,
+     "Scale": 0.75,
+     "ScaleChange": 0.01,
+     "Color": "White",
+     "SpawnInterval": 100,
+     // "SpawnDelay": 1000,
+     "RandMin": {
+      "PositionOffset": "-8,0",
+      "LayerDepth": 0,
+      "RotationChange": -0.0613592315155
+     },
+     "RandMax": {
+      "PositionOffset": "16,4",
+      "LayerDepth": 0.01,
+      "RotationChange": 0.0736310778185
      }
     }
    }

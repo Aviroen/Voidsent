@@ -99,6 +99,79 @@
     "{{ModId}}_Iro_arisephoto": "610 {{CrimsonGrove}} 22 41 2/1200 {{CrimsonGrove}} 22 41 2 {{ModId}}_Iro_arisephoto/1500 {{CrimsonGrove}} 22 41 2"
    }
   },
+  {
+   "Action": "EditData",
+   "Target": "Spiderbuttons.CMF/Museums",
+   "Entries": {
+    "{{ModId}}_CichlidianMuseum": { //entry and id need to be location
+     "Id": "{{ModId}}_CichlidianMuseum",
+     "Bounds": {
+      "X": 10,
+      "Y": 10,
+      "Width": 13,
+      "Height": 7
+     },
+     "ShowDonationHint": true,
+     "OverrideDescription": false,
+     "DonationRequirements": [
+      {
+       "Id": "{{ModId}}_ArtifactContextTag",
+       "ItemIds": null,
+       "ContextTags": [
+        "{{ModId}}_Artifact1"
+       ],
+       "Categories": null,
+       "MatchType": "Any"
+      }
+     ],
+     "AllowRetrieval": false,
+     "Rewards": [
+      {
+       "Id": "{{ModId}}_FirstReward",
+       "Requirements": [
+        {
+         "Id": "{{ModId}}_ParsnipRequirement",
+         "ItemIds": [
+          "(O)24"
+         ],
+         "Count": 1
+        }
+       ],
+       "RewardItems": [
+        {
+         "Id": "{{ModId}}_EmeraldReward",
+         "ItemId": "(O)60"
+        }
+       ]
+      }
+     ],
+     "Milestones": [
+      5,
+      10,
+      15,
+      20,
+      25
+     ],
+     "Strings": {
+      "OnDonation": "{{i18n:OnDonation}}",
+      "OnMilestone": "{{i18n:OnMilestone}}",
+      "OnCompletion": "{{i18n:OnCompletion}}",
+      "MenuDonate": "{{i18n:MenuDonate}}",
+      "MenuCollect": "{{i18n:MenuCollect}}",
+      "MenuRearrange": "{{i18n:MenuRearrange}}",
+      "MenuRetrieve": "{{i18n:MenuRetrieve}}",
+      "Busy_Owner": "{{i18n:BusyOwner}}",
+      "Busy_NoOwner": "{{i18n:NoOwner}}",
+      "MuseumComplete_Owner": "{{i18n:CompleteOwner}}",
+      "MuseumComplete_NoOwner": "{{i18n:CompleteNoOwner}}",
+      "NothingToDonate_Owner": "{{i18n:NothingOwner}}",
+      "NothingToDonate_NoOwner": "{{i18n:NothingNoOwner}}",
+      "NoDonations_Owner": "{{i18n:NoDonationsOwner}}",
+      "NoDonations_NoOwner": "{{i18n:NoDonationsNoOwner}}"
+     }
+    }
+   }
+  }
   /*
   {
    "Action": "EditData",
@@ -148,6 +221,8 @@
      "Action": "IncrementStat SpringLetterQuests 1"
     }
    }
-  },*/
+  },
+
+  */
  ]
 }

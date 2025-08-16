@@ -1,18 +1,20 @@
 {
- "Human": "Human",
-
  "Human.DumpsterDiveComment": "%Hey! That's gross!",
  "Human.HitBySlingshot": "%Excuse me? Do you think I'm a wimp?#$action spacechase0.SpaceCore_DamageCurrentFarmer 50",
  "Human.GreenRain": "%Ooh, the seas bless us with her bounty!",
  "Human.GreenRainFinished": "%Rains, you can never predict them.",
+
  "Merm.DumpsterDiveComment": "%Erm. Just One Bite can handle your money issues if you're struggling that badly...",
  "Merm.HitBySlingshot": "%Hey! I didn't brave the depths of the sea for nothing!#$action spacechase0.SpaceCore_DamageCurrentFarmer 50",
  "Merm.GreenRain": "%Ah, Master Yrsin has done his rain ritual, has he?",
  "Merm.GreenRainFinished": "%It always feels so nice after the rains.",
+
  "Voidketh.DumpsterDiveComment": "%...Our king does not discriminate...",
  "Voidketh.HitBySlingshot": "%We knights of the crown are not to be taken lightly!#$action spacechase0.SpaceCore_DamageCurrentFarmer 50",
  "Voidketh.GreenRain": "%The burdensome rains...",
  "Voidketh.GreenRainFinished": "%I feel weighed down now...",
+
+ "Human": "Human",
  //monday
  //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_
  "BETAS.Human.Monday_0": "%A question of children?#%Children have no place in times of war, ${boy^girl^kid}$.",

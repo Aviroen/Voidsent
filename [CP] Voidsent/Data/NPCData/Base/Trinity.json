@@ -17,8 +17,12 @@
     "HOMEXTILE": "32",
     "HOMEYTILE": "15",
     "HOMEFACING": "down", //left, right, up, down
-    "WIDTH": "32",
-    "HEIGHT": "40",
+    "MUGX": "0",
+    "MUGY": "0",
+    "MUGWID": "16",
+    "MUGHEI": "24",
+    "WIDTH": "16",
+    "HEIGHT": "32",
     "LOVEDGIFTS": "215 218 222 226 611 873", //pepper poppers/tom kha/rhubarb pie/spicy eel/blackberry cob/pina colada
     "LIKEDGIFTS": "906 907 732 610 635 634 797 814", //fruit salad/orange/apricot/poi/trop curry/crab cakes/pearl/squid ink
     "DISLIKEDGIFTS": "category_crafting category_milk category_fertilizer",

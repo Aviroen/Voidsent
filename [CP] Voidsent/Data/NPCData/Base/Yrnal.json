@@ -17,8 +17,12 @@
     "HOMEXTILE": "18",
     "HOMEYTILE": "30",
     "HOMEFACING": "down", //left, right, up, down
+    "MUGX": "8",
+    "MUGY": "0",
+    "MUGWID": "16",
+    "MUGHEI": "24",
     "WIDTH": "32",
-    "HEIGHT": "40",
+    "HEIGHT": "41",
     "LOVEDGIFTS": "166",
     "LIKEDGIFTS": "category_fish",
     "DISLIKEDGIFTS": "category_bait category_ingredients category_monster_loot",

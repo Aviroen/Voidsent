@@ -1,0 +1,256 @@
+{
+
+ "Changes": [
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "ArtificialBeach",
+    "INTERIORORLOCATIONS": "Locations",
+    "XARRIVAL": "9",
+    "YARRIVAL": "4",
+    "MUSIC": "Overcast",
+    "AREA": "ArtificialBeach"
+   }
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/Mines/77377",
+   "PatchMode": "Replace",
+   "FromFile": "Assets/Maps/Patches/AllPatches.tmx",
+   "FromArea": {
+    "X": 0,
+    "Y": 0,
+    "Width": 3,
+    "Height": 4
+   },
+   "ToArea": {
+    "X": 31,
+    "Y": 2,
+    "Width": 3,
+    "Height": 4
+   },
+   "AddWarps": [
+    "32 3 {{ArtificialBeach}} 12 2"
+   ]
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_ArtificialBeach",
+   "MapProperties": {
+    "AmbientLight": "255 255 255",
+    "PassOutSafe": "T",
+    "Outdoors": "T",
+    "mushymato.MMAP_Lightrays": "T",
+    "mushymato.MMAP_WoodsLighting": "T",
+    "NPCWarp": "16 19 {{Morabyr}} 70 94"
+   },
+   "AddWarps": [
+    "12 1 UndergroundMine77377 32 4"
+   ],
+   "MapTiles": [
+    {
+     "Position": {
+      "X": 15,
+      "Y": 26
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "OpenShop {{ModId}}_ShadyShack"
+     }
+    },
+    {
+     "Position": {
+      "X": 19,
+      "Y": 3
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Message EdelGrave"
+      //"Action": "Spiderbuttons.BETAS_Action Spiderbuttons.BETAS_Message \"{{i18n:EdelGrave}}\""
+     }
+    },
+    {
+     "Position": {
+      "X": 16,
+      "Y": 20
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "mushymato.MMAP_QuestionDialogue {{ModId}}_ABMor"
+     }
+    },
+    {
+     "Position": {
+      "X": 13,
+      "Y": 15
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Warp 8 18 {{ModId}}_EdelweissHouse"
+     }
+    }
+   ]
+  },
+  //edelweiss' tower
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "EdelweissHouse",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "7",
+    "YARRIVAL": "16",
+    "MUSIC": "Of Dwarves",
+    "AREA": "ArtificialBeach"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "EdelweissAttic",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "2",
+    "YARRIVAL": "8",
+    "MUSIC": "Plums",
+    "AREA": "ArtificialBeach"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "EdelweissBasement",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "18",
+    "YARRIVAL": "4",
+    "MUSIC": "Of Dwarves",
+    "AREA": "ArtificialBeach"
+   }
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_EdelweissHouse",
+   "AddWarps": [
+    "7 19 {{ModId}}_ArtificialBeach 13 16",
+    "14 3 {{ModId}}_EdelweissBasement 18 4"
+   ],
+   "MapTiles": [
+    {
+     "Position": {
+      "X": 10,
+      "Y": 12
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "mushymato.MMAP_QuestionDialogue {{ModId}}_TrinityNote"
+     }
+    }
+   ]
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_EdelweissAttic",
+   "AddWarps": [
+    "2 10 {{ModId}}_EdelweissHouse 7 3"
+   ]
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_EdelweissBasement",
+   "MapTiles": [
+    {
+     "Position": {
+      "X": 18,
+      "Y": 3
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Warp 14 4 {{ModId}}_EdelweissHouse"
+     }
+    },
+    {
+     "Position": {
+      "X": 4,
+      "Y": 5
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Message CrimsonGroveMessage"
+     }
+    },
+    {
+     "Position": {
+      "X": 8,
+      "Y": 5
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Message MoorMessage"
+     }
+    },
+    {
+     "Position": {
+      "X": 12,
+      "Y": 5
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Message CommonwealthMessage"
+     }
+    },
+    {
+     "Position": {
+      "X": 16,
+      "Y": 5
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Message GroveMessage"
+     }
+    },
+    {
+     "Position": {
+      "X": 4,
+      "Y": 6
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "TouchAction": "MagicWarp {{CrimsonGrove}} 33 43 {{ModId}}_CrimsonGroveUnlock"
+     }
+    },
+    {
+     "Position": {
+      "X": 8,
+      "Y": 6
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "TouchAction": "MagicWarp {{Morabyr}} 3 51 {{ModId}}_MoorUnlock"
+     }
+    },
+    {
+     "Position": {
+      "X": 12,
+      "Y": 6
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "TouchAction": "MagicWarp {{Morabyr}} 150 62 {{ModId}}_CommonwealthUnlock"
+     }
+    },
+    {
+     "Position": {
+      "X": 16,
+      "Y": 6
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "TouchAction": "MagicWarp {{Grove}} 8 17 {{ModId}}_GroveUnlock"
+     }
+    }
+   ]
+  }
+ ]
+}

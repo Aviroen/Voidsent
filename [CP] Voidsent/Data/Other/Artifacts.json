@@ -1,0 +1,229 @@
+{
+ "Changes": [
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/ArtifactTemplate.json",
+   "LocalTokens": {
+    "ITEMNAME": "KisBrick",
+    "SPRITEINDEX": "30",
+    "CONTEXTTAG": "{{ModId}}_Artifact1"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/ArtifactTemplate.json",
+   "LocalTokens": {
+    "ITEMNAME": "PauPoster",
+    "SPRITEINDEX": "31",
+    "CONTEXTTAG": "{{ModId}}_Artifact1"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/ArtifactTemplate.json",
+   "LocalTokens": {
+    "ITEMNAME": "AviKey",
+    "SPRITEINDEX": "32",
+    "CONTEXTTAG": "{{ModId}}_Artifact1"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/ArtifactTemplate.json",
+   "LocalTokens": {
+    "ITEMNAME": "NoxNotes",
+    "SPRITEINDEX": "33",
+    "CONTEXTTAG": "{{ModId}}_Artifact1"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/ArtifactTemplate.json",
+   "LocalTokens": {
+    "ITEMNAME": "TiaTaxes",
+    "SPRITEINDEX": "34",
+    "CONTEXTTAG": "{{ModId}}_Artifact1"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/ArtifactTemplate.json",
+   "LocalTokens": {
+    "ITEMNAME": "JohController",
+    "SPRITEINDEX": "35",
+    "CONTEXTTAG": "{{ModId}}_Artifact1"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/ArtifactTemplate.json",
+   "LocalTokens": {
+    "ITEMNAME": "IroCode",
+    "SPRITEINDEX": "36",
+    "CONTEXTTAG": "{{ModId}}_Artifact1"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/ArtifactTemplate.json",
+   "LocalTokens": {
+    "ITEMNAME": "LinLaptop",
+    "SPRITEINDEX": "37",
+    "CONTEXTTAG": "{{ModId}}_Artifact1"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/ArtifactTemplate.json",
+   "LocalTokens": {
+    "ITEMNAME": "ClaBook",
+    "SPRITEINDEX": "38",
+    "CONTEXTTAG": "{{ModId}}_Artifact1"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/ArtifactTemplate.json",
+   "LocalTokens": {
+    "ITEMNAME": "RokGames",
+    "SPRITEINDEX": "39",
+    "CONTEXTTAG": "{{ModId}}_Artifact1"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/ArtifactTemplate.json",
+   "LocalTokens": {
+    "ITEMNAME": "FFCrystal",
+    "SPRITEINDEX": "40",
+    "CONTEXTTAG": "{{ModId}}_Artifact1"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/ArtifactTemplate.json",
+   "LocalTokens": {
+    "ITEMNAME": "BlobToy",
+    "SPRITEINDEX": "41",
+    "CONTEXTTAG": "{{ModId}}_Artifact1"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/ArtifactTemplate.json",
+   "LocalTokens": {
+    "ITEMNAME": "BlobToyGold",
+    "SPRITEINDEX": "42",
+    "CONTEXTTAG": "{{ModId}}_Artifact1"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/ArtifactTemplate.json",
+   "LocalTokens": {
+    "ITEMNAME": "CursedPin",
+    "SPRITEINDEX": "43",
+    "CONTEXTTAG": "{{ModId}}_Artifact1"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/ArtifactTemplate.json",
+   "LocalTokens": {
+    "ITEMNAME": "SignedOperaTicket",
+    "SPRITEINDEX": "44",
+    "CONTEXTTAG": "{{ModId}}_Artifact1"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/ArtifactTemplate.json",
+   "LocalTokens": {
+    "ITEMNAME": "ToothyPlush",
+    "SPRITEINDEX": "45",
+    "CONTEXTTAG": "{{ModId}}_Artifact1"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/ArtifactTemplate.json",
+   "LocalTokens": {
+    "ITEMNAME": "MiniOnion",
+    "SPRITEINDEX": "46",
+    "CONTEXTTAG": "{{ModId}}_Artifact1"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/ArtifactTemplate.json",
+   "LocalTokens": {
+    "ITEMNAME": "OrchestralRecord",
+    "SPRITEINDEX": "47",
+    "CONTEXTTAG": "{{ModId}}_Artifact1"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/ArtifactTemplate.json",
+   "LocalTokens": {
+    "ITEMNAME": "BootlegCD",
+    "SPRITEINDEX": "48",
+    "CONTEXTTAG": "{{ModId}}_Artifact1"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/ArtifactTemplate.json",
+   "LocalTokens": {
+    "ITEMNAME": "HeroPoster",
+    "SPRITEINDEX": "49",
+    "CONTEXTTAG": "{{ModId}}_Artifact1"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/ArtifactTemplate.json",
+   "LocalTokens": {
+    "ITEMNAME": "MTGCard",
+    "SPRITEINDEX": "50",
+    "CONTEXTTAG": "{{ModId}}_Artifact1"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/ArtifactTemplate.json",
+   "LocalTokens": {
+    "ITEMNAME": "RainbowBranch",
+    "SPRITEINDEX": "51",
+    "CONTEXTTAG": "{{ModId}}_Artifact1"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/ArtifactTemplate.json",
+   "LocalTokens": {
+    "ITEMNAME": "ZodiacPlate",
+    "SPRITEINDEX": "52",
+    "CONTEXTTAG": "{{ModId}}_Artifact1"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/ArtifactTemplate.json",
+   "LocalTokens": {
+    "ITEMNAME": "DogCollar",
+    "SPRITEINDEX": "53",
+    "CONTEXTTAG": "{{ModId}}_Artifact1"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/ArtifactTemplate.json",
+   "LocalTokens": {
+    "ITEMNAME": "HeavyFryingPan",
+    "SPRITEINDEX": "54",
+    "CONTEXTTAG": "{{ModId}}_Artifact1"
+   }
+  }
+ ]
+}

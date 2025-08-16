@@ -17,7 +17,6 @@
    "Target": "Maps/{{ModId}}_GMBlacksmithy",
    "MapProperties": {
     "AmbientLight": "255 255 255",
-    "NPCWarp": "12 7 {{ModId}}_WarpNetwork 1 0",
     "PassOutSafe": "T"
    },
    "AddWarps": [

@@ -8,7 +8,8 @@
       "{{ModId}}_Postcard": "{{i18n:Postcard}}[letterbg {{ModId}}/LetterBG 0][#]{{i18n:PostcardTitle}}",
       "{{ModId}}_TheBeginning": "{{i18n:TheBeginning}}[letterbg {{ModId}}/LetterBG 1][textcolor black][#]{{i18n:TheBeginningTitle}}",
       "{{ModId}}_PhotoAlbum": "{{i18n:Postcard}}[letterbg {{ModId}}/LetterBG 2][#]{{i18n:TheBeginningTitle}}",
-      "{{ModId}}_PhotoAlbum1": "{{i18n:Postcard}}[letterbg {{ModId}}/LetterBG 3][#]{{i18n:TheBeginningTitle}}"
+      "{{ModId}}_PhotoAlbum1": "{{i18n:Postcard}}[letterbg {{ModId}}/LetterBG 3][#]{{i18n:TheBeginningTitle}}",
+      "{{ModId}}_TrinityNote": "{{i18n:TrinityNote}}[letterbg {{ModId}}/LetterBG 4][#]{{i18n:TrinityNoteTitle}}"
      }
     }
   ]

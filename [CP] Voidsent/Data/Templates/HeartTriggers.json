@@ -7,7 +7,7 @@
     "{{ModId}}_{{NPCNAME}}_Heart1": {
      "Id": "{{ModId}}_{{NPCNAME}}_Heart1",
      "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, !PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}.1%&NL&%, PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_{{NPCNAME}} 500",
+     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, !PLAYER_HAS_MAIL Current {{ModId}}_{{NPCNAME}}.1%&NL&%, PLAYER_FRIENDSHIP_POINTS Current {{ModId}}_{{NPCNAME}} 500", //CHANGE THIS OUT FOR .16 WHEN QUESTS CHANGE
      "MarkActionApplied": false,
      "Actions": [
       "Spiderbuttons.BETAS_SetFriendshipPoints {{ModId}}_{{NPCNAME}} 499"

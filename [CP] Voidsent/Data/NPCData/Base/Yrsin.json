@@ -1,5 +1,10 @@
 {
  "Changes": [
+  {
+   "Action": "Load",
+   "Target": "Portraits/{{Yrsin}}_Frenzy, Portraits/{{Yrsin}}_Finger",
+   "FromFile": "Assets/NPCS/{{TargetPathOnly}}/{{TargetWithoutPath}}.png"
+  },
   { //REMEMBER TO CHANGE SPRITES TO HAVE IRO'S ARCANE 3 EYED VOID CAT AS A DUO ANIMATION
    "LogName": "Yrsin",
    "Action": "Include",
@@ -13,10 +18,14 @@
     "OPTIMISM": "Negative", //positive, neutral, negative changes stringsfromcsfiles
     "DARKSKIN": "false",
     "GIFTABLE": "true",
-    "HOMELOCATION": "{{Yrsin}}_Hideout3",
-    "HOMEXTILE": "13",
-    "HOMEYTILE": "8",
+    "HOMELOCATION": "{{Yrsin}}_Hideout1",
+    "HOMEXTILE": "9",
+    "HOMEYTILE": "6",
     "HOMEFACING": "down", //left, right, up, down
+    "MUGX": "8",
+    "MUGY": "0",
+    "MUGWID": "16",
+    "MUGHEI": "24",
     "WIDTH": "32",
     "HEIGHT": "44",
     "LOVEDGIFTS": "{{ModId}}_ShortfinMakoShark, {{ModId}}_DogfishShark, {{ModId}}_FrilledShark, {{ModId}}_ThresherShark, {{ModId}}_BlueShark, {{ModId}}_NurseShark, {{ModId}}_ZebraShark, {{ModId}}_TigerShark, {{ModId}}_BullShark, {{ModId}}_HammerheadShark, {{ModId}}_Shorbk, {{ModId}}_WhaleShark, {{ModId}}_Megalodon, 797, 166",
@@ -77,12 +86,12 @@
     "{{ModId}}_YrsinFinger": {
      "Id": "{{ModId}}_YrsinFinger",
      "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_YrsinFinger",
-     "Portrait": "{{InternalAssetKey: Assets/NPCS/Portraits/{{ModId}}_Yrsin_Finger.png}}"
+     "Portrait": "Portraits/{{Yrsin}}_Finger"
     },
     "{{ModId}}_YrsinFrenzy": {
      "Id": "{{ModId}}_YrsinFrenzy",
      "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_YrsinFrenzy",
-     "Portrait": "{{InternalAssetKey: Assets/NPCS/Portraits/{{ModId}}_Yrsin_Frenzy.png}}"
+     "Portrait": "Portraits/{{Yrsin}}_Frenzy"
     }
    }
   },

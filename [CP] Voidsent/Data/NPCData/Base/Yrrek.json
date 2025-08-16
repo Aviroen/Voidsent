@@ -17,6 +17,10 @@
     "HOMEXTILE": "8",
     "HOMEYTILE": "6",
     "HOMEFACING": "down", //left, right, up, down
+    "MUGX": "8",
+    "MUGY": "0",
+    "MUGWID": "16",
+    "MUGHEI": "24",
     "WIDTH": "32",
     "HEIGHT": "47",
     "LOVEDGIFTS": "166",

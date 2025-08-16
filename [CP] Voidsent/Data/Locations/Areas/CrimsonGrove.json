@@ -1,0 +1,197 @@
+{
+ "Changes": [
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "CrimsonGrove",
+    "INTERIORORLOCATIONS": "Locations",
+    "XARRIVAL": "30",
+    "YARRIVAL": "52",
+    "MUSIC": "mermaidSong",
+    "AREA": "CrimsonGrove"
+   }
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{CrimsonGrove}}",
+   "MapProperties": {
+    "mushymato.MMAP_WaterColor": "Red",
+    "indoorWater": "T",
+    "mushymato.MMAP_Lightrays": "T",
+    "mushymato.MMAP_WoodsLighting": "T",
+    "NPCWarp": "55 7 {{Yrsin}}_Hideout3 9 18"
+    //"Outdoors": "T"
+    //NPCWarp [<int fromX> <int fromY> <string toArea> <int toX> <int toY>]+
+   },
+   "AddWarps": [
+    "30 8 {{ModId}}_Grandberg1 14 28",
+    "31 8 {{ModId}}_Grandberg1 15 28",
+    "58 59 {{Morabyr}} 126 3",
+    "59 59 {{Morabyr}} 127 3",
+    "0 34 {{Grove}} 48 22"
+   ]
+  }, //blacksmithy / duvin's room
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "GMBlacksmithy",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "5",
+    "YARRIVAL": "11",
+    "MUSIC": "mermaidSong",
+    "AREA": "CrimsonGrove"
+   }
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_GMBlacksmithy",
+   "MapProperties": {
+    "AmbientLight": "255 255 255",
+    "PassOutSafe": "T",
+    "indoorWater": "T",
+    "mushymato.MMAP_Lightrays": "T",
+    "mushymato.MMAP_WoodsLighting": "T",
+    "NPCWarp": "8 6 {{ModId}}_Grandberg1 26 7"
+   },
+   "AddWarps": [
+    //"8 19 {{Commonwealth}}"
+    //"9 19 {{Commonwealth}}"
+    //"10 19 {{Commonwealth}}"
+    //"11 19 {{Commonwealth}}"
+   ],
+   "MapTiles": [
+   ]
+  },
+  //fothao's room
+
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "Menagerie",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "10",
+    "YARRIVAL": "6",
+    "MUSIC": "mermaidSong",
+    "AREA": "CrimsonGrove"
+   }
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_Menagerie",
+   "MapProperties": {
+    "AmbientLight": "255 255 255",
+    "Doors": "10 3 0 0",
+    "PassOutSafe": "T",
+    "indoorWater": "T",
+    "mushymato.MMAP_Lightrays": "T",
+    "mushymato.MMAP_WoodsLighting": "T",
+    "NPCWarp": "5 17 {{ModId}}_Grandberg1 26 7"
+   },
+   "AddWarps": [
+    //"8 19 {{Commonwealth}}"
+    //"9 19 {{Commonwealth}}"
+    //"10 19 {{Commonwealth}}"
+    //"11 19 {{Commonwealth}}"
+   ],
+   "MapTiles": [
+    {
+     "Position": {
+      "X": 10,
+      "Y": 3
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "ConditionalDoor PLAYER_HAS_MAIL Current {{Fothao}}_DoorOpen",
+      "EMA_CustomDoor": "{{ModId}}_AviBrownDoor"
+     }
+    },
+    {
+     "Position": {
+      "X": 15,
+      "Y": 22
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "mushymato.MMAP_QuestionDialogue {{ModId}}_Pictures"
+     }
+    },
+    {
+     "Position": {
+      "X": 16,
+      "Y": 22
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "mushymato.MMAP_QuestionDialogue {{ModId}}_Pictures1"
+     }
+    }
+   ]
+  },
+  //grandberg castle interior
+
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "Grandberg1",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "14",
+    "YARRIVAL": "29",
+    "MUSIC": "mermaidSong",
+    "AREA": "Grandberg"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "Grandberg2",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "14",
+    "YARRIVAL": "20",
+    "MUSIC": "mermaidSong",
+    "AREA": "Grandberg"
+   }
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_Grandberg1",
+   "MapProperties": {
+    "mushymato.MMAP_WaterColor": "Red",
+    "TreatAsOutdoors": "T",
+    "mushymato.MMAP_Lightrays": "T",
+    "mushymato.MMAP_WoodsLighting": "T",
+    "DayTiles": "AlwaysFront 9 14 907 AlwaysFront 11 8 907 AlwaysFront 18 8 907 AlwaysFront 20 14 907",
+    "NightTiles": "AlwaysFront 9 14 908 AlwaysFront 11 8 908 AlwaysFront 18 8 908 AlwaysFront 20 14 908",
+    "NPCWarp": "26 19 {{ModId}}_GMBlacksmithy 1 12 26 25 {{ModId}}_Menagerie 10 4"
+   },
+   "AddWarps": [
+    "14 29 {{CrimsonGrove}} 28 11",
+    "15 29 {{CrimsonGrove}} 29 11",
+    "13 0 {{ModId}}_Grandberg2 13 28",
+    "14 0 {{ModId}}_Grandberg2 16 28",
+    "15 0 {{ModId}}_Grandberg2 13 28",
+    "16 0 {{ModId}}_Grandberg2 13 28"
+   ]
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_Grandberg2",
+   "MapProperties": {
+    "mushymato.MMAP_WaterColor": "Red",
+    "indoorWater": "T",
+    "mushymato.MMAP_Lightrays": "T",
+    "mushymato.MMAP_WoodsLighting": "T"
+   },
+   "AddWarps": [
+    "13 29 {{ModId}}_Grandberg1 10 4",
+    "14 29 {{ModId}}_Grandberg1 10 4",
+    "15 29 {{ModId}}_Grandberg1 19 4",
+    "16 29 {{ModId}}_Grandberg1 19 4"
+   ]
+  }
+ ]
+}
