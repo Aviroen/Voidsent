@@ -152,7 +152,7 @@
    "Action": "EditData",
    "Target": "Characters/Dialogue/{{ModId}}_{{NPCNAME}}",
    "Entries": {
-    "{{WeekDay}}": "[LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, 3}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]"
+    "{{WeekDay}}": "[LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]"
    }
   },
   {

@@ -194,7 +194,7 @@
     "HitBySlingshot": "{{i18n:{{TYPEOFPERSON}}.HitBySlingshot}}",
     "GreenRain": "{{i18n:{{TYPEOFPERSON}}.GreenRain}}",
     "GreenRainFinished": "{{i18n:{{TYPEOFPERSON}}.GreenRainFinished}}",
-    "{{WeekDay}}": "{{i18n:{{TYPEOFPERSON}}.{{DayOfWeek}}_{{Random:{{Range: 0, 3}}}}}}"
+    "{{WeekDay}}": "{{i18n:{{TYPEOFPERSON}}.{{DayOfWeek}}"
    }
   }
  ]
