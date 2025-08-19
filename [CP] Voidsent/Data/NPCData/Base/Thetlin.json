@@ -42,13 +42,13 @@
     "SUMMERSCHEDULE": "GOTO spring",
     "FALLSCHEDULE": "GOTO spring",
     "WINTERSCHEDULE": "GOTO spring",
-    "MONDAYSCHEDULE": "GOTO spring",
-    "TUESDAYSCHEDULE": "GOTO spring",
-    "WEDNESDAYSCHEDULE": "GOTO spring",
-    "THURSAYSCHEDULE": "GOTO spring",
-    "FRIDAYSCHEDULE": "GOTO spring",
-    "SATURDAYSCHEDULE": "GOTO spring",
-    "SUNDAYSCHEDULE": "GOTO spring",
+    "MONDAYSCHEDULE": "GOTO spring", //paperwork
+    "TUESDAYSCHEDULE": "GOTO spring", //lysella chitchatting
+    "WEDNESDAYSCHEDULE": "GOTO spring", //muvi talks, begrudgingly
+    "THURSAYSCHEDULE": "GOTO spring", //visiting edelweiss
+    "FRIDAYSCHEDULE": "GOTO spring", //visiting with trinity
+    "SATURDAYSCHEDULE": "GOTO spring", //talking with yrsin
+    "SUNDAYSCHEDULE": "GOTO spring", //relaxing outside the tower
 
     //HEART DIALOGUES
     "2HEART": true, //true/false

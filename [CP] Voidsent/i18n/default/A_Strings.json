@@ -110,6 +110,7 @@
  "BreakfastInnBed": "Breakfast Inn Bed: Main Floor",
  "BreakfastInnBed1": "Breakfast Inn Bed: Floor 2",
  "Cichlidian": "Cichlidian Jewelry",
+ "CichlidianMuseum": "Cichlidian Museum",
  "Codfather": "The Codfather",
  "JustOneBite": "Just One Bite",
 
@@ -982,6 +983,23 @@
  "Hideout5.Sign": "Reminder to self:#Yrnal likes salmon.#Yrrek likes tuna.#Syrsa only eats mackerel.",
  "TentUnallowed": "It's not safe to sleep here. You should probably find real shelter.",
  "DoorUnlock_NotFriend_Undefined": "You're not good enough friends with {0} to enter their bedroom.",
+
+ //museum
+ "OnDonation": "Thank you {0} for the {1}.",
+ "OnMilestone": "{0} has contributed {1} to the museum for a milestone!",
+ "OnCompletion": "{0} has completed the {1}!",
+ "MenuDonate": "Would you like to donate?",
+ "MenuCollect": "Collect your museum rewards!",
+ "MenuRearrange": "Would you like to rearrange the museum?",
+ "MenuRetrieve": "Would you like to retrieve items?",
+ "Busy_Owner": "There's no one here to service the museum.",
+ "Busy_NoOwner": "There's no one here to service the museum.",
+ "MuseumComplete_Owner": "Congratulations on completing the museum!",
+ "MuseumComplete_NoOwner": "Congratulations on completing the museum!",
+ "NothingToDonate_Owner": "You don't have anything to donate.",
+ "NothingToDonate_NoOwner": "You don't have anything to donate.",
+ "NoDonations_Owner": "There's nothing in the museum.",
+ "NoDonations_NoOwner": "There's nothing in the museum.",
 
  "Quest.1": "Enter, Oblivion",
  "Quest.1.Description": "Figure out the secrets of Grandberg.",

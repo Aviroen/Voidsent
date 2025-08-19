@@ -1,0 +1,37 @@
+﻿{{ModId}}_Warp
+
+Edelweiss:
+{{ModId}}_CrimsonGroveUnlock
+{{ModId}}_MoorUnlock
+{{ModId}}_CommonwealthUnlock
+{{ModId}}_GroveUnlock
+
+Yrsin:
+{{ModId}}_YrsinHideoutsUnlocked
+
+
+///////////// C R E D I T S /////////////
+Building Templates:
+Lumisteria Buildings
+
+Random Red/Blue trees:
+AirynS
+
+Fish, Shorbkie Farm Animal, Goldie, Fish Dishes:
+SuzukiPC
+
+Museum Artifact Writing (not the cat items):
+Tiakall
+
+A lot of the C#:
+irocendar
+
+Dealing with my bullshit:
+Rokugin, Spiderbuttons, Mushymato, irocendar, Tiakall, SuzukiPC, crystalinerose, Pixeltica, ClaireStoryOfSeasons
+
+Yelling at me that my maps are square:
+crystalinerose
+
+My brainworm holder:
+Pixeltica
+

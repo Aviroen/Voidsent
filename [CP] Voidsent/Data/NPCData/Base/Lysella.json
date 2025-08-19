@@ -42,15 +42,10 @@
     "SUMMERSCHEDULE": "GOTO spring",
     "FALLSCHEDULE": "GOTO spring",
     "WINTERSCHEDULE": "GOTO spring",
-    //hammering
-    "MONDAYSCHEDULE": "GOTO spring",
-    //alchemy
-    "TUESDAYSCHEDULE": "GOTO spring",
-    //reading
-    "WEDNESDAYSCHEDULE": "GOTO spring",
-    //grave
-    "THURSAYSCHEDULE": "GOTO spring",
-    //hammer
+    "MONDAYSCHEDULE": "610 {{ModId}}_Cichlidian 13 15 2/1200 {{ModId}}_Cichlidian 12 8 0", //lysella needs a sleeping area, deal with this later
+    "TUESDAYSCHEDULE": "610 {{ModId}}_GrandMinistry 17 23 0/1800 {{ModId}}_Cichlidian 12 8 0", //chitchatting with thetlin
+    "WEDNESDAYSCHEDULE": "610 {{Morabyr}} 79 68 2/1400 {{ModId}}_Cichlidian 13 15 2", //fresh air
+    "THURSAYSCHEDULE": "610 {{Morabyr}} 49 12 2/1400 {{ModId}}_Cichlidian 13 15 2", //shit talking sai
     "FRIDAYSCHEDULE": "GOTO spring",
     "SATURDAYSCHEDULE": "GOTO spring",
     "SUNDAYSCHEDULE": "GOTO spring",

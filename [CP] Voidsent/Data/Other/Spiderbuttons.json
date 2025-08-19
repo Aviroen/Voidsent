@@ -130,10 +130,7 @@
        "Id": "{{ModId}}_FirstReward",
        "Requirements": [
         {
-         "Id": "{{ModId}}_ParsnipRequirement",
-         "ItemIds": [
-          "(O)24"
-         ],
+         "Id": "{{ModId}}_1Count",
          "Count": 1
         }
        ],

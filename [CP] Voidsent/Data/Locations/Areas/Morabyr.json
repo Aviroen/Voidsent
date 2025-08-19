@@ -561,14 +561,34 @@
     "PassOutSafe": "T"
    },
    "AddWarps": [
-    "6 19 {{Morabyr}} 81 68",
-    "7 19 {{Morabyr}} 81 68",
-    "8 19 {{Morabyr}} 81 68",
     "9 19 {{Morabyr}} 81 68",
     "10 19 {{Morabyr}} 81 68",
-    "11 19 {{Morabyr}} 81 68",
-    "12 19 {{Morabyr}} 81 68",
-    "13 19 {{Morabyr}} 81 68"
+    "19 11 {{ModId}}_CichlidianMuseum 1 11"
+   ],
+   "MapTiles": [
+   ]
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "CichlidianMuseum",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "8",
+    "YARRIVAL": "18",
+    "MUSIC": "mermaidSong",
+    "AREA": "Morabyr"
+   }
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_CichlidianMuseum",
+   "MapProperties": {
+    "AmbientLight": "255 255 255",
+    "PassOutSafe": "T"
+   },
+   "AddWarps": [
+    "0 11 {{ModId}}_Cichlidian 18 11"
    ],
    "MapTiles": [
    ]
@@ -765,7 +785,7 @@
      }
     }
    ]
-  },
+  }
 
  ]
 }
