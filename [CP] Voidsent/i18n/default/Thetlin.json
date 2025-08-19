@@ -16,10 +16,10 @@
  "Thetlin.ExSpouse": "(ex-spouse)",
  "Thetlin.Single": "(single)",
  //door unlock
- "Thetlin.NotFriend_Door": "no dialogue",
+ "Thetlin.NotFriend_Door": "Thetlin has not given you permission to enter this door.",
 
  //gift taste dialogue
- "Thetlin.Gifts.Loved": "no dialogue",
+ "Thetlin.Gifts.Loved": "Oh?$3#$b#Did Muvi tell you what I like?$1#$b#What a sweet child.$1",
  "Thetlin.Gifts.Liked": "no dialogue",
  "Thetlin.Gifts.Disliked": "no dialogue",
  "Thetlin.Gifts.Hated": "no dialogue",
@@ -53,10 +53,10 @@
  "BETAS.Thetlin.Monday_2": "no dialogue",
  "BETAS.Thetlin.Monday_3": "no dialogue",
  //daily
- "Thetlin.Monday_0": "no dialogue",
- "Thetlin.Monday_1": "no dialogue",
- "Thetlin.Monday_2": "no dialogue",
- "Thetlin.Monday_3": "no dialogue",
+ "Thetlin.Monday_0": "If you have no business regarding contract work, discuss things with Muvi.",
+ "Thetlin.Monday_1": "Is there a reason why you are interrupting my work?",
+ "Thetlin.Monday_2": "I assure you, whatever qualms you have regarding the tower can be discussed with Muvi.",
+ "Thetlin.Monday_3": "Can I help you?$5",
  //2 heart
  "Thetlin.Monday2_0": "no dialogue",
  "Thetlin.Monday2_1": "no dialogue",

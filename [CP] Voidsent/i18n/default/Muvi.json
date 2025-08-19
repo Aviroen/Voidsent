@@ -1,5 +1,6 @@
 {
  "Muvi": "Muvi",
+ "Muvi.RejectPendant": "Sorry, I don't know what that I'm supposed to do with this.",
  "Muvi.RejectTea": "Sorry, I don't know what that I'm supposed to do with this.",
  //start of characters/dialogue/npc
  //door unlock
@@ -20,24 +21,24 @@
  "Muvi.RejectMermaidPendant": "Sorry, I'm quite comfortable with my life as it is.$1",
  "Muvi.RejectMovieTicket": "I'm not quite interested in watching myself.$6",
  "Muvi.GreenRain": "Green rains!$1#$b#Hopefully this batch of potions will make Linlin happy.$1",
- "Muvi.GreenRainFinished": "I've asked Edelweiss to bring about several casks of the rains, I hope their gathering was fruitful.$1",
+ "Muvi.GreenRainFinished": "I've asked Weiss to bring about several casks of the rains, I hope their gathering was fruitful.$1",
 
  //monday
  //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_
- "BETAS.Muvi.Monday_0": "no dialogue",
- "BETAS.Muvi.Monday_1": "no dialogue",
- "BETAS.Muvi.Monday_2": "no dialogue",
- "BETAS.Muvi.Monday_3": "no dialogue",
+ "BETAS.Muvi.Monday_0": "Oh, hello!{2}$1#$b#Have you come to purchase some potions?$1#$b#I'm afraid you're in the wrong building for that, Donnlo's is the other one just up north.$7",
+ "BETAS.Muvi.Monday_1": "Interested in the books here?$1{2}#$b#They're all protected with a light barrier magic, so feel free to read them if you like.$1",
+ "BETAS.Muvi.Monday_2": "Please don't bother Master Thetlin too much.#$b#I--I already have enough on my plate as it is.$6",
+ "BETAS.Muvi.Monday_3": "Rao?{2}$3#$b#Well he--$6#$b#Well let's just call him a visitor.$1",
  //daily
- "Muvi.Monday_0": "no dialogue",
- "Muvi.Monday_1": "no dialogue",
- "Muvi.Monday_2": "no dialogue",
- "Muvi.Monday_3": "no dialogue",
+ "Muvi.Monday_0": "No... no...$6#$b#The formula for that doesn't sound quite right...$5#$action {0}TextAboveHead {1}Muvi \"Yainp en du telhn na maxu doo tuhotnatup selens na nhu nuhn?\"", //Would it be right to move the refactored sigils to the left?
+ "Muvi.Monday_1": "Hmm... I shouldn't really bother Weiss about this again...$6#$action {0}TextAboveHead {1}Muvi \"Din nhes hatmino es tuonnol tamnetonup...\"", //But this formula is really complicated...
+ "Muvi.Monday_2": "Linli-$3#$b#Right, she said she needed to focus in this week's paperwork...$6#$action {0}TextAboveHead {1}Muvi \"Yhon yos doo nosn eltupeun na nhes tatatnea nhailh...\"", //What was the last ingredient to this concoction though...
+ "Muvi.Monday_3": "Ah!$3#$b#I almost forgot Yrsin's order.$6#$b#But he still owes me sushi...$6#$action {0}TextAboveHead {1}Muvi \"Oooldu E to punool en lisn o nennnu den...\"", //Maybe I can delay it just a little bit...
  //2 heart
- "Muvi.Monday2_0": "no dialogue",
- "Muvi.Monday2_1": "no dialogue",
- "Muvi.Monday2_2": "no dialogue",
- "Muvi.Monday2_3": "no dialogue",
+ "Muvi.Monday2_0": "Ah, my head hurts...$5#$b#Was it this formula, or that one?$5#$b#How long ago was it?$6#$action {0}TextAboveHead {1}Muvi \"Oooldu en yos hexu nits ola?\"", //Maybe it was five turns ago?
+ "Muvi.Monday2_1": "Is there a record somewhere amongst the books...$5#$b#Or was that a few turns ago...$5#$b#I think I'll just have some tea before trying this again...$6#$action {0}TextAboveHead {1}Muvi \"Yos doo tutatp hutu duhatu at ohnut E simmaup Toa?\"", //Was the record here before or after I summoned Rao?
+ "Muvi.Monday2_2": "No, no, I definitely remember I left the records in this pile right here...$6#$action {0}TextAboveHead {1}Muvi \"Din mooldu nhon yos samu nits ola...\"", //But maybe that was some turns ago...
+ "Muvi.Monday2_3": "Oh.$4#$b#Oh?$3#$b#Is that the reason why the summoning--$3#$action {0}TextAboveHead {1}Muvi \"E mool hoxu mesenuttunup o tiu...\"", //I may have misinterpreted a rune...
  "BETAS.Muvi.Monday2_0": "no dialogue",
  "BETAS.Muvi.Monday2_1": "no dialogue",
  "BETAS.Muvi.Monday2_2": "no dialogue",

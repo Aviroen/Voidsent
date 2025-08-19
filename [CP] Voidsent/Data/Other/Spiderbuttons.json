@@ -130,17 +130,97 @@
        "Id": "{{ModId}}_FirstReward",
        "Requirements": [
         {
-         "Id": "{{ModId}}_ParsnipRequirement",
-         "ItemIds": [
-          "(O)24"
-         ],
+         "Id": "{{ModId}}_FirstReward",
          "Count": 1
         }
        ],
        "RewardItems": [
         {
-         "Id": "{{ModId}}_EmeraldReward",
-         "ItemId": "(O)60"
+         "Id": "{{ModId}}_Shorbkie",
+         "ItemId": "(O){{ModId}}_Shorbkie"
+        }
+       ]
+      },
+      {
+       "Id": "{{ModId}}_FiveReward",
+       "Action": "AddMail All {{ModId}}_ShjorbkUnlock received",
+       "Requirements": [
+        {
+         "Id": "{{ModId}}_FiveReward",
+         "Count": 5
+        }
+       ],
+       "RewardItems": [
+        {
+         "Id": "{{ModId}}_Shorbkie",
+         "ItemId": "(O){{ModId}}_Shorbkie",
+         "MinStack": 5
+        }
+       ]
+      },
+      {
+       "Id": "{{ModId}}_TenReward",
+       "Action": "AddMail All {{ModId}}_GoldieUnlock received",
+       "Requirements": [
+        {
+         "Id": "{{ModId}}_TenReward",
+         "Count": 10
+        }
+       ],
+       "RewardItems": [
+        {
+         "Id": "{{ModId}}_FishPiccata",
+         "ItemId": "(O){{ModId}}_FishPiccata",
+         "MinStack": 5
+        }
+       ]
+      },
+      {
+       "Id": "{{ModId}}_FifteenReward",
+       "Requirements": [
+        {
+         "Id": "{{ModId}}_FifteenReward",
+         "Count": 15
+        }
+       ],
+       "RewardItems": [
+        {
+         "Id": "{{ModId}}_FishFlorentine",
+         "ItemId": "(O){{ModId}}_FishFlorentine",
+         "MinStack": 5
+        }
+       ]
+      },
+      {
+       "Id": "{{ModId}}_TwentyReward",
+       "Requirements": [
+        {
+         "Id": "{{ModId}}_TwentyReward",
+         "Count": 20
+        }
+       ],
+       "RewardItems": [
+        {
+         "Id": "{{ModId}}_FishRisotto",
+         "ItemId": "(O){{ModId}}_FishRisotto",
+         "MinStack": 5
+        }
+       ]
+      },
+      {
+       "Id": "{{ModId}}_TwentyFiveReward",
+       "Action": "AddMail All {{ModId}}_AviKey received",
+       "Requirements": [
+        {
+         "Id": "{{ModId}}_TwentyFiveReward",
+         "Count": 25
+        }
+       ],
+       "RewardItems": [
+        {
+         "Id": "{{ModId}}_MegalodonSashimi",
+         "ItemId": "(O){{ModId}}_MegalodonSashimi",
+         "MinStack": 5
         }
        ]
       }
