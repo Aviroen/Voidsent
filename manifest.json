@@ -17,7 +17,7 @@
   "Dependencies": [
     {
       "UniqueID": "Pathoschild.ContentPatcher",
-      "MinimumVersion": "2.7.3"
+      "MinimumVersion": "2.7.6"
     }
   ],
   "UpdateKeys": [

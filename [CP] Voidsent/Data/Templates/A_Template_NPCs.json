@@ -304,9 +304,9 @@
       "WipedMemory": "{{i18n:{{NPCNAME}}.WipedMemory}}",
       "AcceptBouquet": "{{i18n:{{NPCNAME}}.AcceptBouquet}}",
       "MovieInvitation": "{{i18n:{{NPCNAME}}.MovieInvitation}}",
-      "RejectBouquet": "{{i18n:{{NPCNAME}}.RejectBouquet}}",
+      "RejectBouquet": "{{i18n:{{NPCNAME}}.RejectBouquet}}",//low hearts i assume
       "RejectGift_Divorced": "{{i18n:{{NPCNAME}}.RejectGift_Divorced}}",
-      "RejectMermaidPendant": "{{i18n:{{NPCNAME}}.RejectMermaidPendant}}",
+      "RejectMermaidPendant": "{{i18n:{{NPCNAME}}.RejectMermaidPendant}}",//low hearts i assume
       "RejectMovieTicket": "{{i18n:{{NPCNAME}}.RejectMovieTicket}}",
       "GreenRain": "{{i18n:{{NPCNAME}}.GreenRain}}",
       "GreenRainFinished": "{{i18n:{{NPCNAME}}.GreenRainFinished}}",

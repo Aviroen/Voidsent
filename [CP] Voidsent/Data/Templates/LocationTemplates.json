@@ -78,54 +78,56 @@
     "{{ModId}}_ShortfinMakoShark": {
      "Id": "{{ModId}}_ShortfinMakoShark",
      "ItemID": "(O){{ModId}}_ShortfinMakoShark",
-     "Chance": 0.02
+     "Chance": 0.2
     },
     "{{ModId}}_DogfishShark": {
      "Id": "{{ModId}}_DogfishShark",
      "ItemID": "(O){{ModId}}_DogfishShark",
-     "Chance": 0.02
+     "Chance": 0.2
     },
     "{{ModId}}_FrilledShark": {
      "Id": "{{ModId}}_FrilledShark",
      "ItemID": "(O){{ModId}}_FrilledShark",
-     "Chance": 0.02
+     "Chance": 0.2
     },
     "{{ModId}}_ThresherShark": {
      "Id": "{{ModId}}_ThresherShark",
      "ItemID": "(O){{ModId}}_ThresherShark",
-     "Chance": 0.02
+     "Chance": 0.2
     },
     "{{ModId}}_BlueShark": {
      "Id": "{{ModId}}_BlueShark",
      "ItemID": "(O){{ModId}}_BlueShark",
-     "Chance": 0.02
+     "Chance": 0.2
     },
     "{{ModId}}_NurseShark": {
      "Id": "{{ModId}}_NurseShark",
      "ItemID": "(O){{ModId}}_NurseShark",
-     "Chance": 0.02
+     "Chance": 0.2
     },
     "{{ModId}}_ZebraShark": {
      "Id": "{{ModId}}_ZebraShark",
      "ItemID": "(O){{ModId}}_ZebraShark",
-     "Chance": 0.02
+     "Chance": 0.2
     },
     "{{ModId}}_TigerShark": {
      "Id": "{{ModId}}_TigerShark",
      "ItemID": "(O){{ModId}}_TigerShark",
-     "Chance": 0.02
+     "Chance": 0.2
     },
     "{{ModId}}_BullShark": {
      "Id": "{{ModId}}_BullShark",
      "ItemID": "(O){{ModId}}_BullShark",
-     "Chance": 0.02
+     "Chance": 0.2
     },
     "{{ModId}}_HammerheadShark": {
      "Id": "{{ModId}}_HammerheadShark",
      "ItemID": "(O){{ModId}}_HammerheadShark",
-     "Chance": 0.02
+     "Chance": 0.2
     },
     "{{ModId}}_Shorbk": {
+     "CatchLimit": 1,
+     "IsBossFish": true,
      "Id": "{{ModId}}_Shorbk",
      "ItemID": "(O){{ModId}}_Shorbk",
      "Chance": 0.002
@@ -133,12 +135,35 @@
     "{{ModId}}_WhaleShark": {
      "Id": "{{ModId}}_WhaleShark",
      "ItemID": "(O){{ModId}}_WhaleShark",
-     "Chance": 0.02
+     "Chance": 0.2
     },
     "{{ModId}}_Megalodon": {
+     "CatchLimit": 1,
+     "IsBossFish": true,
      "Id": "{{ModId}}_Megalodon",
      "ItemID": "(O){{ModId}}_Megalodon",
      "Chance": 0.002
+    },
+    "{{ModId}}_RandomFish": {
+     "Id": "(O)128|(O)130|(O)139|(O)142|(O)143|(O)148|(O)149|(O)151|(O)152|(O)153|(O)154|(O)155|(O)156|(O)SeaJelly",
+     "ItemID": null,
+     "RandomItemId": [
+      "(O)128",
+      "(O)130",
+      "(O)139",
+      "(O)142",
+      "(O)143",
+      "(O)148",
+      "(O)149",
+      "(O)151",
+      "(O)152",
+      "(O)153",
+      "(O)154",
+      "(O)155",
+      "(O)156",
+      "(O)SeaJelly"
+     ],
+     "Chance": 1.0
     }
    }
   }

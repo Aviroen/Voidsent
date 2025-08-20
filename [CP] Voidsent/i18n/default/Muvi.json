@@ -39,19 +39,19 @@
  "Muvi.Monday2_1": "Is there a record somewhere amongst the books...$5#$b#Or was that a few turns ago...$5#$b#I think I'll just have some tea before trying this again...$6#$action {0}TextAboveHead {1}Muvi \"Yos doo tutatp hutu duhatu at ohnut E simmaup Toa?\"", //Was the record here before or after I summoned Rao?
  "Muvi.Monday2_2": "No, no, I definitely remember I left the records in this pile right here...$6#$action {0}TextAboveHead {1}Muvi \"Din mooldu nhon yos samu nits ola...\"", //But maybe that was some turns ago...
  "Muvi.Monday2_3": "Oh.$4#$b#Oh?$3#$b#Is that the reason why the summoning--$3#$action {0}TextAboveHead {1}Muvi \"E mool hoxu mesenuttunup o tiu...\"", //I may have misinterpreted a rune...
- "BETAS.Muvi.Monday2_0": "no dialogue",
- "BETAS.Muvi.Monday2_1": "no dialogue",
- "BETAS.Muvi.Monday2_2": "no dialogue",
- "BETAS.Muvi.Monday2_3": "no dialogue",
+ "BETAS.Muvi.Monday2_0": "My sigils?{2}$3#$b#Oh, yes, the magic formulas!$1#$b#They're a burnt reminder of... well...$6#$b#Let's not get into it today, okay?$7",
+ "BETAS.Muvi.Monday2_1": "Please be careful around the glassware.{2}$4#$b#Some of them hold dangerous potions.$6#$action {0}TextAboveHead {1}Muvi \"E lisn pa'n tumumdut yhon tanat es yhon...\"", //I just don't remember what color is what...
+ "BETAS.Muvi.Monday2_2": "Dwarvish? I'm very fluent, yes!{2}$1#$b#Most of my magic formulas have a bit of dwarvish magic in them.$1#$b#They have a nuanced way of writing.$1#$action {0}TextAboveHead {1}Muvi \"Eo olai an iputsnop nhes hatm ah pyotxesh?\"", //Can you not understand this form of dwarvish?
+ "BETAS.Muvi.Monday2_3": "Hmm hmm hmm.=$6#$b#Olai'tu ain ah naith, E'm ain ah nemu.=$6", //You're out of touch, I'm out of time.
  //4 heart
- "Muvi.Monday4_0": "no dialogue",
- "Muvi.Monday4_1": "no dialogue",
- "Muvi.Monday4_2": "no dialogue",
- "Muvi.Monday4_3": "no dialogue",
- "BETAS.Muvi.Monday4_0": "no dialogue",
- "BETAS.Muvi.Monday4_1": "no dialogue",
- "BETAS.Muvi.Monday4_2": "no dialogue",
- "BETAS.Muvi.Monday4_3": "no dialogue",
+ "Muvi.Monday4_0": "Rao???$3#$action {0}DialogueBox {1}Placeholder \"Yes?\" Portraits/Rao Rao#$b#Can you... uh... Can you help me get my hand out...$2#$action {0}DialogueBox {1}Placeholder \"...No. Sit there for a bit and think about what you've done.$3\" Portraits/Rao Rao#$action {0}ShakeNpc {1}Muvi 1000#$action {0}TextAboveHead {1}Muvi \"*Whimper*\"",
+ "Muvi.Monday4_1": "Please?$1#$action {0}DialogueBox {1}Placeholder \"...No.$3\" Portraits/Rao Rao#$b#With... sugar on top?$2#$action {0}DialogueBox {1}Placeholder \"No.$3\" Portraits/Rao Rao#$b#I'll give you a month off of work?$2#$action {0}DialogueBox {1}Placeholder \"...$$6\" Portraits/Rao Rao#$b#...A month and a half? I can't exist any longer without your help!$2#$action {0}DialogueBox {1}Placeholder \"...Fine.$3\" Portraits/Rao Rao#$action {0}Jump {1}Muvi#$b#Yay!$1#$action {0}DialogueBox {1}Placeholder \"But only for thirty minutes! Any longer than that of rubbing my wings and it gets... itchy.$5\" Portraits/Rao_Wings Rao#$b#Hmmn. I would've thought a month and a half off of work would've at least been an hour.$6",
+ "Muvi.Monday4_2": "...That test didn't give me enough information.$5#$b#But there's no real way to test the magic density around the castle without problems...$6#$b#Unless I could convince Thandael...$3",
+ "Muvi.Monday4_3": "I should jot this down on a note for the next time I see Weiss.$6#$b#Knowing me, I'd probably lose this one.$6#$b#Rao?#$action {0}DialogueBox {1}Placeholder \"...?\" Portraits/Rao Rao#$b#Can you make a note for me to osm Yuess odain doo ntoshelitonea ah nhu nosn dnotm molet hatmino?#$action {0}DialogueBox {1}Placeholder \"...Sorry, can you say that again?$6\" Portraits/Rao Rao#$b#Ah! Sorry... sorry, yes. Can you make a note for me to ask Weiss about the transfiguration of the last black magic formula?$3#$action {0}DialogueBox {1}Placeholder \"...It seems like I'm learning this... dwarvish? In relatively good time. I got most of that sentence, but your structuring is different than the townsfolk.$1\" Portraits/Rao Rao#$b#Oh? Maybe I'll have you come along and Weiss and I will speak in only dwarvish!$1#$action {0}DialogueBox {1}Placeholder \"Let's... not get too hasty.$3\" Portraits/Rao Rao", //ask Weiss about the transfiguration of the last black magic formula?
+ "BETAS.Muvi.Monday4_0": "...Yunn yenh doo molet pusenol htam o ntuon dotm, nhutu's samu tautneus nhon pa'n sienu hen na anhut hoio.{2}$5#$b#E yaput eh nhon's o moehusnonea ah doo molet lunnel yatsu?$5#$b#Ah, sorry, didn't notice you there, @. I was given some monster samples and it's... kind of concerning.$6", //Well with the magic density from a treant bark, there's some properties that don't quite fit to other fauna. /I wonder if that's a manifestation of the magic getting worse?
+ "BETAS.Muvi.Monday4_1": "A snack sounds greaat right about nowww.{2}$6#$action {0}DialogueBox {1}Placeholder \"Would you... like me to order something?$1\" Portraits/Rao Rao#$b#That sounds... great, actually.$1#$action {0}DialogueBox {1}Placeholder \"Anything particular in mind?$1\" Portraits/Rao Rao#$b#Hmm...$6#$action {0}Message \"Muvi seems lost in thought about what to eat...\"",
+ "BETAS.Muvi.Monday4_2": "...Something handheld, lightweight, and not greasy...{2}$6",
+ "BETAS.Muvi.Monday4_3": "...But I'm definitely sick of fish for the week.{2}$6#$action {0}DialogueBox {1}Placeholder \"Seems like I'll be waiting for a little bit longer...$1\" Portraits/Rao Rao",
  //6
  "Muvi.Monday6_0": "no dialogue",
  "Muvi.Monday6_1": "no dialogue",

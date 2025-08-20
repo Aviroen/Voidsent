@@ -47,7 +47,7 @@
     "WEDNESDAYSCHEDULE": "610 {{Morabyr}} 63 66 2/2600 {{ModId}}_BreakfastInnBed1 35 13 0 {{Trinity}}_sleep",
     "THURSAYSCHEDULE": "610 {{Morabyr}} 125 92 2/2600 {{ModId}}_BreakfastInnBed1 35 13 0 {{Trinity}}_sleep",
     "FRIDAYSCHEDULE": "610 {{Morabyr}} 59 75 3/1400 {{Morabyr}} 66 93 2/2600 {{ModId}}_BreakfastInnBed1 35 13 0 {{Trinity}}_sleep",
-    "SATURDAYSCHEDULE": "610 {{ModId}}_GrandMinistry 20 11 2/2600 {{ModId}}_BreakfastInnBed1 35 13 0 {{Trinity}}_sleep",
+    "SATURDAYSCHEDULE": "610 {{ModId}}_GrandMinistry 20 11 3/2600 {{ModId}}_BreakfastInnBed1 35 13 0 {{Trinity}}_sleep",
     "SUNDAYSCHEDULE": "610 {{ModId}}_BreakfastInnBed 6 9 1/2600 {{ModId}}_BreakfastInnBed1 35 13 0 {{Trinity}}_sleep",
 
     //HEART DIALOGUES
