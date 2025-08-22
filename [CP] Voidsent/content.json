@@ -8,6 +8,21 @@
   }
  },
  "DynamicTokens": [
+  //kailey tilesheets switcheroo
+  {
+   "Name": "Maps",
+   "Value": "Maps",
+   "When": {
+    "HasMod |contains=KaileyStardew.Tilesheets": true
+   }
+  },
+  {
+   "Name": "Maps",
+   "Value": "MapsNoKailey",
+   "When": {
+    "HasMod |contains=KaileyStardew.Tilesheets": false
+   }
+  },
   //npcs
   {
    "Name": "Edelweiss", //r

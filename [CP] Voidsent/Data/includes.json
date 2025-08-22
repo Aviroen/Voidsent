@@ -68,14 +68,8 @@
   {
    "LogName": "Load the custom Tilesheets, trees done by AirynS, buildings template from Lumisteria",
    "Action": "Load",
-   "Target": "Maps/{{ModId}}_Tilesheets",
-   "FromFile": "Assets/Tilesheets/{{ModId}}_Tilesheets.png"
-  },
-  {
-   "LogName": "Load custom doors tilesheet for use on custom map and data asset references",
-   "Action": "Load",
-   "Target": "Maps/{{ModId}}_Doors",
-   "FromFile": "Assets/Tilesheets/{{ModId}}_Doors.png"
+   "Target": "Maps/{{ModId}}_Tilesheets, Maps/{{ModId}}_Doors, Maps/{{ModId}}_Placeholder",
+   "FromFile": "Assets/Tilesheets/{{TargetWithoutPath}}.png"
   },
   //includes
   {
