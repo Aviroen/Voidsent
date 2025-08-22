@@ -80,6 +80,7 @@
  "Goldie.Name": "Goldie",
  "Goldie.ShopDescription": "A sweet little goldfish in a bowl, sneaks out to the large lakes at night.",
  "Goldie.MissingBuilding": "This building isn't suitable for Queen Goldie.",
+ "TwistedEel.0": "Got the finest ales for what ales ya! Har!",
 
  //artificial beach
  "ABCheck": "Pay 1,000g to go to Port Morabyr?",
@@ -983,6 +984,23 @@
  "Hideout5.Sign": "Reminder to self:#Yrnal likes salmon.#Yrrek likes tuna.#Syrsa only eats mackerel.",
  "TentUnallowed": "It's not safe to sleep here. You should probably find real shelter.",
  "DoorUnlock_NotFriend_Undefined": "You're not good enough friends with {0} to enter their bedroom.",
+
+ //museum
+ "OnDonation": "Thank you {0} for the {1}.",
+ "OnMilestone": "{0} has contributed {1} to the museum for a milestone!",
+ "OnCompletion": "{0} has completed the {1}!",
+ "MenuDonate": "Would you like to donate?",
+ "MenuCollect": "Collect your museum rewards!",
+ "MenuRearrange": "Would you like to rearrange the museum?",
+ "MenuRetrieve": "Would you like to retrieve items?",
+ "BusyOwner": "There's no one here to service the museum.",
+ "BusyNoOwner": "There's no one here to service the museum.",
+ "MuseumCompleteOwner": "Congratulations on completing the museum!",
+ "MuseumCompleteNoOwner": "Congratulations on completing the museum!",
+ "NothingToDonateOwner": "You don't have anything to donate.",
+ "NothingToDonateNoOwner": "You don't have anything to donate.",
+ "NoDonationsOwner": "There's nothing in the museum.",
+ "NoDonationsNoOwner": "There's nothing in the museum.",
 
  "Quest.1": "Enter, Oblivion",
  "Quest.1.Description": "Figure out the secrets of Grandberg.",

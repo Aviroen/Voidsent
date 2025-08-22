@@ -33,6 +33,10 @@
    "IsRequired": true
   },
   {
+   "UniqueID": "Spiderbuttons.CMF",
+   "IsRequired": true
+  },
+  {
    "UniqueID": "mushymato.TrinketTinker",
    "IsRequired": true
   },

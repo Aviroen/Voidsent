@@ -337,11 +337,73 @@
     "NPCWarp": "5 11 {{CrimsonGrove}} 57 14 8 11 {{Morabyr}} 148 12 11 11 {{ArtificialBeach}} 20 4"
    },
    "AddWarps": [
-    "8 19 {{Yrsin}}_Office 2 7",
-    "9 19 {{Yrsin}}_Office 2 7"
+    "10 19 {{Yrsin}}_Office 2 7",
+    "11 19 {{Yrsin}}_Office 2 7",
+    "9 4 {{Yrsin}}_Hideout5 10 16",
+    "10 4 {{Yrsin}}_Hideout5 10 16"
    ],
    "MapTiles": [ //NPCWarp [<int fromX> <int fromY> <string toArea> <int toX> <int toY>]+
-
+    {
+     "Position": {
+      "X": 4,
+      "Y": 4
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "mushymato.MMAP_TAS": "{{ModId}}_CauldronSmoke"
+     }
+    },
+    {
+     "Position": {
+      "X": 7,
+      "Y": 4
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "mushymato.MMAP_TAS": "{{ModId}}_CauldronSmoke"
+     }
+    },
+    {
+     "Position": {
+      "X": 12,
+      "Y": 4
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "mushymato.MMAP_TAS": "{{ModId}}_CauldronSmoke"
+     }
+    },
+    {
+     "Position": {
+      "X": 15,
+      "Y": 4
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "mushymato.MMAP_TAS": "{{ModId}}_CauldronSmoke"
+     }
+    },
+    {
+     "Position": {
+      "X": 9,
+      "Y": 8
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "mushymato.MMAP_PoolEntry 0 8 pullItemFromWater",
+      "NPCPassable": "T"
+     }
+    },
+    {
+     "Position": {
+      "X": 10,
+      "Y": 8
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "NPCPassable": "T"
+     }
+    }
    ]
   },
   {
@@ -371,7 +433,47 @@
     "9 19 {{Yrsin}}_Office 2 7"
    ],
    "MapTiles": [ //NPCWarp [<int fromX> <int fromY> <string toArea> <int toX> <int toY>]+
-
+    {
+     "Position": {
+      "X": 9,
+      "Y": 8
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "mushymato.MMAP_PoolEntry 0 8 pullItemFromWater",
+      "NPCPassable": "T"
+     }
+    },
+    {
+     "Position": {
+      "X": 10,
+      "Y": 8
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "NPCPassable": "T"
+     }
+    },
+    {
+     "Position": {
+      "X": 8,
+      "Y": 4
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "mushymato.MMAP_TAS": "{{ModId}}_CauldronSmoke"
+     }
+    },
+    {
+     "Position": {
+      "X": 11,
+      "Y": 4
+     },
+     "Layer": "Back",
+     "SetProperties": {
+      "mushymato.MMAP_TAS": "{{ModId}}_CauldronSmoke"
+     }
+    }
    ]
   },
   {

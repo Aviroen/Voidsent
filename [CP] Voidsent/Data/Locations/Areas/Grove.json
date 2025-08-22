@@ -16,10 +16,34 @@
    "Action": "EditMap",
    "Target": "Maps/{{Grove}}",
    "MapProperties": {
-
+    "mushymato.MMAP_WaterColor": "Red",
+    "indoorWater": "T",
+    "mushymato.MMAP_Lightrays": "T",
+    "mushymato.MMAP_WoodsLighting": "T"
    },
    "AddWarps": [
-    "49 22 {{CrimsonGrove}} 0 34"
+    "49 12 {{CrimsonGrove}} 1 34",
+    "49 13 {{CrimsonGrove}} 1 34",
+    "49 14 {{CrimsonGrove}} 1 34",
+    "49 15 {{CrimsonGrove}} 1 34",
+    "49 16 {{CrimsonGrove}} 1 34",
+    "49 17 {{CrimsonGrove}} 1 34",
+    "49 18 {{CrimsonGrove}} 1 34",
+    "49 19 {{CrimsonGrove}} 1 34",
+    "49 20 {{CrimsonGrove}} 1 34",
+    "49 21 {{CrimsonGrove}} 1 34"
+   ],
+   "MapTiles": [
+    {
+     "Position": {
+      "X": 17,
+      "Y": 20
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "Warp 7 18 {{ModId}}_Shack"
+     }
+    }
    ]
   },
   {
@@ -42,10 +66,8 @@
     "PassOutSafe": "T"
    },
    "AddWarps": [
-    //"8 19 {{Commonwealth}}"
-    //"9 19 {{Commonwealth}}"
-    //"10 19 {{Commonwealth}}"
-    //"11 19 {{Commonwealth}}"
+    "6 19 {{Grove}}",
+    "7 19 {{Grove}}"
    ],
    "MapTiles": [
    ]

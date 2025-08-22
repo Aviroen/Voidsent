@@ -26,7 +26,10 @@
     "126 0 {{CrimsonGrove}} 56 56",
     "127 0 {{CrimsonGrove}} 55 56",
     "128 0 {{CrimsonGrove}} 55 56",
-    "84 71 {{ModId}}_Codfather 9 25"
+    "84 71 {{ModId}}_Codfather 9 25",
+    "26 73 {{ModId}}_TwistedEel 9 18",
+    "26 50 {{ModId}}_KillerCouturier 9 18",
+    "43 48 {{ModId}}_JingleJam 9 18"
    ],
    "MapTiles": [
     {
@@ -561,14 +564,34 @@
     "PassOutSafe": "T"
    },
    "AddWarps": [
-    "6 19 {{Morabyr}} 81 68",
-    "7 19 {{Morabyr}} 81 68",
-    "8 19 {{Morabyr}} 81 68",
     "9 19 {{Morabyr}} 81 68",
     "10 19 {{Morabyr}} 81 68",
-    "11 19 {{Morabyr}} 81 68",
-    "12 19 {{Morabyr}} 81 68",
-    "13 19 {{Morabyr}} 81 68"
+    "19 11 {{ModId}}_CichlidianMuseum 1 11"
+   ],
+   "MapTiles": [
+   ]
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "CichlidianMuseum",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "8",
+    "YARRIVAL": "18",
+    "MUSIC": "mermaidSong",
+    "AREA": "Morabyr"
+   }
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_CichlidianMuseum",
+   "MapProperties": {
+    "AmbientLight": "255 255 255",
+    "PassOutSafe": "T"
+   },
+   "AddWarps": [
+    "0 11 {{ModId}}_Cichlidian 18 11"
    ],
    "MapTiles": [
    ]
@@ -766,6 +789,122 @@
     }
    ]
   },
-
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "JingleJam",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "7",
+    "YARRIVAL": "14",
+    "MUSIC": "mermaidSong",
+    "AREA": "Morabyr"
+   }
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_JingleJam",
+   "MapProperties": {
+    "AmbientLight": "255 255 255",
+    "PassOutSafe": "T"
+   },
+   "AddWarps": [
+    "9 19 {{Morabyr}} 43 49",
+    "10 19 {{Morabyr}} 43 49"
+   ],
+   "MapTiles": [
+    {
+     "Position": {
+      "X": 2,
+      "Y": 12
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "OpenShop {{ModId}}_JingleJam"
+     }
+    }
+   ]
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "KillerCouturier",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "10",
+    "YARRIVAL": "15",
+    "MUSIC": "mermaidSong",
+    "AREA": "Morabyr"
+   }
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_KillerCouturier",
+   "MapProperties": {
+    "AmbientLight": "255 255 255",
+    "PassOutSafe": "T"
+   },
+   "AddWarps": [
+    "9 19 {{Morabyr}} 26 51",
+    "10 19 {{Morabyr}} 26 51"
+   ],
+   "MapTiles": [
+    {
+     "Position": {
+      "X": 6,
+      "Y": 11
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "OpenShop {{ModId}}_KillerCouturier"
+     }
+    },
+    {
+     "Position": {
+      "X": 6,
+      "Y": 15
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "OpenShop {{ModId}}_KillerCouturier"
+     }
+    }
+   ]
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "TwistedEel",
+    "INTERIORORLOCATIONS": "Interiors",
+    "XARRIVAL": "9",
+    "YARRIVAL": "14",
+    "MUSIC": "mermaidSong",
+    "AREA": "Morabyr"
+   }
+  },
+  {
+   "Action": "EditMap",
+   "Target": "Maps/{{ModId}}_TwistedEel",
+   "MapProperties": {
+    "AmbientLight": "255 255 255",
+    "PassOutSafe": "T"
+   },
+   "AddWarps": [
+    "9 20 {{Morabyr}} 26 74"
+   ],
+   "MapTiles": [
+    {
+     "Position": {
+      "X": 14,
+      "Y": 12
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "OpenShop {{ModId}}_TwistedEel"
+     }
+    }
+   ]
+  }
  ]
 }

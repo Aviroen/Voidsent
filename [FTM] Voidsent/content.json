@@ -135,6 +135,68 @@
      "LimitedNumberOfSpawns": 4
     },
     "DaysUntilSpawnsExpire": 0
+   },
+   {
+    "SpringItemIndex": [
+     {
+      "Category": "Furniture",
+      "Name": "CCFishTank",
+      "CanBePickedUp": false
+     }
+    ],
+    "SummerItemIndex": [
+     {
+      "Category": "Furniture",
+      "Name": "CCFishTank",
+      "CanBePickedUp": false
+     }
+    ],
+    "FallItemIndex": [
+     {
+      "Category": "Furniture",
+      "Name": "CCFishTank",
+      "CanBePickedUp": false
+     }
+    ],
+    "WinterItemIndex": [
+     {
+      "Category": "Furniture",
+      "Name": "CCFishTank",
+      "CanBePickedUp": false
+     }
+    ],
+    "UniqueAreaID": "Aviroen.VoidsentCP_JingleJam",
+    "MapName": "Aviroen.VoidsentCP_JingleJam",
+    "MinimumSpawnsPerDay": 1,
+    "MaximumSpawnsPerDay": 1,
+    "IncludeTerrainTypes": [],
+    "ExcludeTerrainTypes": [],
+    "IncludeCoordinates": [
+     "7,5/7,5"
+    ],
+    "ExcludeCoordinates": [],
+    "StrictTileChecking": "Medium",
+    "SpawnTiming": {
+     "StartTime": 600,
+     "EndTime": 600,
+     "MinimumTimeBetweenSpawns": 10,
+     "MaximumSimultaneousSpawns": 4,
+     "OnlySpawnIfAPlayerIsPresent": false,
+     "SpawnSound": ""
+    },
+    "ExtraConditions": {
+     "Years": [],
+     "Seasons": [],
+     "Days": [],
+     "WeatherYesterday": [],
+     "WeatherToday": [],
+     "WeatherTomorrow": [],
+     "GameStateQueries": [],
+     "CPConditions": {},
+     "EPUPreconditions": [],
+     "LimitedNumberOfSpawns": 1
+    },
+    "DaysUntilSpawnsExpire": 0
    }
   ]
  }
