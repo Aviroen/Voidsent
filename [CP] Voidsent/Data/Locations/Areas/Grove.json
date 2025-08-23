@@ -66,8 +66,8 @@
     "PassOutSafe": "T"
    },
    "AddWarps": [
-    "6 19 {{Grove}}",
-    "7 19 {{Grove}}"
+    "6 19 {{Grove}} 17 21",
+    "7 19 {{Grove}} 17 21"
    ],
    "MapTiles": [
    ]

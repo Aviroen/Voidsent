@@ -14,19 +14,19 @@
 
  //tuesday
  //BETAS
- "BETAS.Tia.Tuesday_0": "I decided to go into writing prose because I'm loquacious and read voraciously.{2}$2#$b#So I've acquired some skill for a turn of phrase.{2}$2#$b#Also, the paws make visual art a bit difficult.$1#$action {0}DialogueBox {1}Placeholder \"Hasn't stopped me.$2\" Portraits/{1}Avi Avi#$action {0}DialogueBox {1}Placeholder \"Me either!\" Portraits/{1}Pau Pau#$b#Silence, jerks!{2}$3#$b#Not everyone can be a genius at everything, you know!{2}$3",
- "BETAS.Tia.Tuesday_1": "Some of those folks in Morabyr, I'd climb them like a tree.{2}$2#$b#I mean that literally, to be clear.{2}$3#$b#Not your weird human ideas of 'climbing.'{2}$1",
- "BETAS.Tia.Tuesday_2": "$action {0}Message \"Tia is studying a draft intently.\"#$action {0}DialogueBox {1}Placeholder \"❄︎♒︎♋︎⧫︎🕯︎⬧︎ ♋︎ ♍︎□︎❍︎❍︎♋︎ ⬧︎◻︎●︎♓︎♍︎♏︎\" Portraits/{1}Iro Iro#$b#It's called house style.{2}$2#$action {0}DialogueBox {1}Placeholder \"✋︎⧫︎🕯︎⬧︎ ♍︎♋︎●︎●︎♏︎♎︎ ♑︎❒︎♋︎❍︎❍︎♋︎⧫︎♓︎♍︎♋︎●︎●︎⍓︎ ♓︎■︎♍︎□︎❒︎❒︎♏︎♍︎⧫︎ ⌧︎🗏︎\" Portraits/{1}Iro Iro#$b#Don't quote the grammar guides to me, kit.{2}$3#$b#I was there when it was written and I've got fanfics older than you are.{2}$3",
+ "BETAS.Tia.Tuesday_0": "I decided to go into writing prose because I'm loquacious and read voraciously.{2}$2#$b#So I've acquired some skill for a turn of phrase.$2#$b#Also, the paws make visual art a bit difficult.$1#$action {0}DialogueBox {1}Placeholder \"Hasn't stopped me.$2\" Portraits/{1}Avi Avi#$b#...#$action {0}DialogueBox {1}Placeholder \\\"Me either!\\\" Portraits/{1}Pau Pau#$b#Silence, jerks!$3#$b#Not everyone can be a genius at everything, you know!$3",
+ "BETAS.Tia.Tuesday_1": "Some of those folks in Morabyr, I'd climb them like a tree.{2}$2#$b#I mean that literally, to be clear.$3#$b#Not your weird human ideas of 'climbing.'$1",
+ "BETAS.Tia.Tuesday_2": "...#$action {0}Message Tia is studying a draft intently.#$action {0}DelayedAction \"{0}DialogueBox {1}Placeholder \\\"❄︎♒︎♋︎⧫︎🕯︎⬧︎ ♋︎ ♍︎□︎❍︎❍︎♋︎ ⬧︎◻︎●︎♓︎♍︎♏︎\" Portraits/{1}Iro Iro\" 1200#$b#It's called house style.$2#$action {0}DialogueBox {1}Placeholder \"✋︎⧫︎🕯︎⬧︎ ♍︎♋︎●︎●︎♏︎♎︎ ♑︎❒︎♋︎❍︎❍︎♋︎⧫︎♓︎♍︎♋︎●︎●︎⍓︎ ♓︎■︎♍︎□︎❒︎❒︎♏︎♍︎⧫︎ ⌧︎🗏︎\" Portraits/{1}Iro Iro#$b#Don't quote the grammar guides to me, kit.$3#$b#I was there when it was written and I've got fanfics older than you are.$3",
  "BETAS.Tia.Tuesday_3": "Have I ever written a cat NPC? Well, they say write what you know.{2}$2", //(if Jorts and Jean is installed) "Have I ever written a cat NPC? Well, they say--oh, I see, you think you're funny, don't you."
  //daily
  "Tia.Tuesday_0": "Well, I reviewed the latest feedback on my fanfic posting.$2#$action {0}DialogueBox {1}Placeholder \"Was it helpful?\" Portraits/{1}Nox Nox#$b#Quite. I have decided that I am perfect, actually, and it's the kids that are wrong.$2",
- "Tia.Tuesday_1": "$action {0}Message \"Tia is typing frantically into a word processor.#It seems if she stops for too long, the program begins deleting their words.\"#$action {0}DialogueBox {1}Placeholder \"Uh, Tia--\" Portraits/{1}Cla Cla#$b#Not right now! I'm in the middle of a word war!$3#$action {0}DialogueBox {1}Placeholder \"Now THAT'S publish or perish!\" Portraits/{1}Avi Avi",
+ "Tia.Tuesday_1": "...#$action {0}Message \"Tia is typing frantically into a word processor. It seems if she stops for too long, the program begins deleting their words.\"#$action {0}DelayedAction \"{0}DialogueBox {1}Placeholder \\\"Uh, Tia--\\\" Portraits/{1}Avi Avi\" 1500#$b#Not right now! I'm in the middle of a word war!$3#$action {0}DialogueBox {1}Placeholder \"Now THAT'S publish or perish!\" Portraits/{1}Avi Avi",
  "Tia.Tuesday_2": "How old am I? Too old to exist, according to your human lore.$2#$b#...That and I lost count some years ago.$1",
  "Tia.Tuesday_3": "If people are going to argue with me, I prefer they at least not be both incompetent and also wrong.#$b#One at a time, please.$2",
 
  //wednesday
  //BETAS
- "BETAS.Tia.Wednesday_0": "I love reading people's characters.#$b#Just like people themselves, they're the sum of a lifetime of lived experiences condensed down to the essence of who a person is.{2}$2#$B#And just like people themselves, they're often adorable, if occasionally stupid.{2}$2",
+ "BETAS.Tia.Wednesday_0": "I love reading people's characters.#$b#Just like people themselves, they're the sum of a lifetime of lived experiences condensed down to the essence of who a person is.$2#$B#And just like people themselves, they're often adorable, if occasionally stupid.$2",
  "BETAS.Tia.Wednesday_1": "The truth of the world? Come on, @, you can't just ask for spoilers. That's cheating.{2}$2",
  "BETAS.Tia.Wednesday_2": "The truth of the world? Well... what do you know about giant turtles?{2}$2",
  "BETAS.Tia.Wednesday_3": "The truth of the world? Savage, selfish, heartless, compassionate, miraculous, and utterly beautiful.{2}$2",
@@ -38,7 +38,7 @@
 
  //thursday
  //BETAS
- "BETAS.Tia.Thursday_0": "Man, I could go for a nice tasty duck right now.{2}$2#$b#Don't look at me like that.{2}$3#$b#If it doesn't talk, it's fair game as far as I'm concerned.{2}$3#$b#...Actually, even if it does talk, it's still in consideration if it's sufficiently annoying.{2}$3",
+ "BETAS.Tia.Thursday_0": "Man, I could go for a nice tasty duck right now.{2}$2#$b#Don't look at me like that.$3#$b#If it doesn't talk, it's fair game as far as I'm concerned.$3#$b#...Actually, even if it does talk, it's still in consideration if it's sufficiently annoying.$3",
  "BETAS.Tia.Thursday_1": "no dialogue",
  "BETAS.Tia.Thursday_2": "no dialogue",
  "BETAS.Tia.Thursday_3": "no dialogue",
