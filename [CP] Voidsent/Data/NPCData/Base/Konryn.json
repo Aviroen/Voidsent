@@ -14,8 +14,8 @@
     "DARKSKIN": "true",
     "GIFTABLE": "true",
     "HOMELOCATION": "{{ModId}}_Grandberg1",
-    "HOMEXTILE": "17",
-    "HOMEYTILE": "14",
+    "HOMEXTILE": "100",
+    "HOMEYTILE": "100",
     "HOMEFACING": "down", //left, right, up, down
     "MUGX": "0",
     "MUGY": "0",
