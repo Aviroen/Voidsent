@@ -1,4 +1,7 @@
-﻿Edelweiss:
+﻿INTRODUCTION:
+{{ModId}}_Entry // the introduction event, don't forget to add in addConversationTopic {{ModId}}_Entry
+
+Edelweiss:
 {{ModId}}_Warp
 {{ModId}}_EdelweissBackwarp
 {{ModId}}_CrimsonGroveUnlock

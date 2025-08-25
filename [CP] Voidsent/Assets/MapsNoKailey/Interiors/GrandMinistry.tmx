@@ -1390,17 +1390,17 @@
  <objectgroup id="12" name="Buildings">
   <object id="1" name="TileData" x="176" y="96" width="96" height="16">
    <properties>
-    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_Bookshelf true"/>
+    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_GMBookshelf true"/>
    </properties>
   </object>
   <object id="3" name="TileData" x="464" y="400" width="64" height="16">
    <properties>
-    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_Bookshelf true"/>
+    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_GMBookshelf true"/>
    </properties>
   </object>
   <object id="4" name="TileData" x="608" y="400" width="16" height="64">
    <properties>
-    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_Bookshelf true"/>
+    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_GMBookshelf true"/>
    </properties>
   </object>
   <object id="5" name="TileData" x="16" y="448" width="48" height="48">
@@ -1420,7 +1420,7 @@
   </object>
   <object id="8" name="TileData" x="384" y="48" width="240" height="288">
    <properties>
-    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_Bookshelf true"/>
+    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_GMBookshelf true"/>
    </properties>
   </object>
   <object id="9" name="TileData" x="192" y="176" width="64" height="16">

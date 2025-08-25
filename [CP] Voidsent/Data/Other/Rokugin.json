@@ -628,6 +628,13 @@
    "Action": "Include",
    "FromFile": "Data/Templates/MessageTemplate.json",
    "LocalTokens": {
+    "OBJECTNAME": "GMBookshelf"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/MessageTemplate.json",
+   "LocalTokens": {
     "OBJECTNAME": "Desk"
    }
   },
@@ -719,35 +726,35 @@
    "Action": "Include",
    "FromFile": "Data/Templates/MessageTemplate.json",
    "LocalTokens": {
-    "OBJECTNAME": "Boggarts"
+    "OBJECTNAME": "Donnlos"
    }
   },
   {
    "Action": "Include",
    "FromFile": "Data/Templates/MessageTemplate.json",
    "LocalTokens": {
-    "OBJECTNAME": "BoggartsStand"
+    "OBJECTNAME": "DonnlosStand"
    }
   },
   {
    "Action": "Include",
    "FromFile": "Data/Templates/MessageTemplate.json",
    "LocalTokens": {
-    "OBJECTNAME": "BoggartsCauldron"
+    "OBJECTNAME": "DonnlosCauldron"
    }
   },
   {
    "Action": "Include",
    "FromFile": "Data/Templates/MessageTemplate.json",
    "LocalTokens": {
-    "OBJECTNAME": "BoggartsPotions"
+    "OBJECTNAME": "DonnlosPotions"
    }
   },
   {
    "Action": "Include",
    "FromFile": "Data/Templates/MessageTemplate.json",
    "LocalTokens": {
-    "OBJECTNAME": "BoggartsRations"
+    "OBJECTNAME": "DonnlosRations"
    }
   },
   {

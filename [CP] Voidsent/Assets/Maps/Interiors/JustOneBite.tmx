@@ -273,22 +273,22 @@
  <objectgroup id="12" name="Buildings">
   <object id="1" name="TileData" x="48" y="64" width="64" height="16">
    <properties>
-    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_Kitchen true"/>
+    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_Kitchen"/>
    </properties>
   </object>
   <object id="3" name="TileData" x="112" y="272" width="32" height="16">
    <properties>
-    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_Misc true"/>
+    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_Misc"/>
    </properties>
   </object>
   <object id="5" name="TileData" x="160" y="224" width="32" height="16">
    <properties>
-    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_Misc true"/>
+    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_Misc"/>
    </properties>
   </object>
   <object id="7" name="TileData" x="192" y="64" width="32" height="16">
    <properties>
-    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_TV true"/>
+    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_TV"/>
    </properties>
   </object>
  </objectgroup>

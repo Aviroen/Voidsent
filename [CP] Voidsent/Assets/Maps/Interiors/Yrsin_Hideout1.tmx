@@ -4475,7 +4475,7 @@
  <objectgroup id="22" name="Buildings">
   <object id="8" name="TileData" x="64" y="64" width="48" height="16">
    <properties>
-    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_Hideout1 true"/>
+    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_Barrels"/>
    </properties>
   </object>
  </objectgroup>

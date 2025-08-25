@@ -1204,52 +1204,52 @@
  <objectgroup id="12" name="Buildings">
   <object id="1" name="TileData" x="96" y="64" width="192" height="16">
    <properties>
-    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_Boggarts true"/>
+    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_Donnlos true"/>
    </properties>
   </object>
   <object id="3" name="TileData" x="192" y="96" width="16" height="16">
    <properties>
-    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_BoggartsStand true"/>
+    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_DonnlosStand true"/>
    </properties>
   </object>
   <object id="4" name="TileData" x="240" y="192" width="16" height="16">
    <properties>
-    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_BoggartsStand true"/>
+    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_DonnlosStand true"/>
    </properties>
   </object>
   <object id="5" name="TileData" x="192" y="256" width="16" height="16">
    <properties>
-    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_BoggartsStand true"/>
+    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_DonnlosStand true"/>
    </properties>
   </object>
   <object id="6" name="TileData" x="16" y="208" width="96" height="48">
    <properties>
-    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_BoggartsPotions true"/>
+    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_DonnlosPotions true"/>
    </properties>
   </object>
   <object id="7" name="TileData" x="304" y="96" width="192" height="16" rotation="90">
    <properties>
-    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_Boggarts true"/>
+    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_Donnlos true"/>
    </properties>
   </object>
   <object id="8" name="TileData" x="192" y="128" width="48" height="16">
    <properties>
-    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_BoggartsCauldron true"/>
+    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_DonnlosCauldron true"/>
    </properties>
   </object>
   <object id="9" name="TileData" x="240" y="176" width="48" height="16">
    <properties>
-    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_BoggartsCauldron true"/>
+    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_DonnlosCauldron true"/>
    </properties>
   </object>
   <object id="10" name="TileData" x="192" y="240" width="48" height="16">
    <properties>
-    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_BoggartsCauldron true"/>
+    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_DonnlosCauldron true"/>
    </properties>
   </object>
   <object id="11" name="TileData" x="16" y="272" width="96" height="48">
    <properties>
-    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_BoggartsRations true"/>
+    <property name="Action" value="EMA_Message Aviroen.VoidsentCP_DonnlosRations true"/>
    </properties>
   </object>
  </objectgroup>

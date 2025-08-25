@@ -6,8 +6,8 @@
    "LocalTokens": {
     "MAPNAME": "Grove",
     "INTERIORORLOCATIONS": "Locations",
-    "XARRIVAL": "8",
-    "YARRIVAL": "18",
+    "XARRIVAL": "30",
+    "YARRIVAL": "23",
     "MUSIC": "mermaidSong",
     "AREA": "Grove"
    }

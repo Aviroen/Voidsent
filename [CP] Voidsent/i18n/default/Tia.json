@@ -14,9 +14,9 @@
 
  //tuesday
  //BETAS
- "BETAS.Tia.Tuesday_0": "I decided to go into writing prose because I'm loquacious and read voraciously.{2}$2#$b#So I've acquired some skill for a turn of phrase.$2#$b#Also, the paws make visual art a bit difficult.$1#$action {0}DialogueBox {1}Placeholder \"Hasn't stopped me.$2\" Portraits/{1}Avi Avi#$b#...#$action {0}DialogueBox {1}Placeholder \\\"Me either!\\\" Portraits/{1}Pau Pau#$b#Silence, jerks!$3#$b#Not everyone can be a genius at everything, you know!$3",
+ "BETAS.Tia.Tuesday_0": "I decided to go into writing prose because I'm loquacious and read voraciously.{2}$2#$b#So I've acquired some skill for a turn of phrase.$2#$b#Also, the paws make visual art a bit difficult.$1#$action {0}DialogueBox {1}Placeholder \"Hasn't stopped me.$2\" Portraits/{1}Avi Avi#$b#...#$action {0}DialogueBox {1}Placeholder \"Me either!\" Portraits/{1}Pau Pau#$b#Silence, jerks!$3#$b#Not everyone can be a genius at everything, you know!$3",
  "BETAS.Tia.Tuesday_1": "Some of those folks in Morabyr, I'd climb them like a tree.{2}$2#$b#I mean that literally, to be clear.$3#$b#Not your weird human ideas of 'climbing.'$1",
- "BETAS.Tia.Tuesday_2": "...#$action {0}Message Tia is studying a draft intently.#$action {0}DelayedAction \"{0}DialogueBox {1}Placeholder \\\"❄︎♒︎♋︎⧫︎🕯︎⬧︎ ♋︎ ♍︎□︎❍︎❍︎♋︎ ⬧︎◻︎●︎♓︎♍︎♏︎\" Portraits/{1}Iro Iro\" 1200#$b#It's called house style.$2#$action {0}DialogueBox {1}Placeholder \"✋︎⧫︎🕯︎⬧︎ ♍︎♋︎●︎●︎♏︎♎︎ ♑︎❒︎♋︎❍︎❍︎♋︎⧫︎♓︎♍︎♋︎●︎●︎⍓︎ ♓︎■︎♍︎□︎❒︎❒︎♏︎♍︎⧫︎ ⌧︎🗏︎\" Portraits/{1}Iro Iro#$b#Don't quote the grammar guides to me, kit.$3#$b#I was there when it was written and I've got fanfics older than you are.$3",
+ "BETAS.Tia.Tuesday_2": "...#$action {0}Message \"Tia is studying a draft intently.\"#$action {0}DelayedAction \"{0}DialogueBox {1}Placeholder \\\"❄︎♒︎♋︎⧫︎🕯︎⬧︎ ♋︎ ♍︎□︎❍︎❍︎♋︎ ⬧︎◻︎●︎♓︎♍︎♏︎\" Portraits/{1}Iro Iro\" 1200#$b#It's called house style.$2#$action {0}DialogueBox {1}Placeholder \"✋︎⧫︎🕯︎⬧︎ ♍︎♋︎●︎●︎♏︎♎︎ ♑︎❒︎♋︎❍︎❍︎♋︎⧫︎♓︎♍︎♋︎●︎●︎⍓︎ ♓︎■︎♍︎□︎❒︎❒︎♏︎♍︎⧫︎ ⌧︎🗏︎\" Portraits/{1}Iro Iro#$b#Don't quote the grammar guides to me, kit.$3#$b#I was there when it was written and I've got fanfics older than you are.$3",
  "BETAS.Tia.Tuesday_3": "Have I ever written a cat NPC? Well, they say write what you know.{2}$2", //(if Jorts and Jean is installed) "Have I ever written a cat NPC? Well, they say--oh, I see, you think you're funny, don't you."
  //daily
  "Tia.Tuesday_0": "Well, I reviewed the latest feedback on my fanfic posting.$2#$action {0}DialogueBox {1}Placeholder \"Was it helpful?\" Portraits/{1}Nox Nox#$b#Quite. I have decided that I am perfect, actually, and it's the kids that are wrong.$2",
@@ -39,48 +39,48 @@
  //thursday
  //BETAS
  "BETAS.Tia.Thursday_0": "Man, I could go for a nice tasty duck right now.{2}$2#$b#Don't look at me like that.$3#$b#If it doesn't talk, it's fair game as far as I'm concerned.$3#$b#...Actually, even if it does talk, it's still in consideration if it's sufficiently annoying.$3",
- "BETAS.Tia.Thursday_1": "no dialogue",
- "BETAS.Tia.Thursday_2": "no dialogue",
- "BETAS.Tia.Thursday_3": "no dialogue",
+ "BETAS.Tia.Thursday_1": "They say the first million words of prose is your practice run.#$b#Me, I'm on my third remedial course.$1",
+ "BETAS.Tia.Thursday_2": "...#$action {0}Message \"Tia is writing some code. Looks like lines of dialogue for an expansion mod.\"",
+ "BETAS.Tia.Thursday_3": "...#$action {0}Message \"Tia is reading some manga, tail swishing.\"#$b#I still can't believe 'Avenging My Dead Sister' made it past chapter 30. I think every trope in here is more tired than I am.",
  //daily
- "Tia.Thursday_0": "no dialogue",
- "Tia.Thursday_1": "no dialogue",
- "Tia.Thursday_2": "no dialogue",
- "Tia.Thursday_3": "no dialogue",
+ "Tia.Thursday_0": "I don't understand human jargon. Nox, what is a 'blorbo'?#$action {0}DialogueBox {1}Placeholder \"Your pet character, your baby. You know, the one you'd commit crimes for?\" Portraits/{1}Nox Nox#$b#What in the parasocial nonsense?$1",
+ "Tia.Thursday_1": "...#$action {0}Message \"Tia is taking a nap.\"#$e#I SAID I was taking a nap, @.$1",
+ "Tia.Thursday_2": "...#$action {0}Message \"Tia rolls over, exposing their belly. However, their claws are at the ready.\"#$b#And... trap armed.#$b#Hmm? You didn't hear anything, @.$2",
+ "Tia.Thursday_3": "@, if you like to make art, just make sure it's the most 'you' thing you can make.#b#Being generic and boring is almost the WORST thing you can do.#$action {0}DialogueBox {1}Placeholder \"Almost?$3\" Portraits/{1}Avi Avi#$b#You've seen the same things on Jojazon and AO3 I have. You know there's worse than boring.",
 
  //friday
  //BETAS
- "BETAS.Tia.Friday_0": "no dialogue",
- "BETAS.Tia.Friday_1": "no dialogue",
- "BETAS.Tia.Friday_2": "no dialogue",
- "BETAS.Tia.Friday_3": "no dialogue",
+ "BETAS.Tia.Friday_0": "...#$action {0}Message \"Tia is drinking a Joja cola, diet version.\"#$b#Don't judge me. I have one vice, okay?",
+ "BETAS.Tia.Friday_1": "Today is one of those days where I don't have the mental energy for much.{2}$2#$action {0}DialogueBox {1}Placeholder \"How many sudoku solves are you up to?\" Portraits/{1}Kis Kis#$b#Sixteen.$2#$action {0}DialogueBox {1}Placeholder \"Ah, a double-digit sudoku day.\" Portraits/{1}Kis Kis#$b#...#$action {0}DialogueBox {1}Placeholder \"That's rough.\" Portraits/{1}Cla Cla",
+ "BETAS.Tia.Friday_2": "Avi, we should get a dragon.#$action {0}DialogueBox {1}Placeholder \"Uh... Why?$3\" Portraits/{1}Avi Avi#$b#Because dragons are cool.$2#$action {0}DialogueBox {1}Placeholder \"Can you give me a slightly better reason?$3\" Portraits/{1}Avi Avi#$b#They can also eat our enemies?#$action {0}TextAboveHead {1}Avi \"...\"#$b#...#$action {0}DialogueBox {1}Placeholder \"Sold.$3\" Portraits/{1}Avi Avi",
+ "BETAS.Tia.Friday_3": "The next human that greets me with 'Hi, how are you' and nothing else gets clawed.{2}$1#$b#If you have nothing of substance to say, I don't want to talk to you!$3",
  //daily
- "Tia.Friday_0": "no dialogue",
- "Tia.Friday_1": "no dialogue",
- "Tia.Friday_2": "no dialogue",
- "Tia.Friday_3": "no dialogue",
+ "Tia.Friday_0": "Avi, your computer is attempting to make art again.#$action {0}DialogueBox {1}Placeholder \"How bad is it?$3\" Portraits/{1}Avi Avi#$b#Well, it's less art and more a marketing pitch for fifty-five gallon barrels of slime.$1#$action {0}DialogueBox {1}Placeholder \"...I'm revoking its AI privileges.$3\" Portraits/{1}Avi Avi",
+ "Tia.Friday_1": "Ugh. Trying to understand Iro is giving me a headache.$2#$b#Oh, I understand his words, but he lost me when he tried to explain why ahead-of-time screws up Harmony prefixes.$1#$action {0}DialogueBox {1}Placeholder \"Skill issue.\" Portraits/{1}Avi Avi#$action {0}TextAboveHead {1}Tia \"Rude!\" 1000 0 true#$b#...#$action {0}TextAboveHead {1}Tia \"...but yes.\" 1000 1000 true",
+ "Tia.Friday_2": "...#$action {0}Message \"Tia appears to be plotting something. Upon looking at her computer, it appears to be novel plotting.\"#$b#Oh, they're going to suffer SO much....$2",
+ "Tia.Friday_3": "If you hear anything of interest from the litterbox-mouthed strays over in the outlands, do let me know.#$b#I don't want to be part of their stupid drama, I just want to know 103% of what happened.$2",
 
  //saturday
  //BETAS
- "BETAS.Tia.Saturday_0": "no dialogue",
- "BETAS.Tia.Saturday_1": "no dialogue",
- "BETAS.Tia.Saturday_2": "no dialogue",
- "BETAS.Tia.Saturday_3": "no dialogue",
+ "BETAS.Tia.Saturday_0": "Sit down for a minute, @.#$action {0}Message \"Tia climbs into your lap and digs their claws into your legs.\"#$action AddBuff 23 1500#$b#...#$action {0}TextAboveHead {1}Tia \"Perfect.\"#$b#Just so you know, if you try to get up, that's a crime and will be punished.$2",
+ "BETAS.Tia.Saturday_1": "...#$action {0}Message \"Tia is caterwauling out the lyrics to some foreign song. When she sees you watching, she sings louder.\"",
+ "BETAS.Tia.Saturday_2": "You know what you call it when I tell Kis a bad pun and she gets revenge on me a week later?#$b#A brick joke.$2#$action {0}DialogueBox {1}Placeholder \"... Hold still. I'm bricking you now.$2\" Portraits/{1}Kis Kis#$b#It's funny!",
+ "BETAS.Tia.Saturday_3": "Sometimes when I'm in town, I'll go take a catnap on those bookshelves in the Grand Ministry. Those are some quality bookshelves.$2",
  //daily
- "Tia.Saturday_0": "no dialogue",
- "Tia.Saturday_1": "no dialogue",
- "Tia.Saturday_2": "no dialogue",
- "Tia.Saturday_3": "no dialogue",
+ "Tia.Saturday_0": "Ha! Wow, this is so awkward. Went straight from point A to point Q or so, huh?#$action {0}DialogueBox {1}Placeholder \"What are you reading?\" Portraits/{1}Cla Cla#$b#Oh, some stuff I wrote ten, twelve years ago.#$action {0}TextAboveHead {1}Cla \"...\"#$action {0}DialogueBox {1}Placeholder \"I'm... glad you don't write like this anymore.\" Portraits/{1}Cla Cla#$b#Just pretend it's by some other dumb shlub and laugh, kit.",
+ "Tia.Saturday_1": "Hey, Rok.#$action {0}DialogueBox {1}Placeholder \"...\" Portraits/{1}Rok Rok#$b#This country has some real frustrating things about it, don't you think?#$action {0}DialogueBox {1}Placeholder \"Yeah, I guess?\" Portraits/{1}Rok Rok#$b#It's a real conster-nation.$2#$action {0}TextAboveHead {1}Rok \"...\"#$action {0}DialogueBox {1}Placeholder \"Oh, it's my turn to be tortured, is it?\" Portraits/{1}Rok Rok#$b#Privilege of the ancient.$2",
+ "Tia.Saturday_2": "I wonder how that Yrsin kit tastes. I hope it's like salmon.#$action {0}DialogueBox {1}Placeholder \"...Oh, you're talking about his flesh.\" Portraits/{1}Pau Pau#$b#...What did you think I meant?$3#$action {0}DialogueBox {1}Placeholder \"And the ace cat has entered the chat.\" Portraits/{1}Pix Pix",
+ "Tia.Saturday_3": "$query {{HasMod:tiakall.writerelliott}} # You know that kit on your town's beach, Elliott? I hope he's not publishing that first novel as is. I dipped over to take a look, and whew$3.#$b#How do I know about Pelican Town? @, I'm a cat. | You know that kit on your town's beach, Elliott? I taught him everything I know. I think his novel will turn out pretty well.$2#$b#How do I know about Pelican Town? @, I'm a cat.",
 
  //sunday
  //BETAS
- "BETAS.Tia.Sunday_0": "no dialogue",
- "BETAS.Tia.Sunday_1": "no dialogue",
- "BETAS.Tia.Sunday_2": "no dialogue",
- "BETAS.Tia.Sunday_3": "no dialogue",
+ "BETAS.Tia.Sunday_0": "Some days I share bad jokes, some days I talk smack about humanity, some days I share actual writing advice. I contain multitudes.{2}$2#$b#You're in luck, today's a joke day.  So, do you know how a raven is like a writing desk?#$b#Hey, don't leave!$3",
+ "BETAS.Tia.Sunday_1": "Some days I share bad jokes, some days I talk smack about humanity, some days I share actual writing advice. I contain multitudes.{2}$2#$b#Today I'm feeling feisty. You know, for a species that claims to have invented language, humans are absurdly poor at using it.",
+ "BETAS.Tia.Sunday_2": "Some days I share bad jokes, some days I talk smack about humanity, some days I share actual writing advice. I contain multitudes.{2}$2#$b#Care less, @. If you treat your art like a precious baby, you're not going to feel good when it inevitably doesn't land with someone.",
+ "BETAS.Tia.Sunday_3": "...#$action {0}TextAboveHead {1}Tia \"AAAAAAAAAARGH!\" 1000 0 true#$action {0}DialogueBox {1}Placeholder \"Miss a comma?$3\" Portraits/{1}Avi Avi#$b#...#$action {0}DialogueBox {1}Placeholder \"Is it a bracket? I bet it's a bracket.\" Portraits/{1}Cla Cla#$action {0}DialogueBox {1}Placeholder \"Could be case sensitivity.\" Portraits/{1}Rok Rok#$b#...#$action {0}DialogueBox {1}Placeholder \"Maybe it's a wrong Target?\" Portraits/{1}Pau Pau#$b#...#$action {0}DialogueBox {1}Placeholder \"✋︎ ♌︎♏︎⧫︎ ♓︎⧫︎🕯︎⬧︎ ❄︎♓︎●︎♏︎♎︎📬︎\" Portraits/{1}Iro Iro#$b#Curse you, Tiled!  May you always fail your captchas and may your hashes always be invalid!#$action {0}DialogueBox {1}Placeholder \"✋︎ ⬥︎♓︎■︎📬︎$3\" Portraits/{1}Iro Iro",
  //daily
- "Tia.Sunday_0": "no dialogue",
- "Tia.Sunday_1": "no dialogue",
- "Tia.Sunday_2": "no dialogue",
- "Tia.Sunday_3": "no dialogue"
+ "Tia.Sunday_0": "Honestly, I'm surprised this code works as well as it does. Past me had some interesting ideas.#$action {0}DialogueBox {1}Placeholder \"Nice spaghetti.\" Portraits/{1}Rok Rok#$b#Whether you're being sarcastic or not, thanks.",
+ "Tia.Sunday_1": "Hm? Who pinged me?#$action {0}DialogueBox {1}Placeholder \"You asked for a reminder to, quote, 'do that thing, and the other one you forgot too`.\" Portraits/{1}Cla Cla#$action {0}TextAboveHead {1}Tia \"...\" 1000 0 true#$b#Be right back, I'm going to go have a chat with Past Me about being less cryptic to Future Me.$1",
+ "Tia.Sunday_2": "Guys, I think I might need to go to the vet. My chest is hurting and I'm feeling dizzy.#$action {0}DialogueBox {1}Placeholder \"Did you remember to hydrate like you said you were supposed to because you get chest pains and dizziness if you don't?\" Portraits/{1}Rok Rok#$action {0}TextAboveHead {1}Tia \"...\" 1000 0 true#$b#Oh, for frick's sake. Yoba bless.$3#$action {0}DialogueBox {1}Placeholder \"Here, have a diet Joja.\" Portraits/{1}Pau Pau",
+ "Tia.Sunday_3": "How can you understand what cats are saying? Look, @, not everything needs a magic potion from a wizard to work."
 }

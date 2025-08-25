@@ -12,24 +12,6 @@
    }
   },
   {
-   "Action": "Include",
-   "FromFile": "Data/Templates/ShopTemplate.json",
-   "LocalTokens": {
-    "SHOPNAME": "BIBKitchen",
-    "NAMEENTRY": "AnyOrNone",
-    "PORTRAIT": "{{InternalAssetKey: Assets/NPCS/Portraits/{{ModId}}_Kisaa{{Random:{{Range:1,3}}}}.png}}"
-   }
-  },
-  {
-   "Action": "Include",
-   "FromFile": "Data/Templates/ShopTemplate.json",
-   "LocalTokens": {
-    "SHOPNAME": "BIBCheckin",
-    "NAMEENTRY": "{{ModId}}_Yrnal",
-    "PORTRAIT": ""
-   }
-  },
-  {
    "Action": "EditData",
    "Target": "Data/Shops",
    "TargetField": [ "{{ModId}}_ShadyShack", "Items" ],
@@ -91,6 +73,16 @@
      "Id": "(O)351",
      "ItemId": "(O)351"
     }
+   }
+  },
+
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/ShopTemplate.json",
+   "LocalTokens": {
+    "SHOPNAME": "BIBKitchen",
+    "NAMEENTRY": "AnyOrNone",
+    "PORTRAIT": "{{InternalAssetKey: Assets/NPCS/Portraits/{{ModId}}_Kisaa{{Random:{{Range:1,3}}}}.png}}"
    }
   },
   {
@@ -293,6 +285,88 @@
      "AvailableStockLimit": "Global",
      "Id": "(O)921",
      "ItemId": "(O)921"
+    }
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/ShopTemplate.json",
+   "LocalTokens": {
+    "SHOPNAME": "JingleJam",
+    "NAMEENTRY": "AnyOrNone",
+    "PORTRAIT": ""
+   }
+  },
+  {
+   "Action": "EditData",
+   "Target": "Data/Shops",
+   "TargetField": [ "{{ModId}}_JingleJam", "Items" ],
+   "Entries": {
+    "{{ModId}}_1": {
+     "Price": 5000,
+     "AvailableStock": 1,
+     "AvailableStockLimit": "Global",
+     "Id": "RandomPlant",
+     "ItemId": "RANDOM_ITEMS (F)",
+     "MaxItems": 10
+    }
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/ShopTemplate.json",
+   "LocalTokens": {
+    "SHOPNAME": "KillerCouturier",
+    "NAMEENTRY": "AnyOrNone",
+    "PORTRAIT": ""
+   }
+  },
+  {
+   "Action": "EditData",
+   "Target": "Data/Shops",
+   "TargetField": [ "{{ModId}}_KillerCouturier", "Items" ],
+   "Entries": {
+/*
+    "{{ModId}}_RandomShirts": {
+     "Price": 10000,
+     "AvailableStock": -1,
+     "AvailableStockLimit": "Global",
+     "Id": "RandomShirt",
+     "ItemId": "RANDOM_ITEMS (S) {{ModId}}_shirt1 {{ModId}}_shirt5"
+    },
+ */
+    "{{ModId}}_RandomShirts1": {
+     "Price": 5000,
+     "AvailableStock": -1,
+     "AvailableStockLimit": "Global",
+     "Id": "RandomShirt1",
+     "MaxItems": 5,
+     "ItemId": "RANDOM_ITEMS (S) 1000 1126"
+    }
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/ShopTemplate.json",
+   "LocalTokens": {
+    "SHOPNAME": "TwistedEel",
+    "NAMEENTRY": "AnyOrNone",
+    "PORTRAIT": ""
+   }
+  },
+  {
+   "Action": "EditData",
+   "Target": "Data/Shops",
+   "TargetField": [ "{{ModId}}_TwistedEel", "Items" ],
+   "Entries": {
+    "{{ModId}}_1": {
+     "Price": 1500,
+     "AvailableStock": 1,
+     "AvailableStockLimit": "Global",
+     "Id": "RandomLiquor",
+     "ItemId": "RANDOM_ITEMS (O)",
+     "MaxItems": 10,
+     "PerItemCondition": "ITEM_CONTEXT_TAG Target alcohol_item"
     }
    }
   }
