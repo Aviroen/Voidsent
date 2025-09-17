@@ -113,6 +113,42 @@
        ]
       }
      }
+    },
+    "{{ModId}}_YrsinPicture": {
+     "Question": "[LocalizedText {{ModId}}/Strings:Grave]",
+     "ResponseEntries": {
+      "ReadGrave": {
+       "Label": "[LocalizedText {{ModId}}/Strings:GraveLabel]",
+       "Condition": "",
+       "Actions": [
+        "Spiderbuttons.BETAS_ShowMail {{ModId}}_YrsinPicture"
+       ]
+      }
+     }
+    },
+    "{{ModId}}_SaiPicture": {
+     "Question": "[LocalizedText {{ModId}}/Strings:Grave]",
+     "ResponseEntries": {
+      "ReadGrave": {
+       "Label": "[LocalizedText {{ModId}}/Strings:GraveLabel]",
+       "Condition": "",
+       "Actions": [
+        "Spiderbuttons.BETAS_ShowMail {{ModId}}_SaiPicture"
+       ]
+      }
+     }
+    },
+    "{{ModId}}_ThandaelPicture": {
+     "Question": "[LocalizedText {{ModId}}/Strings:Grave]",
+     "ResponseEntries": {
+      "ReadGrave": {
+       "Label": "[LocalizedText {{ModId}}/Strings:GraveLabel]",
+       "Condition": "",
+       "Actions": [
+        "Spiderbuttons.BETAS_ShowMail {{ModId}}_ThandaelPicture"
+       ]
+      }
+     }
     }
    }
   },

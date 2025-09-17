@@ -1,0 +1,37 @@
+{
+ "Changes": [
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/HatTemplate.json",
+   "LocalTokens": {
+    "HATNAME": "PotHat",
+    "SHOWREALHAIR": "false",
+    "SKIPHAIROFFSET": "true",
+    "TAGS": "",
+    "SPRITEINDEX": "0"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/HatTemplate.json",
+   "LocalTokens": {
+    "HATNAME": "GigiHat",
+    "SHOWREALHAIR": "false",
+    "SKIPHAIROFFSET": "true",
+    "TAGS": "",
+    "SPRITEINDEX": "1"
+   }
+  },
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/HatTemplate.json",
+   "LocalTokens": {
+    "HATNAME": "RedMageHat",
+    "SHOWREALHAIR": "true",
+    "SKIPHAIROFFSET": "true",
+    "TAGS": "",
+    "SPRITEINDEX": "2"
+   }
+  }
+ ]
+}

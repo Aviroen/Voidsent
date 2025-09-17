@@ -1,14 +1,11 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using StardewModdingAPI;
-using StardewModdingAPI.Events;
 using StardewValley;
 using StardewValley.Menus;
-using StardewValley.GameData;
 using StardewValley.GameData.SpecialOrders;
 using StardewValley.SpecialOrders;
 using StardewValley.Extensions;
-using StardewValley.Characters;
 //code from Ridgeside Village https://github.com/Rafseazz/Ridgeside-Village-Mod
 
 namespace Voidsent.Framework

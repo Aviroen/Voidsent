@@ -26,6 +26,12 @@
   },
   {
    "Action": "Load",
+   "Priority": "Low",
+   "Target": "{{ModId}}/Hats",
+   "FromFile": "Assets/TileSheets/hats.png"
+  },
+  {
+   "Action": "Load",
    "FromFile": "{{FirstValidFile: i18n/{{language}}/A_Mail.json, i18n/default/A_Mail.json}}",
    "Priority": "Low",
    "Target": "{{ModId}}/Mail"
@@ -104,7 +110,7 @@
   {
    "LogName": "Data Include",
    "Action": "Include",
-   "FromFile": "Data/Other/Animals.json, Data/Other/Artifacts.json, Data/Other/Craftables.json, Data/Other/Rokugin.json, Data/Other/Fish.json, Data/Other/LocContext.json, Data/Other/Mail.json, Data/Other/MMAP.json, Data/Other/Shops.json, Data/Other/SpaceCore.json, Data/Other/SpecialOrders.json, Data/Other/Spiderbuttons.json, Data/Other/Strings.json, Data/Other/TriggerActions.json, Data/Other/GarbageCans.json"
+   "FromFile": "Data/Other/Animals.json, Data/Other/Artifacts.json, Data/Other/Craftables.json, Data/Other/Rokugin.json, Data/Other/Fish.json, Data/Other/LocContext.json, Data/Other/Mail.json, Data/Other/MMAP.json, Data/Other/Shops.json, Data/Other/SpaceCore.json, Data/Other/SpecialOrders.json, Data/Other/Spiderbuttons.json, Data/Other/Strings.json, Data/Other/TriggerActions.json, Data/Other/GarbageCans.json, Data/Other/Hats.json"
   }
   /*
   {

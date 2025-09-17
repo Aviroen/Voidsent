@@ -326,7 +326,7 @@
    "Target": "Data/Shops",
    "TargetField": [ "{{ModId}}_KillerCouturier", "Items" ],
    "Entries": {
-/*
+    /*
     "{{ModId}}_RandomShirts": {
      "Price": 10000,
      "AvailableStock": -1,
@@ -342,6 +342,30 @@
      "Id": "RandomShirt1",
      "MaxItems": 5,
      "ItemId": "RANDOM_ITEMS (S) 1000 1126"
+    },
+    "{{ModId}}_PotHat": {
+     "Price": 20000,
+     "ApplyProfitMargins": null,
+     "AvailableStock": -1,
+     "AvailableStockLimit": "Global",
+     "Id": "(H){{ModId}}_PotHat",
+     "ItemId": "(H){{ModId}}_PotHat"
+    },
+    "{{ModId}}_GigiHat": {
+     "Price": 20000,
+     "ApplyProfitMargins": null,
+     "AvailableStock": -1,
+     "AvailableStockLimit": "Global",
+     "Id": "(H){{ModId}}_GigiHat",
+     "ItemId": "(H){{ModId}}_GigiHat"
+    },
+    "{{ModId}}_RedMageHat": {
+     "Price": 20000,
+     "ApplyProfitMargins": null,
+     "AvailableStock": -1,
+     "AvailableStockLimit": "Global",
+     "Id": "(H){{ModId}}_RedMageHat",
+     "ItemId": "(H){{ModId}}_RedMageHat"
     }
    }
   },

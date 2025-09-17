@@ -552,6 +552,36 @@
      "SetProperties": {
       "Action": "LockedDoorWarp 8 17 {{Yrsin}}_Hideout1 1400 2000 {{Yrsin}} 2000"
      }
+    },
+    {
+     "Position": {
+      "X": 3,
+      "Y": 4
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "mushymato.MMAP_QuestionDialogue {{ModId}}_YrsinPicture"
+     }
+    },
+    {
+     "Position": {
+      "X": 4,
+      "Y": 4
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "mushymato.MMAP_QuestionDialogue {{ModId}}_SaiPicture"
+     }
+    },
+    {
+     "Position": {
+      "X": 5,
+      "Y": 4
+     },
+     "Layer": "Buildings",
+     "SetProperties": {
+      "Action": "mushymato.MMAP_QuestionDialogue {{ModId}}_ThandaelPicture"
+     }
     }
    ]
   }

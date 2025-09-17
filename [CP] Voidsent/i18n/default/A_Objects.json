@@ -117,11 +117,19 @@
  "RainbowBranch.Pedestal": "According to popular legend, multicolored branches like this are said to be branches dropped from a mystical, godlike tree with the power of eternal life. Their compass-like tendency to point up has led to the belief that, separated from their mother tree, they point ever upward in an attempt to return home. Sadly, science has been unable to prove the existence of a god-tree in the sky.",
  "ZodiacPlate.Name": "Zodiac Plate",
  "ZodiacPlate.Description": "A small stone slab with a symbol carved in it.  It doesn't seem to do anything.",
- "ZodiacPlate.Pedestal": "According to Captain Trinity of the Seaworthy, this plate is actually a magical key which unlocks a tower at the center of a small, largely unknown country. One hopes they don't still need to unlock that tower.",
+ "ZodiacPlate.Pedestal": "According to Captain Trinity of the Astute, this plate is actually a magical key which unlocks a tower at the center of a small, largely unknown country. One hopes they don't still need to unlock that tower.",
  "DogCollar.Name": "Worn Dog Collar ",
  "DogCollar.Description": "The tag says 'Turbo'.",
  "DogCollar.Pedestal": "Few canines have obtained the notoriety of Turbo, a dog often found at the side of heroes in many different eras and countries.  This collar is surely just a replica, though.",
  "HeavyFryingPan.Name": "Heavy Frying Pan",
  "HeavyFryingPan.Description": "The dents seem to imply it's been used on some skulls.",
- "HeavyFryingPan.Pedestal": "A popular legend in a nearby region tells of the wife of a monk, who fought off invaders with her 'trusty frying pan'. Many Morabyr housewives consider her aspirational, and keep frying pans such as these for dealing with monsters or unwanted visitors."
+ "HeavyFryingPan.Pedestal": "A popular legend in a nearby region tells of the wife of a monk, who fought off invaders with her 'trusty frying pan'. Many Morabyr housewives consider her aspirational, and keep frying pans such as these for dealing with monsters or unwanted visitors.",
+
+ //hats
+ "PotHat.Name": "Jar",
+ "PotHat.Description": "Lovingly crafted hat from a legendary warrior.",
+ "GigiHat.Name": "Mage's Hat",
+ "GigiHat.Description": "A skittish mage's hat. 'Life doesn't last forever.'",
+ "RedMageHat.Name": "Red Chapeau",
+ "RedMageHat.Description": "A legacy of handing down these hats comes from warriors who can wield both magic and sword."
 }

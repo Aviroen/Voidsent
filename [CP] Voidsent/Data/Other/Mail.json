@@ -9,7 +9,10 @@
       "{{ModId}}_TheBeginning": "{{i18n:TheBeginning}}[letterbg {{ModId}}/LetterBG 1][textcolor black][#]{{i18n:TheBeginningTitle}}",
       "{{ModId}}_PhotoAlbum": "{{i18n:Postcard}}[letterbg {{ModId}}/LetterBG 2][#]{{i18n:TheBeginningTitle}}",
       "{{ModId}}_PhotoAlbum1": "{{i18n:Postcard}}[letterbg {{ModId}}/LetterBG 3][#]{{i18n:TheBeginningTitle}}",
-      "{{ModId}}_TrinityNote": "{{i18n:TrinityNote}}[letterbg {{ModId}}/LetterBG 4][#]{{i18n:TrinityNoteTitle}}"
+      "{{ModId}}_TrinityNote": "{{i18n:TrinityNote}}[#]{{i18n:TrinityNoteTitle}}",
+      "{{ModId}}_YrsinPicture": "{{i18n:Postcard}}[letterbg {{ModId}}/LetterBG 4][#]{{i18n:TheBeginningTitle}}",
+      "{{ModId}}_SaiPicture": "{{i18n:Postcard}}[letterbg {{ModId}}/LetterBG 5][#]{{i18n:TheBeginningTitle}}",
+      "{{ModId}}_ThandaelPicture": "{{i18n:Postcard}}[letterbg {{ModId}}/LetterBG 6][#]{{i18n:TheBeginningTitle}}"
      }
     }
   ]

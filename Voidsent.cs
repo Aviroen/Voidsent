@@ -28,10 +28,12 @@ namespace Voidsent
             Harmony = new Harmony(ModManifest.UniqueID);
             Manifest = ModManifest;
 
+            helper.Events.Player.Warped += OnWarp;
             helper.ConsoleCommands.Add("lizard", "Spawn lizard.", Lizard.LizardDebugCmd);
             GameLocation.RegisterTileAction("Aviroen.Voidsent_SummonLizard", Lizard.HandleSummonLizard);
             GameLocation.RegisterTileAction("Aviroen.VoidsentBoard", VSSpecialOrderBoard.OpenVSBoard);
             //TriggerActionManager.RegisterAction("Aviroen.Voidsent_RandomDialogue", RandomDialogueAction.Action);
+            //Event.RegisterCommand(currentCustomEventScript);
 
             Lizard.Initialize(Monitor);
             TentPatch.Initialize(Monitor, ModManifest);
@@ -48,6 +50,15 @@ namespace Voidsent
 
             Harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
+
+        private void OnWarp(object? sender, WarpedEventArgs e)
+        {
+            if (e.NewLocation == Game1.getLocationFromName("Aviroen.VoidsentCP_Morabyr")) 
+            {
+                //VoidsentEvents.Introduction();
+            }
+        }
+
         public void OnGameLaunched(object? sender, GameLaunchedEventArgs e)
         {
             //var ftmApi = Helper.ModRegistry.GetApi<IFtmApi>("Esca.FarmTypeManager")!;
@@ -68,6 +79,5 @@ namespace Voidsent
             }
             return true;
         }
-
     }
 }
