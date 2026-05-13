@@ -12,6 +12,7 @@
     "AREA": "Morabyr"
    }
   },
+  /*
   {
    "Action": "EditMap",
    "Target": "Maps/{{Morabyr}}",
@@ -145,7 +146,7 @@
    ]
   },
   //breakfast inn bed
-
+*/
   {
    "Action": "Include",
    "FromFile": "Data/Templates/LocationTemplates.json",
