@@ -5,7 +5,7 @@
    "Action": "Load",
    "Priority": "Low",
    "Target": "Maps/{{ModId}}_{{MAPNAME}}",
-   "FromFile": "Assets/Maps/{{INTERIORORLOCATIONS}}/{{MAPNAME}}.tmx"
+   "FromFile": "Assets/{{Maps}}/{{INTERIORORLOCATIONS}}/{{MAPNAME}}.tmx"
   },
   {
    "LogName": "Load {{MAPNAME}} Events",

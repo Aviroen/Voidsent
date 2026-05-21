@@ -12,7 +12,6 @@
     "AREA": "CrimsonGrove"
    }
   },
-  /*
   {
    "Action": "EditMap",
    "Target": "Maps/{{CrimsonGrove}}",
@@ -42,9 +41,7 @@
     "0 39 {{Grove}} 48 17",
     "0 40 {{Grove}} 48 17"
    ]
-  },
- */
-  //blacksmithy / duvin's room
+  }, //blacksmithy / duvin's room
   {
    "Action": "Include",
    "FromFile": "Data/Templates/LocationTemplates.json",

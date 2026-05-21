@@ -1,7 +1,7 @@
 ﻿// SPDX-License-Identifier: MIT
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
-//using ContentPatcher;
+using ContentPatcher;
 using StardewModdingAPI;
 using StardewModdingAPI.Events;
 using StardewValley;
@@ -170,13 +170,11 @@ public class PersistentFlagsManager
         TriggerActionManager.RegisterAction(Action_SetPersistentString, SetPersistentString);
 
         // Register content patcher token
-        /*
-         * if (helper.ModRegistry.GetApi<IContentPatcherAPI>("Pathoschild.ContentPatcher") is IContentPatcherAPI cpAPI)
+        if (helper.ModRegistry.GetApi<IContentPatcherAPI>("Pathoschild.ContentPatcher") is IContentPatcherAPI cpAPI)
         {
             cpToken = new PersistentFlagsCPToken(GetFlags);
             cpAPI.RegisterToken(man, "Persistent", cpToken);
         }
-        */
     }
 
     private bool PERSISTENT_FLAG(string[] query, GameStateQueryContext context)

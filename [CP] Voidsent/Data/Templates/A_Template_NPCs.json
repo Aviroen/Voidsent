@@ -78,8 +78,57 @@
      "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
      "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, ITEM_STACK Target 1, !IS_EVENT",
      "MarkActionApplied": false,
-     "Action": "Aviroen.Voidsent_RandomDialogue {{ModId}} {{ModId}}_{{NPCNAME}} BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{ModId}}_{{NPCNAME}}}}_ {{Range:0,{{ENDRANGE}}}}"
+     "Action": "Spiderbuttons.BETAS_RandomAction \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:BETAS.{{NPCNAME}}.{{DayOfWeek}}_0 Spiderbuttons.BETAS_ Aviroen.VoidsentCP_ $0]\" \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:BETAS.{{NPCNAME}}.{{DayOfWeek}}_1 Spiderbuttons.BETAS_ Aviroen.VoidsentCP_ $0]\" \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:BETAS.{{NPCNAME}}.{{DayOfWeek}}_2 Spiderbuttons.BETAS_ Aviroen.VoidsentCP_ $0]\" \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:BETAS.{{NPCNAME}}.{{DayOfWeek}}_3 Spiderbuttons.BETAS_ Aviroen.VoidsentCP_ $0]\""
+    },
+    "{{ModId}}_{{NPCNAME}}_DialogueOpened1": {
+     "Id": "{{ModId}}_{{NPCNAME}}_DialogueOpened1",
+     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
+     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, {{Query:{{Hearts:{{ModId}}_{{NPCNAME}}}} >= 2}}, ITEM_STACK Target 1, ANY \"{{2HEART}}\" \"{{4HEART}}\" \"{{6HEART}}\" \"{{8HEART}}\" \"{{10HEART}}\", !PLAYER_HAS_MAIL Current {{ModId}}_Maincast, !IS_EVENT",
+     "MarkActionApplied": false,
+     "Actions": [
+      "Spiderbuttons.BETAS_RandomAction \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:BETAS.{{NPCNAME}}.{{DayOfWeek}}{{Hearts:{{ModId}}_{{NPCNAME}}}}_0 Spiderbuttons.BETAS_ Aviroen.VoidsentCP_ $0]\" \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:BETAS.{{NPCNAME}}.{{DayOfWeek}}{{Hearts:{{ModId}}_{{NPCNAME}}}}_1 Spiderbuttons.BETAS_ Aviroen.VoidsentCP_ $0]\" \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:BETAS.{{NPCNAME}}.{{DayOfWeek}}{{Hearts:{{ModId}}_{{NPCNAME}}}}_2 Spiderbuttons.BETAS_ Aviroen.VoidsentCP_ $0]\" \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:BETAS.{{NPCNAME}}.{{DayOfWeek}}{{Hearts:{{ModId}}_{{NPCNAME}}}}_3 Spiderbuttons.BETAS_ Aviroen.VoidsentCP_ $0]\"",
+      "MarkActionApplied Current {{ModId}}_{{NPCNAME}}_DialogueOpened true"
+     ]
+    },
+    "{{ModId}}_{{NPCNAME}}_DialogueOpened2": {
+     "Id": "{{ModId}}_{{NPCNAME}}_DialogueOpened2",
+     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
+     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, {{Query:{{Hearts:{{ModId}}_{{NPCNAME}}}} >= 4}}, ITEM_STACK Target 1, ANY \"{{4HEART}}\" \"{{6HEART}}\" \"{{8HEART}}\" \"{{10HEART}}\", PLAYER_HAS_MAIL Current {{ModId}}_Maincast, DAY_OF_WEEK Wednesday, !IS_EVENT",
+     "MarkActionApplied": false,
+     "Actions": [
+      "Spiderbuttons.BETAS_RandomAction \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:BETAS.{{NPCNAME}}.Wednesday_Alt_{{Hearts:{{ModId}}_{{NPCNAME}}}}_0 Spiderbuttons.BETAS_ Aviroen.VoidsentCP_ $0]\" \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:BETAS.{{NPCNAME}}.Wednesday_Alt_{{Hearts:{{ModId}}_{{NPCNAME}}}}_1 Spiderbuttons.BETAS_ Aviroen.VoidsentCP_ $0]\" \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:BETAS.{{NPCNAME}}.Wednesday_Alt_{{Hearts:{{ModId}}_{{NPCNAME}}}}_2 Spiderbuttons.BETAS_ Aviroen.VoidsentCP_ $0]\" \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:BETAS.{{NPCNAME}}.Wednesday_Alt_{{Hearts:{{ModId}}_{{NPCNAME}}}}_3 Spiderbuttons.BETAS_ Aviroen.VoidsentCP_ $0]\"",
+      "MarkActionApplied Current {{ModId}}_{{NPCNAME}}_DialogueOpened true"
+     ]
     }
+    /*
+    "{{ModId}}_{{NPCNAME}}_DialogueOpened": {
+     "Id": "{{ModId}}_{{NPCNAME}}_DialogueOpened",
+     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
+     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, ITEM_STACK Target 1",
+     "MarkActionApplied": false,
+     "Action": "Aviroen.Voidsent_RandomDialogue Aviroen.VoidsentCP {{ModId}}_{{NPCNAME}} BETAS.{{NPCNAME}}.{{DayOfWeek}}_ {{Range:0,{{ENDRANGE}}}}"
+    },
+    "{{ModId}}_{{NPCNAME}}_DialogueOpened1": {
+     "Id": "{{ModId}}_{{NPCNAME}}_DialogueOpened1",
+     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
+     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, {{Query:{{Hearts:{{ModId}}_{{NPCNAME}}}} >= 2}}, ITEM_STACK Target 1, ANY \"{{2HEART}}\" \"{{4HEART}}\" \"{{6HEART}}\" \"{{8HEART}}\" \"{{10HEART}}\", !PLAYER_HAS_MAIL Current {{ModId}}_Maincast",
+     "MarkActionApplied": false,
+     "Actions": [
+      "Aviroen.Voidsent_RandomDialogue Aviroen.VoidsentCP {{ModId}}_{{NPCNAME}} BETAS.{{NPCNAME}}.{{DayOfWeek}}{{Hearts:{{ModId}}_{{NPCNAME}}}}_ {{Range:0,{{ENDRANGE}}}}",
+      "MarkActionApplied Current {{ModId}}_{{NPCNAME}}_DialogueOpened true"
+     ]
+    },
+    "{{ModId}}_{{NPCNAME}}_DialogueOpened2": {
+     "Id": "{{ModId}}_{{NPCNAME}}_DialogueOpened2",
+     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
+     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, {{Query:{{Hearts:{{ModId}}_{{NPCNAME}}}} >= 4}}, ITEM_STACK Target 1, ANY \"{{4HEART}}\" \"{{6HEART}}\" \"{{8HEART}}\" \"{{10HEART}}\", PLAYER_HAS_MAIL Current {{ModId}}_Maincast, DAY_OF_WEEK Wednesday",
+     "MarkActionApplied": false,
+     "Actions": [
+      "Aviroen.Voidsent_RandomDialogue Aviroen.VoidsentCP {{ModId}}_{{NPCNAME}} BETAS.{{NPCNAME}}.Wednesday_Alt_{{Hearts:{{ModId}}_{{NPCNAME}}}}_ {{Range:0,{{ENDRANGE}}}}",
+      "MarkActionApplied Current {{ModId}}_{{NPCNAME}}_DialogueOpened true"
+     ]
+    }
+    */
    }
   },
   /*
