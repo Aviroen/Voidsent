@@ -1,0 +1,31 @@
+{
+ "Changes": [
+  //////////////////////////////////////////////////////////////////////////////////////////////////
+  {
+   "Action": "EditData",
+   "Target": "Strings/StringsFromMaps",
+   "Entries": {
+    //common
+    "TentUnallowed": "{{i18n:TentUnallowed}}",
+
+    "EdelHouse.5": "{{i18n:EdelHouse.5}}", //anvil
+    "EdelHouse.6": "{{i18n:EdelHouse.6}}", //anvil
+    "EdelHouse.14": "{{i18n:EdelHouse.14}}", //kitchen plant
+    "EdelHouse.15": "{{i18n:EdelHouse.15}}", //fridge
+    "EdelHouse.16": "{{i18n:EdelHouse.16}}", //stove
+    "EdelHouse.22": "{{i18n:EdelHouse.22}}", //floorpc
+    "EdelGoat": "{{i18n:EdelGoat}}", //attic goat
+    "EdelBear": "{{i18n:EdelBear}}", //attic bear
+    "EdelJewel": "{{i18n:EdelJewel}}", //attic jewel
+    "EdelJunimo": "{{i18n:EdelJunimo}}", //attic junimo
+    "EdelGrave": "{{i18n:EdelGrave}}", //wait for 1.6.9
+
+    "CrimsonGroveMessage": "{{i18n:CrimsonGroveMessage}}",
+    "MoorMessage": "{{i18n:MoorMessage}}",
+    "CommonwealthMessage": "{{i18n:CommonwealthMessage}}",
+    "GroveMessage": "{{i18n:GroveMessage}}"
+
+   }
+  }
+ ]
+}

@@ -18,46 +18,46 @@
    "Action": "Load",
    "FromFile": "{{FirstValidFile: i18n/{{language}}/{{NPCNAME}}.json, i18n/default/{{NPCNAME}}.json}}",
    "Priority": "Low",
-   "Target": "{{ModId}}/NPCTranslations/{{NPCNAME}}"
+   "Target": "{{ModId}}/Dialogue/{{NPCNAME}}"
   },
-  {
-   "LogName": "NotFriend_Door",
-   "Action": "EditData",
-   "Target": "Strings/Locations",
-   "Entries": {
-    "DoorUnlock_NotFriend_{{ModId}}_{{NPCNAME}}": "{{i18n:{{NPCNAME}}.NotFriend_Door}}"
-   }
-  },
-  {
-   "LogName": "Relationship Status",
-   "Action": "EditData",
-   "Target": "Strings/StringsFromCSFiles",
-   "When": {
-    "Query: {{CUSTOMENDEARMENT}}": true
-   },
-   "Entries": {
-    "SocialPage_Relationship_Housemate_{{ModId}}_{{NPCNAME}}": "{{i18n:{{NPCNAME}}.Housemate}}",
-    "SocialPage_Relationship_Spouse_{{ModId}}_{{NPCNAME}}": "{{i18n:{{NPCNAME}}.Spouse}}",
-    "SocialPage_Relationship_Partner_{{ModId}}_{{NPCNAME}}": "{{i18n:{{NPCNAME}}.Partner}}",
-    "SocialPage_Relationship_ExSpouse_{{ModId}}_{{NPCNAME}}": "{{i18n:{{NPCNAME}}.ExSpouse}}",
-    "SocialPage_Relationship_Single_{{ModId}}_{{NPCNAME}}": "{{i18n:{{NPCNAME}}.Single}}"
-   }
-  },
-  {
-   "LogName": "Relationship Status",
-   "Action": "EditData",
-   "Target": "Strings/StringsFromCSFiles",
-   "When": {
-    "Query: {{CUSTOMENDEARMENT}}": false
-   },
-   "Entries": {
-    "SocialPage_Relationship_Housemate_{{ModId}}_{{NPCNAME}}": "{{i18n:Test.Housemate}}",
-    "SocialPage_Relationship_Spouse_{{ModId}}_{{NPCNAME}}": "{{i18n:Test.Spouse}}",
-    "SocialPage_Relationship_Partner_{{ModId}}_{{NPCNAME}}": "{{i18n:Test.Partner}}",
-    "SocialPage_Relationship_ExSpouse_{{ModId}}_{{NPCNAME}}": "{{i18n:Test.ExSpouse}}",
-    "SocialPage_Relationship_Single_{{ModId}}_{{NPCNAME}}": "{{i18n:Test.Single}}"
-   }
-  },
+  //{
+  // "LogName": "NotFriend_Door",
+  // "Action": "EditData",
+  // "Target": "Strings/Locations",
+  // "Entries": {
+  //  "DoorUnlock_NotFriend_{{ModId}}_{{NPCNAME}}": "{{i18n:{{NPCNAME}}.NotFriend_Door}}"
+  // }
+  //},
+  //{
+  // "LogName": "Relationship Status",
+  // "Action": "EditData",
+  // "Target": "Strings/StringsFromCSFiles",
+  // "When": {
+  //  "Query: {{CUSTOMENDEARMENT}}": true
+  // },
+  // "Entries": {
+  //  "SocialPage_Relationship_Housemate_{{ModId}}_{{NPCNAME}}": "{{i18n:{{NPCNAME}}.Housemate}}",
+  //  "SocialPage_Relationship_Spouse_{{ModId}}_{{NPCNAME}}": "{{i18n:{{NPCNAME}}.Spouse}}",
+  //  "SocialPage_Relationship_Partner_{{ModId}}_{{NPCNAME}}": "{{i18n:{{NPCNAME}}.Partner}}",
+  //  "SocialPage_Relationship_ExSpouse_{{ModId}}_{{NPCNAME}}": "{{i18n:{{NPCNAME}}.ExSpouse}}",
+  //  "SocialPage_Relationship_Single_{{ModId}}_{{NPCNAME}}": "{{i18n:{{NPCNAME}}.Single}}"
+  // }
+  //},
+  //{
+  // "LogName": "Relationship Status",
+  // "Action": "EditData",
+  // "Target": "Strings/StringsFromCSFiles",
+  // "When": {
+  //  "Query: {{CUSTOMENDEARMENT}}": false
+  // },
+  // "Entries": {
+  //  "SocialPage_Relationship_Housemate_{{ModId}}_{{NPCNAME}}": "{{i18n:Test.Housemate}}",
+  //  "SocialPage_Relationship_Spouse_{{ModId}}_{{NPCNAME}}": "{{i18n:Test.Spouse}}",
+  //  "SocialPage_Relationship_Partner_{{ModId}}_{{NPCNAME}}": "{{i18n:Test.Partner}}",
+  //  "SocialPage_Relationship_ExSpouse_{{ModId}}_{{NPCNAME}}": "{{i18n:Test.ExSpouse}}",
+  //  "SocialPage_Relationship_Single_{{ModId}}_{{NPCNAME}}": "{{i18n:Test.Single}}"
+  // }
+  //},
   {
    "LogName": "SpaceCore",
    "Action": "EditData",
@@ -69,319 +69,204 @@
    }
   },
   {
-   "LogName": "Trigger Actions: BETAS",
-   "Action": "EditData",
-   "Target": "Data/TriggerActions",
-   "Entries": {
-    "{{ModId}}_{{NPCNAME}}_DialogueOpened": {
-     "Id": "{{ModId}}_{{NPCNAME}}_DialogueOpened",
-     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, ITEM_STACK Target 1, !IS_EVENT",
-     "MarkActionApplied": false,
-     "Action": "Spiderbuttons.BETAS_RandomAction \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:BETAS.{{NPCNAME}}.{{DayOfWeek}}_0 Spiderbuttons.BETAS_ Aviroen.VoidsentCP_ $0]\" \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:BETAS.{{NPCNAME}}.{{DayOfWeek}}_1 Spiderbuttons.BETAS_ Aviroen.VoidsentCP_ $0]\" \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:BETAS.{{NPCNAME}}.{{DayOfWeek}}_2 Spiderbuttons.BETAS_ Aviroen.VoidsentCP_ $0]\" \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:BETAS.{{NPCNAME}}.{{DayOfWeek}}_3 Spiderbuttons.BETAS_ Aviroen.VoidsentCP_ $0]\""
-    },
-    "{{ModId}}_{{NPCNAME}}_DialogueOpened1": {
-     "Id": "{{ModId}}_{{NPCNAME}}_DialogueOpened1",
-     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, {{Query:{{Hearts:{{ModId}}_{{NPCNAME}}}} >= 2}}, ITEM_STACK Target 1, ANY \"{{2HEART}}\" \"{{4HEART}}\" \"{{6HEART}}\" \"{{8HEART}}\" \"{{10HEART}}\", !PLAYER_HAS_MAIL Current {{ModId}}_Maincast, !IS_EVENT",
-     "MarkActionApplied": false,
-     "Actions": [
-      "Spiderbuttons.BETAS_RandomAction \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:BETAS.{{NPCNAME}}.{{DayOfWeek}}{{Hearts:{{ModId}}_{{NPCNAME}}}}_0 Spiderbuttons.BETAS_ Aviroen.VoidsentCP_ $0]\" \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:BETAS.{{NPCNAME}}.{{DayOfWeek}}{{Hearts:{{ModId}}_{{NPCNAME}}}}_1 Spiderbuttons.BETAS_ Aviroen.VoidsentCP_ $0]\" \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:BETAS.{{NPCNAME}}.{{DayOfWeek}}{{Hearts:{{ModId}}_{{NPCNAME}}}}_2 Spiderbuttons.BETAS_ Aviroen.VoidsentCP_ $0]\" \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:BETAS.{{NPCNAME}}.{{DayOfWeek}}{{Hearts:{{ModId}}_{{NPCNAME}}}}_3 Spiderbuttons.BETAS_ Aviroen.VoidsentCP_ $0]\"",
-      "MarkActionApplied Current {{ModId}}_{{NPCNAME}}_DialogueOpened true"
-     ]
-    },
-    "{{ModId}}_{{NPCNAME}}_DialogueOpened2": {
-     "Id": "{{ModId}}_{{NPCNAME}}_DialogueOpened2",
-     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, {{Query:{{Hearts:{{ModId}}_{{NPCNAME}}}} >= 4}}, ITEM_STACK Target 1, ANY \"{{4HEART}}\" \"{{6HEART}}\" \"{{8HEART}}\" \"{{10HEART}}\", PLAYER_HAS_MAIL Current {{ModId}}_Maincast, DAY_OF_WEEK Wednesday, !IS_EVENT",
-     "MarkActionApplied": false,
-     "Actions": [
-      "Spiderbuttons.BETAS_RandomAction \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:BETAS.{{NPCNAME}}.Wednesday_Alt_{{Hearts:{{ModId}}_{{NPCNAME}}}}_0 Spiderbuttons.BETAS_ Aviroen.VoidsentCP_ $0]\" \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:BETAS.{{NPCNAME}}.Wednesday_Alt_{{Hearts:{{ModId}}_{{NPCNAME}}}}_1 Spiderbuttons.BETAS_ Aviroen.VoidsentCP_ $0]\" \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:BETAS.{{NPCNAME}}.Wednesday_Alt_{{Hearts:{{ModId}}_{{NPCNAME}}}}_2 Spiderbuttons.BETAS_ Aviroen.VoidsentCP_ $0]\" \"Spiderbuttons.BETAS_SetNewDialogue {{ModId}}_{{NPCNAME}} [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:BETAS.{{NPCNAME}}.Wednesday_Alt_{{Hearts:{{ModId}}_{{NPCNAME}}}}_3 Spiderbuttons.BETAS_ Aviroen.VoidsentCP_ $0]\"",
-      "MarkActionApplied Current {{ModId}}_{{NPCNAME}}_DialogueOpened true"
-     ]
-    }
-    /*
-    "{{ModId}}_{{NPCNAME}}_DialogueOpened": {
-     "Id": "{{ModId}}_{{NPCNAME}}_DialogueOpened",
-     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, ITEM_STACK Target 1",
-     "MarkActionApplied": false,
-     "Action": "Aviroen.Voidsent_RandomDialogue Aviroen.VoidsentCP {{ModId}}_{{NPCNAME}} BETAS.{{NPCNAME}}.{{DayOfWeek}}_ {{Range:0,{{ENDRANGE}}}}"
-    },
-    "{{ModId}}_{{NPCNAME}}_DialogueOpened1": {
-     "Id": "{{ModId}}_{{NPCNAME}}_DialogueOpened1",
-     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, {{Query:{{Hearts:{{ModId}}_{{NPCNAME}}}} >= 2}}, ITEM_STACK Target 1, ANY \"{{2HEART}}\" \"{{4HEART}}\" \"{{6HEART}}\" \"{{8HEART}}\" \"{{10HEART}}\", !PLAYER_HAS_MAIL Current {{ModId}}_Maincast",
-     "MarkActionApplied": false,
-     "Actions": [
-      "Aviroen.Voidsent_RandomDialogue Aviroen.VoidsentCP {{ModId}}_{{NPCNAME}} BETAS.{{NPCNAME}}.{{DayOfWeek}}{{Hearts:{{ModId}}_{{NPCNAME}}}}_ {{Range:0,{{ENDRANGE}}}}",
-      "MarkActionApplied Current {{ModId}}_{{NPCNAME}}_DialogueOpened true"
-     ]
-    },
-    "{{ModId}}_{{NPCNAME}}_DialogueOpened2": {
-     "Id": "{{ModId}}_{{NPCNAME}}_DialogueOpened2",
-     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}, {{Query:{{Hearts:{{ModId}}_{{NPCNAME}}}} >= 4}}, ITEM_STACK Target 1, ANY \"{{4HEART}}\" \"{{6HEART}}\" \"{{8HEART}}\" \"{{10HEART}}\", PLAYER_HAS_MAIL Current {{ModId}}_Maincast, DAY_OF_WEEK Wednesday",
-     "MarkActionApplied": false,
-     "Actions": [
-      "Aviroen.Voidsent_RandomDialogue Aviroen.VoidsentCP {{ModId}}_{{NPCNAME}} BETAS.{{NPCNAME}}.Wednesday_Alt_{{Hearts:{{ModId}}_{{NPCNAME}}}}_ {{Range:0,{{ENDRANGE}}}}",
-      "MarkActionApplied Current {{ModId}}_{{NPCNAME}}_DialogueOpened true"
-     ]
-    }
-    */
-   }
-  },
-  /*
-  FIGURE OUT HOW TO GET AROUND THIS WITHOUT ACTUALLY SETTING TO MARRIED, UNLESS I JUST DON'T CARE AND I JUST HAVE THE ABOVE BUT WITH A MAILFLAG
-  {
-   "LogName": "Trigger Actions: BETAS Married",
-   "Action": "EditData",
-   "Target": "Data/TriggerActions",
-   "Entries": {
-    "{{ModId}}_{{NPCNAME}}_Married": {
-     "Id": "{{ModId}}_{{NPCNAME}}_Married",
-     "Trigger": "Spiderbuttons.BETAS_NpcKissed",
-     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, {{BETASTOGGLED}}",
-     "MarkActionApplied": false,
-     "Action": "Aviroen.Voidsent_RandomDialogue Aviroen.VoidsentCP {{ModId}}_{{NPCNAME}} BETAS.{{NPCNAME}}.Married.{{DayOfWeek}}_ {{Range:0,{{ENDRANGE}}}}"
-    }
-   }
-  },
-  */
-
-    {
-     "Action": "EditData",
-     "Target": "Data/Characters",
-     "Entries": {
-      "{{ModId}}_{{NPCNAME}}": {
-       "DisplayName": "{{i18n:{{DISPLAYNAME}}}}",
-       "BirthSeason": null,
-       "BirthDay": 0,
-       "HomeRegion": "Other",
-       "Language": "Default",
-       "Gender": "{{GENDER}}",
-       "Age": "Adult",
-       "Manner": "{{MANNER}}",
-       "SocialAnxiety": "{{ANXIETY}}",
-       "Optimism": "{{OPTIMISM}}",
-       "IsDarkSkinned": "{{DARKSKIN}}",
-       "CanBeRomanced": false,
-       "LoveInterest": null,
-       "Calendar": "HiddenUntilMet",
-       "SocialTab": "HiddenUntilMet",
-       "CanSocialize": "{{GIFTABLE}}",
-       "CanReceiveGifts": "{{GIFTABLE}}",
-       "CanGreetNearbyCharacters": true,
-       "CanCommentOnPurchasedShopItems": null,
-       "CanVisitIsland": false,
-       "IntroductionsQuest": false,
-       "ItemDeliveryQuests": null,
-       "PerfectionScore": false,
-       "EndSlideShow": "TrailingGroup",
-       "SpouseAdopts": null,
-       "SpouseWantsChildren": null,
-       "SpouseGiftJealousy": null,
-       "SpouseGiftJealousyFriendshipChange": -30,
-       "SpouseRoom": null,
-       "SpousePatio": null,
-       "SpouseFloors": [],
-       "SpouseWallpapers": [],
-       "DumpsterDiveFriendshipEffect": -5,
-       "DumpsterDiveEmote": null,
-       "FriendsAndFamily": {
-       },
-       "FlowerDanceCanDance": false,
-       "WinterStarGifts": [],
-       "WinterStarParticipant": null,
-       "UnlockConditions": null,
-       "SpawnIfMissing": true,
-       "Home": [
-        {
-         "Id": "Default",
-         "Condition": null,
-         "Location": "{{HOMELOCATION}}",
-         "Tile": {
-          "X": "{{HOMEXTILE}}",
-          "Y": "{{HOMEYTILE}}"
-         },
-         "Direction": "{{HOMEFACING}}"
-        }
-       ],
-       "TextureName": null,
-       "Appearance": null,
-       "MugShotSourceRect": {
-        "X": "{{MUGX}}",
-        "Y": "{{MUGY}}",
-        "Width": "{{MUGWID}}",
-        "Height": "{{MUGHEI}}"
-       },
-       "Size": {
-        "X": "{{WIDTH}}",
-        "Y": "{{HEIGHT}}"
-       },
-       "Breather": true,
-       "BreathChestRect": null,
-       "BreathChestPosition": null,
-       "Shadow": null,
-       "EmoteOffset": {
-        "X": 0,
-        "Y": 0
-       },
-       "ShakePortraits": [ 15 ],
-       "KissSpriteIndex": 28,
-       "KissSpriteFacingRight": false,
-       "HiddenProfileEmoteSound": "newRecipe",
-       "HiddenProfileEmoteDuration": 4000,
-       "HiddenProfileEmoteStartFrame": 32,
-       "HiddenProfileEmoteFrameCount": 2,
-       "HiddenProfileEmoteFrameDuration": 200.0,
-       "FormerCharacterNames": [],
-       "CustomFields": {
-        "poohnhi.PoohCore/WideCharacter": "true",
-        "poohnhi.PoohCore/HighCharacter": "true"
-       }
-      }
-     }
-    },
-    //////////////////////////////////////////////////////////////////////////////////////////////////
-    {
-     "Action": "EditData",
-     "Target": "Data/NPCGiftTastes",
-     "Entries": {
-      "{{ModId}}_{{NPCNAME}}": "{{i18n:{{NPCNAME}}.Gifts.Loved}}/{{LOVEDGIFTS}}/{{i18n:{{NPCNAME}}.Gifts.Liked}}/{{LIKEDGIFTS}}/{{i18n:{{NPCNAME}}.Gifts.Disliked}}/{{DISLIKEDGIFTS}}/{{i18n:{{NPCNAME}}.Gifts.Hated}}/{{HATEDGIFTS}}/{{i18n:{{NPCNAME}}.Gifts.Neutral}}/74 446 797 373 279 -2 -7 -26 -75 -80 72 395 613 634 635 636 637 638 724 459 873 394 166 {{NEUTRALGIFTS}}/"
-     }
-    },
-
-    //////////////////////////////////////////////////////////////////////////////////////////////////
-    {
-     "LogName": "Schedule Data",
-     "Action": "EditData",
-     "Target": "Characters/schedules/{{ModId}}_{{NPCNAME}}",
-     "Entries": {
-      "spring": "{{SPRINGSCHEDULE}}",
-      "summer": "{{SUMMERSCHEDULE}}",
-      "fall": "{{FALLSCHEDULE}}",
-      "winter": "{{WINTERSCHEDULE}}",
-      "Mon": "{{MONDAYSCHEDULE}}",
-      "Tue": "{{TUESDAYSCHEDULE}}",
-      "Wed": "{{WEDNESDAYSCHEDULE}}",
-      "Thu": "{{THURSAYSCHEDULE}}",
-      "Fri": "{{FRIDAYSCHEDULE}}",
-      "Sat": "{{SATURDAYSCHEDULE}}",
-      "Sun": "{{SUNDAYSCHEDULE}}"
-     }
-    },
-    /*
-  {
-   "LogName": "Gender locks",
    "Action": "EditData",
    "Target": "Data/Characters",
-   "When": {
-    "Query: ('{{PlayerGender}}' = '{{LIKESGENDER}}') OR ('{{LIKESGENDER}}' = 'Both')": true,
-    "Query: {{ROMANCE}}": true
-   },
-   "Fields": {
+   "Entries": {
     "{{ModId}}_{{NPCNAME}}": {
-     "CanBeRomanced": true
+     "DisplayName": "{{i18n:{{DISPLAYNAME}}}}",
+     "BirthSeason": null,
+     "BirthDay": 0,
+     "HomeRegion": "Other",
+     "Language": "Default",
+     "Gender": "{{GENDER}}",
+     "Age": "Adult",
+     "Manner": "{{MANNER}}",
+     "SocialAnxiety": "{{ANXIETY}}",
+     "Optimism": "{{OPTIMISM}}",
+     "IsDarkSkinned": "{{DARKSKIN}}",
+     "CanBeRomanced": false,
+     "LoveInterest": null,
+     "Calendar": "HiddenUntilMet",
+     "SocialTab": "HiddenUntilMet",
+     "CanSocialize": "{{GIFTABLE}}",
+     "CanReceiveGifts": "{{GIFTABLE}}",
+     "CanGreetNearbyCharacters": true,
+     "CanCommentOnPurchasedShopItems": null,
+     "CanVisitIsland": false,
+     "IntroductionsQuest": false,
+     "ItemDeliveryQuests": null,
+     "PerfectionScore": false,
+     "EndSlideShow": "TrailingGroup",
+     "SpouseAdopts": null,
+     "SpouseWantsChildren": null,
+     "SpouseGiftJealousy": null,
+     "SpouseGiftJealousyFriendshipChange": -30,
+     "SpouseRoom": null,
+     "SpousePatio": null,
+     "SpouseFloors": [],
+     "SpouseWallpapers": [],
+     "DumpsterDiveFriendshipEffect": -5,
+     "DumpsterDiveEmote": null,
+     "FriendsAndFamily": {
+     },
+     "FlowerDanceCanDance": false,
+     "WinterStarGifts": [],
+     "WinterStarParticipant": null,
+     "UnlockConditions": null,
+     "SpawnIfMissing": true,
+     "Home": [
+      {
+       "Id": "Default",
+       "Condition": null,
+       "Location": "{{HOMELOCATION}}",
+       "Tile": {
+        "X": "{{HOMEXTILE}}",
+        "Y": "{{HOMEYTILE}}"
+       },
+       "Direction": "{{HOMEFACING}}"
+      }
+     ],
+     "TextureName": null,
+     "Appearance": null,
+     "MugShotSourceRect": {
+      "X": "{{MUGX}}",
+      "Y": "{{MUGY}}",
+      "Width": "{{MUGWID}}",
+      "Height": "{{MUGHEI}}"
+     },
+     "Size": {
+      "X": "{{WIDTH}}",
+      "Y": "{{HEIGHT}}"
+     },
+     "Breather": true,
+     "BreathChestRect": null,
+     "BreathChestPosition": null,
+     "Shadow": null,
+     "EmoteOffset": {
+      "X": 0,
+      "Y": 0
+     },
+     "ShakePortraits": [ 15 ],
+     "KissSpriteIndex": 28,
+     "KissSpriteFacingRight": false,
+     "HiddenProfileEmoteSound": "newRecipe",
+     "HiddenProfileEmoteDuration": 4000,
+     "HiddenProfileEmoteStartFrame": 32,
+     "HiddenProfileEmoteFrameCount": 2,
+     "HiddenProfileEmoteFrameDuration": 200.0,
+     "FormerCharacterNames": [],
+     "CustomFields": {
+      "poohnhi.PoohCore/WideCharacter": "true",
+      "poohnhi.PoohCore/HighCharacter": "true"
+     }
     }
    }
   },
-  */
-    //////////////////////////////////////////////////////////////////////////////////////////////////
-    {
-     "LogName": "Base Dialogue",
-     "Action": "EditData",
-     "Target": "Characters/Dialogue/{{ModId}}_{{NPCNAME}}",
-     "Entries": {
-      "breakUp": "{{i18n:{{NPCNAME}}.breakUp}}",
-      "divorced": "{{i18n:{{NPCNAME}}.divorced}}",
-      "DumpsterDiveComment": "{{i18n:{{NPCNAME}}.DumpsterDiveComment}}",
-      "HitBySlingshot": "{{i18n:{{NPCNAME}}.HitBySlingshot}}",
-      "SpouseFarmhouseClutter": "{{i18n:{{NPCNAME}}.SpouseFarmhouseClutter}}",
-      "SpouseGiftJealous": "{{i18n:{{NPCNAME}}.SpouseGiftJealous}}",
-      "Spouse_MonstersInHouse": "{{i18n:{{NPCNAME}}.Spouse_MonstersInHouse}}",
-      "SpouseStardrop": "{{i18n:{{NPCNAME}}.SpouseStardrop}}",
-      "WipedMemory": "{{i18n:{{NPCNAME}}.WipedMemory}}",
-      "AcceptBouquet": "{{i18n:{{NPCNAME}}.AcceptBouquet}}",
-      "MovieInvitation": "{{i18n:{{NPCNAME}}.MovieInvitation}}",
-      "RejectBouquet": "{{i18n:{{NPCNAME}}.RejectBouquet}}",//low hearts i assume
-      "RejectGift_Divorced": "{{i18n:{{NPCNAME}}.RejectGift_Divorced}}",
-      "RejectMermaidPendant": "{{i18n:{{NPCNAME}}.RejectMermaidPendant}}",//low hearts i assume
-      "RejectMovieTicket": "{{i18n:{{NPCNAME}}.RejectMovieTicket}}",
-      "GreenRain": "{{i18n:{{NPCNAME}}.GreenRain}}",
-      "GreenRainFinished": "{{i18n:{{NPCNAME}}.GreenRainFinished}}",
+  //////////////////////////////////////////////////////////////////////////////////////////////////
+  {
+   "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "Entries": {
+    "{{ModId}}_{{NPCNAME}}": "{{i18n:{{NPCNAME}}.Gifts.Loved}}/{{LOVEDGIFTS}}/{{i18n:{{NPCNAME}}.Gifts.Liked}}/{{LIKEDGIFTS}}/{{i18n:{{NPCNAME}}.Gifts.Disliked}}/{{DISLIKEDGIFTS}}/{{i18n:{{NPCNAME}}.Gifts.Hated}}/{{HATEDGIFTS}}/{{i18n:{{NPCNAME}}.Gifts.Neutral}}/74 446 797 373 279 -2 -7 -26 -75 -80 72 395 613 634 635 636 637 638 724 459 873 394 166 {{NEUTRALGIFTS}}/"
+   }
+  },
 
-      //"{{WeekDay}}": "$query {{Query: {{ENDRANGE}} > 3}} # {{i18n:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}}}} | {{i18n:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, 3}}}}}}",
-      "{{WeekDay}}": "$query {{Query: {{ENDRANGE}} > 3}} # [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_] | [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, 3}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]",
-      "{{WeekDay}}2": "$query {{2HEART}} # [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}2_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_] | [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]",
-      "{{WeekDay}}4": "$query {{4HEART}} # [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}4_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_] | [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]",
-      "{{WeekDay}}6": "$query {{6HEART}} # [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}6_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_] | [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]",
-      "{{WeekDay}}8": "$query {{8HEART}} # [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}8_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_] | [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]",
-      "{{WeekDay}}10": "$query {{10HEART}} # [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}10_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_] | [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.{{DayOfWeek}}_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]"
-     }
-    },
-    {
-     "LogName": "Base Dialogue 8/10 heart platonic",
-     "Action": "EditData",
-     "When": {
-      "HasFlag |contains={{ModId}}_{{NPCNAME}}_Platonic": true
-     },
-     "Target": "Characters/Dialogue/{{ModId}}_{{NPCNAME}}",
-     "Entries": {
-      "{{WeekDay}}8": "$query {{8HEART}} # [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.Platonic.{{DayOfWeek}}8_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_] | [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.Platonic.{{DayOfWeek}}8_{{Random:{{Range: 0, 3}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]",
-      "{{WeekDay}}10": "$query {{10HEART}} # [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.Platonic.{{DayOfWeek}}10_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_] | [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.Platonic.{{DayOfWeek}}10_{{Random:{{Range: 0, 3}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]"
-     }
-    },
-    {
-     "LogName": "Base Dialogue 8/10 heart romantic",
-     "Action": "EditData",
-     "When": {
-      "HasFlag |contains={{ModId}}_{{NPCNAME}}_Romantic": true
-     },
-     "Target": "Characters/Dialogue/{{ModId}}_{{NPCNAME}}",
-     "Entries": {
-      "{{WeekDay}}8": "$query {{8HEART}} # [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.Romantic.{{DayOfWeek}}8_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_] | [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.Romantic.{{DayOfWeek}}8_{{Random:{{Range: 0, 3}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]",
-      "{{WeekDay}}10": "$query {{10HEART}} # [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.Romantic.{{DayOfWeek}}10_{{Random:{{Range: 0, {{ENDRANGE}}}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_] | [LocalizedText {{ModId}}/NPCTranslations/{{NPCNAME}}:{{NPCNAME}}.Romantic.{{DayOfWeek}}10_{{Random:{{Range: 0, 3}}}} Spiderbuttons.BETAS_ Aviroen.VoidsentCP_]"
-     }
-    },
-    {
-     "LogName": "Base Dialogue",
-     "Action": "EditData",
-     "When": {
-      "Query: {{REJECTPENDANT}}": true
-     },
-     "Target": "Characters/Dialogue/{{ModId}}_{{NPCNAME}}",
-     "Entries": {
-      "RejectItem_(O)460": "{{i18n:{{NPCNAME}}.RejectPendant}}"
-     }
-    },
-    {
-     "LogName": "Base Dialogue",
-     "Action": "EditData",
-     "When": {
-      "Query: {{REJECTTEA}}": true
-     },
-     "Target": "Characters/Dialogue/{{ModId}}_{{NPCNAME}}",
-     "Entries": {
-      "RejectItem_(O)StardropTea": "{{i18n:{{NPCNAME}}.RejectTea}}"
-     }
-    },
+  //////////////////////////////////////////////////////////////////////////////////////////////////
+  {
+   "LogName": "Schedule Data",
+   "Action": "EditData",
+   "Target": "Characters/schedules/{{ModId}}_{{NPCNAME}}",
+   "Entries": {
+    "spring": "{{SPRINGSCHEDULE}}",
+    "summer": "{{SUMMERSCHEDULE}}",
+    "fall": "{{FALLSCHEDULE}}",
+    "winter": "{{WINTERSCHEDULE}}",
+    "Mon": "{{MONDAYSCHEDULE}}",
+    "Tue": "{{TUESDAYSCHEDULE}}",
+    "Wed": "{{WEDNESDAYSCHEDULE}}",
+    "Thu": "{{THURSAYSCHEDULE}}",
+    "Fri": "{{FRIDAYSCHEDULE}}",
+    "Sat": "{{SATURDAYSCHEDULE}}",
+    "Sun": "{{SUNDAYSCHEDULE}}"
+   }
+  },
+  //////////////////////////////////////////////////////////////////////////////////////////////////
+  {
+   "LogName": "Base Dialogue",
+   "Action": "EditData",
+   "Target": "Characters/Dialogue/{{ModId}}_{{NPCNAME}}",
+   "Entries": {
+    "breakUp": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.Breakup {{LocToken}}",
+    "divorced": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.Divorce {{LocToken}}",
+    "DumpsterDiveComment": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.DumpsterDiveComment {{LocToken}}",
+    "HitBySlingshot": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.HitBySlingshot {{LocToken}}",
+    "SpouseFarmhouseClutter": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.SpouseFarmhouseClutter {{LocToken}}",
+    "Spouse_MonstersInHouse": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.Spouse_MonstersInHouse {{LocToken}}",
+    "SpouseStardrop": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.SpouseStardrop {{LocToken}}",
+    "WipedMemory": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.WipedMemory_{{RandRange}} {{LocToken}}",
+    "MovieInvitation": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.MovieInvitation {{LocToken}}",
+    "RejectBouquet": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.RejectBouquet_{{RandRange}} {{LocToken}}", //low hearts i assume
+    "RejectGift_Divorced": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.RejectGift_Divorced_{{RandRange}} {{LocToken}}",
+    "RejectMermaidPendant": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.RejectMermaidPendant_{{RandRange}} {{LocToken}}", //low hearts i assume
+    "RejectMovieTicket": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.RejectMovieTicket {{LocToken}}",
+    "GreenRain": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.GreenRain_{{RandRange}} {{LocToken}}",
+    "GreenRain_2": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.GreenRain_{{RandRange}} {{LocToken}}",
+    "AcceptGift_(O)StardropTea": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.GiftStardropTea {{LocToken}}"
+   }
+  },
+  {
+   "LogName": "Base Dialogue",
+   "Action": "EditData",
+   "When": {
+    "Query: {{REJECTPENDANT}}": true
+   },
+   "Target": "Characters/Dialogue/{{ModId}}_{{NPCNAME}}",
+   "Entries": {
+    "RejectItem_(O)460": "{{i18n:{{NPCNAME}}.RejectPendant}}"
+   }
+  },
+  {
+   "LogName": "Base Dialogue",
+   "Action": "EditData",
+   "When": {
+    "Query: {{REJECTTEA}}": true
+   },
+   "Target": "Characters/Dialogue/{{ModId}}_{{NPCNAME}}",
+   "Entries": {
+    "RejectItem_(O)StardropTea": "{{i18n:{{NPCNAME}}.RejectTea}}"
+   }
+  },
 
-    //////////////////////////////////////////////////////////////////////////////////////////////////
-    {
-     "LogName": "NPC animationDescriptions edit",
-     "Action": "EditData",
-     "Target": "Data/animationDescriptions",
-     "Entries": {
-      "{{ModId}}_{{NPCNAME}}_stand": "0/0/0",
-      "{{Lowercase:{{ModId}}_{{NPCNAME}}_sleep}}": "{{SLEEPANIMATION}}",
-      "{{ModId}}_{{NPCNAME}}_{{SPECIAL1}}": "{{SPECIAL1ANIMATION}}",
-      "{{ModId}}_{{NPCNAME}}_{{SPECIAL2}}": "{{SPECIAL2ANIMATION}}",
-      "{{ModId}}_{{NPCNAME}}_{{SPECIAL3}}": "{{SPECIAL3ANIMATION}}",
-      "{{ModId}}_{{NPCNAME}}_{{SPECIAL4}}": "{{SPECIAL4ANIMATION}}"
-     }
+  //////////////////////////////////////////////////////////////////////////////////////////////////
+  {
+   "LogName": "NPC animationDescriptions edit",
+   "Action": "EditData",
+   "Target": "Data/animationDescriptions",
+   "Entries": {
+    "{{ModId}}_{{NPCNAME}}_stand": "0/0/0",
+    "{{Lowercase:{{ModId}}_{{NPCNAME}}_sleep}}": "{{SLEEPANIMATION}}",
+    "{{ModId}}_{{NPCNAME}}_{{SPECIAL1}}": "{{SPECIAL1ANIMATION}}",
+    "{{ModId}}_{{NPCNAME}}_{{SPECIAL2}}": "{{SPECIAL2ANIMATION}}",
+    "{{ModId}}_{{NPCNAME}}_{{SPECIAL3}}": "{{SPECIAL3ANIMATION}}",
+    "{{ModId}}_{{NPCNAME}}_{{SPECIAL4}}": "{{SPECIAL4ANIMATION}}"
+   }
+  },
+  {
+   "Action": "EditData",
+   "Target": "Data/TriggerActions",
+   "Entries": {
+    "{{ModId}}_Yapping": {
+     "Id": "{{ModId}}_Yapping",
+     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
+     "Condition": "ITEM_ID Target {{NPCNAME}}, ITEM_STACK Target 1, !IS_EVENT",
+     "MarkActionApplied": false,
+     "Actions": [
+      "Aviroen.RandomDialogue {{ModId}} {{NPCNAME}} BETAS.{{WeekDay}}_ {{Range:0,{{ENDRANGE}}}}"
+     ]
     }
-    /*
+   }
+  }
+  /*
   {
    "LogName": "Wedding Template",
    "Action": "EditData",
