@@ -28,10 +28,9 @@ namespace Voidsent
             Harmony = new Harmony(ModManifest.UniqueID);
             Manifest = ModManifest;
 
-            helper.Events.Player.Warped += OnWarp;
+            //helper.Events.Player.Warped += OnWarp;
             helper.ConsoleCommands.Add("lizard", "Spawn lizard.", Lizard.LizardDebugCmd);
             GameLocation.RegisterTileAction("Aviroen.Voidsent_SummonLizard", Lizard.HandleSummonLizard);
-            GameLocation.RegisterTileAction("Aviroen.VoidsentBoard", VSSpecialOrderBoard.OpenVSBoard);
             //TriggerActionManager.RegisterAction("Aviroen.Voidsent_RandomDialogue", RandomDialogueAction.Action);
             //Event.RegisterCommand(currentCustomEventScript);
 
@@ -40,28 +39,21 @@ namespace Voidsent
             SocialPagePatch.Initialize(Monitor);
             ProfileMenuPatch.Initialize(Monitor);
             RandomDialogueAction.Initialize(helper.ModRegistry);
-            VSSpecialOrderBoard.Initialize(Monitor, helper);
-
-            Harmony.Patch(original: AccessTools.Method(typeof(SpecialOrder), nameof(SpecialOrder.IsTimedQuest)),
-            postfix: new HarmonyMethod(typeof(SpecialOrderPatch), nameof(SpecialOrderPatch.IsTimedQuest_Postfix)));
-            // patch to make special order time never decrease
-            Harmony.Patch(original: AccessTools.Method(typeof(SpecialOrder), nameof(SpecialOrder.GetDaysLeft)),
-            postfix: new HarmonyMethod(typeof(SpecialOrderPatch), nameof(SpecialOrderPatch.GetDaysLeft_Postfix)));
 
             Harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
 
-        private void OnWarp(object? sender, WarpedEventArgs e)
-        {
-            if (e.NewLocation == Game1.getLocationFromName("Aviroen.VoidsentCP_Morabyr")) 
-            {
-                //VoidsentEvents.Introduction();
-            }
-        }
+        //private void OnWarp(object? sender, WarpedEventArgs e)
+        //{
+        //    if (e.NewLocation == Game1.getLocationFromName("Aviroen.VoidsentCP_Morabyr")) 
+        //    {
+        //        //VoidsentEvents.Introduction();
+        //    }
+        //}
 
         public void OnGameLaunched(object? sender, GameLaunchedEventArgs e)
         {
-            //var ftmApi = Helper.ModRegistry.GetApi<IFtmApi>("Esca.FarmTypeManager")!;
+            var ftmApi = Helper.ModRegistry.GetApi<IFtmApi>("Esca.FarmTypeManager")!;
         }
         private bool ValidateInstall()
         {

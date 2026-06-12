@@ -1,5 +1,5 @@
 {
- "Format": "2.7.0",
+ "Format": "2.9.0",
  "ConfigSchema": {
   "Photosensitive Mode": {
    "AllowValues": "true, false",

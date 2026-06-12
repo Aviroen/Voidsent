@@ -1,0 +1,53 @@
+{
+ "Changes": [
+  {
+   "Action": "EditData",
+   "Target": "rokugin.EMA/Messages",
+   "Entries": {
+    "{{ModId}}_{{OBJECTNAME}}": {
+     "Messages": [
+      "{{i18n: {{OBJECTNAME}}.0}}",
+      "{{i18n: {{OBJECTNAME}}.1}}",
+      "{{i18n: {{OBJECTNAME}}.2}}",
+      "{{i18n: {{OBJECTNAME}}.3}}",
+      "{{i18n: {{OBJECTNAME}}.4}}",
+      "{{i18n: {{OBJECTNAME}}.5}}",
+      "{{i18n: {{OBJECTNAME}}.6}}",
+      "{{i18n: {{OBJECTNAME}}.7}}",
+      "{{i18n: {{OBJECTNAME}}.8}}",
+      "{{i18n: {{OBJECTNAME}}.9}}",
+      "{{i18n: {{OBJECTNAME}}.10}}",
+      "{{i18n: {{OBJECTNAME}}.11}}",
+      "{{i18n: {{OBJECTNAME}}.12}}",
+      "{{i18n: {{OBJECTNAME}}.13}}",
+      "{{i18n: {{OBJECTNAME}}.14}}",
+      "{{i18n: {{OBJECTNAME}}.15}}",
+      "{{i18n: {{OBJECTNAME}}.16}}",
+      "{{i18n: {{OBJECTNAME}}.17}}",
+      "{{i18n: {{OBJECTNAME}}.18}}",
+      "{{i18n: {{OBJECTNAME}}.19}}",
+      "{{i18n: {{OBJECTNAME}}.20}}",
+      "{{i18n: {{OBJECTNAME}}.21}}",
+      "{{i18n: {{OBJECTNAME}}.22}}",
+      "{{i18n: {{OBJECTNAME}}.23}}",
+      "{{i18n: {{OBJECTNAME}}.24}}",
+      "{{i18n: {{OBJECTNAME}}.25}}",
+      "{{i18n: {{OBJECTNAME}}.26}}",
+      "{{i18n: {{OBJECTNAME}}.27}}",
+      "{{i18n: {{OBJECTNAME}}.28}}",
+      "{{i18n: {{OBJECTNAME}}.29}}",
+      "{{i18n: {{OBJECTNAME}}.30}}",
+      "{{i18n: {{OBJECTNAME}}.31}}",
+      "{{i18n: {{OBJECTNAME}}.32}}",
+      "{{i18n: {{OBJECTNAME}}.33}}",
+      "{{i18n: {{OBJECTNAME}}.34}}",
+      "{{i18n: {{OBJECTNAME}}.35}}",
+      "{{i18n: {{OBJECTNAME}}.36}}",
+      "{{i18n: {{OBJECTNAME}}.37}}",
+      "{{i18n: {{OBJECTNAME}}.38}}"
+     ]
+    }
+   }
+  }
+ ]
+}
