@@ -28,28 +28,21 @@ namespace Voidsent
             Harmony = new Harmony(ModManifest.UniqueID);
             Manifest = ModManifest;
 
-            //helper.Events.Player.Warped += OnWarp;
-            helper.ConsoleCommands.Add("lizard", "Spawn lizard.", Lizard.LizardDebugCmd);
-            GameLocation.RegisterTileAction("Aviroen.Voidsent_SummonLizard", Lizard.HandleSummonLizard);
-            //TriggerActionManager.RegisterAction("Aviroen.Voidsent_RandomDialogue", RandomDialogueAction.Action);
-            //Event.RegisterCommand(currentCustomEventScript);
-
+            Events.Initialize(helper.ModRegistry, Monitor, helper);
             Lizard.Initialize(Monitor);
             TentPatch.Initialize(Monitor, ModManifest);
             SocialPagePatch.Initialize(Monitor);
             ProfileMenuPatch.Initialize(Monitor);
-            RandomDialogueAction.Initialize(helper.ModRegistry);
+            RandomDialogueAction.Initialize(helper.ModRegistry, Monitor, helper);
+
+            //helper.Events.Player.Warped += OnWarp;
+            helper.ConsoleCommands.Add("lizard", "Spawn lizard.", Lizard.LizardDebugCmd);
+            GameLocation.RegisterTileAction("Aviroen.Voidsent_SummonLizard", Lizard.HandleSummonLizard);
+            TriggerActionManager.RegisterAction("Aviroen.RandomDialogue", RandomDialogueAction.Action);
+            Event.RegisterCommand("Aviroen.Large", Events.command_LargeFrame);
 
             Harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
-
-        //private void OnWarp(object? sender, WarpedEventArgs e)
-        //{
-        //    if (e.NewLocation == Game1.getLocationFromName("Aviroen.VoidsentCP_Morabyr")) 
-        //    {
-        //        //VoidsentEvents.Introduction();
-        //    }
-        //}
 
         public void OnGameLaunched(object? sender, GameLaunchedEventArgs e)
         {

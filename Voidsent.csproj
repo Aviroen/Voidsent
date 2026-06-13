@@ -11,15 +11,22 @@
 		<Authors>Voidsent Rebels</Authors>
 		<Description>Dungeons and Dragons style Expansion.</Description>
 		<UniqueId>Aviroen.Voidsent</UniqueId>
-		<MinimumGameVersion>1.6.15</MinimumGameVersion>
+		<MinimumApiVersion_Behavior>Update</MinimumApiVersion_Behavior>
+		<MinimumGameVersion_Behavior>UpdateFull</MinimumGameVersion_Behavior>
+		<Dependencies_VersionBehavior>UpdateFull</Dependencies_VersionBehavior>
 		<UpdateKeys>Nexus:26053</UpdateKeys>
 		<Version>0.1.0</Version>
 		<ContentPacks_VersionBehavior>Set</ContentPacks_VersionBehavior>
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="Leclair.Stardew.ModManifestBuilder" Version="2.4.0" />
-	  <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.3.2" />
+	  <PackageReference Include="Krafs.Publicizer" Version="2.3.0">
+	    <PrivateAssets>all</PrivateAssets>
+	    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	  </PackageReference>
+	  <PackageReference Include="Leclair.Stardew.ModManifestBuilder" Version="2.4.1" />
+	  <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.4.0" />
+		<Publicize Include="Stardew Valley" />
 	</ItemGroup>
 
 	<ItemGroup>
