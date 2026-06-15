@@ -20,6 +20,10 @@
    "Priority": "Low",
    "Target": "{{ModId}}/Dialogue/{{NPCNAME}}"
   },
+  {
+   "Action": "Include",
+   "FromFile": "Data/NPCData/{{NPCTYPE}}/{{NPCNAME}}/Events.json"
+  },
   //{
   // "LogName": "NotFriend_Door",
   // "Action": "EditData",
@@ -151,7 +155,7 @@
       "X": 0,
       "Y": 0
      },
-     "ShakePortraits": [ 15 ],
+     "ShakePortraits": [ "{{SHAKEPORTRAITS}}" ],
      "KissSpriteIndex": 28,
      "KissSpriteFacingRight": false,
      "HiddenProfileEmoteSound": "newRecipe",
@@ -169,8 +173,11 @@
   {
    "Action": "EditData",
    "Target": "Data/NPCGiftTastes",
+   "When": {
+    "Query: {{GIFTABLE}}": true
+   },
    "Entries": {
-    "{{ModId}}_{{NPCNAME}}": "{{i18n:{{NPCNAME}}.Gifts.Loved}}/{{LOVEDGIFTS}}/{{i18n:{{NPCNAME}}.Gifts.Liked}}/{{LIKEDGIFTS}}/{{i18n:{{NPCNAME}}.Gifts.Disliked}}/{{DISLIKEDGIFTS}}/{{i18n:{{NPCNAME}}.Gifts.Hated}}/{{HATEDGIFTS}}/{{i18n:{{NPCNAME}}.Gifts.Neutral}}/74 446 797 373 279 -2 -7 -26 -75 -80 72 395 613 634 635 636 637 638 724 459 873 394 166 {{NEUTRALGIFTS}}/"
+    "{{ModId}}_{{NPCNAME}}": "{{i18n:{{NPCNAME}}.Gifts.Loved}}/{{LOVEDGIFTS}}/{{i18n:{{NPCNAME}}.Gifts.Liked}}/{{LIKEDGIFTS}}/{{i18n:{{NPCNAME}}.Gifts.Disliked}}/{{DISLIKEDGIFTS}}/{{i18n:{{NPCNAME}}.Gifts.Hated}}/{{HATEDGIFTS}}/{{i18n:{{NPCNAME}}.Gifts.Neutral}}/{{NEUTRALGIFTS}}/"
    }
   },
 
@@ -190,7 +197,14 @@
     "Thu": "{{THURSAYSCHEDULE}}",
     "Fri": "{{FRIDAYSCHEDULE}}",
     "Sat": "{{SATURDAYSCHEDULE}}",
-    "Sun": "{{SUNDAYSCHEDULE}}"
+    "Sun": "{{SUNDAYSCHEDULE}}",
+    "{{NPCNAME}}_CSKMon": "{{MONDAYCSKSCHEDULE}}",
+    "{{NPCNAME}}_CSKTue": "{{TUESDAYCSKSCHEDULE}}",
+    "{{NPCNAME}}_CSKWed": "{{WEDNESDAYCSKSCHEDULE}}",
+    "{{NPCNAME}}_CSKThu": "{{THURSDAYCSKSCHEDULE}}",
+    "{{NPCNAME}}_CSKFri": "{{FRIDAYCSKSCHEDULE}}",
+    "{{NPCNAME}}_CSKSat": "{{SATURDAYCSKSCHEDULE}}",
+    "{{NPCNAME}}_CSKSun": "{{SUNDAYCSKSCHEDULE}}"
    }
   },
   //////////////////////////////////////////////////////////////////////////////////////////////////
@@ -288,6 +302,54 @@
       "Aviroen.RandomDialogue {{ModId}} {{NPCNAME}} {{NPCNAME}}.BETAS.{{WeekDay}}{{Hearts:{{ModId}}_{{NPCNAME}}|step=2}}_ {{Range:0,{{ENDRANGE}}}}",
       "MarkActionApplied Current {{ModId}}_Yapping true"
      ]
+    }
+   }
+  },
+  {
+   "Action": "EditData",
+   "Target": "Spiderbuttons.CustomScheduleKeys/ScheduleKeys",
+   "Entries": {
+    "{{ModId}}_{{NPCNAME}}_CSKMon": {
+     "Id": "{{ModId}}_{{NPCNAME}}_CSKMon",
+     "ScheduleKey": "{{NPCNAME}}_CSKMon",
+     "Priority": "Late",
+     "Condition": "{{MONDAYCSKCONDITION}}"
+    },
+    "{{ModId}}_{{NPCNAME}}_CSKTue": {
+     "Id": "{{ModId}}_{{NPCNAME}}_CSKTue",
+     "ScheduleKey": "{{NPCNAME}}_CSKTue",
+     "Priority": "Late",
+     "Condition": "{{TUESDAYCSKCONDITION}}"
+    },
+    "{{ModId}}_{{NPCNAME}}_CSKWed": {
+     "Id": "{{ModId}}_{{NPCNAME}}_CSKWed",
+     "ScheduleKey": "{{NPCNAME}}_CSKWed",
+     "Priority": "Late",
+     "Condition": "{{WEDNESDAYCSKCONDITION}}"
+    },
+    "{{ModId}}_{{NPCNAME}}_CSKThu": {
+     "Id": "{{ModId}}_{{NPCNAME}}_CSKThu",
+     "ScheduleKey": "{{NPCNAME}}_CSKThu",
+     "Priority": "Late",
+     "Condition": "{{THURSDAYCSKCONDITION}}"
+    },
+    "{{ModId}}_{{NPCNAME}}_CSKFri": {
+     "Id": "{{ModId}}_{{NPCNAME}}_CSKFri",
+     "ScheduleKey": "{{NPCNAME}}_CSKFri",
+     "Priority": "Late",
+     "Condition": "{{FRIDAYCSKCONDITION}}"
+    },
+    "{{ModId}}_{{NPCNAME}}_CSKSat": {
+     "Id": "{{ModId}}_{{NPCNAME}}_CSKSat",
+     "ScheduleKey": "{{NPCNAME}}_CSKSat",
+     "Priority": "Late",
+     "Condition": "{{SATURDAYCSKCONDITION}}"
+    },
+    "{{ModId}}_{{NPCNAME}}_CSKSun": {
+     "Id": "{{ModId}}_{{NPCNAME}}_CSKSun",
+     "ScheduleKey": "{{NPCNAME}}_CSKSun",
+     "Priority": "Late",
+     "Condition": "{{SUNDAYCSKCONDITION}}"
     }
    }
   }

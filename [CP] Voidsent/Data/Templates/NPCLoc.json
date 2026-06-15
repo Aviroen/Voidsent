@@ -5,6 +5,7 @@
    "Action": "Include",
    "FromFile": "Data/Templates/A_Template_NPCs.json",
    "LocalTokens": {
+    "NPCTYPE": "Base", //Base/Cameos/Cats controls folder
     //data/char
     "NPCNAME": "TEST",
     "GENDER": "Female",
@@ -32,6 +33,8 @@
     "BREATHY": "",
     "BREATHWIDTH": "",
     "BREATHHEIGHT": "",
+
+    "SHAKEPORTRAITS": "15",
 
     //npc gifts
 
@@ -66,6 +69,23 @@
     "FRIDAYSCHEDULE": "GOTO spring",
     "SATURDAYSCHEDULE": "GOTO spring",
     "SUNDAYSCHEDULE": "GOTO spring",
+
+    //Custom Schedule Keys
+    "MONDAYCSKCONDITION": "GOTO spring",
+    "TUESDAYCSKCONDITION": "GOTO spring",
+    "WEDNESDAYCSKCONDITION": "GOTO spring",
+    "THURSAYCSKCONDITION": "GOTO spring",
+    "FRIDAYCSKCONDITION": "GOTO spring",
+    "SATURDAYCSKCONDITION": "GOTO spring",
+    "SUNDAYCSKCONDITION": "GOTO spring",
+    //
+    "MONDAYCSKSCHEDULE": "GOTO spring",
+    "TUESDAYCSKSCHEDULE": "GOTO spring",
+    "WEDNESDAYCSKSCHEDULE": "GOTO spring",
+    "THURSAYCSKSCHEDULE": "GOTO spring",
+    "FRIDAYCSKSCHEDULE": "GOTO spring",
+    "SATURDAYCSKSCHEDULE": "GOTO spring",
+    "SUNDAYCSKSCHEDULE": "GOTO spring",
 
     //custom dialogue things
     "HEARTDIALOGUE": true, //true/false whether you want 2/4/6/8/10 dialogues
