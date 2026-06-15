@@ -5,7 +5,7 @@
    "Action": "Include",
    "FromFile": "Data/Templates/NPCTemplate.json",
    "LocalTokens": {
-    "NPCTYPE": "Base", //Base/Cameos/Cats controls folder
+    "NPCTYPE": "Cats", //Base/Cameos/Cats controls folder
     //data/char
     "NPCNAME": "TEST",
     "GENDER": "Female",

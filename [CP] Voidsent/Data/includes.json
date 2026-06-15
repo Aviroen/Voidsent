@@ -88,43 +88,22 @@
   {
    "LogName": "Locations Include",
    "Action": "Include",
-   "FromFile": "Data/Locations/Areas/ArtificialBeach.json, Data/Locations/Areas/CrimsonGrove.json, Data/Locations/Areas/Grove.json, Data/Locations/Areas/Morabyr.json, Data/Locations/Areas/Hideouts.json"
-  },
-  /*
-  {
-   "LogName": "Interior Locations Include",
-   "Action": "Include",
-   "FromFile": "Data/Locations/ArtificialBeach/Edelweiss.json, Data/Locations/Morabyr/BreakfastInnBed.json, Data/Locations/Moor/JustOneBite.json, Data/Locations/CrimsonGrove/Grandberg.json, Data/Locations/Commonwealth/Donnlos.json, Data/Locations/Morabyr/Cichlidian.json, Data/Locations/Morabyr/Codfather.json, Data/Locations/Commonwealth/GrandMinistry.json, Data/Locations/CrimsonGrove/GMBlacksmithy.json, Data/Locations/CrimsonGrove/Menagerie.json, Data/Locations/Grove/Shack.json"
-  },
-  */
-  {
-   "LogName": "CHAOS BEGIN",
-   "Action": "Include",
-   "FromFile": "Data/NPCData/Base/Antisocials.json, Data/NPCData/Base/Duvin.json, Data/NPCData/Base/Edelweiss.json, Data/NPCData/Base/Fothao.json, Data/NPCData/Base/Konryn.json, Data/NPCData/Base/Lysella.json, Data/NPCData/Base/Muvi.json, Data/NPCData/Base/Sai.json, Data/NPCData/Base/Thandael.json, Data/NPCData/Base/Thetlin.json, Data/NPCData/Base/Trinity.json, Data/NPCData/Base/Vorgar.json, Data/NPCData/Base/Yrnal.json, Data/NPCData/Base/Yrrek.json, Data/NPCData/Base/Yrsin.json"
+   "FromFile": "Data/Locations/Areas/ArtificialBeach.json, Data/Locations/Areas/CrimsonGrove.json, Data/Locations/Areas/Grove.json, Data/Locations/Areas/Morabyr.json, Data/Locations/Areas/Hideouts.json, Data/Locations/Areas/Outlands.json"
   },
   {
    "LogName": "CAMEO CHAOS BEGIN",
    "Action": "Include",
-   "FromFile": "Data/NPCData/Cameos/Rao.json"
+   "FromFile": "Data/NPCData/Cameos/Rao/Rao.json"
   },
   {
    "LogName": "Data Include",
    "Action": "Include",
-   "FromFile": "Data/Other/Animals.json, Data/Other/Artifacts.json, Data/Other/Craftables.json, Data/Other/Rokugin.json, Data/Other/Fish.json, Data/Other/LocContext.json, Data/Other/Mail.json, Data/Other/MMAP.json, Data/Other/Shops.json, Data/Other/SpaceCore.json, Data/Other/SpecialOrders.json, Data/Other/Spiderbuttons.json, Data/Other/Strings.json, Data/Other/TriggerActions.json, Data/Other/GarbageCans.json, Data/Other/Hats.json"
-  }
-  /*
-  {
-   "LogName": "Spouseroom Load",
-   "Action": "Load",
-   "Target": "Maps/Spouse_{{SpouseRooms}}",
-   "FromFile": "Assets/Maps/Other/{{TargetWithoutPath}}.tmx"
+   "FromFile": "Data/Frame/Animals.json, Data/Frame/Artifacts.json, Data/Frame/Buffs.json, Data/Frame/Craftables.json, Data/Frame/Events.json, Data/Frame/Festivals.json, Data/Frame/Fish.json, Data/Frame/GarbageCans.json, Data/Frame/Hats.json, Data/Frame/LocContext.json, Data/Frame/Mail.json, Data/Frame/Quest.json, Data/Frame/Shops.json, Data/Frame/SpecialOrders.json, Data/Frame/Strings.json, Data/Frame/TriggerActions.json"
   },
   {
-   "LogName": "Patio Load",
-   "Action": "Load",
-   "Target": "Maps/{{ModId}}_Patio",
-   "FromFile": "Assets/Maps/Other/Patio.tmx"
+   "LogName": "Frameworks",
+   "Action": "Include",
+   "FromFile": "Data/Frameworks/MMAP.json, Data/Frameworks/Rokugin.json, Data/Frameworks/SpaceCore.json, Data/Frameworks/Spiderbuttons.json, Data/Frameworks/TrinketTrinker.json"
   }
- */
  ]
 }

@@ -1,22 +1,22 @@
 {
  "Changes": [
   {
-   "LogName": "TEST",
+   "LogName": "Edelweiss",
    "Action": "Include",
    "FromFile": "Data/Templates/NPCTemplate.json",
    "LocalTokens": {
     "NPCTYPE": "Base", //Base/Cameos/Cats controls folder
     //data/char
-    "NPCNAME": "TEST",
-    "GENDER": "Female",
+    "NPCNAME": "Edelweiss",
+    "GENDER": "Undefined",
     "MANNER": "Polite", //polite, neutral, rude changes stringsfromcsfiles
-    "ANXIETY": "Outgoing", //outgoing, neutral, shy changes stringsfromcsfiles
-    "OPTIMISM": "Positive", //positive, neutral, negative changes stringsfromcsfiles
-    "DARKSKIN": "true",
+    "ANXIETY": "Neutral", //outgoing, neutral, shy changes stringsfromcsfiles
+    "OPTIMISM": "Negative", //positive, neutral, negative changes stringsfromcsfiles
+    "DARKSKIN": "false",
 
     "GIFTABLE": "true",
 
-    "HOMELOCATION": "{{ModId}}_Grandberg1",
+    "HOMELOCATION": "{{ArtificialBeach}}",
     "HOMEXTILE": "17",
     "HOMEYTILE": "14",
     "HOMEFACING": "2", //0, 1, 2, 3

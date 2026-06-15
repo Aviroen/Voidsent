@@ -12,7 +12,7 @@
    "Action": "Load",
    "Priority": "Low",
    "Target": "Data/Events/{{ModId}}_{{MAPNAME}}",
-   "FromFile": "data/blank.json"
+   "FromFile": "Data/Blank.json"
   },
   {
    "LogName": "{{MAPNAME}} Data/Location",

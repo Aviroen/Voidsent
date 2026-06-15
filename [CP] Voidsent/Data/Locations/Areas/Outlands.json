@@ -1,0 +1,16 @@
+{
+ "Changes": [
+  {
+   "Action": "Include",
+   "FromFile": "Data/Templates/LocationTemplates.json",
+   "LocalTokens": {
+    "MAPNAME": "Outlands",
+    "INTERIORORLOCATIONS": "Locations",
+    "XARRIVAL": "69",
+    "YARRIVAL": "95",
+    "MUSIC": "mermaidSong",
+    "AREA": "Outlands"
+   }
+  }
+ ]
+}
