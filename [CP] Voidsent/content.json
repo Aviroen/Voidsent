@@ -179,7 +179,7 @@
   },
   {
    "Name": "LocToken",
-   "Value": "{{ModId}} [EscapedText] ]"
+   "Value": "{{ModId}} [EscapedText action Spiderbuttons.BETAS_AddExperience ] [EscapedText action Spiderbuttons.BETAS_ChangeMusicTrack ] [EscapedText action Spiderbuttons.BETAS_ChangeRelationship {{ModId}}_] [EscapedText action Spiderbuttons.BETAS_DialogueBox {{ModId}}_FakeNPC ] [EscapedText action Spiderbuttons.BETAS_EatObject ] [EscapedText action Spiderbuttons.BETAS_EmoteFarmer ] [EscapedText action Spiderbuttons.BETAS_EmoteNpc {{ModId}}_] [EscapedText action Spiderbuttons.BETAS_Explode ] [EscapedText action Spiderbuttons.BETAS_Jump ] [EscapedText action Spiderbuttons.BETAS_Lightning ] [EscapedText action Spiderbuttons.BETAS_Message ] [EscapedText action Spiderbuttons.BETAS_OpenShop ] [EscapedText action Spiderbuttons.BETAS_PlaySound ] [EscapedText action Spiderbuttons.BETAS_SetFriendshipPoints {{ModId}}_] [EscapedText action Spiderbuttons.BETAS_SetHealth ] [EscapedText action Spiderbuttons.BETAS_SetStamina ] [EscapedText action Spiderbuttons.BETAS_ShakeNpc {{ModId}}_] [EscapedText action Spiderbuttons.BETAS_ShowMail {{ModId}}_] [EscapedText action Spiderbuttons.BETAS_TextAboveHead {{ModId}}_] [EscapedText action Spiderbuttons.BETAS_UpdateAppearance {{ModId}}_] [EscapedText action Spiderbuttons.BETAS_WarpFarmer ] [EscapedText action Spiderbuttons.BETAS_WarpNpc {{ModId}}_] [EscapedText action Spiderbuttons.BETAS_WeatherForTomorrow ] [EscapedText action mushymato.MMAP_ShowConstructForCurrent ] [EscapedText action mushymato.MMAP_ShowBag ] [EscapedText action mushymato.MMAP_AddItemToBag ] [EscapedText action mushymato.MMAP_TAS ] [EscapedText action mushymato.MMAP_Critter ] [EscapedText action mushymato.MMAP_CritterRandom ] [EscapedText action mushymato.MMAP_WrpHere ] [EscapedText action mushymato.MMAP_QuestionDialogue ] [EscapedText action mushymato.MMAP_LaunchFireworks ] [EscapedText action mushymato.MMAP_PlaySound ] ]"
   },
 
   ///places
@@ -192,16 +192,8 @@
    "Value": "{{ModId}}_Morabyr"
   },
   {
-   "Name": "Commonwealth", //magic coalition
-   "Value": "{{ModId}}_Commonwealth"
-  },
-  {
-   "Name": "Moor", //shanty
-   "Value": "{{ModId}}_Moor"
-  },
-  {
    "Name": "Grandberg", //castle
-   "Value": "{{ModId}}_GrandbergCastle"
+   "Value": "{{ModId}}_Grandberg"
   },
   {
    "Name": "CrimsonGrove", //deep forest
@@ -214,10 +206,6 @@
   {
    "Name": "Grove", //introgrove
    "Value": "{{ModId}}_Grove"
-  },
-  {
-   "Name": "Boat", //the boat
-   "Value": "{{ModId}}_Boat"
   },
   //misc tokens
   {

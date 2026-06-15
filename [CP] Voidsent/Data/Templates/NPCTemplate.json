@@ -73,7 +73,7 @@
    "Target": "Data/Characters",
    "Entries": {
     "{{ModId}}_{{NPCNAME}}": {
-     "DisplayName": "{{i18n:{{DISPLAYNAME}}}}",
+     "DisplayName": "{{i18n:{{NPCNAME}}}}",
      "BirthSeason": null,
      "BirthDay": 0,
      "HomeRegion": "Other",
@@ -126,7 +126,7 @@
        "Direction": "{{HOMEFACING}}"
       }
      ],
-     "TextureName": null,
+     "TextureName": "{{NPCNAME}}",
      "Appearance": null,
      "MugShotSourceRect": {
       "X": "{{MUGX}}",
@@ -139,7 +139,12 @@
       "Y": "{{HEIGHT}}"
      },
      "Breather": true,
-     "BreathChestRect": null,
+     "BreathChestRect": {
+      "X": "{{BREATHX}}",
+      "Y": "{{BREATHY}}",
+      "Width": "{{BREATHWIDTH}}",
+      "Height": "{{BREATHHEIGHT}}"
+     },
      "BreathChestPosition": null,
      "Shadow": null,
      "EmoteOffset": {
@@ -156,8 +161,6 @@
      "HiddenProfileEmoteFrameDuration": 200.0,
      "FormerCharacterNames": [],
      "CustomFields": {
-      "poohnhi.PoohCore/WideCharacter": "true",
-      "poohnhi.PoohCore/HighCharacter": "true"
      }
     }
    }
@@ -196,22 +199,34 @@
    "Action": "EditData",
    "Target": "Characters/Dialogue/{{ModId}}_{{NPCNAME}}",
    "Entries": {
-    "breakUp": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.Breakup {{LocToken}}",
-    "divorced": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.Divorce {{LocToken}}",
-    "DumpsterDiveComment": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.DumpsterDiveComment {{LocToken}}",
-    "HitBySlingshot": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.HitBySlingshot {{LocToken}}",
-    "SpouseFarmhouseClutter": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.SpouseFarmhouseClutter {{LocToken}}",
-    "Spouse_MonstersInHouse": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.Spouse_MonstersInHouse {{LocToken}}",
-    "SpouseStardrop": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.SpouseStardrop {{LocToken}}",
-    "WipedMemory": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.WipedMemory_{{RandRange}} {{LocToken}}",
-    "MovieInvitation": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.MovieInvitation {{LocToken}}",
-    "RejectBouquet": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.RejectBouquet_{{RandRange}} {{LocToken}}", //low hearts i assume
-    "RejectGift_Divorced": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.RejectGift_Divorced_{{RandRange}} {{LocToken}}",
-    "RejectMermaidPendant": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.RejectMermaidPendant_{{RandRange}} {{LocToken}}", //low hearts i assume
+    "DumpsterDiveComment": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.DumpsterDiveComment_{{Random:{{Range:0,{{ENDRANGE}} }} }} {{LocToken}}",
+    "HitBySlingshot": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.HitBySlingshot_{{Random:{{Range:0,{{ENDRANGE}} }} }} {{LocToken}}",
+    "WipedMemory": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.WipedMemory_{{Random:{{Range:0,{{ENDRANGE}} }} }} {{LocToken}}",
+    "MovieInvitation": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.MovieInvitation_{{Random:{{Range:0,{{ENDRANGE}} }} }} {{LocToken}}",
+    "RejectBouquet": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.RejectBouquet {{LocToken}}", //low hearts i assume
+    "RejectMermaidPendant": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.RejectPendant {{LocToken}}", //low hearts i assume
     "RejectMovieTicket": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.RejectMovieTicket {{LocToken}}",
-    "GreenRain": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.GreenRain_{{RandRange}} {{LocToken}}",
-    "GreenRain_2": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.GreenRain_{{RandRange}} {{LocToken}}",
-    "AcceptGift_(O)StardropTea": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.GiftStardropTea {{LocToken}}"
+    "GreenRain": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.GreenRain_{{Random:{{Range:0,{{ENDRANGE}} }} }} {{LocToken}}",
+    "GreenRain_2": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.GreenRain_{{Random:{{Range:0,{{ENDRANGE}} }} }} {{LocToken}}",
+    "AcceptGift_(O)StardropTea": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.GiftStardropTea {{LocToken}}",
+
+    "{{WeekDay}}": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.{{WeekDay}}_{{Random:{{Range:0,{{ENDRANGE}} }} }} {{LocToken}}"
+   }
+  },
+  {
+   "LogName": "Heart Dialogue",
+   "Action": "EditData",
+   "Target": "Characters/Dialogue/{{ModId}}_{{NPCNAME}}",
+   "When": {
+    "Query: {{HEARTDIALOGUE}}": true,
+    "Hearts:{{ModId}}_{{NPCNAME}}": "{{Range: 2, 10 |step=2}}"
+   },
+   "Entries": {
+    "{{WeekDay}}2": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.{{WeekDay}}2_{{Random:{{Range:0,{{ENDRANGE}} }} }} {{LocToken}}",
+    "{{WeekDay}}4": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.{{WeekDay}}4_{{Random:{{Range:0,{{ENDRANGE}} }} }} {{LocToken}}",
+    "{{WeekDay}}6": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.{{WeekDay}}6_{{Random:{{Range:0,{{ENDRANGE}} }} }} {{LocToken}}",
+    "{{WeekDay}}8": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.{{WeekDay}}8_{{Random:{{Range:0,{{ENDRANGE}} }} }} {{LocToken}}",
+    "{{WeekDay}}10": "[LocalizedText {{ModId}}/Dialogue/{{NPCNAME}}:{{NPCNAME}}.{{WeekDay}}10_{{Random:{{Range:0,{{ENDRANGE}} }} }} {{LocToken}}"
    }
   },
   {
@@ -258,24 +273,23 @@
     "{{ModId}}_Yapping": {
      "Id": "{{ModId}}_Yapping",
      "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
-     "Condition": "ITEM_ID Target {{NPCNAME}}, ITEM_STACK Target 1, !IS_EVENT",
+     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, ITEM_STACK Target 1, !IS_EVENT, {{BETASTOGGLED}}",
      "MarkActionApplied": false,
      "Actions": [
-      "Aviroen.RandomDialogue {{ModId}} {{NPCNAME}} BETAS.{{WeekDay}}_ {{Range:0,{{ENDRANGE}}}}"
+      "Aviroen.RandomDialogue {{ModId}} {{NPCNAME}} {{NPCNAME}}.BETAS.{{WeekDay}}_ {{Range:0,{{ENDRANGE}}}}"
+     ]
+    },
+    "{{ModId}}_YappingHearts": {
+     "Id": "{{ModId}}_YappingHearts",
+     "Trigger": "Spiderbuttons.BETAS_DialogueOpened",
+     "Condition": "ITEM_ID Target {{ModId}}_{{NPCNAME}}, ITEM_STACK Target 1, !IS_EVENT, {{BETASTOGGLED}}, {{HEARTDIALOGUE}}",
+     "MarkActionApplied": false,
+     "Actions": [
+      "Aviroen.RandomDialogue {{ModId}} {{NPCNAME}} {{NPCNAME}}.BETAS.{{WeekDay}}{{Hearts:{{ModId}}_{{NPCNAME}}|step=2}}_ {{Range:0,{{ENDRANGE}}}}",
+      "MarkActionApplied Current {{ModId}}_Yapping true"
      ]
     }
    }
   }
-  /*
-  {
-   "LogName": "Wedding Template",
-   "Action": "EditData",
-   "Target": "Data/Weddings",
-   "TargetField": [ "EventScript" ],
-   "Entries": {
-    "{{ModId}}_{{NPCNAME}}": "sweet/-10000 -10000/farmer 27 63 2 [SpouseFarmerText [EscapedText] [EscapedText spouse 28 63 2]] Lewis 27 64 2 otherFarmers 29 69 0[SetupContextualWeddingAttendees]/changeLocation Town/[SpouseFarmerText [EscapedText faceDirection [SpouseActor] 2/warp [SpouseActor] 28 63] [EscapedText showFrame spouse 36]]/specificTemporarySprite wedding/viewport 27 64 true/pause 4000/speak Lewis \"[GenderedText [EscapedText [LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5367 [DayOfMonth] [Season]]] [EscapedText [LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5369 [DayOfMonth] [Season]]]]\"/faceDirection farmer 1/[SpouseFarmerText [EscapedText faceDirection [SpouseActor] 3] [EscapedText showFrame spouse 37]]/pause 500/faceDirection Lewis 0/pause 2000/speak Lewis \"[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5370]\"/move Lewis 0 1 0/playMusic none/pause 1000/showFrame Lewis 20/speak Lewis \"[GenderedText [SpouseGenderedText [EscapedText [LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5371]] [EscapedText [LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5373]]] [SpouseGenderedText [EscapedText [LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5377]] [EscapedText [LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5375]]]]\"/pause 500/speak Lewis \"[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5379]\"/pause 1000/showFrame 101/[SpouseFarmerText [EscapedText showFrame [SpouseActor] 101 true] [EscapedText showFrame spouse 38]]/specificTemporarySprite heart 28 62/playSound dwop/pause 2000/specificTemporarySprite wed/faceDirection farmer 2/[SpouseFarmerText [EscapedText faceDirection [SpouseActor] 2] [EscapedText showFrame spouse 36]]/[ContextualWeddingCelebrations]move Lewis 0 3 3 true/pause 4000/faceDirection farmer 1/[SpouseFarmerText [EscapedText showFrame [SpouseActor] 3 true] [EscapedText showFrame spouse 37]]/globalFade/viewport -1000 -1000/pause 1000/message \"[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5381]\"/pause 500/message \"[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5383]\"/pause 4000/globalFade/viewport -1000 -1000/changeToTemporaryMap {{AFTERPARTY}} false/bgColor 0 0 0/ambientLight 0 0 0/switchEvent {{ModId}}_{{NPCNAME}}_JustMarried"
-   }
-  }
- */
  ]
 }
