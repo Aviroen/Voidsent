@@ -5,7 +5,7 @@
    "Action": "Load",
    "Priority": "Low",
    "Target": "Characters/{{ModId}}_{{NPCNAME}}, Portraits/{{ModId}}_{{NPCNAME}}",
-   "FromFile": "Assets/NPCS/{{TargetPathOnly}}/{{TargetWithoutPath}}.png"
+   "FromFile": "Assets/NPCS/{{TargetPathOnly}}/{{NPCNAME}}.png"
   },
   { //blank loads so that i can target edit
    "LogName": "BlankLoads",
