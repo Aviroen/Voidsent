@@ -11,7 +11,7 @@
    "LogName": "BlankLoads",
    "Action": "Load",
    "Priority": "Low",
-   "Target": "Characters/Dialogue/{{ModId}}_{{NPCNAME}}, Characters/Dialogue/MarriageDialogue{{ModId}}_{{NPCNAME}}, Characters/schedules/{{ModId}}_{{NPCNAME}}, Strings/Schedules/{{ModId}}_{{NPCNAME}}",
+   "Target": "Characters/Dialogue/{{ModId}}_{{NPCNAME}}, Characters/Dialogue/MarriageDialogue{{ModId}}_{{NPCNAME}}, Characters/schedules/{{ModId}}_{{NPCNAME}}",
    "FromFile": "data/blank.json"
   },
   {
