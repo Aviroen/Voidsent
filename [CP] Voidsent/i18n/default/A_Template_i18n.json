@@ -30,37 +30,19 @@
  "Test.GiftStardropTea": "no dialogue",
 
  /*
- All [NORMAL] daily dialogue can have trigger actions from any of the frameworks added, these are called {By Index} and here is the {Index Number} the <[blanks]> need to be [filled in]
- these are all already appended with the action tag, so they should look something like ${1} 100 Combat / if you wanted to add 100 exp to combat
+ All [NORMAL] daily dialogue can have trigger actions from any of the frameworks added, these are called {By Index} and here is the {Index Number} the <blanks> need to be <filled in> [boxes are optional and can be removed]
+ these are all already appended with the action and a SPACE, so they should look something like ${1}100 Combat / if you wanted to add 100 exp to combat
  {0} = {{ModId}}
 
  {1} = BETAS_AddExperience [#Amount] [Skill]
-  "Test.Mon_EX1": "AddExperience.${1}100 Combat#$b#Adds 100 experience to combat.",
-
  {2} = BETAS_ChangeMusicTrack <Track>
-  "Test.Mon_EX2": "ChangeMusicTrack.${2}Plums#$b#Changes the music track to Plums.",
-
  {3} = BETAS_ChangeRelationship {{ModId}}_<NPC> [Relationship] [Roommates?] [#Wedding Delay]
-  "Test.Mon_EX3": "ChangeRelationship.${3}Sai Friendly false false#$b#Changes Sai to be friendly, no roommate, no wedding delay.",
-
  {4} = BETAS_DialogueBox <Message> [Portrait] [DisplayName] [Typing?] //this is supplied to a {{ModId}}_FakeNPC since calling a real NPC will screw with yapper
-  "Test.Mon_EX4": "DialogueBox.${4}\"Hellooo??\" Portraits/Haley Haley true#$b#Creates a new dialogue box with Haley's portrait, name, and text.",
-
  {5} = BETAS_EatObject <ItemId> [From Inventory?]
-  "Test.Mon_EX5": "EatObject.${5}218 false#$b#Eats a Tom Kha Soup not from inventory.",
-
  {6} = BETAS_EmoteFarmer <#EmoteId>
-  "Test.Mon_EX6": "EmoteFarmer.${6}32#$b#Makes the farmer emote 32.",
-
  {7} = BETAS_EmoteNpc {{ModId}}_<NPC> <#EmoteId>
-  "Test.Mon_EX7": "EmoteNpc.${7}Sai 32#$b#Makes Sai emote 32.",
-
  {8} = BETAS_Explode [#X] [#Y] [#Radius] [Damaging?] [#Damage] [Destroy?]
-  "Test.Mon_EX8": "Explode.${8} 0 0 1 false 0 false#$b#Explodes on X:0, Y:0, radius of 1, doesn't damage, 0 damage, doesn't destroy.",
-
  {9} = BETAS_Jump [Character] [#Velocity] [#Vertical Movement] [#Horizontal Movement]
-  "Test.Mon_EX9": "Jump.${9}{0}_Sai#$b#Makes Sai jump with all the defaults.",
-
  {10} = BETAS_Lightning [#X] [#Y]
  {11} = BETAS_Message <Text> [Typing?]
  {12} = BETAS_OpenShop <ShopId> [Owner]
@@ -149,7 +131,6 @@
  "Test.Tue_1": "no dialogue",
  "Test.Tue_2": "no dialogue",
  "Test.Tue_3": "no dialogue",
- //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_
  "Test.BETAS.Tue_0": "no dialogue",
  "Test.BETAS.Tue_1": "no dialogue",
  "Test.BETAS.Tue_2": "no dialogue",
@@ -206,7 +187,6 @@
  "Test.Wed_1": "no dialogue",
  "Test.Wed_2": "no dialogue",
  "Test.Wed_3": "no dialogue",
- //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_
  "Test.BETAS.Wed_0": "no dialogue",
  "Test.BETAS.Wed_1": "no dialogue",
  "Test.BETAS.Wed_2": "no dialogue",
@@ -263,7 +243,6 @@
  "Test.Thu_1": "no dialogue",
  "Test.Thu_2": "no dialogue",
  "Test.Thu_3": "no dialogue",
- //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_
  "Test.BETAS.Thu_0": "no dialogue",
  "Test.BETAS.Thu_1": "no dialogue",
  "Test.BETAS.Thu_2": "no dialogue",
@@ -320,7 +299,6 @@
  "Test.Fri_1": "no dialogue",
  "Test.Fri_2": "no dialogue",
  "Test.Fri_3": "no dialogue",
- //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_
  "Test.BETAS.Fri_0": "no dialogue",
  "Test.BETAS.Fri_1": "no dialogue",
  "Test.BETAS.Fri_2": "no dialogue",
@@ -377,7 +355,6 @@
  "Test.Sat_1": "no dialogue",
  "Test.Sat_2": "no dialogue",
  "Test.Sat_3": "no dialogue",
- //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_
  "Test.BETAS.Sat_0": "no dialogue",
  "Test.BETAS.Sat_1": "no dialogue",
  "Test.BETAS.Sat_2": "no dialogue",
@@ -434,7 +411,6 @@
  "Test.Sun_1": "no dialogue",
  "Test.Sun_2": "no dialogue",
  "Test.Sun_3": "no dialogue",
- //BETAS BETAS.{{NPCNAME}}.{{WeekDay}}{{Hearts:{{NPCNAME}}}}_
  "Test.BETAS.Sun_0": "no dialogue",
  "Test.BETAS.Sun_1": "no dialogue",
  "Test.BETAS.Sun_2": "no dialogue",
