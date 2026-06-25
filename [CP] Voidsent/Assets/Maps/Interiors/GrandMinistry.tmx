@@ -145,7 +145,7 @@
   <image source="Aviroen.VoidsentCP_Tilesheets.png" width="512" height="512"/>
  </tileset>
  <tileset firstgid="11753" name="wizard_furniture" tilewidth="16" tileheight="16" tilecount="351" columns="13">
-  <image source="Content/TileSheets/wizard_furniture.png" width="208" height="432"/>
+  <image source="../TileSheets/wizard_furniture.png" width="208" height="432"/>
  </tileset>
  <tileset firstgid="12104" name="kailey_animations" tilewidth="16" tileheight="16" tilecount="7056" columns="42">
   <image source="kailey_animations.png" width="672" height="2688"/>

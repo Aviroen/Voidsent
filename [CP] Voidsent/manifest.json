@@ -20,10 +20,10 @@
    "UniqueID": "poohnhi.PoohCore",
    "IsRequired": true
   },
-  {
-   "UniqueID": "Spiderbuttons.ArbitraryTilesheetAccess",
-   "IsRequired": true
-  },
+  //{
+  // "UniqueID": "Spiderbuttons.ArbitraryTilesheetAccess",
+  // "IsRequired": true
+  //},
   {
    "UniqueID": "Spiderbuttons.BETAS",
    "IsRequired": true
