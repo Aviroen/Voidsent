@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="129" height="88" tilewidth="16" tileheight="16" infinite="0" nextlayerid="31" nextobjectid="56">
+ <properties>
+  <property name="Outdoors" value="T"/>
+  <property name="mushymato.MMAP_Panorama" value="MMAP_ClearSky"/>
+ </properties>
  <tileset firstgid="1" name="spring_island_tilesheet_1" tilewidth="16" tileheight="16" tilecount="1280" columns="32">
   <image source="spring_island_tilesheet_1.png" width="512" height="640"/>
   <tile id="0">

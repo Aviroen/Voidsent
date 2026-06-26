@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="60" height="54" tilewidth="16" tileheight="16" infinite="0" nextlayerid="25" nextobjectid="1">
+ <properties>
+  <property name="Outdoors" value="T"/>
+  <property name="mushymato.MMAP_Panorama" value="MMAP_ClearSky"/>
+ </properties>
  <tileset firstgid="1" name="outdoorsTileSheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
   <image source="spring_outdoorsTileSheet" width="400" height="1264"/>
   <tile id="150">
@@ -2205,10 +2209,10 @@
   <image source="spring_CR_outdoor.png" width="464" height="480"/>
  </tileset>
  <tileset firstgid="4990" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
-  <image source="D:/SDVModwork/Content (unpacked)/Maps/paths.png" width="64" height="256"/>
+  <image source="paths.png" width="64" height="256"/>
  </tileset>
  <tileset firstgid="5054" name="kailey_desert" tilewidth="16" tileheight="16" tilecount="3276" columns="42">
-  <image source="D:/SDVModwork/Content (unpacked)/Maps/kailey_desert.png" width="672" height="1248"/>
+  <image source="kailey_desert.png" width="672" height="1248"/>
  </tileset>
  <layer id="16" name="Back" width="60" height="54">
   <data encoding="csv">

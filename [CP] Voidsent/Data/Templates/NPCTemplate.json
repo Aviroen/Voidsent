@@ -73,6 +73,7 @@
    }
   },
   {
+   "LogName": "The Data/Char Edit",
    "Action": "EditData",
    "Target": "Data/Characters",
    "Entries": {
@@ -130,25 +131,15 @@
        "Direction": "{{HOMEFACING}}"
       }
      ],
-     "TextureName": "{{NPCNAME}}",
+     "TextureName": "{{ModId}}_{{NPCNAME}}",
      "Appearance": null,
-     "MugShotSourceRect": {
-      "X": "{{MUGX}}",
-      "Y": "{{MUGY}}",
-      "Width": "{{MUGWID}}",
-      "Height": "{{MUGHEI}}"
-     },
+     "MugShotSourceRect": null,
      "Size": {
       "X": "{{WIDTH}}",
       "Y": "{{HEIGHT}}"
      },
      "Breather": true,
-     "BreathChestRect": {
-      "X": "{{BREATHX}}",
-      "Y": "{{BREATHY}}",
-      "Width": "{{BREATHWIDTH}}",
-      "Height": "{{BREATHHEIGHT}}"
-     },
+     "BreathChestRect": null,
      "BreathChestPosition": null,
      "Shadow": null,
      "EmoteOffset": {
@@ -198,13 +189,13 @@
     "Fri": "{{FRIDAYSCHEDULE}}",
     "Sat": "{{SATURDAYSCHEDULE}}",
     "Sun": "{{SUNDAYSCHEDULE}}",
-    "{{NPCNAME}}_CSKMon": "{{MONDAYCSKSCHEDULE}}",
-    "{{NPCNAME}}_CSKTue": "{{TUESDAYCSKSCHEDULE}}",
-    "{{NPCNAME}}_CSKWed": "{{WEDNESDAYCSKSCHEDULE}}",
-    "{{NPCNAME}}_CSKThu": "{{THURSDAYCSKSCHEDULE}}",
-    "{{NPCNAME}}_CSKFri": "{{FRIDAYCSKSCHEDULE}}",
-    "{{NPCNAME}}_CSKSat": "{{SATURDAYCSKSCHEDULE}}",
-    "{{NPCNAME}}_CSKSun": "{{SUNDAYCSKSCHEDULE}}"
+    "{{ModId}}_{{NPCNAME}}_CSKMon": "{{MONDAYCSKSCHEDULE}}",
+    "{{ModId}}_{{NPCNAME}}_CSKTue": "{{TUESDAYCSKSCHEDULE}}",
+    "{{ModId}}_{{NPCNAME}}_CSKWed": "{{WEDNESDAYCSKSCHEDULE}}",
+    "{{ModId}}_{{NPCNAME}}_CSKThu": "{{THURSDAYCSKSCHEDULE}}",
+    "{{ModId}}_{{NPCNAME}}_CSKFri": "{{FRIDAYCSKSCHEDULE}}",
+    "{{ModId}}_{{NPCNAME}}_CSKSat": "{{SATURDAYCSKSCHEDULE}}",
+    "{{ModId}}_{{NPCNAME}}_CSKSun": "{{SUNDAYCSKSCHEDULE}}"
    }
   },
   //////////////////////////////////////////////////////////////////////////////////////////////////
@@ -311,43 +302,43 @@
    "Entries": {
     "{{ModId}}_{{NPCNAME}}_CSKMon": {
      "Id": "{{ModId}}_{{NPCNAME}}_CSKMon",
-     "ScheduleKey": "{{NPCNAME}}_CSKMon",
+     "ScheduleKey": "{{ModId}}_{{NPCNAME}}_CSKMon",
      "Priority": "Late",
      "Condition": "{{MONDAYCSKCONDITION}}"
     },
     "{{ModId}}_{{NPCNAME}}_CSKTue": {
      "Id": "{{ModId}}_{{NPCNAME}}_CSKTue",
-     "ScheduleKey": "{{NPCNAME}}_CSKTue",
+     "ScheduleKey": "{{ModId}}_{{NPCNAME}}_CSKTue",
      "Priority": "Late",
      "Condition": "{{TUESDAYCSKCONDITION}}"
     },
     "{{ModId}}_{{NPCNAME}}_CSKWed": {
      "Id": "{{ModId}}_{{NPCNAME}}_CSKWed",
-     "ScheduleKey": "{{NPCNAME}}_CSKWed",
+     "ScheduleKey": "{{ModId}}_{{NPCNAME}}_CSKWed",
      "Priority": "Late",
      "Condition": "{{WEDNESDAYCSKCONDITION}}"
     },
     "{{ModId}}_{{NPCNAME}}_CSKThu": {
      "Id": "{{ModId}}_{{NPCNAME}}_CSKThu",
-     "ScheduleKey": "{{NPCNAME}}_CSKThu",
+     "ScheduleKey": "{{ModId}}_{{NPCNAME}}_CSKThu",
      "Priority": "Late",
      "Condition": "{{THURSDAYCSKCONDITION}}"
     },
     "{{ModId}}_{{NPCNAME}}_CSKFri": {
      "Id": "{{ModId}}_{{NPCNAME}}_CSKFri",
-     "ScheduleKey": "{{NPCNAME}}_CSKFri",
+     "ScheduleKey": "{{ModId}}_{{NPCNAME}}_CSKFri",
      "Priority": "Late",
      "Condition": "{{FRIDAYCSKCONDITION}}"
     },
     "{{ModId}}_{{NPCNAME}}_CSKSat": {
      "Id": "{{ModId}}_{{NPCNAME}}_CSKSat",
-     "ScheduleKey": "{{NPCNAME}}_CSKSat",
+     "ScheduleKey": "{{ModId}}_{{NPCNAME}}_CSKSat",
      "Priority": "Late",
      "Condition": "{{SATURDAYCSKCONDITION}}"
     },
     "{{ModId}}_{{NPCNAME}}_CSKSun": {
      "Id": "{{ModId}}_{{NPCNAME}}_CSKSun",
-     "ScheduleKey": "{{NPCNAME}}_CSKSun",
+     "ScheduleKey": "{{ModId}}_{{NPCNAME}}_CSKSun",
      "Priority": "Late",
      "Condition": "{{SUNDAYCSKCONDITION}}"
     }

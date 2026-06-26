@@ -16,23 +16,23 @@
 
     "GIFTABLE": "true",
 
-    "HOMELOCATION": "{{ArtificialBeach}}",
-    "HOMEXTILE": "17",
-    "HOMEYTILE": "14",
+    "HOMELOCATION": "{{ModId}}_EdelweissHouse",
+    "HOMEXTILE": "16",
+    "HOMEYTILE": "15",
     "HOMEFACING": "2", //0, 1, 2, 3
 
-    "MUGX": "0",
-    "MUGY": "0",
-    "MUGWID": "",
-    "MUGHEI": "",
+    "WIDTH": "16",
+    "HEIGHT": "32",
 
-    "WIDTH": "",
-    "HEIGHT": "",
+    //"MUGX": "null",
+    //"MUGY": "null",
+    //"MUGWID": "null",
+    //"MUGHEI": "null",
 
-    "BREATHX": "",
-    "BREATHY": "",
-    "BREATHWIDTH": "",
-    "BREATHHEIGHT": "",
+    //"BREATHX": "null",
+    //"BREATHY": "null",
+    //"BREATHWIDTH": "null",
+    //"BREATHHEIGHT": "null",
 
     "SHAKEPORTRAITS": "15",
 
@@ -54,10 +54,10 @@
     "SPECIAL3": "wag", //"{{ModId}}_{{NPCNAME}}_{{SPECIAL3}}": "{{SPECIAL3ANIMATION}}",
     "SPECIAL3ANIMATION": "20/20 20 20 20 20 21 22 23 20 20 20 20 20 20/20", //special3's frames
     "SPECIAL4": "wag", //"{{ModId}}_{{NPCNAME}}_{{SPECIAL4}}": "{{SPECIAL4ANIMATION}}",
-    "SPECIAL5ANIMATION": "20/20 20 20 20 20 21 22 23 20 20 20 20 20 20/20", //special4's frames
+    "SPECIAL4ANIMATION": "20/20 20 20 20 20 21 22 23 20 20 20 20 20 20/20", //special4's frames
 
     //schedule data
-    "SPRINGSCHEDULE": "610 {{ModId}}_Grandberg1 16 15 2",
+    "SPRINGSCHEDULE": "610 {{ModId}}_EdelweissHouse 16 15 2",
     "SUMMERSCHEDULE": "GOTO spring",
     "FALLSCHEDULE": "GOTO spring",
     "WINTERSCHEDULE": "GOTO spring",
@@ -71,18 +71,18 @@
     "SUNDAYSCHEDULE": "GOTO spring",
 
     //Custom Schedule Keys
-    "MONDAYCSKCONDITION": "GOTO spring",
-    "TUESDAYCSKCONDITION": "GOTO spring",
-    "WEDNESDAYCSKCONDITION": "GOTO spring",
-    "THURSAYCSKCONDITION": "GOTO spring",
-    "FRIDAYCSKCONDITION": "GOTO spring",
-    "SATURDAYCSKCONDITION": "GOTO spring",
-    "SUNDAYCSKCONDITION": "GOTO spring",
+    "MONDAYCSKCONDITION": "false",
+    "TUESDAYCSKCONDITION": "false",
+    "WEDNESDAYCSKCONDITION": "false",
+    "THURSDAYCSKCONDITION": "false",
+    "FRIDAYCSKCONDITION": "false",
+    "SATURDAYCSKCONDITION": "false",
+    "SUNDAYCSKCONDITION": "false",
     //
     "MONDAYCSKSCHEDULE": "GOTO spring",
     "TUESDAYCSKSCHEDULE": "GOTO spring",
     "WEDNESDAYCSKSCHEDULE": "GOTO spring",
-    "THURSAYCSKSCHEDULE": "GOTO spring",
+    "THURSDAYCSKSCHEDULE": "GOTO spring",
     "FRIDAYCSKSCHEDULE": "GOTO spring",
     "SATURDAYCSKSCHEDULE": "GOTO spring",
     "SUNDAYCSKSCHEDULE": "GOTO spring",

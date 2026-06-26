@@ -31,7 +31,7 @@
  */
   {
    "Action": "Include",
-   "FromFile": "Data/Templates/BuffsTemplates.json",
+   "FromFile": "Data/Templates/BuffsTemplate.json",
    "LocalTokens": {
     "BUFFNAME": "",
     "ISDEBUFF": false, //true/false

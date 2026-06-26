@@ -63,8 +63,6 @@
    "Entries": {
     "{{ArtificialBeach}}": "{{i18n:ArtificialBeach}}",
     "{{Morabyr}}": "{{i18n:Morabyr}}",
-    "{{Commonwealth}}": "{{i18n:Commonwealth}}",
-    "{{Moor}}": "{{i18n:Moor}}",
     "{{Grandberg}}": "{{i18n:Grandberg}}",
     "{{CrimsonGrove}}": "{{i18n:CrimsonGrove}}",
     "{{Outlands}}": "{{i18n:Outlands}}",
@@ -88,12 +86,17 @@
   {
    "LogName": "Locations Include",
    "Action": "Include",
-   "FromFile": "Data/Locations/Areas/ArtificialBeach.json, Data/Locations/Areas/CrimsonGrove.json, Data/Locations/Areas/Grove.json, Data/Locations/Areas/Morabyr.json, Data/Locations/Areas/Hideouts.json, Data/Locations/Areas/Outlands.json"
+   "FromFile": "Data/Locations/Areas/ArtificialBeach.json, Data/Locations/Areas/CrimsonGrove.json, Data/Locations/Areas/Grove.json, Data/Locations/Areas/Morabyr.json, Data/Locations/Areas/Hideouts.json" //, Data/Locations/Areas/Outlands.json
   },
+  //{
+  // "LogName": "CAMEO CHAOS BEGIN",
+  // "Action": "Include",
+  // "FromFile": "Data/NPCData/Cameos/Rao/Rao.json"
+  //},
   {
-   "LogName": "CAMEO CHAOS BEGIN",
+   "LogName": "BASE CHAOS BEGIN",
    "Action": "Include",
-   "FromFile": "Data/NPCData/Cameos/Rao/Rao.json"
+   "FromFile": "Data/NPCData/Base/Edelweiss/Edelweiss.json"
   },
   {
    "LogName": "Data Include",
@@ -103,7 +106,7 @@
   {
    "LogName": "Frameworks",
    "Action": "Include",
-   "FromFile": "Data/Frameworks/MMAP.json, Data/Frameworks/Rokugin.json, Data/Frameworks/SpaceCore.json, Data/Frameworks/Spiderbuttons.json, Data/Frameworks/TrinketTrinker.json"
-  }
+   "FromFile": "Data/Frameworks/MMAP.json, Data/Frameworks/Rokugin.json, Data/Frameworks/SpaceCore.json, Data/Frameworks/Spiderbuttons.json"
+  } //, Data/Frameworks/TrinketTrinker.json
  ]
 }

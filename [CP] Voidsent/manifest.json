@@ -54,7 +54,7 @@
   },
   {
    "UniqueID": "KaileyStardew.Tilesheets",
-   "IsRequired": false
+   "IsRequired": true
   },
   {
    "UniqueID": "crystalinerose.Tilesheets",

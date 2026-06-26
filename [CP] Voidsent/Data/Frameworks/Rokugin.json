@@ -612,154 +612,154 @@
   },
   {
    "Action": "Include",
-   "FromFile": "Data/Templates/MessageTemplate.json",
+   "FromFile": "Data/Templates/EMATemplate.json",
    "LocalTokens": {
     "OBJECTNAME": "Bookshelf"
    }
   },
   {
    "Action": "Include",
-   "FromFile": "Data/Templates/MessageTemplate.json",
+   "FromFile": "Data/Templates/EMATemplate.json",
    "LocalTokens": {
     "OBJECTNAME": "FBookshelf"
    }
   },
   {
    "Action": "Include",
-   "FromFile": "Data/Templates/MessageTemplate.json",
+   "FromFile": "Data/Templates/EMATemplate.json",
    "LocalTokens": {
     "OBJECTNAME": "GMBookshelf"
    }
   },
   {
    "Action": "Include",
-   "FromFile": "Data/Templates/MessageTemplate.json",
+   "FromFile": "Data/Templates/EMATemplate.json",
    "LocalTokens": {
     "OBJECTNAME": "Desk"
    }
   },
   {
    "Action": "Include",
-   "FromFile": "Data/Templates/MessageTemplate.json",
+   "FromFile": "Data/Templates/EMATemplate.json",
    "LocalTokens": {
     "OBJECTNAME": "FDesk"
    }
   },
   {
    "Action": "Include",
-   "FromFile": "Data/Templates/MessageTemplate.json",
+   "FromFile": "Data/Templates/EMATemplate.json",
    "LocalTokens": {
     "OBJECTNAME": "FothaoRoom"
    }
   },
   {
    "Action": "Include",
-   "FromFile": "Data/Templates/MessageTemplate.json",
+   "FromFile": "Data/Templates/EMATemplate.json",
    "LocalTokens": {
     "OBJECTNAME": "Barrels"
    }
   },
   {
    "Action": "Include",
-   "FromFile": "Data/Templates/MessageTemplate.json",
+   "FromFile": "Data/Templates/EMATemplate.json",
    "LocalTokens": {
     "OBJECTNAME": "FBarrels"
    }
   },
   {
    "Action": "Include",
-   "FromFile": "Data/Templates/MessageTemplate.json",
+   "FromFile": "Data/Templates/EMATemplate.json",
    "LocalTokens": {
     "OBJECTNAME": "Kitchen"
    }
   },
   {
    "Action": "Include",
-   "FromFile": "Data/Templates/MessageTemplate.json",
+   "FromFile": "Data/Templates/EMATemplate.json",
    "LocalTokens": {
     "OBJECTNAME": "Dresser"
    }
   },
   {
    "Action": "Include",
-   "FromFile": "Data/Templates/MessageTemplate.json",
+   "FromFile": "Data/Templates/EMATemplate.json",
    "LocalTokens": {
     "OBJECTNAME": "Dining"
    }
   },
   {
    "Action": "Include",
-   "FromFile": "Data/Templates/MessageTemplate.json",
+   "FromFile": "Data/Templates/EMATemplate.json",
    "LocalTokens": {
     "OBJECTNAME": "Cabinet"
    }
   },
   {
    "Action": "Include",
-   "FromFile": "Data/Templates/MessageTemplate.json",
+   "FromFile": "Data/Templates/EMATemplate.json",
    "LocalTokens": {
     "OBJECTNAME": "TV"
    }
   },
   {
    "Action": "Include",
-   "FromFile": "Data/Templates/MessageTemplate.json",
+   "FromFile": "Data/Templates/EMATemplate.json",
    "LocalTokens": {
     "OBJECTNAME": "Clock"
    }
   },
   {
    "Action": "Include",
-   "FromFile": "Data/Templates/MessageTemplate.json",
+   "FromFile": "Data/Templates/EMATemplate.json",
    "LocalTokens": {
     "OBJECTNAME": "Coat"
    }
   },
   {
    "Action": "Include",
-   "FromFile": "Data/Templates/MessageTemplate.json",
+   "FromFile": "Data/Templates/EMATemplate.json",
    "LocalTokens": {
     "OBJECTNAME": "Misc"
    }
   },
   {
    "Action": "Include",
-   "FromFile": "Data/Templates/MessageTemplate.json",
+   "FromFile": "Data/Templates/EMATemplate.json",
    "LocalTokens": {
     "OBJECTNAME": "Donnlos"
    }
   },
   {
    "Action": "Include",
-   "FromFile": "Data/Templates/MessageTemplate.json",
+   "FromFile": "Data/Templates/EMATemplate.json",
    "LocalTokens": {
     "OBJECTNAME": "DonnlosStand"
    }
   },
   {
    "Action": "Include",
-   "FromFile": "Data/Templates/MessageTemplate.json",
+   "FromFile": "Data/Templates/EMATemplate.json",
    "LocalTokens": {
     "OBJECTNAME": "DonnlosCauldron"
    }
   },
   {
    "Action": "Include",
-   "FromFile": "Data/Templates/MessageTemplate.json",
+   "FromFile": "Data/Templates/EMATemplate.json",
    "LocalTokens": {
     "OBJECTNAME": "DonnlosPotions"
    }
   },
   {
    "Action": "Include",
-   "FromFile": "Data/Templates/MessageTemplate.json",
+   "FromFile": "Data/Templates/EMATemplate.json",
    "LocalTokens": {
     "OBJECTNAME": "DonnlosRations"
    }
   },
   {
    "Action": "Include",
-   "FromFile": "Data/Templates/MessageTemplate.json",
+   "FromFile": "Data/Templates/EMATemplate.json",
    "LocalTokens": {
     "OBJECTNAME": "Billboard"
    }

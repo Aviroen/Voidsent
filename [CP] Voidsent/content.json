@@ -259,9 +259,9 @@
   }
  ],
  "Changes": [
-  //{
-  // "Action": "Include",
-  // "FromFile": "Data/includes.json"
-  //}
+  {
+   "Action": "Include",
+   "FromFile": "Data/includes.json"
+  }
  ]
 }

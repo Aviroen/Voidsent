@@ -1,90 +1,102 @@
 {
  "Changes": [
   {
-   "LogName": "Rao",
+   "LogName": "Go ahead and fill in the blanks",
    "Action": "Include",
-   "FromFile": "Data/Templates/A_Template_NPCs.json",
+   "FromFile": "Data/Templates/NPCTemplate.json",
    "LocalTokens": {
-    "NPCNAME": "Rao",
-    "DISPLAYNAME": "Rao",
-    "GENDER": "Undefined",
-    "MANNER": "Polite", //polite, neutral, rude changes stringsfromcsfiles
-    "ANXIETY": "Outgoing", //outgoing, neutral, shy changes stringsfromcsfiles
-    "OPTIMISM": "Positive", //positive, neutral, negative changes stringsfromcsfiles
-    "DARKSKIN": "true",
-    "GIFTABLE": "true",
-    "HOMELOCATION": "{{ModId}}_GrandMinistry",
-    "HOMEXTILE": "34",
-    "HOMEYTILE": "30",
-    "HOMEFACING": "down", //left, right, up, down
+    "NPCTYPE": "Base", //Base/Cameos/Cats controls folder
+    //data/char
+    //Be sure to remove the <> when filling in the blanks
+    "NPCNAME": "<Blank>",
+    "GENDER": "<Blank>", //Male/Female/Undefined
+    "MANNER": "<Blank>", //polite, neutral, rude changes stringsfromcsfiles
+    "ANXIETY": "<Blank>", //outgoing, neutral, shy changes stringsfromcsfiles
+    "OPTIMISM": "<Blank>", //positive, neutral, negative changes stringsfromcsfiles
+    "DARKSKIN": "true", //true/false
+
+    "GIFTABLE": "true", //true/false
+
+    "HOMELOCATION": "{{ModId}}_Grandberg1", //leave as is and tell me what interior
+    "HOMEXTILE": "17",
+    "HOMEYTILE": "14",
+    "HOMEFACING": "2", //0, 1, 2, 3
+
     "MUGX": "0",
     "MUGY": "0",
-    "MUGWID": "16",
-    "MUGHEI": "24",
-    "WIDTH": "32",
-    "HEIGHT": "40",
-    "LOVEDGIFTS": "166",
-    "LIKEDGIFTS": "category_fish",
-    "DISLIKEDGIFTS": "category_bait category_ingredients category_monster_loot",
-    "HATEDGIFTS": "category_litter, category_junk",
-    "NEUTRALGIFTS": "category_building_resources",
-    "SLEEPANIMATION": "18/19 19 19 19 19 18 18 18 18 19 19 19 19 18 18 18 18 19 19 19 19/19",
-    "SPECIAL1": "wings",
-    "SPECIAL1ANIMATION": "16/16 16 17 17 17 18 18 18 17 17 18 18 19 19 18 18 17 17 18 18 19 19 18 18 17 17 16 16/16",
-    "SPECIAL2": "wag",
-    "SPECIAL2ANIMATION": "20/20 20 20 20 20 21 22 23 20 20 20 20 20 20/20",
-    "SPECIAL3": "work",
-    "SPECIAL3ANIMATION": "16/16 16 16 16 16 17 17 17 17 17/17//laying_down/offset 8 0",
-    "SPECIAL4": "angry",
-    "SPECIAL4ANIMATION": "20/20 20 20 20 20 21 22 23 20 20 20 20 20 20/20",
-    "ENDRANGE": "3",
-    "SPRINGSCHEDULE": "610 {{ModId}}_GrandMinistry 34 30 2",
-    "SUMMERSCHEDULE": "GOTO spring",
-    "FALLSCHEDULE": "GOTO spring",
-    "WINTERSCHEDULE": "GOTO spring",
-    //hammering
-    "MONDAYSCHEDULE": "GOTO spring",
-    //alchemy
-    "TUESDAYSCHEDULE": "GOTO spring",
-    //reading
-    "WEDNESDAYSCHEDULE": "GOTO spring",
-    //grave
-    "THURSAYSCHEDULE": "GOTO spring",
-    //hammer
-    "FRIDAYSCHEDULE": "GOTO spring",
-    "SATURDAYSCHEDULE": "GOTO spring",
-    "SUNDAYSCHEDULE": "GOTO spring",
+    "MUGWID": "",
+    "MUGHEI": "",
 
-    //HEART DIALOGUES
-    "2HEART": true, //true/false
-    "4HEART": true, //true/false
-    "6HEART": true, //true/false
-    "8HEART": true, //true/false
-    "10HEART": true, //true/false
+    "WIDTH": "",
+    "HEIGHT": "",
 
+    "BREATHX": "",
+    "BREATHY": "",
+    "BREATHWIDTH": "",
+    "BREATHHEIGHT": "",
+
+    "SHAKEPORTRAITS": "15",
+
+    //npc gifts
+
+    "LOVEDGIFTS": "<Blank> <Blank> <Blank>", //remember to use a space between each object
+    "LIKEDGIFTS": "<Blank> <Blank> <Blank>",
+    "DISLIKEDGIFTS": "<Blank> <Blank> <Blank>",
+    "HATEDGIFTS": "<Blank> <Blank> <Blank>",
+    "NEUTRALGIFTS": "<Blank> <Blank> <Blank>",
+
+    //schedule anims
+
+    "SLEEPANIMATION": "18/19 19 19 19 19 18 18 18 18 19 19 19 19 18 18 18 18 19 19 19 19/19", //"{{Lowercase:{{ModId}}_{{NPCNAME}}_sleep}}": "{{SLEEPANIMATION}}",
+    "SPECIAL1": "sleforward", //"{{ModId}}_{{NPCNAME}}_{{SPECIAL1}}": "{{SPECIAL1ANIMATION}}",
+    "SPECIAL1ANIMATION": "16/16 16 17 17 17 18 18 18 17 17 18 18 19 19 18 18 17 17 18 18 19 19 18 18 17 17 16 16/16", //special1's frames
+    "SPECIAL2": "wag", //"{{ModId}}_{{NPCNAME}}_{{SPECIAL2}}": "{{SPECIAL2ANIMATION}}",
+    "SPECIAL2ANIMATION": "20/20 20 20 20 20 21 22 23 20 20 20 20 20 20/20", //special2's frames
+    "SPECIAL3": "wag", //"{{ModId}}_{{NPCNAME}}_{{SPECIAL3}}": "{{SPECIAL3ANIMATION}}",
+    "SPECIAL3ANIMATION": "20/20 20 20 20 20 21 22 23 20 20 20 20 20 20/20", //special3's frames
+    "SPECIAL4": "wag", //"{{ModId}}_{{NPCNAME}}_{{SPECIAL4}}": "{{SPECIAL4ANIMATION}}",
+    "SPECIAL5ANIMATION": "20/20 20 20 20 20 21 22 23 20 20 20 20 20 20/20", //special4's frames
+
+    //schedule data
+    "SPRINGSCHEDULE": "600 {{Morabyr}} 65 65 2", //remember that it's military time / <Time> <Location> <x position> <y position> <facing>
+    "SUMMERSCHEDULE": "<Blank>",
+    "FALLSCHEDULE": "<Blank>",
+    "WINTERSCHEDULE": "<Blank>",
+
+    "MONDAYSCHEDULE": "<Blank>",
+    "TUESDAYSCHEDULE": "<Blank>",
+    "WEDNESDAYSCHEDULE": "<Blank>",
+    "THURSAYSCHEDULE": "<Blank>",
+    "FRIDAYSCHEDULE": "<Blank>",
+    "SATURDAYSCHEDULE": "<Blank>",
+    "SUNDAYSCHEDULE": "<Blank>",
+
+    //Custom Schedule Keys Conditions are GSQs if you want them to follow this schedule after a flag/something happens
+    "MONDAYCSKCONDITION": "<Blank>",
+    "TUESDAYCSKCONDITION": "<Blank>",
+    "WEDNESDAYCSKCONDITION": "<Blank>",
+    "THURSAYCSKCONDITION": "<Blank>",
+    "FRIDAYCSKCONDITION": "<Blank>",
+    "SATURDAYCSKCONDITION": "<Blank>",
+    "SUNDAYCSKCONDITION": "<Blank>",
+    //
+    "MONDAYCSKSCHEDULE": "<Blank>",
+    "TUESDAYCSKSCHEDULE": "<Blank>",
+    "WEDNESDAYCSKSCHEDULE": "<Blank>",
+    "THURSAYCSKSCHEDULE": "<Blank>",
+    "FRIDAYCSKSCHEDULE": "<Blank>",
+    "SATURDAYCSKSCHEDULE": "<Blank>",
+    "SUNDAYCSKSCHEDULE": "<Blank>",
+
+    //custom dialogue things
+    "HEARTDIALOGUE": true, //true/false whether you want 2/4/6/8/10 dialogues
+    "ENDRANGE": "3", //the end of the random: range:0 to {{ENDRANGE}}
     "SEPARATEDATABILITY": true, //true/false
     "BETASTOGGLED": true, //true/false
 
     "CUSTOMENDEARMENT": true, //whether or not you're fulfilling a string for custom endearments like (single), (partner), (enemy)
-    "REJECTPENDANT": true, //whether you want the npc to reject the pendant and instead want engagement through spacecore
-    "REJECTTEA": true
-    //"AFTERPARTY": ""
-   }
-  },
-  /////////////heart event triggers
-  {
-   "LogName": "Rao Hearts",
-   "Action": "Include",
-   "FromFile": "Data/Templates/SORTemplate.json",
-   "LocalTokens": {
-    "ORDERNAME": "Rao",
-    "NUMBER": "1",
-    "NPCNAME": "Rao",
-    "DURATION": "Month",
-    "REPEATABLE": "false",
-    "CONDITION": "", //gsq heart check + prior event check
-    "LOCATION": "Voidsent",
-    "ITEMTAG": ""
+    "REJECTPENDANT": true, //whether you want the npc to reject the pendant
+    "REJECTTEA": true //true/false
    }
   }
  ]
