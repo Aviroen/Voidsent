@@ -14,8 +14,10 @@
 		<MinimumApiVersion_Behavior>Update</MinimumApiVersion_Behavior>
 		<MinimumGameVersion_Behavior>UpdateFull</MinimumGameVersion_Behavior>
 		<Dependencies_VersionBehavior>UpdateFull</Dependencies_VersionBehavior>
-		<UpdateKeys>Nexus:26053</UpdateKeys>
+		<UpdateKeys>GitHub:Aviroen/Voidsent</UpdateKeys>
 		<Version>0.1.0</Version>
+		<Version Condition="'$(Configuration)'=='DEBUG'">$(Version)-Debug-$([System.DateTime]::Now.ToString(`yyyyMMdd`))</Version>
+		<Version_AppendConfiguration>false</Version_AppendConfiguration>
 		<ContentPacks_VersionBehavior>Set</ContentPacks_VersionBehavior>
 	</PropertyGroup>
 
